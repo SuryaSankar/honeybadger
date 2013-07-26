@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  qtext: MyText
+  qdesc: MyText
+
+two:
+  qtext: MyText
+  qdesc: MyText
