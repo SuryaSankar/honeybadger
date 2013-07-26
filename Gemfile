@@ -12,6 +12,7 @@ gem 'simple_form', '>= 3.0.0.rc'
 gem 'bcrypt-ruby', '~> 3.0.0', :require => 'bcrypt' 
 gem 'redcarpet'
 gem 'thin'
+gem "nested_form", :git => 'git://github.com/ryanb/nested_form.git'
  
 group :development do
   gem 'sqlite3'

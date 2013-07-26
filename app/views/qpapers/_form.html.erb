@@ -1,7 +1,29 @@
+<!--
 <%= simple_form_for @qpaper, :html => { :class => 'form-horizontal' } do |f| %>
   <%= f.input :year , collection: 1950..2030 %>
   <%= f.input :institution %>
   <%= f.association :course %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                qpapers_path, :class => 'btn' %>
+  </div>
+<% end %>
+-->
+
+<%= simple_nested_form_for @qpaper, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :year , collection: 1980..2020 %>
+  <%= f.input :institution %>
+  <%= f.association :course %>
+  <%= f.simple_fields_for :examquestions do |examquestion_form| %>
+    <%= examquestion_form.input :qnumber, label: "Question Number:"  %>
+    <%= examquestion_form.input :mark, label: "Mark:"  %>
+  <% end %>
+  <%= f.simple_fields_for :questions, @question do |question_form| %>
+    <%= question_form.input :qtext, label: "Question:"  %>
+    <%= question_form.input :qdesc, label: "Question Details:"  %>
+  <% end %>
+  <p><%= f.link_to_add "Add a question", :questions %></p>
   <div class="form-actions">
     <%= f.button :submit, :class => 'btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
