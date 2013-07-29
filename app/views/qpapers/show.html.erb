@@ -7,8 +7,8 @@
   <dt><strong>Course: </strong></dt>
   <dd><%= @qpaper.course.name%></dd>
   <% @qpaper.examquestions.order("qnumber").includes(:question).each do |eq| %>
-  <dt><strong><%= eq.qnumber %></strong></dt>
-  <dd><%= eq.question.qtext %></dd>
+	  <dt><strong><%= eq.qnumber %></strong></dt>
+	  <dd><%= eq.question.qtext %></dd>
   <% end %>
 </dl>
 
