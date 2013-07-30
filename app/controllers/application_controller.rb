@@ -23,7 +23,7 @@ class ApplicationController < ActionController::Base
   end
 
   def authorize
-	if session.nil?
+	unless signed_in?
 		flash[:error]="Unauthorized access"
 		redirect_to root_path
 		false
