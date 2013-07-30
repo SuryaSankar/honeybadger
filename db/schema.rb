@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130725185345) do
+ActiveRecord::Schema.define(version: 20130730133652) do
 
   create_table "cheatsheets", force: true do |t|
     t.text     "content"
@@ -47,6 +47,16 @@ ActiveRecord::Schema.define(version: 20130725185345) do
   create_table "questions", force: true do |t|
     t.text     "qtext"
     t.text     "qdesc"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "username"
+    t.string   "email"
+    t.string   "institution"
+    t.string   "department"
+    t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

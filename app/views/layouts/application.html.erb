@@ -48,10 +48,15 @@
           </a>
           <a class="brand" href="#">Honeybadger</a>
           <div class="container nav-collapse">
-            <ul class="nav">
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
+            <ul class="nav pull-right">
+<li class="divider-vertical"></li>
+              <li><%= link_to "Home", root_path  %></li>
+<li class="divider-vertical"></li>
+              <li><%= link_to "Question Bank", qpapers_path  %></li>
+<li class="divider-vertical"></li>
+	      <% if signed_in? %>
+              <li><%= button_to "Sign Out", session_path(session[:user_id]), {method: :delete , class: "btn"}  %></li>
+              <% end %>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
