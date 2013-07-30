@@ -1,0 +1,11 @@
+<%= simple_form_for @examquestion, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :question_id %>
+  <%= f.input :qpaper_id %>
+  <%= f.input :mark %>
+  <%= f.input :qnumber %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                examquestions_path, :class => 'btn' %>
+  </div>
+<% end %>

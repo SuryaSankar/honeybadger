@@ -1,4 +1,5 @@
 class Examquestion < ActiveRecord::Base
 	belongs_to :qpaper
-	belogs_to :question
+	belongs_to :question
+	accepts_nested_attributes_for :question
 end
