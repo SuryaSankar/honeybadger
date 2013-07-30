@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/ryanb/nested_form.git
+  revision: 42028bc06e72a848d297edc1467a969a7c9def57
+  specs:
+    nested_form (0.3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -51,7 +57,7 @@ GEM
       multi_json (~> 1.0)
     hike (1.2.3)
     i18n (0.6.4)
-    jbuilder (1.4.2)
+    jbuilder (1.5.0)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
     jquery-rails (3.0.4)
@@ -146,6 +152,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   less-rails
+  nested_form!
   pg
   quiet_assets
   rails (= 4.0.0)
