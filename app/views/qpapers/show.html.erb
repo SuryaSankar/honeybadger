@@ -1,16 +1,18 @@
 <%- model_class = Qpaper -%>
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:year) %>:</strong></dt>
-  <dd><%= @qpaper.year %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:institution) %>:</strong></dt>
-  <dd><%= @qpaper.institution %></dd>
-  <dt><strong>Course: </strong></dt>
-  <dd><%= @qpaper.course.name%></dd>
-  <% @qpaper.examquestions.order("qnumber").includes(:question).each do |eq| %>
-	  <dt><strong><%= eq.qnumber %></strong></dt>
-	  <dd><%= eq.question.qtext %></dd>
-  <% end %>
-</dl>
+
+<div class="row">
+	<div class="span4"> Year: <%= @qpaper.year %></div>
+	<div class="span4">Institution: <%= @qpaper.institution %></div>
+	<div class="span4">Course: <%= @qpaper.course.name %></div>
+</div>
+
+<% @qpaper.examquestions.order("qnumber").includes(:question).each do |eq| %>
+<div class="row">
+  <div class="span12"><%= eq.qnumber %> <%= eq.question.qtext %></div>
+</div>
+<% end %>
+
+
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
