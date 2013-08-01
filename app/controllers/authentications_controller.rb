@@ -1,4 +1,4 @@
-class AuthenticationsController < BaseController
+class AuthenticationsController < ActionController::Base
 	layout :nil
 
 	def new
