@@ -13,7 +13,11 @@ gem 'bcrypt-ruby', '~> 3.0.0', :require => 'bcrypt'
 gem 'redcarpet'
 gem 'thin'
 gem "nested_form", :git => 'git://github.com/ryanb/nested_form.git'
- 
+gem 'omniauth-identity'
+gem 'omniauth-facebook'
+gem "omniauth-google-oauth2"
+gem 'figaro'
+
 group :development do
   gem 'sqlite3'
   gem 'better_errors'

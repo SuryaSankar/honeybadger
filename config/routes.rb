@@ -1,4 +1,6 @@
 Honeybadger::Application.routes.draw do
+  get "authentications/new"
+  get "password_resets/new"
   root 'pages#home'
   get "pages/about"
   resources :qpapers
@@ -7,7 +9,12 @@ Honeybadger::Application.routes.draw do
   resources :examquestions
   resources :users
   resources :sessions
+  resources :password_resets
+  get '/auth/new' => 'authentications#new'
+  post '/auth/:provider/callback', to: 'sessions#create' #omniauth route
+  get '/signup', to: 'users#new'
   get "login" => "sessions#new", :as => "login"
+  get '/logout', to: 'sessions#destroy'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
