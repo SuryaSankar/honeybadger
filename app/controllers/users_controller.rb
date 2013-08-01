@@ -6,6 +6,7 @@ class UsersController < ApplicationController
 		@user = env['omniauth.identity'] ||= User.new
 	end
 	def create
+		puts "entering users#create"
 		@user=User.new(signup_params)
 		if @user.save  
 		      redirect_to root_url, :notice => "Signed up!"  

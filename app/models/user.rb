@@ -32,9 +32,18 @@ class User < OmniAuth::Identity::Models::ActiveRecord
   end 
 
   def self.create_with_omniauth(auth)
+	case auth['provider']
+	when 'facebook'
+		random_password=rand(36**10).to_s(36)
+		create(name: auth['info']['nickname'] , email: auth['info']['email'], password: random_password, password_confirmation: random_password  )
+	when 'identity'
+		puts auth['info']
+		create(name: auth['info']['name'])
+	else
+		create(name: auth['info']['name'])
+	end
     # you should handle here different providers data
     # eg. case auth['provider'] ..
-    create(name: auth['info']['name'])
     # IMPORTANT: when you're creating a user from a strategy that
     # is not identity, you need to set a password, otherwise it will fail
     # I use: user.password = rand(36**10).to_s(36)
