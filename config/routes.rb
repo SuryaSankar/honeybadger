@@ -14,7 +14,7 @@ Honeybadger::Application.routes.draw do
   post '/auth/:provider/callback', to: 'sessions#create' #omniauth route
   get '/signup', to: 'users#new'
   get "login" => "sessions#new", :as => "login"
-  get '/logout', to: 'sessions#destroy'
+  #get '/logout', to: 'sessions#destroy'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

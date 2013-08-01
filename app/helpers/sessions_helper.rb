@@ -29,4 +29,12 @@ module SessionsHelper
 	end
   end
 
+  def authorized_user?(user)
+	unless current_user == user
+		flash[:error]="Unauthorized access"
+		redirect_to root_path
+		false
+	end
+  end
+
 end

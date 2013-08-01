@@ -3,10 +3,14 @@
 	<div class="span4">Institution: <%= @qpaper.institution %></div>
 	<div class="span4">Course: <%= @qpaper.course.name %></div>
 </div>
-
+<% qn = 0 %>
 <% @qpaper.examquestions.order("qnumber").includes(:question).each do |eq| %>
 <div class="row">
+  <% if eq.qnumber == qn %>
+  <div class="row"><div class="span1 offset5">(Or)</div></div>
+  <% end %>
   <div class="span12"><%= eq.qnumber %> <%= eq.question.qtext %></div>
+  <% qn=eq.qnumber %>
 </div>
 <% end %>
 
@@ -15,6 +19,7 @@
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               qpapers_path, :class => 'btn'  %>
+<% if current_user == @qpaper.user %>
   <%= link_to t('.edit', :default => t("helpers.links.edit")),
               edit_qpaper_path(@qpaper), :class => 'btn' %>
   <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
@@ -22,4 +27,7 @@
               :method => 'delete',
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
+<% end %>
 </div>
+
+

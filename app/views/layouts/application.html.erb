@@ -55,7 +55,7 @@
               <li><%= link_to "Question Bank", qpapers_path  %></li>
 <li class="divider-vertical"></li>
 	      <% if signed_in? %>
-              <li><%= button_to "Sign Out", session_path(session[:user_id]), {method: :delete , class: "btn"}  %></li>
+              <li><%= button_to "Sign Out", session_path(@current_user.id), {method: :delete , class: "btn"}  %></li>
               <% end %>
             </ul>
           </div><!--/.nav-collapse -->

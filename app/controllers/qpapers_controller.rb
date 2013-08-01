@@ -28,7 +28,7 @@ class QpapersController < ApplicationController
   # POST /qpapers.json
   def create
     @qpaper = Qpaper.new(qpaper_params)
-    @qpaper.user_id = session[:user_id]
+    @qpaper.user_id = @current_user.id
     respond_to do |format|
       if @qpaper.save
         format.html { redirect_to @qpaper, notice: 'Qpaper was successfully created.' }
