@@ -37,7 +37,7 @@
 <!-- <%= javascript_include_tag :defaults, "nested_form" %> -->
   </head>
   <body>
-
+    <%= content_for?(:fb_conn_scripts) ? yield(:fb_conn_scripts) : "" %>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">

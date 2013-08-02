@@ -3,6 +3,7 @@ Honeybadger::Application.routes.draw do
   get "password_resets/new"
   root 'pages#home'
   get "pages/about"
+  get"pages/channel"
   resources :qpapers
   resources :questions
   resources :courses
