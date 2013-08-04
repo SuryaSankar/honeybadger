@@ -46,7 +46,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Honeybadger</a>
+          <a class="brand" href="#">Karpeer</a>
           <div class="container nav-collapse">
             <ul class="nav pull-right">
 <li class="divider-vertical"></li>
@@ -55,7 +55,7 @@
               <li><%= link_to "Question Bank", qpapers_path  %></li>
 <li class="divider-vertical"></li>
 	      <% if signed_in? %>
-              <li><%= button_to "Sign Out", session_path(@current_user.id), {method: :delete , class: "btn"}  %></li>
+              <li><%= button_to "Sign Out", session_path(@current_user.id), {method: :delete , class: "btn btn-danger"}  %></li>
               <% end %>
             </ul>
           </div><!--/.nav-collapse -->

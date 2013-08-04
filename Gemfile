@@ -14,7 +14,7 @@ gem 'redcarpet'
 gem 'thin'
 gem "nested_form", :git => 'git://github.com/ryanb/nested_form.git'
 gem 'omniauth-identity'
-gem 'omniauth-facebook'
+gem 'omniauth-facebook', '1.4.0'
 gem "omniauth-google-oauth2"
 gem 'figaro'
 

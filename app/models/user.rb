@@ -6,14 +6,13 @@ class User < OmniAuth::Identity::Models::ActiveRecord
 
   
   validates_presence_of :password, :on => :create
-  validates_presence_of :name
-  validates_uniqueness_of :name
+  validates :name, presence: true, uniqueness: true, allow_nil: true
 
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
-  validates :email, presence: true,
+  validates :email, 
             format: { with: email_regex },
-            uniqueness: { case_sensitive: false }
+            uniqueness: { case_sensitive: false }, allow_nil: true	
 
   before_create { generate_token(:auth_token) }  
     
@@ -32,15 +31,25 @@ class User < OmniAuth::Identity::Models::ActiveRecord
   end 
 
   def self.create_with_omniauth(auth)
-	case auth['provider']
-	when 'facebook'
-		random_password=rand(36**10).to_s(36)
-		create(name: auth['info']['nickname'] , email: auth['info']['email'], password: random_password, password_confirmation: random_password  )
-	when 'identity'
-		puts auth['info']
-		create(name: auth['info']['name'])
-	else
-		create(name: auth['info']['name'])
+	case auth.provider
+		when 'facebook'
+			puts auth
+			puts auth.info.email
+			puts auth.info.name
+			random_password=rand(36**10).to_s(36)
+			user=User.new(password: random_password, password_confirmation: random_password  )
+			user.name = auth.info.name if auth.info.name.present?
+			if auth['info'].has_key?('email')
+				puts "yes"
+				user.email = auth['info']['email']
+			end
+			user.save!
+			return user
+		when 'identity'
+			puts auth['info']
+			create(name: auth['info']['name'])
+		else
+			create(name: auth['info']['name'])
 	end
     # you should handle here different providers data
     # eg. case auth['provider'] ..

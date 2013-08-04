@@ -54,15 +54,21 @@ class SessionsController < ApplicationController
         # Our decision here is to create a new account for the user
         # But your app may do something different (eg. ask the user
         # if he already signed up with some other service)
-        if @authentication.provider == 'identity'
-          u = User.find(@authentication.uid)
-          # If the provider is identity, then it means we already created a user
-          # So we just load it up
-        else
-          # otherwise we have to create a user with the auth hash
-          u = User.create_with_omniauth(auth)
-          # NOTE: we will handle the different types of data we get back
-          # from providers at the model level in create_with_omniauth
+	case @authentication.provider
+		when 'identity'
+		  u = User.find(@authentication.uid)
+		  # If the provider is identity, then it means we already created a user
+		  # So we just load it up
+		when 'facebook'
+		  puts "entering facebook block"
+		  u = User.find_by email: auth.info.email 
+		  # otherwise we have to create a user with the auth hash
+		  u = User.create_with_omniauth(auth) if u.nil?
+		
+		  # NOTE: we will handle the different types of data we get back
+		  # from providers at the model level in create_with_omniauth
+		else
+			redirect_to root_path, notice: "Unknown Provider"	
         end
         # We can now link the authentication with the user and log him in
         u.authentications << @authentication

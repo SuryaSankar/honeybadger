@@ -1,6 +1,4 @@
-<% content_for :fb_conn_scripts do %>
-	<%= render partial: 'fbconnscripts' %>
-<% end %>
+
 <div class="row">
 	<div class="span10 offset1 allerta-headline">Some problems deserve to be solved.</div>
 </div>
@@ -10,6 +8,6 @@
 
 <div class="row">
 <div class="span9">
-<%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
+<a class="btn btn-primary" href="/auth/facebook" id="sign_in"> <i class="icon-facebook"></i>  Login via FB</a>
 </div>
 </div>

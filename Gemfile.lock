@@ -32,7 +32,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.0)
-    atomic (1.1.10)
+    atomic (1.1.12)
     bcrypt-ruby (3.0.1)
     better_errors (0.9.0)
       coderay (>= 1.0.0)
@@ -94,15 +94,15 @@ GEM
     omniauth (1.1.4)
       hashie (>= 1.2, < 3)
       rack
-    omniauth-facebook (1.4.1)
-      omniauth-oauth2 (~> 1.1.0)
+    omniauth-facebook (1.4.0)
+      omniauth-oauth2 (~> 1.0.2)
     omniauth-google-oauth2 (0.2.0)
       omniauth (~> 1.0)
       omniauth-oauth2
     omniauth-identity (1.1.1)
       bcrypt-ruby (~> 3.0)
       omniauth (~> 1.0)
-    omniauth-oauth2 (1.1.1)
+    omniauth-oauth2 (1.0.3)
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
     pg (0.16.0)
@@ -184,7 +184,7 @@ DEPENDENCIES
   jquery-rails
   less-rails
   nested_form!
-  omniauth-facebook
+  omniauth-facebook (= 1.4.0)
   omniauth-google-oauth2
   omniauth-identity
   pg
