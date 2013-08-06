@@ -16,8 +16,9 @@ class QpapersController < ApplicationController
   # GET /qpapers/new
   def new
     @qpaper = Qpaper.new
-    @examquestion=@qpaper.examquestions.build
-    @examquestion.build_question
+    @qpaper.examquestions.build.build_question
+    #@examquestion=@qpaper.examquestions.build
+    #@examquestion.build_question
   end
 
   # GET /qpapers/1/edit
@@ -28,6 +29,7 @@ class QpapersController < ApplicationController
   # POST /qpapers.json
   def create
     @qpaper = Qpaper.new(qpaper_params)
+    puts qpaper_params
     @qpaper.user_id = @current_user.id
     respond_to do |format|
       if @qpaper.save
@@ -72,7 +74,8 @@ class QpapersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def qpaper_params
-      params.require(:qpaper).permit(:year, :institution, :course_id, examquestions_attributes: [:mark, :qnumber, {question_attributes: [:qtext, :qdesc]}])
+      puts params
+      params.require(:qpaper).permit(:year, :institution, :course_id, examquestions_attributes: [:mark, :qnumber, :question_id,  {question_attributes: [:qtext, :qdesc]}])
     end
 
 end

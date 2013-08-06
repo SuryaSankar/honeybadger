@@ -7,7 +7,55 @@
 </div>
 
 <div class="row">
-<div class="span9">
-<a class="btn btn-primary" href="/auth/facebook" id="sign_in"> <i class="icon-facebook"></i>  Login via FB</a>
+<div class="span4">
+<button class="btn btn-primary" href="/auth/facebook" id="sign_in"> <i class="icon-facebook"></i>  Login via FB</button>
 </div>
 </div>
+<div class="row">
+<div class="span2 offset1">
+<button type="button" data-toggle="modal" data-target="#signin_modal"> Sign In</button>
+</div>
+<div class="span2">
+<button type="button" data-toggle="modal" data-target="#signup_modal"> Sign up</button>
+</div>
+</div>
+
+<!-- Begin Sign Up Modal -->
+<div id="signup_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="signup_modal_label" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="signup_modal_label">Sign Up</h3>
+  </div>
+  <div class="modal-body">
+	<%= simple_form_for User.new, :html => { :class => 'form-horizontal' }, url: '/auth/identity/register' do |f| %>
+  		<%# specify :input_html to avoid params nesting %>
+		<%= f.input :name, :input_html => {:name => 'name'}  %>
+		<%= f.input :email, :input_html => {:name => 'email'} %>
+		<%= f.input :password, :as => 'password', :input_html => {:name => 'password'} %>
+		<%= f.input :password_confirmation, :label => "Confirm Password", :as => 'password', :input_html => {:name => 'password_confirmation'} %>
+		<div class="form-actions modal-footer">
+			<%= f.button :submit, :class => 'btn-primary' %>
+			<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Cancel</button>
+	  	</div>
+	<% end %>
+  </div>
+</div> 
+<!-- End Sign Up Modal -->
+<!-- Begin Sign In Modal -->
+<div id="signin_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="signin_modal_label" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="signin_modal_label">Sign In</h3>
+  </div>
+  <div class="modal-body">
+	<%= bootstrap_flash %> 
+	<%= form_tag "/auth/identity/callback" do %>  
+		<div class="field"><%= label_tag :auth_key, "Email" %>  <%= text_field_tag :auth_key %>  </div> 
+		<div class="field"><%= label_tag :password %>  <%= password_field_tag :password %>  </div>  
+		<p><%= link_to "forgotten password", new_password_reset_path %></p>
+		<p><%= label_tag :remember_me %><%= check_box_tag :remember_me, 1, params[:remember_me] %>  </p> 	
+		<p><button class="btn btn-primary"><%= submit_tag "Log In"%></button></p>  
+	<% end %>
+  </div>
+</div> 
+<!-- End Sign In Modal -->

@@ -83,7 +83,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.23)
     minitest (4.7.5)
-    multi_json (1.7.7)
+    multi_json (1.7.8)
     multipart-post (1.2.0)
     oauth2 (0.8.1)
       faraday (~> 0.8)
@@ -179,6 +179,7 @@ DEPENDENCIES
   bcrypt-ruby (~> 3.0.0)
   better_errors
   binding_of_caller
+  coffee-rails (~> 4.0.0)
   figaro
   jbuilder (~> 1.2)
   jquery-rails

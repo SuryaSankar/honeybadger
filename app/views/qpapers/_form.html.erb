@@ -1,29 +1,22 @@
-<!--
-<%= simple_form_for @qpaper, :html => { :class => 'form-horizontal' } do |f| %>
-  <%= f.input :year , collection: 1950..2030 %>
-  <%= f.input :institution %>
-  <%= f.association :course %>
-  <div class="form-actions">
-    <%= f.button :submit, :class => 'btn-primary' %>
-    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                qpapers_path, :class => 'btn' %>
-  </div>
-<% end %>
--->
-
 <%= simple_nested_form_for @qpaper, :html => { :class => 'form-horizontal' } do |f| %>
+<div class="well">
   <%= f.input :year , collection: 1980..2020 %>
   <%= f.input :institution %>
   <%= f.association :course %>
+</div>
   <%= f.simple_fields_for :examquestions do |examquestion_form| %>
+    <div class="well">
     <%= examquestion_form.input :qnumber, label: "Question Number:"  %>
     <%= examquestion_form.input :mark, label: "Mark:"  %>
+	   <%= examquestion_form.association :question , label_method: :qtext %>
+		<div class="row"><div class="span1 offset3">OR</div></div>
 	   <%= examquestion_form.simple_fields_for :question do |question_form| %>
 	    <%= question_form.input :qtext, label: "Question:"  %>
 	    <%= question_form.input :qdesc, label: "Question Details:"  %>
-	  <% end %>    
+	  <% end %>   
+    </div> 
   <% end %>
-  <p><%= f.link_to_add( :examquestions, model_object: @examquestion ) do%>
+  <p><%= f.link_to_add( :examquestions, model_object: build_examquestion(@qpaper) ) do%>
    Add Question
    <% end %></p>
   <div class="form-actions">
