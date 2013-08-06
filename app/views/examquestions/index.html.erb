@@ -18,7 +18,7 @@
     <% @examquestions.each do |examquestion| %>
       <tr>
         <td><%= link_to examquestion.id, examquestion_path(examquestion) %></td>
-        <td><%= examquestion.question_id %></td>
+        <td><%= examquestion.question.qtext %></td>
         <td><%= examquestion.qpaper_id %></td>
         <td><%= examquestion.mark %></td>
         <td><%= examquestion.qnumber %></td>
