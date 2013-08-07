@@ -45,6 +45,7 @@ class User < OmniAuth::Identity::Models::ActiveRecord
 			end
 			user.save!
 			return user
+
 		when 'identity'
 			puts auth['info']
 			create(name: auth['info']['name'])
