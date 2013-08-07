@@ -45,6 +45,19 @@ class User < OmniAuth::Identity::Models::ActiveRecord
 			end
 			user.save!
 			return user
+		when 'google_oauth2'
+			puts auth
+			puts auth.info.email
+			puts auth.info.name
+			random_password=rand(36**10).to_s(36)
+			user=User.new(password: random_password, password_confirmation: random_password  )
+			user.name = auth.info.name if auth.info.name.present?
+			if auth['info'].has_key?('email')
+				puts "yes"
+				user.email = auth['info']['email']
+			end
+			user.save!
+			return user
 		when 'identity'
 			puts auth['info']
 			create(name: auth['info']['name'])

@@ -56,11 +56,20 @@ class SessionsController < ApplicationController
         # if he already signed up with some other service)
 	case @authentication.provider
 		when 'identity'
+		  puts auth 
 		  u = User.find(@authentication.uid)
 		  # If the provider is identity, then it means we already created a user
 		  # So we just load it up
 		when 'facebook'
 		  puts "entering facebook block"
+		  u = User.find_by email: auth.info.email 
+		  # otherwise we have to create a user with the auth hash
+		  u = User.create_with_omniauth(auth) if u.nil?
+		
+		  # NOTE: we will handle the different types of data we get back
+		  # from providers at the model level in create_with_omniauth
+		when 'google_oauth2'
+		  puts "entering oauth2 block"
 		  u = User.find_by email: auth.info.email 
 		  # otherwise we have to create a user with the auth hash
 		  u = User.create_with_omniauth(auth) if u.nil?

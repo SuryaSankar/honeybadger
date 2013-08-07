@@ -22,7 +22,7 @@ window.fbAsyncInit = function() {
       if (response.authResponse) {
         return window.location = '/auth/facebook/callback';
       }
-    });
+    }, {scope: 'email'});
   });
   $('#sign_out').click(function(e) {
     FB.getLoginStatus(function(response) {
