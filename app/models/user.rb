@@ -6,7 +6,7 @@ class User < OmniAuth::Identity::Models::ActiveRecord
 
   
   validates_presence_of :password, :on => :create
-  validates :name, presence: true, uniqueness: true, allow_nil: true
+  validates :name, presence: true, allow_nil: true
 
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
