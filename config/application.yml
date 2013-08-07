@@ -16,7 +16,7 @@ FACEBOOK_SECRET: "0d69121f318c575346431e9368fec75b" #Dev
 #OAUTH_CLIENT_ID: "138742328431.apps.googleusercontent.com" #Prod
 #OAUTH_CLIENT_SECRET: "KPYl3QD4K1-efOriy2B1iRyB" #Prod
 
-OAUTH_CLIENT_ID: "138742328431-0emve0sm30ek6ob7k14jrqpkif1t4o5m.apps.googleusercontent.com" #Dev
-OAUTH_CLIENT_SECRET: "nJYbCSRrkByzvVoaAkf9QM_u" #Dev
+OAUTH_CLIENT_ID: "571042057348.apps.googleusercontent.com" #Dev
+OAUTH_CLIENT_SECRET: "-ArZviouFXapIbzs7knC-NwM" #Dev
 #APPLICATION_CONFIG_SECRET_TOKEN: "c2rbcuXOPNCJ48C2aC"
 
