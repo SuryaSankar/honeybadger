@@ -1,5 +1,5 @@
 Honeybadger::Application.routes.draw do
-  #get "authentications/new"
+  get "authentications/new"
   get "password_resets/new"
   root 'pages#home'
   get "pages/about"
@@ -11,7 +11,7 @@ Honeybadger::Application.routes.draw do
   resources :users
   resources :sessions
   resources :password_resets
-  #get '/auth/new' => 'authentications#new'
+  get '/auth/new' => 'authentications#new'
   get '/auth/facebook/callback', to: 'sessions#create'
   get '/auth/google_oauth2/callback', to: 'sessions#create'
   post '/auth/:provider/callback', to: 'sessions#create' #omniauth route
