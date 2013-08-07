@@ -8,7 +8,10 @@
 
 <div class="row">
 <div class="span4">
-<button class="btn btn-primary" href="/auth/facebook" id="sign_in"> <i class="icon-facebook"></i>  Login via FB</button>
+<a class="btn btn-primary" href="/auth/facebook" id="sign_in"> <i class="icon-facebook"></i>  Login via FB</a>
+</div>
+<div class="span4">
+<a class="btn btn-primary" href="/auth/google_oauth2" id="google_signin"> <i class="icon-google-plus"></i>  Login via Google</a>
 </div>
 </div>
 <div class="row">
@@ -20,6 +23,7 @@
 </div>
 </div>
 
+<% signup_url="" %>
 <!-- Begin Sign Up Modal -->
 <div id="signup_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="signup_modal_label" aria-hidden="true">
   <div class="modal-header">
@@ -27,12 +31,12 @@
     <h3 id="signup_modal_label">Sign Up</h3>
   </div>
   <div class="modal-body">
-	<%= simple_form_for User.new, :html => { :class => 'form-horizontal' }, url: '/auth/identity/register' do |f| %>
+	<%= simple_form_for User.new, :html => { :class => 'form-horizontal' }, url: users_path do |f| %>
   		<%# specify :input_html to avoid params nesting %>
-		<%= f.input :name, :input_html => {:name => 'name'}  %>
-		<%= f.input :email, :input_html => {:name => 'email'} %>
-		<%= f.input :password, :as => 'password', :input_html => {:name => 'password'} %>
-		<%= f.input :password_confirmation, :label => "Confirm Password", :as => 'password', :input_html => {:name => 'password_confirmation'} %>
+		<%= f.input :name  %>
+		<%= f.input :email %>
+		<%= f.input :password %>
+		<%= f.input :password_confirmation, :label => "Confirm Password" %>
 		<div class="form-actions modal-footer">
 			<%= f.button :submit, :class => 'btn-primary' %>
 			<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Cancel</button>
