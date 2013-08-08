@@ -32,7 +32,6 @@
   </div>
   <div class="modal-body">
 	<%= simple_form_for User.new, :html => { :class => 'form-horizontal' }, url: users_path do |f| %>
-  		<%# specify :input_html to avoid params nesting %>
 		<%= f.input :name  %>
 		<%= f.input :email %>
 		<%= f.input :password %>
