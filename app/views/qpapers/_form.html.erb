@@ -16,7 +16,7 @@
 		  <% end %>   
     </div> 
   <% end %>
-  <p><%= f.link_to_add( :examquestions, model_object: build_examquestion(Qpaper.new) ) do%>
+  <p><%= f.link_to_add( :examquestions, model_object: lambda { eq=Examquestion.new; eq.question=Question.new; return eq; }, class: "btn btn-primary" ) do%>
    Add Question
    <% end %></p>
   <div class="form-actions">

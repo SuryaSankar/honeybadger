@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130807111029) do
+ActiveRecord::Schema.define(version: 20130810164908) do
 
   create_table "authentications", force: true do |t|
     t.integer  "user_id"
@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 20130807111029) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "authentications", ["user_id"], name: "index_authentications_on_user_id"
 
   create_table "cheatsheets", force: true do |t|
     t.text     "content"
@@ -45,6 +47,8 @@ ActiveRecord::Schema.define(version: 20130807111029) do
     t.integer  "user_id"
   end
 
+  add_index "examquestions", ["qpaper_id"], name: "index_examquestions_on_qpaper_id"
+  add_index "examquestions", ["question_id"], name: "index_examquestions_on_question_id"
   add_index "examquestions", ["user_id"], name: "index_examquestions_on_user_id"
 
   create_table "qpapers", force: true do |t|
@@ -56,6 +60,7 @@ ActiveRecord::Schema.define(version: 20130807111029) do
     t.integer  "user_id"
   end
 
+  add_index "qpapers", ["course_id"], name: "index_qpapers_on_course_id"
   add_index "qpapers", ["user_id"], name: "index_qpapers_on_user_id"
 
   create_table "questions", force: true do |t|
@@ -67,6 +72,19 @@ ActiveRecord::Schema.define(version: 20130807111029) do
   end
 
   add_index "questions", ["user_id"], name: "index_questions_on_user_id"
+
+  create_table "solutions", force: true do |t|
+    t.text     "answer"
+    t.integer  "votes"
+    t.boolean  "correct"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+    t.integer  "question_id"
+  end
+
+  add_index "solutions", ["question_id"], name: "index_solutions_on_question_id"
+  add_index "solutions", ["user_id"], name: "index_solutions_on_user_id"
 
   create_table "users", force: true do |t|
     t.string   "name"
