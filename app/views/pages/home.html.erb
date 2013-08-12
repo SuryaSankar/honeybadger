@@ -1,12 +1,16 @@
 	
 	<div class="row">
-				<div class="row whiteOnGreen">
-					<div class="span2 pull-right">Date: 
-					<%= Time.now.strftime("%d/%m/%y") %>
-					<p>No. on roll: <%= User.count %></p>
+				<!--
+				<div id="bannerTopRow" class="row whiteOnGreen">
+					<div class="span2 pull-right">
+					<table class="table table-bordered">
+					<tr><td>Date:</td><td><%= Time.now.strftime("%d/%m/%y") %></td></tr>
+					<tr><td>No. on roll:</td><td><%= User.count %></td></tr>
+					</table>
 					</div>
 				</div>
-			
+				-->
+				
 			
 			<div class="hero-unit" id="banner">
 				<div class="row">
@@ -28,20 +32,20 @@
 	</div>
 	
 	<div class="row" id="launchBox">
-		<div class="span9">
+		<div class="span10">
 		</div>
-		<div class="span2 offset1">
+		<div class="span1 offset1">
 			<div class="row">
 				Enrol via
 			</div>
 			<div class="row topPadding20">
-				<a class="btn btn-primary" href="/auth/facebook" id="sign_in"> <i class="icon-facebook"></i> Facebook </a>
+				<a class="btn btn-primary btn-block" href="/auth/facebook" id="sign_in"> <i class="icon-facebook"></i> Facebook </a>
 			</div>
 			<div class="row topPadding20">
-				<a class="btn btn-danger" href="/auth/google_oauth2" id="google_signin"> <i class="icon-google-plus"></i>  Google</a>
+				<a class="btn btn-danger btn-block" href="/auth/google_oauth2" id="google_signin"> <i class="icon-google-plus"></i>  Google</a>
 			</div>
 			<div class="row topPadding20">
-				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#signup_modal"> <i class="icon-envelope"></i> Your email</button>
+				<button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#signup_modal"> <i class="icon-envelope"></i> Your email</button>
 			</div>
 		</div>
 	</div>
