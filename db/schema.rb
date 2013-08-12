@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130810164908) do
+ActiveRecord::Schema.define(version: 20130812094745) do
 
   create_table "authentications", force: true do |t|
     t.integer  "user_id"
@@ -22,6 +22,13 @@ ActiveRecord::Schema.define(version: 20130810164908) do
   end
 
   add_index "authentications", ["user_id"], name: "index_authentications_on_user_id"
+
+  create_table "branches", force: true do |t|
+    t.string   "name"
+    t.string   "stream"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "cheatsheets", force: true do |t|
     t.text     "content"
@@ -35,6 +42,14 @@ ActiveRecord::Schema.define(version: 20130810164908) do
     t.string   "department"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "program_id"
+  end
+
+  add_index "courses", ["program_id"], name: "index_courses_on_program_id"
+
+  create_table "departments", force: true do |t|
+    t.integer "institution_id"
+    t.integer "branch_id"
   end
 
   create_table "examquestions", force: true do |t|
@@ -50,6 +65,26 @@ ActiveRecord::Schema.define(version: 20130810164908) do
   add_index "examquestions", ["qpaper_id"], name: "index_examquestions_on_qpaper_id"
   add_index "examquestions", ["question_id"], name: "index_examquestions_on_question_id"
   add_index "examquestions", ["user_id"], name: "index_examquestions_on_user_id"
+
+  create_table "institutions", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "university_id"
+  end
+
+  add_index "institutions", ["university_id"], name: "index_institutions_on_university_id"
+
+  create_table "programs", force: true do |t|
+    t.string   "degree_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "university_id"
+    t.integer  "branch_id"
+  end
+
+  add_index "programs", ["branch_id"], name: "index_programs_on_branch_id"
+  add_index "programs", ["university_id"], name: "index_programs_on_university_id"
 
   create_table "qpapers", force: true do |t|
     t.integer  "year"
@@ -85,6 +120,12 @@ ActiveRecord::Schema.define(version: 20130810164908) do
 
   add_index "solutions", ["question_id"], name: "index_solutions_on_question_id"
   add_index "solutions", ["user_id"], name: "index_solutions_on_user_id"
+
+  create_table "universities", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "name"
