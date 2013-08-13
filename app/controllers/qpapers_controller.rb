@@ -1,7 +1,7 @@
 class QpapersController < ApplicationController
   before_action :set_qpaper, only: [:show, :edit, :update, :destroy]
   before_action :authorize, except: [:index, :show]
-
+  before_filter :admin_user, only: [:new, :edit, :create, :update, :destroy]
   # GET /qpapers
   # GET /qpapers.json
   def index

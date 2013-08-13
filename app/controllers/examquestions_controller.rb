@@ -1,6 +1,6 @@
 class ExamquestionsController < ApplicationController
   before_action :set_examquestion, only: [:show, :edit, :update, :destroy]
-
+  before_filter :admin_user, only: [:new, :edit, :create, :update, :destroy]
   # GET /examquestions
   # GET /examquestions.json
   def index
