@@ -63,10 +63,13 @@ ActiveRecord::Schema.define(version: 20130813083918) do
     t.integer  "qnumber"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   add_index "examquestions", ["qpaper_id"], name: "index_examquestions_on_qpaper_id"
   add_index "examquestions", ["question_id"], name: "index_examquestions_on_question_id"
+  add_index "examquestions", ["user_id"], name: "index_examquestions_on_user_id"
+
   create_table "institutions", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
