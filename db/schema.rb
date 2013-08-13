@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130813083918) do
+ActiveRecord::Schema.define(version: 20130813141329) do
 
   create_table "authentications", force: true do |t|
     t.integer  "user_id"
@@ -34,7 +34,12 @@ ActiveRecord::Schema.define(version: 20130813083918) do
     t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "course_id"
+    t.integer  "unit_id"
   end
+
+  add_index "cheatsheets", ["course_id"], name: "index_cheatsheets_on_course_id"
+  add_index "cheatsheets", ["unit_id"], name: "index_cheatsheets_on_unit_id"
 
   create_table "courses", force: true do |t|
     t.string   "name"
@@ -162,11 +167,13 @@ ActiveRecord::Schema.define(version: 20130813083918) do
     t.string   "auth_token"
     t.string   "password_reset_token"
     t.datetime "password_reset_sent_at"
-    t.boolean  "is_admin"
+    t.boolean  "is_admin",               default: false
     t.integer  "university_id"
     t.integer  "program_id"
+    t.integer  "institution_id"
   end
 
+  add_index "users", ["institution_id"], name: "index_users_on_institution_id"
   add_index "users", ["program_id"], name: "index_users_on_program_id"
   add_index "users", ["university_id"], name: "index_users_on_university_id"
 
