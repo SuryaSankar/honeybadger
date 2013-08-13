@@ -1,10 +1,17 @@
 class UsersController < ApplicationController
+	before_action :set_user, only: [:show, :edit, :update, :destroy]
 	before_filter :signed_in_user, only: [:edit, :update]
 	before_filter :correct_user, only: [:edit, :update]
-        before_filter :admin_user, only: [:new, :edit, :create, :update, :destroy]
+        before_filter :admin_user, only: [:index, :new, :edit, :create, :update, :destroy]
+	def index
+    		@users = User.all
+  	end
 	def new
 		@user = env['omniauth.identity'] ||= User.new
 	end
+        
+	def show
+        end
 
 	def create
 		@user=User.find_by email: signup_params[:email]
@@ -18,7 +25,30 @@ class UsersController < ApplicationController
 		      render "new" 	
 		end	
 	end
+  def edit
+  end
+def update
+    respond_to do |format|
+      puts user_params
+      if @user.update(user_params)
+        format.html { redirect_to @user, notice: 'user was successfully updated.' }
+        format.json { head :no_content }
+      else
+        format.html { render action: 'edit' }
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
+  end
 
+  # DELETE /users/1
+  # DELETE /users/1.json
+  def destroy
+    @user.destroy
+    respond_to do |format|
+      format.html { redirect_to users_url }
+      format.json { head :no_content }
+    end
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
@@ -35,7 +65,7 @@ class UsersController < ApplicationController
     end
 
     def correct_user
-      @user = User.find(params[:id])
-      redirect_to(root_url) unless current_user?(@user)
+     @user = User.find(params[:id])
+      redirect_to(root_url) unless authorized_user?(@user)
     end
 end
