@@ -1,8 +1,9 @@
 <%= simple_nested_form_for @qpaper, :html => { :class => 'form-horizontal' } do |f| %>
 	<div class="well">
 	  <%= f.input :year , collection: 1980..2020 %>
-	  <%= f.input :institution %>
+	  <%= f.input :title %>
 	  <%= f.association :course %>
+	  <%= f.input :official %>
 	</div>
 	<%= f.simple_fields_for :examquestions, @qpaper.examquestions  do |eq| %>
 		<div class="well">
@@ -23,7 +24,7 @@
 			<% end %>
     		</div> 
 	<% end %> 
-	<p><%= f.link_to_add( :examquestions, model_object: build_examquestion(@qpaper) ) do%>
+	<p><%= f.link_to_add( :examquestions, model_object: lambda { eq=Examquestion.new; eq.question=Question.new; return eq; }, , class: "btn btn-primary" ) do%>
 		Add Question
 	<% end %></p>
 	<div class="form-actions">

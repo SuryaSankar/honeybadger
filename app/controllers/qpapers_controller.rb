@@ -79,7 +79,7 @@ class QpapersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def qpaper_params
-      params.require(:qpaper).permit(:year, :institution, :course_id, examquestions_attributes: [:mark, :qnumber, :id, :question_id,  {question_attributes: [:qtext, :qdesc, :id]}])
+      params.require(:qpaper).permit(:year, :title, :official, :course_id, examquestions_attributes: [:mark, :qnumber, :id, :question_id,  {question_attributes: [:qtext, :qdesc, :id]}])
     end
 
 end
