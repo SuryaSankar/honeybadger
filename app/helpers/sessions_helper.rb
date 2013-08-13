@@ -21,6 +21,10 @@ module SessionsHelper
     @current_user ||= User.find_by_auth_token(cookies[:auth_token]) if cookies[:auth_token]  
   end
 
+  def admin?
+    current_user.is_admin
+  end
+  
   def authorize
 	unless signed_in?
 		flash[:error]="Unauthorized access"
