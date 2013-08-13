@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130813133653) do
+ActiveRecord::Schema.define(version: 20130813141329) do
 
   create_table "authentications", force: true do |t|
     t.integer  "user_id"
@@ -167,7 +167,7 @@ ActiveRecord::Schema.define(version: 20130813133653) do
     t.string   "auth_token"
     t.string   "password_reset_token"
     t.datetime "password_reset_sent_at"
-    t.boolean  "is_admin"
+    t.boolean  "is_admin",               default: false
     t.integer  "university_id"
     t.integer  "program_id"
     t.integer  "institution_id"
