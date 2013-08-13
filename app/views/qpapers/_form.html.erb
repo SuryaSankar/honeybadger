@@ -1,22 +1,23 @@
 <%= simple_nested_form_for @qpaper, :html => { :class => 'form-horizontal' } do |f| %>
 <div class="well">
   <%= f.input :year , collection: 1980..2020 %>
-  <%= f.input :institution %>
+  <%= f.input :title %>
   <%= f.association :course %>
+  <%= f.input :official %>
 </div>
   <%= f.simple_fields_for :examquestions do |examquestion_form| %>
     <div class="well">
-    <%= examquestion_form.input :qnumber, label: "Question Number:"  %>
-    <%= examquestion_form.input :mark, label: "Mark:"  %>
-	   <%= examquestion_form.association :question , label_method: :qtext %>
-		<div class="row"><div class="span1 offset3">OR</div></div>
-	   <%= examquestion_form.simple_fields_for :question do |question_form| %>
-	    <%= question_form.input :qtext, label: "Question:"  %>
-	    <%= question_form.input :qdesc, label: "Question Details:"  %>
-	  <% end %>   
+	    <%= examquestion_form.input :qnumber, label: "Question Number:"  %>
+	    <%= examquestion_form.input :mark, label: "Mark:"  %>
+		   <%= examquestion_form.association :question , label_method: :qtext %>
+			<div class="row"><div class="span1 offset3">OR</div></div>
+		   <%= examquestion_form.simple_fields_for :question do |question_form| %>
+		    <%= question_form.input :qtext, label: "Question:"  %>
+		    <%= question_form.input :qdesc, label: "Question Details:"  %>
+		  <% end %>   
     </div> 
   <% end %>
-  <p><%= f.link_to_add( :examquestions, model_object: build_examquestion(@qpaper) ) do%>
+  <p><%= f.link_to_add( :examquestions, model_object: lambda { eq=Examquestion.new; eq.question=Question.new; return eq; }, class: "btn btn-primary" ) do%>
    Add Question
    <% end %></p>
   <div class="form-actions">

@@ -1,47 +1,91 @@
+	
+	<div class="row">
+				<!--
+				<div id="bannerTopRow" class="row whiteOnGreen">
+					<div class="span2 pull-right">
+					<table class="table table-bordered">
+					<tr><td>Date:</td><td><%= Time.now.strftime("%d/%m/%y") %></td></tr>
+					<tr><td>No. on roll:</td><td><%= User.count %></td></tr>
+					</table>
+					</div>
+				</div>
+				-->
+				
+			
+			<div class="hero-unit" id="banner">
+				<div class="row">
+					<div class="span5">
+					<h1>Karpeer<small>  / kəˈrpēr /</small></h1> <h4> <em>Origin:</em> A Tamil verb </h4><h4> <em>Meaning:</em> <strong>An exhortation to learn </strong> </h4>
+					</div>
+					<div class="span2">
+					<ul class="icons-ul">
+					<li><i class="icon-check"></i> Question Papers</li>
+					<li><i class="icon-check"></i> Cheat Sheets</li>
+					<li><i class="icon-check-empty"></i> Solutions</li>
+					<li><i class="icon-check-empty"></i> Video lectures</li>
+					<li><i class="icon-check-empty"></i> Tutors</li>
+					</ul>
+					</div>
+				</div>
+			</div>
+	<div class="navbar" id="lowerBar"><div class="navbar-inner"  ></div></div>
+	</div>
+	
+	<div class="row" id="launchBox">
+		<div class="span10">
+		</div>
+		<div class="span1 offset1">
+			<div class="row">
+				Enrol via
+			</div>
+			<div class="row topPadding20">
+				<a class="btn btn-primary btn-block" href="/auth/facebook" id="sign_in"> <i class="icon-facebook"></i> Facebook </a>
+			</div>
+			<div class="row topPadding20">
+				<a class="btn btn-danger btn-block" href="/auth/google_oauth2" id="google_signin"> <i class="icon-google-plus"></i>  Google</a>
+			</div>
+			<div class="row topPadding20">
+				<button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#signup_modal"> <i class="icon-envelope"></i> Your email</button>
+			</div>
+		</div>
+	</div>
 
-<div class="row">
-	<div class="span10 offset1 allerta-headline">Some problems deserve to be solved.</div>
-</div>
-<div class="row">
-	<div class="span9 offset2 allerta-font font20" id="mission"><p>If they need to be solved, and if they can be solved, we'll try to solve them.</p> <p>Right now, we are working on an elegant solution to a very pressing problem.</p> <p>We can't wait to show it to you. Give us just a few more days.</p> </div>
-</div>
-
-<div class="row">
-<div class="span4">
-<a class="btn btn-primary" href="/auth/facebook" id="sign_in"> <i class="icon-facebook"></i>  Login via FB</a>
-</div>
-<div class="span4">
-<a class="btn btn-primary" href="/auth/google_oauth2" id="google_signin"> <i class="icon-google-plus"></i>  Login via Google</a>
-</div>
-</div>
-<div class="row">
-<div class="span2 offset1">
-<button type="button" data-toggle="modal" data-target="#signin_modal"> Sign In</button>
-</div>
-<div class="span2">
-<button type="button" data-toggle="modal" data-target="#signup_modal"> Sign up</button>
-</div>
-</div>
+ <!-- End container -->
 
 <% signup_url="" %>
 <!-- Begin Sign Up Modal -->
 <div id="signup_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="signup_modal_label" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="signup_modal_label">Sign Up</h3>
+    <h3 id="signup_modal_label">Sign in if you've already registered</h3>
   </div>
   <div class="modal-body">
-	<%= simple_form_for User.new, :html => { :class => 'form-horizontal' }, url: users_path do |f| %>
-  		<%# specify :input_html to avoid params nesting %>
-		<%= f.input :name  %>
-		<%= f.input :email %>
-		<%= f.input :password %>
-		<%= f.input :password_confirmation, :label => "Confirm Password" %>
-		<div class="form-actions modal-footer">
-			<%= f.button :submit, :class => 'btn-primary' %>
-			<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Cancel</button>
-	  	</div>
-	<% end %>
+		<%= bootstrap_flash %> 
+		<%= form_tag "/auth/identity/callback", :html => { :class => 'form-inline' } do %>  
+			<%= text_field_tag :auth_key, nil, placeholder: "Email" %>
+			<%= password_field_tag :password, nil,placeholder: "Password" %>
+			<%= submit_tag "Log In", class: "btn btn-primary"%>
+			<%= label_tag :remember_me , nil, class: "checkbox" do %>
+			Remember Me 
+			<%= check_box_tag :remember_me, 1, params[:remember_me], class: "checkbox" %>
+			<% end %>
+			
+<p><%= link_to "Forgot password?", new_password_reset_path %></p>
+		<% end %>
+		<h3> Or you can register now</h3>
+		<%= simple_form_for User.new, :html => { :class => 'form-horizontal' }, url: users_path do |f| %>
+			<%= f.input :name  %>
+			<%= f.input :email %>
+			<%= f.input :password %>
+			<%= f.input :password_confirmation, :label => "Confirm Password" %>
+			
+				<%= f.submit "Register", class:"btn btn-success"  %>
+				<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Cancel</button>
+		  	
+		<% end %>
+
+
+
   </div>
 </div> 
 <!-- End Sign Up Modal -->

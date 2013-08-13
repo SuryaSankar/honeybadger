@@ -6,9 +6,9 @@
   =require twitter-bootstrap-static/fontawesome
   */
 @import "twitter/bootstrap/bootstrap";
-body { padding-top: 60px; } 
+body { padding-top: 35px; } 
 @import "twitter/bootstrap/responsive";
-
+@import "fuelux";
 // Set the correct sprite paths
 @iconSpritePath: asset-path("twitter/bootstrap/glyphicons-halflings");
 @iconWhiteSpritePath: asset-path("twitter/bootstrap/glyphicons-halflings-white");
@@ -20,7 +20,7 @@ body { padding-top: 60px; }
 @fontAwesomeTtfPath: asset-url("fontawesome-webfont.ttf");
 @fontAwesomeSvgPath: asset-url("fontawesome-webfont.svg#fontawesomeregular");
 
-@navbarHeight:                    45px;
+@navbarHeight:                    35px;
 
 // Font Awesome
 @import "fontawesome/font-awesome";
@@ -38,3 +38,15 @@ body { padding-top: 60px; }
 //
 // Example:
 // @linkColor: #ff0000;
+
+@boardGreen: #127558;
+@white: #ffffff;
+@woodBrown: #56372a;
+@woodLightBrown: #663f30;
+
+@navbarBackground: @woodBrown;
+@navbarBackgroundHighlight: @woodLightBrown;
+@navbarBorder: #26130c;
+
+
+
