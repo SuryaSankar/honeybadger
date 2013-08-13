@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130813153746) do
+ActiveRecord::Schema.define(version: 20130813155822) do
 
   create_table "authentications", force: true do |t|
     t.integer  "user_id"
@@ -90,6 +90,9 @@ ActiveRecord::Schema.define(version: 20130813153746) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "program_university_courses", ["program_id"], name: "index_program_university_courses_on_program_id"
+  add_index "program_university_courses", ["university_course_id"], name: "index_program_university_courses_on_university_course_id"
 
   create_table "programs", force: true do |t|
     t.string   "degree_name"
