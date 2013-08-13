@@ -20,7 +20,7 @@
         <td><%= course.name %></td>
         <td><%= course.semester %></td>
         <td><%= course.department %></td>
-        <td><%=l course.created_at %></td>
+        <td><%= course.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_course_path(course), :class => 'btn btn-mini' %>

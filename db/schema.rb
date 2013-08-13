@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130813141329) do
+ActiveRecord::Schema.define(version: 20130813153746) do
 
   create_table "authentications", force: true do |t|
     t.integer  "user_id"
@@ -47,11 +47,9 @@ ActiveRecord::Schema.define(version: 20130813141329) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "branch_id"
-    t.integer  "university_id"
   end
 
   add_index "courses", ["branch_id"], name: "index_courses_on_branch_id"
-  add_index "courses", ["university_id"], name: "index_courses_on_university_id"
 
   create_table "departments", force: true do |t|
     t.integer "institution_id"
@@ -84,17 +82,14 @@ ActiveRecord::Schema.define(version: 20130813141329) do
 
   add_index "institutions", ["university_id"], name: "index_institutions_on_university_id"
 
-  create_table "program_courses", force: true do |t|
+  create_table "program_university_courses", force: true do |t|
     t.integer  "program_id"
-    t.integer  "course_id"
+    t.integer  "university_course_id"
     t.integer  "semester"
     t.boolean  "elective"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
-  add_index "program_courses", ["course_id"], name: "index_program_courses_on_course_id"
-  add_index "program_courses", ["program_id"], name: "index_program_courses_on_program_id"
 
   create_table "programs", force: true do |t|
     t.string   "degree_name"
@@ -156,6 +151,12 @@ ActiveRecord::Schema.define(version: 20130813141329) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "university_courses", force: true do |t|
+    t.integer "university_id"
+    t.integer "course_id"
+    t.string  "course_code"
   end
 
   create_table "users", force: true do |t|
