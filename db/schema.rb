@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130813155822) do
+ActiveRecord::Schema.define(version: 20130814104828) do
 
   create_table "authentications", force: true do |t|
     t.integer  "user_id"
@@ -109,13 +109,13 @@ ActiveRecord::Schema.define(version: 20130813155822) do
     t.integer  "year"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "course_id"
     t.integer  "user_id"
     t.text     "title"
     t.boolean  "official"
+    t.integer  "university_course_id"
   end
 
-  add_index "qpapers", ["course_id"], name: "index_qpapers_on_course_id"
+  add_index "qpapers", ["university_course_id"], name: "index_qpapers_on_university_course_id"
   add_index "qpapers", ["user_id"], name: "index_qpapers_on_user_id"
 
   create_table "questions", force: true do |t|
@@ -161,6 +161,9 @@ ActiveRecord::Schema.define(version: 20130813155822) do
     t.integer "course_id"
     t.string  "course_code"
   end
+
+  add_index "university_courses", ["course_id"], name: "index_university_courses_on_course_id"
+  add_index "university_courses", ["university_id"], name: "index_university_courses_on_university_id"
 
   create_table "users", force: true do |t|
     t.string   "name"
