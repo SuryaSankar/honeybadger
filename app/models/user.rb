@@ -1,7 +1,14 @@
 class User < OmniAuth::Identity::Models::ActiveRecord
   has_many :qpapers
   has_many :questions
+  has_many :solutions
   has_many :authentications
+  has_many :examquestions
+
+  belongs_to :university
+  belongs_to :program
+  belongs_to :institution
+
   has_secure_password
 
   

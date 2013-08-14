@@ -1,4 +1,10 @@
 class Course < ActiveRecord::Base
-	has_many :qpapers
-	has_many :programs, through: :program_courses
+	belongs_to :branch
+	has_many :university_courses
+	has_many :universities, through: :university_courses
+	has_many :qpapers, through: :university_courses
+	has_many :cheatsheets
+	has_many :units
+	has_many :programs, through: :university_courses
+	has_many :program_university_courses, through: :university_courses
 end
