@@ -1,0 +1,9 @@
+<%= simple_form_for @branch, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :name %>
+  <%= f.input :stream %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                branches_path, :class => 'btn' %>
+  </div>
+<% end %>
