@@ -11,6 +11,12 @@ Honeybadger::Application.routes.draw do
   resources :users
   resources :sessions
   resources :branches
+  resources :universities
+  resources :programs
+  resources :institutions
+  resources :university_courses
+  resources :solutions
+  resources :cheatsheets
   resources :password_resets
   get '/auth/new' => 'authentications#new'
   get '/auth/facebook/callback', to: 'sessions#create'

@@ -6,10 +6,9 @@
   <thead>
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
-      <th><%= model_class.human_attribute_name(:university_id) %></th>
-      <th><%= model_class.human_attribute_name(:course_id) %></th>
-      <th><%= model_class.human_attribute_name(:course_code) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th>University</th>
+      <th>Course</th>
+      <th>Course Code</th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -17,10 +16,9 @@
     <% @university_courses.each do |university_course| %>
       <tr>
         <td><%= link_to university_course.id, university_course_path(university_course) %></td>
-        <td><%= university_course.university_id %></td>
-        <td><%= university_course.course_id %></td>
+        <td><%= university_course.university.name %></td>
+        <td><%= university_course.course.name %></td>
         <td><%= university_course.course_code %></td>
-        <td><%=l university_course.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_university_course_path(university_course), :class => 'btn btn-mini' %>
