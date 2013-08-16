@@ -1,7 +1,7 @@
 class QuestionsController < ApplicationController
   before_action :set_question, only: [:show, :edit, :update, :destroy]
   before_action :authorize, except: [:index, :show]
-  before_filter :admin_user, only: [:new, :edit, :create, :update, :destroy]
+  # before_filter :admin_user, only: [:new, :edit, :create, :update, :destroy]
   # GET /questions
   # GET /questions.json
   def index

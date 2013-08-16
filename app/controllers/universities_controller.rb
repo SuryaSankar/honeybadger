@@ -1,6 +1,6 @@
 class UniversitiesController < ApplicationController
   before_action :set_university, only: [:show, :edit, :update, :destroy]
-
+  before_filter :admin_user, only: [:new, :edit, :create, :update, :destroy]
   # GET /universities
   # GET /universities.json
   def index
