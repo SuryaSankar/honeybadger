@@ -1,6 +1,6 @@
 class ProgramUniversityCoursesController < ApplicationController
   before_action :set_program_university_course, only: [:show, :edit, :update, :destroy]
-  
+  before_filter :admin_user, only: [:new, :edit, :create, :update, :destroy]
   # GET /program_university_courses
   # GET /program_university_courses.json
   def index
