@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130815061116) do
+ActiveRecord::Schema.define(version: 20130815200922) do
 
   create_table "authentications", force: true do |t|
     t.integer  "user_id"
@@ -104,6 +104,11 @@ ActiveRecord::Schema.define(version: 20130815061116) do
   add_index "programs", ["branch_id"], name: "index_programs_on_branch_id"
   add_index "programs", ["university_id"], name: "index_programs_on_university_id"
 
+  create_table "programs_qpapers", id: false, force: true do |t|
+    t.integer "qpaper_id",  null: false
+    t.integer "program_id", null: false
+  end
+
   create_table "qpapers", force: true do |t|
     t.integer  "year"
     t.datetime "created_at"
@@ -112,6 +117,9 @@ ActiveRecord::Schema.define(version: 20130815061116) do
     t.text     "title"
     t.boolean  "official"
     t.integer  "university_course_id"
+    t.string   "month"
+    t.integer  "semester"
+    t.string   "exam_name"
   end
 
   add_index "qpapers", ["university_course_id"], name: "index_qpapers_on_university_course_id"

@@ -1,8 +1,12 @@
 <%= simple_nested_form_for @qpaper, :html => { :class => 'form-horizontal' } do |f| %>
 <div class="well">
-  <%= f.input :year , collection: 1980..2020 %>
+  <%= f.input :year , collection: 2013.downto(1990) %>
   <%= f.input :title %>
-  <%= f.association :course %>
+  <%= f.input :exam_name %>
+  <%= f.association :university_course , label_method: :full_course_name %>
+  <%= f.association :programs , label_method: :short_desc, as: :check_boxes %>
+  <%= f.input :month %>
+  <%= f.input :semester %>
   <%= f.input :official %>
 </div>
   <%= f.simple_fields_for :examquestions do |examquestion_form| %>

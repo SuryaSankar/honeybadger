@@ -4,7 +4,8 @@ class Program < ActiveRecord::Base
 	has_many :users
 	belongs_to :university
 	belongs_to :branch
-	
+	has_and_belongs_to_many :qpapers
+
 	def degree_short
 		case self.degree_name
 			when 'Bachelor of Engineering'
