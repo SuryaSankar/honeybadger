@@ -7,7 +7,7 @@
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:year) %></th>
-      <th><%= model_class.human_attribute_name(:course_id) %></th>
+      <th><%= model_class.human_attribute_name(:university_course_id) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
@@ -17,7 +17,7 @@
       <tr>
         <td><%= link_to qpaper.id, qpaper_path(qpaper) %></td>
         <td><%= qpaper.year %></td>
-        <td><%= qpaper.course_id %></td>
+        <td><%= qpaper.university_course_id %></td>
         <td><%=l qpaper.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
