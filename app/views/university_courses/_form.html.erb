@@ -1,6 +1,6 @@
 <%= simple_form_for @university_course, :html => { :class => 'form-horizontal' } do |f| %>
-  <%= f.input :university_id %>
-  <%= f.input :course_id %>
+  <%= f.association :university %>
+  <%= f.association :course %>
   <%= f.input :course_code %>
   <div class="form-actions">
     <%= f.button :submit, :class => 'btn-primary' %>

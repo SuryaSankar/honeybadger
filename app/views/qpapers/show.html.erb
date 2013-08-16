@@ -1,7 +1,6 @@
 <div class="row">
 	<div class="span4"> Year: <%= @qpaper.year %></div>
-	<div class="span4">Institution: <%= @qpaper.institution %></div>
-	<div class="span4">Course: <%= @qpaper.course.name %></div>
+	<div class="span4">Course: <%= @qpaper.university_course.full_course_name %></div>
 </div>
 <% qn = 0 %>
 <% @qpaper.examquestions.order("qnumber").includes(:question).each do |eq| %>

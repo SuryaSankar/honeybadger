@@ -22,7 +22,7 @@ module SessionsHelper
   end
 
   def admin_user
-    unless @current_user.is_admin?
+    unless signed_in? and @current_user.is_admin?
     		flash[:error]="Unauthorized access"
     		redirect_to root_path
 		false

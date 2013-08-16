@@ -4,10 +4,10 @@
 </div>
 
 <dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:university_id) %>:</strong></dt>
-  <dd><%= @university_course.university_id %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:course_id) %>:</strong></dt>
-  <dd><%= @university_course.course_id %></dd>
+  <dt><strong>University</strong></dt>
+  <dd><%= @university_course.university.name %></dd>
+  <dt><strong>Course</strong></dt>
+  <dd><%= @university_course.course.name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:course_code) %>:</strong></dt>
   <dd><%= @university_course.course_code %></dd>
 </dl>

@@ -1,0 +1,11 @@
+<%= simple_form_for @program_university_course, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :program_id %>
+  <%= f.input :university_course_id %>
+  <%= f.input :semester %>
+  <%= f.input :elective %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                program_university_courses_path, :class => 'btn' %>
+  </div>
+<% end %>

@@ -7,9 +7,8 @@
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:degree_name) %></th>
-      <th><%= model_class.human_attribute_name(:university_id) %></th>
-      <th><%= model_class.human_attribute_name(:branch_id) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th>University</th>
+      <th>Branch</th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -18,9 +17,8 @@
       <tr>
         <td><%= link_to program.id, program_path(program) %></td>
         <td><%= program.degree_name %></td>
-        <td><%= program.university_id %></td>
-        <td><%= program.branch_id %></td>
-        <td><%=l program.created_at %></td>
+        <td><%= program.university.name%></td>
+        <td><%= program.branch.abbreviation %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_program_path(program), :class => 'btn btn-mini' %>
