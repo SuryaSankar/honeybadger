@@ -33,7 +33,7 @@
 	
 	<div class="row" id="launchBox">
 		<div class="span10">
-		
+		<%= bootstrap_flash %>
 		<%= form_tag '/qpapers/find', method: :get , class: "form-horizontal" do%>
 			<%= select_tag "university", options_from_collection_for_select(University.all, "id" , "name")%>
 			<%= select_tag "branch", options_from_collection_for_select(Branch.all, "id" , "name")%>
