@@ -1,7 +1,7 @@
 class QpapersController < ApplicationController
   before_action :set_qpaper, only: [:show, :edit, :update, :destroy]
   before_action :authorize, except: [:index, :show]
-  before_filter :admin_user, only: [:new, :edit, :create, :update, :destroy]
+  #before_filter :admin_user, only: [:new, :edit, :create, :update, :destroy]
   # GET /qpapers
   # GET /qpapers.json
   def index
@@ -71,6 +71,12 @@ class QpapersController < ApplicationController
     end
   end
 
+  def find
+    qpaper_search_params
+    @qpaper=Qpaper.find(1)
+    redirect_to @qpaper
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_qpaper
@@ -81,6 +87,10 @@ class QpapersController < ApplicationController
     def qpaper_params
       puts params
       params.require(:qpaper).permit(:year, :title, :exam_name,  :official, :university_course_id, :program_ids, :month, :semester,  examquestions_attributes: [:mark, :qnumber, :id, :question_id,  {question_attributes: [:qtext, :qdesc, :id]}])
+    end
+
+    def qpaper_search_params
+    	puts params
     end
 
 end

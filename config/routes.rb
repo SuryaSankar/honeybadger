@@ -4,6 +4,7 @@ Honeybadger::Application.routes.draw do
   root 'pages#home'
   get "pages/about"
   get"pages/channel"
+  get '/qpapers/find' => 'qpapers#find'
   resources :qpapers
   resources :questions
   resources :courses
@@ -22,7 +23,7 @@ Honeybadger::Application.routes.draw do
   get '/auth/facebook/callback', to: 'sessions#create'
   get '/auth/google_oauth2/callback', to: 'sessions#create'
   post '/auth/:provider/callback', to: 'sessions#create' #omniauth route
-
+  
   
   get '/signup', to: 'users#new'
   get "login" => "sessions#new", :as => "login"
