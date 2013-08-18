@@ -1,16 +1,20 @@
 Honeybadger::Application.routes.draw do
-  get "authentications/new"
-  get "password_resets/new"
+
   root 'pages#home'
+
+  devise_scope :user do
+	post "/users" => "users/registrations#append_or_create" , as: "user_registration"
+  end
+  devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
+
   get "pages/about"
-  get"pages/channel"
+  get "pages/channel"
   get '/qpapers/find' => 'qpapers#find'
+
   resources :qpapers
   resources :questions
   resources :courses
   resources :examquestions
-  resources :users
-  resources :sessions
   resources :branches
   resources :universities
   resources :programs
@@ -18,16 +22,7 @@ Honeybadger::Application.routes.draw do
   resources :university_courses
   resources :solutions
   resources :cheatsheets
-  resources :password_resets
-  get '/auth/new' => 'authentications#new'
-  get '/auth/facebook/callback', to: 'sessions#create'
-  get '/auth/google_oauth2/callback', to: 'sessions#create'
-  post '/auth/:provider/callback', to: 'sessions#create' #omniauth route
-  
-  
-  get '/signup', to: 'users#new'
-  get "login" => "sessions#new", :as => "login"
-  #get '/logout', to: 'sessions#destroy'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

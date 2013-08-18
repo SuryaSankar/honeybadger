@@ -1,0 +1,27 @@
+<% signup_url="" %>
+<!-- Begin Sign Up Modal -->
+<div id="signup_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="signup_modal_label" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="signup_modal_label">Sign in if you've already registered</h3>
+  </div>
+  <div class="modal-body">
+		<%= bootstrap_flash %> 
+		<%= simple_form_for(:user, :url => user_registration_path) do |f| %>
+		  <%= f.error_notification %>
+
+		  <div class="form-horizontal pull-left">
+		    <%= f.input :email, :required => true, :autofocus => true %>
+		    <%= f.input :password, :required => true %>
+		    <%= f.input :password_confirmation, :required => true %>
+		    <%= f.input :uname, :required => true %>
+		    <%= f.button :submit, "Sign up" %>
+		  </div>
+
+		<% end %>
+
+
+
+  </div>
+</div> 
+<!-- End Sign Up Modal -->

@@ -1,23 +1,10 @@
-	
-	<div class="row">
-				<!--
-				<div id="bannerTopRow" class="row whiteOnGreen">
-					<div class="span2 pull-right">
-					<table class="table table-bordered">
-					<tr><td>Date:</td><td><%= Time.now.strftime("%d/%m/%y") %></td></tr>
-					<tr><td>No. on roll:</td><td><%= User.count %></td></tr>
-					</table>
-					</div>
-				</div>
-				-->
-				
-			
-			<div class="hero-unit noise" id="banner">
-				<div class="row">
-					<div class="span5">
+<div class="row">	
+		<div class="hero-unit noise" id="banner">
+			<div class="row">
+				<div class="span5">
 					<h1>Karpeer<small>  / kəˈrpēr /</small></h1> <h4> <em>Origin:</em> A Tamil verb </h4><h4> <em>Meaning:</em> <strong>An exhortation to learn </strong> </h4>
-					</div>
-					<div class="span2">
+				</div>
+				<div class="span2">
 					<ul class="icons-ul">
 					<li><i class="icon-check"></i> Question Papers</li>
 					<li><i class="icon-check"></i> Cheat Sheets</li>
@@ -25,38 +12,47 @@
 					<li><i class="icon-check-empty"></i> Video lectures</li>
 					<li><i class="icon-check-empty"></i> Tutors</li>
 					</ul>
-					</div>
 				</div>
 			</div>
-	<div class="navbar" id="lowerBar"><div class="navbar-inner"  ></div></div>
-	</div>
-	
-	<div class="row" id="launchBox">
-		<div class="span10">
+		</div>
+		<div class="navbar" id="lowerBar"><div class="navbar-inner"  ></div></div>
+</div>
+
+<div class="row" id="launchBox">
+	<div class="span8">
 		<%= bootstrap_flash %>
 		<%= form_tag '/qpapers/find', method: :get , class: "form-horizontal" do%>
 			<%= select_tag "university", options_from_collection_for_select(University.all, "id" , "name")%>
 			<%= select_tag "branch", options_from_collection_for_select(Branch.all, "id" , "name")%>
 			<%= submit_tag "Find Question papers", class: "btn btn-danger" %>	
 		<% end %>
+	</div>
+	<div class="span3 offset1">
+		<div class="row topPadding20">
+			<%= link_to  user_omniauth_authorize_path(:facebook), class: "btn btn-primary" do %>
+				<i class="icon-facebook"></i> Facebook
+			<% end %>
+			<%= link_to  user_omniauth_authorize_path(:google_oauth2), class: "btn btn-danger" do %>
+				<i class="icon-google-plus"></i> Google
+			<% end %>
+			
 		</div>
-		<div class="span1 offset1">
-			<div class="row">
-				Enrol via
-			</div>
-			<div class="row topPadding20">
-				<a class="btn btn-primary btn-block" href="/auth/facebook" id="sign_in"> <i class="icon-facebook"></i> Facebook </a>
-			</div>
-			<div class="row topPadding20">
-				<a class="btn btn-danger btn-block" href="/auth/google_oauth2" id="google_signin"> <i class="icon-google-plus"></i>  Google</a>
-			</div>
-			<div class="row topPadding20">
-				<button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#signup_modal"> <i class="icon-envelope"></i> Your email</button>
-			</div>
+		<div class="row topPadding20">
+		<%= bootstrap_flash %> 
+		<%= simple_form_for(:user, url: user_session_path, class: "form-inline" ) do |f| %>
+		    <%= f.input :email, :required => false, :autofocus => true %>
+		    <%= f.input :password, :required => false %>
+		    <%= f.input :remember_me, :as => :boolean  %>
+		    <%= f.button :submit, "Sign in" %>
+		<% end %>
+		</div>
+		<div class="row topPadding20">
+			<button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#signup_modal"> <i class="icon-envelope"></i> Register Now</button>
 		</div>
 	</div>
+</div>
 
  <!-- End container -->
 
-<%= render partial: 'partials/signup_modal' %>
+<%= render partial: 'devise/partials/signup_modal' %>
 

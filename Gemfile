@@ -19,6 +19,7 @@ gem 'omniauth-facebook', '1.4.0'
 gem "omniauth-google-oauth2"
 gem 'figaro'
 gem 'fuelux-rails', :git => 'git://github.com/stephenbaldwin/fuelux-rails.git'
+gem 'devise' , '>= 3.0.2'
 
 group :development do
   gem 'sqlite3'
