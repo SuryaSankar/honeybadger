@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130818164534) do
+ActiveRecord::Schema.define(version: 20130818202412) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -52,10 +52,12 @@ ActiveRecord::Schema.define(version: 20130818164534) do
     t.datetime "updated_at"
     t.integer  "course_id"
     t.integer  "unit_id"
+    t.integer  "user_id"
   end
 
   add_index "cheatsheets", ["course_id"], name: "index_cheatsheets_on_course_id"
   add_index "cheatsheets", ["unit_id"], name: "index_cheatsheets_on_unit_id"
+  add_index "cheatsheets", ["user_id"], name: "index_cheatsheets_on_user_id"
 
   create_table "courses", force: true do |t|
     t.string   "name"
@@ -81,10 +83,12 @@ ActiveRecord::Schema.define(version: 20130818164534) do
     t.integer  "qnumber"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   add_index "examquestions", ["qpaper_id"], name: "index_examquestions_on_qpaper_id"
   add_index "examquestions", ["question_id"], name: "index_examquestions_on_question_id"
+  add_index "examquestions", ["user_id"], name: "index_examquestions_on_user_id"
 
   create_table "institutions", force: true do |t|
     t.string   "name"
@@ -133,16 +137,21 @@ ActiveRecord::Schema.define(version: 20130818164534) do
     t.string   "month"
     t.integer  "semester"
     t.string   "exam_name"
+    t.integer  "user_id"
   end
 
   add_index "qpapers", ["university_course_id"], name: "index_qpapers_on_university_course_id"
+  add_index "qpapers", ["user_id"], name: "index_qpapers_on_user_id"
 
   create_table "questions", force: true do |t|
     t.text     "qtext"
     t.text     "qdesc"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
+
+  add_index "questions", ["user_id"], name: "index_questions_on_user_id"
 
   create_table "solutions", force: true do |t|
     t.text     "answer"

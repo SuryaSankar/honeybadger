@@ -1,16 +1,18 @@
 Honeybadger::Application.routes.draw do
+  get "search_results_controller/search"
   root 'pages#home'
 
-  devise_for :admins, :controllers => { :sessions => "admins/sessions" }
 
   devise_scope :user do
 	post "/users" => "users/registrations#append_or_create" , as: "user_registration"
   end
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
 
+  devise_for :admins
+
   get "pages/about"
   get "pages/channel"
-  get '/qpapers/find' => 'qpapers#find'
+  get '/search' => 'search_results#search'
 
   resources :qpapers
   resources :questions

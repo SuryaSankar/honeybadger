@@ -1,6 +1,6 @@
 class QpapersController < ApplicationController
   before_action :set_qpaper, only: [:show, :edit, :update, :destroy]
-  before_action :authorize, except: [:index, :show]
+  before_action :authenticate_user!, except: [:index, :show, :find]
 
   # GET /qpapers
   # GET /qpapers.json
@@ -28,12 +28,11 @@ class QpapersController < ApplicationController
   # POST /qpapers
   # POST /qpapers.json
   def create
-    puts params
     @qpaper = Qpaper.new(qpaper_params)  
-    @qpaper.user_id = @current_user.id
+    @qpaper.user_id = current_user.id
     @qpaper.examquestions.each do |eq|
-	 eq.user_id=@current_user.id
-	 eq.question.user_id ||=@current_user.id
+	 eq.user_id=current_user.id
+	 eq.question.user_id ||=current_user.id
     end
     respond_to do |format|
       if @qpaper.save
@@ -70,11 +69,11 @@ class QpapersController < ApplicationController
       format.json { head :no_content }
     end
   end
-
+ 
+  # GET /qpapers/find
   def find
-    qpaper_search_params
-    @qpaper=Qpaper.find(1)
-    redirect_to @qpaper
+    @qpapers=UniversityCourse.find(qpaper_search_params[:university_course]).qpapers
+    render action: "index"
   end
 
   private
@@ -85,12 +84,11 @@ class QpapersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def qpaper_params
-      puts params
       params.require(:qpaper).permit(:year, :title, :exam_name,  :official, :university_course_id, :program_ids, :month, :semester,  examquestions_attributes: [:mark, :qnumber, :id, :question_id,  {question_attributes: [:qtext, :qdesc, :id]}])
     end
 
     def qpaper_search_params
-    	puts params
+    	params.permit(:program, :university, :university_course, :commit, :controller, :action)
     end
 
 end

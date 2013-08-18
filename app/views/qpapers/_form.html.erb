@@ -21,7 +21,7 @@
 		  <% end %>   
     </div> 
   <% end %>
-  <p><%= f.link_to_add( :examquestions, model_object: lambda { eq=Examquestion.new; eq.question=Question.new; return eq; }, class: "btn btn-primary" ) do%>
+  <p><%= f.link_to_add( :examquestions, model_object: Examquestion.new.tap{ |eq| eq.build_question }, class: "btn btn-primary" ) do%>
    Add Question
    <% end %></p>
   <div class="form-actions">
