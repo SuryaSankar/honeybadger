@@ -1,6 +1,7 @@
 Honeybadger::Application.routes.draw do
-
   root 'pages#home'
+
+  devise_for :admins, :controllers => { :sessions => "admins/sessions" }
 
   devise_scope :user do
 	post "/users" => "users/registrations#append_or_create" , as: "user_registration"
