@@ -6,9 +6,9 @@ Honeybadger::Application.routes.draw do
   devise_scope :user do
 	post "/users" => "users/registrations#append_or_create" , as: "user_registration"
   end
-  devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
+  devise_for :users, controllers: { omniauth_callbacks: "users/omniauth_callbacks" }
 
-  devise_for :admins
+  devise_for :admins, controllers: { sessions: "admins/sessions" }
 
   get "pages/about"
   get "pages/channel"
@@ -24,7 +24,9 @@ Honeybadger::Application.routes.draw do
   resources :institutions
   resources :university_courses
   resources :solutions
-  resources :cheatsheets
+  resources :wikis
+  resources :notes
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.

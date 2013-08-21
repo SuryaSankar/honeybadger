@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130818202412) do
+ActiveRecord::Schema.define(version: 20130821154510) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -23,9 +23,11 @@ ActiveRecord::Schema.define(version: 20130818202412) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   add_index "admins", ["email"], name: "index_admins_on_email", unique: true
+  add_index "admins", ["user_id"], name: "index_admins_on_user_id"
 
   create_table "authentications", force: true do |t|
     t.string   "provider"
@@ -45,19 +47,6 @@ ActiveRecord::Schema.define(version: 20130818202412) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
-  create_table "cheatsheets", force: true do |t|
-    t.text     "content"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "course_id"
-    t.integer  "unit_id"
-    t.integer  "user_id"
-  end
-
-  add_index "cheatsheets", ["course_id"], name: "index_cheatsheets_on_course_id"
-  add_index "cheatsheets", ["unit_id"], name: "index_cheatsheets_on_unit_id"
-  add_index "cheatsheets", ["user_id"], name: "index_cheatsheets_on_user_id"
 
   create_table "courses", force: true do |t|
     t.string   "name"
@@ -98,6 +87,20 @@ ActiveRecord::Schema.define(version: 20130818202412) do
   end
 
   add_index "institutions", ["university_id"], name: "index_institutions_on_university_id"
+
+  create_table "notes", force: true do |t|
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "course_id"
+    t.integer  "unit_id"
+    t.integer  "user_id"
+    t.string   "title"
+  end
+
+  add_index "notes", ["course_id"], name: "index_notes_on_course_id"
+  add_index "notes", ["unit_id"], name: "index_notes_on_unit_id"
+  add_index "notes", ["user_id"], name: "index_notes_on_user_id"
 
   create_table "program_university_courses", force: true do |t|
     t.integer  "program_id"
@@ -168,10 +171,10 @@ ActiveRecord::Schema.define(version: 20130818202412) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "course_id"
+    t.integer  "university_course_id"
   end
 
-  add_index "units", ["course_id"], name: "index_units_on_course_id"
+  add_index "units", ["university_course_id"], name: "index_units_on_university_course_id"
 
   create_table "universities", force: true do |t|
     t.string   "name"

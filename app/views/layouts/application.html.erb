@@ -53,7 +53,7 @@
 <li class="divider-vertical"></li>
               <li><%= link_to "Question Bank", qpapers_path  %></li>
 <li class="divider-vertical"></li>
-	      <% if signed_in? %>
+	      <% if user_signed_in? %>
 			<li class="dropdown">
 			  <a id="account_dropdown" class="dropdown-toggle" data-toggle="dropdown" href="#">My account</a>
 			  <ul class="dropdown-menu" role="menu" aria-labelledby="account_dropdown">

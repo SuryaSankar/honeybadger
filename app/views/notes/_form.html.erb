@@ -1,0 +1,13 @@
+<%= form_tag '/notes', method: :post , class: "form-horizontal" do%>
+	  <%= text_field_tag 'name', 'Title' %>
+	  <div class='wmd-panel'>
+	  <div id='wmd-button-bar'></div>
+	  <%= text_area_tag 'wmd-input', nil, class: 'wmd-input'%>
+	</div>
+	</br>
+	  <div class='wmd-panel'>
+	  <div id='wmd-button-bar-second'></div>
+	  <%= text_area_tag 'wmd-input-second', nil, class: 'wmd-input'%>
+	</div>
+	<%= submit_tag "Save", class: "btn btn-danger" %>	
+<% end %>

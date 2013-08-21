@@ -91,4 +91,6 @@ Honeybadger::Application.configure do
   :user_name => ENV['GMAIL_USER'],
   :password => ENV['GMAIL_PASSWD']
   }
+
+  config.wiki_repository = Rails.root.join('db','wiki','prod.git').to_s
 end

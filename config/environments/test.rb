@@ -33,4 +33,5 @@ Honeybadger::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+  config.wiki_repository = Rails.root.join('db','wiki','test.git').to_s
 end

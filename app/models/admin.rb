@@ -3,4 +3,5 @@ class Admin < ActiveRecord::Base
   # :token_authenticatable, :confirmable, :registerable, :recoverable, :rememberable
   # :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable,   :trackable, :validatable
+  belongs_to :user
 end
