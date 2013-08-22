@@ -1,5 +1,5 @@
 <script type="text/javascript">
-    (function () {
+    $(function () {
 
         var converter1 = Markdown.getSanitizingConverter();
         Markdown.Extra.init(converter1, {
@@ -11,5 +11,5 @@
         editor1.hooks.chain("onPreviewRefresh", prettyPrint); // google code prettify
         editor1.run();
         
-    })();
+    });
 </script>
