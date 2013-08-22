@@ -15,7 +15,7 @@
 //= require fuelux
 //= require twitter/bootstrap
 //= require jquery_nested_form
-//= require markdwn/Markdown.Converter
+//= require markdown/Markdown.Converter
 //= require markdown/Markdown.Sanitizer
 //= require markdown/Markdown.Editor
 //= require markdown/Markdown.Extra
