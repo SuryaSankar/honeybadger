@@ -9,5 +9,6 @@
 <% end %>
 
 <div id="wmd-preview" class="wmd-panel wmd-preview"></div>
-
+<% content_for :extra_scripts do %>
 <%= render partial: "wmdscript" %>
+<% end %>
