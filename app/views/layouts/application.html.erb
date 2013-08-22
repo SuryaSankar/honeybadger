@@ -37,6 +37,8 @@
   </head>
   <body>
     <%= content_for?(:fb_conn_scripts) ? yield(:fb_conn_scripts) : "" %>
+    <%= content_for?(:prettify_scripts) ? yield(:prettify_scripts) : "" %>
+   <%= content_for?(:mathjax_scripts) ? yield(:mathjax_scripts) : "" %>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">

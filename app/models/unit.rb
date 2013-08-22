@@ -1,3 +1,3 @@
 class Unit < ActiveRecord::Base
-	belongs_to :course
+	belongs_to :university_course
 end

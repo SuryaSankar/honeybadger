@@ -26,6 +26,7 @@ Honeybadger::Application.routes.draw do
   resources :solutions
   resources :wikis
   resources :notes
+  resources :units
 
 
 

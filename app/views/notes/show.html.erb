@@ -1,18 +1,25 @@
 <%- model_class = Note -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+<% content_for :prettify_scripts do %>
+<%= render partial: 'partials/prettify_include' %>
+<% end %>
+
+<% content_for :mathjax_scripts do %>
+<%= render partial: 'partials/mathjax_include' %>
+<% end %>
+<div class="row"> 
+	<div class="span12 font20">
+	  <h1><%= @note.title %></h1>
+	</div>
 </div>
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:content) %>:</strong></dt>
-  <dd><%= @note.content %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:course_id) %>:</strong></dt>
-  <dd><%= @note.course_id %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:unit_id) %>:</strong></dt>
-  <dd><%= @note.unit_id %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:user_id) %>:</strong></dt>
-  <dd><%= @note.user_id %></dd>
-</dl>
+<div class="row"> 
+<hr width=100%>
+</div>
+<div class="row"> 
+	<div class="row span12 font20">
+	<%= raw render_markdown @note.content %>
+	</div>
+</div>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),

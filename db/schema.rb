@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130821154510) do
+ActiveRecord::Schema.define(version: 20130822135012) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -172,6 +172,8 @@ ActiveRecord::Schema.define(version: 20130821154510) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "university_course_id"
+    t.text     "unit_curriculum"
+    t.integer  "unit_number"
   end
 
   add_index "units", ["university_course_id"], name: "index_units_on_university_course_id"

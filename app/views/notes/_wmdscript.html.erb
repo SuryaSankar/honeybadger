@@ -1,0 +1,15 @@
+<script type="text/javascript">
+    (function () {
+
+        var converter1 = Markdown.getSanitizingConverter();
+        Markdown.Extra.init(converter1, {
+          extensions: "all",
+          highlighter: "prettify"
+        });
+
+        var editor1 = new Markdown.Editor(converter1);
+        editor1.hooks.chain("onPreviewRefresh", prettyPrint); // google code prettify
+        editor1.run();
+        
+    })();
+</script>
