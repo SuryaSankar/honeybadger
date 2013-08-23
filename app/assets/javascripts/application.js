@@ -15,7 +15,9 @@
 //= require fuelux
 //= require twitter/bootstrap
 //= require jquery_nested_form
-//= require Markdown
+//= require Markdown.Converter
+//= require Markdown.Sanitizer
+//= require Markdown.Editor
 //= require Markdown.Extra
 //= require_tree .
 
