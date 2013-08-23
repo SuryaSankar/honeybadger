@@ -6,7 +6,7 @@
           extensions: "all",
           highlighter: "prettify"
         });
-
+	alert(42);
         var editor1 = new Markdown.Editor(converter1);
         editor1.hooks.chain("onPreviewRefresh", prettyPrint); // google code prettify
         editor1.run();
