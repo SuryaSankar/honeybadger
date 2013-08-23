@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130823110109) do
+ActiveRecord::Schema.define(version: 20130823142348) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -51,6 +51,7 @@ ActiveRecord::Schema.define(version: 20130823110109) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "branch_id"
+    t.boolean  "practical"
   end
 
   add_index "courses", ["branch_id"], name: "index_courses_on_branch_id"
