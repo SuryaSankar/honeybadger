@@ -25,7 +25,6 @@ class NotesController < ApplicationController
   # POST /notes.json
   def create
     @note = Note.new(note_params)
-
     respond_to do |format|
       if @note.save
         format.html { redirect_to @note, notice: 'Note was successfully created.' }
@@ -69,7 +68,7 @@ class NotesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def note_params
-      puts params
-      params.require(:note).permit(:title, :content)
+      params[:note][:html_content]=render_markdown params[:note][:content]
+      params.require(:note).permit(:title, :content, :html_content)
     end
 end

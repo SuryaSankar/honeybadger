@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130822135012) do
+ActiveRecord::Schema.define(version: 20130823110109) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -32,8 +32,6 @@ ActiveRecord::Schema.define(version: 20130822135012) do
   create_table "authentications", force: true do |t|
     t.string   "provider"
     t.string   "uid"
-    t.string   "uname"
-    t.string   "uemail"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
@@ -96,6 +94,8 @@ ActiveRecord::Schema.define(version: 20130822135012) do
     t.integer  "unit_id"
     t.integer  "user_id"
     t.string   "title"
+    t.string   "html_content"
+    t.string   "text"
   end
 
   add_index "notes", ["course_id"], name: "index_notes_on_course_id"
@@ -130,6 +130,9 @@ ActiveRecord::Schema.define(version: 20130822135012) do
     t.integer "program_id", null: false
   end
 
+  add_index "programs_qpapers", ["program_id"], name: "index_programs_qpapers_on_program_id"
+  add_index "programs_qpapers", ["qpaper_id"], name: "index_programs_qpapers_on_qpaper_id"
+
   create_table "qpapers", force: true do |t|
     t.integer  "year"
     t.datetime "created_at"
@@ -163,9 +166,11 @@ ActiveRecord::Schema.define(version: 20130822135012) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "question_id"
+    t.integer  "user_id"
   end
 
   add_index "solutions", ["question_id"], name: "index_solutions_on_question_id"
+  add_index "solutions", ["user_id"], name: "index_solutions_on_user_id"
 
   create_table "units", force: true do |t|
     t.string   "name"
