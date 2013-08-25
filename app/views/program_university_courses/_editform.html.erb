@@ -11,21 +11,13 @@
 			<div class="row"><div class="span9">OR create a new university course</div></div>
 		   <%= program_university_course_form.simple_fields_for :university_course do |university_course_form| %>
 			  <%= university_course_form.input :course_code %>
-			  <%# university_course_form.association :university , label_method: :name %>
-			  <% if action == "edit" then %>
-			 <%= university_course_form.object.id %>
-			  <%= university_course_form.input :id, :as => :hidden, :input_html => { :value => university_course_form.object.id } %>
-			  <% end %>
+			  <%= university_course_form.association :university , label_method: :name %>
 			<div class="well bisqueBg">
 				 <div class="row"><div class="span9">Select an existing  course</div></div>
 				  <%= university_course_form.input :course_id , collection: Course.all, label_method: :name , value_method: :id %>
 			</div><div class="well bisqueBg">
 				  <div class="row"><div class="span9">OR create a course</div></div>
 				  <%= university_course_form.simple_fields_for :course do |course_form| %>
-					  <% if action == "edit" then %>
-					 <%= course_form.object.id %>
-					  <%= course_form.input :id, :as => :hidden, :input_html => { :value => course_form.object.id } %>
-					  <% end %>
 					    <%= course_form.input :name  %>
 					    <%= course_form.input :branch_id, collection: Branch.all, label_method: :name , value_method: :id %>
 				  <% end %> <%# course_form ends %>
@@ -34,21 +26,13 @@
 					
 					  <%= university_course_form.simple_fields_for :units do |unit_form| %>
 						   <div class="well aliceBlueBg">
-						  <% if action == "edit" then %>
-						  <%= unit_form.object.id %>
-						  <%= unit_form.input :id, :as => :hidden, :input_html => { :value => unit_form.object.id } %>
-						  <% end %>
-						    <%= unit_form.input :unit_number %>
-						    Curriculum for Unit : 
+						    <%= unit_form.input :unit_number, :as => :hidden, :input_html => { :value => unit_form.index+1 } %>
+						    Curriculum for Unit <%= unit_form.index+1 %>: 
 						    <%= unit_form.text_area :unit_curriculum , class: "fullWidth" %>
 						   </div>
 					  <% end %> <%# unit_form ends %>
 					  
-			 
-				  <p><%= university_course_form.link_to_add( :units, model_object: @program_university_course.university_course.units.build, class: "btn btn-primary" ) do%>
-   Add Unit
-   <% end %></p>
-</div><%# well ends %> 
+			</div><%# well ends %>  
 		 <% end %> <%# university_course_form ends %> 
 		</div><%# well ends %>  
     </div> 

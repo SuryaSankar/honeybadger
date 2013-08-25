@@ -69,6 +69,6 @@ class UnitsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def unit_params
-      params.require(:unit).permit(:name, :university_course_id, :unit_curriculum)
+      params.require(:unit).permit(:university_course_id, :unit_curriculum)
     end
 end

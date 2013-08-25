@@ -1,5 +1,5 @@
 class ProgramUniversityCoursesController < ApplicationController
-  before_action :set_program_university_course, only: [:show, :edit, :update, :destroy]
+  before_action :set_program_university_course, only: [ :edit, :update, :destroy]
   before_filter :authenticate_admin!, except: [:index, :show]
   # GET /program_university_courses
   # GET /program_university_courses.json
@@ -10,11 +10,13 @@ class ProgramUniversityCoursesController < ApplicationController
   # GET /program_university_courses/1
   # GET /program_university_courses/1.json
   def show
+	eager_load_program_university_course
   end
 
   # GET /program_university_courses/new
   def new
     @program_university_course = ProgramUniversityCourse.new
+    @program_university_course.build_university_course.tap{|uc| 5.times { uc.units.build } }.build_course
   end
 
   # GET /program_university_courses/1/edit
@@ -24,8 +26,9 @@ class ProgramUniversityCoursesController < ApplicationController
   # POST /program_university_courses
   # POST /program_university_courses.json
   def create
+    puts program_university_course_params
     @program_university_course = ProgramUniversityCourse.new(program_university_course_params)
-
+    @program_university_course.university_course.university ||= @program_university_course.program.university 
     respond_to do |format|
       if @program_university_course.save
         format.html { redirect_to @program_university_course, notice: 'Program university course was successfully created.' }
@@ -40,6 +43,7 @@ class ProgramUniversityCoursesController < ApplicationController
   # PATCH/PUT /program_university_courses/1
   # PATCH/PUT /program_university_courses/1.json
   def update
+    puts program_university_course_params
     respond_to do |format|
       if @program_university_course.update(program_university_course_params)
         format.html { redirect_to @program_university_course, notice: 'Program university course was successfully updated.' }
@@ -66,9 +70,12 @@ class ProgramUniversityCoursesController < ApplicationController
     def set_program_university_course
       @program_university_course = ProgramUniversityCourse.find(params[:id])
     end
+    def eager_load_program_university_course
+ 	@program_university_course = ProgramUniversityCourse.includes(university_course: :course).find(params[:id])
+    end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def program_university_course_params
-      params.require(:program_university_course).permit(:program_id, :university_course_id, :semester, :elective )
+      params.require(:program_university_course).permit(:program_id, :semester, :elective, :credits , :university_course_id, { university_course_attributes: [:course_code, :id, :university_id, :course_id , { course_attributes: [:name, :branch_id, :id ]}, units_attributes: [:unit_number, :unit_curriculum, :id ] ] } )
     end
 end

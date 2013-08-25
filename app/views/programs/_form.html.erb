@@ -1,7 +1,62 @@
-<%= simple_form_for @program, :html => { :class => 'form-horizontal' } do |f| %>
+<%= simple_nested_form_for @program, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="well">
   <%= f.input :degree_name %>
   <%= f.association :university %>
   <%= f.association :branch %>
+  </div>
+  <%= f.simple_fields_for :program_university_courses do |program_university_course_form| %>
+    <div class="well linenBg">
+	  <%= program_university_course_form.input :semester %>
+	  <%= program_university_course_form.input :elective %>
+	  <%= program_university_course_form.input :credits %>
+	  <% if action == "edit" then %>
+	  <%= program_university_course_form.input :id, :as => :hidden, :input_html => { :value => program_university_course_form.object.id } %>
+	  <% end %>
+	<div class="well honeyDewBg">
+	<div class="row"><div class="span9">Select an existing university course</div></div>
+	  <%= program_university_course_form.input :university_course_id, collection: UniversityCourse.all , label_method: :full_course_name , value_method: :id %>
+			</div><div class="well honeyDewBg">
+			<div class="row"><div class="span9">OR create a new university course</div></div>
+		   <%= program_university_course_form.simple_fields_for :university_course do |university_course_form| %>
+			  <%= university_course_form.input :course_code %>
+			  <% if action == "edit" then %>
+			 <%= university_course_form.object.id %>
+			  <%= university_course_form.input :id, :as => :hidden, :input_html => { :value => university_course_form.object.id } %>
+			  <% end %>
+			<div class="well bisqueBg">
+				 <div class="row"><div class="span9">Select an existing  course</div></div>
+				  <%= university_course_form.input :course_id , collection: Course.all, label_method: :name , value_method: :id %>
+			</div><div class="well bisqueBg">
+				  <div class="row"><div class="span9">OR create a course</div></div>
+				  <%= university_course_form.simple_fields_for :course do |course_form| %>
+					  <% if action == "edit" then %>
+					  <%= course_form.input :id, :as => :hidden, :input_html => { :value => course_form.object.id } %>
+					  <% end %>
+					    <%= course_form.input :name  %>
+					    <%= course_form.input :branch_id, collection: Branch.all, label_method: :name , value_method: :id %>
+				  <% end %> <%# course_form ends %>
+				</div><div class="well bisqueBg">
+					  <div class="row"><div class="span9">Add Units</div></div>
+					
+						  <%= university_course_form.simple_fields_for :units do |unit_form| %>
+							   <div class="well aliceBlueBg">
+							  <% if action == "edit" then %>
+							  <%= unit_form.input :id, :as => :hidden, :input_html => { :value => unit_form.object.id } %>
+							  <% end %>
+							    <%= unit_form.input :unit_number %>
+							    Curriculum for Unit : 
+							    <%= unit_form.text_area :unit_curriculum , class: "fullWidth" %>
+							   </div>
+						  <% end %> <%# unit_form ends %>
+				</div><%# well ends %>
+		 <% end %> <%# university_course_form ends %> 
+		</div><%# well ends %>  
+    </div> 
+  <% end %> <%# program_university_course_form ends %>  
+
+  <p><%= f.link_to_add( :program_university_courses, model_object: ProgramUniversityCourse.new.tap{ |puc| puc.university_course = UniversityCourse.new.tap { |uc| 5.times { uc.units.build };uc.course = Course.new } }, class: "btn btn-primary" ) do%>
+   Add Course
+   <% end %></p>
   <div class="form-actions">
     <%= f.button :submit, :class => 'btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),

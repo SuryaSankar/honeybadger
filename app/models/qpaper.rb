@@ -5,5 +5,5 @@ class Qpaper < ActiveRecord::Base
 	belongs_to :user
 	has_and_belongs_to_many :programs
 
-	accepts_nested_attributes_for :examquestions,  reject_if: proc { |attributes| attributes['qnumber'].blank? || attributes['mark'].blank? }, update_only: true
+	accepts_nested_attributes_for :examquestions,  reject_if: proc { |attributes| attributes['qnumber'].blank? || attributes['mark'].blank? }
 end

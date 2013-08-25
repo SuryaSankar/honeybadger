@@ -6,6 +6,9 @@ class Program < ActiveRecord::Base
 	belongs_to :branch
 	has_and_belongs_to_many :qpapers
 
+	validates_uniqueness_of :degree_name, scope: [:university_id, :branch_id]
+	accepts_nested_attributes_for :program_university_courses,  reject_if: proc { |attributes| attributes['semester'].blank?  }
+ 
 	def degree_short
 		case self.degree_name
 			when 'Bachelor of Engineering'

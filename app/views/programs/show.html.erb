@@ -1,8 +1,7 @@
 <%- model_class = Program -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+  <h2><%= @program.degree_name + " in " + @program.branch.name + " offered by " + @program.university.name %></h2>
 </div>
-
 <dl class="dl-horizontal">
   <dt><strong><%= model_class.human_attribute_name(:degree_name) %>:</strong></dt>
   <dd><%= @program.degree_name %></dd>
@@ -11,6 +10,22 @@
   <dt><strong><%= model_class.human_attribute_name(:branch_id) %>:</strong></dt>
   <dd><%= @program.branch_id %></dd>
 </dl>
+
+<h3>Curriculum</h3>
+<% @program.program_university_courses.each do |puc| %>
+	<dl class="dl-horizontal">
+	  <dt><strong>Course code: </strong></dt>
+	  <dd><%= puc.university_course.course_code %></dd>
+	  <dt><strong>Course Name: </strong></dt>
+	  <dd><%= puc.university_course.course.name %></dd>
+	  <dt><strong>Semester: </strong></dt>
+	  <dd><%= puc.semester %></dd>
+	  <dt><strong>Credits: </strong></dt>
+	  <dd><%= puc.credits %></dd>
+	</dl>	
+<% end %>
+
+
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),

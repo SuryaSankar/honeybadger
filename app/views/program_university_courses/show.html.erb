@@ -1,18 +1,22 @@
 <%- model_class = ProgramUniversityCourse -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
-</div>
 
 <dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:program_id) %>:</strong></dt>
-  <dd><%= @program_university_course.program_id %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:university_course_id) %>:</strong></dt>
-  <dd><%= @program_university_course.university_course_id %></dd>
+  <dt><strong>Course code:</strong></dt>
+  <dd><%= @program_university_course.university_course.course_code %></dd>
+  <dt><strong>Course name:</strong></dt>
+  <dd><%= @program_university_course.university_course.course.name %></dd>
+  <dt><strong>Offered as a course in </strong></dt>
+  <dd><%= @program_university_course.program.short_desc %></dd>
+
   <dt><strong><%= model_class.human_attribute_name(:semester) %>:</strong></dt>
   <dd><%= @program_university_course.semester %></dd>
+  <dt><strong>Credits:</strong></dt>
+  <dd><%= @program_university_course.credits %></dd>
   <dt><strong><%= model_class.human_attribute_name(:elective) %>:</strong></dt>
   <dd><%= @program_university_course.elective %></dd>
 </dl>
+
+<%= render partial: "university_courses/units", object: @program_university_course.university_course.units %>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),

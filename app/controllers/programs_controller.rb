@@ -1,5 +1,5 @@
 class ProgramsController < ApplicationController
-  before_action :set_program, only: [:show, :edit, :update, :destroy]
+  before_action :set_program, only: [ :edit, :update, :destroy]
   before_filter :authenticate_admin!, except: [:index, :show]
   # GET /programs
   # GET /programs.json
@@ -10,11 +10,13 @@ class ProgramsController < ApplicationController
   # GET /programs/1
   # GET /programs/1.json
   def show
+	eager_load_program
   end
 
   # GET /programs/new
   def new
     @program = Program.new
+    @program.program_university_courses.build.build_university_course.tap{|uc| 5.times { uc.units.build } }.build_course
   end
 
   # GET /programs/1/edit
@@ -25,7 +27,7 @@ class ProgramsController < ApplicationController
   # POST /programs.json
   def create
     @program = Program.new(program_params)
-
+    @program.program_university_courses.each { |puc| puc.university_course.university ||= @program.university }
     respond_to do |format|
       if @program.save
         format.html { redirect_to @program, notice: 'Program was successfully created.' }
@@ -67,8 +69,12 @@ class ProgramsController < ApplicationController
       @program = Program.find(params[:id])
     end
 
+    def eager_load_program
+      @program = Program.includes(program_university_courses: {university_course: :course }).find(params[:id])
+    end
+
     # Never trust parameters from the scary internet, only allow the white list through.
     def program_params
-      params.require(:program).permit(:degree_name, :branch_id, :university_id)
+      params.require(:program).permit(:degree_name, :branch_id, :university_id, program_university_courses_attributes: [:semester, :elective, :credits , :university_course_id, :id,  { university_course_attributes: [:id, :course_code, :university_id, :course_id , { course_attributes: [:id, :name, :branch_id]}, units_attributes: [:id, :unit_number, :unit_curriculum ] ] }])
     end
 end

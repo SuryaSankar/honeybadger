@@ -12,6 +12,8 @@
   <dd><%= @university_course.course_code %></dd>
 </dl>
 
+<%= render partial: "units", object: @university_course.units %>
+
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               university_courses_path, :class => 'btn'  %>
