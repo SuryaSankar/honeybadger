@@ -28,7 +28,7 @@ class ProgramUniversityCoursesController < ApplicationController
   def create
     puts program_university_course_params
     @program_university_course = ProgramUniversityCourse.new(program_university_course_params)
-    @program_university_course.university_course.university ||= @program_university_course.program.university 
+    @program_university_course.university_course.university_id = @program_university_course.program.university_id
     respond_to do |format|
       if @program_university_course.save
         format.html { redirect_to @program_university_course, notice: 'Program university course was successfully created.' }

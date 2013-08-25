@@ -27,7 +27,7 @@ class ProgramsController < ApplicationController
   # POST /programs.json
   def create
     @program = Program.new(program_params)
-    @program.program_university_courses.each { |puc| puc.university_course.university ||= @program.university }
+    @program.program_university_courses.each { |puc| puc.university_course.university_id = @program.university_id }
     respond_to do |format|
       if @program.save
         format.html { redirect_to @program, notice: 'Program was successfully created.' }
