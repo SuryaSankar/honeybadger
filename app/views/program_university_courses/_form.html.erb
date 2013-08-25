@@ -27,6 +27,7 @@
 					  <%= course_form.input :id, :as => :hidden, :input_html => { :value => course_form.object.id } %>
 					  <% end %>
 					    <%= course_form.input :name  %>
+					   <%= course_form.input :practical  %>
 					    <%= course_form.input :branch_id, collection: Branch.all, label_method: :name , value_method: :id %>
 				  <% end %> <%# course_form ends %>
 			</div><div class="well bisqueBg">

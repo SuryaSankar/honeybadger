@@ -26,7 +26,6 @@ class ProgramUniversityCoursesController < ApplicationController
   # POST /program_university_courses
   # POST /program_university_courses.json
   def create
-    puts program_university_course_params
     @program_university_course = ProgramUniversityCourse.new(program_university_course_params)
     @program_university_course.university_course.university_id = @program_university_course.program.university_id
     respond_to do |format|
@@ -76,6 +75,6 @@ class ProgramUniversityCoursesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def program_university_course_params
-      params.require(:program_university_course).permit(:program_id, :semester, :elective, :credits , :university_course_id, { university_course_attributes: [:course_code, :id, :university_id, :course_id , { course_attributes: [:name, :branch_id, :id ]}, units_attributes: [:unit_number, :name, :unit_curriculum, :id ] ] } )
+      params.require(:program_university_course).permit(:program_id, :semester, :elective, :credits , :university_course_id, { university_course_attributes: [:course_code, :id, :university_id, :course_id , { course_attributes: [:name, :practical, :branch_id, :id ]}, units_attributes: [:unit_number, :name, :unit_curriculum, :id ] ] } )
     end
 end
