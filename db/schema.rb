@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130825055529) do
+ActiveRecord::Schema.define(version: 20130825191030) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -180,6 +180,7 @@ ActiveRecord::Schema.define(version: 20130825055529) do
     t.integer  "university_course_id"
     t.text     "unit_curriculum"
     t.integer  "unit_number"
+    t.string   "name"
   end
 
   add_index "units", ["university_course_id"], name: "index_units_on_university_course_id"
