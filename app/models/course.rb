@@ -7,4 +7,6 @@ class Course < ActiveRecord::Base
 	has_many :units
 	has_many :programs, through: :university_courses
 	has_many :program_university_courses, through: :university_courses
+
+	validates_uniqueness_of :name
 end
