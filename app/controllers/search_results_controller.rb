@@ -12,7 +12,16 @@ class SearchResultsController < ApplicationController
 	end
 
 	def find_courses_from_program_and_semester
-		render partial: "partials/home_search_form/stage3", locals: { courses: ProgramUniversityCourse.where( program_id: program_semester_params[:program_id], semester: program_semester_params[:semester]) }
+		puts "inside find_courses_from_program_and_semester"
+		puts program_semester_params
+		@pucs=ProgramUniversityCourse.where( program_id: program_semester_params[:program_id], semester: program_semester_params[:semester])
+		puts @pucs
+		render partial: "partials/home_search_form/stage3", locals: { prog_univ_courses: @pucs }
+	end
+
+	def get_course
+		@program_university_course=ProgramUniversityCourse.find(get_course_params[:id])
+		render "program_university_courses/show"
 	end
 
 	private
@@ -26,5 +35,8 @@ class SearchResultsController < ApplicationController
 
 		def program_semester_params
 			params.permit(:program_id, :semester, :commit, :controller, :action)
+		end
+		def get_course_params
+			params.permit(:id, :commit, :controller, :action)
 		end
 end

@@ -1,14 +1,21 @@
 <script type="text/javascript">
 $(function(){
-$('#search_box_stage1').bind('ajax:success', function(evt, data, status, xhr){
+var stack=[];
+$('#home_search_form').on('ajax:success','#search_box_stage1',function(evt, data, status, xhr){
     console.log("inside ajax success");
+    stack.push($("#home_search_form").html());
     //$this.replaceWith("<h1>Replaced</h1>");
     $('#search_box_stage1').replaceWith(xhr.responseText);
 });
-$('#search_box_stage2').delegate('ajax:success', function(evt, data, status, xhr){
-    console.log("inside ajax success");
+$('#home_search_form').on('ajax:success','#search_box_stage2', function(evt, data, status, xhr){
+    console.log("inside ajax success 2");
     //$this.replaceWith("<h1>Replaced</h1>");
+   stack.push($("#home_search_form").html());
     $('#search_box_stage2').replaceWith(xhr.responseText);
+});
+$('#home_search_form').on('click','#search_box_back', function(){
+    console.log("inside click back");
+    $("#home_search_form").html(stack.pop());
 });
 });
 </script>
