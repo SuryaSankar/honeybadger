@@ -1,0 +1,7 @@
+<div id="search_box_stage2">
+<%= form_tag '/search/find_courses_from_program_and_semester', method: :get , remote: true, class: "form-horizontal" do%>
+	<%= select_tag "program_id", options_from_collection_for_select(programs, "id" , "short_desc")%>
+	<%= select_tag "semester", options_for_select([ 1,2,3,4,5,6,7,8 ], 1)%>
+	<%= submit_tag "Next", class: "btn btn-danger" %>	
+<% end %>
+</div>

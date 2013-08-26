@@ -12,7 +12,8 @@ Honeybadger::Application.routes.draw do
 
   get "pages/about"
   get "pages/channel"
-  get '/search' => 'search_results#search'
+  get '/search/find_courses_from_program_and_semester' => 'search_results#find_courses_from_program_and_semester'
+  get '/search/find_programs_from_university_and_branch' => 'search_results#find_programs_from_university_and_branch'
 
   resources :qpapers
   resources :questions

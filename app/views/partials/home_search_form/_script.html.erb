@@ -1,0 +1,14 @@
+<script type="text/javascript">
+$(function(){
+$('#search_box_stage1').bind('ajax:success', function(evt, data, status, xhr){
+    console.log("inside ajax success");
+    //$this.replaceWith("<h1>Replaced</h1>");
+    $('#search_box_stage1').replaceWith(xhr.responseText);
+});
+$('#search_box_stage2').delegate('ajax:success', function(evt, data, status, xhr){
+    console.log("inside ajax success");
+    //$this.replaceWith("<h1>Replaced</h1>");
+    $('#search_box_stage2').replaceWith(xhr.responseText);
+});
+});
+</script>
