@@ -1,0 +1,14 @@
+<% if qpapers.length > 0 then %>
+Question Papers:
+<ol>
+<% qpapers.each do |qp| %>
+
+<li>
+<%= link_to qp.title, qpaper_path(qp.id) %>
+</li>
+<% end %>
+</ol>
+<% else %>
+There are no question papers yet for this course.
+<% end %>
+<%= link_to "Add a question paper", new_qpaper_path %>

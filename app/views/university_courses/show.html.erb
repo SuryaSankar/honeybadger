@@ -14,6 +14,9 @@
 
 <%= render partial: "units", object: @university_course.units %>
 
+<%= render partial: "qpapers", object: @university_course.qpapers %>
+
+
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               university_courses_path, :class => 'btn'  %>
