@@ -4,7 +4,7 @@
 		<div class="control-group">
 			 <label class="control-label" for="program_id">Choose your Course and head to the course page to see the question papers, notes and other stuff :</label>
 			 <div class="controls">
-				<%= select_tag "id", options_from_collection_for_select(prog_univ_courses, "id" , "full_course_name")%>
+				<%= select_tag "university_course_id", options_from_collection_for_select(prog_univ_courses, "university_course_id" , "full_course_name")%>
 			</div>
 		</div>
 		<div class="form-actions">
