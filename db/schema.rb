@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130825191030) do
+ActiveRecord::Schema.define(version: 20130828195631) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -97,9 +97,11 @@ ActiveRecord::Schema.define(version: 20130825191030) do
     t.string   "title"
     t.string   "html_content"
     t.string   "text"
+    t.integer  "topic_id"
   end
 
   add_index "notes", ["course_id"], name: "index_notes_on_course_id"
+  add_index "notes", ["topic_id"], name: "index_notes_on_topic_id"
   add_index "notes", ["unit_id"], name: "index_notes_on_unit_id"
   add_index "notes", ["user_id"], name: "index_notes_on_user_id"
 
@@ -157,8 +159,14 @@ ActiveRecord::Schema.define(version: 20130825191030) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
+    t.integer  "unit_id"
+    t.integer  "course_id"
+    t.integer  "topic_id"
   end
 
+  add_index "questions", ["course_id"], name: "index_questions_on_course_id"
+  add_index "questions", ["topic_id"], name: "index_questions_on_topic_id"
+  add_index "questions", ["unit_id"], name: "index_questions_on_unit_id"
   add_index "questions", ["user_id"], name: "index_questions_on_user_id"
 
   create_table "solutions", force: true do |t|
@@ -173,6 +181,13 @@ ActiveRecord::Schema.define(version: 20130825191030) do
 
   add_index "solutions", ["question_id"], name: "index_solutions_on_question_id"
   add_index "solutions", ["user_id"], name: "index_solutions_on_user_id"
+
+  create_table "topics", force: true do |t|
+    t.string  "name"
+    t.integer "super_topic_id"
+  end
+
+  add_index "topics", ["super_topic_id"], name: "index_subtopics_on_super_topic_id"
 
   create_table "units", force: true do |t|
     t.datetime "created_at"

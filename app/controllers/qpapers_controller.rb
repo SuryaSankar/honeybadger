@@ -28,18 +28,13 @@ class QpapersController < ApplicationController
   # POST /qpapers
   # POST /qpapers.json
   def create
-    puts qpaper_params
     @qpaper = Qpaper.new(qpaper_params)  
     @qpaper.user_id = current_user.id
     @qpaper.examquestions.each do |eq|
 	 eq.user_id = current_user.id
-	 puts "examquestion user id is "
-	 puts eq.user_id
 	 eq.question.user_id ||= current_user.id
-	 puts "question user id for " + eq.question.to_s
-	 puts eq.question.user_id
+	 eq.question.course_id ||= UniversityCourse.find(@qpaper.university_course_id).course_id
     end
-    puts @qpaper.attributes
     respond_to do |format|
       if @qpaper.save!
         format.html { redirect_to @qpaper, notice: 'Qpaper was successfully created.' }

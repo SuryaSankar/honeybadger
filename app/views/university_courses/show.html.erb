@@ -9,14 +9,14 @@
   <dt><strong>Course code:</strong></dt>
   <dd><%= @university_course.course_code %></dd>
   <dt><strong>Branch:</strong></dt>
-  <dd><%= @university_course.course.branch %></dd>
+  <dd><%= @university_course.course.branch.name %></dd>
 </dl>
 
 This course is offered as a part of the following programs
 <ul>
 <% @university_course.program_university_courses.each do |p| %>
 <% creditstr = p.credits > 1 ? "credits" : "credit" %>
-<li>A <%= p.credits.to_s + " " + creditstr + " course for semester "+ p.semester.to_s + " in " + p.program.branch.name %></li>	
+<li>A <%= p.credits.to_s + " " + creditstr + " course for semester "+ p.semester.to_s + " in " + @university_course.course.branch.name %></li>	
 <% end %>
 </ul>
 
