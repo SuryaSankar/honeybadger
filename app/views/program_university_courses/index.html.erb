@@ -6,11 +6,9 @@
   <thead>
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
-      <th><%= model_class.human_attribute_name(:program_id) %></th>
-      <th><%= model_class.human_attribute_name(:university_course_id) %></th>
-      <th><%= model_class.human_attribute_name(:semester) %></th>
-      <th><%= model_class.human_attribute_name(:elective) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th>Program</th>
+      <th>Course</th>
+      <th>Semester</th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -18,11 +16,9 @@
     <% @program_university_courses.each do |program_university_course| %>
       <tr>
         <td><%= link_to program_university_course.id, program_university_course_path(program_university_course) %></td>
-        <td><%= program_university_course.program_id %></td>
-        <td><%= program_university_course.university_course_id %></td>
+        <td><%= program_university_course.program.short_desc %></td>
+        <td><%= program_university_course.university_course.full_course_name %></td>
         <td><%= program_university_course.semester %></td>
-        <td><%= program_university_course.elective %></td>
-        <td><%=l program_university_course.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_program_university_course_path(program_university_course), :class => 'btn btn-mini' %>
