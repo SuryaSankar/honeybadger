@@ -18,7 +18,7 @@
   <dd><%= @program_university_course.university_course.course.practical ? "Practical" : "Theory" %></dd>
 </dl>
 
-<%= render partial: "university_courses/units", object: @program_university_course.university_course.units %>
+<%= render partial: "partials/units", object: @program_university_course.university_course.units %>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
