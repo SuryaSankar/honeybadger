@@ -14,12 +14,29 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 	padding-top: 10px;
 	margin-bottom: 0px;
 }
+@font-face {
+  font-family: 'crayon';    
+  src: url(<%= asset_path 'crayon.eot' %>);
+  src: url('/assets/crayon.eot?iefix') format('embedded-opentype'),
+  url(<%= asset_path 'crayon.woff' %>) format('woff'),
+  url(<%= asset_path 'crayon.ttf' %>) format('truetype'),
+  url('/assets/crayon.svg#crayon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 #banner{
-	background-color: @boardGreen;
 	color: @white;
 	.border-radius(0px);
 	margin-bottom: 0px;
 	padding-top: 40px;
+	font-family: crayon;
+	background: -webkit-radial-gradient(50% 50%, ellipse, rgb(0, 159, 107), rgb(0,0, 0));
+	background: -moz-radial-gradient(50% 50%, ellipse, rgb(0, 158, 96), rgb(47, 79, 79));
+	background: -ms-radial-gradient(circle, rgb(75, 75, 200), rgb(0, 0, 75));
+	background: -o-radial-gradient(circle, rgb(75, 75, 200), rgb(0, 0, 75));
+	background: radial-gradient(circle, rgb(75, 75, 200), rgb(0, 0, 75));
 }
 
 #signup_modal .modal-body {
