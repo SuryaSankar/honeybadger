@@ -13,8 +13,7 @@
 				<%= select_tag "branch_id", options_from_collection_for_select(Branch.all, "id" , "name")%>
 			</div>
 		</div>
-		<div class="form-actions">
 		<%= submit_tag "Next", class: "btn btn-danger" %>
-		</div>	
+
 	<% end %>
 </div>

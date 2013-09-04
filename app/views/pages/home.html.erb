@@ -13,13 +13,20 @@
 					<li><i class="icon-check-empty"></i> Tutors</li>
 					</ul>
 				</div>
+				<div class="span3 whiteText">
+			<ul>
+			<li><%= link_to "Facebook", user_omniauth_authorize_path(:facebook) %></li>
+			<li><%= link_to   "Google", user_omniauth_authorize_path(:google_oauth2) %></li>
+			</ul>
+			
+				</div>
 			</div>
 		</div>
 		<div class="navbar" id="lowerBar"><div class="navbar-inner"  ></div></div>
 </div>
 
 <div class="row" id="launchBox">
-	<div class="well span8" id="home_search_form">
+	<div class="span8" id="home_search_form">
 	<%= render "partials/home_search_form/stage1"%>
 	</div>
 	<div class="span3 offset1">
