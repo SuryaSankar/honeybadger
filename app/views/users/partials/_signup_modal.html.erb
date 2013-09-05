@@ -3,7 +3,7 @@
 <div id="signup_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="signup_modal_label" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="signup_modal_label">Sign in if you've already registered</h3>
+    <h3 id="signup_modal_label">Register</h3>
   </div>
   <div class="modal-body">
 		<%= bootstrap_flash %> 
@@ -11,10 +11,10 @@
 		  <%= f.error_notification %>
 
 		  <div class="form-horizontal pull-left">
+		    <%= f.input :uname, :required => true %>
 		    <%= f.input :email, :required => true, :autofocus => true %>
 		    <%= f.input :password, :required => true %>
 		    <%= f.input :password_confirmation, :required => true %>
-		    <%= f.input :uname, :required => true %>
 		    <%= f.button :submit, "Sign up" %>
 		  </div>
 

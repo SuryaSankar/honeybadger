@@ -27,16 +27,73 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   font-weight: normal;
   font-style: normal;
 }
+@fbBlue: #0033FF;
+.blueText{
+	color: @fbBlue;
+}
 
+.redText{
+	color: red;
+}
+
+.navbarCursiveFont{
+	font-family: 'Walter Turncoat' , cursive;
+	font-weight: bold;
+	font-size: 13px;
+	  li { font-size: 13px;
+		font-weight: bold;
+		font-family: 'Walter Turncoat', cursive;
+	    a { text-decoration: none; 
+		font-family: 'Walter Turncoat', cursive;
+	      &:hover { border-width: 1px; color: @black; }
+	    }
+	  }
+}
+
+.handwriting(@family: 'Walter Turncoat', @fontColor: @white){
+	font-family: @family;
+	color: @fontColor;
+	  h1 {
+	    font-size: 52px;
+	    font-weight: bold;
+	  }
+	p{
+	font-size: 13px;
+	font-family: @family;
+	    a { text-decoration: underline; 
+		color: @fontColor;
+		font-family: 'Walter Turncoat', cursive;
+		font-weight: bold;
+		font-size: 14px;
+	      &:hover { border-width: 1px; color: @fontColor; }
+	    }
+	}	
+	  li { font-size: 14px;
+		color: @fontColor;
+		font-family: 'Walter Turncoat', cursive;
+	    a { text-decoration: none; 
+		color: @fontColor;
+		font-family: 'Walter Turncoat', cursive;
+	      &:hover { border-width: 1px; color: @fontColor; }
+	    }
+	  }
+}
+
+.handwriting{
+	.handwriting;
+}
+
+.navBarHandwriting{
+	.handwriting(@family: 'Walter Turncoat',@fontColor: @boardGreen);
+}
 
 #banner{
 	color: @white;
 	.border-radius(0px);
 	margin-bottom: 0px;
-	padding-top: 40px;
+	padding-top: 20px;
 	background-color: @boardGreen;
-	height: 120px;
-
+	.handwriting;
 }
 
 #signup_modal .modal-body {

@@ -1,24 +1,30 @@
 <div class="row">	
 		<div class="hero-unit noise" id="banner">
 			<div class="row">
-				<div class="span5">
-					<h1>Karpeer<small>  / kəˈrpēr /</small></h1> <h4> <em>Origin:</em> A Tamil verb </h4><h4> <em>Meaning:</em> <strong>An appeal to learn </strong> </h4>
+				<div class="span4">
+					<h1>Karpeer<small>  / kəˈrpēr /</small></h1> <h4> <em>Origin: &nbsp;&nbsp;</em> A Tamil verb </h4><h4> <em>Meaning: &nbsp;&nbsp;</em> <strong>An appeal to learn </strong> </h4>
 				</div>
 				<div class="span2">
-					<ul class="icons-ul">
-					<li><i class="icon-check"></i> Question Papers</li>
-					<li><i class="icon-check"></i> Cheat Sheets</li>
-					<li><i class="icon-check-empty"></i> Solutions</li>
-					<li><i class="icon-check-empty"></i> Video lectures</li>
-					<li><i class="icon-check-empty"></i> Tutors</li>
-					</ul>
+					<p><i class="icon-check"></i> Question Papers</p>
+					<p><i class="icon-check"></i> Cheat Sheets</p>
+					<p><i class="icon-check-empty"></i> Solutions</p>
+					<p><i class="icon-check-empty"></i> Video lectures</p>
+					<p><i class="icon-check-empty"></i> Tutors</p>
 				</div>
-				<div class="span3 whiteText">
-			<ul>
-			<li><%= link_to "Facebook", user_omniauth_authorize_path(:facebook) %></li>
-			<li><%= link_to   "Google", user_omniauth_authorize_path(:google_oauth2) %></li>
-			</ul>
-			
+				<div class="span6">
+					<p>Enrolling is dead simple. Takes just one click to sign in using your</p>
+					<p><%= link_to  user_omniauth_authorize_path(:facebook) do %>
+						<i class="icon-facebook"></i> - Facebook Account
+						<% end %> 
+						&nbsp;Or&nbsp;
+						<%= link_to  user_omniauth_authorize_path(:google_oauth2) do %>
+						<i class="icon-google-plus"></i> - Gmail Account
+						<% end %>
+					</p>
+					
+					<p>Don't have these accounts? No Problem</p>
+					<p>Click <a data-toggle="modal" data-target="#signin_modal"> here </a> to sign in with your email. You will need to <a data-toggle="modal" data-target="#signup_modal"> <i class="icon-envelope"></i> register </a> first of course.</p>
+
 				</div>
 			</div>
 		</div>
@@ -56,7 +62,8 @@
 
  <!-- End container -->
 
-<%= render partial: 'devise/partials/signup_modal' %>
+<%= render partial: 'users/partials/signup_modal' %>
+<%= render partial: 'users/partials/signin_modal' %>
 <% content_for :extra_scripts do %>
 	<%= render partial: "partials/home_search_form/script" %>
 <% end %>
