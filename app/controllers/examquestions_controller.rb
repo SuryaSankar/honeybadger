@@ -14,7 +14,7 @@ class ExamquestionsController < ApplicationController
 
   # GET /examquestions/new
   def new
-    @examquestion = Examquestion.new
+    @examquestion = Examquestion.new.tap { |e| e.build_question }
   end
 
   # GET /examquestions/1/edit
@@ -69,6 +69,6 @@ class ExamquestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def examquestion_params
-      params[:examquestion]
+      params.require(:examquestion).permit(:qpaper_id, :mark, :qnumber, :question_id, :subquestion_no,  {question_attributes: [:qtext, :qdesc, :id]})
     end
 end

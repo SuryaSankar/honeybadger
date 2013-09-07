@@ -13,9 +13,8 @@
 		<div class="well">
 			<%= eq.input :qnumber, label: "Question Number:"  %>
 			<%= eq.input :mark, label: "Mark:"  %>
+			<%= eq.input :subquestion_no, label: "Sub-question number:"  %>
 			<%= eq.input :id, :as => :hidden, :input_html => { :value => eq.object.id } %>
-		  	
-			
 			<% if eq.object.question.user_id == current_user.id %>
 			   <%= eq.simple_fields_for :question do |q| %>
 				    <%= q.input :id, :as => :hidden, :input_html => { :value => q.object.id } %>
@@ -27,7 +26,7 @@
 			<% end %>
     		</div> 
 	<% end %> 
-	<p><%= f.link_to_add( :examquestions, model_object: Examquestion.new.tap{ |eq| eq.build_question }, class: "btn btn-primary" ) do%>
+	<p><%= f.link_to_add( :examquestions, model_object: lambda {e= @qpaper.examquestions.build; e.question= Question.new; return e;}, class: "btn btn-primary" ) do%>
 		Add Question
 	<% end %></p>
 	<div class="form-actions">

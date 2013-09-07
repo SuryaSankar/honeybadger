@@ -1,8 +1,14 @@
-<%= simple_form_for @examquestion, :html => { :class => 'form-horizontal' } do |f| %>
-  <%= f.input :question_id %>
-  <%= f.input :qpaper_id %>
+<%= simple_nested_form_for @examquestion, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.association :qpaper , label_method: :title %>
   <%= f.input :mark %>
   <%= f.input :qnumber %>
+  <%= f.input :subquestion_no, label: "Sub-question number:"  %>
+   <%= f.association :question , label_method: :qtext %>
+	<div class="row"><div class="span1 offset3">OR</div></div>
+   <%= f.simple_fields_for :question, @examquestion.question do |question_form| %>
+    <%= question_form.input :qtext, label: "Question:"  %>
+    <%= question_form.input :qdesc, label: "Question Details:"  %>
+  <% end %>
   <div class="form-actions">
     <%= f.button :submit, :class => 'btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),

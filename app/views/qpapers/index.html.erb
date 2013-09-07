@@ -5,10 +5,10 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
-      <th><%= model_class.human_attribute_name(:year) %></th>
-      <th><%= model_class.human_attribute_name(:university_course_id) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th>Id</th>
+      <th> Qpaper title </title>
+      <th>Year</th>
+      <th>Course</th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -16,9 +16,9 @@
     <% @qpapers.each do |qpaper| %>
       <tr>
         <td><%= link_to qpaper.id, qpaper_path(qpaper) %></td>
+	<td><%= qpaper.title %></td>
         <td><%= qpaper.year %></td>
-        <td><%= qpaper.university_course_id %></td>
-        <td><%=l qpaper.created_at %></td>
+        <td><%= qpaper.university_course.try(:full_course_name) %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_qpaper_path(qpaper), :class => 'btn btn-mini' %>
