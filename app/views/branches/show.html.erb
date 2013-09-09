@@ -1,7 +1,14 @@
 <%- model_class = Branch -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
-</div>
+
+<% content_for :masthead_content do %>
+	<div class="row">
+		<div class="span8">
+			<h2><%= @branch.name %></h2>
+		</div>
+	</div>
+<% end %>
+
+
 
 <dl class="dl-horizontal">
   <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>

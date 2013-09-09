@@ -2,15 +2,26 @@
 	<div class="span4"> Year: <%= @qpaper.year %></div>
 	<div class="span4">Course: <%= @qpaper.university_course.try(:full_course_name) %></div>
 </div>
-<% qn = 0 %>
-<% @qpaper.examquestions.order("qnumber").includes(:question).each do |eq| %>
-<div class="row">
-  <% if eq.qnumber == qn %>
-  <div class="row"><div class="span1 offset5">(Or)</div></div>
-  <% end %>
-  <div class="span12"><%= eq.qnumber %> <%= eq.question.qtext %></div>
-  <% qn=eq.qnumber %>
-</div>
+<% prev_qn = 0 %>
+<% prev_sqn = nil %>
+<% subq_id = 'a' %>
+<% @qpaper.examquestions.order("qnumber ASC, subquestion_no ASC").includes(:question).each do |eq| %>
+	  <div class="row">
+		  <% if eq.qnumber == prev_qn then %>
+		    <% if eq.subquestion_no == prev_sqn %>
+			  <div class="span10"><%= subq_id = subq_id.next %><%= "." %><%= eq.question.qtext %></div>
+		    <% else %>
+			<div class="span1 offset5">(Or)</div></div>
+			<div class="row">
+			  <div class="span10"><%= subq_id = 'a' %><%= "." %><%= eq.question.qtext %></div>
+		    <% end %>
+		  <% else %>
+		      <div class="span10"><%= eq.qnumber %><%= eq.subquestion_no.nil? ? "" : subq_id = 'a' %><%= "." %><%= eq.question.qtext %></div>
+		  <% end %>
+		<div class = "span1 offset1"><%= '(' + eq.mark.to_s + ')' %></div>
+	  </div>
+  	  <% prev_qn=eq.qnumber %>
+	  <% prev_sqn = eq.subquestion_no %>
 <% end %>
 
 

@@ -41,7 +41,7 @@
 <li class="divider-vertical"></li>
               <li><%= link_to "Question Bank", qpapers_path  %></li>
 <li class="divider-vertical"></li>
-	      <% if user_signed_in? %>
+	      <% if user_signed_in? then%>
 			<li class="dropdown">
 			  <a id="account_dropdown" class="dropdown-toggle" data-toggle="dropdown" href="#">My account</a>
 			  <ul class="dropdown-menu" role="menu" aria-labelledby="account_dropdown">
@@ -58,8 +58,25 @@
       </div>
     </div>
 
+<% if content_for? :masthead_content then %>
+<div class="row" id="masthead">	
+	<div class="hero-unit noise" id="banner">
+		<%= yield :masthead_content %>
+	</div>		
+</div>
+<div class="navbar" id="lowerBar"><div class="navbar-inner"  ></div></div>
+<% end %> 
 
-            <%= yield %>
+<div class="row">
+<div class="span3">
+<%= render partial: 'partials/branches_nav' %>
+</div>
+<div class="span9">
+<%= yield %>
+</div>
+</div>
+           
+
 
 
     <!-- Javascripts
