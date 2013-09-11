@@ -10,12 +10,17 @@
 
 
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
-  <dd><%= @branch.name %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:stream) %>:</strong></dt>
-  <dd><%= @branch.stream %></dd>
-</dl>
+<div class="tabbable">
+  <ul class="nav nav-tabs">
+	  <% @branch.programs.each do |program| %>
+	  <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+	  <li><%= link_to program.short_desc, program_path( program.id ) %></li>
+	  <% end %>    
+  </ul>
+  <div class="tab-content">
+    ...
+  </div>
+</div>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
