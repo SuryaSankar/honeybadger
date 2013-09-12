@@ -1,0 +1,38 @@
+
+<div class="page-header">
+  <h2>New question paper</h2>
+</div>
+
+<%= simple_nested_form_for @qpaper, :html => { :class => 'form-horizontal' } do |f| %>
+<div class="well">
+  <%= f.input :year , collection: 2013.downto(1990) %>
+  <%= f.input :title %>
+  <%= f.input :exam_name %>
+  <%= f.input :university_course_id, :as => :hidden, :input_html => { :value => @university_course.id } %>
+  <%= f.association :programs , label_method: :short_desc, as: :check_boxes %>
+  <%= f.input :month %>
+  <%= f.input :semester %>
+  <%= f.input :official %>
+</div>
+  <%= f.simple_fields_for :examquestions do |examquestion_form| %>
+    <div class="well">
+	    <%= examquestion_form.input :qnumber, label: "Question Number:"  %>
+	    <%= examquestion_form.input :mark, label: "Mark:"  %>
+	    <%= examquestion_form.input :subquestion_no, label: "Sub-question number:"  %>
+		   <%= examquestion_form.association :question ,collection: @university_course.course.questions, label_method: :qtext %>
+			<div class="row"><div class="span1 offset3">OR</div></div>
+		   <%= examquestion_form.simple_fields_for :question do |question_form| %>
+		    <%= question_form.input :qtext, label: "Question:"  %>
+		    <%= question_form.input :qdesc, label: "Question Details:"  %>
+		  <% end %>   
+    </div> 
+  <% end %>
+  <p><%= f.link_to_add( :examquestions, model_object: Examquestion.new.tap{ |eq| eq.build_question }, class: "btn btn-primary" ) do%>
+   Add Question
+   <% end %></p>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                qpapers_path, :class => 'btn' %>
+  </div>
+<% end %>
