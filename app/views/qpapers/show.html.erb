@@ -5,26 +5,32 @@
 <% prev_qn = 0 %>
 <% prev_sqn = nil %>
 <% subq_id = 'a' %>
+<table class="table">
+<thead>
+<tr>
+<th>Q.No.</th><th>Question</th><th>Marks</th>
+</tr>
+</thead>
+<tbody>
 <% @qpaper.examquestions.order("qnumber ASC, subquestion_no ASC").includes(:question).each do |eq| %>
-	  <div class="row">
+	  <tr>
 		  <% if eq.qnumber == prev_qn then %>
 		    <% if eq.subquestion_no == prev_sqn %>
-			  <div class="span10"><%= subq_id = subq_id.next %><%= "." %><%= raw render_markdown eq.question.qtext %></div>
+			  <td><%= subq_id = subq_id.next %><%= "." %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
 		    <% else %>
-			<div class="span1 offset5">(Or)</div></div>
-			<div class="row">
-			  <div class="span10"><%= subq_id = 'a' %><%= "." %><%= raw render_markdown eq.question.qtext %></div>
+			<td></td><td><h4>Or</h4></td><td></td></tr>
+			<tr>
+			  <td><%= subq_id = 'a' %><%= "." %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
 		    <% end %>
 		  <% else %>
-		      <div class="span10"><%= eq.qnumber %><%= eq.subquestion_no.nil? ? "" : subq_id = 'a' %><%= "." %><%= raw render_markdown eq.question.qtext %></div>
+		      <td><%= eq.qnumber %><%= eq.subquestion_no.nil? ? "" : subq_id = 'a' %><%= "." %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
 		  <% end %>
-		<div class = "span1 offset1"><%= '(' + eq.mark.to_s + ')' %></div>
-	  </div>
+	  </tr>
   	  <% prev_qn=eq.qnumber %>
 	  <% prev_sqn = eq.subquestion_no %>
 <% end %>
-
-
+</tbody>
+</table>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
