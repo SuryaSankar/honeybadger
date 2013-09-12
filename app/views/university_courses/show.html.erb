@@ -22,7 +22,7 @@ This course is offered as a part of the following programs
 
 <%= render partial: "partials/units", locals: {units: @university_course.units } %>
 
-<%= render partial: "partials/qpapers", locals: { qpapers: @university_course.qpapers } %>
+<%= render partial: "partials/qpapers", locals: { qpapers: @university_course.qpapers, path: university_courses_new_qpaper_path(@university_course.id) } %>
 
 
 <div class="form-actions">

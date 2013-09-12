@@ -15,6 +15,8 @@ Honeybadger::Application.routes.draw do
   get '/search/find_courses_from_program_and_semester' => 'search_results#find_courses_from_program_and_semester'
   get '/search/find_programs_from_university_and_branch' => 'search_results#find_programs_from_university_and_branch'
   get '/search/get_course' => 'search_results#get_course'
+  get '/university_courses/:id/new_qpaper' => 'university_courses#new_qpaper' , as: "university_courses_new_qpaper"
+  
 
   resources :qpapers
   resources :questions
