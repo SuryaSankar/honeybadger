@@ -1,7 +1,27 @@
 <%- model_class = UniversityCourse -%>
-<div class="page-header">
-  <h1><%= @university_course.course.name %></h1>
-</div>
+<% content_for :masthead_content do %>
+	<div class="row">
+		<div class="span6">
+			<h2><%= @university_course.course_code+" - "+@university_course.course.name %></h2>
+		</div>
+		<div class="span6">
+		<% if !user_signed_in? then%>
+			<p>Enroling is dead simple. Takes just one click to sign in using your</p>
+			<p><%= link_to  user_omniauth_authorize_path(:facebook) do %>
+				<i class="icon-facebook"></i> - Facebook Account
+				<% end %> 
+				&nbsp;Or&nbsp;
+				<%= link_to  user_omniauth_authorize_path(:google_oauth2) do %>
+				<i class="icon-google-plus"></i> - Gmail Account
+				<% end %>
+			</p>
+	
+			<p>Don't have these accounts? No Problem</p>
+			<p><i class="icon-envelope"></i><a data-toggle="modal" data-target="#signup_modal"> Register </a> using your email id. If you have already registered click <a data-toggle="modal" data-target="#signin_modal"> here </a> to sign in.</p>
+		<% end %>
+		</div>
+	</div>
+<% end %>
 
 <dl class="dl-horizontal">
   <dt><strong>University</strong></dt>
@@ -20,10 +40,12 @@ This course is offered as a part of the following programs
 <% end %>
 </ul>
 
+
 <%= render partial: "partials/units", locals: {units: @university_course.units } %>
 
 <%= render partial: "partials/qpapers", locals: { qpapers: @university_course.qpapers, path: university_courses_new_qpaper_path(@university_course.id) } %>
 
+<% if admin_signed_in? then %>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
@@ -36,3 +58,4 @@ This course is offered as a part of the following programs
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
 </div>
+<% end %>

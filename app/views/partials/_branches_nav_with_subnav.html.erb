@@ -3,9 +3,9 @@
   <% @branches = Branch.includes(:programs).all %>
   <% @branches.each do |branch| %>
   <li class="dropdown" ><%= link_to branch_path( branch.id ), class: "dropdown-toggle", "data-toggle" => "dropdown"  do %>
-	<%= branch.name %><b class="caret"></b>
+	<%= branch.name %>&nbsp;<i class="icon-angle-down"></i>
   <% end %>
-  <ul class="dropdown-menu">
+  <ul class="dropdown-menu pull-right">
   <% branch.programs.each do |program| %>
   <li><%= link_to program.short_desc, program_path( program.id ) %></li>
   <% end %>

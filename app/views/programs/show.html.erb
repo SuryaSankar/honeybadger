@@ -23,30 +23,34 @@
 	</div>
 <% end %>
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:degree_name) %>:</strong></dt>
-  <dd><%= @program.degree_name %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:university_id) %>:</strong></dt>
-  <dd><%= @program.university_id %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:branch_id) %>:</strong></dt>
-  <dd><%= @program.branch_id %></dd>
-</dl>
+<% pucs= @program.program_university_courses.includes(university_course: :course).order("semester") %>
+<% pucs_semwise = pucs.group_by { |puc| puc.semester } %>
 
-<h3>Curriculum</h3>
-<% @program.program_university_courses.each do |puc| %>
-	<dl class="dl-horizontal">
-	  <dt><strong>Course code: </strong></dt>
-	  <dd><%= puc.university_course.course_code %></dd>
-	  <dt><strong>Course Name: </strong></dt>
-	  <dd><%= puc.university_course.course.name %></dd>
-	  <dt><strong>Semester: </strong></dt>
-	  <dd><%= puc.semester %></dd>
-	  <dt><strong>Credits: </strong></dt>
-	  <dd><%= puc.credits %></dd>
-	</dl>	
-<% end %>
+<div class="tabbable">
+  <ul class="nav nav-tabs">
+	  <li class="active"><%= link_to "Semester "+pucs_semwise.keys.first.to_s, "#sem"+pucs_semwise.keys.first.to_s , "data-toggle" => "tab" %></li>
+	  <% pucs_semwise.keys[1..-1].each do |sem| %>
+	  	<li><%= link_to "Semester "+sem.to_s, "#sem"+sem.to_s , "data-toggle" => "tab" %></li>
+	  <% end %>    
+  </ul>
+  <div class="tab-content">
+    <%= content_tag :div, class: "tab-pane active", id: "sem"+pucs_semwise.keys.first.to_s do %>
+	<% pucs_semwise.values.first.each do |puc| %>
+		<p><%= link_to puc.university_course.course_code+" - "+puc.university_course.course.name, university_course_path(puc.university_course_id) %></p>
+	<% end %>
+    <% end %>
 
+    <% pucs_semwise.keys[1..-1].each_with_index do |sem, index| %>
+      <%= content_tag :div, class: "tab-pane", id: "sem"+sem.to_s do %>
+	<% pucs_semwise.values[index+1].each do |puc| %>
+		<p><%= link_to puc.university_course.course_code+" - "+puc.university_course.course.name, university_course_path(puc.university_course_id) %></p>
+	<% end %>
+      <% end %>
+    <% end %>
+  </div>
+</div>
 
+<% if admin_signed_in? then %>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
@@ -59,3 +63,5 @@
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
 </div>
+
+<% end %>

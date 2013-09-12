@@ -2,9 +2,6 @@
   <li class="nav-header">Branches</li>
   <% @branches = Branch.includes(:programs).all %>
   <% @branches.each do |branch| %>
-  <li class="dropdown" ><%= link_to branch_path( branch.id ), class: "dropdown-toggle", "data-toggle" => "dropdown"  do %>
-	<%= branch.name %>
-  <% end %>
-  </li>
+  <li><%= link_to branch.name, branch_path( branch.id )%></li>
   <% end %>
 </ul>
