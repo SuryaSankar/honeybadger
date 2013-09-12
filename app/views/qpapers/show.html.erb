@@ -9,14 +9,14 @@
 	  <div class="row">
 		  <% if eq.qnumber == prev_qn then %>
 		    <% if eq.subquestion_no == prev_sqn %>
-			  <div class="span10"><%= subq_id = subq_id.next %><%= "." %><%= eq.question.qtext %></div>
+			  <div class="span10"><%= subq_id = subq_id.next %><%= "." %><%= raw render_markdown eq.question.qtext %></div>
 		    <% else %>
 			<div class="span1 offset5">(Or)</div></div>
 			<div class="row">
-			  <div class="span10"><%= subq_id = 'a' %><%= "." %><%= eq.question.qtext %></div>
+			  <div class="span10"><%= subq_id = 'a' %><%= "." %><%= raw render_markdown eq.question.qtext %></div>
 		    <% end %>
 		  <% else %>
-		      <div class="span10"><%= eq.qnumber %><%= eq.subquestion_no.nil? ? "" : subq_id = 'a' %><%= "." %><%= eq.question.qtext %></div>
+		      <div class="span10"><%= eq.qnumber %><%= eq.subquestion_no.nil? ? "" : subq_id = 'a' %><%= "." %><%= raw render_markdown eq.question.qtext %></div>
 		  <% end %>
 		<div class = "span1 offset1"><%= '(' + eq.mark.to_s + ')' %></div>
 	  </div>

@@ -1,13 +1,12 @@
 <%- model_class = Question -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
-</div>
 
 <dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:qtext) %>:</strong></dt>
-  <dd><%= @question.qtext %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:qdesc) %>:</strong></dt>
+  <dt><strong>Question:</strong></dt>
+  <dd><%= raw render_markdown @question.qtext %></dd>
+  <% if !@question.qdesc.nil? then %>
+  <dt><strong>Description:</strong></dt>
   <dd><%= @question.qdesc %></dd>
+  <% end %>
 </dl>
 
 <div class="form-actions">
