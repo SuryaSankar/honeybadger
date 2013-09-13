@@ -7,7 +7,7 @@
   <% end %>
   <ul class="dropdown-menu pull-right">
   <% branch.programs.each do |program| %>
-  <li><%= link_to program.short_desc, program_path( program.id ) %></li>
+  <li><%= link_to program.degree_short+" - "+program.university.short, program_path( program.id ) %></li>
   <% end %>
   </ul>
   </li>

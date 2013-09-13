@@ -1,0 +1,17 @@
+<% @branches = Branch.includes(:programs).all %>
+<div class="accordion" id="accordion2">
+  <% @branches.each_with_index do |branch, index| %>
+  <div class="accordion-group">
+    <div class="accordion-heading blackandwhite noise">
+      <%= link_to branch.name, "#collapse"+index.to_s, class: "accordion-toggle", "data-toggle" => "collapse" , "data-parent" => "#accordion2" %>
+    </div>
+    <%= content_tag :div, id: "collapse"+index.to_s, class: "accordion-body collapse" do%>
+      <div class="accordion-inner noise">
+	   <% branch.programs.each do |program| %>
+	   <p><%= link_to program.degree_short+" - "+program.university.short, program_path( program.id ) %></p>
+	   <% end %>
+      </div>
+    <% end %>
+  </div>
+  <% end %>
+</div>

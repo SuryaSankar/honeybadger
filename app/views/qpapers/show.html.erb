@@ -1,3 +1,28 @@
+<% content_for :masthead_content do %>
+	<div class="row">
+		<div class="span6">
+			<h4><%= @qpaper.title + " " + @qpaper.month + " " + @qpaper.year.to_s %></h4>
+			<h4><%= @qpaper.university_course.try(:full_course_name) %> </h4>
+		</div>
+		<div class="span6">
+		<% if !user_signed_in? then%>
+			<p>Enroling is dead simple. Takes just one click to sign in using your</p>
+			<p><%= link_to  user_omniauth_authorize_path(:facebook) do %>
+				<i class="icon-facebook"></i> - Facebook Account
+				<% end %> 
+				&nbsp;Or&nbsp;
+				<%= link_to  user_omniauth_authorize_path(:google_oauth2) do %>
+				<i class="icon-google-plus"></i> - Gmail Account
+				<% end %>
+			</p>
+			</br>
+			<p>Don't have these accounts? No Problem</p>
+			<p><a data-toggle="modal" data-target="#signup_modal"> Register </a> using your email id.</p><p> If you've already registered click <a data-toggle="modal" data-target="#signin_modal"> here </a> to sign in.</p>
+		<% end %>
+		</div>
+	</div>
+<% end %>
+
 <div class="row">
 	<div class="span4"> Year: <%= @qpaper.year %></div>
 	<div class="span4">Course: <%= @qpaper.university_course.try(:full_course_name) %></div>
@@ -5,7 +30,7 @@
 <% prev_qn = 0 %>
 <% prev_sqn = nil %>
 <% subq_id = 'a' %>
-<table class="table">
+<table class="table table-condensed">
 <thead>
 <tr>
 <th>Q.No.</th><th>Question</th><th>Marks</th>
@@ -16,14 +41,14 @@
 	  <tr>
 		  <% if eq.qnumber == prev_qn then %>
 		    <% if eq.subquestion_no == prev_sqn %>
-			  <td><%= subq_id = subq_id.next %><%= "." %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
+			  <td><%= eq.qnumber %><%= "." %><%= subq_id = subq_id.next %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
 		    <% else %>
-			<td></td><td><h4>Or</h4></td><td></td></tr>
+			<td></td><td>Or</td><td></td></tr>
 			<tr>
-			  <td><%= subq_id = 'a' %><%= "." %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
+			  <td><%= eq.qnumber %><%= "." %><%= subq_id = 'a' %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
 		    <% end %>
 		  <% else %>
-		      <td><%= eq.qnumber %><%= eq.subquestion_no.nil? ? "" : subq_id = 'a' %><%= "." %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
+		      <td><%= eq.qnumber %><%= "." %><%= eq.subquestion_no.nil? ? "" : subq_id = 'a' %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
 		  <% end %>
 	  </tr>
   	  <% prev_qn=eq.qnumber %>

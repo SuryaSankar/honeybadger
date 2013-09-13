@@ -10,7 +10,22 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 .blackandwhite{
         background-color: @black;
 	color: @white;
+	    a { text-decoration: None; 
+		color: @white;
+		font-family: 'Special Elite', cursive;
+	      &:hover { border-width: 1px; color: @white; text-decoration: underline;  }
+	    }
+	p{
+	font-family: 'Special Elite', cursive;
+	    a { text-decoration: None; 
+		color: @white;
+		font-family: 'Special Elite', cursive;
+	      &:hover { border-width: 1px; color: @white; text-decoration: underline;  }
+	    }
+	}
 }
+
+
 .whiteOnGreen{
 	background-color: @boardGreen;
 	color: @white;
