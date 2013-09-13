@@ -19,7 +19,7 @@
 	    <%= examquestion_form.input :qnumber, label: "Question Number:"  %>
 	    <%= examquestion_form.input :mark, label: "Mark:"  %>
 	    <%= examquestion_form.input :subquestion_no, label: "Sub-question number:"  %>
-		   <%= examquestion_form.association :question ,collection: @university_course.course.questions, label_method: :qtext %>
+		   <%= examquestion_form.association :question ,collection: @university_course.course.questions.order("qtext ASC"), label_method: :qtext %>
 			<div class="row"><div class="span1 offset3">OR</div></div>
 		   <%= examquestion_form.simple_fields_for :question do |question_form| %>
 		    <%= question_form.input :qtext, label: "Question:"  %>
