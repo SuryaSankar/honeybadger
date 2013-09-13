@@ -33,7 +33,7 @@
 <table class="table table-condensed">
 <thead>
 <tr>
-<th>Q.No.</th><th>Question</th><th>Marks</th>
+<th>Q.No.</th><th>Question</th><th>Marks</th><th>Solutions</th>
 </tr>
 </thead>
 <tbody>
@@ -41,15 +41,18 @@
 	  <tr>
 		  <% if eq.qnumber == prev_qn then %>
 		    <% if eq.subquestion_no == prev_sqn %>
-			  <td><%= eq.qnumber %><%= "." %><%= subq_id = subq_id.next %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
+			  <td><%= eq.qnumber %><%= "." %><%= subq_id = subq_id.next %></td>
 		    <% else %>
 			<td></td><td>Or</td><td></td></tr>
 			<tr>
-			  <td><%= eq.qnumber %><%= "." %><%= subq_id = 'a' %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
+			  <td><%= eq.qnumber %><%= "." %><%= subq_id = 'a' %></td>
 		    <% end %>
 		  <% else %>
-		      <td><%= eq.qnumber %><%= "." %><%= eq.subquestion_no.nil? ? "" : subq_id = 'a' %></td><td><%= raw(render_markdown(eq.question.qtext)) %> </td><td><%= eq.mark.to_s %></td>
+		      <td><%= eq.qnumber %><%= "." %><%= eq.subquestion_no.nil? ? "" : subq_id = 'a' %></td>
 		  <% end %>
+		  <td><%= raw(render_markdown(eq.question.qtext)) %></td>
+		  <td><%= eq.mark.to_s %></td>
+		  <td><%= link_to "Solutions", question_path(eq.question_id), class: "btn btn-success" %></td>
 	  </tr>
   	  <% prev_qn=eq.qnumber %>
 	  <% prev_sqn = eq.subquestion_no %>
