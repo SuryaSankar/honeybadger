@@ -1,0 +1,96 @@
+!START_QPAPER_DESC!
+!University! Anna University
+!CourseCode! EE2251
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 4
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define statically and dynamically induced EMF. (2)
+2. What is Hysteresis loss and how can this loss be minimized? (2)
+3. Why is transformer rated in KVA? (2)
+4. Compare two winding transformer and auto transformer.(2)
+5. What are the advantages of analyzing energy conversion devises by field energy concept?(2)
+6. Draw the general block diagram of electromechanical energy conversion device.(2)
+7. What is back EMF in a D.C. motor? (2)
+8. Define winding factor. (2)
+9. What is armature reaction in DC machines? (2)
+10. Explain why Swinburne’s test cannot be performed on DC series motor. (2)
+11. 
+(a) Compare electric and magnetic circuit by their similarities and dissimilarities. (16)
+Or
+(b) A ring composed of three sections. The cross section area is 0.001 m2 for each section. The mean arc length are Ia = 0.3 m, Ib,= 0.2 m, Ic 0.1 m. an air gap length of 0.1 mm is cut in the ring. μr for sections a, b and c are 5000, 1000 and 10000 respectively. Flux in the air gap is 7.5 × 10–4 Wb. Find (i) mmf (ii) exciting current if the coil has 100 turns (iii) reluctance of the sections. (16)
+12.
+(a)
+(i) Explain clearly the causes of voltage drop in a power transformer on load and develop the equivalent circuit for a single phase transformer. (10)
+(ii) Derive an expression for saving of copper when an auto transformer is used. (6)
+Or
+(b) A 3-phase step down transformer is connected to 6.6 KV mains and takes 10 Amps. Calculate the secondary line voltage and line current for the (i) ∆ ∆ (ii) Y Y (iii) ∆ Y and (iv) Y ∆ connections. The ratio of turns per phase is 12 and neglect no load losses. (16)
+13.
+(a) Obtain an expression for the mechanical force of field origin in a typical attracted armature relay. (16)
+Or
+(b) Find an expression for the magnetic force developed in a doubly excited magnetic systems. (16)
+14.
+(a)
+(i) Derive an expression for emf generated in Synchronous machine (8)
+(ii) Derive an expression for emf generated in DC machine (8)
+Or
+(b) A 3 Φ , 50 Hz, star connected alternator with two layer winding is running at 600 rpm. It has 12 turns/ coil, 4 slots/pole/phase and a coil pitch of 10 slots. If the flux per pole is 0.035 Wb sinusoidally distributed, Find the phase and line emf induced. Assume that the total turns/phase are series connected. (16)
+15.
+(a) Explain the different methods of excitation and characteristics of a DC motors with suitable diagrams. (16)
+Or 
+(b) Explain the Ward-Leonard system of controlling the speed of a DC shunt motor with help of neat diagram. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University
+!CourseCode! ME2203
+!Year! 2011
+!Month! Apr/May
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What is a kinematic Chain? Chekc whetther the following mechanism form a kinematic chain or not (a) Beam Engine (b) Slider crank Mechanism (2)
+2. Explain the following: (a) Kutzbach criterion (b) Grasshoffs law (2)
+3. Define Tranmission angle of the four - bar mechanism. What is the worst value of transmission angle (2)
+4. What is coriolis component of acceleration? (2)
+5. Define pressure angle of a cam mechanism and state the ideal value of the pressure angle (2)
+6. State the advantages of a tangent cam and sketch it (2)
+7. What is epicyclic gear train? Give a practical eg? (2)
+8. What is the use of a differential in an automobile? (2)
+9. What is the difference between sliding friction and rolling friction? Give eg.(2)
+10. What are the advantages and disadvantages of V - Belt drive over the flat belt drive (2)
+11. 
+(a) 
+(i) Explain how the return stroke is made faster than the forward stroke in the crank and slotted lever quick return mechanism with neat sketches (8)
+(ii) In a crank and slotted lever quick return motion mechanism, the distance between the fixed centers is 240 mm and the length of the crank is 120 mm. Find the inclination of the slotted bar with the vertical in the extreme position and the time ratio of cutting stroke to the return stroke. If the length of the slotted bar is 450 mm, find the length of the stroke pass through the extreme positions of the free end of the lever. (8)
+Or
+(b) What is inversion of mechanism? With a neat sketch explain any two inversion of double slider crank chain mechanism. (16)
+12.
+(a) The following data refers to the lengths of links of a six link mechanism in which the rotary motion of the input link 2 is transformed to the horizontal linear motion of the output slider 6.  Fixed link 1 , A0B0 = 60mm, Input link2 A0A = 25mm, Coupler link3 AB=85mm. Follower link4 BB0=55mm. Connecting rod5, CD = 60mm. The pin joint C is at the centre of link BB0. The horizontal line of stroke of the slider passes through the fixed link pivots A0 and B0. Angle B0A0A is 60 degrees. In the position, (i) Sketch the mechanism and indicate the data (ii) Draw the velocity diagram and determine the linear velocity of the slider, if the input link constant speed is 2 rad/sec clockwise
+(iii) Draw the acceleration diagram and determine the linear acceleration of the slider which is connected at one end of the connecting rod CD. (16)
+Or
+(b) A mechanism of a crank and slotted lever quick return motion is shown in Figure1. If the crank rotates counter clockwise at 120 rpm, Determine for the configuration shown, the velocity and the acceleration of the ram D. ALso determine the angular acceleration of the slotted lever. Crank AB = 150mm, Slotted arm OC = 700mm and link CD = 200mm (16)
+13.
+(a) A cam with 30 mm as minimum diameter is rotatin clockwise at a uniform speed of 1200 rpm and has to give the following motion to a roller folower 10mm in diameter (i) Follower to complete outward stroke of 25mm during 120 deg of cam rotation with equal uniform acceleration and retardation (ii) Follower to dwell for 60 degree of cam rotation.  (iii) Follower to return  to its initial position during 90 deg of cam rotation with equal uniform acceleration and retardation (iv) Follower to dwell for the remaining 90 deg of cam rotation. Draw the cam profile if the axis of the roller follower passes through the axis of the cam. Find the maximum velocity and accumulation of the follower during return stroke  (16)
+Or
+(b) In a symmetrical tangent cam operating a roller follower, the least radius of the cam 30mliotal m and the roller radius is 15mm. The angular of assent is 75 deg and the total lift is 20mm. the speed of the cam is 600 rpm. Calculate (i) The principal dimensions of the cam (ii) The acceleration of the follower at the beginning of lift, where straight flank merges into the circular nose and at the apex of the nose (16)
+14.
+(a) A pair 20 deg full depth involute gears having 30 and 50 teeth respectively of module 4mm arc in mesh, the smaller gear rotates at 1000 rpm,. Determine (i) sliding velocities at engagement and at disengagement of a pair of teeth and (ii) Contact ratio (16)
+Or
+(b) Two planet gears B and C having 30 teeth each are attached to the arm E as shown in figure 2 and gear A is having 40 teeth instead of 50, then find the number of revolutions made by the arm when (i) Gear A makes one revolution clockwise and D makes half a revolution anticlockwise and (ii) Gear A makes one revolution clockwise and D is stationary (16)
+15.
+(a) 
+(i) An effort of 1200N is required to just move a certain body up an inclined plane of angle 12 deg with force acting parallel to the plane. If the angle of inclination is increased to 15 degrees, then the effort required is 1400 N. Find the coefficient of friction and the weight of the body (8)
+(ii) The efficiency of a screw jack is 55% when a load of 1500N is lifted by an effort applied at the end of a handle of length 0.5m. Determine the effort applied if the pitch of the screw thread is 10mm. (8)
+Or 
+(b)
+(i) Prove or disprove the following statement: "A V-belt drive with same co-efficient of friction and angle of warp as a belt drive will transmit less power than flat belt drive" (6)
+(ii) Two pulleys one 450mm diameter and the other 200mm diameter are on parallel shafts 2.1 m apart and are connected by a crossed belt. The larger pulley rotates at 225 rpm. The maximum permissible tension in the belt is 1KN and the co-efficient of friction between the pulley and the belt is 0.25. Find the length of the belt required and the power that can be transmitted (10)
+!END_QPAPER!
