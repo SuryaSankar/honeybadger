@@ -19,6 +19,7 @@ gem "omniauth-google-oauth2"
 gem 'figaro'
 gem 'fuelux-rails', :git => 'git://github.com/stephenbaldwin/fuelux-rails.git'
 gem 'devise' , '>= 3.0.2'
+gem "mysql2"
 #gem "pagedown-rails", '~> 1.1.3'
 #gem 'gollum_rails'
 
