@@ -11,6 +11,7 @@ class QuestionsController < ApplicationController
   # GET /questions/1
   # GET /questions/1.json
   def show
+	@solution = @question.solutions.build.tap { |sol| sol.user_id = current_user.id } if user_signed_in?
   end
 
   # GET /questions/new
