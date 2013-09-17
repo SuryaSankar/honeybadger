@@ -32,6 +32,6 @@ group :development do
 end
 
 group :production do
-  gem 'pg' # dont want sqlite in production
+  #gem 'pg' # dont want sqlite in production
   gem 'rails_12factor'
 end
