@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 source 'http://gems.github.com'
-gem 'rails'
+gem 'rails', '4.0.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'therubyracer', platforms: :ruby
@@ -20,7 +20,7 @@ gem "omniauth-google-oauth2"
 gem 'figaro'
 gem 'fuelux-rails', :git => 'git://github.com/stephenbaldwin/fuelux-rails.git'
 gem 'devise' , '>= 3.0.2'
-gem "mysql2"
+gem "capistrano"
 #gem "pagedown-rails", '~> 1.1.3'
 #gem 'gollum_rails'
 
@@ -34,5 +34,6 @@ end
 
 group :production do
   #gem 'pg' # dont want sqlite in production
+  gem "mysql2"
   gem 'rails_12factor'
 end
