@@ -18,7 +18,7 @@ gem 'omniauth-identity'
 gem 'omniauth-facebook', '1.4.0'
 gem "omniauth-google-oauth2"
 gem 'figaro'
-gem 'fuelux-rails', :git => 'git://github.com/stephenbaldwin/fuelux-rails.git'
+gem 'fuelux-rails'
 gem 'devise' , '>= 3.0.2'
 gem "capistrano"
 #gem "pagedown-rails", '~> 1.1.3'
