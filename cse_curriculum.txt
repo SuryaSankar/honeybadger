@@ -88,7 +88,7 @@
 
 !SEM!8
 !P!
-!CS8811|Project Work|6
+!!CS8811|Project Work|6
 
 !START_ELECTIVES!
 !!CS8001|.Net & C# Programming|3
