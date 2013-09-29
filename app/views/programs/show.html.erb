@@ -23,15 +23,17 @@
 	</div>
 <% end %>
 
-<% pucs= @program.program_university_courses.includes(university_course: :course).order("semester") %>
+<% pucs= @program.program_university_courses.where.not(semester: nil).includes(university_course: :course).order("semester") %>
 <% pucs_semwise = pucs.group_by { |puc| puc.semester } %>
+<% elective_pucs = @program.program_university_courses.where(elective: true).includes(university_course: :course) %>
 
 <div class="tabbable">
   <ul class="nav nav-tabs">
 	  <li class="active"><%= link_to "Semester "+pucs_semwise.keys.first.to_s, "#sem"+pucs_semwise.keys.first.to_s , "data-toggle" => "tab" %></li>
 	  <% pucs_semwise.keys[1..-1].each do |sem| %>
 	  	<li><%= link_to "Semester "+sem.to_s, "#sem"+sem.to_s , "data-toggle" => "tab" %></li>
-	  <% end %>    
+	  <% end %> 
+	<li><%= link_to "Electives", "#electives" , "data-toggle" => "tab" %></li>   
   </ul>
   <div class="tab-content">
     <%= content_tag :div, class: "tab-pane active", id: "sem"+pucs_semwise.keys.first.to_s do %>
@@ -47,6 +49,13 @@
 	<% end %>
       <% end %>
     <% end %>
+ 
+    <%= content_tag :div, class: "tab-pane", id: "electives" do %>
+	<% elective_pucs.each do |puc| %>
+		<p><%= link_to puc.university_course.course_code+" - "+puc.university_course.course.name, university_course_path(puc.university_course_id) %></p>
+	<% end %>
+    <% end %>
+   
   </div>
 </div>
 

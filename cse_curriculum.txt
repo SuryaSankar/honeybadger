@@ -1,0 +1,127 @@
+!Degree!Bachelor of Engineering
+!University!Anna University Chennai
+!Branch!Computer Science and Engineering
+
+!SEM!1
+!T!
+!!HS8151|Technical English I|4
+!!MA8151|Mathematics I|4
+!!PH8151|Engineering Physics|3
+!!CY8151|Engineering Chemistry|3
+!!GE8151|Computing Techniques|3
+!!GE8152|Engineering Graphics|4
+!P!
+!!PH8161|Physics Laboratory|1
+!!CY8161|Chemistry Laboratory|1
+!!GE8161|Computer Practices Laboratory|2
+!!GE8162|Engineering Practices Laboratory|2
+
+!SEM!2
+!T!
+!!HS8251|Technical English II|4
+!!MA8251|Mathematics II|4
+!!PH8253|Physics for Information Science|3
+!!CS8201|Digital Principles and System Design|3
+!!CS8202|Principles of Computer Engineering|3
+!!CS8203|Programming using C++|3
+!P!
+!!CS8211|Digital Laboratory|2
+!!CS8212|Programming Laboratory|2
+
+!SEM!3
+!T!
+!!MA8351|Algebra and Number Theory|4
+!!GE8351|Environmental Science and Engineering|3
+!!CS8301|Computer Architecture|4
+!!CS8302|Data Structures|3
+!!CS8303|Database Management Systems|3
+!!EC8303|Electronic Devices and Circuits For Computer Engineers|3
+!P!
+!!CS8311|Data Structures Laboratory|2
+!!CS8312|Database Management Systems Laboratory|2
+
+!SEM!4
+!T!
+!!MA8354|Probability and Queueing Theory|4
+!!CS8401|Design and Analysis of Algorithms|4
+!!CS8402|Java and Internet Programming|4
+!!CS8451|Operating Systems|3
+!!CS8452|Software Engineering|3
+!!EE8407|Electrical Engineering and Control Systems|3
+!P!
+!!CS8411|Java and Internet Programming Laboratory|2
+!!CS8461|Operating Systems Laboratory|2
+
+!SEM!5
+!T!
+!!CS8501|Data Communication and Computer Networks|4
+!!CS8502|Microprocessors and Micro Controllers|3
+!!CS8503|System Software Internals|3
+!!CS8504|Theory of Computation|3
+!!CS8551|Object Oriented Analysis and Design|3
+!P!
+!!HS8561|Employability Skills|1
+!!CS8511|Case Tools Laboratory|2
+!!CS8512|Communications and Networks Laboratory|2
+!!CS8513|Microprocessors Laboratory|2
+
+!SEM!6
+!T!
+!!CS8601|Artificial Intelligence|3
+!!CS8602|Compiler Design|4
+!!CS8603|Computer Graphics and Multimedia|3
+!!CS8604|Programming Paradigms|3
+!!CS8651|Digital Signal Processing – Algorithms and Applications|3
+!P!
+!!CS8611|Computer Graphics and Multimedia Laboratory|2
+!!CS8612|Creative and Innovative Project|2
+
+!SEM!7
+!T!
+!!MG8653|Principles of Management|3
+!!CS8701|Mobile and Pervasive Computing|3
+!!CS8702|Parallel Programming|3
+!!CS8703|Security in Computing|3
+!P!
+!!CS8711|Mobile Application Development Laboratory|2
+!!CS8712|Software Development Laboratory|2
+
+!SEM!8
+!P!
+!CS8811|Project Work|6
+
+!START_ELECTIVES!
+!!CS8001|.Net & C# Programming|3
+!!CS8002|Adhoc & Sensor Networks|3
+!!CS8003|Advanced Topics on Databases|3
+!!CS8004|Bio Informatics Technologies|3
+!!CS8005|Cloud Computing and Services|3
+!!CS8006|Computational Intelligence|3
+!!CS8007|Data Warehousing & Data Mining|3
+!!CS8008|Database Tuning|3
+!!CS8009|E-Learning Techniques|3
+!!CS8010|Graph Theory & Combinatorics|3
+!!CS8011|Green Computing|3
+!!CS8012|Human Computer Interaction|3
+!!CS8013|Information Retrieval & Management|3
+!!CS8014|Middleware Technologies|3
+!!CS8015|Nano Computing|3
+!!CS8016|Natural Language Processing|3
+!!CS8017|Network Analysis & Management|3
+!!CS8018|Principles of Cryptography & Network Security|3
+!!CS8019|Principles of Distributed Systems|3
+!!CS8020|Principles of Embedded & Real Time Systems|3
+!!CS8021|Service Oriented Architecture|3
+!!CS8022|Software Agents|3
+!!CS8023|Software Quality & Testing|3
+!!CS8024|System Modeling & Simulation|3
+!!CS8071|Cyber Forensics|3
+!!CS8072|Game Programming|3
+!!CS8073|Semantic Web|3
+!!CS8074|UNIX Internals|3
+!!GE8751|Engineering Ethics and Human Values|3
+!!MG8654|Total Quality Management|3
+!!IT8071|Digital Image Processing|3
+!!IT8072|Free & Open Source Software|3
+!!IT8073|TCP/IP Design & Implementation|3
+!END_ELECTIVES!

@@ -1,4 +1,5 @@
-<% @branches = Branch.includes(:programs).all %>
+<% @branches = Branch.where('id IN (SELECT branch_id FROM programs)') %>
+
 <div class="accordion" id="accordion2">
   <% @branches.each_with_index do |branch, index| %>
   <div class="accordion-group">
