@@ -1,4 +1,5 @@
 namespace :karpeer_admin do
+  RAILS_ENV=production
   desc "adding question paper"
   task :push_qpapers, [:qpaper] => :environment do |t, args|
 	q_no=0;
