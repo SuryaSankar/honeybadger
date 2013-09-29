@@ -1,7 +1,6 @@
 namespace :karpeer_admin do
   desc "adding question paper"
   task :push_qpapers, [:qpaper] => :environment do |t, args|
-	Rails.env = "production"
 	q_no=0;
 	subq_no=0;
 	subsubq_no=0;
@@ -84,7 +83,6 @@ namespace :karpeer_admin do
 		case line
 		when /^!Degree!(?<degree>.*)$/
 			degree =  $~[:degree]
-			puts degree
 		when /^!University!(?<university>.*)$/
 			univ = University.where(name: $~[:university]).first_or_create
 		when /^!Branch!(?<branch>.*)$/
