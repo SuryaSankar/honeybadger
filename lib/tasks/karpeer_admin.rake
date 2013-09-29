@@ -112,8 +112,11 @@ namespace :karpeer_admin do
 			course_branch = Branch.where(name: course_branch_name).first_or_create
 			course_branch.update_attributes stream: "Engineering"
 			course = Course.where(name: course_name, branch_id: course_branch.id, practical: prac).first_or_create
+			puts "Course: "+course.attributes
 			univ_course = UniversityCourse.where(course_id: course.id, university_id: univ.id, course_code: code).first_or_create
+			puts "Univ Course: "+univ_course.attributes			
 			puc = ProgramUniversityCourse.where(university_course_id: univ_course.id, program_id: program.id, elective: elec, semester: sem, credits: cred).first_or_create
+			puts "Program Univ Course: "+puc.attributes
 		else
 		end
 	end
