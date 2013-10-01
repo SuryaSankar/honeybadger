@@ -85,7 +85,7 @@
 
 !SEM!8
 !P!
-!!EC8811|Project Work - ECE|6
+!!EC8811|Project Work|6
 
 !START_ELECTIVES!
 !!EC8001|Advanced Digital Signal Processing|3
