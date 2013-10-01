@@ -17,6 +17,10 @@ namespace :karpeer_admin do
 			univ = University.find_by name: $~[:university]
 		when /^!CourseCode!\s+(?<coursecode>.*)$/
 			course = UniversityCourse.find_by university_id: univ.id, course_code: $~[:coursecode]
+			if course == nil then
+				puts "No course found matching "+$~[:coursecode]
+				break				
+			end
 			qpaper.university_course_id = course.id
 		when /^!ExamName!\s+(?<exam_name>.*)$/
 			qpaper.exam_name = $~[:exam_name]
