@@ -13,7 +13,7 @@
 !P!
 !!PH8161|Physics Laboratory|1
 !!CY8161|Chemistry Laboratory|1
-!!GE8161|Computer Practices Laboratory|2
+!!GE8161|Computer Practice Laboratory|2
 !!GE8162|Engineering Practices Laboratory|2
 
 !SEM!2
