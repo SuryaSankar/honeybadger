@@ -9,5 +9,5 @@ class Course < ActiveRecord::Base
 	has_many :program_university_courses, through: :university_courses
 	has_many :questions
 
-	validates_uniqueness_of :name
+	validates_uniqueness_of :name, scope: [:branch_id]
 end
