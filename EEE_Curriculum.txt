@@ -1,0 +1,122 @@
+!Degree!Bachelor of Engineering
+!University!Anna University Chennai
+!Branch!Electrical and Electronics Engineering
+
+!SEM!1
+!T!
+!!HS8151|Technical English – I|4
+!!MA8151|Mathematics – I|4
+!!PH8151|Engineering Physics|3
+!!CY8151|Engineering Chemistry|3
+!!GE8151|Computing Techniques|3
+!!GE8152|Engineering Graphics|4
+!P!
+!!PH8161|Physics Laboratory|1
+!!CY8161|Chemistry Laboratory|1
+!!GE8161|Computer Practices Laboratory|2
+!!GE8162|Engineering Practices Laboratory|2
+
+!SEM!2
+!T!
+!!HS8251|Technical English II|4
+!!MA8251|Mathematics II|4
+!!PH8252|Physics for Electronics Engineering|3
+!!CY8252|Chemistry for Electrical and Electronics Engineering|3
+!!GE8251|Engineering Mechanics|4
+!!EE8201|Electric Circuit Analysis|4
+!!ME8253|Power Plant Engineering|3
+!P!
+!!EE8211|Electric Circuits Laboratory|2
+
+!SEM!3
+!T!
+!!MA8357|Transform Techniques and Partial Differential Equations|4
+!!GE8351|Environmental Science and Engineering|3
+!!EE8301|Digital Systems|3
+!!EE8302|Electromagnetic Theory|3
+!!EC8302|Electronic Devices and Circuits|3
+!!EE8304|Linear Integrated Circuits|3
+!P!
+!!EE8311|Electromagnetic Field Laboratory|2
+!!EC8313|Electronics Laboratory|2
+
+!SEM!4
+!T!
+!!EC8404|Communication Engineering|3
+!!EE8402|Digital Signal Processing|3
+!!EE8403|Electrical Machines I|3
+!!EE8404|Electrical Measurements and Instrumentation|3
+!!EE8405|Microprocessors and Microcontrollers|3
+!!EE8406|Transmission and Distribution|3
+!P!
+!!EE8411|Electrical Machines Laboratory I|2
+!!EE8412|Integrated Circuits and Microcontroller Laboratory|2
+
+!SEM!5
+!T!
+!!EE8501|Control Systems|3
+!!EE8502|Electrical Machines II|3
+!!EE8503|Power Electronics|4
+!!EE8504|Power System Analysis|4
+!P!
+!!EE8511|Control and Instrumentation Laboratory|2
+!!EE8512|Electrical Machines Laboratory II|2
+!!EE8513|Power Electronics Laboratory|2
+
+!SEM!6
+!T!
+!!MG8653|Principles of Management|3
+!!EE8601|High Voltage Engineering|3
+!!EE8602|Power System Operation and Control|3
+!P!
+!!HS8561|Employability Skills|1
+!!EE8611|High Voltage Laboratory|2
+!!EE8612|Power System Simulation Laboratory|2
+
+!SEM!7
+!T!
+!!EE8701|Design of Electrical Apparatus|4
+!!EE8702|Protection and Switchgear|3
+!!EE8703|Utilization and Conservation of Electrical Energy|3
+!P!
+!!EE8711|Creative and Innovative Project|2
+!!EE8712|Industrial Training|2
+
+!SEM!8
+!P!
+!!EE8811|Project work - EEE|6
+
+!START_ELECTIVES!
+!!EE8001|Adaptive Control|3
+!!EE8002|Advanced Control Systems|3
+!!EE8003|Analysis of Electrical Machines|3
+!!EE8004|Computer Aided Design of Electrical Apparatus|3
+!!EE8005|Data Structures and Algorithms|3
+!!EE8006|EHV Power Transmission|3
+!!EE8007|Embedded Automation Systems|3
+!!EE8008|Embedded System Design|3
+!!EE8009|Flexible AC Transmission Systems|3
+!!EE8010|Fundamentals of Computer Architecture|3
+!!EE8011|Fundamentals of Object Oriented Programming|3
+!!EE8012|High Voltage Direct Current Transmission|3
+!!EE8013|Industrial Power System Analysis and Design|3
+!!MG8014|Managerial Economics and Financial Accounting|3
+!!EE8015|Micro Electro Mechanical Systems|3	
+!!EE8016|Nano Technology|3	
+!!EE8017|Operational Research|3	
+!!EE8018|Power Electronics for Renewable Energy Systems|3
+!!EE8019|Power Quality|3	
+!!EE8020|Restructured Power Systems|3
+!!EE8021|Soft Computing Techniques|3
+!!EE8022|Solid State Drives|3
+!!EE8023|Special Electrical Machines|3
+!!EE8024|VLSI Design and Architecture|3
+!!MA8353|Numerical Methods|4
+!!MA8356|Probability and Statistics|4
+!!MA8451|Discrete Mathematics|4
+!!GE8751|Engineering Ethics and Human Values|3
+!!MG8654|Total Quality Management|3
+!!CS8451|Operating Systems|3
+!!EI8071|Industrial Data Networks|3
+!!EI8751|Biomedical Instrumentation|3
+!END_ELECTIVES!
