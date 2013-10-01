@@ -78,7 +78,7 @@ namespace :karpeer_admin do
 	univ=nil
 	elec=false
 	degree=nil
-	branches = { "CS" => "Computer Science and Engineering", "MA" => "Mathematics", "CY" => "Chemistry", "PH" => "Physics", "GE" => "General Engineering", "EE" => "Electrical and Electronics Engineering", "ME" => "Mechanical Engineering", "HS" => "Humanities", "MG" => "Management Studies", "GE" => "General Engineering", "IT" => "Information Technology", "EC" => "Electronics and Communication Engineering" }
+	branches = { "CS" => "Computer Science and Engineering", "MA" => "Mathematics", "CY" => "Chemistry", "PH" => "Physics", "GE" => "General Engineering", "EE" => "Electrical and Electronics Engineering", "ME" => "Mechanical Engineering", "HS" => "Humanities", "MG" => "Management Studies", "GE" => "General Engineering", "IT" => "Information Technology", "EC" => "Electronics and Communication Engineering", "CE" => "Chemical Engineering" }
 	IO.foreach(args.course_sheet) do |line|
 		case line
 		when /^!Degree!(?<degree>.*)$/
