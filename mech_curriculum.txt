@@ -1,0 +1,124 @@
+!Degree!Bachelor of Engineering
+!University!Anna University Chennai
+!Branch!Mechanical Engineering
+
+!SEM!1
+!T!
+!!HS8151|Technical English I|4									
+!!MA8151|Mathematics I|4							
+!!PH8151|Engineering Physics|3			
+!!CY8151|Engineering Chemistry|3		
+!!GE8151|Computing Techniques|3		
+!!GE8152|Engineering Graphics|4					
+!P!
+!!PH8161|Physics Laboratory|1		
+!!CY8161|Chemistry Laboratory|1		
+!!GE8161|Computer Practice Laboratory|2		
+!!GE8162|Engineering Practices Laboratory|2				
+
+!SEM!2
+!T!
+!!HS8251|Technical English II|4
+!!MA8251|Mathematics II|4
+!!PH8251|Materials Science|3
+!!GE8251|Engineering Mechanics|4
+!!ME8251|Design Concepts in Engineering|3
+!!ME8252|Manufacturing Technology–I|3
+!P!
+!!ME8261|Computer Aided Machine Drawing|2
+!!ME8262|Manufacturing Technology Laboratory-I|2
+
+!SEM!3
+!T!
+!!MA8302|Partial Differential Equations|4
+!!CE8352|Fluid Mechanics and Machiner|3
+!!EC8352|Electronics Engineering|3
+!!EE8251|Basic Electrical Engineering and Measurements|3
+!!ME8301|Engineering Thermodynamics|3
+!!ME8302|Kinematics of Machines|3
+!P!
+!!CE8361|Fluid Mechanics and Machinery Laboratory|2
+!!EC8361|Electronics Engineering Laboratory|2
+!!EE8262|Electrical Engineering Laboratory|2
+
+!SEM!4
+!T!
+!!GE8351|Environmental Science and Engineering|3
+!!CE8353|Strength of Materials|3
+!!ME8401|Dynamics of Machines|3
+!!ME8402|Thermal Engineering–I|3
+!!ME8451|Manufacturing Technology–II|3
+!!ML8351|Engineering Materials and Metallurgy|3
+!P!
+!!CE8362|Strength of Materials Laboratory|2
+!!ME8411|Thermal Engineering Laboratory–I|2
+!!ME8461|Manufacturing Technology Laboratory–II|2
+
+!SEM!5
+!T!
+!!ME8501|Design of Machine Elements|3
+!!ME8502|Metrology and Measurements|3
+!!ME8503|Thermal Engineering–II|3
+!!ME8551|Computer Aided Design|3
+!P!
+!!ME8511|Metrology and Measurements Laboratory|2
+!!ME8512|Thermal Engineering Laboratory - II|2
+!!ME8561|Dynamics Laboratory|2
+
+!SEM!6
+!T!
+!!ME8601|Design of Transmission Systems|3
+!!ME8651|Heat and Mass Transfer|4
+!!ME8652|Industrial Management|3
+!!ME8653|Mechatronics|3
+!P!
+!!HS8561|Employability Skills|1
+!!ME8611|C.A.D. / C.A.M. Laboratory|2
+!!ME8612|Creative and Innovative Project|2
+
+!SEM!7
+!T!
+!!ME8253|Power Plant Engineering|3
+!!ME8751|Computer Integrated Manufacturing Systems|3
+!!ME8752|Finite Element Analysis|3
+!P!
+!!ME8661|Mechatronics Laboratory|2
+!!ME8711|Simulation and Analysis Laboratory|2
+
+!SEM!8
+!P!
+!!ME8811|Project Work|6
+
+!START_ELECTIVES!
+!!ME8001|Advanced Internal Combustion Engineering|3
+!!ME8002|Casting and Welding Processes|3
+!!ME8003|Composite Materials and Mechanics|3
+!!ME8004|Design of Heat Exchangers|3
+!!ME8005|Design of Pressure vessel and piping|3
+!!ME8006|Gas Dynamics and Space Propulsion|3
+!!ME8007|Mechanical Vibrations and Noise Control|3
+!!ME8008|Theory of Metal Forming|3
+!!ME8009|Turbo Machinery|3
+!!ME8071|Automobile Engineering|3
+!!ME8072|Computational Fluid Dynamics|3
+!!ME8073|Design for Manufacturing|3
+!!ME8074|Design of Jigs, Fixtures and Press Tools|3
+!!ME8075|Energy Conservation in industries|3
+!!ME8076|Entrepreneurship Development|3
+!!ME8077|Marketing Management|3
+!!ME8078|New and Renewable Sources of Energy|3
+!!ME8079|Non-traditional Machining Processes|3
+!!ME8080|Refrigeration and Air-conditioning|3
+!!ME8081|Reliability Concepts in Engineering|3
+!!ME8552|Hydraulics and Pneumatics|3
+!!MA8356|Probability and Statistics|4
+!!GE8751|Engineering Ethics and Human Values|3
+!!MG8654|Total Quality Management|3
+!!MF8071|Additive Manufacturing Technology|3
+!!MF8074|Industrial Robotics|3
+!!MF8075|MEMS and Micro System Fabrication|3
+!!MF8077|Product Design and Development|3
+!!MF8451|Process planning and cost estimation|3
+!!MF8751|Operations Research|3
+!!ML8022|Nondestructive Materials Evaluation|3
+!END_ELECTIVES!

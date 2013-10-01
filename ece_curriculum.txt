@@ -1,0 +1,126 @@
+!Degree!Bachelor of Engineering
+!University!Anna University Chennai
+!Branch!Electronics and Communication Engineering
+
+!SEM!1
+!T!
+!!HS8151|Technical English I|4
+!!MA8151|Mathematics I|4
+!!PH8151|Engineering Physics|3
+!!CY8151|Engineering Chemistry|3
+!!GE8151|Computing Techniques|3
+!!GE8152|Engineering Graphics|4
+!P!
+!!PH8161|Physics Laboratory|1
+!!CY8161|Chemistry Laboratory|1
+!!GE8161|Computer Practices Laboratory|2
+!!GE8162|Engineering Practices Laboratory|2
+
+!SEM!2
+!T!
+!!HS8251|Technical English II|4
+!!MA8251|Mathematics II|4
+!!PH8252|Physics for Electronics Engineering|3
+!!CS8251|Data Structures and Object Oriented Programming in C++|3
+!!EC8201|Electronic Devices|3
+!!EC8251|Circuit Theory|4
+!P!
+!!CS8213|Data Structures and Object Oriented Programming Laboratory|2
+!!EC8214|Electronic Devices and Circuits Laboratory|2
+
+!SEM!3
+!T!
+!!MA8357|Transform Techniques and Partial Differential Equation|4
+!!GE8351|Environmental Science and Engineering|3
+!!EC8301|Electronic Circuits – I|4
+!!EC8351|Digital Electronics and System Design|3
+!!EC8353|Signals and Systems|3
+!!EE8351|Basics of Electrical Engineering|3
+!P!
+!!EC8311Digital Systems Laboratory|2
+!!EC8312|Electronic Circuits – I Laboratory|2
+
+!SEM!4
+!T!
+!!MA8401|Linear Algebra and Numerical Methods|4
+!!EC8401|Communication Theory|3
+!!EC8402|Electromagnetic Fields and Waves|3
+!!EC8403|Electronic Circuits – II|4
+!!EC8451|Computer Architecture and Organization|3
+!!EC8452|Operational Amplifiers and Analog Integrated|3
+!P!
+!!EC8411|Electronic Circuits – II Laboratory|2
+!!EE8262|Electrical Engineering Laboratory|2
+
+!SEM!5
+!T!
+!!EC8501|Control System Engineering|3
+!!EC8502|Digital Communication Techniques|3
+!!EC8503|Microprocessor and Microcontrollers|3
+!!EC8504|Transmission Lines and Wave Guides|3
+!!EC8551|Discrete Time Signal Processing|4
+!P!
+!!HS8561|Employability Skills|1
+!!EC8511|Microcontroller and Interfacing Laboratory|2
+!!EC8512|Communication Systems Laboratory|2
+!!EC8561|Digital Signal Processing Laboratory|2
+
+!SEM!6
+!T!
+!!MG8653|Principles of Management|3
+!!EC8601|Antennas and Wave Propagation|3
+!!EC8602|Communication Networks|3
+!!EC8651|Digital VLSI|3
+!P!
+!!EC8611|Networking Laboratory|2
+!!EC8612|VLSI Design Laboratory|2
+
+!SEM!7
+!T!
+!!EC8701|Optical Communication|3
+!!EC8702|Wireless Communication|3
+!P!
+!!EC8711|High frequency Communication Laboratory|2
+!!EC8712|Innovative System Design Laboratory|2
+
+!SEM!8
+!P!
+!!EC8811|Project Work|6
+
+!START_ELECTIVES!
+!!EC8001|Advanced Digital Signal Processing|3
+!!EC8002|Advanced Microcontrollers|3
+!!EC8003|Advanced Wireless Communication|3
+!!EC8004|Avionics|3
+!!EC8005|CAD for VLSI|3
+!!EC8006|CMOS Analog IC Design I|3
+!!EC8007|CMOS Analog IC Design II|3
+!!EC8008|Cognitive Radio Communication|3
+!!EC8009|Digital Control Engineering|3
+!!EC8010|Digital Switching and Transmission|3
+!!EC8011|Embedded and Real-Time Systems|3
+!!EC8012|Information Theory|3
+!!EC8013|Internet and Java|3
+!!EC8014|Measurements and Instrumentation|3
+!!EC8015|Medical Electronics|3
+!!EC8016|Microwave Engineering|3
+!!EC8017|Parallel and Distributed processing|3
+!!EC8018|RF Microelectronics|3
+!!EC8019|Satellite Communication|3
+!!EC8020|Speech Processing|3
+!!EC8021|VLSI Signal Processing|3
+!!EC8022|Wireless Networks|3
+!!EC8071|Cryptography and Network Security|3
+!!EC8072|Electro Magnetic Interference and Compatibility|3
+!!EC8073|Foundations for Nano-Electronics|3
+!!EC8074|Multimedia Compression and Communication|3
+!!EC8075|Robotics|3
+!!EC8076|Soft Computing and Applications|3
+!!GE8751|Engineering Ethics and Human Values|3
+!!MG8654|Total Quality Management|3
+!!BM8751|Principles of Digital Image Processing|3
+!!CS8451|Operating Systems|3
+!!IT8451|Web technology|3
+!END_ELECTIVES!
+
+
