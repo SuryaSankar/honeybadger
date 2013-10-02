@@ -1,5 +1,6 @@
 class QuestionsController < ApplicationController
   before_action :set_question, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index, :find]
   #before_action :authorize, except: [:index, :show]
   # before_filter :admin_user, only: [:new, :edit, :create, :update, :destroy]
   # GET /questions
