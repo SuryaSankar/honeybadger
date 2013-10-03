@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131002133318) do
+ActiveRecord::Schema.define(version: 20131003151656) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -106,6 +106,13 @@ ActiveRecord::Schema.define(version: 20131002133318) do
   add_index "notes", ["topic_id"], name: "index_notes_on_topic_id"
   add_index "notes", ["unit_id"], name: "index_notes_on_unit_id"
   add_index "notes", ["user_id"], name: "index_notes_on_user_id"
+
+  create_table "outdated_courses_updated_courses", id: false, force: true do |t|
+    t.integer "outdated_course_id"
+    t.integer "updated_course_id"
+  end
+
+  add_index "outdated_courses_updated_courses", ["outdated_course_id", "updated_course_id"], name: "ocs_ucs_on_outdated_course_id_and_updated_course_id", unique: true
 
   create_table "program_university_courses", force: true do |t|
     t.integer  "program_id"
@@ -213,6 +220,7 @@ ActiveRecord::Schema.define(version: 20131002133318) do
     t.integer "university_id"
     t.integer "course_id"
     t.string  "course_code"
+    t.boolean "current",       default: true
   end
 
   add_index "university_courses", ["course_id"], name: "index_university_courses_on_course_id"
