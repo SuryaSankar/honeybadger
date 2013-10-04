@@ -1,0 +1,1101 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8503
+!Year! 2011
+!Month! APR/MAY
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. When the 8086 processor is in minimum mode and maximum mode? (2)
+2. Define Segment Override Prefix. (2)
+3. What are the 8086 instructions used for BCD arithmetic? (2)
+4. List any four program control instructions available in 8086?(2)
+5. What do you mean by sample and hold circuit?(2)
+6. List the major functions performed by CRT interface?(2)
+7. What happens in power down mode of 8051 microcontroller? (2)
+8. What are the different ways of operand addressing in 8051? (2)
+9. Why are relays that use coils called electromagnetic relays? (2)
+10. What is PWM? (2)
+11. 
+(a) 
+(i) Explain the internal hardware architecture of 8086 microprocessor with neat diagram. (12)
+(ii) Write briefly about the Direct Memory Access. (4)
+(or)
+(b) 
+(i) Explain the external memory addressing in 8086 (8)
+(ii) Discuss the interrupts types of 8086 microprocessor. (8)
+12.
+(a)
+(i) Explain the assembler directives ASSUME,EQU,DW,and EVEN with suitable examples. (8)
+(ii) Write an 8086 ALP to sort the array of elements in ascending order. (8)
+(or)
+(b) 
+(i) Write an 8086 ALP to find the largest element in an array elements. (6)
+(ii) Explain the data transfer group and logical group of 8086 instructions. (10)
+13.
+(a) With neat block diagram explain the 8255 Programmable Peripheral Interface and its operating modes. (16)
+(or)
+(b) Draw and explain the block diagram of 8254 Programmable Interval Timer. Also explain the various modes of operation. (16)
+14.
+(a)
+(i) Explain the architecture of 8051 microcontroller with neat diagram. (12)
+(ii) Write briefly about the operating modes for serial port of 8051 microcontroller. (4)
+(or)
+(b)
+(i) Write an 8051 ALP to create a square wave of 66% duty cycle on bit 3 of port 1. (6)
+(ii) Describe the different modes of operation of timers/counters in 8051 with its associated register. (10)
+15.
+(a)
+(i) Draw and explain the block diagram of traffic light control system. (10)
+(ii) Briefly discuss the features of RTC device. (6)
+(or)
+(b) Draw the diagram to interface a stepper motor with 8051 microcontroller and explain. Also write an 8051 ALP to run the stepper motor in both forward and reverse direction with delay. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8502
+!Year! 2011
+!Month! APR/MAY
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Give an example each for time limited and time unlimited signals. (2)
+2. Give an advantage and a disadvantage of digital communication. (2)
+3. State sampling theorem. (2)
+4. What is quantization error? (2)
+5. Define hamming distance. (2)
+6. What is mean by transparency with respect to line codes? (2)
+7. What is a matched filter? (2)
+8. Give two applications for eye pattern. (2)
+9. Draw the PSK waveform for 011011. (2)
+10. What is a non-coherent detection system? (2)
+11.
+(a) Explain how PWM and PPM signals are generated. (16)
+or
+(b)
+(i) Classify channels.Explain the mathematical model of any two communication channels. (6)
+(ii) Explain Binary symmetric channel and Gaussian channel with their mathematical models. (10) 
+12.
+(a)
+(i) Explain a non-uniform quantization process. (8)
+(ii) Write notes on temporal waveform coding. (8)
+or
+(b)
+(i) Explain a spectral waveform encoding porcess. (8)
+(ii) Compare various speeches encoding methods. (8)
+13.
+(a)
+(i) Assume a (2,1) convolutional coder with constraint length six. Draw the tree diagram,state diagram and trellis diagram for the assumed coder. (8)
+(ii) Find the (7,4) linear systematic block code word corresponding to 1101. Assume a suitable generator matrix. (8)
+or
+(b)Draw the power spectra of polar codes and on-off codes.Discuss their characteristics. (16)
+14.
+(a) Derive the expression for bit error probability due to a matched filter. (16)
+or
+(b) Disucss on signal design for ISI elimination. (16)
+15.
+(a) Derive the bit error probability due to coherent ASK,PSK and FSK systems.Compare the performance of these systems. (16)
+or
+(b)
+(i) Discuss QPSK signalling (8)
+(ii) Derive the bit error probability due to QPSK receiver. Compare the performance of QPSK receiver with that of PSK receiver. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8301 
+!Year! 2011
+!Month! NOV/DEC
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What are the types of transistor biasing? (2)
+2. Differentiate bias stabilization and compensation techniques. (2)
+3. Why are common emitter amplifiers more popular? (2)
+4.  Determine the output voltage of a differential amplifier for the input voltages of 300 ? V and 240? V. The differential gain of the amplifier is 5000 and the value of the CMRR is 100. (2)
+5. Mention the effect of coupling capacitors on the bandwidth of the amplifier. (2)
+6. Short circuit common Emitter current gain of transistor is 25 at a frequency of 2 MHz if = 200 ? f KHz. Calculate (a) T f (b) fe h . (2)
+7. List the disadvantages of pushpull amplifier. (2)
+8. Define Harmonic distortion and intermodulation distortion. (2)
+9. Write down the expression for ripple factor of L filter in FWR. (2)
+10. Distinguish between line regulation and load regulation. (2)
+11.
+(a) For a circuit shown in fig. 1, = 20 CC V V, R = k C 2 50 , = 0.2 BE V V, R = 100 k 1 , =100 E R . Calculate B I , CE V , C I and stability factor S . [pending] (16) 
+Or
+(b) With the help of neat diagram, explain methods used in biasing the FET and MOSFET. (16)
+12.
+(a) 
+(i) Compare CB, CE and CC amplifiers and their uses. (8)
+(ii) Consider a single stage CE amplifier with R = k S1 and R = k L 1.2 . Calculate i A , i R , v A , i A , power gain and o R if h k ie = 1.1 , 4 2.5 10 ? = × re h , =50 fe h and h A V oe = 25 ? / . [pending] (8)
+Or
+(b) Discuss in detail methods of increasing input impedance using Darlington connection and Bootstrapping. (16)
+13.
+(a) Explain in detail with neat diagram frequency response of BJT amplifier. Discuss the significance of cut off frequencies and Bandwidth of the amplifier. (16)
+Or
+(b) 
+(i) Derive the expression for frequency response of multistage amplifier. (10)
+(ii) Discuss the significance of cut off frequencies and Gain bandwidth product of amplifier. (6)
+14.
+(a) A power transistor operated in class A operation delivers a maximum of 5W to a 4 ohms load with the supply voltage of 20V. The quiescent operating point is adjusted for a symmetrical swing. Calculate (i) Step down turns ratio.(ii) Peak collector current. (iii) Co-ordinates of quiescent operating point. (iv) Efficiency. (16)
+Or
+(b) Draw the circuit diagram of class B push pull amplifier and discuss its merits. (16)
+15.
+(a) Draw and explain working of Halfwave rectifier circuit. In a half wave rectifier circuit, diode has an internal resistance 20 and 110 V rms source of supply. Calculate (i) Efficiency of rectification. (ii) Ripple factor. (iii) Percentage regulation from no load to full load. (16)
+Or
+(b) Explain working of (i) Switched mode power supply. (ii) Power control using SCR. Use neat diagrams. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8503 
+!Year! 2012
+!Month! NOV/DEC
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. HOW CLOCK SIGNAL IS GENERATED IN 8086 MICROPROCESSOR? (2)
+2. STATE THE FUNCTION OF QUEUE STATUS LINES QS0  AND QS1  IN 8086 MICROPROCESSOR? (2)
+3. HOW WILL CARRY AND ZERO FLAGS REFLECT THE RESULT OF THE INSTRUCTION CMP BX, CX? (2)
+4. GIVE ANY FOUR MISCELLANEOUS INSTRUCTIONS IN 16 BIT MICROPROCESSOR. (2)
+5. LIST THE FOUR DISPLAY MODES OF 8279 KEYBOAD / DISPLAY CONTROLLER. (2)
+6. WHAT ARE THE ENHANCED FEATURES OF 8254 PROGRAMMABLE TIMER COMPARED TO 8253? (2)
+7. SPECIFY THE SIZE OF MEMORY SYSTEMS USED IN 8051 MICROCONTROLLER. (2)
+8. MENTION THE DIFFERENT OPERAND TYPES USED IN 8051 MICROCONTROLLER. (2)
+9. STATE THE USES OF I2C BUS STANDARD. (2)
+10. WHAT ARE THE USE OF PWM IN MOTOR CONTROL USING MICROCONTROLLER. (2)
+11.
+(a)
+(i) EXPLAIN THE ARCHITECTURE OF 8086 MICOPROCESSOR. (8)
+(ii) DISCUSS ABOUT THE DIFFERENT DATA TRANSFER SCHEMES WITH EXAMPLES. (8)
+Or
+(b) DESCRIBE THE MAXIMUM MODE SIGNALS , BUS CYCLES AND MAXIMUM MODE SYSTEM CONFIGURATION OF 8086 MICROPROCESSOR IN DETAIL. (16)
+12.
+(a)
+(i) DISCUSS ABOUT THE 8086 INSTRUCTION USED FOR TRANSFERRING DATA BETWEEN REGISTERS , MEMORY , STACKS , AND I/O DEVICES. (8)
+(ii) WRITE A PROGRAM  BASED ON 8086 INSTRUCTION SET TO MULTIPLY A CONSTANT VALUE TO A SEQUENCE OF DATA FROM 1 TO n STORED IN MEMORY. (8)
+Or
+(b) 
+(i) WRITE A PROGRAM BASED ON 8086 INSTRUCTION SET TO COMPUTE THE AVERAGE OF ‘n’ NUMBER OF BYTES STORED IN THE MEMORY. (8)
+(ii) DISCUSS ABOUT THE VARIOUS ASSEMBLER DIRECTIVE IN 8086 MICROPROCESSOR PROGRAMMING. (8)
+13.
+(a) EXPLAIN THE PROGRAMMING AND OPERATING MODES OF 8255 PPI  IN DETAIL. (16)
+Or
+(b) 
+(i) WITH DIAGRAM, EXPLAIN THE OPERATION OR R-2R METHOD OF D/A CONVERTER. (8)
+(ii) EXPLAIN THE FUNCTION OF CRT TERMINAL INTERFACE. (8)
+14.
+(a)
+(i) EXPLAIN THE PARALLEL PORT ARCHITECTURE OF 8051 MICROCONTROLLER. (8)
+(ii) EXPLAIN THE OPERATION OF SERIAL PORT WITH ASSOCIATED REGISTER. (8)
+Or
+(b)
+(i) WITH EXAMPLE, EXPLAIN THE ARITHMETIC AND BRANCHING INSTRUCTION OF 8051 MICROCONTROLLER. (8)
+(ii) WRITE A PROGRAM BASED ON 8051 INSTRUCTION SET TO PACK ARRAY OF UNPACKED BCD DIGITS (8)
+15.
+(a) WITH NEAT SKETCH, EXPLAIN THE MICROPROCESSOR BASED TRAFFIC LIGHT CONTROL SYSTEM. (16)
+Or
+(b) DESCRIBE IN DETAIL THE MICROCONTROLLER BASED SYSTEM. DESIGN WITH AN EXAMPLE. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8602
+!Year! 2011
+!Month! NOV/DEC
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. what is the difference between a port address, a logical address and a physical address? (2)
+2. List the layers of the internet model. (2)
+3. What is the maximum & minimum size of UDP protocol? (2)
+4. Which fields if IPv4 Reader changes from router to router? (2)
+5. Compare persistence timer with keep alive timer. (2)
+6. Distinguish between Datagram subnet and Virtual Circuit subnet. (2)
+7. What is meant by Link Virtualization? (2)
+8. State the concept of Hamming Distance. (2)
+9. What are the fields available in PPP frame? (2)
+10. What is an Intrusion Detection system? (2)
+11. 
+(a) With neat sketch explain in detail about various protocol layers and their service Models in networks. (16)
+Or
+(b) 
+(i) Distinguish between HTTP & FTP. (8)
+(ii) Explain in detail how the performance of WWW can be enhanced. (8)
+12. 
+(a)
+(i) Explain in detail about the concept of multiplexing and demultiplexing . (8)
+(ii) Describe in detail about the real time transport protocols with suitable Diagram. (8)
+Or
+(b) 
+(i) Explain the situation in which congestion can occur in a network. (8)
+(ii) Discuss in detail about controlling the congestion in a network . (8)
+13. 
+(a) Explain about the shortest path routing algorithm in detail using suitable examples. (16)
+Or
+(b) Explain in detail about ht architecture of virtual circuit and datagram network with their merits and demerits. (16)
+14. 
+(a) Explain the architecture of IEEE 802.11 Wireless LAN with suitable diagram. Discuss it’s concept of Addressing Mechanism. (16)
+Or
+(b) Explain in detail about various error detection and correction techniques. (16)
+15. 
+(a)
+(i) List out the securing mechanism for an E-mail. (6)
+(ii) What is SSL? Briefly explain its architecture and its security Parameters. (10)
+Or
+(b) 
+(i) Explain in detail how TCP connections can be secured? (8)
+(ii) Write short notes on IDS . (4)
+(iii) List out the various parameters in QoS. (4)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8502
+!Year! 2010
+!Month! NOV/DEC
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Which parameter is called figure of merit of a digital communication system and why? (2)
+2. What is meant by distortion less transmission? (2)
+3. Why is prefiguring done before sampling? (2)
+4. Define quantization noise power. (2)
+5. Define Hamming distance and calculate its value for two code words 11100 and 11011. (2)
+6. Draw the NRZ and RZ code for the digital data 10110001. (2)
+7. What is the need for a demodulator in case of base band signaling when the received waveforms are already in pulse like form? (2)
+8. How does pulse shaping reduce inter symbol interference? (2)
+9. Define QAM and draw its constellation diagram. (2)
+10. A binary frequency shift keying system employs two signaling frequencies 1f and 2f. The lower frequency 1f is 1200 Hz and signaling rate is 500 Baud. Calculate 2f. (2)
+11. 
+(a) Draw a neat block diagram of a typical digital communication system and explain the function of the key signal processing blocks. (16)
+Or
+(b) 
+(i) Distinguish between base band and bandpass signaling. (6)
+(ii) Explain Binary symmetric channel and Gaussian channel with their mathematical models. (10)
+12. 
+(a) State the Nyquist sampling theorem. Demonstrate its validity for an analog signal x(t) having a Fourier transform x(f) which is zero outside the interval [ ] m m - f < f < +f [pending] (16)
+Or
+(b) Explain in detail the various source coding techniques for speech signal and compare their performance. (16)
+13. 
+(a) For (6,3) systematic linear block code, the code word comprises 1 I, 2 I, 3 I, 1 P, 2 P, 3 P where the three parity check bits 1 P , 2 P and 3 P are formed from the information bits as follows : P1 = I1 ? I2, P2 = I1 ? I3, P3 = I2 ? I3 Find (i) The parity check matrix (ii) The generator matrix (iii) All possible code words. (iv) Minimum weight and minimum distance and (v) The error detecting and correcting capability of the code. (vi) If the received sequence is 10,000. Calculate the syndrome and decode the received sequence. (16)
+Or
+(b) 
+(i) Explain how encoding is done by convolution codes with a suitable example. (10)
+(ii) Explain tree diagram, trellis diagram and state transition diagram of convolution codes. (6)
+14. 
+(a)
+(i) Define a matched filter and compare its functioning with a correlation. (10)
+(ii) Explain how a matched filter can maximize SNR for a given transmitted symbol. (6)
+Or
+(b) What does the term equalization refer to? Explain how it is carried out by using transverse filters. (16)
+15. 
+(a)
+(i) Distinguish coherent and non-coherent detection. (4)
+(ii) Explain non-coherent detection methods of binary frequency shift keying scheme. (12)
+Or
+(b) 
+(i) Explain Binary PSK and QPSK with corresponding equations and constellation diagrams. (8)
+(ii) Obtain the probability of bit error for coherently detected BPSK and compare its probability of bit error performance with QPSK scheme. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8504
+!Year! 2012
+!Month! NOV/DEC
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define propagation constant. (2)
+2. State the significance of crystal filters in communication system. (2)
+3. A 50 m coaxial cable feeds a 75 + j20 dipole antenna. Find reflection coefficient and standing wave ratio. (2)
+4. At a frequency of 80 MHz, a lossless transmission line has a characteristic impedance of 300 and a wavelength of 2.5m. Find L and C. (2)
+5. Write the expression for VSWR in terms of (a) the reflection coefficient (b) VSWR in terms of zL and z0. (2)
+6. Mention the significance of ?/4 line. (2)
+7. Compare TE and TM mode. (2)
+8. What is the need for attenuator? (2)
+9. What is the dominant TE and TM mode in rectangular waveguide? (2)
+10. How to design an air filled cubical cavity to have its dominant resonant frequency at 3 GHz? (2)
+11. 
+(a)
+(i) Explain the properties and characteristics impedance of symmetrical networks. (6)
+(ii) Design T and ? section low pass filter which has series inductance 80 mHz and shunt capacitance 0.022 µf. Find the cutoff frequency and design impedance. (10)
+Or
+(b) What are the advantages of m derived filter? Design an m derived low pass filter (T and ? section) having design resistance R0 = 500, cutoff frequency fc = 1500 Hz and infinite attenuation frequency f8. (16)
+12. 
+(a) Explain the condition for distortionless line. Characteristic impedance of a transmission line at 8 MHz is (40-2j) ohm and the propagation constant is (0.01 + j 0.18) per meter. Find the primary constants. (16)
+Or
+(b) Discuss following : (i) Reflection on a line not terminated in Z0. (ii) Open and short circuited lines. (16)
+13. 
+(a) A 30 m long lossless transmission line with Z0 = 50 operating at 2 MHz is terminated with a load ZL = 60 + 40j. If U = 0.6C on the line, find (i) Reflection coefficient (ii) Standing wave ratio (iii) Input impedance (16)
+Or
+(b) Discuss the following : (i) Impedance matching (ii) Single and double stub matching. (16)
+14. 
+(a) Explain the concept of transmission of TM waves and TEM waves Between parallel plates. (16)
+Or
+(b) 
+(i) Derive the relation among phase velocity , group velocity and frequency velocity. (8)
+(ii) Design a T and ? type attenuators to give attenuation of 20 dB and to Work in a line of 600. (8)
+15. 
+(a) Derive the field expression for TM wave propagation in rectangular waveguide stating the necessary assumptions. (16)
+Or
+(b) 
+(i) Explain the concept of excitation of waveguides. (8)
+(ii) Discuss the structure , advantage and disadvantage of resonant cavities. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8504
+!Year! 2011
+!Month! NOV/DEC
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define characteristic impedance and propagation constant of a transmission line. (2)
+2. What is the physical significance of an infinite line? (2)
+3. Write some applications of smith chart. (2)
+4. Distinguish between single stub and doublestub matching. (2)
+5. What are guided waves? (2)
+6. Plot the frequency Vs attenuations characteristic curve of TM and TE waves guided between parallel conducting plates. (2)
+7. Write the expression of TE waves in rectangular guide. (2)
+8. What is the dominant mode for the TE and TM waves in the rectangular waveguide? (2)
+9. What is the resonant frequency of a microwave resonator? (2)
+10. Distinguish between wave guide and cavity resonator. (2)
+11.
+(a) Obtain the general solution for voltages and currents at any point on the transmission line (16)
+Or
+(b) 
+(i) Derive the condition for distortion less line (6)
+(ii) A cable has the following parameters R= 48.75 O/Km, L= 1.09 mH/Km, G= 38.75 µmhos/Km, C= 0.059 µf/Km. Determine the characteristics impedance, propagation constant and wavelength for a source of F= 1600 Hz and Es= 1 volt (10)
+12.
+(a) A load of (50 – j 100) O is connected across a 50 O line. Design a short circuited stub to provide matching between the two at a signal frequency of 30 MHz using smith chart. (16)
+Or
+(b) 
+(i) A 70 O line is used at a frequency where wavelength equals 80cm terminated by a load of 140+j91 O. Find the reflection co-efficient and VSWR using smith chart. (8)
+(ii) What is SWR? Derive SWR in terms of reflection co-effiecient. (8)
+13. 
+(a) Derive the attenuation constant of TE waves in parallel plane waveguide. (16)
+Or
+(b)
+(i) Derive the field components of TM waves between parallel plates propagating in z direction. (8)
+(ii) For a frequency of 6GHz and plane separation of 7cm, find cut-off frequency and phase velocity for TE10 mode. (8)
+14.
+(a) A X band rectangular waveguide has inner dimensions of a = 2.3cm, b =1 cm. calculate the cut-off frequency for the following modes. TE10, TE20, TM11, TM12. Also check which of the following modes propagate along the waveguide when the signal frequency is 10GHz (16)
+Or
+(b)
+(i) TEM waves cannot exist in a single conductor – justify using Maxwell’s equation (6)
+(ii) Derive the attenuation constant of TE waves in rectangular waveguide (10)
+15. 
+(a)
+(i) Determine the solution of electric and magnetic fields of TM waves guided along circular waveguide (8)
+(ii) Calculate the resonant frequency of rectangular resonator with dimensions a=3cm, b=2cm, and d=4cm if the operating mode is TE101. (8)
+Or
+(b) Derive the Q factor of rectangular cavity resonator for TE101 mode. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!Outdated!
+!Branch! Electronics and Communication Engineering
+!CourseName! Digital Signal Processing
+!CourseCode! EC2302
+!Year! 2012
+!Month! MAY/JUN
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. WHAT IS TWIDDLE FACTOR? (2)
+2. HOW MANY STAGES OF DECIMATIONS ARE REQUIRED IN THE CASE OF A 64 POINT RADIX 2 DIT FFT ALGORITHM? (2)
+3. WHY IS THE BUTTERWORTH RESPONSE CALLED A MAXIMALLY FLAT RESPONSE? (2)
+4. WHAT IS FREQUENCY WARPING? (2)
+5. WHAT ARE THE FEATURES OF FIR FILTER DESIGN USING THE KAISER’S APPROACH? (2)
+6. DRAW THE DIRECT FORM IMPLEMENTATION OF THE FIR SYSTEM HAVING DIFFERENCE EQUATION. y(n) = x(n) – 2x(n-1) + 3x(n-2) – 10x(n-6) (2)
+7. WHAT ARE LIMIT CYCLE OSCILLATIONS? (2)
+8. WHAT IS DEAD – BAND OF A FILTER? (2)
+9. WHAT IS DECIMATION? (2)
+10. FIND THE EXPRESSION FOR THE FOLLOWING MULTIRATE SYSTEMS. --> 4(down arrow) --> 24 (up arrow) --> 4 (down arrow) --> (2)
+11.
+(a)
+(i) DIFFERENTIATE DFT FROM DTFT. (4)
+(ii) COMPUTE AN 8 POINT DFT OF THE SEQUENCE  x(n) = (1,0,1,-1,1,-1,0,1) (12)
+Or
+(b)
+(i) PROVE THAT FFT ALGORITHM HELPS IN REDUCING THE NUMBER OF COMPUTATIONS INVOLVED IN DFT COMPUTATION. (6)
+(ii) COMPUTE A 8 POINT DFT OF THE SEQUENCE USING DIT – FFT ALGORITHM x(n) = (1,2,3,2,1,0) (10)
+12.
+(a)
+(i) EXPLAIN THE PROCEDURE FOR DESIGNING ANALOG FILTERS USING THE CHEBYSHEV APPROXIMATION. (6)
+(ii) CONVERT THE FOLLOWING ANALOG TRANSFER FUNCTION IN TO DIGITAL USING IMPULSE INVARIANT MAPPING WITH T = 1 sec. (10)
+Or
+(b)
+(i) DESIGN A DIGITAL SECOND ORDER LOW – PASS BUTTERWORTH FILTER WITH CUT-OFF FREQUENCY  2200 Hz USING BILINEAR TRANSFORMATION. SAMPLING RATE IS 8000 Hz. (8)
+(ii) DETERMINE THE CASCADE FORM AND PARALLEL FORM IMPLEMENTATION OF THE SYSTEM GOVERNED BY THE TRANSFER FUNCTION, H(Z) = (1 + Z-1)(1 – 5Z-1 – Z-2)/(1 +2Z-1 + Z-2)(1 + Z-1 + Z-2) (8)
+13.
+(a) DESIGN AN FIR LOW PASS DIGITAL FILTER BY USING THE FREQUENCY SAMPLING METHOD FOR THE FOLLOWING SPECIFICATIONS, CUTOFF FREQUENCY = 1500Hz, SAMPLING FREQUENCY = 15000 Hz, ORDER OF THE FILTER : N = 10, FILTER LENGTH REQUIRED L = N  + 1 = 11 (16)
+Or
+(b)
+(i) EXPLAIN WITH NEAT SKETCH THE IMPLEMENTATION OF FIR FILTERS IN THE (1) DIRECT FORM (2) LATTICE FORM (6)
+(ii) DESIGN A DIGITAL FIR BAND – PASS FILTER WITH LOWER CUT-OFF FREQUENCY 2000 Hz AND UPPER CUT-OFF FREQUENCY 3200 Hz USING HAMMING WINDOW OF LENGTH N = 7. SAMPLING RATE IS 10000 Hz. (10)
+14.
+(a)
+(i) WHAT IS QUANTIZATION OF ANALOG SIGNALS? DERIVE THE EXPRESSION FOR THE QUANTIZATION ERROR. (8)
+(ii) EXPLAIN COEFFICIENT QUANTIZATION IN IIR FILTER. (8)
+Or
+(b)
+(i) HOW TO PREVENT LIMIT CYCLE OSCILLATION ? EXPLAIN. (8)
+(ii) WHAT IS MEANT BY SIGNAL SCALING? EXPLAIN. (8)
+15.
+(a)
+(i) EXPLAIN SAMPLING RATE CONVERSION BY A RATIONAL FACTOR AND DERIVE INPUT OUTPUT RELATION IN BOTH TIME AND FREQUENCY DOMAIN. (10)
+(ii) EXPLAIN THE MULTISTAGE IMPLEMENTATION OF SAMPLING RATE CONVERSION. (6)
+Or
+(b)
+(i) EXPLAIN THE DESIGN OF NARROW BAND FILTER USING SAMPLING RATE CONVERSION. (8)
+(ii) EXPLAIN THE APPLICATION OF SAMPLING RATE CONVERSION IN SUB – BAND CODING. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8301
+!Year! 2010
+!Month! APR/MAY
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define stability factor. (2)
+2. Calculate the value of feedback resistor (Rs) required to self bias an N-channel JFET with IDSS = 40 mA, Vp = -10 v and VGSQ = -5V. (2)
+3. Define Miller's theorem. (2)
+4. What is the coupling schemes used in multistage amplifiers? (2)
+5. Give the expressions for gain bandwidth product for voltage and current. (2)
+6. What do you mean by amplifier rise time? (2)
+7. What is cross over distortion? (2)
+8. Draw the circuit of Class-D amplifier. (2)
+9. Compare the half-wave and full-wave rectifiers. (2)
+10. What are the advantages of SMPS? (2)
+11.
+(a)
+(i) Explain the fixed bias method and derive an expression for the stability factor. (8)
+(ii) Explain the voltage divider bias method and derive an expression for the stability factor. (8)
+Or
+(b)
+(i) Explain the circuit which uses a diode to compensate for changes in VBE and in ICO. (12)
+(ii) Discuss the operation of thermistor compensation. (4)
+12.
+(a)
+(i) Derive the expressions for the following of a small signal transistor amplifier in terms of the h-parameters (1) current gain (2) voltage gain (3) input impedance (4) output admittance. (12)
+(ii) Compare CB, CE and CC amplifiers. (4)
+Or
+(b) 
+(i) Explain the operation of emitter coupled differential amplifier. (12)
+(ii) Discuss the transfer characteristics of the differential amplifier. (4)
+13.
+(a) Discuss the low frequency response and the high frequency response of an amplifier. (16)
+Or
+(b) Explain the operation of high frequency common source FET amplifier with neat diagram. Derive the expression for (i) voltage gain (ii) input admittance (iii) input capacitance (iv) output admittance. (16)
+14. 
+(a)
+(i) Explain the operation of the transformer coupled class A audio power amplifier. (12)
+(ii) Explain the terms conversion efficiency and maximum value of efficiency used in audio power amplifiers. (4)
+Or
+(b) Explain the operation of the class-B push pull power amplifier with neat diagram and list its advantages. (16)
+15. 
+(a) Derive the expressions for the rectification efficiency, ripple factor, transformer utilization factor, form factor and peak factor of (i) half wave rectifier (ii) full wave rectifier. (16)
+Or
+(b) Explain the operation of (i) Voltage multiplier (ii) Switched mode power supply. (16)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!Outdated!
+!Branch! Electronics and Communication Engineering
+!CourseName! Electrical Engineering
+!CourseCode! EC2201
+!Year! 2010
+!Month! APR/MAY
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What are the conditions to be fulfilled for the self-excitation of a dc shunt generator? (2)
+2. What are the functionS of interpoles and how are the interpoles windings connected? (2)
+3. The emf per turn of a single phase, 6.6 kV/440 V, 50 Hz Transformer is approximately 12 V. Calculate the number of turns in the HV and LV windings and the net cross-sectional area of the core for a maximum flux density of 1.5 T. (2)
+4. Define voltage regulation of a transformer. (2)
+5. Why cannot an induction motor run at synchronous speed? (2)
+6. Why are single phase induction motors not self-starting? (2)
+7. What are the causes of faulty starting of a synchronous motor? (2)
+8. What are the applications of stepper motors? (2)
+9. Why are insulators used with overhead lines? (2)
+10. Define skin effect. (2)
+11.
+(a)
+(i) Describe with a neat sketch, the construction of a d.c. machine. (8)
+(ii) A separately excited dc generator running at 1000 r.p.m. supplied 110 A at 220 V to a resistive load. If the load resistance remains constant, what will the load current if the speed is reduced to 800 r.p.m? Armature resistance is 0.02  . Field current is unaltered. Assume a voltage drop of 1 V per brush. Ignore the effect of armature reaction. (8)
+Or
+(b)
+(i) Derive from the first principle, an expression for the torquedeveloped in d.c. motor. (8)
+(ii) In a brake test on a dc shunt motor, the load on one side of the brake was 35 kg and on the other side 5 kg. The motor was running at 1500 r.p.m. its input being 34 A at 400 V. The diameter of the pulley is 50 c.m. Determine the torque and efficiency of the motor. (8)
+12.
+(a)
+(i) From first principles, derive the emf equation of a transformer. Also show that the voltage induced per turn is the same, whether it is primary or secondary. (8)
+(ii) A single phase transformer with a ratio of 6.6. kV/415 V takes a no-load current of 0.75 A at 0.22 p.f. If the secondary supplies a current of 120 A at 0.8 p.f. calculate the total current taken by the primary. (8)
+Or
+(b) 
+(i) Develop an equivalent circuit for a single phase two winding transformer. (8)
+(ii) Calculate the full-load efficiency at 0.8 p.f. and the voltage at the secondary terminals when supplying full load secondary current at unity power factor, for a 4 kVA, 200/400 V, 50 Hz, single phase transformer of which the following are the test results : OC test (on primary) : V = 200 V ; I = 0.8 A ; W = 50 W, SC test (on secondary) : V = 17.5 V ; I = 9 A; W = 50 W. (8)
+13.
+(a)
+(i) Explain with neat sketches, the principle of operation of a threephase induction motor. (8)
+(ii) A 6 pole, 3 phase, 50 Hz induction motor develops a maximum torque of 30 Nm at 960 r.p.m. Determine the torque exerted by the motor at 5% slip. The rotor resistance per phase is 0.6  . (8)
+Or
+(b) Discuss briefly the various methods of speed control of three-phase induction motors. (16)
+14.
+(a)
+(i) Derive the emf equation of an alternator. Discuss the effect of winding factor on the induced emf. (8)
+(ii) Explain the speed-torque characteristics of a reluctance motor. (8)
+Or
+(b)
+(i) A 500 kVA, 3.3. kV, 3-phase, star-connected alternator is found to give a short circuit current of 290 A at normal field current. Its effective winding resistance per phase is 0.7  . Estimate the full load of voltage regulation by EMF method for 0.8 pf lagging. (8)
+(ii) Explain the speed-torque characteristics of a hysteresis motor. (8)
+15.
+(a)
+(i) Draw the single diagram of a typical a.c. power supply scheme. (8)
+(ii) With a neat sketch, explain the intersheath grading of cables. (8)
+Or
+(b)
+(i) Explain briefly the advantages of EHVAC transmission over EHVDC transmission. (8)
+(ii) Draw the layout of a substation with the main equipments. (8)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE8351
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Differentiate between food chain and food web. (2)
+2. Define Genetic diversity and species diversity. (2)
+3. Classify the sources of Air pollution. (2)
+4. What is marine pollution? (2)
+5. Define Food security. (2)
+6. What are the factors that contribute to land degradation? (2)
+7. What is sustainable development? (2)
+8. State the effects of Acid rain? (2)
+9. Define the term doubling time in connection with population growth. (2)
+10. Differentiate between HIV and AIDS. (2)
+11.
+(a) 
+(i) Explain the role of producers, consumers and decomposers in an ecosystem. (8)
+(ii) What are the major factors that are responsible for the loss of biodiversity? Explain. (8)
+Or
+(b) Explain the characteristic features of (i) Forest eco system. (ii) Aquatic ecosystem. (16)
+12.
+(a)
+(i) Explain the activated sludge process with a flow diagram. (8)
+(ii) What is BOD? Explain how BOD is determined for a wastewater. (8)
+Or
+(b)
+(i) What is noise? How is noise pollution controlled? Suggest suitable steps. (8)
+(ii) Discuss the role of an individual in pollution prevention. (8)
+13.
+(a)
+(i) Explain the environmental effects of Deforestation. (8)
+(ii) Discuss the benefits and problems of dams. (8)
+Or
+(b) 
+(i) Enumerate the adverse effects of Modern Agriculture on soil and water sources. (8)
+(ii) What is renewable energy? Write a brief note on any two renewable energy sources. (8)
+14.
+(a) 
+(i) Discuss the ways to minimize radiation exposure in case of a nuclear accident. (8)
+(ii) Explain the salient features of the Environment (Protection) Act, 1986. (8)
+Or
+(b)
+(i) Discuss the chemistry of ozone depletion. (8)
+(ii) What is rain water harvesting? How are the rain water harvesting methods classified? Briefly explain. (8)
+15.
+(a)
+(i) Draw a typical population pyramid of developing country and discuss. (8)
+(ii) Explain the Environmental problems posed by population explosion. (8)
+Or
+(b)
+(i) Explain the steps that are being taken in India to impart value education. (8)
+(ii) Discuss the role of Information Technology in the protection of Environment and Human Health. (8)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8502
+!Year! 2013
+!Month! May/Jun
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. State the advantages and disadvantage of digital communication systems over analog communication systems. (2)
+2. State the classification of channels. (2)
+3. State any two non-uniform quantisation rules. (2)
+4. What is natural sampling? (2)
+5. State the significance of minimum distance of a block code. (2)
+6. Define transparency of a line code. Give two examples of line codes which are not transparent. (2)
+7. ‘ISI can-not be avoided’. Justify the statement. (2)
+8. State the principle of maximum likelihood detectors. (2)
+9. What is QAM? (2)
+10. What are coherent and non-coherent detector receivers? (2)
+11.
+(a) Explain any one analog pulse communication systems. (16)
+Or
+(b) Discuss the characteristics of various discrete communication channels. (16)
+12.
+(a)
+(i) Explain a PCM system. Derive the expression for quantisation noise of a PCM system with uniform quantizer. (8)
+(ii) Compare any two speech encoding techniques. (8)
+Or
+(b) Explain (i) Spectral waveform encoding (ii) Model based encoding. (16)
+13.
+(a) Explain Viterbi algorithm to decode a convolutionally coded message. (16)
+Or
+(b) Derive and draw the power spectra of a NRZ (i) Polar coded waveform (ii) Bipolar coded waveform (16)
+14.
+(a) Derive the expression for bit error probability of a binary signal detected with a matched filter. (16)
+Or
+(b) Derive and Explain the Nyquist first criterion to minimize ISI. (16)
+15.
+(a) Derive the expression for bit error probability of a QPSK system. (16)
+Or
+(b) Derive the expression for bit error probability of a (i) Coherent ASK system (ii) non-coherent FSK system. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC2302
+!Year! 2011
+!Month! Apr/May
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. State the advantages of FFT over DFTs. (2)
+2. What is meant by bit reversal? (2)
+3. Why do we go for analog approximation to design a digital filter? (2)
+4. Give any two properties of chebyshev filters. (2)
+5. State the properties of FIR filters. (2)
+6. What is meant by Gibbs Phenomenon? (2)
+7. What is meant by fixed point arithmetic? Give example. (2)
+8. Explain the meaning of limit cycle Oscillator. (2)
+9. State the various applications of DSP. (2)
+10. What is echo cancellation? (2)
+11. 
+(a) With appropriate diagrams describe (i) overlap-save method (ii) overlap-add method. (16)
+Or
+(b) Explain Radix-2 DIF-FFT algorithm. Compare it with DIT-FFT algorithms. (16)
+12.
+(a) Explain in detail butterworth filter approximation. (16)
+Or
+(b) Explain the bilinear transform method of IR filter design. What is warping effect? Explain the poles and zeros mapping procedure clearly. (16)
+13.
+(a) Realize the system function H(z) = (2/3)z + 1 + (2/3)(z^-1) by linear phase FIR structure. (16)
+Or
+(b) Explain the designing of FIR filters using windows. (16)
+14. 
+(a) Explain the quantization process and errors introduced due to quantization. (16)
+Or
+(b)
+(i) Explain how reduction of product round-off error is achieved in digital filters (8)
+(ii) Explain the effects of coefficient quantization in FIR filters. (8)
+15.
+(a)
+(i) Explain how various sound effects can be generated with the help of DSP. (10)
+(ii) State the applications of multirate signal processing. (6)
+Or
+(b)
+(i) Explain how DSP can be used for speech processing. (8)
+(ii) Explain in detail about decimation and interpolation. (8)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE8351
+!Year! 2010
+!Month! Nov/Dec
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What are the types of grasslands ecosystem? (2)
+2. Define Species diversity. (2)
+3. What do you understand by soil pollution? (2)
+4. What are the causes of noise pollution? (2)
+5. List the causes of deforestation. (2)
+6. List the advantages and disadvantages of the hydel power.  (2)
+7. Define urbanization. (2)
+8. How can global warming be controlled? (2)
+9. What is population explosion? (2)
+10. What are HlV and AIDS? (2)
+11.
+(a)
+(i) Discuss briefly the structural and functional components of an eco system. (8)
+(ii) Write down the ecological succession and ecological pyramids. (8)
+Or
+(b)
+(i) Classify and explain the value of biodiversity. (8)
+(ii) Write about in-situ and ex-situ conservation of biodiversity. (8)
+12.
+(a)
+(i) What do you know about Tsunami? Explain the formation of tsunami. (8)
+(ii) Explain the different stages municipal sewage treatment. (8)
+Or
+(b)
+(i) Explain clearly the stages of solid waste management. (8)
+(ii) Explain the sources and effects of thermal pollution. (8)
+13.
+(a)
+(i) Explain the following in detail - Desertification, Land degradation. (8)
+(ii) Explain the various Conventional energy resources. (8)
+Or
+(b)
+(i) Explain the following in detail - Mineral Resources, Food Resources. (8)
+(ii) Discuss in detail the over-exploitation of forests. (8)
+14.
+(a)
+(i) Explain the powers and functions of state pollution control board. (8)
+(ii) Explain the wild life protection act. (8)
+Or
+(b)
+(i) Explain the ‘Ozone’ and Ozone layer depletion. (8)
+(ii) Discuss the energy requirement in detail for sustaining urban life. (8)
+15.
+(a)
+(i) Write about the role of IT in environment and human health. (10)
+(ii) Mention the causes of HIV transmission. (6)
+Or
+(b)
+(i) Discuss the necessity of formation of women self help group. (6)
+(ii) Explain the need for value education. (6)
+(iii) Write about child welfare. (4)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE8351
+!Year! 2011
+!Month! Apr/May
+!Semester! 6
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define environment and ecosystems. (2)
+2. What is the major significance of biodiversity? (2)
+3. What are the general causes of air pollution? (2)
+4. Define recycling. (2)
+5. What is meant by green house effect? (2)
+6. Define the terms - COD, BOD, toxicity. (2)
+7. How to overcome global warming in India. (2)
+8. What are the air pollution and prevention control acts in India and mention at least four? (2)
+9. Define population momentum. (2)
+10. What is environmental resistance? (2)
+11.
+(a) Explain the structure and functions of the following - Forest eco systems, Grass land eco systems, Desert eco systems, Aquatic eco systems. (16)
+Or
+(b) Discuss the biodiversity at global, national and local levels. (16)
+12.
+(a) Explain the control and prevention measures of municipal solid wastes in your area. (16)
+Or
+(b) Write about one of the industrial waste water treatment techniques, with a neat schematic diagram. (16)
+13.
+(a) What are the natural resources availability in India and discuss any two of them. (16)
+Or
+(b) Discuss the world food problems in detail and how does it affects other resources. (16)
+14.
+(a) Write short notes on Role of NGO, Acid rain, Ozone layer depletion, Water conservation (16)
+Or
+(b)
+(i) Explain in brief about the Indian pollution regulations. (8)
+(ii) Describe the functions of state board and central board according to pollution Control. (8)
+15.
+(a) The world’s population in 10,000 years ago has been estimated at about 5 million. What exponential rate of growth would have resulted in the population in 1850, which is estimated to have been 1 billion? Had that rate continued, what would be the population in the year 2010? (16)
+Or
+(b) Discuss the role of information technology in environment and human health. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE8351
+!Year! 2010
+!Month! Apr/May
+!Semester! 4
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What are the three effects of deforestation? (2)
+2. Suggest three damages caused by the use of fertilizer. (2)
+3. Name various ecosystems. (2)
+4. Suggest three important features of forest ecosystem. (2)
+5. Suggest four important sources of air pollution. (2)
+6. Give two effects of noise pollution on human being. (2)
+7. What is acid rain? Explain. (2)
+8. Give two effects of global warming. (2)
+9. Give any two schemes of human health program initiated by Indian Government on effects of population growth. (2)
+10. What are the advantages of family welfare program? (2)
+11.
+(a) Explain the various renewable energy sources in the earth. (16)
+Or
+(b) 
+(i) Discuss Land Resources. (4)
+(ii) Discuss Land degradation. (6)
+(iii) Discuss Soil Erosion and desertification. (6)
+12.
+(a) Explain the structure and function of Ecosystem with a neat sketch. (16)
+Or
+(b) Explain the values of Biodiversity. (16)
+13.
+(a) Discuss the method of solid waste management by sanitary land filling and thermal means. (16)
+Or
+(b) Explain various disaster management measures during Cyclone, floods, earthquake and landsides. (16)
+14.
+(a) What is global warming? Explain the measures to prevent it. Also explain the effects of global warming. (16)
+Or
+(b) Explain the effects of nuclear accidents with two case studies. (16)
+15.
+(a) Explain in detail various health schemes initiated by Indian Government. (16)
+Or
+(b) Explain the role of Information Technology on Environment protection and Human Health Protection. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!Outdated!
+!Branch! Electronics and Communication Engineering
+!CourseName! Optical Communication and Networking
+!CourseCode! EC2402
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 7
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Calculate the cutoff wavelength of a single mode fiber with core radius of 4µm and ? = 0.003. (2)
+2. For a fiber with core refractive index of 1.54 and fractional refractive index difference of 0.01, calculate its numerical aperture. (2)
+3. What are the two reasons for chromatic dispersion? (2)
+4. What are the most important non-linear effects of optical fiber communication? (2)
+5. Compare and contrast between surface and edge emitting LEDs. (2)
+6. What is the significance of intrinsic layer in PIN diodes? (2)
+7. What is dark current? (2)
+8. List out the various error sources. (2)
+9. What were the problems associated with PDH networks? (2)
+10. Enumerate the various SONET/SDH layers. (2)
+11. 
+(a)
+(i) Starting from the Maxwell’s equation, derive the expression for the wave equation of an electromagnetic wave propagating through optical fiber. (8)
+(ii) Derive the ray theory behind the optical fiber communication by total internal reflection. State the application of Snell’s law in it. (8)
+Or
+(b)
+(i) A Si fiber with silica core refractive index of 1.458, v = 75 and NA = 0.3 is to be operated at 820nm. What should be its core size and cladding refractive index?Calculate the total number of modes entering this fiber. (8)
+(ii) Derive expression for the linearly polarized modes in optical fibers and obtain the equation for V number. (8)
+12.
+(a)
+(i) Describe the linear and non-linear scattering losses in optical fibers.(8)
+(ii) An LED operating at 850nm has a spectral width of 45mm. What is the pulse spreading in ns/km due to material dispersion? What is the pulse spreading when a laser diode having a 2nm spectral width is used? (8)
+Or
+(b)
+(i) Draw and explain the various fiber alignment and joint losses. (8)
+(ii) Write notes on fiber splices and connectors. (8)
+13. 
+(a) Draw and explain the structure of Fabry-Perot resonator cavity for a laser diode. Derive laser diode rate equations. (16)
+Or
+(b)
+(i) Draw the structure and electric fields in the APD and explain its working. (8)
+(ii) What are the three factors that decides the response time of photodiodes? Explain them in detail with necessary sketches. (8)
+14.
+(a)
+(i) Draw the front end optical amplifiers and explain. (8)
+(ii) Considering the probability distributions for received logic 0 and 1 signal pulses, derive the expressions for BER and error function. (8)
+Or
+(b)
+(i) Write notes on Fiber refractive index profile measurement (8)
+(ii) Write notes on Fiber cut off wavelength measurement (8)
+15.
+(a) Discuss the concepts of Media Access Control protocols in Broadcast and select networks. (16)
+Or
+(b)
+(i) Describe the non-linear effects on network performance in detail. (8)
+(ii) Explain the basics of optical CDMA systems. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!Outdated!
+!Branch! Electronics and Communication Engineering
+!CourseName! RF and Microwave Engineering
+!CourseCode! EC2403
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 7
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Name the properties of S-parameters. (2)
+2. Draw the equivalent circuit of a practical capacitor. (2)
+3. What are the considerations in selecting a matching network? (2)
+4. Define power gain of amplifier in terms of S-parameters and reflection coefficients. (2)
+5. Draw the diagram of H-plane Tee junction. (2)
+6. A directional coupler is having coupling factor of 20 dB and directivity of 40 dB. If the incident power is 100 mW, what is the coupled power? (2)
+7. Name the advantages of parametric amplifiers. (2)
+8. State the transferred electron effect. (2)
+9. Compare O-type tube and M-type tube. (2)
+10. What are the errors possible in standing wave ratio measurements? (2)
+11.
+(a)
+(i) Formulate scattering matrix for a n-port microwave network. (8)
+(ii) Give the [ABCD] matrix for a two-port network and derive its [S] matrix. (8)
+Or
+(b) The S-parameters of a two-port network are given by s11 = 0.2 ‹90°, s22 = 0.2 ‹90°, s12 = 0.5 ‹90°, s21 = 0.5 ‹0° (i) Determine whether the network is lossy or not. (ii) Is the network symmetrical and reciprocal? Find the insertion loss of network. (16)
+12.
+(a) A microwave amplifier is characterized by its S-parameters. Derive equations for power gain, available gain and transducer gain. (16)
+Or
+(b)
+(i) What is a matching network? Why is this required? (8)
+(ii) Design a lumped element ‘LC’ network for matching ZL= 10+j10 O to a 50O transmission line at 1 GHz. (8)
+13.
+(a)
+(i) Explain how directional coupler can be used to measure reflected power. (8)
+(ii) Explain the properties of H-plane Tee and give reasons why it is called shunt Tee. (8)
+Or
+(b)
+(i) Derive the equation for the scattering matrix of magic Tee. (8)
+(ii) Differentiate between circulators and isolators. (8)
+14.
+(a)
+(i) Explain the tunneling action in a tunnel diode. (8)
+(ii) Draw the construction and explain the working of IMPATT diode. (8)
+Or
+(b) With the help of two-valley, explain how negative resistance can be created in Gunn diode. Mention its applications. (16)
+15.
+(a)
+(i) Explain the operation mechanism of two-cavity Klystron amplifier with neat sketch. (8)
+(ii) A two cavity Klystron has the following parameters. V0 = 1000 V, R0= 40 kO , I0 = 25 mA, f = 3 GHz Gap spacing in either cavity (d) = 1 mm Spacing between two cavities L = 4 cm Effective shunt impedance Rth = 30 kO Calculate input gap voltage, voltage gain and efficiency. (8)
+Or
+(b)
+(i) Describe how the frequency of a given microwave source can be measured. (8)
+(ii) Explain how low VSWR can be measured using a microwave bench. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8351
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Distinguish between shunt and series field coil construction in DC machine? (2)
+2. What is the necessity of starter in dc motors? (2)
+3. What are the applications of step-up and step-down transformers? (2)
+4. Define regulation and efficiency of the transformer. (2)
+5. Why an induction motor never runs at its synchronous speed? (2)
+6. What is the function of a capacitor in single phase induction motor? (2)
+7. What is hunting how can it be prevented? (2)
+8. What are the advantages of stepper motor? Give the applications of stepper motor? (2)
+9. What are the major electrical equipments used in the power system? (2)
+10. How cables are classified according to the voltage? (2)
+11.
+(a)
+(i) Sketch and explain the speed-current, speed-torque and torque current characteristics of a DC shunt and series motor. (8)
+(ii) Derive the expression for emf generated in d.c. machine. (8)
+Or
+(b)
+(i) Explain in detail about the ward-leonard system of speed control of DC motor. (8)
+(ii) Draw a neat sketch and explain a 3 point starter. (8)
+12.
+(a)
+(i) Draw and explain the no load vector diagram of ideal transformer and practical transformer. (8)
+(ii) Enumerate the various losses in a transformer. Derive the condition for maximum efficiency. (8)
+Or
+(b)
+(i) Derive the equivalent circuit of single phase two winding transformers. (6)
+(ii) A 250/500 V, 50Hz single phase transformer gave the following test result - SC test : 20V, 12A, 100 W with low voltage winding shorted. OC test : 250V, 1A, 80 W with high voltage winding shorted. Obtain the equivalent circuit parameters and draw the equivalent circuit referred to primary. (10)
+13.
+(a)
+(i) List the differences between squirrel cage and slip ring induction motors. (8)
+(ii) Derive the torque equation of a three phase induction motor. Sketch the torque-slip characteristics of a 3-phase IM. (8)
+Or
+(b)
+(i) Discuss the various methods of speed control in a 3-phase IM. (8)
+(ii) Explain the working principle of single phase induction motor. Why single phase induction motor is not self starting. (8)
+14.
+(a)
+(i) Explain the construction and working principle of a synchronous motor. (8)
+(ii) Define voltage regulation. Explain the two methods used to determine voltage regulation of alternators. (8)
+Or
+(b) Write short notes on reluctance motor, stepper motor, hysteresis motor.(16)
+15.
+(a)
+(i) Draw the structure of power system with single line representation. Show its essential constituent sections. (8)
+(ii) What are the advantages and disadvantages of HVDC Transmission? (8)
+Or
+(b)
+(i) Explain in detail various types of insulators and their applications to power transmission. (8)
+(ii) Draw the schematic layout of a substation and explain. (8)
+!END_QPAPER!
+
+
+

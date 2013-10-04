@@ -7,35 +7,51 @@ namespace :karpeer_admin do
 	univ=nil;
 	qpaper=nil;
 	userid = Admin.first.user_id
+	current_course=true
+	course_name=nil
+	coursecode=nil
+	course_branch=nil
 
 	IO.foreach(args.qpaper) do |line|
 		case line
-		when /^!START_QPAPER_DESC!$/
+		when /^!START_QPAPER_DESC!\s*$/
 			univ=nil;
+			current_course = true
+			coursecode = nil
+			course_name = nil
+			course_branch=nil
 			qpaper=Qpaper.new
 		when /^!University!\s+(?<university>.*)$/
-			univ = University.find_by name: $~[:university]
-		when /^!CourseCode!\s+(?<coursecode>.*)$/
-			course = UniversityCourse.find_by university_id: univ.id, course_code: $~[:coursecode]
+			puts $~[:university]
+			univ=University.find_by! name: $~[:university].strip
+			puts "No univ" if univ==nil
+			puts univ
+		when /^!Outdated!\s*$/
+			current_course = false
+		when /^!CourseName!\s+(?<coursename>.*)\s*$/
+			course_name = $~[:coursename]
+		when /^!Branch!\s+(?<branch>.*)\s*$/
+			course_branch = Branch.find_by name: $~[:branch]
+		when /^!CourseCode!\s+(?<coursecode>.*)\s*$/
+			course = UniversityCourse.find_by university_id: univ.id, course_code: $~[:coursecode].strip
 			if course == nil then
-				puts "No course found matching "+$~[:coursecode]
-				break				
+				course = UniversityCourse.create course_code: $~[:coursecode], university_id: univ.id, current: current_course , course_attributes: {name: course_name, branch_id: course_branch.id, practical: false }				
 			end
 			qpaper.university_course_id = course.id
-		when /^!ExamName!\s+(?<exam_name>.*)$/
+		when /^!ExamName!\s+(?<exam_name>.*)\s*$/
 			qpaper.exam_name = $~[:exam_name]
-		when /^!Title!\s+(?<title>.*)$/
+		when /^!Title!\s+(?<title>.*)\s*$/
 			qpaper.title = $~[:title]
-		when /^!Year!\s+(?<year>.*)$/
+		when /^!Year!\s+(?<year>.*)\s*$/
 			qpaper.year = $~[:year].to_i
-		when /^!Month!\s+(?<month>.*)$/
+		when /^!Month!\s+(?<month>.*)\s*$/
 			qpaper.month = $~[:month]
-		when /^!Semester!\s+(?<semester>.*)$/
+		when /^!Semester!\s+(?<semester>.*)\s*$/
 			qpaper.semester = $~[:semester]
-		when /^!END_QPAPER_DESC!$/
+		when /^!END_QPAPER_DESC!\s*$/
 			qpaper.user_id = userid
 			qpaper.save!
-		when /^!START_QPAPER!$/
+		when /^!START_QPAPER!\s*$/
 			q_no=0;
 			subq_no=0;
 			subsubq_no=0;			
@@ -46,11 +62,11 @@ namespace :karpeer_admin do
 			q = Question.where(qtext: $~[:qtext].strip).first_or_create
 			q.update_attributes(user_id: userid) if q.user_id = nil
 			eq = Examquestion.create qnumber: q_no, qpaper_id: qpaper.id, mark: $~[:mark], question_id: q.id, user_id: userid
-		when /^(?<qno>[0-9]+)\.\s$/
+		when /^(?<qno>[0-9]+)\.\s*$/
 			q_no = $~[:qno]
 			subq_no=0;
 			subsubq_no=0;
-		when /^\((?<subq>[a-zA-Z])\)\s+$/
+		when /^\((?<subq>[a-zA-Z])\)\s*$/
 			subq_no+=1;
 			subsubq_no=0;
 		when /^\((?<subq>[a-zA-Z])\)\s*(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
@@ -59,15 +75,47 @@ namespace :karpeer_admin do
 			q = Question.where(qtext: $~[:qtext].strip).first_or_create
 			q.update_attributes(user_id: userid) if q.user_id = nil
 			eq = Examquestion.create qnumber: q_no, subquestion_no: subq_no, qpaper_id: qpaper.id, mark: $~[:mark], question_id: q.id, user_id: userid
-		when /^[Oo][Rr]$/
+		when /^\s*\(*\s*[Oo][Rr]\s*\)*\s*$/
 			puts "got Or"
 		when /^\((?<subsubq>[ivx]+)\)\s+(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
 			subsubq_no+=1
 			q = Question.where(qtext: $~[:qtext].strip).first_or_create
 			q.update_attributes(user_id: userid) if q.user_id = nil
 			eq = Examquestion.create qnumber: q_no, subquestion_no: subq_no, subsubqno: subsubq_no, qpaper_id: qpaper.id, mark: $~[:mark], question_id: q.id, user_id: userid	
-		when /^!END_QPAPER!$/	
+		when /^!END_QPAPER!\s*$/	
 			qpaper = nil
+		else
+			puts line + "no match"
+		end
+	end
+  end
+
+
+  desc "checking question paper"
+  task :check_qpapers, [:qpaper] => :environment do |t, args|
+
+	IO.foreach(args.qpaper) do |line|
+		case line
+		when /^!START_QPAPER_DESC!\s*$/
+		when /^!University!\s+(?<university>.*)$/
+		when /^!Outdated!\s*$/
+		when /^!CourseName!\s+(?<coursename>.*)\s*$/
+		when /^!Branch!\s+(?<branch>.*)\s*$/
+		when /^!CourseCode!\s+(?<coursecode>.*)\s*$/
+		when /^!ExamName!\s+(?<exam_name>.*)\s*$/
+		when /^!Title!\s+(?<title>.*)\s*$/
+		when /^!Year!\s+(?<year>.*)\s*$/
+		when /^!Month!\s+(?<month>.*)\s*$/
+		when /^!Semester!\s+(?<semester>.*)\s*$/
+		when /^!END_QPAPER_DESC!\s*$/
+		when /^!START_QPAPER!\s*$/			
+		when /^(?<qno>[0-9]+)\.\s*(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
+		when /^(?<qno>[0-9]+)\.\s*$/
+		when /^\((?<subq>[a-zA-Z])\)\s*$/
+		when /^\((?<subq>[a-zA-Z])\)\s*(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
+		when /^\s*\(*\s*[Oo][Rr]\s*\)*\s*$/
+		when /^\((?<subsubq>[ivx]+)\)\s+(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
+		when /^!END_QPAPER!\s*$/	
 		else
 			puts line + "no match"
 		end
@@ -124,4 +172,8 @@ namespace :karpeer_admin do
 		end
 	end
   end
+
+
+
+
 end
