@@ -1,0 +1,122 @@
+!Degree!Bachelor of Technology
+!University!Anna University Chennai
+!Branch!Information Technology
+
+!SEM!1
+!T!
+!!HS8151|Technical English I|4
+!!MA8151|Mathematics I|4
+!!PH8151|Engineering Physics|3
+!!CY8151|Engineering Chemistry|3
+!!GE8151|Computing Techniques|3
+!!GE8152|Engineering Graphics|4
+!P!
+!!PH8161|Physics Laboratory|1
+!!CY8161|Chemistry Laboratory|1
+!!GE8161|Computer Practices Laboratory|2
+!!GE8162|Engineering Practices Laboratory|2
+
+!SEM!2
+!T!
+!!H58251|Technical English II|4
+!!MA8251|Mathematics II|4
+!!PH8253|Physics for Information Science|3
+!!CH8202|Chemistry for Information Science|3
+!!IT8201|Information Technology Essentials|3
+!!IT8202|Programming and Data Structures I|3
+!P!
+!!IT8211|Information Technology Essentials Laboratory|2
+!!II8212|Programming and Data Structures I Laboratory|2
+
+!SEM!3
+!T!
+!!MA8354|Probability and Queueing Theory|4
+!!GE8351|Environmental Science and Engineering|3
+!!IT8301|Computer Organisation|4
+!!IT8302|Database Systems Concepts|3
+!!IT8303|Programming and Data Structures II|3
+!P!
+!!IT8311|Database Systems Laboratory|2
+!!IT8312|Digital and Computer Organisation Laboratory|2
+!!IT8313|Programming and Data Structures ll Laboratory|2
+
+!SEM!4
+!T!
+!!MA8451|Discrete Mathematics|4
+!!CS8451|Operating Systems|3
+!!CS8452|Software Engineering|3
+!!IT8401|Algorithmics|4
+!!IT8402|Formal Languages and Automata|3
+!!IT8451|Web Technology|3
+!P!
+!!CS8461|Operating Systems Laboratory|2
+!!IT8411|Web Technology Laboratory|2
+
+!SEM!5
+!T!
+!!CS8551|Object Oriented Analysis and Design|3
+!!IT8501|Computer Networks|4
+!!IT8502|Distributed Systems|3
+!!IT8503|Graphics and Multimedia|3
+!!1T8504|Integrated Programming|2
+!P!
+!!IT8511|Computer Networks Laboratory|2
+!!1T8512|Graphics and Multimedia Laboratory|2
+!!IT8513|Socially Relevant Project|2
+
+!SEM!6
+!T!
+!!IT8601|Embedded Systems|3
+!!IT8602|Information Management|3
+!!IT8603|Mobile Computing|3
+!P!
+!!HS8561|Employability Skills|1
+!!IT8611|Creative and lnnovation Project|2
+!!IT8612|Embedded System Laboratory|2
+!!IT8613|Mobile Computing Laboratory|2
+
+!SEM!7
+!T!
+!!IT8701|Data Analytics|3
+!!IT8702|Information Security|3
+!!IT8703|Principles of Human Computer Interaction|3
+!P!
+!!IT8711|Human Computer Interaction Laboratory|2
+!!IT8712|Industrial Training|2
+
+!SEM!8
+!P!
+!!IT8811|Project Work|6
+
+!START_ELECTIVES!
+!!MA8351|Algebra Number Theory|4
+!!CS8651|Digital Signal Processing - Algorithms and Applications|3
+!!IT8001|Advanced Database Technology|3
+!!IT8002|Advanced Networks|3
+!!IT8003|Agent Based lntelligent Systems|3
+!!IT8004|C# And.Net Programming|3
+!!IT8005|Cloud Computing|3
+!!IT8006|Computational Linguistics|3
+!!IT8007|Graph Theory|3
+!!IT8008|Heterogeneous Computing|3
+!!IT8009|Intellectual Property Rights|3
+!!IT8010|Knowledge Engineering|3
+!!IT8011|Mobile Application Development|3
+!!IT8012|Network Programming & Management|3
+!!IT8013|Principles of Compiler Design|3
+!!IT8014|Service Oriented Architecture|3
+!!IT8015|Social Network Analysis|3
+!!IT8016|Soft Computing|3
+!!IT8017|Software Project Management|3
+!!IT8018|Software Testing|3
+!!IT8019|Wireless Sensor and Mesh Networks|3
+!!IT8071|Digital Image Processing|3
+!!IT8072|Free and Open Source Software|3
+!!IT8073|TCP/IP Design and Implementation|3
+!!MA8353|Numerical Methods|4
+!!MG8654|Total Quality Management|3
+!!CS8071|Cyber Forensics|3
+!!CS8072|Game Programming|3
+!!CS8073|Semantic Web|3
+!!CS8074|Unix Internals|3
+!END_ELECTIVES!

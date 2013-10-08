@@ -133,8 +133,9 @@ namespace :karpeer_admin do
 	branches = { "CS" => "Computer Science and Engineering", "MA" => "Mathematics", "CY" => "Chemistry", "PH" => "Physics", "GE" => "General Engineering", "EE" => "Electrical and Electronics Engineering", "ME" => "Mechanical Engineering", "HS" => "Humanities", "MG" => "Management Studies", "GE" => "General Engineering", "IT" => "Information Technology", "EC" => "Electronics and Communication Engineering", "CE" => "Chemical Engineering" }
 	IO.foreach(args.course_sheet) do |line|
 		case line
-		when /^!Degree!(?<degree>.*)$/
-			degree =  $~[:degree]
+		when /^\s*!Degree!(?<degree>.*)\s*$/
+			degree =  $~[:degree].strip
+			puts degree
 		when /^!University!(?<university>.*)$/
 			univ = University.where(name: $~[:university]).first_or_create
 		when /^!Branch!(?<branch>.*)$/
@@ -169,6 +170,7 @@ namespace :karpeer_admin do
 			puc = ProgramUniversityCourse.where(university_course_id: univ_course.id, program_id: program.id, elective: elec, semester: sem, credits: cred).first_or_create
 			puts puc.attributes
 		else
+			puts line + "no match"
 		end
 	end
   end

@@ -13,7 +13,7 @@
     <![endif]-->
 
     <%= stylesheet_link_tag "application", :media => "all" %>
-<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
     <!-- For all other devices -->
     <!-- Size should be 32 x 32 pixels -->
     <%# favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
@@ -54,53 +54,34 @@
           </div><!--/.nav-collapse -->
         </div>
       </div>
-    </div>
-<div class="row" id="masthead">	
-	<div class="hero-unit noise" id="banner">
-<% if content_for? :masthead_content then %>
-		<%= yield :masthead_content %>
-<% else %>
+    </div>	
+    <div class="noise" id="homeBG">
+	  <div class="row">
+		<div class="span11 offset1">
+			<h1>Karpeer<small>,&nbsp;&nbsp;/ kəˈrpēr /,&nbsp;&nbsp;A Tamil verb,&nbsp;&nbsp;Meaning: An appeal to learn</small></h1>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="span11 offset1">
+			<h3><i class="icon-check"></i> Question Papers &nbsp; <i class="icon-check"></i> Cheat Sheets &nbsp; <i class="icon-check-empty"></i> Solutions &nbsp;<i class="icon-check-empty"></i> Video lectures &nbsp;<i class="icon-check-empty"></i> Tutors</br></h3>
+		</div>
+	</div>
 	<div class="row">
-		<div class="span4">
-			<h1>Karpeer<small>  / kəˈrpēr /</small></h1> <h4> <em>Origin: &nbsp;&nbsp;</em> A Tamil verb </h4><h4> <em>Meaning: &nbsp;&nbsp;</em> <strong>An appeal to learn </strong> </h4>
+		<div id="tree_box" class="span6">
+		<div id="tree1"></div>
 		</div>
-		<div class="span2">
-			<p><i class="icon-check"></i> Question Papers</p>
-			<p><i class="icon-check"></i> Cheat Sheets</p>
-			<p><i class="icon-check-empty"></i> Solutions</p>
-			<p><i class="icon-check-empty"></i> Video lectures</p>
-			<p><i class="icon-check-empty"></i> Tutors</p>
-		</div>
-		<div class="span6">
+		<div id="login_box", class="span6 handwriting">
 		<% if !user_signed_in? then%>
-			<p>Enroling is dead simple. Takes just one click to sign in using your</p>
-			<p><%= link_to  user_omniauth_authorize_path(:facebook) do %>
-				<i class="icon-facebook"></i> - Facebook Account
-				<% end %> 
-				&nbsp;Or&nbsp;
-				<%= link_to  user_omniauth_authorize_path(:google_oauth2) do %>
-				<i class="icon-google-plus"></i> - Gmail Account
-				<% end %>
-			</p>
-			</br>
-			<p>Don't have these accounts? No Problem</p>
-			<p><a data-toggle="modal" data-target="#signup_modal"> Register </a> using your email id.</p><p> If you've already registered click <a data-toggle="modal" data-target="#signin_modal"> here </a> to sign in.</p>
+		In order to view or submit solutions, register using your <%= link_to  user_omniauth_authorize_path(:facebook) do %> <i class="icon-facebook"></i> - Facebook Account <% end %> &nbsp;Or&nbsp; <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> <i class="icon-google-plus"></i> - Gmail Account <% end %>. You can also <a data-toggle="modal" data-target="#signup_modal"> Register </a> using your email id.</p><p> If you've already registered click <a data-toggle="modal" data-target="#signin_modal"> here </a> to sign in.
 		<% end %>
 		</div>
 	</div>
-<% end %>
-	</div>		
-</div>
-<div class="navbar" id="lowerBar"><div class="navbar-inner"  ></div></div>
 
-<div class="row">
-<div class="span3">
-<%= render partial: 'partials/branches_accordion' if @show_branches_accordion %>
-</div>
-<div class="span9">
-<%= yield %>
-</div>
-</div>
+       </div>		
+
+<div class="navbar navbar-fixed-bottom" id="lowerBar"><div class="navbar-inner"  ></div></div>
+
+
            
 
 
