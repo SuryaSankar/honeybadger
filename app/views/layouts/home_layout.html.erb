@@ -19,7 +19,8 @@
     <%# favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
 
   </head>
-  <body>
+  <body class="noise whiteOnGreen">
+  
     <%= content_for?(:fb_conn_scripts) ? yield(:fb_conn_scripts) : "" %>
     <%= content_for?(:prettify_scripts) ? yield(:prettify_scripts) : "" %>
    <%= content_for?(:mathjax_scripts) ? yield(:mathjax_scripts) : "" %>
@@ -68,11 +69,11 @@
 	</div>
 	<div class="row">
 		<div id="tree_box" class="span6">
-		<div id="tree1"></div>
+		<div id="tree1" data-url="/home_programs_json/" ></div>
 		</div>
 		<div id="login_box", class="span6 handwriting">
 		<% if !user_signed_in? then%>
-		In order to view or submit solutions, you need to be logged in. You can log in with just one click using your  <%= link_to  user_omniauth_authorize_path(:facebook) do %> <i class="icon-facebook"></i> - Facebook Account <% end %> &nbsp;Or&nbsp; <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> <i class="icon-google-plus"></i> - Gmail Account <% end %>. Or if you prefer, you can also <a data-toggle="modal" data-target="#signup_modal"> register </a> using your email id and once registered click <a data-toggle="modal" data-target="#signin_modal"> here </a> to log in.
+		To view or submit solutions, log in via your <%= link_to  user_omniauth_authorize_path(:facebook) do %> <i class="icon-facebook"></i> - Facebook Account <% end %> &nbsp;Or&nbsp; <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> <i class="icon-google-plus"></i> - Gmail Account <% end %>. Or if you prefer, you can also <a data-toggle="modal" data-target="#signup_modal"> register </a> using your email id and once registered click <a data-toggle="modal" data-target="#signin_modal"> here </a> to log in.
 		<% end %>
 		</div>
 	</div>

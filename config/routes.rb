@@ -10,6 +10,8 @@ Honeybadger::Application.routes.draw do
 
   devise_for :admins, controllers: { sessions: "admins/sessions" }
 
+  get "home_programs_json" => 'programs#json_list'
+
   get "pages/about"
   get "pages/channel"
   get '/search/find_courses_from_program_and_semester' => 'search_results#find_courses_from_program_and_semester'

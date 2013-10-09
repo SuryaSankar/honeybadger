@@ -1,6 +1,6 @@
 class ProgramsController < ApplicationController
   before_action :set_program, only: [ :edit, :update, :destroy]
-  before_filter :authenticate_admin!, except: [:index, :show]
+  before_filter :authenticate_admin!, except: [:index, :show, :json_list]
   # GET /programs
   # GET /programs.json
   def index
@@ -11,6 +11,10 @@ class ProgramsController < ApplicationController
   # GET /programs/1.json
   def show
 	eager_load_program
+  end
+
+  def json_list
+	render json: University.select([:id, :name]).includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {"name" => u.name, "children" => u.programs.to_a.map{ |p| {"name" => p.shorter_desc , "children" => (1..8).map{|x| { "name" => "Semester "+x.to_s, "children" => p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.map{ |puc1| { "name"=> puc1.university_course.full_course_name } }  }} }} }}.to_json
   end
 
   # GET /programs/new
