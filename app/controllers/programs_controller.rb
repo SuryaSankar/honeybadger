@@ -14,7 +14,7 @@ class ProgramsController < ApplicationController
   end
 
   def json_list
-	render json: University.select([:id, :name]).includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {"name" => u.name, "children" => u.programs.to_a.map{ |p| {"name" => p.shorter_desc , "children" => (1..8).map{|x| { "name" => "Semester "+x.to_s, "children" => p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.map{ |puc1| { "name"=> puc1.university_course.full_course_name } }  }} }} }}.to_json
+	render json: University.select([:id, :name]).includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {"label" => u.name, "children" => u.programs.to_a.map{ |p| {"label" => p.shorter_desc , "children" => (1..8).map{|x| { "label" => "Semester "+x.to_s, "children" => p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.map{ |puc1| { "label"=> puc1.university_course.full_course_name } }  }} }} }}.to_json
   end
 
   # GET /programs/new
