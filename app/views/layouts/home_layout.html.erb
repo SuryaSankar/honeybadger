@@ -69,10 +69,10 @@
 	<div class="row">
 		<div class="span6">
 		<div id="login_box", class="handwriting bordered-box">
-		<div class="heading"><h4>Register in 1 click and start contributing</h4></div>
+		<div class="heading"><h4>JOIN US in one click and start contributing</h4></div>
 		<div class="bordered-box-content">
 		<% if !user_signed_in? then%>
-		<p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Login via your Facebook Account <% end %> </p><p>Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Login via your Gmail Account <% end %></p></hr>Or if you prefer the good old email/password,
+		<p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Sign in via your Facebook Account <% end %> </p><p>Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Sign in via your Gmail Account <% end %></p></hr>Or you could just sign up/sign in with your email
 		<div class="row-fluid">
 		<div class="span6">
 			<h4>Sign Up:</h4>
@@ -126,7 +126,12 @@
 
    <script type="text/javascript">
 		        $(function() {
-            $('#tree1').tree( {data: <%= raw @home_json.to_json %> , autoOpen: 0, autoEscape: false });
+            $('#tree1').jstree( {
+				"json_data" : { "data": <%= raw @home_json.to_json %> }, 
+				"core" : { "html_titles" : true  },
+				"themes" : { "theme" : "default", "url": "/assets/jstree.css", "dots" : false,"icons" : false},
+				"plugins" : [ "themes", "json_data" ]
+});
         });
     </script>
   </body>
