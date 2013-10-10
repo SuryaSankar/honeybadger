@@ -129,7 +129,7 @@
             $('#tree1').jstree( {
 				"json_data" : { "data": <%= raw @home_json.to_json %> }, 
 				"core" : { "html_titles" : true  },
-				"themes" : { "theme" : "default", "url": "/assets/jstree.css", "dots" : false,"icons" : false},
+				"themes" : { "theme" : "default", "url": "<%=asset_path "jstree.css" %>", "dots" : false,"icons" : false},
 				"plugins" : [ "themes", "json_data" ]
 });
         });
