@@ -63,7 +63,7 @@
 	  </div>
 	  <div class="row">
 		<div class="span11 offset1">
-			<h3><i class="icon-check"></i> Question Papers &nbsp; <i class="icon-check"></i> Cheat Sheets &nbsp; <i class="icon-check-empty"></i> Solutions &nbsp;<i class="icon-check-empty"></i> Video lectures &nbsp;<i class="icon-check-empty"></i> Tutors</br></h3>
+			<h3><i class="icon-check"></i> Question Papers &nbsp; <i class="icon-check"></i> Cheat Sheets &nbsp; <i class="icon-check-empty"></i> Solutions &nbsp;<i class="icon-check-empty"></i> Video lectures &nbsp;<i class="icon-check-empty"></i> Tutors</h3>
 		</div>
 	</div>
 	<div class="row">
@@ -103,8 +103,9 @@
 		</div>
 		</div>
 		<div id="tree_box" class="span6 bordered-box">
-			<div class="heading"><h4>Go to your course page to find question papers and more</h4></div>
+			<div class="heading"><h4>START HERE <i class="icon-long-arrow-down"></i><i class="icon-long-arrow-down"></i> Find course wise question papers and more</h4></div>
 			<div class="bordered-box-content">
+			Use this menu to find the course
 				<div id="tree1"></div>
 			</div>
 		</div>
@@ -129,8 +130,25 @@
             $('#tree1').jstree( {
 				"json_data" : { "data": <%= raw @home_json.to_json %> }, 
 				"core" : { "html_titles" : true  },
-				"themes" : { "theme" : "default", "url": "<%=asset_path "jstree.css" %>", "dots" : false,"icons" : false},
-				"plugins" : [ "themes", "json_data" ]
+				"themes" : { "theme" : "default", "url": "<%=asset_path "jstree.css" %>", "dots" : false ,"icons" : false },
+				"types" : { 
+						"types" : { 
+						    "leaf" : {
+							"select_node": function (e) {
+								   document.location = e.children("a").attr("href");
+								   return false;
+									}
+						    },
+						    "default" : { 
+							"select_node" : function(e) {
+								            this.toggle_node(e);
+								            return false;
+								        } 
+
+						    }
+						} 
+					     },
+				"plugins" : [ "themes", "json_data", "types", "ui" ]
 });
         });
     </script>

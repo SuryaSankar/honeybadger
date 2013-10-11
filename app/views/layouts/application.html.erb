@@ -62,7 +62,8 @@
 <% else %>
 	<div class="row">
 		<div class="span4">
-			<h1>Karpeer<small>  / kəˈrpēr /</small></h1> <h4> <em>Origin: &nbsp;&nbsp;</em> A Tamil verb </h4><h4> <em>Meaning: &nbsp;&nbsp;</em> <strong>An appeal to learn </strong> </h4>
+			<h1>Karpeer<small> / kəˈrpēr /</small></h1>
+			<h4><%= content_for?(:pagewise_heading) ? yield(:pagewise_heading) : "" %></h4>
 		</div>
 		<div class="span2">
 			<p><i class="icon-check"></i> Question Papers</p>
@@ -73,18 +74,8 @@
 		</div>
 		<div class="span6">
 		<% if !user_signed_in? then%>
-			<p>Enroling is dead simple. Takes just one click to sign in using your</p>
-			<p><%= link_to  user_omniauth_authorize_path(:facebook) do %>
-				<i class="icon-facebook"></i> - Facebook Account
-				<% end %> 
-				&nbsp;Or&nbsp;
-				<%= link_to  user_omniauth_authorize_path(:google_oauth2) do %>
-				<i class="icon-google-plus"></i> - Gmail Account
-				<% end %>
-			</p>
-			</br>
-			<p>Don't have these accounts? No Problem</p>
-			<p><a data-toggle="modal" data-target="#signup_modal"> Register </a> using your email id.</p><p> If you've already registered click <a data-toggle="modal" data-target="#signin_modal"> here </a> to sign in.</p>
+	<p>You are not signed in? Sign up immediately and start posting/viewing solutions</p><p>You can sign up/sign in using your</p>
+	<p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Facebook Account <% end %> Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Gmail Account <% end %> Or</p><p><i class="icon-envelope"></i><a data-toggle="modal" data-target="#signup_modal"> Any other valid email account</a> </p>
 		<% end %>
 		</div>
 	</div>
@@ -102,7 +93,7 @@
 </div>
 </div>
            
-
+<%= render partial: 'users/partials/signup_modal' %>
 
 
     <!-- Javascripts
