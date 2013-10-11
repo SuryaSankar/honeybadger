@@ -83,9 +83,12 @@
 	</div>		
 </div>
 <div class="navbar" id="lowerBar"><div class="navbar-inner"  ></div></div>
-
+<ul class="breadcrumb">
+<%= yield :breadcrumbs %>
+</ul>
 <div class="row">
 <div class="span3">
+<%# yield :side_navigation%>
 <%= render partial: 'partials/branches_accordion' if @show_branches_accordion %>
 </div>
 <div class="span9">

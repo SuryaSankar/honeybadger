@@ -21,7 +21,7 @@ class Program < ActiveRecord::Base
 	end
 
 	def short_desc
-		degree_short + " in " + self.branch.abbreviation + " from " + self.university.name
+		degree_short + " - " + self.branch.abbreviation + " - " + self.university.name
 	end
 
 	def shorter_desc

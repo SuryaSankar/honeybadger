@@ -2,27 +2,17 @@
 <% content_for :pagewise_heading do %>
 	<%= @university_course.course_code+" - "+@university_course.course.name %>
 <% end %>
-
-<dl class="dl-horizontal">
-  <dt><strong>University</strong></dt>
-  <dd><%= @university_course.university.name %></dd>
-  <dt><strong>Course code:</strong></dt>
-  <dd><%= @university_course.course_code %></dd>
-  <dt><strong>Branch:</strong></dt>
-  <dd><%= @university_course.course.branch.name %></dd>
-</dl>
-
-This course is offered as a part of the following programs
-<ul>
-<% @university_course.program_university_courses.each do |p| %>
-<% creditstr = p.credits > 1 ? "credits" : "credit" %>
-<li>A <%= p.credits.to_s + " " + creditstr + " course for semester "+ p.semester.to_s + " in " + @university_course.course.branch.name %></li>	
+<% content_for :breadcrumbs do %>
+	  <li><%= link_to "Home", root_path %> <span class="divider">/</span></li>
+  <li><%= link_to @university_course.course.branch.name, branch_path(@university_course.course.branch_id) %> <span class="divider">/</span></li>
+  <li class="active"><%= @university_course.full_course_name %></li>
 <% end %>
-</ul>
-
 
 <%= render partial: "partials/units", locals: {units: @university_course.units } %>
 
+<div class="page-header">
+            <h2>Question Papers</h2>
+</div>
 <%= render partial: "partials/qpapers", locals: { qpapers: @university_course.qpapers, path: university_courses_new_qpaper_path(@university_course.id) } %>
 
 <% if admin_signed_in? then %>

@@ -1,25 +1,22 @@
 <%- model_class = ProgramUniversityCourse -%>
 
-<dl class="dl-horizontal">
-  <dt><strong>Course code:</strong></dt>
-  <dd><%= @program_university_course.university_course.course_code %></dd>
-  <dt><strong>Course name:</strong></dt>
-  <dd><%= @program_university_course.university_course.course.name %></dd>
-  <dt><strong>Offered as a course in </strong></dt>
-  <dd><%= @program_university_course.program.short_desc %></dd>
+<% content_for :pagewise_heading do %>
+	<%= @program_university_course.university_course.course_code+" - "+@program_university_course.university_course.course.name %>
+<% end %>
+<% content_for :breadcrumbs do %>
+	  <li><%= link_to "Home", root_path %> <span class="divider">/</span></li>
+  <li><%= link_to @program_university_course.program.branch.name, branch_path(@program_university_course.program.branch_id) %> <span class="divider">/</span></li>
+<li><%= link_to @program_university_course.program.short_desc, program_path(@program_university_course.program_id) %> <span class="divider">/</span></li>
+  <li class="active"><%= @program_university_course.full_course_name %></li>
+<% end %>
 
-  <dt><strong><%= model_class.human_attribute_name(:semester) %>:</strong></dt>
-  <dd><%= @program_university_course.semester %></dd>
-  <dt><strong>Credits:</strong></dt>
-  <dd><%= @program_university_course.credits %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:elective) %>:</strong></dt>
-  <dd><%= @program_university_course.elective %></dd>
-  <dt><strong>Course type:</strong></dt>
-  <dd><%= @program_university_course.university_course.course.practical ? "Practical" : "Theory" %></dd>
-</dl>
+<%# render partial: "partials/units", object: @program_university_course.university_course.units %>
+<div class="page-header">
+            <h2>Question Papers</h2>
+</div>
+<%= render partial: "partials/qpapers", locals: { qpapers: @program_university_course.university_course.qpapers, path: university_courses_new_qpaper_path(@program_university_course.university_course_id) } %>
 
-<%= render partial: "partials/units", object: @program_university_course.university_course.units %>
-
+<% if admin_signed_in? then %>
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               program_university_courses_path, :class => 'btn'  %>
@@ -31,3 +28,5 @@
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
 </div>
+
+<% end %>

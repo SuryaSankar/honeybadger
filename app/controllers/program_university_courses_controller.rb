@@ -70,7 +70,7 @@ class ProgramUniversityCoursesController < ApplicationController
       @program_university_course = ProgramUniversityCourse.find(params[:id])
     end
     def eager_load_program_university_course
- 	@program_university_course = ProgramUniversityCourse.includes(university_course: :course).find(params[:id])
+ 	@program_university_course = ProgramUniversityCourse.includes(university_course: :course, program: :branch).find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
