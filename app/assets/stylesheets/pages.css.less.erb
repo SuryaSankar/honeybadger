@@ -190,6 +190,8 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 	border: 2px solid;
 	border-radius: 10px;
 	padding:10px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 .bordered-box-content{
 	padding-top: 10px;
@@ -200,6 +202,26 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 	padding:0 5px;
 	margin:-20px 0 0 30px;
     	display: inline; 
+}
+
+.navbar_breadcrumb {
+   padding: 8px 15px;
+   color: @white;
+  list-style: none;
+  .border-radius(@baseBorderRadius);
+  > li {
+    display: inline-block;
+    .ie7-inline-block();
+    color: @white;
+    text-shadow: 0 1px 0 @white;
+    > .divider {
+      padding: 0 5px;
+      color: @white;
+    }
+  }
+  > .active {
+    color: @white;
+  }
 }
 
 #tree_box{

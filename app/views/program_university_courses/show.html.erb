@@ -10,11 +10,28 @@
   <li class="active"><%= @program_university_course.full_course_name %></li>
 <% end %>
 
+<% content_for :side_navigation do %>
+<%= render partial: "partials/universitycourses_accordion", locals: { pucs_semwise: @program_university_course.program.program_university_courses.where.not(semester: nil).includes(university_course: :course).order("semester").group_by { |puc| puc.semester }, elective_pucs:  @program_university_course.program.program_university_courses.where(elective: true).includes(university_course: :course) } %>
+<% end %>
 <%# render partial: "partials/units", object: @program_university_course.university_course.units %>
-<div class="page-header">
-            <h2>Question Papers</h2>
-</div>
+<div class="row">
+<div class="bordered-box">
+            <div class="heading"><h4>Question Papers</h4></div>
+	    <div class="bordered-box-content">
 <%= render partial: "partials/qpapers", locals: { qpapers: @program_university_course.university_course.qpapers, path: university_courses_new_qpaper_path(@program_university_course.university_course_id) } %>
+	    </div>
+</div>
+</div>
+
+
+<div class="row">
+<div class="bordered-box">
+            <div class="heading"><h4>Questions</h4></div>
+	    <div class="bordered-box-content">
+<%= render partial: "partials/questions", locals: { questions: @program_university_course.university_course.course.questions } %>
+	    </div>
+</div>
+</div>
 
 <% if admin_signed_in? then %>
 <div class="form-actions">

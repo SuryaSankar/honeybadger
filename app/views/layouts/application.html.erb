@@ -82,14 +82,17 @@
 <% end %>
 	</div>		
 </div>
-<div class="navbar" id="lowerBar"><div class="navbar-inner"  ></div></div>
+<div class="navbar" id="lowerBar"><div class="navbar-inner navbarCursiveFont"  ><div class="container">
+</div></div></div>
+<% if content_for? :breadcrumbs then %>
 <ul class="breadcrumb">
 <%= yield :breadcrumbs %>
 </ul>
+<% end %>
 <div class="row">
 <div class="span3">
-<%# yield :side_navigation%>
-<%= render partial: 'partials/branches_accordion' if @show_branches_accordion %>
+<%= yield :side_navigation %>
+<%#= render partial: 'partials/branches_accordion' if @show_branches_accordion %>
 </div>
 <div class="span9">
 <%= yield %>

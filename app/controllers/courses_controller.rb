@@ -1,5 +1,5 @@
 class CoursesController < ApplicationController
-  before_action :set_course, only: [:show, :edit, :update, :destroy]
+  before_action :set_course, only: [:show, :edit, :update, :destroy, :new_question]
   before_filter :authenticate_admin!, except: [:index, :show]
   # GET /courses
   # GET /courses.json
@@ -15,6 +15,10 @@ class CoursesController < ApplicationController
   # GET /courses/new
   def new
     @course = Course.new
+  end
+
+  def new_question
+	@question = @course.questions.build
   end
 
   # GET /courses/1/edit

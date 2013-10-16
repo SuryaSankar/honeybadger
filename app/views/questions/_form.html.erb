@@ -11,11 +11,19 @@
     </div>
   <% end %>
 
-  <%= f.input :qtext %>
-  <%= f.input :qdesc %>
+<%= f.input :qtitle , label: "Title" %>
+<%= f.association :course , label_method: :name %>
+<%= f.association :topic %>
+<div class='wmd-panel'>
+<div id='wmd-button-bar'></div>
+<%= f.text_area :qtext, id: 'wmd-input', class: 'wmd-input' %>
+</div>
+
   <div class="form-actions">
     <%= f.button :submit, :class => 'btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
                 questions_path, :class => 'btn' %>
   </div>
 <% end %>
+
+

@@ -3,4 +3,6 @@ class Topic < ActiveRecord::Base
                           foreign_key: "super_topic_id"
  
   belongs_to :super_topic, class_name: "Topic"
+
+  has_many :questions
 end

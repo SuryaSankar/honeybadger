@@ -20,6 +20,7 @@ class UniversityCoursesController < ApplicationController
   def new_qpaper
 	@qpaper = @university_course.qpapers.build
 	@qpaper.examquestions.build.build_question
+	render "qpapers/new"
   end
 
   def create_qpaper

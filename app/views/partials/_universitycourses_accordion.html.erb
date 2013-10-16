@@ -1,0 +1,30 @@
+<div class="accordion" id="accordion_courses">
+  <% pucs_semwise.each do |sem, pucs| %>
+  <div class="accordion-group">
+    <div class="accordion-heading blackandwhite noise">
+      <%= link_to "Semester "+sem.to_s, "#collapse"+sem.to_s, class: "accordion-toggle", "data-toggle" => "collapse" , "data-parent" => "#accordion_courses" %>
+    </div>
+    <%= content_tag :div, id: "collapse"+sem.to_s, class: "accordion-body collapse" do%>
+      <div class="accordion-inner noise">
+	   <% pucs.each do |puc| %>
+	   <p><%= link_to puc.full_course_name , program_university_course_path( puc.id ) %></p>
+	   <% end %>
+      </div>
+    <% end %>
+  </div>
+  <% end %>
+
+  <div class="accordion-group">
+    <div class="accordion-heading blackandwhite noise">
+      <%= link_to "Electives", "#collapse_electives", class: "accordion-toggle", "data-toggle" => "collapse" , "data-parent" => "#accordion_courses" %>
+    </div>
+    <%= content_tag :div, id: "collapse_electives", class: "accordion-body collapse" do%>
+      <div class="accordion-inner noise">
+	   <% elective_pucs.each do |puc| %>
+	   <p><%= link_to puc.full_course_name , program_university_course_path( puc.id ) %></p>
+	   <% end %>
+      </div>
+    <% end %>
+  </div>
+
+</div>

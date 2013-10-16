@@ -1,0 +1,16 @@
+<% if questions.length > 0 then %>
+<ol>
+<% questions.each do |q| %>
+<li>
+<% if q.qtitle != nil  then %>
+<%= link_to q.qtitle, question_path(q.id) %>
+<% else %>
+<%= link_to q.qtext, question_path(q.id) %>
+<% end %>
+</li>
+<% end %>
+</ol>
+<% else %>
+There are no questions yet for this course.
+<% end %>
+<%= link_to "Would you like to add one?", new_question_path  %>
