@@ -1,0 +1,127 @@
+!Degree!Bachelor of Engineering
+!University!Anna University Chennai
+!Branch!Civil Engineering
+
+!SEM!1
+!T!
+!!HS8151|Technical English – I|4
+!!MA8151|Mathematics – I|4
+!!PH8151|Engineering Physics|3
+!!CY8151|Engineering Chemistry|3
+!!GE8151|Computing Techniques|3
+!!GE8152|Engineering Graphics|4
+!P!
+!!PH8161|Physics Laboratory|1
+!!CY8161|Chemistry Laboratory|1
+!!GE8161|Computer Practices Laboratory|2
+!!GE8162|Engineering Practices Laboratory|2
+
+!SEM!2
+!T!
+!!HS8251|Technical English – II|4
+!!MA8251|Mathematics – II|4
+!!PH8203|Physics for Civil Engineering|3
+!!CY8251|Chemistry for Civil and Agricultural Engineering|3
+!!GE8251|Engineering Mechanics|4
+!!CE8201|Construction Materials|3
+!P!
+!!CE8211|Construction Materials Laboratory|2
+
+!SEM!3
+!T!
+!!MA8357|Transform Techniques and Partial Differential Equations|4
+!!CE8301|Construction Techniques and Practices|3
+!!AG8302|Engineering Geology|3
+!!CE8302|Strength of Materials – I|3
+!!CE8351|Fluid Mechanics|4
+!P!
+!!CE8311|Computer Aided Building Drawing|2
+!!CE8362|Strength of Materials Laboratory|2
+
+!SEM!4
+!T!
+!!MA8353|Numerical Methods|4
+!!GE8351|Environmental Science and Engineering|3
+!!CE8401|Applied Hydraulic Engineering|4
+!!CE8402|Soil Mechanics|3
+!!CE8403|Strength of Materials – II|3
+!!CE8404|Surveying – I|3
+!P!
+!!CE8411|Hydraulic Engineering Laboratory|2
+!!CE8412|Surveying Laboratory – I|2
+
+!SEM!5
+!T!
+!!CE8501|Design of Reinforced Cement Concrete and Masonry Structures|3
+!!CE8502|Foundation Engineering|3
+!!CE8503|Highway Engineering|3
+!!CE8504|Structural Analysis – I|3
+!!CE8505|Surveying – II|3
+!!CE8506|Water Supply Engineering|3
+!P!
+!!CE8511|Highway Engineering Laboratory|2
+!!CE8512|Soil Mechanics Laboratory|2
+!!CE8513|Surveying Laboratory – II|2
+
+!SEM!6
+!T!
+!!CE8601|Design of Steel and Timber Structures|3
+!!CE8602|Railways, Airports and Harbour Engineering|3
+!!CE8603|Structural Analysis – II|3
+!!CE8604|Structural Design and Drawing|4
+!!CE8605|Wastewater Engineering|3
+!P!
+!!HS8561|Employability Skills|1
+!!CE8611|Survey Camp|2
+!!CE8612|Water and Wastewater Analysis Laboratory|2
+
+!SEM!7
+!T!
+!!MG8653|Principles of Management|3
+!!CE8701|Estimation, Costing and Valuation Engineering|3
+!!CE8702|Ground Improvement Techniques|3
+!!CE8703|Irrigation Engineering|3
+!!CE8704|Structural Dynamics and Earthquake Engineering|3
+!P!						
+!!CE8711|Creative and Innovative Project|2
+!!CE8712|Industrial Training|2
+!!CE8713|Irrigation and Environmental Engineering Drawing|2
+
+!SEM!8
+!P!
+!!CE8811|Project work|6
+
+!START_ELECTIVES!
+!!CE8001|Computer Aided Design of Structures|3
+!!CE8002|Design of Plate and Shell Structures|3
+!!CE8003|Design of Pre-stressed Concrete Structures|3
+!!CE8004|Industrial Structures|3
+!!CE8005|Maintenance, Repair and Rehabilitation	of Structures|3
+!!CE8006|Power Plant Structures|3
+!!CE8007|Prefabricated Structures|3
+!!CE8008|Tall Structures|3
+!!CE8009|Geo-environmental Engineering|3
+!!CE8010|Introduction to Soil Dynamics and Machine Foundations|3
+!!CE8011|Pavement Engineering|3
+!!CE8012|Rock Engineering|3
+!!CE8013|Traffic Engineering and Management|3
+!!CE8014|Transport and Environment|3
+!!CE8015|Transportation Planning and Systems|3
+!!CE8016|Urban Planning and Development|3
+!!GE8751|Engineering Ethics and Human Values|3
+!!CE8017|Air Pollution and Control Engineering|3
+!!CE8018|Environmental and Social Impact Assessment|3
+!!CE8019|Industrial Wastewater Engineering|3
+!!CE8020|Municipal Solid Waste Management|3
+!!AI8452|Hydrology and Water Resources Engineering|3
+!!AI8551|Integrated Water Resources Management|3
+!!AI8751|Participatory Water Resources Management|3
+!!CE8021|Coastal Engineering|3
+!!CE8022|Groundwater Engineering|3
+!!CE8023|Water Resources Systems Engineering|3
+!!CE8024|Geoinformatics Applications for Civil Engineers|3
+!!GI8351|Cartography|3
+!!GI8451|Total Station and GPS Surveying|3
+!!GI8551|Geographic Information System|3
+!!GI8751|Digital Cadastre|3
+!END_ELECTIVES!

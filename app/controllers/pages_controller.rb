@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
+	caches_action :home
+
 	def home
 		@show_branches_accordion=false
 		@home_json=University.select([:id, :name]).includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {	"data" => u.name, 
@@ -10,7 +12,7 @@ class PagesController < ApplicationController
 								"attr"=> { "rel" => "leaf" } ,"data" => { "title" => puc1.university_course.full_course_name, "attr" => { "href" => program_university_course_path(puc1.id) } }
  } }  }} }} }}
 		
-		render layout: "home_layout"
+		render layout: false
 	end
 
 	def about

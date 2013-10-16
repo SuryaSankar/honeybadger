@@ -21,6 +21,8 @@ gem 'figaro'
 gem 'fuelux-rails'
 gem 'devise' , '>= 3.0.2'
 gem "capistrano"
+gem 'actionpack-page_caching'
+gem 'actionpack-action_caching'
 #gem "pagedown-rails", '~> 1.1.3'
 #gem 'gollum_rails'
 
