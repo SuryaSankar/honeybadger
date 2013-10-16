@@ -118,7 +118,7 @@
 !!CS8071|Cyber Forensics|3
 !!CS8072|Game Programming|3
 !!CS8073|Semantic Web|3
-!!CS8074|UNIX Internals|3
+!!CS8074|Unix Internals|3
 !!GE8751|Engineering Ethics and Human Values|3
 !!MG8654|Total Quality Management|3
 !!IT8071|Digital Image Processing|3

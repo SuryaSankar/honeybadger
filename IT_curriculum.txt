@@ -13,7 +13,7 @@
 !P!
 !!PH8161|Physics Laboratory|1
 !!CY8161|Chemistry Laboratory|1
-!!GE8161|Computer Practices Laboratory|2
+!!GE8161|Computer Practice Laboratory|2
 !!GE8162|Engineering Practices Laboratory|2
 
 !SEM!2
@@ -47,7 +47,7 @@
 !!CS8452|Software Engineering|3
 !!IT8401|Algorithmics|4
 !!IT8402|Formal Languages and Automata|3
-!!IT8451|Web Technology|3
+!!IT8451|Web technology|3
 !P!
 !!CS8461|Operating Systems Laboratory|2
 !!IT8411|Web Technology Laboratory|2
@@ -89,8 +89,8 @@
 !!IT8811|Project Work|6
 
 !START_ELECTIVES!
-!!MA8351|Algebra Number Theory|4
-!!CS8651|Digital Signal Processing - Algorithms and Applications|3
+!!MA8351|Algebra and Number Theory|4
+!!CS8651|Digital Signal Processing – Algorithms and Applications|3
 !!IT8001|Advanced Database Technology|3
 !!IT8002|Advanced Networks|3
 !!IT8003|Agent Based lntelligent Systems|3
@@ -111,8 +111,8 @@
 !!IT8018|Software Testing|3
 !!IT8019|Wireless Sensor and Mesh Networks|3
 !!IT8071|Digital Image Processing|3
-!!IT8072|Free and Open Source Software|3
-!!IT8073|TCP/IP Design and Implementation|3
+!!IT8072|Free & Open Source Software|3
+!!IT8073|TCP/IP Design & Implementation|3
 !!MA8353|Numerical Methods|4
 !!MG8654|Total Quality Management|3
 !!CS8071|Cyber Forensics|3
