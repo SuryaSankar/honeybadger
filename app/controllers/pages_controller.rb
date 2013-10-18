@@ -1,5 +1,4 @@
 class PagesController < ApplicationController
-	caches_action :home
 
 	def home
 		@show_branches_accordion=false

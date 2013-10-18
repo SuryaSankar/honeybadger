@@ -2,7 +2,7 @@
 <ol>
 <% qpapers.each do |qp| %>
 <li>
-<%= link_to qp.title+" "+qp.month+" "+qp.year, qpaper_path(qp.id) %>
+<%= link_to qp.title+" "+qp.month+" "+qp.year.to_s, qpaper_path(qp.id) %>
 </li>
 <% end %>
 </ol>

@@ -56,7 +56,7 @@
       </div>
     </div>	
     <div class="noisehome" id="homeBG">
-
+<% cache("banner") do %> 
 	  <div class="row">
 		<div class="span11 offset1">
 			<h1>Karpeer<small>,&nbsp;&nbsp;/ kəˈrpēr /,&nbsp;&nbsp;A Tamil verb,&nbsp;&nbsp;Meaning: An appeal to learn</small></h1>
@@ -67,11 +67,11 @@
 			<h3><i class="icon-check"></i> Question Papers &nbsp; <i class="icon-check"></i> Cheat Sheets &nbsp; <i class="icon-check-empty"></i> Solutions &nbsp;<i class="icon-check-empty"></i> Video lectures &nbsp;<i class="icon-check-empty"></i> Tutors</h3>
 		</div>
 	</div>
-
+<% end %>
 	<div class="row">
 		<div class="span6">
 		<div id="login_box", class="handwriting bordered-box">
-		<div class="heading"><h4>JOIN US in one click and start contributing</h4></div>
+		<div class="heading"><h4>Join Us in one click and start contributing</h4></div>
 		<div class="bordered-box-content">
 		<% if !user_signed_in? then%>
 		<p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Sign in via your Facebook Account <% end %> </p><p>Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Sign in via your Gmail Account <% end %></p></hr>Or you could just sign up/sign in with your email
@@ -104,7 +104,7 @@
 		</div>
 		</div>
 		</div>
- 
+<% cache("jstree_box") do %> 
 		<div id="tree_box" class="span6 bordered-box">
 			<div class="heading"><h4>START HERE <i class="icon-long-arrow-down"></i><i class="icon-long-arrow-down"></i> Find course wise question papers and more</h4></div>
 			<div class="bordered-box-content">
@@ -112,7 +112,7 @@
 				<div id="tree1"></div>
 			</div>
 		</div>
-
+<% end %>
 	</div>
 
        </div>		
@@ -128,11 +128,18 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <%= javascript_include_tag "application" %>
-
+<% cache(cache_programs_courses) do %> 
    <script type="text/javascript">
 		        $(function() {
             $('#tree1').jstree( {
-				"json_data" : { "data": <%= raw @home_json.to_json %> }, 
+				"json_data" : { "data": <%= raw University.select([:id, :name]).includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {	"data" => u.name, 
+	"state" => "open", 
+	"children" => u.programs.to_a.map{ |p| { 
+			"data" => p.shorter_desc , 
+			"children" => (1..8).map{|x| { "data" => "Semester "+x.to_s, 
+							"children" => p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.map{ |puc1| { 
+								"attr"=> { "rel" => "leaf" } ,"data" => { "title" => puc1.university_course.full_course_name, "attr" => { "href" => program_university_course_path(puc1.id) } }
+ } }  }} }} }}.to_json %> }, 
 				"core" : { "html_titles" : true  },
 				"themes" : { "theme" : "default", "url": "<%=asset_path "jstree.css" %>", "dots" : false ,"icons" : false },
 				"types" : { 
@@ -156,6 +163,6 @@
 });
         });
     </script>
-
+<% end %>
   </body>
 </html>

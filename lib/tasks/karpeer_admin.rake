@@ -11,6 +11,7 @@ namespace :karpeer_admin do
 	course_name=nil
 	coursecode=nil
 	course_branch=nil
+	ucourse=nil
 
 	IO.foreach(args.qpaper) do |line|
 		case line
@@ -33,11 +34,11 @@ namespace :karpeer_admin do
 		when /^!Branch!\s+(?<branch>.*)\s*$/
 			course_branch = Branch.find_by name: $~[:branch]
 		when /^!CourseCode!\s+(?<coursecode>.*)\s*$/
-			course = UniversityCourse.find_by university_id: univ.id, course_code: $~[:coursecode].strip
-			if course == nil then
-				course = UniversityCourse.create course_code: $~[:coursecode], university_id: univ.id, current: current_course , course_attributes: {name: course_name, branch_id: course_branch.id, practical: false }				
+			ucourse = UniversityCourse.find_by university_id: univ.id, course_code: $~[:coursecode].strip
+			if ucourse == nil then
+				ucourse = UniversityCourse.create course_code: $~[:coursecode], university_id: univ.id, current: current_course , course_attributes: {name: course_name, branch_id: course_branch.id, practical: false }				
 			end
-			qpaper.university_course_id = course.id
+			qpaper.university_course_id = ucourse.id
 		when /^!ExamName!\s+(?<exam_name>.*)\s*$/
 			qpaper.exam_name = $~[:exam_name]
 		when /^!Title!\s+(?<title>.*)\s*$/
@@ -59,28 +60,34 @@ namespace :karpeer_admin do
 			q_no = $~[:qno]
 			subq_no=0;
 			subsubq_no=0;
-			q = Question.where(qtext: $~[:qtext].strip).first_or_create
-			q.update_attributes(user_id: userid) if q.user_id = nil
+			q = Question.where(qtext: $~[:qtext].strip).first_or_initialize
+			q.user_id ||= userid
+			q.course_id ||= ucourse.course_id
+			q.save			
 			eq = Examquestion.create qnumber: q_no, qpaper_id: qpaper.id, mark: $~[:mark], question_id: q.id, user_id: userid
 		when /^(?<qno>[0-9]+)\.\s*$/
 			q_no = $~[:qno]
 			subq_no=0;
 			subsubq_no=0;
-		when /^\((?<subq>[a-zA-Z])\)\s*$/
+		when /^\((?<subq>[a-hA-H])\)\s*$/
 			subq_no+=1;
 			subsubq_no=0;
-		when /^\((?<subq>[a-zA-Z])\)\s*(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
+		when /^\((?<subq>[a-hA-H])\)\s*(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
 			subq_no+=1;
 			subsubq_no=0;
-			q = Question.where(qtext: $~[:qtext].strip).first_or_create
-			q.update_attributes(user_id: userid) if q.user_id = nil
+			q = Question.where(qtext: $~[:qtext].strip).first_or_initialize
+			q.user_id ||= userid
+			q.course_id ||= ucourse.course_id
+			q.save
 			eq = Examquestion.create qnumber: q_no, subquestion_no: subq_no, qpaper_id: qpaper.id, mark: $~[:mark], question_id: q.id, user_id: userid
 		when /^\s*\(*\s*[Oo][Rr]\s*\)*\s*$/
 			puts "got Or"
 		when /^\((?<subsubq>[ivx]+)\)\s+(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
 			subsubq_no+=1
-			q = Question.where(qtext: $~[:qtext].strip).first_or_create
-			q.update_attributes(user_id: userid) if q.user_id = nil
+			q = Question.where(qtext: $~[:qtext].strip).first_or_initialize
+			q.user_id ||= userid
+			q.course_id ||= ucourse.course_id
+			q.save
 			eq = Examquestion.create qnumber: q_no, subquestion_no: subq_no, subsubqno: subsubq_no, qpaper_id: qpaper.id, mark: $~[:mark], question_id: q.id, user_id: userid	
 		when /^!END_QPAPER!\s*$/	
 			qpaper = nil
@@ -93,7 +100,17 @@ namespace :karpeer_admin do
 
   desc "checking question paper"
   task :check_qpapers, [:qpaper] => :environment do |t, args|
-
+	q_no=0;
+	subq_no=0;
+	subsubq_no=0;
+	univ=nil;
+	qpaper=nil;
+	userid = Admin.first.user_id
+	current_course=true
+	course_name=nil
+	coursecode=nil
+	course_branch=nil
+	ucourse=nil
 	IO.foreach(args.qpaper) do |line|
 		case line
 		when /^!START_QPAPER_DESC!\s*$/
@@ -108,17 +125,31 @@ namespace :karpeer_admin do
 		when /^!Month!\s+(?<month>.*)\s*$/
 		when /^!Semester!\s+(?<semester>.*)\s*$/
 		when /^!END_QPAPER_DESC!\s*$/
-		when /^!START_QPAPER!\s*$/			
+		when /^!START_QPAPER!\s*$/
+			q_no=0;
+			subq_no=0;
+			subsubq_no=0;			
 		when /^(?<qno>[0-9]+)\.\s*(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
+			q_no = $~[:qno]
+			subq_no=0;
+			subsubq_no=0;
 		when /^(?<qno>[0-9]+)\.\s*$/
-		when /^\((?<subq>[a-zA-Z])\)\s*$/
-		when /^\((?<subq>[a-zA-Z])\)\s*(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
+			q_no = $~[:qno]
+			subq_no=0;
+			subsubq_no=0;
+		when /^\((?<subq>[a-hA-H])\)\s*$/
+			subq_no+=1;
+			subsubq_no=0;
+		when /^\((?<subq>[a-hA-H])\)\s*(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
+			subq_no+=1;
+			subsubq_no=0;
 		when /^\s*\(*\s*[Oo][Rr]\s*\)*\s*$/
 		when /^\((?<subsubq>[ivx]+)\)\s+(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
+			subsubq_no+=1
 		when /^!END_QPAPER!\s*$/	
 		else
-			puts line + "no match"
 		end
+		puts "( "+q_no.to_s+"."+subq_no.to_s+"."+subsubq_no.to_s+" )"+line
 	end
   end
 
@@ -130,7 +161,7 @@ namespace :karpeer_admin do
 	univ=nil
 	elec=false
 	degree=nil
-	branches = { "CS" => "Computer Science and Engineering", "MA" => "Mathematics", "CY" => "Chemistry", "PH" => "Physics", "GE" => "General Engineering", "EE" => "Electrical and Electronics Engineering", "ME" => "Mechanical Engineering", "HS" => "Humanities", "MG" => "Management Studies", "GE" => "General Engineering", "IT" => "Information Technology", "EC" => "Electronics and Communication Engineering", "CE" => "Chemical Engineering" }
+	branches = { "CS" => "Computer Science and Engineering", "MA" => "Mathematics", "CY" => "Chemistry", "PH" => "Physics", "GE" => "General Engineering", "EE" => "Electrical and Electronics Engineering", "ME" => "Mechanical Engineering", "HS" => "Humanities", "MG" => "Management Studies", "GE" => "General Engineering", "IT" => "Information Technology", "EC" => "Electronics and Communication Engineering", "CE" => "Civil Engineering" }
 	IO.foreach(args.course_sheet) do |line|
 		case line
 		when /^\s*!Degree!(?<degree>.*)\s*$/
@@ -184,6 +215,7 @@ namespace :karpeer_admin do
   task :expire_home => :environment do |t|
 	store = ActionController::Base.cache_store
 	store.delete_matched(/home/)
+	store.delete_matched(/index/)
   end
 
 

@@ -1,7 +1,12 @@
+<% content_for :mathjax_scripts do %>
+<%= render partial: 'partials/mathjax_include' %>
+<% end %>
+
 <% content_for :masthead_content do %>
+<div class="hero-unit noise" id="banner">
 	<div class="row">
 		<div class="span6">
-			<h4><%= @qpaper.title + " " + @qpaper.month + " " + @qpaper.year.to_s %></h4>
+			<h4><%= @qpaper.full_title %></h4>
 			<h4><%= @qpaper.university_course.try(:full_course_name) %> </h4>
 		</div>
 		<div class="span6">
@@ -21,6 +26,7 @@
 		<% end %>
 		</div>
 	</div>
+</div>
 <% end %>
 
 <div class="row">
@@ -38,24 +44,15 @@
 </thead>
 <tbody>
 <% @qpaper.examquestions.order("qnumber ASC, subquestion_no ASC").includes(:question).each do |eq| %>
+
 	  <tr>
-		  <% if eq.qnumber == prev_qn then %>
-		    <% if eq.subquestion_no == prev_sqn %>
-			  <td><%= eq.qnumber %><%= "." %><%= subq_id = subq_id.next %></td>
-		    <% else %>
-			<td></td><td>Or</td><td></td></tr>
-			<tr>
-			  <td><%= eq.qnumber %><%= "." %><%= subq_id = 'a' %></td>
-		    <% end %>
-		  <% else %>
-		      <td><%= eq.qnumber %><%= "." %><%= eq.subquestion_no.nil? ? "" : subq_id = 'a' %></td>
-		  <% end %>
-		  <td><%= raw(render_markdown(eq.question.qtext)) %></td>
+		<td><%= eq.qnumber.to_s %><%= eq.subquestion_no.nil? ? "" : "."+eq.subquestion_no.to_s %><%= eq.subsubqno.nil? ? "" : "."+eq.subsubqno.to_s %></td>
+		  <td><%= raw render_markdown eq.question.qtext %></td>
 		  <td><%= eq.mark.to_s %></td>
-		  <td><%= link_to "Solutions", question_path(eq.question_id), class: "btn btn-success" %></td>
+		  <td><%= link_to examquestion_path(eq.id), class: "btn btn-success" do %>
+			<i class="icon-unlock"></i>
+		<% end %></td>
 	  </tr>
-  	  <% prev_qn=eq.qnumber %>
-	  <% prev_sqn = eq.subquestion_no %>
 <% end %>
 </tbody>
 </table>

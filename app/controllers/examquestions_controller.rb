@@ -10,6 +10,7 @@ class ExamquestionsController < ApplicationController
   # GET /examquestions/1
   # GET /examquestions/1.json
   def show
+	@solution = @examquestion.question.solutions.build.tap { |sol| sol.user_id = current_user.id } if user_signed_in?
   end
 
   # GET /examquestions/new
@@ -64,7 +65,7 @@ class ExamquestionsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_examquestion
-      @examquestion = Examquestion.find(params[:id])
+      @examquestion = Examquestion.includes(:question, qpaper: :university_course ).find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
