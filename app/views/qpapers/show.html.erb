@@ -49,7 +49,7 @@
 		<td><%= eq.qnumber.to_s %><%= eq.subquestion_no.nil? ? "" : "."+eq.subquestion_no.to_s %><%= eq.subsubqno.nil? ? "" : "."+eq.subsubqno.to_s %></td>
 		  <td><%= raw render_markdown eq.question.qtext %></td>
 		  <td><%= eq.mark.to_s %></td>
-		  <td><%= link_to examquestion_path(eq.id), class: "btn btn-success" do %>
+		  <td><%= link_to question_path(eq.question_id), class: "btn btn-success" do %>
 			<i class="icon-unlock"></i>
 		<% end %></td>
 	  </tr>
