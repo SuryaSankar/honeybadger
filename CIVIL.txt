@@ -101,36 +101,36 @@ Or
 !END_QPAPER_DESC!
 
 !START_QPAPER!
-1. What are arrows?
-2. What is plumb BOB?
-3. What is magnetic meridian?
-4. What is whole circle bearing?
-5. What is foresight?
-6. What is backsight?
-7. What is centring of a theodolite?
-8. What is face right observation?
-9. What is tangent length in a simple curve?
-10. What is mid-ordinate in a simple curve?
+1. What are arrows? (2)
+2. What is plumb BOB? (2)
+3. What is magnetic meridian? (2)
+4. What is whole circle bearing? (2)
+5. What is foresight? (2)
+6. What is backsight? (2)
+7. What is centring of a theodolite? (2)
+8. What is face right observation? (2)
+9. What is tangent length in a simple curve? (2)
+10. What is mid-ordinate in a simple curve?(2)
 11.
-(a) Explain the method of direct ranging in detail.
+(a) Explain the method of direct ranging in detail. (16)
 Or
-(b) Explain the method of reciprocal ranging in detail.
+(b) Explain the method of reciprocal ranging in detail. (16)
 12.
-(a) Discuss the working principle of prismatic compass in detail.
+(a) Discuss the working principle of prismatic compass in detail. (16)
 Or
-(b) Explain the two point proble method of plane table surveying.
+(b) Explain the two point proble method of plane table surveying. (16)
 13.
-(a) Explain the method of profile levelling.
+(a) Explain the method of profile levelling. (16)
 Or
-(b) Describe the three indirect methods of locating contours.
+(b) Describe the three indirect methods of locating contours. (16)
 14.
-(a) Describe the essential parts of a transit theodolite.
+(a) Describe the essential parts of a transit theodolite. (16)
 Or
-(b) Discuss the temporary adjustments of a transit theodolite.
+(b) Discuss the temporary adjustments of a transit theodolite. (16)
 15.
-(a) Explain the setting out of a simple curve by the Rankine’s method of tangential angle.
+(a) Explain the setting out of a simple curve by the Rankine’s method of tangential angle. (16)
 Or
-(b) Explain the setting out of a simple curve by two theodolite method.
+(b) Explain the setting out of a simple curve by two theodolite method. (16)
 !END_QPAPER!
 
 !START_QPAPER_DESC!

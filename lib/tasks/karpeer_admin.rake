@@ -63,7 +63,7 @@ namespace :karpeer_admin do
 			q = Question.where(qtext: $~[:qtext].strip).first_or_initialize
 			q.user_id ||= userid
 			q.course_id ||= ucourse.course_id
-			q.save			
+			q.save!			
 			eq = Examquestion.create qnumber: q_no, qpaper_id: qpaper.id, mark: $~[:mark], question_id: q.id, user_id: userid
 		when /^(?<qno>[0-9]+)\.\s*$/
 			q_no = $~[:qno]
@@ -78,7 +78,7 @@ namespace :karpeer_admin do
 			q = Question.where(qtext: $~[:qtext].strip).first_or_initialize
 			q.user_id ||= userid
 			q.course_id ||= ucourse.course_id
-			q.save
+			q.save!
 			eq = Examquestion.create qnumber: q_no, subquestion_no: subq_no, qpaper_id: qpaper.id, mark: $~[:mark], question_id: q.id, user_id: userid
 		when /^\s*\(*\s*[Oo][Rr]\s*\)*\s*$/
 			puts "got Or"
@@ -87,7 +87,7 @@ namespace :karpeer_admin do
 			q = Question.where(qtext: $~[:qtext].strip).first_or_initialize
 			q.user_id ||= userid
 			q.course_id ||= ucourse.course_id
-			q.save
+			q.save!
 			eq = Examquestion.create qnumber: q_no, subquestion_no: subq_no, subsubqno: subsubq_no, qpaper_id: qpaper.id, mark: $~[:mark], question_id: q.id, user_id: userid	
 		when /^!END_QPAPER!\s*$/	
 			qpaper = nil
