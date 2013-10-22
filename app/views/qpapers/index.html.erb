@@ -1,5 +1,5 @@
 <%- model_class = Qpaper -%>
-<table class="table table-striped">
+<table class="table table-bordered">
   <thead>
     <tr>
       <th>Id</th>
@@ -12,10 +12,10 @@
     </tr>
   </thead>
   <tbody>
-    <% @qpapers.each do |qpaper| %>
+    <% @qpapers.each_with_index do |qpaper, index| %>
       <tr>
-        <td><%= link_to qpaper.id, qpaper_path(qpaper) %></td>
-	<td><%= qpaper.title + " - " + qpaper.month %></td>
+        <td><%= index+1 %></td>
+	<td><%= link_to qpaper.title + " - " + qpaper.month, qpaper_path(qpaper.id) %></td>
         <td><%= qpaper.year %></td>
         <td><%= qpaper.university_course.try(:full_course_name) %></td>
 	<% if admin_signed_in? then %>

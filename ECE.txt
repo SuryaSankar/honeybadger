@@ -57,7 +57,10 @@
 
 !START_QPAPER_DESC!
 !University! Anna University Chennai
-!CourseCode! EC8502
+!Outdated!
+!Branch! Electronics and Communication Engineering
+!CourseName! Digital Communication
+!CourseCode! EC2301
 !Year! 2011
 !Month! APR/MAY
 !Semester! 5
@@ -266,7 +269,7 @@ Or
 
 !START_QPAPER_DESC!
 !University! Anna University Chennai
-!CourseCode! EC8502
+!CourseCode! EC2301
 !Year! 2010
 !Month! NOV/DEC
 !Semester! 5
@@ -666,7 +669,7 @@ Or
 
 !START_QPAPER_DESC!
 !University! Anna University Chennai
-!CourseCode! EC8502
+!CourseCode! EC2301
 !Year! 2013
 !Month! May/Jun
 !Semester! 5
@@ -691,8 +694,8 @@ Or
 (b) Discuss the characteristics of various discrete communication channels. (16)
 12.
 (a)
-(i) Explain a PCM system. Derive the expression for quantisation noise of a PCM system with uniform quantizer. (8)
-(ii) Compare any two speech encoding techniques. (8)
+(i) Explain a PCM system. Derive the expression for quantisation noise of a PCM system with uniform quantizer. (16)
+(ii) Compare any two speech encoding techniques. (16)
 Or
 (b) Explain (i) Spectral waveform encoding (ii) Model based encoding. (16)
 13.
@@ -757,7 +760,6 @@ Or
 (i) Explain how DSP can be used for speech processing. (8)
 (ii) Explain in detail about decimation and interpolation. (8)
 !END_QPAPER!
-
 
 !START_QPAPER_DESC!
 !University! Anna University Chennai
@@ -969,7 +971,7 @@ Or
 (i) Write notes on Fiber refractive index profile measurement (8)
 (ii) Write notes on Fiber cut off wavelength measurement (8)
 15.
-(a) Discuss the concepts of Media Access Control protocols in Broadcast and select networks. (16)
+(a) discuss the concepts of Media Access Control protocols in Broadcast and select networks. (16)
 Or
 (b)
 (i) Describe the non-linear effects on network performance in detail. (8)
@@ -1096,6 +1098,3 @@ Or
 (i) Explain in detail various types of insulators and their applications to power transmission. (8)
 (ii) Draw the schematic layout of a substation and explain. (8)
 !END_QPAPER!
-
-
-
