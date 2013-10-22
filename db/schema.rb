@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131013080536) do
+ActiveRecord::Schema.define(version: 20131021193048) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -145,6 +145,20 @@ ActiveRecord::Schema.define(version: 20131013080536) do
 
   add_index "programs_qpapers", ["program_id"], name: "index_programs_qpapers_on_program_id"
   add_index "programs_qpapers", ["qpaper_id"], name: "index_programs_qpapers_on_qpaper_id"
+
+  create_table "qpaper_files", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "uploaded_file_file_name"
+    t.string   "uploaded_file_content_type"
+    t.integer  "uploaded_file_file_size"
+    t.datetime "uploaded_file_updated_at"
+    t.integer  "user_id"
+    t.integer  "university_course_id"
+  end
+
+  add_index "qpaper_files", ["university_course_id"], name: "index_qpaper_files_on_university_course_id"
+  add_index "qpaper_files", ["user_id"], name: "index_qpaper_files_on_user_id"
 
   create_table "qpapers", force: true do |t|
     t.integer  "year"

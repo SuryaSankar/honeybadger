@@ -41,10 +41,10 @@
 <li class="divider-vertical"></li>
 	      <% if user_signed_in? then%>
 			<li class="dropdown">
-			  <a id="account_dropdown" class="dropdown-toggle" data-toggle="dropdown" href="#">My account</a>
+			  <a id="account_dropdown" class="dropdown-toggle" data-toggle="dropdown" href="#">Your account</a>
 			  <ul class="dropdown-menu" role="menu" aria-labelledby="account_dropdown">
-				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Profile</a></li>
-				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Questions</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Your Profile</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Your Questions</a></li>
 				<li role="presentation" class="divider"></li>
 			<li role="presentation"><%= link_to "Sign Out", destroy_user_session_path, {method: :delete , role: "menuitem" }  %></li>
 			  </ul>
@@ -74,32 +74,16 @@
 		<div class="heading"><h4>Join Us in one click and start contributing</h4></div>
 		<div class="bordered-box-content">
 		<% if !user_signed_in? then%>
-		<p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Sign in via your Facebook Account <% end %> </p><p>Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Sign in via your Gmail Account <% end %></p></hr>Or you could just sign up/sign in with your email
-		<div class="row-fluid">
-		<div class="span6">
-			<h4>Sign Up:</h4>
-			<%= simple_form_for(:user, :url => user_registration_path ) do |f| %>
-			  <%= f.error_notification %>
-
-			    <%= f.input :uname, :required => false, label: "Username" %>
-			    <%= f.input :email, :required => false, :autofocus => true %>
-			    <%= f.input :password, :required => false %>
-			    <%= f.input :password_confirmation, :required => false, label: "Confirm Password" %>
-			    <%= submit_tag "Sign Up", class: "btn btn-success" %>
+			<% if flash[:waiting_for_confirmation] then %>
+				 <div class="notice"><h5>IMPORTANT !!</h5> <%= flash[:notice] %></div>
+			<% elsif flash[:email_registered_already] then %>
+				 <div class="notice"><h5>IMPORTANT !!</h5> <%= flash[:notice] %></div>
+Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Your Facebook Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Your Gmail Account <% end %></p>	
+			<% else %>
+				Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Your Facebook Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Your Gmail Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-envelope"></i><a data-toggle="modal" data-target="#signup_modal"> Any other valid email account</a> </p>
 			<% end %>
-		</div>
-		<div class="span6">
-			<h4>Sign In:</h4>
-		<%= simple_form_for(:user, url: user_session_path, class: "form-inline" ) do |f| %>
-		    <%= f.input :email, :required => false, :autofocus => true %>
-		    <%= f.input :password, :required => false %>
-		    <%= f.input :remember_me, :as => :boolean  %>
-		    <%= submit_tag "Sign In", class: "btn btn-success" %>
-		<% end %>
-		</div>
-		</div>
 		<% else %>
-		You're already signed in! Great! Start contributing. Post solutions. 
+		 Hi <%= current_user.uname %>! Welcome to Karpeer
 		<% end %>
 		</div>
 		</div>
@@ -108,7 +92,7 @@
 		<div id="tree_box" class="span6 bordered-box">
 			<div class="heading"><h4>START HERE <i class="icon-long-arrow-down"></i><i class="icon-long-arrow-down"></i> Find course wise question papers and more</h4></div>
 			<div class="bordered-box-content">
-			Use this menu to find the course
+			Click on your branch and select the course
 				<div id="tree1"></div>
 			</div>
 		</div>
@@ -119,7 +103,7 @@
 
 <div class="navbar navbar-fixed-bottom" id="lowerBar"><div class="navbar-inner"  ></div></div>
 
-
+<%= render partial: 'users/partials/signup_modal' %>
            
 
 

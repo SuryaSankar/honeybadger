@@ -92,15 +92,21 @@
 <%= yield :breadcrumbs %>
 </ul>
 <% end %>
-<div class="row">
-<div class="span3">
-<%= yield :side_navigation %>
-<%#= render partial: 'partials/branches_accordion' if @show_branches_accordion %>
-</div>
-<div class="span9">
-<%= yield %>
-</div>
-</div>
+
+<% if @show_left_navigation then %>
+	<div class="row">
+		<div class="span3">
+			<%= yield :side_navigation %>
+		<%#= render partial: 'partials/branches_accordion' if @show_branches_accordion %>
+		</div>
+		<div class="span9">
+			<%= yield %>
+		</div>
+	</div>
+<% else %>
+	<%= yield %>
+<% end %>
+
            
 <%= render partial: 'users/partials/signup_modal' %>
 

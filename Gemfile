@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 source 'http://gems.github.com'
 gem 'rails', '4.0.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -25,6 +25,8 @@ gem 'actionpack-page_caching'
 gem 'actionpack-action_caching'
 #gem "pagedown-rails", '~> 1.1.3'
 #gem 'gollum_rails'
+gem "aws-sdk"
+gem "paperclip"
 
 
 group :development do

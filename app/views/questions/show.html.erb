@@ -1,51 +1,36 @@
-<%- model_class = Question -%>
 <% content_for :prettify_scripts do %>
-<%= render partial: 'partials/prettify_include' %>
+	<%= render partial: 'partials/prettify_include' %>
 <% end %>
 
 <% content_for :mathjax_scripts do %>
-<%= render partial: 'partials/mathjax_include' %>
+	<%= render partial: 'partials/mathjax_include' %>
 <% end %>
 <% content_for :masthead_content do %>
-<div class="hero-unit noise" id="questionBanner">
-<div class="row">
-<div class="span10">
-<div class="handwriting"><h4>Question:</h4></div><%= raw render_markdown @question.qtext %>
-</div>
-<div class="span2 handwriting">
-<% if user_signed_in? && @question.user_id == current_user.id then %>
-<div class="handwriting"><h4>Actions: </h4></div>
-<ul>
-<li>
-  <%= link_to "Edit Question",
-              edit_question_path(@question) %></li>
-<li>
-  <%= link_to "Delete Question",
-              question_path(@question),
-              :method => 'delete',
-              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
-</li>
-</ul>
+	<div class="hero-unit noise" id="questionBanner">
+		<div class="row">
+			<div class="span10">
+				<div class="handwriting"><h4>Question:</h4></div><%= raw render_markdown @question.qtext %>
+			</div>
+			<div class="span2 handwriting">
+				<% if user_signed_in? && @question.user_id == current_user.id then %>
+				<div class="handwriting"><h4>Actions: </h4></div>
+				<ul>
+				<li>
+				  <%= link_to "Edit Question",
+					      edit_question_path(@question) %></li>
+				<li>
+				  <%= link_to "Delete Question",
+					      question_path(@question),
+					      :method => 'delete',
+					      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
+				</li>
+				</ul>
+				<% end %>
+			</div>
+		</div>
+	</div>
 <% end %>
-</div>
-</div>
-<% end %>
-<% content_for :side_navigation do %>
-<div class="bordered-box">
-<div class="heading"><h4>Question Stats</h4></div>
-<div class="bordered-box-content">
-<% qpapers=@question.qpapers %>
-<% if qpapers.length >= 1 then %>
-<h5>Appeared in</h5>
-<ol>
-<% qpapers.each do |qp| %>
-<li><%= link_to qp.full_title, qpaper_path(qp.id) %></li>
-<% end %>
-</ol>
-<% end %>
-</div>
-</div>
-<% end %>
+
 <% content_for :navbar_breadcrumbs do %>
 	<ul class="nav">
 	  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
@@ -53,26 +38,57 @@
 <li><%= link_to course_path(@question.course_id) do %><%= @question.course.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 	</ul>
 <% end %>
-<div class="bordered-box">
-<div class="heading"><h4>Solutions</h4></div>
-<% @question.solutions.each do |sol| %>
-<p><%= sol.answer %></p>
-Submitted by:
-<p> <%= sol.user.uname %> </p>
-<% end %>
+
+
+<div class="row">
+	<div class="span9">
+			<div class="bordered-box">
+				<div class="heading"><h4>Answers</h4></div>
+				<div class="bordered-box-content">
+					<% solutions=@question.solutions %>
+					<% if solutions.empty? then%>
+						<% solutions.each do |sol| %>
+							<p><%= sol.answer %></p>
+							Submitted by:
+							<p> <%= sol.user.uname %> </p>
+						<% end %>
+					<% else %>
+						No answers have been submitted yet.
+					<% end %>
+				</div>
+			</div>
+			<div class="bordered-box">
+				<div class="heading"><h4>Add your answer here</h4></div>
+				<div class="bordered-box-content">
+					<%= simple_form_for @solution, :html => { :class => 'form-horizontal' } do |f| %>
+					<div class='wmd-panel'><div id='wmd-button-bar'></div><%= f.text_area :answer, id: 'wmd-input', class: 'wmd-input' %>
+					</div>
+					<%= submit_tag "Add Solution", class: "btn btn-success" %>
+					<% end %>
+				</div>
+			</div>
+
+	</div>
+	<div class="span3">
+		<div class="bordered-box">
+			<div class="heading"><h4>Question Stats</h4></div>
+			<div class="bordered-box-content">
+				<% qpapers=@question.qpapers %>
+				<% if !qpapers.empty? then %>
+					<h5>Appeared in</h5>
+					<ol>
+					<% qpapers.each do |qp| %>
+						<li><%= link_to qp.full_title, qpaper_path(qp.id) %></li>
+					<% end %>
+					</ol>
+				<% end %>
+			</div>
+		</div>
+
+
+	</div>
 </div>
-<div class="bordered-box">
-<div class="heading"><h4>Add your solution</h4></div>
-<div class="bordered-box-content">
-<%= simple_form_for @solution, :html => { :class => 'form-horizontal' } do |f| %>
-<div class='wmd-panel'>
-<div id='wmd-button-bar'></div>
-<%= f.text_area :answer, id: 'wmd-input', class: 'wmd-input' %>
-</div>
-<%= submit_tag "Add Solution", class: "btn btn-success" %>
-<% end %>
-<div>
-</div>
+
 
 
 

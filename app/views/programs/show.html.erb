@@ -1,27 +1,15 @@
 <%- model_class = Program -%>
-<% content_for :masthead_content do %>
-	<div class="row">
-		<div class="span6">
-			<h2><%= @program.short_desc %></h2>
-		</div>
-		<div class="span6">
-		<% if !user_signed_in? then%>
-			<p>Enroling is dead simple. Takes just one click to sign in using your</p>
-			<p><%= link_to  user_omniauth_authorize_path(:facebook) do %>
-				<i class="icon-facebook"></i> - Facebook Account
-				<% end %> 
-				&nbsp;Or&nbsp;
-				<%= link_to  user_omniauth_authorize_path(:google_oauth2) do %>
-				<i class="icon-google-plus"></i> - Gmail Account
-				<% end %>
-			</p>
-	
-			<p>Don't have these accounts? No Problem</p>
-			<p><i class="icon-envelope"></i><a data-toggle="modal" data-target="#signup_modal"> Register </a> using your email id. If you have already registered click <a data-toggle="modal" data-target="#signin_modal"> here </a> to sign in.</p>
-		<% end %>
-		</div>
-	</div>
+<% content_for :pagewise_heading do %>
+	<%= @program.short_desc %>
 <% end %>
+
+<% content_for :navbar_breadcrumbs do %>
+	<ul class="nav">
+	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+  <li><%= link_to branch_path(@program.branch_id) do %><%= @program.branch.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+</ul>
+<% end %>
+
 
 <% pucs= @program.program_university_courses.where.not(semester: nil).includes(university_course: :course).order("semester") %>
 <% pucs_semwise = pucs.group_by { |puc| puc.semester } %>

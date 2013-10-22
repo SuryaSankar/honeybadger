@@ -12,6 +12,7 @@ class QuestionsController < ApplicationController
   # GET /questions/1
   # GET /questions/1.json
   def show
+	@show_left_navigation = false
 	@solution = @question.solutions.build.tap { |sol| sol.user_id = current_user.id } if user_signed_in?
   end
 
@@ -64,6 +65,9 @@ class QuestionsController < ApplicationController
     end
   end
 
+  def submit_answer
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_question
@@ -73,5 +77,9 @@ class QuestionsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_params
       params.require(:question).permit(:qtext,:qdesc)
+    end
+
+    def solution_params
+	params.require(:solution).permit(:answer)
     end
 end

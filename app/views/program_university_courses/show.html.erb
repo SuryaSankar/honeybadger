@@ -3,11 +3,12 @@
 <% content_for :pagewise_heading do %>
 	<%= @program_university_course.university_course.course_code+" - "+@program_university_course.university_course.course.name %>
 <% end %>
-<% content_for :breadcrumbs do %>
-	  <li><%= link_to "Home", root_path %> <span class="divider">/</span></li>
-  <li><%= link_to @program_university_course.program.branch.name, branch_path(@program_university_course.program.branch_id) %> <span class="divider">/</span></li>
-<li><%= link_to @program_university_course.program.short_desc, program_path(@program_university_course.program_id) %> <span class="divider">/</span></li>
-  <li class="active"><%= @program_university_course.full_course_name %></li>
+<% content_for :navbar_breadcrumbs do %>
+	<ul class="nav">
+	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+  <li><%= link_to branch_path(@program_university_course.program.branch_id) do %><%= @program_university_course.program.branch.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+<li><%= link_to program_path(@program_university_course.program_id) do %><%= @program_university_course.program.short_desc %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+</ul>
 <% end %>
 
 <% content_for :side_navigation do %>
@@ -22,6 +23,12 @@
 	    </div>
 </div>
 </div>
+
+<%= simple_form_for :qpaper_file, :url => qpaper_files_path, :html => { :multipart => true } do |form| %>
+  <%= form.file_field :uploaded_file %>
+  <%= form.input :university_course_id, :as => :hidden, :input_html => { :value => @program_university_course.university_course_id } %>
+  <%= submit_tag "Upload", class: "btn btn-success" %>
+<% end %>
 
 
 <div class="row">

@@ -6,8 +6,17 @@ class ApplicationController < ActionController::Base
 	before_filter :set_conditionals
 	after_filter :store_location
 
+	before_filter :configure_devise_params, if: :devise_controller?
+
+	def configure_devise_params
+		devise_parameter_sanitizer.for(:sign_up) do |u|
+			u.permit(:uname, :email, :password, :password_confirmation)
+		end
+	end
+
 	def set_conditionals
 		@show_branches_accordion=true
+		@show_left_navigation=true
 	end
 
 	def store_location

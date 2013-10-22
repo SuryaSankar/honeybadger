@@ -35,6 +35,7 @@ Honeybadger::Application.routes.draw do
   resources :notes
   resources :units
   resources :program_university_courses
+  resources :qpaper_files
 
 
 

@@ -1,0 +1,25 @@
+<h1>Listing qpaper_files</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @qpaper_files.each do |qpaper_file| %>
+      <tr>
+        <td><%= link_to 'Show', qpaper_file %></td>
+        <td><%= link_to 'Edit', edit_qpaper_file_path(qpaper_file) %></td>
+        <td><%= link_to 'Destroy', qpaper_file, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Qpaper file', new_qpaper_file_path %>
