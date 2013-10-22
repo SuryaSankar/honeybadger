@@ -1,0 +1,52 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8402
+!Year! 2010
+!Month! NOV/DEC
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What are even and odd signals? (2)
+2. Define aliasing effect. (2)
+3. Mention the relation between Z transform and Fourier transform. (2)
+4. Give any two properties of linear convolution. (2)
+5. Calculate DFT of x(n) = {1, 1, −2, −2}. (2)
+6. Differentiate between DIF and DIT. (2)
+7. What are the advantages of FIR filter? (2)
+8. Mention the significance of Chebyshev’s approximation. (2)
+9. Define warping. (2)
+10. What is BSAR instruction? Give an example. (2)
+11.
+(a)
+(i) What do you mean by Nyquist rate? Give its significance. (6)
+(ii) Explain the classification of discrete signal. (10)
+Or
+(b)
+(i) Explain in detail the Quantization of digital signals. (8)
+(ii) Describe the different types of sampling methods used. (8)
+12.
+(a)
+(i) Explain the properties of Z-transform. (8)
+(ii) Find the impulse response given by difference equation $ y(n)− 3y(n −1)− 4y(n − 2) = x(n) + 2x(n −1) $ (8)
+Or
+(b)
+(i) Test the stability of given systems y(n) = cos(x(n)), y(n) = x(−n−2), y(n) = n x(n) (8)
+(ii) Find the convolution x(n) = $ \left \{ \underset{\uparrow}{-1},1,2,-2 \right \} $, h(n) = $ \left \{0.5, \underset{\uparrow}{1},-1,2,0.75 \right \} $ (8) 
+13.
+(a) An 8-point sequence is given by x(n)= {2, 2, 2, 2, 1,1,1,1,}. Compute 8-point DFT of x(n) by radix DIT--FFT method also sketch the magnitude and phase. (16)
+Or
+(b) Determine the response of LTI system when the input sequence is x(n) = {−1,1,2,1,−1} using radix 2 DIF FFT. The impulse response is h(n) = {−1,1,−1,1}. (16)
+14.
+(a) Design a low pass filter using rectangular window by taking I samples of $ \omega (n) $ with cut off sequence of 1.2 radians/sec also draw the filter. (16)
+Or
+(b) The specification of defined low pass filter is $ 0.8\leq\left | H(\omega) \right | \leq 1.0; \hspace{2mm}0\leq\omega\leq0.2\pi\\\\\left | H(\omega) \right |\leq0.2;\hspace{2mm}0.32\pi\leq\omega\leq\pi $ Design Chebyshev’s digital filter using bilinear transformation. (16)
+15.
+(a)
+(i) With a neat diagram explain Von-Neumann architecture. (8)
+(ii) What is MAC unit? Explain its functions. (8)
+Or
+(b) Explain the architecture of TMS320C50 with a neat diagram. (16)
+!END_QPAPER!
