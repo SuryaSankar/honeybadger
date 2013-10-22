@@ -1,0 +1,62 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! CS8604
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 6
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define class. (2)
+2. List any four Java Doc comments. (2)
+3. Define Inheritance Hierarchy. (2)
+4. What is Interface? (2)
+5. How are frames created in Java? (2)
+6. Give the value for the following predefined actions - SMALL-ICON, MNEMONIC-KEY (2)
+7. Write about simple generic class with an example. (2)
+8. What are Assertions? (2)
+9. What do you mean by Threads in Java? (2)
+10. What is multithreading. (2)
+11.
+(a)
+(i) Explain what is OOPS and explain the features of OOPS. (8)
+(ii) Discuss about the usage of constructor with an example. using Java. (8)
+Or
+(b)
+(i) Explain any four string operations in Java. With suitableexamples. (8)
+(ii) Define package. Explain the types of package with its importance. (8)
+12.
+(a)
+(i) Explain the concept of inheritance with suitable example. With Java (8)
+(ii) Explain the concept of polymorphism with a example. (8)
+Or
+(b)
+(i) What is meant by object cloning? Explain it with an example. (8)
+(ii) Discuss in detail about inner class, with its usefullness. (8)
+13.
+(a)
+(i) Explain how colour is used in Graphics programming. (8)
+(ii) Explain the usage of special fonts for text in Graphics programming. (8)
+Or
+(b)
+(i) Explain the following in detail Model, view and controller design pattern. w.r.t. Swing in Java. (8)
+(ii) Write in detail about button and text string components. (8)
+14.
+(a)
+(i) Discuss about translating generic expressions and calling legacy code. (8)
+(ii) Explain the concept of Generic Type Information in Virtual Machine. (8)
+Or
+(b)
+(i) Define Exception and explain its different types. With appropriate examples using Java. (8)
+(ii) What are stack trace Elements? Explain. (8)
+15.
+(a)
+(i) Explain how threads are created in Java. (8)
+(ii) Write about various threads states in Java. (8)
+Or
+(b)
+(i) Explain synchronization in detail. (6)
+(ii) Write a Java program to illustrate multithreaded programming. (10)
+!END_QPAPER!
