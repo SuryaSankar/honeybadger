@@ -1,6 +1,6 @@
 !START_QPAPER_DESC!
 !University! Anna University Chennai
-!CourseCode! EE8402
+!CourseCode! EC2314
 !Year! 2010
 !Month! NOV/DEC
 !Semester! 5
