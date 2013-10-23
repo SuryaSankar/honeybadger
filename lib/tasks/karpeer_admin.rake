@@ -15,7 +15,7 @@ namespace :karpeer_admin do
 
 	IO.foreach(args.qpaper) do |line|
 		case line
-		when /^!START_QPAPER_DESC!\s*$/
+		when /^\s*!START_QPAPER_DESC!\s*$/
 			univ=nil;
 			current_course = true
 			coursecode = nil
@@ -112,7 +112,7 @@ namespace :karpeer_admin do
 	ucourse=nil
 	IO.foreach(args.qpaper) do |line|
 		case line
-		when /^!START_QPAPER_DESC!\s*$/
+		when /^\s*!START_QPAPER_DESC!\s*$/
 		when /^!University!\s+(?<university>.*)$/
 		when /^!Outdated!\s*$/
 		when /^!CourseName!\s+(?<coursename>.*)\s*$/

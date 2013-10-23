@@ -1,0 +1,342 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8404
+!Year! 2010
+!Month! APR/MAY
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What are the static characteristics of measurement system? (2)
+2. What is the significance of calibration? (2)
+3. Write any four types of analog ammeter used for instrumentation. (2)
+4. List out the methods used for measurement of iron loss in ferromagnetic materials. (2)
+5. What is the use of potentiometer in the field of electrical measurement? (2)
+6. What is the need for screening? (2)
+7. Give the functional difference between Strip chart recorder and X-Y recorder. (2)
+8. What are the merits and demerits of Digital Storage Oscilloscope? (2)
+9. Define inverse transducers with example. (2)
+10. Mention any four types of Analog to Digital converter. (2)
+11.
+(a) What are the basic functional blocks of a generalized instrumentation system? Draw the various blocks and explain their functions. (16)
+Or
+(b) A circuit was tuned for resonance by eight different students, and the value of resonant frequency in kHz were recorded as 532, 548, 543, 535, 546, 531, 543 and 536. Calculate (i) the arithmetic mean, (ii) deviation from the mean, (iii) average deviation, and (iv) standard deviation. (16)
+12.
+(a) With a neat diagram, explain the construction, working principle of single phase wattmeter. What is the importance of deflection torque in these instruments? (16)
+Or
+(b)
+(i) Write short notes on Use of current transformer for current and power measurement. (8)
+(ii) Write short notes on Working of Weston frequency meter. (8)
+13.
+(a) What are the difficulties associated with measurement of low resistance? Describe how low resistance is measured accurately by Kelvin’s double bridge. (16)
+Or
+(b)
+(i) Discuss the effects of electro static and electromagnetic interference in instruments. (8)
+(ii) Write short notes on Grounding techniques. (8)
+14.
+(a) Explain the principle of working of a magnetic tape recorder. What are its basic components and their functions? (16)
+Or
+(b) Briefly discuss the use of LED and LCD as display devices in instrumentation. Comment on their relative merits and demerits. (16)
+15.
+(a)
+(i) Explain the principle of Strain gauges transducers. (8)
+(ii) Explain the principle of Piezoelectric transducers. (8)
+Or
+(b) What is data acquisition system? Give the block diagram arrangement of a data acquisition system and describe the function of each component. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8404
+!Year! 2011
+!Month! APR/MAY
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define dynamic characteristics of an instrument. (2)
+2. Write down the different Standards of an instrument. (2)
+3. State the purpose of Shunts in the Voltmeter. (2)
+4. Classify different types of iron loss. (2)
+5. List the application of A.C. bridge. (2)
+6. Enumerate the principle of grounding. (2)
+7. List any two storage devices. (2)
+8. Differentiate the functions of printer and plotter. (2)
+9. Write the function of transducer. (2)
+10. Give any two applications of Smart Sensors. (2)
+11.
+(a) Describe the static and dynamic characteristics of measuring instrument. (16)
+Or
+(b)
+(i) Explain the concept of static evaluation of measurement data. (8)
+(ii) Describe the different calibration procedures of measuring instrument. (8)
+12.
+(a)
+(i) With a neat block diagram, explain the construction and operating principle of digital voltmeter. (8)
+(ii) Describe the functional operation of energy meter. (8)
+Or
+(b)
+(i) Describe the basic magnetic measurement using B-H curve (8)
+(ii) Explain the operating principle of instrument transformer. (8)
+13.
+(a)
+(i) Describe the operation of A.C. potentiometer. (8)
+(ii) With a neat bridge network, derive the general equation for bridge balance with a neat a.c. bridge diagram. (8)
+Or
+(b) Explain the operation of Schering Bridge to determine the unknown capacitance. Derive the relevant equations and explain the computation procedure using phasor diagram. (16)
+14.
+(a) Write brief notes on Magnetic disk and tape, Recorders and printers. (16)
+Or
+(b) With a help of simplified block diagram, explain the construction and operating principle of general purpose Cathode Ray Oscilloscope. (16)
+15.
+(a)
+(i) Explain the measurement of resistance using strain gauge. (8)
+(ii) Describe the various factors influencing the type of transducer for a particular application. (8)
+Or
+(b)
+(i) Explain the principle of operation of Piezoelectric transducer. (8)
+(ii) Explain the principle of operation of A/D converter. (8)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8404
+!Year! 2010
+!Month! NOV/DEC
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define static characteristics of an instrument. (2)
+2. What is meant by absolute error of measurement? (2)
+3. Why are the ordinary wattmeters not suitable for low power factor circuits? (2)
+4. What is a phase sequence indicator? (2)
+5. List the application of D.C. potentiometers. (2)
+6. What are parasitic voltages and how are they eliminated? (2)
+7. What is the purpose of a Post Deflection Acceleration (PDA) in a CRT? (2)
+8. Differentiate between LED and LCD. (2)
+9. What are the classifications of encoder? (2)
+10. What is the need of sample and hold circuit in A/D converter? (2)
+11.
+(a)
+(i) Draw the block diagram of functional elements of measuring system and explain the function of each block. (8)
+(ii) Explain the different types of errors in measurements. (8)
+Or
+(b)
+(i) The probable values of two resistors and their S.D are specified as R1 – 18.62 $ \Omega $, S.D = 0.025 $ \Omega $, R2 = 74.48 $ \Omega $, S.D. = 0.05 $ \Omega $. Find the probable value and S.D for the two resistors when they are connected in Series and Parallel. (8)
+(ii) Discuss the different types of standards of measurements. (8)
+12.
+(a)
+(i) What are the various types of digital voltmeters? With a neat sketch explain the working principle of any one type of a digital voltmeter. (8)
+(ii) With a neat diagram explain the construction and its working principle of electrodynamometer type wattmeter. Also derive its torque equation. (8)
+Or
+(b)
+(i) Explain the method of measurements of B.H curve of a ring specimen with a neat diagram. (8)
+(ii) Describe the construction and working principle of digital frequency meter. (8)
+13.
+(a)
+(i) Draw a neat sketch of a modern slide-wire D.C potentiometer and discuss how the potentiometer is standardized. (8)
+(ii) Describe how co-ordinate type potentiometer can be used for calibration of a voltmeter and A.C energy meters. (8)
+Or
+(b)
+(i) Explain the theory and working principle of Kelvin’s double bridge method for measurement of low resistance. Derive the relation for finding unknown resistance. (8)
+(ii) Discuss briefly how Hay’s Bridge can be used for the measurement of inductance. (8)
+14.
+(a)
+(i) Explain the construction and its working principle of X-Y Recorder. (6)
+(ii) Briefly discuss the features of digital plotters and printers. (10)
+Or
+(b)
+(i) Explain the working principle of electrostatic deflection system in a CRT. (10)
+(ii) Explain the working principle of digital storage oscilloscope. (6)
+15.
+(a)
+(i) Explain the construction and working of unbounded and bonded type strain gauges. (8)
+(ii) Explain the construction and working of optical encoders with a neat diagram. (8)
+Or
+(b)
+(i) Draw the generalized block diagram of a digital data acquisition system and explain. (8)
+(ii) Explain the successive approximation method of A/D converter. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8404
+!Year! 2011
+!Month! NOV/DEC
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. List the functional elements of a measuring instrument. (2)
+2. What is drift? (2)
+3. How does one extend the range of ammeter and voltmeter? (2)
+4. Why do we do Ballistic tests? (2)
+5. What are the applications of dc potentiometer? (2)
+6. Which bridge is used to measure incremental inductance? Write the expression. (2)
+7. How does dynamic scattering type LCD work? (2)
+8. What are the advantages of magnetic tape recorder? (2)
+9. List any four force summing devices. (2)
+10. Mention the need of ADC and DAC in Digital Data Acquisition System. (2)
+11.
+(a)
+(i) Explain any four static characteristics of measuring instruments. (8)
+(ii) How are errors classified? Explain systematic error. (8)
+Or
+(b)
+(i) Explain the classification of standards in detail. (8)
+(ii) How are histogram and arithmetic mean helpful in the statistical analysis of data? (8)
+12.
+(a)
+(i) How to measure the power using instrument transformers? Explain. (8)
+(ii) How is multi-meter used to measure different parameters? Explain. (8)
+Or
+(b)
+(i) How do you determine the B-H curve using ‘step by step’ method? (8)
+(ii) What are the different methods used for the measurement of frequency? Explain any one method. (8)
+13.
+(a)
+(i) How does one measure the resistance using potentiometer? (8)
+(ii) How do you measure the phase angle using ratio transformer? (8)
+Or
+(b)
+(i) Explain in detail the electro-static and electro—magnetic interference. (8)
+(ii) Mention the importance of Grounding. What are the different grounding techniques used? (8)
+14.
+(a)
+(i) Draw the block diagram X-Y Recorder and explain. (8)
+(ii) Explain data loggers in detail. (8)
+Or
+(b)
+(i) Draw the internal block diagram of CRT and explain. (8)
+(ii) Compare the features of FM recording with PDM recording. (8)
+15.
+(a)
+(i) Tabulate the principle of operation and typical application of resistive, capacitive and inductive transducers. (8)
+(ii) Why do we need to acquire data? What are the blocks involved in digital DAQ system? (8)
+Or
+(b)
+(i) What is self generating transducer? Give two examples of self generating transducers and explain its working principle. (8)
+(ii) Explain the smart sensors in detail. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8503
+!Year! 2010
+!Month! NOV/DEC
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Draw the turn-on characteristics of TRIAC and mark the timings td, tr and ton. (2)
+2. What are the factors that influence the turn-off time of a thyristor? (2)
+3. Draw the circuit diagram of single phase dual converter. (2)
+4. Define the term voltage ripple factor, current ripple factor. (2)
+5. Mention any two disadvantages of frequency modulation control strategy. (2)
+6. What are the advantages of ZVS when compared to ZCS? (2)
+7. Differentiate VSI from CSI. (2)
+8. List various applications of phase controlled converters. (2)
+9. What is meant by cycloconverter? (2)
+10. Write the output R.M.S. voltage for single phase AC voltage controller with resistance load. (2)
+11.
+(a) Explain the operation of IGBT with the help of neat structural diagram and suitable wave forms. (16)
+Or
+(b)
+(i) Draw the turn-off characteristics of an SCR and explain the mechanism of turn-off. (8)
+(ii) What are the different methods for turning off an SCR? Explain all methods in detail. (8)
+12.
+(a)
+(i) Describe the operation of a single phase two pulse bridge converter using 4 SCR'S with relevant waveforms. (10)
+(ii) Discuss the working of above converter in the converter mode with RLE load. (6)
+Or
+(b)
+(i) A single phase semi converter is operated from 120 V 50 Hz ac supply. The load current with an average value Idc is continuous and ripple free firing angle $\alpha = \pi / 6 $ . Determine Displacement factor, Harmonic factor of input current, Input power factor. (10)
+(ii) Write a note on battery charger. (6)
+13.
+(a)
+(i) Discuss the principle of operation of DC-DC step down chopper with suitable waveform. Derive an expression for its average DC output voltage. (8)
+(ii) A step-down dc chopper has a resistive load of R = 15 $ \Omega $ and input voltage Edc = 200 V. When the chopper remains ON, its voltage drop is 2.5 for a duty cycle of 0.5. Calculate Average and r.m.s value of output voltage, Power delivered to the load. (8)
+Or
+(b) Draw the circuit of CUK regulator and explain its working principle with necessary waveform in detail. (16)
+14.
+(a)
+(i) Describe the working of a 1 φ pull bridge inverter with relevant circuit and waveforms. (8)
+(ii) What is PWM? List the various PWM techniques and explain any one of them. (8)
+Or
+(b) Explain the Harmonic reduction by transformer corner lines and stepped wave inverters. (16)
+15.
+(a)
+(i) Describe the operation of single phase full wave a.c voltage controller with the help of voltage and current waveform. Also derive the expression for average value of output voltage. (10)
+(ii) For a single phase a.c regulator feeding a resistance load, show that power factor is given by the expression $ \left [ \frac1\pi(\pi - x) + \frac{\sin2\alpha}2 \right ]^{\frac12} $ . (6)
+Or
+(b)
+(i) Describe three-phase to three phase cycloconverter with relevant circuit arrangement using 18 thyristors. (8)
+(ii) Show that the fundamentals RMS value of per phase output voltage of low frequency for an m-pulse cycloconverter is given by  $ E_{or} = Epn\binom{m}{\pi}\sin\binom{n}{\pi} $ . (8)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8702
+!Year! 2011
+!Month! NOV/DEC
+!Semester! 7
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What is surge absorber? How do they differ from surge diverter? (2)
+2. Define the term ‘‘Insulation Coordination”. (2)
+3. Compare Static and Electromagnetic relay. (2)
+4. A relay is connected to 400/5 ratio current transformer with current setting of 150%. Calculate the Plug Setting Multiplier when circuit carries a fault current of 4000 A. (2)
+5. Explain the secondary of current transformer should not be open. (2)
+6. What is meant by time-graded system protection? (2)
+7. Distinguish between recovery voltage and restriking voltage. (2)
+8. List the factors affecting the transient recovery voltage. (2)
+9. Give the advantage of SF6 circuit breaker over Air blast circuit breaker. (2)
+10. What are the basic requirements of circuit breaker? (2)
+11.
+(a) Discuss and compare the various methods of neutral earthing. (16)
+Or
+(b)
+(i) Describe the essential qualities of a protective relaying. (8)
+(ii) Briefly explain the various methods of overvoltage protection of overhead transmission line. (8)
+12.
+(a) Describe the construction and operation of an inductive type directional overcurrent relay with a neat diagram. Also explain its operational characteristics. (16)
+Or
+(b) Explain the principle of distance relays stating clearly the difference between impedance relay, reactance and mho relay. Indicate the difference on R-X diagrams and show where each type is suitable. (16)
+13.
+(a)
+(i) Explain the factors which cause difficulty in applying Merz-Price circulating current principle to a power transformers. (8)
+(ii) A three phase transformer of 220/11000 Line Volts is Connected in star / delta. The protective transformers on 220 V side have a current ratio of 600/5. What should be the current transformer ratio on 11000 V side? (8)
+Or
+(b) Describe the differential pilot wire method of protection of feeder. (16)
+14.
+(a)
+(i) Explain how arc is initiated and sustained when the circuit breaker contacts break. (6)
+(ii) Explain in detail the various methods of arc extinction in a circuit breaker. (10)
+Or
+(b)
+(i) What is current Chopping? Explain how can the effect of current chopping be minimized? (8)
+(ii) Derive an expression for the Rate of Rise of Restriking Voltage (RRRV) in a C.B. (8)
+15.
+(a) Explain with a neat sketch, the construction and working of minimum oil circuit breaker. Also give its merits and demerits. (16)
+Or
+(b)
+(i) Describe the various types of rating of a circuit breaker. (8)
+(ii) Describe the various methods of testing of circuit breaker. (8)
+!END_QPAPER!
+
