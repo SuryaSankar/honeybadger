@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131021193048) do
+ActiveRecord::Schema.define(version: 20131023102616) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -204,6 +204,16 @@ ActiveRecord::Schema.define(version: 20131021193048) do
 
   add_index "solutions", ["question_id"], name: "index_solutions_on_question_id"
   add_index "solutions", ["user_id"], name: "index_solutions_on_user_id"
+
+  create_table "textbooks", force: true do |t|
+    t.string   "name"
+    t.string   "flipkart_banner"
+    t.integer  "university_course_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "textbooks", ["university_course_id"], name: "index_textbooks_on_university_course_id"
 
   create_table "topics", force: true do |t|
     t.string  "name"

@@ -286,7 +286,7 @@ Or
 13.
 (a)
 (i) Write in detail the procedure of Shannon-Fano coding scheme. (8)
-(ii) Apply the above method to a source which generates symbols \\[ $ x_1, x_2, x_3, x_4 $ \\] with the probabilities 1/8, 1/2, 1/4 and 1/8 respectively and determine the coding efficiency. (8)
+(ii) Apply the above method to a source which generates symbols $ x_1, x_2, x_3, x_4 $ with the probabilities 1/8, 1/2, 1/4 and 1/8 respectively and determine the coding efficiency. (8)
 Or
 (b)
 (i) Compare the coding schemes HDBP and MBnB codes in terms of bandwidth, SNR and transmission efficiency. (10)
@@ -323,7 +323,7 @@ Or
 3. What are the elements of digital communication system? (2)
 4. How does the phase of carrier vary for the message m(n) = {1,0,1,1,0,1,...}? (2)
 5. An event has six possible outcomes with probabilities {1/2, 1/4, 1/8, 1/16, 1/32, 1/32}. Find the entropy of the system. (2)
-6. Find the Hamming distance between the following code words \\[ $ C_1 $ \\] = {10 00111 }and \\[ $ C_2 $ \\] = {0 0 01 011}. (2)
+6. Find the Hamming distance between the following code words $ C_1 $ = {10 00111 }and $ C_2 $ = {0 0 01 011}. (2)
 7. Mention the advantages of CDMA system. (2)
 8. Specify uplink and downlink frequency ranges for satellite communication. (2)
 9. State the advantages of fibre optic system. (2)
@@ -345,7 +345,7 @@ Or
 13.
 (a)
 (i) Brief the properties of entropy. (4)
-(ii) Five symbols of the alphabet of discrete memory less source and their probabilities are given below. S = { \\[ $ S_0, S_1, S_2, S_3, S_4 $ \\] } P(S) = {0.4,0.2,0.2,0,1,0.1} Code the symbols using Huffman coding. (12)
+(ii) Five symbols of the alphabet of discrete memory less source and their probabilities are given below. S = { $ S_0, S_1, S_2, S_3, S_4 $ } P(S) = {0.4,0.2,0.2,0,1,0.1} Code the symbols using Huffman coding. (12)
 Or
 (b)
 (i) Briefly discuss on various error control codes and explain in detail with one example for convolution code. (12)
@@ -353,7 +353,7 @@ Or
 14.
 (a)
 (i) Discuss the BSC and BEC with their channel diagram and transition matrix. (12)
-(ii) Consider that a source is transmitting equiprobable 1/0 at the rate of 10^3 b/s and the probability of error is \\[ $ P_e $ //]= 1/16. Determine the rate of transmission. (4)
+(ii) Consider that a source is transmitting equiprobable 1/0 at the rate of 10^3 b/s and the probability of error is $ P_e $ = 1/16. Determine the rate of transmission. (4)
 Or
 (b) Discuss the various multiple access techniques used in wireless communication with their merits and demerits. (16)
 15.
