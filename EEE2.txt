@@ -1,0 +1,544 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8302
+!Year! 2011
+!Month! NOV/DEC
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What is meant by dynamic resistance of diode? (2)
+2. Differentiate between zener breakdown and avalanche breakdown. (2)
+3. Draw the h-parameter equivalent circuit of a CE BJT configuration. (2)
+4. What is the application of optocoupler? (2)
+5. What is pinch off voltage? (2)
+6. Give any two differences between E-MOSFET and D-MOSFET. (2)
+7. What are the advantages of differential amplifier? (2)
+8. State Barkhausen criteria. (2)
+9. Sketch the output waveform for the clipper shown in the figure below. Neglect the drop across the diode. (2)
+10. What is intrinsic standoff ratio in UJT? (2)
+11.
+(a) Draw the circuit diagram and explain the operation of full wave rectifier using center tap transformer and using bridge rectifier without center tap transformer. Obtain the expression for peak inverse voltage. (16)
+Or
+(b)
+(i) With neat diagram explain the construction and working of LED. (8)
+(ii) Explain the working of LCD seven segment display using square wave supply. (8)
+12.
+(a) Draw the circuit for determining the transistor common base characteristics and explain how the characteristics are measured and draw the graphs. (16)
+Or
+(b) For a common emitter circuit draw the h-parameter equivalent circuit and write the expressions for input impedance, output impedance and voltage gain. (16)
+13.
+(a) Draw the circuit diagram of common source FET amplifier and give the design steps to find the component values used in the circuit. (16)
+Or
+(b) Explain the construction and working of enhancement MOSFET and depletion MOSFET. Draw the characteristics. (16)
+14.
+(a) Explain the concept of negative feedback in amplifier. Derive the expressions for voltage gain, input impedance and output impedance. (16)
+Or
+(b)
+(i) With a neat diagram, explain the construction and working of BJT RC phase shift oscillator. (8)
+(ii) Explain the construction and working of Hartley oscillator. (8)
+15.
+(a)
+(i) Explain the construction, equivalent circuit and operation of UJT. Draw the characteristics of UJT. (8)
+(ii) Explain how UJT is used to generate saw tooth waveform. (8)
+Or
+(b) Explain the operation of collector coupled monostable multivitrator with neat circuit diagram and draw the various waveforms. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8404
+!Year! 2009
+!Month! NOV/DEC
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Differentiate Resolution from Threshold. (2)
+2. How are the absolute and relative errors expressed mathematically? (2)
+3. What are the essential torques required for operating an instrument? (2)
+4. What is phase meter? Mention the types of phase meter. (2)
+5. What is an isolation amplifier? Where is it used? (2)
+6. State the condition for balance in a Wheatstone bridge. (2)
+7. What are the types of printers according to printing methodology? (2)
+8. What are the main parts of the cathode ray tube? (2)
+9. Differentiate sensor from transducer. (2)
+10. Draw the block diagram for 4 bit Analog to Digital Converter. (2)
+11.
+(a) Define and explain the static characteristics of an instrument. (16)
+Or
+(b)
+(i) Draw and explain the general block diagram of measurement system. (8)
+(ii) Write a note on different types of errors. (8)
+12.
+(a) Describe the construction and working principle of single phase induction type energy meter. Write a short note on any two adjustments required in energy meters. (16)
+Or
+(b) Explain with neat sketch the classification of Instrument Transformers. Write a note on the errors affecting the characteristics of an Instrument Transformer. (16)
+13.
+(a) With a neat sketch describe a bridge to determine the unknown inductance and a bridge to determine the unknown capacitance. (16)
+Or
+(b) Explain the grounding techniques in detail to reduce the ground loop interference signal. (16)
+14.
+(a) Describe the LED and LCD display devices. (16)
+Or
+(b) Describe the direct and frequency modulation magnetic tape recording types. Give its merits and demerits. (16)
+15.
+(a) What are the selection criteria for the transducer? Explain the working principle of LVDT with neat sketch and characteristics. Give advantages, disadvantages and applications of LVDT. (16)
+Or
+(b) What are the performance parameters of Analog to Digital Converter? Explain any two basic A/D conversion techniques in detail. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8502
+!Year! 2011
+!Month! APR/MAY
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Why the stator core is laminated? (2)
+2. Define voltage regulation. (2)
+3. What is meant by ‘Torque Angle’? (2)
+4. What is meant by hunting in synchronous motor? (2)
+5. Why the rotor slots are slightly skewed in squirrel cage IM? (2)
+6. A 50 Hz, 6 pole, 3–phase induction motor runs at 970 rpm. Find slip. (2)
+7. What are the starting methods used in three phase induction motor? (2)
+8. Define the term crawling. (2)
+9. Why single phase induction motor is not self starting? Mention any one method of starting. (2)
+10. List the applications of single phase induction motor. (2)
+11.
+(a)
+(i) Describe construction and working of an alternator. (8)
+(ii) Derive the emf equation of an alternator. (8)
+Or
+(b) Explain the determination of direct and quadrature axis synchronous reactance using slip test. (16)
+12.
+(a)
+(i) Draw and explain the phasor diagram of a synchronous motor operating at lagging and leading power factor. (8)
+(ii) A 1000 KVA, 11000 V, 3–phase star-connected synchronous motor has an armature resistance and reactance per phase of 3.5 \\[ $ \Omega $ \\]and 40 \\[ $ \Omega $ \\] respectively. Determine the induced emf and angular retardation of the rotor when fully loaded at 0.8 p.f. lagging and 0.8 p.f. loading. (8)
+Or
+(b) Write short notes on V–curves of synchronous motor and Synchronous condenser. (16)
+13.
+(a)
+(i) Explain the principle of operation of 3-phase induction motor and explain how the rotating magnetic field is produced by three-phase currents. (10)
+(ii) A 50 HP, 6–Pole, 50 Hz, slip ring IM runs at 960 rpm on full load with a rotor current of 40 A. Allow 300 W for copper loss in S.C and 1200 W for mechanical losses, find \\[ $ R_2 $ \\] per phase of the 3- phase rotor. (6)
+Or
+(b)
+(i) Derive an expression for the torque of an induction motor and obtain the condition for maximum torque. (10)
+(ii) A 3-phase IM has starting torque 100% and a maximum torque of 200% of full load torque. Find slip at maximum torque. (6)
+14.
+(a)
+(i) Explain clearly any one starting method of three phase IM. (10)
+(ii) A 15 H.P., three phase, 6 pole, 50 Hz, 400 V, delta connected IM runs at 960 rpm on full load. If it takes 86.4 A on direct starting, find the ratio of starting torque to full-load torque with a star delta starter. Full load efficiency and power factor are 88% and 0.85 respectively. (6)
+Or
+(b) Explain the following methods of speed control scheme - Cascaded connection, Slip power recovery scheme. (16)
+15.
+(a)
+(i) Explain with neat diagram the construction of single phase IM. (8)
+(ii) Explain double revolving field theory. (8)
+Or
+(b) Explain the construction and working principle of Linear reluctance motor and Hysteresis motor. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8502
+!Year! 2010
+!Month! NOV/DEC
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Write the causes of harmonics in the voltage and current waves of electrical machinery? (2)
+2. What are conditions for parallel operation of alternators? (2)
+3. List the inherent disadvantages of synchronous motor? (2)
+4. When is a synchronous motor said to receive 100% excitation? (2)
+5. Under what condition, the slip in an induction motor is Negative, Greater than one. (2)
+6. What are the two fundamental characteristics of a rotating magnetic field? (2)
+7. State two advantages of speed control of induction motor by injecting an e.m.f. in the rotor circuit. (2)
+8. What is the effect of change in input voltage on starting torque of induction motor? (2)
+9. What are the drawbacks of the presence of backward rotating magnetic field in a single phase induction motor? (2)
+10. What are the demerits of repulsion motor? (2)
+11.
+(a)
+(i) Derive the e.m.f. equation of an alternator. Explain pitch factor and distribution factor. (12)
+(ii) A 3 phase, 6 pole, star-connected alternator revolves at 1000 r.p.m. The stator has 90 slots and 8 conductors per slot. The flux per pole is 0.05 wb (sinusoidally distributed). Calculate the voltage generated by the machine if the winding factor is 0.96. (4)
+Or
+(b)
+(i) Elaborate the discussion on capability curve with its boundaries of synchronous machine. (8)
+(ii) Discuss the parallel operation of two alternators with identical speed/load characteristics. (8)
+12.
+(a)
+(i) Draw the equivalent circuit and phasor diagram of a synchronous motor. (8)
+(ii) Explain the significance of V and inverted V curves. (8)
+Or
+(b)
+(i) Discuss the methods of starting and procedure for starting synchronous motor. (10)
+(ii) A 3000 V, 3 phase synchronous motor running at 1500 r.p.m, has its excitation kept constant corresponding to no-load terminal voltage of 3000 V. Determine the power input, power factor and torque developed for all armature current of 250 A if the synchronous reactance is 5 \\[ $ \Omega $ \\] per phase and armature resistance is neglected. (6)
+13.
+(a)
+(i) Discuss the different power stages of an induction motor with losses. (8)
+(ii) An 18.65 KW, 4 pole, 50 Hz, 3 phase induction motor has friction and windage losses of 2.5% of the output. Full load slip is 4%. Find for full load the rotor copper loss, rotor input, shaft torque and the gross electromagnetic torque. (8)
+Or
+(b)
+(i) Write a brief note on induction generator. (8)
+(ii) Write a brief note on double cage rotor induction motors. (8)
+14.
+(a)
+(i) Explain the speed control of three phase induction motor by pole changing. (8)
+(ii) Explain the rotor rheostat control of 3 phase slip ring induction motor. (8)
+Or
+(b) Discuss the various starting methods of squirrel cage induction motors. (16)
+15.
+(a)
+(i) Explain the operation of a single phase induction motor using double field revolving theory. (8)
+(ii) Explain the operation of shaded pole induction motor with neat diagram. (8)
+Or
+(b)
+(i) Explain the principle and operation of AC series motor. (8)
+(ii) Explain the principle and operation of reluctance motor and state its applications. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8502
+!Year! 2011
+!Month! NOV/DEC
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What do you mean by single layer and double layer winding? (2)
+2. What are the various function of damper winding provided with alternator? (2)
+3. What is a synchronous capacitor? (2)
+4. What are V–curves? (2)
+5. Why are the rotor slots of a 3 phase induction motors skewed? (2)
+6. Define slip of induction motor. (2)
+7. State the effect of rotor resistance on starting torque. (2)
+8. What are the various method of speed control of 3 phase induction motor? (2)
+9. What type of motor is used for ceiling fan? (2)
+10. State the application of shaded pole motor. (2)
+11.
+(a)
+(i) Derive from first principle, the EMF of 3 phase alternator. (8)
+(ii) The following open circuit and short circuit test are made on a 6000 kVA, 6600 V, star connected, 2 pole, 60 Hz turbine driven alternator. If I = 125 A, at open circuit terminal voltage = 8200 V. With armature short circuited I = 125 A. IL = 800 A (line). At the rated load and upf armature loss is 1.5% of out put. Determine the percentage regulation at rated load and 0.8 p.f. lag. (8)
+Or
+(b)
+(i) Explain how will you determine the d and q axis reactance of a synchronous machine in your laboratory. (8)
+(ii) For the salient synchronous machine, derive the expression for power developed as a function of load angle. (8)
+12.
+(a) Explain V–curve and inverted V curve. (16)
+Or
+(b) Explain effect of changing field current excitation at constant load. (16)
+13.
+(a)
+(i) Explain with neat sketches the principle of a 3 Phase induction motor. (8)
+(ii) A 6 pole, 50 Hz, 3-Phase, induction motor running on full load develops a useful torque of 160 N m. When the rotor emf makes 120 complete cycle per minute. Calculate the shaft power input. If the mechanical torque lost in friction and that for core loss is 10 N m, compute - The copper loss in the rotor windings, The input the motor, The efficiency, The total stator loss in given to be 800 W. (8)
+Or
+(b)
+(i) Explain top slip characteristic of 3 phase induction motor. (8)
+(ii) Develop the equivalent circuit for a 3 phase induction motor. (8)
+14.
+(a) Describe with a neat sketch, the principle and working of a star delta starter and autotransformer starter of a 3 phase induction motor. (16)
+Or
+(b) Explain, with a neat sketch, slip power recovery scheme of 3 phase induction motor. (16)
+15.
+(a) Explain with a neat diagram the following types of single phase induction motor - Split phase induction run motor, Capacitor start induction run motor, and also draw the slip torque characteristics. (16)
+Or
+(b) Describe the constructional features & principle of operation of hysterisis motor and AC Series motor. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE8351
+!Year! 2010
+!Month! APR/MAY
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What is overgrazing? (2)
+2. What do we mean by ‘green revolution’? (2)
+3. What is meant by food webs? (2)
+4. Define ecological pyramids. (2)
+5. What is green house effect? (2)
+6. Why are radioactive wastes disposed off in Salt Water? (2)
+7. What is acid rain? (2)
+8. Define holocaust. (2)
+9. What is meant by human demography? (2)
+10. Write a note on value education. (2)
+11.
+(a) Discuss the effect of modern agriculture. (16)
+Or
+(b) Write in detail on the role of an individual in conservation of natural resources. (16)
+12.
+(a) Discuss the aquatic ecosystem and forest ecosystem. (16)
+Or
+(b) Give an account of conservation of biodiversity. (16)
+13.
+(a) Discuss soil waste management in detail. (16)
+Or
+(b) Write about effect and control measures of air pollution in detail. (16)
+14.
+(a) Explain the environmental protection act in detail. (16)
+Or
+(b) Write about resettlement and rehabilitation of people. (16)
+15.
+(a) Describe the major choices in modern birth control. (16)
+Or
+(b) Discuss about role of information technology in environment and human health. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE8351
+!Year! 2011
+!Month! APR/MAY
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What is meant by hot spots of biodiversity? (2)
+2. What are endangered species? (2)
+3. Differentiate food chain and food web. (2)
+4. What are the effects of thermal pollution? (2)
+5. What are oxygen demanding wastes? (2)
+6. What is an aquifer? Give example. (2)
+7. What is water Logging? (2)
+8. What are super pests? (2)
+9. What is sustainable development? (2)
+10. What is population density? (2)
+11.
+(a) Write notes on Ecological pyramid, Values of biodiversity. (16)
+Or
+(b)
+(i) Give a detailed account of Components of Ecosystem. (4)
+(ii) Give a detailed account of  In situ-Ex situ conservation of biodiversity. (12)
+12.
+(a)
+(i) What are the sources, health and environmental effects of \\[ $ CO, CO_2, NO_2, SO_2 $ \\] ? (8)
+(ii) Write about water pollutants. (8)
+Or
+(b) Write briefly about noise pollution. (16)
+13.
+(a)
+(i) What are the various causes of flood? (4)
+(ii) How solid waste is managed? (12)
+Or
+(b)
+(i) What are the various urban problems related to energy? (8)
+(ii) What is global warming? (8)
+14.
+(a)
+(i) What are the various ways by which the land is degraded? (8)
+(ii) What are the benefits and ill effects of dam construction? (8)
+Or
+(b) Write about air and water act in detail. (16)
+15.
+(a) Explain briefly Rain water harvesting and Water shed management. (16)
+Or
+(b) Write short notes on HIV aids and Population explosion. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE8351
+!Year! 2009
+!Month! NOV/DEC
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What are renewable and non-renewable energy sources? Give examples. (2)
+2. Mention the causes of desertification. (2)
+3. What are food chains and food webs? (2)
+4. Define primary production and secondary production. (2)
+5. What is meant by thermal pollution? (2)
+6. Mention the sources of solid wastes. (2)
+7. What is meant by sustainable development? (2)
+8. Mention the causes of ozone layer depletion. (2)
+9. What is meant by population explosion? (2)
+10. List the objectives of watershed management. (2)
+11.
+(a)
+(i) Explain the major causes and consequences of deforestation. (8)
+(ii) Discuss the various techniques for harnessing solar energy. (8)
+Or
+(b)
+(i) Explain the environmental impacts of mineral extraction and use.(8)
+(ii) Discuss the impact of modern agriculture on the environment. (8)
+12.
+(a)
+(i) Discuss the major features of grass land ecosystem. (8)
+(ii) Write a note on endangered and endemic species of India. (8)
+Or
+(b)
+(i) Describe the structural features of ecosystem. (8)
+(ii) Write a note on conservation of biodiversity. (8)
+13.
+(a)
+(i) Enumerate various methods for control of air pollution. (8)
+(ii) Discuss the causes, effects and control of marine pollution. (8)
+Or
+(b)
+(i) Describe the sources, effects and control of noise pollution. (8)
+(ii) Discuss the role of an individual in preventing pollution. (8)
+14.
+(a)
+(i) Describe the measures to conserve water. (8)
+(ii) Write a note on wasteland reclamation. (8)
+Or
+(b)
+(i) What is meant by acid rain? How does it form? What are the major impacts? (8)
+(ii) Discuss the causes and effects of global warming. (8)
+15.
+(a)
+(i) Discuss the influence of environmental parameters on human health. (8)
+(ii) Narrate the role of information technology in environmental management. (8)
+Or
+(b)
+(i) Discuss the various issues and measures for women and child welfare. (8)
+(ii) Explain the objectives and elements of value education. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE8351
+!Year! 2010
+!Month! NOV/DEC
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What are food chains? Mention their types. (2)
+2. What are the abiotic components of an ecosystem? (2)
+3. Give a comprehensive definition for air pollution. (2)
+4. Mention four causes of floods. (2)
+5. What are the present food problems of the world? (2)
+6. What are the effects of over utilization of ground water? (2)
+7. Define sustainable development. (2)
+8. What are the main causes of global climatic changes? (2)
+9. What is ‘Crude birth rate’ and ‘total fertility rate’? (2)
+10. Mention any four fundamental rights of the individuals. (2)
+11.
+(a)
+(i) Explain the features of ecological pyramids including inverted pyramids. (8)
+(ii) What are the threats to biodiversity? Discuss. (8)
+Or
+(b)
+(i) Explain the components, structure and functions of a desert ecosystem. (8)
+(ii) What are the values of biodiversities? Explain. (8)
+12.
+(a)
+(i) Elaborate the various ways of controlling the noise pollution. (8)
+(ii) Define and give two example each for gaseous air pollutant suspended particulate matter, photochemical oxidant, and hazardous pollutant. (8)
+Or
+(b)
+(i) Discuss the effects and control of thermal pollution. (8)
+(ii) List the role of an individual in prevention of pollution. (8)
+13.
+(a)
+(i) What are the ecological services rendered by forests? Discuss. (8)
+(ii) Discuss the different ways of harnessing solar energy? (8)
+Or
+(b)
+(i) Discuss any four factors responsible for land degradation (8)
+(ii) Discuss the problems of fertilizers and pesticides in modern agriculture. (8)
+14.
+(a)
+(i) How can we attain sustainable development? Explain. (8)
+(ii) Mention the salient features of The Wildlife Protection Act, 1972 and Forest Conservation Act, 1986. (8)
+Or
+(b)
+(i) How can we make energy resources sustainable? Explain. (8)
+(ii) What are the components of watershed management? Discuss. (8)
+15.
+(a)
+(i) List the reasons for high population growth in India. (8)
+(ii) Discuss the role of information technology in environment. (8)
+Or
+(b)
+(i) List various women welfare programmes of India. (8)
+(ii) Discuss the variation age structure of population among nation using Age - pyramids. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE8351
+!Year! 2011
+!Month! NOV/DEC
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Write down any four natural resources. (2)
+2. Indicate any four major global food problems. (2)
+3. What is ecological succession? (2)
+4. Differentiate between endangered and endemic species. (2)
+5. What is meant by eutrophication? (2)
+6. Write down the effects of thermal pollution on the aquatic ecosystem. (2)
+7. Write briefly about holocaust. (2)
+8. What are the major limitations to successful implementation of our environmental legislation? (2)
+9. What is meant by value education? (2)
+10. What are the reasons for AIDS disease? (2)
+11.
+(a)
+(i) Explain the evil effects of mining operations on the environment. (8)
+(ii) Write in brief about the adverse environmental effects of modern agricultural practices. (8)
+Or
+(b)
+(i) Discuss the important reasons for land degradation. How to prevent land degradation? Explain. (8)
+(ii) How is wind energy harnessed? What are the advantages and limitations of wind energy? (8)
+12.
+(a)
+(i) Explain the environmental impact of deforestation. (8)
+(ii) Explain in-situ and ex-situ conservation of biodiversity. (8)
+Or
+(b) Discuss elaborately the characteristic features, structure and functions of grassland and aquatic ecosystems. (16)
+13.
+(a)
+(i) Describe the use of cyclone separator and electrostatic precipitators in the control of air pollution. (8)
+(ii) Explain the sources, effects and control methods of noise pollution. (8)
+Or
+(b)
+(i) Explain the causes, effects and control of cyclones. (8)
+(ii) Discuss the role of an individual in controlling pollution. (8)
+14.
+(a)
+(i) Explain the watershed management and its advantages. (8)
+(ii) What is the need for rain water harvesting? What are the ways of achieving it? (8)
+Or
+(b)
+(i) Explain briefly about the steps taken in India for sustainable development. (8)
+(ii) Discuss the salient features of Forest (Conservation) Act. (8)
+15.
+(a)
+(i) What is meant by population explosion? Explain the reasons for it. (8)
+(ii) Describe the role of IT in environment and human health. (8)
+Or
+(b)
+(i) Describe the factors influencing the family size. (8)
+(ii) What is HIV? Explain the transmission of HIV and how can it be prevented. (8)
+!END_QPAPER!
+
