@@ -1,0 +1,527 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! CS2311
+!Year! 2011
+!Month! APR/MAY
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define abstraction and encapsulation. (2)
+2. When will the destructors be called? Is it implicit or explicit? (2)
+3. List the operators that cannot be overloaded. (2)
+4. What are pure virtual functions? Where are they used? (2)
+5. Define Exception. Give example. (2)
+6. State the purpose of namespaces with an example. (2)
+7. What is byte code? Mention its advantage. (2)
+8. What are packages? (2)
+9. Define interface. State its use. (2)
+10. What is thread? How does it differ from a process? (2)
+11.
+(a) Explain in detail about Class, Objects, Methods and Messages. (16)
+Or
+(b) Write a C++ program to define overloaded constructor to perform string initialization, string copy and string destruction. (16)
+12.
+(a) Write a C++ program to implement C = A + B , C = A − B and C = A ∗ B where A , B and C are objects containing a int value (vector). (16)
+Or
+(b) Explain run time polymorphism with example program in C++. (16)
+13.
+(a) Explain the different types of streams and various formatted I/O in C++. (16)
+Or
+(b) Explain the various file handling mechanisms in C++. (16)
+14.
+(a) Write a java program to create two single dimensional arrays, initialize them and add them; store the result in another array. (16)
+Or
+(b) Write a java program to perform all string operations using the String class. (16)
+15.
+(a) Explain in detail about the inheritance mechanism in Java with example programs. (16)
+Or
+(b) Explain with example program, exception handling in Java. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! CS2311
+!Year! 2010
+!Month! NOV/DEC
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. With respect to C++ distinguish ‘objects’ from ‘classes’. (2)
+2. Write a copy constructor for class date (assume mm, dd, yy as its members). (2)
+3. What is encapsulation? Do friend functions violate encapsulation? (2)
+4. How are virtual functions declared in C++? (2)
+5. What are IO streams? Give an example. (2)
+6. What is the purpose of the STL (Standard Template Library)? (2)
+7. Give two examples for java modifiers. (2)
+8. What is the purpose of the getBytes( ) method? (2)
+9. Give a sample statement for parseInt( ) and give comments for the statement. (2)
+10. What are the two ways of creating java threads? (2)
+11.
+(a) Write a C++ program to perform 2D matrix operations - Define class MATRIX, use appropriate constructor(s), Define methods for the following two matrix operations: determinant and transpose, Write a main program to demonstrate the use of the MATRIX class and its methods. (16)
+Or
+(b) Explain the features of object oriented programming. Describe how each of these is implemented in C++ and Java. (16)
+12.
+(a) Write a C++ program to perform arithmetic operations on Rational numbers of type a/b, where a and b are integers - Define a class by ‘Rational Number’, Use operator overloaded methods for addition and subtraction, Write a main program to demonstrate the use of this class and its methods, Give a sample output. (16)
+Or
+(b) What is meant by inheritance? Explain with examples, the various types of inheritance supported in C++. (16)
+13.
+(a) Write a C++ program to demonstrate file handling as follows: get strings as input from the user, store them in a file, retrieve them and display them. (16)
+Or
+(b) Explain the exception handling mechanism available in C++ with suitable examples. (16)
+14.
+(a) Write a menu-based java program that can calculate the area of a triangle, circle or square, based on the user’s choice. (16)
+Or
+(b) Explain the Virtual Machine concept with reference to Java. (16)
+15.
+(a) Write a java class called ‘student’ with name, Marks of 3 subjects and total Marks. Write another class named ‘calculate’ that gets the Marks of the student and calculates the total Marks and displays the result (pass or fail). (16)
+Or
+(b) Explain the following with examples from Java - Streams and IO, Java threads. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8005
+!Year! 2010
+!Month! APR/MAY
+!Semester! 3
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. List out the areas in which data structures are applied extensively. (2)
+2. Convert the expression ((A+B)*C(DE)^(F +G)) to equivalent Prefix and Postfix notations. (2)
+3. How many different trees are possible with 10 nodes? (2)
+4. What is an almost complete binary tree? (2)
+5. In an AVL tree, at what condition the balancing is to be done? (2)
+6. What is the bucket size, when the overlapping and collision occur at same time? (2)
+7. Define graph. (2)
+8. What is a minimum spanning tree? (2)
+9. Define NP hard and NP complete. (2)
+10. What is meant by dynamic programming? (2)
+11.
+(a)
+(i) What is a linked list? Explain with suitable program segments any four operations of a linked list. (12)
+(ii) Explain with a pseudo code how a linear queue could be converted into a circular queue. (4)
+Or
+(b)
+(i) What is a stack ADT? Write in detail about any three applications of stack. (11)
+(ii) With a pseudo code explain how a node can inserted at a user specified position of a doubly linked list. (5)
+12.
+(a)
+(i) Discuss the various representations of a binary tree in memory with suitable example. (8)
+(ii) What are the basic operations that can be performed on a binary tree? Explain each of them in detail with suitable example. (8)
+Or
+(b)
+(i) Give an algorithm to convert a general tree to binary tree. (8)
+(ii) With an example, explain the algorithms of inorder and postorder traversals on a binary search tree. (8)
+13.
+(a) What is an AVL tree? Explain the rotations of an AVL tree. (16)
+Or
+(b)
+(i) Explain the binary heap in detail. (8)
+(ii) What is hashing?Explain any two methods to overcome collision problem of hashing. (8)
+14.
+(a)
+(i) Explain Dijkstra's algorithm and solve the single source shortest path problem with an example. (12)
+(ii) Illustrate with an example, the linked list representation of graph. (4)
+Or
+(b)
+(i) Write the procedures to perform the BFS and DFS search of a graph. (8)
+(ii) Explain Prim's algorithm to construct a minimum spanning tree from an undirected graph. (8)
+15.
+(a)
+(i) With an example, explain how will you measure the efficiency of an algorithm. (8)
+(ii) Analyze the linear search algorithm with an example. (8)
+Or
+(b) Explain how the travelling salesman problem can be solved using greedy algorithm. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8005
+!Year! 2009
+!Month! NOV/DEC
+!Semester! 3
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define Abstract Data Type. (2)
+2. Convert the infix expression F) (D/E B/C) (A − ∗ − into a postfix. (2)
+3. What are the steps to convert a general tree into a binary tree? (2)
+4. List the applications of trees. (2)
+5. What do you mean by a heap? (2)
+6. Define hashing. (2)
+7. What is topological sort? (2)
+8. Define bi-connected graph. (2)
+9. State the greedy algorithm. (2)
+10. Mention any two decision problems which are NP-Complete. (2)
+11.
+(a) Explain the following operations in a doubly linked list - Insert an element, Delete an element, Reverse the list. (16)
+Or
+(b)
+(i) Discuss the algorithms for push and pop operations on a stack. (8)
+(ii) Write an algorithm to insert and delete a key in a circular queue. (8)
+12.
+(a)
+(i) Construct all possible tree structure with 4 nodes. (8)
+(ii) Perform pre order, in order and post order traversals of the given tree. (8)
+Or
+(b) Explain the following operations on a binary search tree with suitable algorithms - Find a node, Insert a node, Delete a node. (16)
+13.
+(a)
+(i) Discuss how to insert an element in an AVL tree. Explain with algorithm. (10)
+(ii) What is B-Tree? Explain its properties. (6)
+Or
+(b)
+(i) Describe the different hashing functions with an example. (8)
+(ii) Explain the common collision resolution strategies in open addressing hashing. (8)
+14.
+(a)
+(i) Explain the breadth first search algorithm. (8)
+(ii) Write and explain the Prim’s algorithm with an example. (8)
+Or
+(b)
+(i) What is a strongly connected graph? Give an example. (4)
+(ii) Write the algorithm to compute lengths of shortest path. (4)
+(iii) Explain the depth first search algorithm. (8)
+15.
+(a) Find the optimal tour in the following travelling salesperson problem using dynamic programming. (16)
+Or
+(b)
+(i) Explain the method of solving N queens problem by back tracking.(10)
+(ii) Discuss briefly the various asymptotic notations used in algorithm analysis. (6)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8005
+!Year! 2010
+!Month! NOV/DEC
+!Semester! 3
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Distinguish between linear and non-linear data structures. (2)
+2. Write down the steps to modify a node in linked lists. (2)
+3. Define a path in a tree. (2)
+4. What is a binary search tree? (2)
+5. Define hashing. (2)
+6. What is meant by open addressing? (2)
+7. What is minimum spanning tree? (2)
+8. Define depth-first traversal in a tree. (2)
+9. Differentiate ‘divide and conquer’ technique from ‘branch and bound’ technique. (2)
+10. Explain dynamic programming. (2)
+11.
+(a) Write down and explain the algorithms for basic operations on stack ADT. (16)
+Or
+(b) Explain polynomial manipulation using linked lists with an example. (16)
+12.
+(a) With suitable examples, explain binary tree traversal algorithms. (16)
+Or
+(b) Explain the following operations in binary search trees - Insertion of a node, Searching a node, Modification of a node. (16)
+13.
+(a) With suitable examples, explain the basic operations on AVL trees. (16)
+Or
+(b) Explain the following in hashing - Folding method, Division method, Linear probing. (16)
+14.
+(a) Explain in detail the Dijkstra’s algorithm to solve the shortest path problem. (16)
+Or
+(b) Discuss in detail the applications of graphs. (16)
+15.
+(a)
+(i) With an example, explain backtracking. (8)
+(ii) Discuss the asymptotic notations. (8)
+Or
+(b) Write detailed notes on NP-complete problems. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8404
+!Year! 2011
+!Month! APR/MAY
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Write down the basic principle used in super heterodyne receivers? (2)
+2. Draw the frequency spectrum of the amplitude modulated signal \\[ \begin{align*} s(t) = 5\cos 2\pi10^5 t + 3\cos 2\pi10^5 t 5\cos2\pi10^3t \end{align*} \\] (2)
+3. What is meant by the term aliasing? (2)
+4. How is PPM obtained from PWM? (2)
+5. Define entropy. (2)
+6. Draw the NRZ signalling format of given binary sequence 1101001. (2)
+7. Briefly explain the multiple access technique used in satellite link. (2)
+8. Mention the applications of multiple access technique in wired communication. (2)
+9. Write down the uplink and downlink frequencies used in satellite communication systems. (2)
+10. Mention the types of sources and detectors used in optical fibre communication systems. (2)
+11.
+(a)
+(i) Explain a method of generation of an amplitude modulated signal and sketch the time domain waveform of message, carrier and modulated signals. (10)
+(ii) Derive the power relationship of Amplitude modulated signal. (6)
+Or
+(b)
+(i) Explain the generation of frequency modulated signal using reactance modulation scheme with neat diagram. (10)
+(ii) Describe the relationship between FM and PM. (6)
+12.
+(a)
+(i) With neat sketch Explain the generation of Delta Modulated signal and derive the expression for SNR. (12)
+(ii) State the drawbacks of DM and suggest a method to overcome it. (4)
+Or
+(b)
+(i) Explain the QPSK modulation schemes with its constellation diagram. (10)
+(ii) Briefly describe the concept of QAM and draw the constellation diagram of 16 QAM. (6)
+13.
+(a)
+(i) Write in detail the procedure of Shannon-Fano coding scheme. (8)
+(ii) Apply the above method to a source which generates symbols \\[ $ x_1, x_2, x_3, x_4 $ \\] with the probabilities 1/8, 1/2, 1/4 and 1/8 respectively and determine the coding efficiency. (8)
+Or
+(b)
+(i) Compare the coding schemes HDBP and MBnB codes in terms of bandwidth, SNR and transmission efficiency. (10)
+(ii) Describe Bandwidth – SNR trade off. (6)
+14.
+(a) With neat block diagram explain the Frequency Division Multiple Access Technique. Discuss its application in communication. (16)
+Or
+(b)
+(i) Explain the application of CDMA in wireless communication. (10)
+(ii) Compare the performance of CDMA with FDMA and TDMA. (6)
+15.
+(a)
+(i) Draw the block diagram of satellite link and explain. (10)
+(ii) Write a brief note on INSAT. (6)
+Or
+(b)
+(i) Describe the principle of operation of power line carrier communication. (8)
+(ii) Draw the block diagram of optical fibre communication link and explain. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8404
+!Year! 2010
+!Month! NOV/DEC
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Mention the disadvantages of single sideband transmission. (2)
+2. The carrier frequency of an FM broadcast transmission is 100 MHZ and maximum frequency deviation is 75 KHZ. Find the Bandwidth of the signal when the highest audio frequency modulating the carrier is 15 KHZ. (2)
+3. What are the elements of digital communication system? (2)
+4. How does the phase of carrier vary for the message m(n) = {1,0,1,1,0,1,...}? (2)
+5. An event has six possible outcomes with probabilities {1/2, 1/4, 1/8, 1/16, 1/32, 1/32}. Find the entropy of the system. (2)
+6. Find the Hamming distance between the following code words \\[ $ C_1 $ \\] = {10 00111 }and \\[ $ C_2 $ \\] = {0 0 01 011}. (2)
+7. Mention the advantages of CDMA system. (2)
+8. Specify uplink and downlink frequency ranges for satellite communication. (2)
+9. State the advantages of fibre optic system. (2)
+10. What is geosynchronous satellite? (2)
+11.
+(a)
+(i) Explain the principle of indirect method of frequency modulation with neat sketch. (8)
+(ii) A carrier wave of 10 MHZ is amplitude modulated to 50% level with a tone of 5000 HZ. Sketch the waveform and amplitude distribution in time and frequency domain. Assume carrier amplitude as 10 V. (8)
+Or
+(b)
+(i) Draw the block diagram for generation and demodulation of a VSB signal and explain the principle of operation. (10)
+(ii) With suitable sketch discuss about square law detector. (6)
+12.
+(a) With a neat block diagram explain the PAM modulation and demodulation process and derive an expression for PAM wave and depth of modulation. (16)
+Or
+(b)
+(i) Explain working principle of ASK modulator and detector with neat diagram. (10)
+(ii) Draw ASK, FSK, PSK signal to transmit the data stream 1111000111. (6)
+13.
+(a)
+(i) Brief the properties of entropy. (4)
+(ii) Five symbols of the alphabet of discrete memory less source and their probabilities are given below. S = { \\[ $ S_0, S_1, S_2, S_3, S_4 $ \\] } P(S) = {0.4,0.2,0.2,0,1,0.1} Code the symbols using Huffman coding. (12)
+Or
+(b)
+(i) Briefly discuss on various error control codes and explain in detail with one example for convolution code. (12)
+(ii) Draw the polar, unipolar, bipolar and Manchester NRZ line code format for an information {1 0 11 0 0}. (4)
+14.
+(a)
+(i) Discuss the BSC and BEC with their channel diagram and transition matrix. (12)
+(ii) Consider that a source is transmitting equiprobable 1/0 at the rate of 10^3 b/s and the probability of error is \\[ $ P_e $ //]= 1/16. Determine the rate of transmission. (4)
+Or
+(b) Discuss the various multiple access techniques used in wireless communication with their merits and demerits. (16)
+15.
+(a)
+(i) Compare optical fiber cable with RF cable. (6)
+(ii) Distinguish among single mode step index, multimode step index and multimode graded index optical fibers. (10)
+Or
+(b) Give short notes on the following - Satellite subsystems, Power line carrier systems. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8302
+!Year! 2010
+!Month! NOV/DEC
+!Semester! 3
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define Knee voltage of a diode. (2)
+2. What is peak inverse voltage? (2)
+3. Name the operating modes of a transistor. (2)
+4. What are hybrid parameters? (2)
+5. Draw the high frequency model of JFET. (2)
+6. Write the AC input impedance of a Darlington Transistor. (2)
+7. Mention the operating modes of MOSFET. (2)
+8. Mention any two high frequency LC oscillators. (2)
+9. Write the frequency equation of an Astable multivibrator. (2)
+10. What is Schmitt Trigger? (2)
+11.
+(a)
+(i) Explain the operation of FWR with centre tap transformer. Also derive the following for this transformer. (6)
+(ii) dc output voltage. (4)
+(iii) dc output current. (2)
+(iv) RMS output voltage. (4)
+Or
+(b)
+(i) Explain Transistorized shunt regulator. (8)
+(ii) Explain Zener diode shunt regulator. (8)
+12.
+(a) Describe the static input and output characteristics of a CB transistor with neat circuit diagram. (16)
+Or
+(b) Derive the expression for current gain, input impedance and voltage gain of a CE Transistor Amplifier. (16)
+13.
+(a) Explain the construction of N channel JFET. Also explain the drain and transfer characteristics of the same. (16)
+Or
+(b)
+(i) Describe the operation of common drain FET amplifier and derive the equation for voltage gain. (12)
+(ii) In the common drain FET amplifier. Evaluate the voltage gain. (4)
+14.
+(a) Derive the equation for differential mode gain and common mode gain of a differential amplifier. (16)
+Or
+(b) Draw and explain the operation of a Hartley oscillator. (16)
+15.
+(a) Explain the working of UJT as a relaxation oscillator with necessary wave forms and equations. (16)
+Or
+(b)
+(i) Draw the circuit of a monostable multivibrator and explain. (14)
+(ii) What are the applications of monostable multivibrator? (2)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EC8302
+!Year! 2011
+!Month! APR/MAY
+!Semester! 3
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What is meant by diffusion current in a semi-conductor? (2)
+2. A silicon diode has a saturation current of 7.5 pA at room temperature to 300° K. Calculate the saturation current at 400° K. (2)
+3. Draw the input and output characteristics of a transistor in CE configuration and mark the cutoff, saturation and active regions. (2)
+4. State the Advantages of optocouplers. (Write any four). (2)
+5. Compare with JFET BJT. (2)
+6. Define the amplification factor in the JFET. (2)
+7. Define CMRR and write its significance in the differential amplifiers. (2)
+8. List the Advantages of negative feedback amplifiers. (2)
+9. Sketch of the idealized characteristics for the filter types.(A) Low Pass(B) high pass(C) band-pass(D) Band reject filters. (2)
+10. Define intrinsic stand off ratio of UJT and draw its equivalent circuit. (2)
+11.
+(a) With a neat diagram explain the working of a PN junction diode in forward bias and reverse bias and show the effect of temperature on its V-I characteristics. (16)
+Or
+(b)
+(i) Explain VI characteristics of the zener diode. (8)
+(ii) Draw the circuit diagram and explain the working of full wave bridge rectifier and derived the expression for average output current and rectification efficiency. (8)
+12.
+(a)
+(i) Draw the h-parameter equivalent circuit of a transistor in the CE configuration. (8)
+(ii) Describe the methods of determination of h-parameters from its Input and output static characteristics. (8)
+Or
+(b)
+(i) Explain the important characteristics of the optocoupler.(6)
+(ii) Explain with neat sketch the switching characteristics of transistors.(10)
+13.
+(a)
+(i) Explain how the trans conductance of a JFET drain Varies with current and gate voltage transfer characteristics and characteristics. (12)
+(ii) has the following, the parameters A JFET IDDS = 32 mA, VGS (off) = -8 Volts, VGS = -4.5 Volts. Find the values of the drain current. (4)
+Or
+(b)
+(i) Explain the working of the n-channel enhancement type MOSFET. Sketch its typical characteristics. (10)
+(ii) Explain the application of the FET as a voltage variable resistor. (6)
+14.
+(a)
+(i) Draw the block diagram of a voltage series feedback amplifier and derived the equation for the input impedance, output impedance and the voltage gain. (10)
+(ii) Calculate the voltage gain, input and output resistances of a voltage series feedback amplifier having a AV = 300, Ri = 1.5 k, 50 k Ro =and β = 1/15. (6)
+Or
+(b)
+(i) with differentiate oscillator amplifier. (4)
+(ii) Draw the circuit of a Hartley oscillator and derived the condition for the frequency of oscillation. (12)
+15.
+(a)
+(i) Describe the operation characteristics of UJT and its emitter. (8)
+(ii) Describe the working of a Schmitt trigger circuit with the help of Necessary waveforms. (8)
+Or
+(b)
+(i) Sketch of the response of the RC high-pass filter inputs for Ramp, Pulse and explain them. (8)
+(ii) Explain the operation of a bistable multi-vibrator circuit with neat sketch. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! EE8023
+!Year! 2013
+!Month! MAY/JUNE
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. List the types of synchronous reluctance motors. (2)
+2. Give the difference between synchronous reluctance motor and switched reluctance motor. (2)
+3. What is the function of drive circuit in stepping motor? (2)
+4. Define step angle in stepping motor. (2)
+5. Write the torque equation of switched reluctance motor? (2)
+6. Mention some position sensors used in switched reluctance motor? (2)
+7. Compare permanent magnet brushless D.C motor with permanent magnet synchronous motor. (2)
+8. What is commutation? (2)
+9. Define synchronous reactance in PMSM? (2)
+10.Draw the output phasor diagram of PMSM. (2)
+11.
+(a) Describe the constructional features of axial and radial flux synchronous reluctance motors. (16)
+Or
+(b) Derive the voltage and torque equations of synchronous reluctance motor. (16)
+12.
+(a) With a neat block diagram explain microprocessor control of stepping motor. (16)
+Or
+(b) Explain the working of single and multi-stack configured stepping motors. (16)
+13.
+(a) Describe the construction and working of rotary and linear switched reluctance motors. (16)
+Or
+(b)
+(i) Discuss Method of rotor position sensing in switched reluctance motor. (8)
+(ii) Discuss Sensorless operation in switched reluctance motor. (8)
+14.
+(a) Discuss the magnetic circuit analysis relevant to permanent magnet brushless D.C. Motor. Also draw the characteristics. (16)
+Or
+(b) Illustrate the working of different types of power controllers used for the control of permanent magnet brushless D.C. Motors. (16)
+15.
+(a)
+(i) Write short notes on Volt-ampere requirements in PMSM Motor. (8)
+(ii) Write short notes on Torque /speed characteristics in PMSM Motor. (8)
+Or
+(b) Derive EMF and Torque equations of permanent magnet synchronous motor. (16)
+!END_QPAPER!
+

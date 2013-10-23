@@ -26,7 +26,6 @@ namespace :karpeer_admin do
 			puts $~[:university]
 			univ=University.find_by! name: $~[:university].strip
 			puts "No univ" if univ==nil
-			puts univ
 		when /^!Outdated!\s*$/
 			current_course = false
 		when /^!CourseName!\s+(?<coursename>.*)\s*$/
@@ -36,7 +35,7 @@ namespace :karpeer_admin do
 		when /^!CourseCode!\s+(?<coursecode>.*)\s*$/
 			ucourse = UniversityCourse.find_by university_id: univ.id, course_code: $~[:coursecode].strip
 			if ucourse == nil then
-				ucourse = UniversityCourse.create course_code: $~[:coursecode], university_id: univ.id, current: current_course , course_attributes: {name: course_name, branch_id: course_branch.id, practical: false }				
+				ucourse = UniversityCourse.create! course_code: $~[:coursecode], university_id: univ.id, current: current_course , course_attributes: {name: course_name, branch_id: course_branch.id, practical: false }				
 			end
 			qpaper.university_course_id = ucourse.id
 		when /^!ExamName!\s+(?<exam_name>.*)\s*$/
@@ -82,7 +81,7 @@ namespace :karpeer_admin do
 			eq = Examquestion.create qnumber: q_no, subquestion_no: subq_no, qpaper_id: qpaper.id, mark: $~[:mark], question_id: q.id, user_id: userid
 		when /^\s*\(*\s*[Oo][Rr]\s*\)*\s*$/
 			puts "got Or"
-		when /^\((?<subsubq>[ivx]+)\)\s+(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
+		when /^\((?<subsubq>[ivx]+)\)\s*(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
 			subsubq_no+=1
 			q = Question.where(qtext: $~[:qtext].strip).first_or_initialize
 			q.user_id ||= userid
@@ -144,12 +143,14 @@ namespace :karpeer_admin do
 			subq_no+=1;
 			subsubq_no=0;
 		when /^\s*\(*\s*[Oo][Rr]\s*\)*\s*$/
-		when /^\((?<subsubq>[ivx]+)\)\s+(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
+		when /^\((?<subsubq>[ivx]+)\)\s*(?<qtext>.*)\s*\((?<mark>\d+)\)\s*$/
 			subsubq_no+=1
 		when /^!END_QPAPER!\s*$/	
 		else
+			puts line
+			puts "No match"
 		end
-		puts "( "+q_no.to_s+"."+subq_no.to_s+"."+subsubq_no.to_s+" )"+line
+		#puts "( "+q_no.to_s+"."+subq_no.to_s+"."+subsubq_no.to_s+" )"+line
 	end
   end
 
