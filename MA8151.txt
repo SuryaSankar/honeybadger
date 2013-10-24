@@ -1,0 +1,165 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! MA8151
+!Year! 2013
+!Month! May/Jun
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Find the eigen values of $A^{-1}$ where A= $ \left [ \begin{matrix} 3&1&4 \\\\ 0&2&6 \\\\ 0&0&5 \end{matrix} \right ] $ (2)
+2. Write down the matrix of the quadratic form $ 2x^2+8z^2+4xy+10xz-2yz $ (2)
+3. Find the equation of the sphere on the line joining the points  ( 2,-3,1 ) and (1,-2,1) as diameter (2)
+4. Define right circular cone (2)
+5. Find the radius of curvature of the curve $y=e^x$ at x=0 (2)
+6. Find the envelope of the lines $\frac{x}{t}+yt=2c$, 't' being a parameter (2)
+7. Find $\frac{\partial u}{\partial x}$ and $\frac{\partial u}{\partial y}$ if $u=y^x$ (2)
+8. If $x=r cos \theta$ , $y=r sin \theta$ find $\frac{\partial (r,\theta)}{\partial (x,y)}$ (2)
+9. Evaluate $\int_1^b\!\int_1^a\!\frac{\mathrm{d}x\mathrm{d}y}{xy}$ (2)
+10. Change the order of integration in  $\int_0^a\!\int_0^y\!\,f(x,y)\mathrm{d}x\mathrm{d}y$ (2)
+11.
+(a) 
+(i) Find the eigen values and eigen vectors of the matrix A= $ \left [ \begin{matrix} 2&0&1 \\\\ 0&2&0 \\\\ 1&0&2 \end{matrix} \right ] $ (8)
+(ii) Show that the matrix A =  $ \left [ \begin{matrix} 2&-1&2 \\\\ -1&2&-1 \\\\ 1&-1&2 \end{matrix} \right ] $ satisfies its own characteristic equation. Find also its inverse (8)
+(b) Reduce the quadratic form $3x^2+5y^2+3z^2-2xy-2yz+2zx$ into canonical form (16)
+12.
+(a)
+(i) Find the equation of the sphere passing through the points (4,-1,2),(0,-2,3),(1,5,-1),(2,0,1) (8)
+(ii) Find the equation of the right circular cylinder whose axis is $\frac{x-1}{2}=\frac{y}{3}=\frac{z-3}{1}$ and radius 2. (8)
+(b)
+(i) Find the 2 tangent planes to the sphere $x^2+y^2+z^2-4x+2y-6z+5=0$ which are parallel to the plane $2x+2y=z$. Find their point of contact. (8)
+(ii) Find the equation of the cone formed by rotating the line $2x+3y=5,z=0$ about the y-axis (8)
+13.
+(a)
+(i) Find the evolute of the parabola $x^2=4ay$ (8)
+(ii) Find the radius of curvature of the curve $x^3+xy^2-6y^2=0$ at (3,3) (8)
+(b)
+(i) Find the centre of curvature of the curve $y=x^3-6x^2+3x+1$ at the point (1,-1) (8)
+(ii) Find the radius of curvature of the curve $x=a(\cos t+t\sin t);y=a(\sin t-t\cos t)$ at 't' (8)
+14.
+(a)
+(i) If $u=xy+yz+zx$ where $x=\frac{1}{t},y=e^t$ and z=e^{-t} find $\frac{\mathrm{d}u}{\mathrm{d}t}$ (8)
+(ii) Test for the maxima and minima of the function  $f(x,y)=x^3+y^3-12x-3y+20$ (8)
+(b)
+(i) Expand $e^x \sin y$ in powers of x and y as far as the terms of 3rd degree using Taylor's expansion (8)
+(ii) Find the dimensions of the rectangular box, open at the top, of maximum capacity whose surface area is 432 square meter (8)
+15.
+(a)
+(i) Change the order of integration in $\int_0^{\log 2}\!\int_0^x\!\int_0^{x+\log y}\!e^{x+y+z}\mathrm{d}z\mathrm{d}y\mathrm{d}x$ (8)
+(ii) Using double integral find the area bounded by the parabolas $y^2=4ax$ and $x^2=4ay$ (8)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! MA8151
+!Year! 2012
+!Month! Jan
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. The product of two eigen values of the matrix A= $ \left [ \begin{matrix} 6&-2&2 \\\\ -2&3&-1 \\\\ 2&-1&3 \end{matrix} \right ] $ is 16. Find the 3rd eigen value of A (2)
+2. Can $A=\left [ \begin{matrix}1&0 \\\\ 0&1 \end{matrix} \right ]$ be diagonalized? Why? (2)
+3. Find the equation of the sphere concentric with $x^2+y^2+z^2-4x+6y-8z+4=0$ and passing through the point (1,2,3) (2)
+4. Find teh equation of the right circular cone with vertex at the origin whose axis is $\frac{x}{1}=\frac{y}{-1}=\frac{z}{2} and with semi vertical angle $30^{\circ}$ (2)
+5. Find the radius of curvature of the curve $y=e^x$ at the point where it cuts the y-axis (2)
+6. Find the envelope of the lines $\frac{x}{t}+yt=2c$, 't' being a parameter (2)
+7. If $u=x^y$, show that $\frac{\partial^2 u}{\partial x \partial y}=\frac{\partial^2 u}{\partial y \partial x}$ (2)
+8. If $x=u^2-v^2$ , $y=2uv$ find the Jacobian of x and y with respect to u and v (2)
+9. Express $\int_0^\infty\!\int_0^\infty\!f(x,y)\,\mathrm{d}x\mathrm{d}y$ in polar co-ordinates (2)
+10. Evaluate \int_0^1\!\int_0^y\!\int_0^{x+y}\!\mathrm{d}x\mathrm{d}y\mathrm{d}z $(2)
+11.
+(a) 
+(i) Find the eigen values and eigen vectors of the matrix A= $ \left [ \begin{matrix} 2&2&1 \\\\ 1&3&1 \\\\ 1&2&2 \end{matrix} \right ] $ (8)
+(ii) Find $A^n$ using Cayley Hamilton theorem taking A =  $ \left [ \begin{matrix} 1&4 \\\\ 2&3 \end{matrix} \right ] $ Hence find $A^3$ (8)
+(b) Reduce the quadratic form $2x^2+5y^2+3z^2+4xy$ to canonical form by orthogonal reduction and state its nature (16)
+12.
+(a)
+(i) Obtain the equation of the sphere having the circle $x^2+y^2+z^2+10y-4z-8=0,x+y+z=3$ as the greatest circle(8)
+(ii) Find the equation of the cone formed by rotating the line $2x+3y=6,z=0$ about the y-axis (8)
+(b)
+(i) Obtain the equation of the tangent planes to the sphere $x^2+y^2+z^2+2x-4y+6z-7=0$ which intersect in the line $6x-3y-23=0=3z+2$ (8)
+(ii) Find the equation of the right circular cylinder of radius 2 whose axis is $\frac{x-1}{2}=\frac{y-2}{1}=\frac{z-3}{2}$ (8)
+13.
+(a)
+(i) If $y=\frac{ax}{a+x}, prove that $(\frac{2\rho}{a})^{\frac{2}{3}}=(\frac{x}{y})^2+(\frac{y}{x})^2$, where $\rho$ is the radius of curvature (8)
+(ii) Find the circle of curvature of $\sqrt x+\sqrt y=\sqrt a$ at $(\frac{a}{4},\frac{a}{4})$ (8)
+(b)
+(i) Find the evolute of the parabola $y^2=4ax$ (8)
+(ii) Find the envelope of $\frac{x}{l}+\frac{y}{m}=1$, where the parameters l and m are connected by the relation $\frac{l}{a}+\frac{m}{b}=1$ ( a and b are constants ) (8)
+14.
+(a)
+(i) If $z=f(x,y)$ where $x=u^2-v^2, y=2uv$, prove that $\frac{\partial^2z}{\partial u^2} + \frac{\partial^2z}{\partial v^2} = 4(u^2+v^2)(\frac{\partial^2z}{\partial x^2} + \frac{\partial^2z}{\partial y^2})$ (8)
+(ii) Find the Taylor's series expansion of $x^2y^2+2x^2y+3xy^2$ in  powers of (x+2) and (y-1) upto 3rd degree terms (8)
+(b)
+(i) If $x+y+z=u,\,y+z=uv,\,z=uvw$, prove that $\frac{\partial (x,y,z)}{\partial (u,v,w)}=u^2v$ (8)
+(ii) Find the extreme values of the function $f(x,y)=x^3+y^3-3x-12y+20$ (8)
+15.
+(a)
+(i) Change the order of integration in $\int_0^a\!\int_0^{\frac{b(\sqrt{a^2-x^2})}{a}}\!x^2\,\mathrm{d}y\mathrm{d}x$ and then evaluate it (8)
+(ii) Transform the double integral $\overset{a}{\underset{0}{\int}}\overset{\sqrt{a^2-x^2}}{\underset{\sqrt{ax-x^2}}{\int}}\frac{\mathrm{d}x\mathrm{d}y}{\sqrt{a^2-x^2-y^2}}$ into polar co-ordinates and then evaluate it (8)
+(b)
+(i) Evaluate $\overset{1}{\underset{0}{\int}}\overset{\sqrt{1-x^2}}{\underset{0}{\int}}\overset{\sqrt{1-x^2-y^2}}{\underset{0}{\int}}\frac{\mathrm{d}x\mathrm{d}y\mathrm{d}z}{\sqrt{1-x^2-y^2-z^2}}$ (8)
+(ii) Find the smaller of the areas bounded by the ellipse $4x^2+9y^2=36$ and the straight line $2x+3y=6$ (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! MA8151
+!Year! 2011
+!Month! Apr/May
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Find the values of a and b such that the matrix $ \left [ \begin{matrix} a&4 \\\\ 1&b \end{matrix} \right ] $ has 3 and −2 its eigen values.(2)
+2. Find the index and signature of the Q.F. $x_1^2+2x_2^2-3x_3^2$ (2)
+3.Find the centre and radius of the sphere $3x^2+3y^2+3z^2+6x+12y+2z+15=0$.(2)
+4. Define a right circular cone. (2)
+5. Define curvature of a plane curve. (2)
+6. Find the envelope of the lines $\frac{x}{t}+yt=2c$, 't' being a parameter (2)
+7. Find $\frac{du}{dt} if $u=\frac{x}{y}$ where $x=e^t$, $y=\log t$ (2)
+8. If $x=u^2-v^2$ , $y=2uv$ find the Jacobian of x and y with respect to u and v (2)
+9. Find using a double integral, the area of the cardiod $r=a(1+\cos \theta)$ (2)
+10. What is the formula to find the volume V of a three dimensional region interms of triple integration?(2)
+11.
+(a) 
+(i) Verify Cayley-Hamilton theorem for the matrix A= $ \left [ \begin{matrix} 1&-2&3 \\\\ 2&4&-2 \\\\ -1&1&2 \end{matrix} \right ] $ (8)
+(ii) The eigenvectors of a 3×3 real symmetric matrix A corresponding to the eigenvalues 2,3, 6 ar e $(1, 0, −1)^T$ , (1, 1, 1)^T and (1, 2, −1)^T respectively. Find the matrix A (8)
+(b) Reduce the quadratic form $2x_1x_2+2x_1x_3-2x_2x_3$ to canonical form by orthogonal reduction. Also find its nature (16)
+12.
+(a)
+(i) Find the equation of the sphere of radius 3 and whose central lies on the line $\frac{x-1}{1}=\frac{y-1}{2}=\frac{z}{2}$ at a distance of 2 from (1,1,0) (8)
+(ii)  Find the equation of the cone with vertex at (1, 1, 1) and passing through the curve of intersection of $x^2+y^2+z^2=1$ and $x+y+z=1$. (8)
+(b)
+(i) Find the two tangent planes to the sphere $x^2+y^2+z^2−4x−2y−6z+5=0$, which are parallel to the plane $x+4y+8z=0$. Find their point of contact.(10)
+(ii) Find the equation of the right circular cylinder of radius 3 and axis $\frac{x-1}{2}=\frac{y-3}{2}=\frac{z-5}{-1}$ (6)
+13.
+(a)
+(i) Find the radius of curvature of the curve $x =3a \cos \theta − a \cos 3\theta, y = 3a \sin \theta −a \sin 3\theta$. (8)
+(ii) Find the circle of curvature of $\sqrt x+\sqrt y=\sqrt a$ at $(\frac{a}{4},\frac{a}{4})$ (8)
+(b)
+(i) Find the envelope of the family of straight lines $x \cos α+y \sin α = c \sin α \cos α$, α being the parameter.(8)
+(ii) Show that the evolute of the cycloid $x = a(θ − sin θ), y = a(1 − cos θ)$ is another cycloid. (8)
+14.
+(a)
+(i) If $u=sin^{-1}\frac{x+y}{\sqrt x + \sqrt y }$, prove that $x^2\frac{\partial ^2u}{\partial x^2}+2xy\frac{\partial ^2u}{\partial x \partial y}+y^2\frac{\partial ^2u}{\partial y^2}=-\frac{\sin u \cos {2u}}{4 \cos^3 u}$(8)
+(ii) Use Taylor’s formula to expand the function defined by $f (x, y) = x^3 + y^3 + xy^2$ in powers of (x − 1) and (y − 2) (8)
+(b)
+(i) If $x=r\sin\theta \cos \phi$ , $y=r \sin \theta \sin \phi$ and $z=r \cos \theta$, find \frac{\partial (x,y,z)}{\partial (r,\theta,\phi)} (8)
+(ii) Examine $f (x, y) = x^3 + y^3 − 12x − 3y + 20$ for its extreme values. (8)
+15.
+(a)
+(i) Change the order of integration and evaluate $\int_0^{\infty}\int_x^\infty\!\frac{e^{-y}}{y}dydx$ (8)
+(ii) Transform the integral $\overset{2}{\underset{0}{\int}}\overset{\sqrt{2x-x^2}}{\underset{0}{\int}}\!(x^2+y^2)\mathrm{d}y\mathrm{d}x$ into polar co-ordinates and then evaluate it (8)
+(b)
+(i) Find, by double integration, the area enclosed by the curves $y^2=4ax$ and $x^2=4ay$. (8)
+(ii) Find the volume of the ellipsoid $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$ (8)
+!END_QPAPER!
