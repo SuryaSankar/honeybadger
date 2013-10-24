@@ -1,0 +1,48 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! MA8451
+!Year! 2012
+!Month! May/June
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Using truth table, show that the proposition $p\vee\neg(p\wedge q)$ is a tautology. (2)
+2. Write the negation of the statement $(\exists x)(\forall y)p(x,y)$. (2)
+3. Find the number of non-negative integer solutions of the equation $x_1+x_2+x_3=11$. (2)
+4. Find the recurrence relation for the Fibonacci sequence. (2)
+5. Define isomorphism of two graphs. (2)
+6. Give an example of an Euler graph. (2)
+7. Define a semigroup. (2)
+8. If '$a$' is a generator of a cyclic group G, then show that $a^{-1}$ is also a generator of G. (2)
+9. In a Lattice $(L,\leq)$ , prove that a $a\wedge(a\vee b)=a$ , for all $a,b \epsilon L$. (2)
+10. Define a Boolean algebra. (2)
+11.
+(a)
+(i) Prove that the following argument is valid: $p \rightarrow\neg q, r\rightarrow q,r\Rightarrow\neg p$. (8)
+(ii) Determine the validity of the following argument: If 7 is less then 4, then 7 is not a prime number, 7 is not less then 4. Therefore 7 is a prime number. (8)
+Or
+(b)
+(i) Verify the validity of the following argument. Every living thing is a plant or an animal. John’s gold fish is alive and it is not a plant. All animals have hearts. Therefore John’s gold fish has a heart. (8)
+(ii) Show that $(\forall x)(P(x)\rightarrow Q(x)), (\exists y)P(y)\Rightarrow(\exists x)Q(x)$. (8)
+12.
+(a)
+(i) Prove by the principle of mathematical induction, for 'n' a positive integer, $1^2+2^2+3^2+...+n^2=\frac{n(n+1)(2n+1)}{6}$. (10)
+(ii) Find the number of distinct permutations that can be formed from all the letters of each word (1) RADAR (2) UNUSUAL. (6)
+Or
+(b) Solve the recurrence relation, $S(n)=S(n-1)+2(n-1)$ , with $S(0)=3,S(1)=1$ , by finding its generating function. (16)
+13.
+(a) Prove that a connected graph G is Eulerian if and only if all the vertices are on even degree. (16)
+Or
+(b) Show that graph $G$ is disconnected if and only if its vertex set $V$ can be partitioned into two nonempty subsets $V_1$ and $V_2$ such that there exists no edge is $G$ whose one end vertex is in $V_1$ and the other in $V_2$. (16)
+14.
+(a) Let $f:G\rightarrow{G}'$ be a homorphism of groups with Kernel $K$ . Then prove that $K$ is a normal subgroup of $G$ and $G / K$ is isomorphic to the image of $f$. (16)
+Or
+(b) State and prove Lagrange’s theorem. (16)
+15.
+(a) Show that the direct product of any two distributive lattices is a distributive lattice. (16)
+Or
+(b) Let $B$ be a finite Boolean algebra and let $A$ be the set of all atoms of $B$ . Then prove that the Boolean algebra $B$ is isomorphic to the Boolean algebra $P(A)$, where $P(A)$ is the power set of $A$. (16)
+!END_QPAPER!

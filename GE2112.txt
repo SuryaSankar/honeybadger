@@ -1,0 +1,57 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!Outdated!
+!Branch! General Engineering
+!CourseName! Fundamentals of Computing and Programming
+!CourseCode! GE2112
+!Year! 2010
+!Month! Apr/May
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1.Distinguish between Analog and Digital computer. (2)
+2.Convert 0.4375 decimal to binary system. (2)
+3.Distinguish between compiler and interpreters. (2)
+4.What is web server? (2)
+5.What is an algorithm? (2)
+6.Give the importance of a graphic packages. (2)
+7.Write a code segment using while statement to print numbers from 10 down to 1. (2)
+8.Write a c program for the following expressions (a)`a= 5<=8 && 6!=5` (b)`a = b++ + ++b` where b = 50 (2)
+9.How strings are represented in c language?(2)
+10.What are the advantages of unions over structures?(2)
+11.
+(a)
+(i)What are the characteristics of a computer? Discuss (6)
+(ii)Briefly explain the various generations of computers. (6)
+(iii)Convert the decimal number 59.8125 into binary and octal. (4)
+(b) Explain the different components of a computer system with block diagram. (16)
+12.
+(a)
+(i)Describe the different types of software with examples. (8)
+(ii)List the different software development steps and explain. (8)
+(b)
+(i)Explain the common types of internet access. (6)
+(ii)Write short notes on web browser. (6)
+(iii)Explain a typical structure URL. (4)
+13. 
+(a)Draw and explain the various symbols of flowchart and also draw the flowchart to add an array of N elements (16)
+(b)
+(i)Explain the features of Power Point package. (6) 
+(ii)List and explain the features supported by spreadsheet package. (6) 
+(iii)Briefly write about Desktop Publishing Software. (4)
+14.
+(a)
+(i)What are the different operators available in C? Explain with examples. (8)
+(ii)Differentiate between signed and unsigned integer. (8)
+(b)
+(i)Explain the following conditional statements. 1.nested if-else statement 2.switch-case statement (8)
+(ii)Write a C program that reads a number and display whether the number is prime or not. (8)
+15.
+(a)
+(i)Write a C program to reverse a given string. (8)
+(ii)Differentiate pass by value and pass by address in c. (8)
+(b) Write a C program that gets and display the report of n students with their personal and academic details using structures. (16)
+!END_QPAPER!

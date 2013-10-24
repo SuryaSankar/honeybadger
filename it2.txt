@@ -1,0 +1,62 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! MA8451
+!Year! 2010
+!Month! Nov/Dec
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. When do you say that two compound propositions are equivalent? (2)
+2. Prove that $p,p\rightarrow q,q\rightarrow r\Rightarrow r$. (2)
+3. State Pigeonhole principle. (2)
+4. Find the recurrence relation satisfying the equation $y_n = A(3)^n +B(-4)^n$. (2)
+5. Define strongly connected graph. (2)
+6. State the necessary and sufficient conditions for the existence of an Eulerian path in a connected graph. (2)
+7. State any two properties of a group. (2)
+8. Define a commutative ring. (2)
+9. Define Boolean algebra. (2)
+10. Define sub-lattice. (2)
+11.
+(a)
+(i) Prove that the premises $a\rightarrow(b\rightarrow c),d\rightarrow (b\wedge \neg c)$ and $(a\wedge d)$ are inconsistent. (8)
+(ii) Obtain the principal disjunctive normal form and principal conjunction form of the statement $p\vee (\neg p\rightarrow(q\vee (\neg q\rightarrow r)))$. (8)
+Or
+(b)
+(i) Prove that $\forall x(P(x)\rightarrow Q(x)), \forall(R(x)\rightarrow \neg Q(x))\Rightarrow \forall x(R(x)\rightarrow \neg P(x))$. (8)
+(ii) Without using the truth table, prove that $\neg  p \rightarrow(q\rightarrow r)\equiv q\rightarrow(p\vee r)$. (8)
+12.
+(a)
+(i) Prove, by mathematical induction, that for all $n\geq1,n^3+2n$ is a multiple of 3. (8)
+(ii) Using the generating function, solve the difference equation $y_{n+2}-y_{n+1}-6y_n=0,y_1=1,y_0=2$. (8)
+Or
+(b)
+(i) How many positive integers $n$ can be formed using the digits 3,4,4,5,5,6,7 if $n$ has to exceed 5000000? (8)
+(ii) Find the number of integers between 1 and 250 both inclusive that are divisible by any of the integers 2,3,5,7. (8)
+13.
+(a)
+(i) Draw the complete graph $K_5$ with vertices A, B, C, D, E. Draw all complete sub graph of 4K_5$ with 4 vertices. (8)
+(ii) If all the vertices of an undirected graph are each of degree $k$ , show that the number of edges of the graph is a multiple of $k$ . (8)
+Or
+(b)
+(i) Draw the graph with 5 vertices, A, B, C, D, E such that deg(A) = 3 , B is an odd vertex, deg(C) = 2 and D and E are adjacent. (8)
+(ii) The adjacency matrices of two pairs of graph as given below. Examine the isomorphism of G and H by finding a permutation matrix. $A_G=\begin{bmatrix} 0&0&1\\\\0&0&1\\\\1&1&0 \end{bmatrix}, A_H=\begin{bmatrix} 0&1&1\\\\1&0&0\\\\1&0&0 \end{bmatrix}$ (8)
+14.
+(a)
+(i) If $(G,*)$ is an abelian group, show that $(a*b)^2=a^2*b^2$. (8)
+(ii) Show that $(Z,+,')$ is an integral domain where $Z$ is the set of all integers. (8)
+Or
+(b)
+(i) State and prove Lagrange’s theorem. (8)
+(ii) If $(Z,+)$ and $(E,+)$ where $$ is the set all integers and $E$ is the set all even integers, show that the two semi groups $(Z,+)$ and $(E,+)$ are isomorphic. (8)
+15.
+(a)
+(i) Show that $(N,\leq)$ is a partially ordered set where $N$ is set of all positive integers and $\leq$ is defined by $m\leq n$ iff $n-m$ is a non-negative integer. (8)
+(ii) In a Boolean algebra, prove that ${(a\wedge b)}'={a}'\vee {b}'$. (8)
+Or
+(b)
+(i) In a Lattice $(L,\leq )$ , prove that $x\vee(y\wedge z)\leq (x\vee y)\wedge(x\vee z)$. (8)
+(ii) If $S_42$ is the set all divisors of 42 and D is the relation “divisor of” on $S_42$ , prove that ${S_42 ,D}$ is a complemented Lattice. (8)
+!END_QPAPER!

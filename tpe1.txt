@@ -1,0 +1,48 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! MA8357
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Find the sum of the Fourier series for $f(x) = \begin{cases} x, & {0\leq x < 1} \\\\ 2, & 1<x<2 \end{cases}$ at $x = 1$. (2)
+2. The cosine series for $f(x)=x\sin x$ for $0<x<\pi$ is given as $x\sin x=1-\frac{\cos x}{2} -2\sum_{n=2}^{\infty}\frac{(-1)^n}{n^2-1}$. Deduce that $1+2\left [ \frac{1}{1.3} -\frac{1}{3.5} +\frac{1}{5.7} -... \right ]= \frac{\pi}{2}$. (2)
+3. Define Fourier transformation pair. (2)
+4. Find the Fourier Sine transform of $\frac{1}{x}$. (2)
+5. Form the p.d.e form z$ = f (x + t ) + g(x - t )$. (2)
+6. Find the complete integral of $q = 2 px $. (2)
+7. State the governing equation for one dimensional heat equation and necessary to solve the problem. (2)
+8. Write the boundary conditions for the following problem. A rectangular plate is bounded by the line $x = 0, y = 0, x = a$ and $y = b$. Its surfaces are insulated. The temperature along $x = 0$ and $y = 0$ are kept at $0^\circ C$ and the others at $100^\circ C$. (2)
+9. Find Z – transformation of $\frac{a^n}{n!}$. (2)
+10. Find $Z^{-1}\left [ \frac{z}{{(z-1)}^2} \right ]$. (2)
+11.
+(a) Calculate the first 3 harmonics of the Fourier of f (x) from the following data: $\begin{matrix} x: & 0 & 30 & 60 & 90 & 120 & 150 & 180 & 210 & 240 & 270 & 300 & 330 \\\\ f(x): & 1.8 & 1.1 & 0.3 & 0.16 & 0.5 & 1.3 & 2.16 & 1.25 & 1.3 & 1.52 & 1.76 & 2.0 \end{matrix}$ (16)
+Or
+(b) Find the Fourier series of the function $f(x)=\begin{cases} 0, & -\pi\leq x\leq 0\ \\\\ \sin x , & 0\leq x \leq \pi \end{cases}$ and hence evaluate $\frac{1}{1.3}+\frac{1}{3.5}+\frac{1}{5.7}+...$. (16)
+12.
+(a) Show that the Fourier transform of $f(x)=\begin{cases} a^2-x^2 , & |x| \leq a \\\\ 0, & |x|>a>0 \end{cases}$ is $2\,\sqrt{\frac{2}{\pi}}\left (\frac{\sin as - as\cos as}{s^3} \right )$. Hence deduce that $\int_{0}^{\infty}\frac{\sin t - t\cos t}{t^3}dt = \frac{\pi}{4}$. Using Perserval’s identity show that $\int_{0}^{\infty}{\left (\frac{\sin t - t\cos t}{t^3} \right )}^2dt =\frac{\pi}{15}$. (16)
+Or
+(b)
+(i) Find Fourier cosine transformation of $e^{-x^2}$. (8)
+(ii) Find the Fourier sine transformation of $\frac{e^{-ax}}{x}$ where $a > 0$ . (8)
+13.
+(a)
+(i) Solve $x(y^2-z^2)p+y(z^2-x^2)q-z(x^2-y^2)=0$. (8)
+(ii) Solve $z^2(p^2+q^2)=x^2+y^2$. (8)
+Or
+(b) Solve $(D^3-7DD'^2-6D'^3)z=\cos (x+2y)+x$. (16)
+14.
+(a) A string is stretched and fastened to two points $x = 0$ and $x = l$ apart. Motion is started by displacing the string into the form $y=k(lx-x^2)$ from which it is released at time $t = 0$ . Find the displacement of any point on the string at a distance of $x$ from one end at time $t$ . (16)
+Or
+(b) A bar of 10 cm long, with insulated sides has its ends A and B maintained at temperatures $50^\circ C$ and $100^\circ C$ respectively, until steady-state conditions prevail. The temperature at A is suddenly raised to $90^\circ C$ and at B is lowered to $60^\circ C$ . Find the temperature distribution in the bar thereafter. (16)
+15.
+(a) Using Z-transform, solve $y_{n+2}+4y_{n+1}-5y_n=24n-8$ given that $y_0=3$ and $y_1=-5$. (16)
+Or
+(b)
+(i) State and prove convolution theorem on Z-transformation. Find $Z^{-1}\left [ \frac{z^2}{(z-a)(z-b)} \right ]$. (10)
+(ii) If $U(z)=\frac{2z^2+5z+14}{{(z-1)}^4}$ , evaluate $u_2$ and $u_3$. (6)
+!END_QPAPER!
