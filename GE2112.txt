@@ -114,4 +114,3 @@
 (ii) Write a C program to accept records of 20 states using array of structures. The structure should contain the name of the state and number of engineering colleges, medical colleges, managememt colleges, science colleges. Calculate and display the total colleges in each state and the state which is having the highest number of colleges (10)
 !END_QPAPER!
 
-
