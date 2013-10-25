@@ -1,0 +1,103 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE2112
+!Year! 2009
+!Month! Jan
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. State the characteristics of computers. (2)
+2. How will you classify computer systems? (2)
+3. Differentiate Application software and System software? (2)
+4. Name any two Internet applications. (2)
+5. Draw a flowchart to find the maximum among the three numbers. (2)
+6. Name any four Application Software Packages. (2)
+7. Write the following conditions using “?” operator. \\\\[ Salary =\begin{cases} 4x+100, & \text{for $x<40$ }\\\\ 300 & \text{for $x=40$} \\\\ 4.5x+150 & \text{for $x>40$}  \end{cases} \\\\] (2)
+8. Write the limitations of using getchar() and scanf() functions for reading strings. (2)
+9. Define a C function to exchange the content of two variables. (2)
+10. Write the format of the following functions: (a) fseek    (b) fopen. (2)
+11. 
+(a) 
+(i) Explain the evolution of computers. (8)
+(ii) With suitable diagram explain about computer organization.(8)
+(b) With suitable example, explain about Number Systems. (16)
+12. 
+(a) Explain the various types of software with suitable examples. (16)
+(b) Explain in detail about the software development steps. (16)
+13. 
+(a)
+(i) Draw a flowchart to multiply two matrices. (8)
+(ii) Write the pseudo code to multiply two matrices. (8)
+(b) 
+(i) What is an algorithm? Write an algorithm to print even numbers from 2 to 100. (8)
+(ii) Explain any 8 Formatting features of an Application packages. (8)
+14. 
+(a)
+(i)Explain the various looping constructs. Give an example for each and explain the Working f the construct. (8)
+(ii) Write a C program to find the sum of the series: $S = 1+x+x^2+x^3+...+x^n$ (8)
+(b) 
+(i) write a C program to print the given numbers in reverse order. (8)
+(ii) Explain any 2 constructs used for decision making. Given an example for each and Explain the working of the construct. (8)
+15. 
+(a) 
+(i) Explain about the different parameter passing methods with examples. (8)
+(ii) Write notes on storage classes in C. (8)
+(b) 
+(i) Explain about structures and unions suitable examples. (8)
+(ii) Write notes on Pointers. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! GE2112
+!Year! 2011
+!Month! Apr/May
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define the term Computer (2)
+2. What is the binary and hexadecimal equivalent for the decimal number 245? (2)
+3. Differentiate between hardware and software (2)
+4. What are the benefits of internet? (2)
+5. What is the difference between program and algorithm? (2)
+6. What are the benefits of pseudo code? (2)
+7. Is 'main' a keyword in C language? Justify your answer. (2)
+8. What is a ternary operator? Give suitable example. (2)
+9. What is function prototyping? Why is it necesary? (2)
+10. What are the advantages of unions over structures (2)
+11.
+(a)
+(i) Write a detailed note on the generation of computers (10)
+(ii) Convert the following binary number into decimal, octal and hexadecimal equivalent (6)
+(b) Explain different components of a computer system with block diagram (16)
+12.
+(a)
+(i) State and explain the various steps in the development of software (8)
+(ii) Differentate between application software and system software (8)
+(b)
+(i) Explain in detail the various types of services provided by the internet (16)
+13.
+(a) Draw a flowchart and write an algorithm to sort a list of numbers in ascending order (16)
+(b)
+(i)Explain the features of Power Point package. (6) 
+(ii)List and explain the features supported by spreadsheet package. (6) 
+(iii)Briefly write about Desktop Publishing Software. (4)
+14.
+(a)
+(i) With suitable examples, explain the different types of operators available in C. (8)
+(ii) For each employee, the employee number, name and his annual salary are given. The income tax is calculated as follows: for annual salary upto Rs. 20000, there is no tax. If the anual salary is above Rs. 20000, and upto Rs. 50000, the tax is computed as 20% of the salary. If the annual salary is above Rs. 50000, for the amount upto 50000, the tax is computed as 20% of the amount and for the amount that exceeds Rs. 50000, tax is computed as 30%. Write a C program using nested if-else statement to compute and print the income tax of each employee (8)
+(b)
+(i) Write a C program for sorting an array of size 20 (8)
+(ii) Explain the various looping constructs. Give an example for each and explain the working of the construct. (8)
+15.
+(a) 
+(i) Write a C program to reverse a given string (10)
+(ii) Differentiate pass by value and pass by address in C (6) 
+(b)
+(i) Write a C program to convert the given string from lowercase characters to uppercase and uppercase to lowercase. (eg: HellO = hELLo) (8)
+(ii) List and explain the various preprocessor directives supported by C language (8)
+!END_QPAPER!
