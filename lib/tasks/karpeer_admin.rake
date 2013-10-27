@@ -193,7 +193,7 @@ namespace :karpeer_admin do
 			if existing_univ_course == nil then
 				course_name = $~[:course_name]
 				cred = $~[:credits].to_i
-				course_branch_abbr = /(?<abbr>[[:alpha:]]+)\d+/.match(code)[:abbr]
+				course_branch_abbr = /(?<abbr>[[:alpha:]]+)\s*\d+/.match(code)[:abbr]
 				course_branch_name = branches.has_key?(course_branch_abbr) ? branches[course_branch_abbr] : course_branch_abbr
 				course_branch = Branch.where(name: course_branch_name).first_or_create
 				course_branch.update_attributes stream: "Engineering"
@@ -206,6 +206,69 @@ namespace :karpeer_admin do
 			else
 				puc = ProgramUniversityCourse.where(university_course_id: existing_univ_course.id, program_id: program.id, elective: elec, semester: sem, credits: cred).first_or_create
 			end
+		when /^!E(?<elective_no>[0-9]+)!(?<course_code>.*)\|(?<course_name>.*)\|(?<credits>[0-9]*)$/
+			code = $~[:course_code]
+			elec_no = $~[:elective_no]
+			existing_univ_course = UniversityCourse.find_by(university_id: univ.id, course_code: code)
+			if existing_univ_course == nil then
+				course_name = $~[:course_name]
+				cred = $~[:credits].to_i
+				course_branch_abbr = /(?<abbr>[[:alpha:]]+)\d+/.match(code)[:abbr]
+				course_branch_name = branches.has_key?(course_branch_abbr) ? branches[course_branch_abbr] : course_branch_abbr
+				course_branch = Branch.where(name: course_branch_name).first_or_create
+				course_branch.update_attributes stream: "Engineering"
+				course = Course.where(name: course_name, branch_id: course_branch.id, practical: prac).first_or_create
+				puts course.attributes
+				univ_course = UniversityCourse.where(course_id: course.id, university_id: univ.id, course_code: code).first_or_create
+				puts univ_course.attributes			
+				puc = ProgramUniversityCourse.where(university_course_id: univ_course.id, program_id: program.id, elective: true, semester: sem, elective_no: elec_no.to_i, credits: cred).first_or_create
+				puts puc.attributes
+			else
+				puc = ProgramUniversityCourse.where(university_course_id: existing_univ_course.id, program_id: program.id, elective: true, semester: sem, elective_no: elec_no.to_i, credits: cred).first_or_create
+			end
+
+		when /!E(?<elective_no>\d)!(?<course_abbr>\D{2})\s*(?<code>\d{4})\s*(?<course_name>.*)\s*(\d{1}\s*){3}(?<credits>\d)/
+			puts "Inside elective"	
+			course_abbr=$~[:course_abbr]
+			code=course_abbr+$~[:code]
+			elec_no = $~[:elective_no]
+			existing_univ_course = UniversityCourse.find_by(university_id: univ.id, course_code: code)
+			if existing_univ_course == nil then
+				course_name = $~[:course_name]
+				cred = $~[:credits].to_i
+				course_branch_abbr = /(?<abbr>[[:alpha:]]+)\d+/.match(code)[:abbr]
+				course_branch_name = branches.has_key?(course_abbr) ? branches[course_abbr] : course_abbr
+				course_branch = Branch.where(name: course_branch_name).first_or_create
+				course_branch.update_attributes stream: "Engineering"
+				course = Course.where(name: course_name, branch_id: course_branch.id, practical: prac).first_or_create
+				#puts course.attributes
+				univ_course = UniversityCourse.where(course_id: course.id, university_id: univ.id, course_code: code).first_or_create
+				#puts univ_course.attributes			
+				puc = ProgramUniversityCourse.where(university_course_id: univ_course.id, program_id: program.id, elective: true, semester: sem, elective_no: elec_no.to_i, credits: cred).first_or_create
+				puts puc.attributes
+			else
+				puc = ProgramUniversityCourse.where(university_course_id: existing_univ_course.id, program_id: program.id, elective: true, semester: sem, elective_no: elec_no.to_i, credits: cred).first_or_create
+			end
+
+		when /(?<course_abbr>\D{2})\s*(?<code>\d{4})\s*(?<course_name>.*)\s*(\d{1}\s*){3}(?<credits>\d)/
+			puts "Inside normal"	
+			course_abbr=$~[:course_abbr]
+			code=course_abbr+$~[:code]
+			if existing_univ_course == nil then
+				course_name = $~[:course_name]
+				cred = $~[:credits].to_i
+				course_branch_name = branches.has_key?(course_abbr) ? branches[course_abbr] : course_abbr
+				course_branch = Branch.where(name: course_branch_name).first_or_create
+				course_branch.update_attributes stream: "Engineering"
+				course = Course.where(name: course_name, branch_id: course_branch.id, practical: prac).first_or_create
+				#puts course.attributes
+				univ_course = UniversityCourse.where(course_id: course.id, university_id: univ.id, course_code: code).first_or_create
+				#puts univ_course.attributes			
+				puc = ProgramUniversityCourse.where(university_course_id: univ_course.id, program_id: program.id, elective: elec, semester: sem,  credits: cred).first_or_create
+				puts puc.attributes
+			else
+				puc = ProgramUniversityCourse.where(university_course_id: existing_univ_course.id, program_id: program.id, elective: elec, semester: sem,  credits: cred).first_or_create
+			end	
 		else
 			puts line + "no match"
 		end

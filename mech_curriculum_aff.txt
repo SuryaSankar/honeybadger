@@ -1,0 +1,122 @@
+!Degree!Bachelor of Engineering
+!University!Anna University - Affliated Colleges
+!Branch!Mechanical Engineering
+
+!SEM!1
+!T!
+!!HS2111|Technical English I|4
+!!MA2111|Mathematics I|4
+!!PH2111|Engineering Physics - I|3
+!!CY2111|Engineering Chemistry - I|3
+!!GE2112|Fundamentals of Computing and  Programming|3
+!!GE2111|Engineering Graphics|4
+!P!
+!!PhCy1|Physics & Chemistry Laboratory - I|3
+!!GE2115|Computer Practice Laboratory|2
+!!GE2116|Engineering Practices Laboratory|2
+
+!SEM!2
+!T!
+!!HS2161|Technical English II|4
+!!MA2161|Mathematics II|4
+!!PH2161|Engineering Physics - II|3
+!!CY2161|Engineering Chemistry - II|3
+!!ME2151|Engineering Mechanics|4
+!!GE2151|Basic Electrical & Electronics Engineering|4
+!P!
+!!GE2155|Computer Practice Laboratory-II|2
+!!GS2165|Physics & Chemistry Laboratory - II|2
+!!ME2155|Computer Aided Drafting and Modeling Laboratory|2
+
+!SEM!3
+!T!
+MA 2211 Transforms and Partial Differential Equation      3 1 0 4
+ME 2201 Manufacturing Technology – I 3 0 0 3
+ME 2202 Engineering Thermodynamics 3 1 0 4
+ME 2203 Kinematics of Machinery   3 1 0 4
+ME 2204 Fluid Mechanics and Machinery 3 1 0 4
+ME 2205 Electrical Drives and Control 3 0 0 3
+!P!
+ME 2207 Manufacturing Technology Lab – I 0 0 3 2
+ME 2208 Fluid Mechanics and Machinery Laboratory 0 0 3 2
+ME 2209 Electrical Engineering Laboratory 0 0 3 2
+
+!SEM!4
+!T!
+MA 2266 Statistics and Numerical Methods 3 1 0 4
+ME 2251 Heat and Mass Transfer 3 1 0 4
+ME 2252 Manufacturing Technology – II 3 0 0 3
+ME 2253 Engineering Materials and Metallurgy 3 0 0 3
+ME 2254 Strength of Materials 3 1 0 4
+ME 2255 Electronics and Microprocessors 3 0 0 3
+!P!
+ME 2258 Manufacturing Technology Lab – II 0 0 3 2
+ME 2256 Strength of Materials Lab 0 0 3 2
+ME 2257 Computer Aided Machine Drawing Laboratory 0 0 4 2
+
+!SEM!5
+!T!
+GE 2021 Environmental Science and Engineering 3 0 0 3
+ME 2301 Thermal Engineering 3 1 0 4
+ME 2302 Dynamics of Machinery 3 1 0 4
+ME 2303 Design of Machine Elements 3 1 0 4
+ME 2304 Engineering Metrology & Measurements 3 0 0 3
+ME 2305 Applied Hydraulics & Pneumatics 3 0 0 3
+!P!
+ME 2306 Thermal Engineering Lab – I 0 0 3 2
+ME 2307 Dynamics Lab 0 0 3 2
+ME 2308 Metrology & Measurements Lab 0 0 3 2
+ME 2309 CAD / CAM Lab 0 0 3 2
+
+!SEM!6
+!T!
+MG 2351 Principles of Management 3 0 0 3
+ME 2351 Gas Dynamics and Jet Propulsion 3 1 0 4
+ME 2352 Design of Transmission Systems 3 1 0 4
+ME 2354 Automobile Engineering 3 0 0 3
+ME 2353 Finite Element Analysis 3 1 0 4
+!E1!MG 2021 Marketing Management 3 0 0 3
+!E1!ME 2021 Quality Control & Reliability Engineering 3 0 0 3
+!E1!ME 2022 Refrigeration & Air conditioning 3 0 0 3
+!E1!ME 2023 Renewable Sources of Energy 3 0 0 3
+!E1!ME 2024 Industrial Tribology 3 0 0 3
+!E1!ME 2025 Vibration & Noise Control 3 0 0 3
+!E1!ME 2026 Unconventional Machining Processes 3 0 0 3
+!P!
+ME 2355 Thermal Engineering Lab – II 0 0 3 2
+ME 2356 Design & Fabrication Project 0 0 4 2
+GE 2321 Communication Skills Lab 0 0 4 2
+
+!SEM!7
+!T!
+GE 2022 Total Quality Management 3 0 0 3
+ME 2401 Mechatronics 3 0 0 3
+ME 2402 Computer Integrated Manufacturing 3 0 0 3
+ME 2403 Power Plant Engineering 3 0 0 3
+!E2!ME 2027 Process Planning & Cost Estimation 3 0 0 3
+!E2!ME 2029 Design of Jigs, Fixtures & Press Tools 3 0 0 3
+!E2!ME 2030 Composite Materials 3 0 0 3
+!E3!ME 2028 Robotics 3 0 0 3
+!E3!ME 2031 Thermal Turbo machines 3 0 0 3
+!E3!ME 2032 Computational Fluid Dynamics 3 0 0 3
+!E3!ME 2034 Nuclear Engineering 3 0 0 3
+!P!
+ME 2404 Computer Aided Simulation & Analysis Laboratory 0 0 3 2
+ME 2405 Mechatronics Lab 0 0 3 2
+
+
+!SEM!8
+!T!
+MG 2451 Engineering Economics and Cost Analysis 3 0 0 3
+!E4!GE 2025 Professional Ethics In Engineering 3 0 0 3
+!E4!ME 2035 Entrepreneurship Development 3 0 0 3
+!E4!ME 2036 Production Planning and  Control 3 0 0 3
+!E4!ME 2037 Maintenance Engineering 3 0 0 3
+!E4!ME 2038 Operations Research 3 0 0 3
+!E5!GE2023 Fundamentals of Nanoscience 3 0 0 3
+!E5!ME 2040 Pressure Vessels & Piping Design 3 0 0 3
+!E5!ME 2041 Advanced I.C. Engines 3 0 0 3
+!E5!ME 2042 Design of Heat Exchangers 3 0 0 3
+!P!
+ME 2452 Comprehension 0 0 2 1
+ME 2453 Project Work - Mechanical Engineering 0 0 1 6

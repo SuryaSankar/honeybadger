@@ -1,0 +1,135 @@
+!Degree!Bachelor of Engineering
+!University!Anna University - Affliated Colleges
+!Branch!Civil Engineering
+
+!SEM!1
+!T!
+!!HS2111|Technical English I|4
+!!MA2111|Mathematics I|4
+!!PH2111|Engineering Physics - I|3
+!!CY2111|Engineering Chemistry - I|3
+!!GE2112|Fundamentals of Computing and  Programming|3
+!!GE2111|Engineering Graphics|4
+!P!
+!!PhCy1|Physics & Chemistry Laboratory - I|3
+!!GE2115|Computer Practice Laboratory|2
+!!GE2116|Engineering Practices Laboratory|2
+
+!SEM!2
+!T!
+!!HS2161|Technical English II|4
+!!MA2161|Mathematics II|4
+!!PH2161|Engineering Physics - II|3
+!!CY2161|Engineering Chemistry - II|3
+!!ME2151|Engineering Mechanics|4
+!!GE2151|Basic Electrical & Electronics Engineering|4
+!P!
+!!GE2155|Computer Practice Laboratory-II|2
+!!GS2165|Physics & Chemistry Laboratory - II|2
+!!ME2155|Computer Aided Drafting and Modeling Laboratory|2
+
+!SEM!3
+!T!
+MA 2211 Transforms and Partial Differential Equations    3 1 0 4
+GE 2021 Environmental Science and Engineering 3 0 0 3
+AG 2211 Applied Geology 3 0 0 3
+CE 2201 Mechanics of Solids 3 1 0 4
+CE 2202 Mechanics of Fluids 3 1 0 4
+CE 2203 Construction Techniques, Equipment and Practice 4 0 0 4
+CE 2204 Surveying– I 3 0 0 3
+!P!
+CE 2207 Survey Practical – I 0 0 4 2
+CE 2208 Computer Aided Building Drawing 0 0 4 2
+
+!SEM!4
+!T!
+MA 2264 Numerical Methods 3 1 0 4
+CE 2251 Soil Mechanics 3 0 0 3
+CE 2252 Strength of Materials 3 1 0 4
+CE 2253 Applied Hydraulic Engineering 3 1 0 4
+CE 2254 Surveying – II 3 0 0 3
+CE 2255 Highway Engineering 3 0 0 3
+!P!
+CE 2257 Strength of Materials Lab 0 0 3 2
+CE 2258 Hydraulic Engineering Laboratory 0 0 3 2
+CE 2259 Survey Practical – II 0 0 4 2
+
+!SEM!5
+!T!
+CE2301 Irrigation Engineering 3 0 0 3
+CE2302 Structural Analysis I 3 1 0 4
+CE2303 Railways, Airports and Harbour Engineering 4 0 0 4
+CE2304 Environmental Engineering I 3 0 0 3
+CE2305 Foundation Engineering 3 0 0 3
+CE2306 Design of RC Elements 3 1 0 4
+!P!
+GE2321 Communication Skills Laboratory** 0 0 4 2
+CE2307 Concrete and Highway Engineering Lab 0 0 3 2
+CE2308 Soil Mechanics Laboratory 0 0 3 2
+
+!SEM!6
+!T!
+MG2351 Principles of Management 3 0 0 3
+CE2351 Structural Analysis – II 3 1 0 4
+CE2352 Design of Steel Structures 3 1 0 4
+CE2353 Construction Planning & Scheduling 3 0 0 3
+CE2354 Environmental Engineering II 3 0 0 3
+!E1!CE2021 Hydrology 3 0 0 3
+!E1!CE2022 Cartography 3 0 0 3
+!E1!CE2023 Electronic Surveying 3 0 0 3
+!E1!CE2024 Remote Sensing Techniques and GIS 3 0 0 3
+!E1!CE2025 Architecture 3 0 0 3
+!E1!GE2022 Total Quality Management 3 0 0 3
+!E1!GE2023 Fundamentals of Nanoscience  3 0 0 3
+!E1!GE2025 Professional Ethics in Engineering 3 0 0 3
+!E1!GE2071 Intellectual Property Rights (IPR) 3 0 0 3
+!E1!GE2072 Indian Constitution and Society 3 0 0 3
+!P!
+CE2355 Environmental  and Irrigation Engineering Drawing 0 0 4 2
+CE2356 Environmental Engineering Laboratory 0 0 3 2
+CE2357 Survey Camp 0 0 0 3
+
+!SEM!7
+!T!
+CE2401 Design of Reinforced Concrete & Brick Masonry Structures 3 1 0 4
+CE2402 Estimation and Quantity Surveying 3 0 0 3
+CE2403 Basics of Dynamics and Aseismic Design 3 0 0 3
+CE2404 Prestressed Concrete Structures 3 0 0 3
+!E2!CE2026 Traffic Engineering and Management 3 0 0 3
+!E2!CE2027 Housing Planning and Management 3 0 0 3
+!E2!CE2028 Ground Water Engineering 3 0 0 3
+!E2!CE2029 Management of Irrigation Systems 3 0 0 3
+!E2!CE2030 Coastal Zone Management 3 0 0 3
+!E2!CE2031 Water Resources Engineering 3 0 0 3
+!E2!CE2032 Pavement Engineering 3 0 0 3
+!E2!CE2033 Ground Improvement Techniques 3 0 0 3
+!E2!GE2073 Contract Laws and Regulations 3 0 0 3
+!E3!CE2034 Introduction to Soil Dynamics and Machine Foundations 3 0 0 3
+!E3!CE2035 Rock Engineering 3 0 0 3
+!E3!CE2036 Environmental Impact Assessment of Civil  Engineering Projects 3 0 0 3
+!E3!CE2037 Industrial Waste Management 3 0 0 3
+!E3!CE2038 Air Pollution Management 3 0 0 3
+!E3!CE2039 Municipal Solid Waste Management 3 0 0 3
+!E3!CE2040 Ecological Engineering 3 0 0 3
+!P!
+CE2405 Computer Aided Design and Drafting Laboratory 0 0 4 2
+CE2406 Design Project 0 0 4 2
+
+!SEM!8
+!T!
+CE2451 Engineering Economics and Cost Analysis 3 0 0 3
+!E4!CE2041 Bridge Structures 3 0 0 3
+!E4!CE2042 Storage Structures 3 0 0 3
+!E4!CE2043 Design of Plate and Shell Structures 3 0 0 3
+!E4!CE2044 Tall Buildings 3 0 0 3
+!E4!CE2045 Prefabricated structures 3 0 0 3
+!E4!CE2046 Wind Engineering 3 0 0 3
+!E5!CE2047 Computer Aided Design of Structures 3 0 0 3
+!E5!CE2048 Industrial Structures 3 0 0 3
+!E5!CE2049 Smart Structures and smart Materials 3 0 0 3
+!E5!CE2050 Finite Element Techniques 3 0 0 3
+!E5!CE2071 Repair and Rehabilitation of Structures 3 0 0 3
+!P!
+CE2453 Project Work - Civil 0 0 1 6
+
+

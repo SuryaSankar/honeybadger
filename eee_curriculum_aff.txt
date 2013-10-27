@@ -1,0 +1,125 @@
+!Degree!Bachelor of Engineering
+!University!Anna University - Affliated Colleges
+!Branch!Electrical and Electronics Engineering
+
+!SEM!1
+!T!
+!!HS2111|Technical English I|4
+!!MA2111|Mathematics I|4
+!!PH2111|Engineering Physics - I|3
+!!CY2111|Engineering Chemistry - I|3
+!!GE2112|Fundamentals of Computing and  Programming|3
+!!GE2111|Engineering Graphics|4
+!P!
+!!PhCy1|Physics & Chemistry Laboratory - I|3
+!!GE2115|Computer Practice Laboratory|2
+!!GE2116|Engineering Practices Laboratory|2
+
+!SEM!2
+!T!
+!!HS2161|Technical English II|4
+!!MA2161|Mathematics II|4
+!!PH2161|Engineering Physics - II|3
+!!CY2161|Engineering Chemistry - II|3
+!!EE2151|Circuit Theory|4
+!!GE2151|Basic Civil and Mechanical Engineering|4
+!P!
+!!EE2155|Electric Circuits Laboratory|2
+!!GE2155|Computer Practice Laboratory-II|2
+!!GS2165|Physics & Chemistry Laboratory - II|2
+
+!SEM!3
+!T!
+!!MA2211|Transform Techniques and Partial Differential Equation|4
+!!EE2201|Measurements & Instrumentation|3
+!!GE2211|Environmental Science and Engineering|3
+!!EE2204|Data Structures and Algorithms|3
+!!EE2202|Electromagnetic Theory|3
+!!EE2203|Electronic Devices and Circuits|3
+!P!
+!!EE2207|Electron Devices and Circuits Laboratory|2
+!!EE2209|Data Structures and Algorithms Laboratory|2
+!!EE2208|Measurements & Instrumentation Laboratory|2
+
+!SEM!4
+!T!
+!!MA2264|Numerical Methods|4
+!!EE2251|Electrical Machines – I|4
+!!EE2252|Power Plant Engineering|4
+!!EE2253 Control Systems||4
+!!EE2254|Linear  Integrated Circuits and  Applications|3
+!!EE2255|Digital Logic Circuits|4
+!P!
+!!EE2257|Control Systems Laboratory|2
+!!EE2258|Linear and Digital Integrated Circuits Laboratory|2
+!!EE2259|Electrical Machines Laboratory – I|2
+
+!SEM!5
+!T!
+!!EC2311|Communication Engineering|3
+!!EC2314|Digital Signal Processing|4
+!!CS2311|Object Oriented Programming|3
+!!EE2301|Power Electronics|3
+!!EE2302|Electrical Machines - II|4
+!!EE2303|Transmission & Distribution|4
+!P!
+!!EE2305|Electrical Machines Laboratory II|2
+!!EE2304|Power Electronics Laboratory|2
+!!CS2312|Object Oriented Programming Laboratory|2
+!!GE2321|Communication Skills Laboratory|2
+
+
+
+!SEM!6
+!T!
+!!EE2351!Power System Analysis|4
+!!EE2352|Solid State Drives|3
+!!EE2353 High Voltage Engineering|3
+!!EE2354 Microprocessors and Micro controller|3
+!!EE2355 Design of Electrical Machines|4
+!!CS2363 Computer Networks|3
+!E1!EI2404|Fibre Optics and Laser Instruments|3
+!E1!CS2070|Visual Languages and Applications|3
+!E1!IC2351|Advanced Control System|3
+!E1!EE2023|Robotics and Automation|3
+!E1!GE2025|Professional Ethics in Engineering|3
+!E1!EE2027|Power System Transients|3
+!P!
+!!EE2356|Microprocessor and Micro controller Laboratory|2
+!!EE2357|Presentation Skills and Technical Seminar|1
+
+
+!SEM!7
+!T!
+!!EE2401|Power System Operation and Control|3
+!!EE2402|Protection and Switchgear|3
+!!EE2403|Special Electrical Machines|3
+!!MG2351|Principles of Management|3
+!!CS2411|Operating Systems|3
+!E2!EI2311|Biomedical Instrumentation|3
+!E2!EE2025|Intelligent  Control|3
+!E2!EE2026|Power System Dynamics|3
+!E2!CS2071|Computer Architecture|3
+!E2!GE2022|Total Quality Management|3
+!P!
+!!EE2404|Power System Simulation Laboratory|2
+!!EE2405|Comprehension|1
+
+
+!SEM!8
+!T!
+!!EE2451|Electric Energy Generation, Utilization and Conservation|3
+!E3!EE2028|Power Quality|3
+!E3!EE2029|System Identification and Adaptive Control|3
+!E3!EE2030|Operations Research|3
+!E3!EI2403|VLSI Design|3
+!E3!EE2032|High Voltage Direct Current Transmission|3
+!E4!GE2023|Fundamental of NanoScience|3
+!E4!EE2033|Micro Electro Mechanical Systems|3
+!E4!EE2034|Software for Circuit Simulation|3
+!E4!EE2035|Computer Aided Design of Electrical Apparatus|3
+!E4!EE2036|Flexible AC Transmission Systems|3
+!P!
+!!EE2452|Project work - EEE|6
+
+

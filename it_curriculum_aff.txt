@@ -1,0 +1,130 @@
+!Degree!Bachelor of Technology
+!University!Anna University - Affliated Colleges
+!Branch!Information Technology
+
+!SEM!1
+!T!
+!!HS2111|Technical English I|4
+!!MA2111|Mathematics I|4
+!!PH2111|Engineering Physics - I|3
+!!CY2111|Engineering Chemistry - I|3
+!!GE2112|Fundamentals of Computing and  Programming|3
+!!GE2111|Engineering Graphics|4
+!P!
+!!PhCy1|Physics & Chemistry Laboratory - I|3
+!!GE2115|Computer Practice Laboratory|2
+!!GE2116|Engineering Practices Laboratory|2
+
+!SEM!2
+!T!
+!!HS2161|Technical English II|4
+!!MA2161|Mathematics II|4
+!!PH2161|Engineering Physics - II|3
+!!CY2161|Engineering Chemistry - II|3
+!!EC2151|Electric Circuits and Electron Devices|4
+!!GE2151|Basic Civil and Mechanical Engineering|4
+!P!
+!!EC2155|Circuits and Devices Laboratory|2
+!!GE2155|Computer Practice Laboratory-II|2
+!!GS2165|Physics & Chemistry Laboratory - II|2
+
+
+!SEM!3
+!T!
+MA 2211 Transforms and Partial Differential Equations 3 1 0 4
+CS 2203 Object Oriented Programming 3 0 0 3
+CS 2202 Digital Principles and Systems Design 3 1 0 4
+IT  2201 Data Structures and Algorithms 3 0 0 3
+IT 2202 Principles of Communication 3 1 0 4
+GE 2021 Environmental Science & Engineering 3 0 0 3
+!P!
+CS 2207 Digital Lab 0 0 3 2
+IT  2205 Data Structures and Algorithms Lab 0 0 3 2
+CS 2209 Object Oriented Programming Lab 0 0 3 2
+
+!SEM!4
+!T!
+MA 2262 Probability and Queueing Theory 3 1 0 4
+CS 2255 Database Management Systems 3 0 0 3
+CS2252 Microprocessors and Microcontrollers 3 0 0 3
+CS 2253 Computer Organization and Architecture 3 0 0 3
+CS 2254 Operating Systems 3 0 0 3
+IT  2251 Software Engineering and Quality Assurance 3 0 0 3
+!P!
+CS 2258 Database Management Systems Lab 0 0 3 2
+CS 2257 Operating System Lab 0 0 3 2
+CS 2259 Microprocessors Lab 0 0 3 2
+
+!SEM!5
+!T!
+IT2301 Java Programming 3 0 0 3
+MG2452 Engineering Economics & Financial Accounting 3 0 0 3
+CS2304 System Software 3 1 0 4
+CS2302 Computer Networks 3 0 0 3
+CS2403 Digital Signal Processing 3 0 0 3
+IT2302 Information Theory and Coding 3 0 0 3
+!P!
+CS2308 System Software Lab 0 0 3 2
+IT2305 Java Programming Lab 0 0 3 2
+GE2321 Communication Skills Lab 0 0 4 2
+
+!SEM!6
+!T!
+IT2351 Network Programming and Management 3 0 0 3
+CS2353 Object Oriented Analysis and Design 3 0 0 3
+IT2352 Cryptography and Network Security 3 0 0 3
+IT2353 Web Technology 3 0 0 3
+IT2354 Embedded Systems 3 0 0 3
+!E1!MA2264 Numerical Methods 3 1 0 4
+!E1!MA2265 Discrete Mathematics 3 1 0 4
+!E1!IT2021 Business Process Model 3 0 0 3
+!E1!IT2022 Software Requirement Engineering 3 0 0 3
+!E1!IT2023 Digital Image Processing 3 0 0 3
+!E1!IT2024 User Interface Design 3 0 0 3
+!E1!CS2022 Visual Programming  3 0 0 3
+!E1!CS2032 Data Warehousing and Data Mining 3 0 0 3
+!P!
+IT2357 Web Technology Lab 0 0 3 2
+CS2357 Object Oriented Analysis and Design Lab 0 0 3 2
+CS2307 Network Lab 0 0 3 2
+
+!SEM!7
+!T!
+IT2401 Service Oriented Architecture 3 0 0 3
+IT2402 Mobile Communication 3 0 0 3
+CS2401 Computer Graphics 3 0 0 3
+IT2403 Software Project Management 3 0 0 3
+!E2!CS2303 Theory of Computation 3 1 0 4
+!E2!CS2029 Advanced Database Technology 3 0 0 3
+!E2!IT2031 Electronic Commerce 3 0 0 3
+!E2!IT2032 Software Testing 3 0 0 3
+!E2!IT2033 Bioinformatics 3 0 0 3
+!E2!IT2034 Adhoc Sensor Network 3 0 0 3
+!E3!CS2351 Artificial Intelligence 3 0 0 3
+!E3!IT2041 Enterprise Resource Planning 3 0 0 3
+!E3!IT2042 Information Security 3 0 0 3
+!E3!IT2043 Knowledge Management 3 0 0 3
+!E3!CS2063 Grid computing 3 0 0 3
+!E3!CS2041 C# and .NET Framework 3 0 0 3
+!P!
+IT2406 Service Oriented Architecture Lab 0 0 3 2
+CS2405 Computer Graphics Lab 0 0 3 2
+
+!SEM!8
+!T!
+!E4!IT2050 Principles of Compiler Design 3 0 0 3
+!E4!IT2051 Knowledge Engineering 3 0 0 3
+!E4!GE2025 Professional Ethics in Engineering 3 0 0 3
+!E4!GE2071 Intellectual Property Rights 3 0 0 3
+!E4!IT2052 Management Information System 3 0 0 3
+!E4!IT2053 Software Design 3 0 0 3
+!E4!CS2053 Soft Computing 3 0 0 3
+!E5!GE2022 Total Quality Management 3 0 0 3
+!E5!GE2072 Indian Constitution and Society 3 0 0 3
+!E5!IT2061 System Modeling and Simulation 3 0 0 3
+!E5!CS2035 Natural Language Processing 3 0 0 3
+!E5!CS2056 Distributed Systems 3 0 0 3
+!E5!GE2023   Fundamental of Nano Science 3 0 0 3
+!E5!IT2064 Speech  Processing 3 0 0 3
+!P!
+IT2451 Project Work - IT 0 0 1 6
