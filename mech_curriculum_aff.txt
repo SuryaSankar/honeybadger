@@ -30,8 +30,8 @@
 
 !SEM!3
 !T!
-MA 2211 Transforms and Partial Differential Equation      3 1 0 4
-ME 2201 Manufacturing Technology – I 3 0 0 3
+MA 2211 Transforms and Partial Differential Equations  3 1 0 4
+ME 2201 Manufacturing Technology–I 3 0 0 3
 ME 2202 Engineering Thermodynamics 3 1 0 4
 ME 2203 Kinematics of Machinery   3 1 0 4
 ME 2204 Fluid Mechanics and Machinery 3 1 0 4
@@ -45,7 +45,7 @@ ME 2209 Electrical Engineering Laboratory 0 0 3 2
 !T!
 MA 2266 Statistics and Numerical Methods 3 1 0 4
 ME 2251 Heat and Mass Transfer 3 1 0 4
-ME 2252 Manufacturing Technology – II 3 0 0 3
+ME 2252 Manufacturing Technology–II 3 0 0 3
 ME 2253 Engineering Materials and Metallurgy 3 0 0 3
 ME 2254 Strength of Materials 3 1 0 4
 ME 2255 Electronics and Microprocessors 3 0 0 3
@@ -63,9 +63,9 @@ ME 2303 Design of Machine Elements 3 1 0 4
 ME 2304 Engineering Metrology & Measurements 3 0 0 3
 ME 2305 Applied Hydraulics & Pneumatics 3 0 0 3
 !P!
-ME 2306 Thermal Engineering Lab – I 0 0 3 2
+ME 2306 Thermal Engineering Laboratory–I 0 0 3 2
 ME 2307 Dynamics Lab 0 0 3 2
-ME 2308 Metrology & Measurements Lab 0 0 3 2
+ME 2308 Metrology and Measurements Laboratory 0 0 3 2
 ME 2309 CAD / CAM Lab 0 0 3 2
 
 !SEM!6
@@ -77,13 +77,13 @@ ME 2354 Automobile Engineering 3 0 0 3
 ME 2353 Finite Element Analysis 3 1 0 4
 !E1!MG 2021 Marketing Management 3 0 0 3
 !E1!ME 2021 Quality Control & Reliability Engineering 3 0 0 3
-!E1!ME 2022 Refrigeration & Air conditioning 3 0 0 3
+!E1!ME 2022 Refrigeration and Air-conditioning 3 0 0 3
 !E1!ME 2023 Renewable Sources of Energy 3 0 0 3
 !E1!ME 2024 Industrial Tribology 3 0 0 3
 !E1!ME 2025 Vibration & Noise Control 3 0 0 3
 !E1!ME 2026 Unconventional Machining Processes 3 0 0 3
 !P!
-ME 2355 Thermal Engineering Lab – II 0 0 3 2
+ME 2355 Thermal Engineering Laboratory - II 0 0 3 2
 ME 2356 Design & Fabrication Project 0 0 4 2
 GE 2321 Communication Skills Lab 0 0 4 2
 
@@ -102,7 +102,7 @@ ME 2403 Power Plant Engineering 3 0 0 3
 !E3!ME 2034 Nuclear Engineering 3 0 0 3
 !P!
 ME 2404 Computer Aided Simulation & Analysis Laboratory 0 0 3 2
-ME 2405 Mechatronics Lab 0 0 3 2
+ME 2405 Mechatronics Laboratory 0 0 3 2
 
 
 !SEM!8
@@ -119,4 +119,4 @@ MG 2451 Engineering Economics and Cost Analysis 3 0 0 3
 !E5!ME 2042 Design of Heat Exchangers 3 0 0 3
 !P!
 ME 2452 Comprehension 0 0 2 1
-ME 2453 Project Work - Mechanical Engineering 0 0 1 6
+ME 2453 Project Work 0 0 1 6

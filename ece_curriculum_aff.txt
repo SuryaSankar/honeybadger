@@ -88,7 +88,7 @@
 !SEM!7
 !T!
 !!EC2401|Wireless Communication|3
-!!EC2402|Optical Communication and Networks|3
+!!EC2402|Optical Communication and Networking|3
 !!EC2403|RF and Microwave Engineering|3
 !E2!EC2030|Advanced Digital Signal Processing|3
 !E2!GE2022|Total Quality Management|3
@@ -101,7 +101,7 @@
 !E3!CS2060|High Speed Networks|3
 !E3!CS2053|Soft Computing|3
 !E3!EC2037|Multimedia Compression and Communication|3
-!E3!EC2039|Parallel and Distributed Processing|3
+!E3!EC2039|Parallel and Distributed processing|3
 !E4!EC2029|Digital Image Processing|3
 !E4!EC2031|Electromagnetic Interference and Compatibility|3
 !E4!EC2033|Power Electronics|3
@@ -114,19 +114,19 @@
 
 !SEM!8
 !T!
-!E5!EC2042|Embedded and Real Time Systems|3
+!E5!EC2042|Embedded and Real-Time Systems|3
 !E5!EC2046|Advanced Electronic system design|3
 !E5!EC2047|Optoelectronic devices|3
 !E5!EC2050|Mobile Adhoc Networks|3
 !E5!EC2051|Wireless Sensor Networks|3
 !E5!EC2052|Remote Sensing|3
 !E5!EC2053|Engineering Acoustics|3
-!E6!EC2043|Wireless networks|3
+!E6!EC2043|Wireless Networks|3
 !E6!EC2044|Telecommunication Switching and Networks|3
 !E6!EC2045|Satellite Communication|3
 !E6!EC2048|Telecommunication System Modeling and Simulation|3
 !E6!EC2049|Radar and Navigational Aids|3
 !E6!EC2054|Optical Networks|3
 !P!
-!!EC2451|Project work - ECE|6
+!!EC2451|Project work|6
 

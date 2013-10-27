@@ -36,7 +36,7 @@ AG 2211 Applied Geology 3 0 0 3
 CE 2201 Mechanics of Solids 3 1 0 4
 CE 2202 Mechanics of Fluids 3 1 0 4
 CE 2203 Construction Techniques, Equipment and Practice 4 0 0 4
-CE 2204 Surveying– I 3 0 0 3
+CE 2204 Surveying – I 3 0 0 3
 !P!
 CE 2207 Survey Practical – I 0 0 4 2
 CE 2208 Computer Aided Building Drawing 0 0 4 2
@@ -50,20 +50,20 @@ CE 2253 Applied Hydraulic Engineering 3 1 0 4
 CE 2254 Surveying – II 3 0 0 3
 CE 2255 Highway Engineering 3 0 0 3
 !P!
-CE 2257 Strength of Materials Lab 0 0 3 2
+CE 2257 Strength of Materials Laboratory 0 0 3 2
 CE 2258 Hydraulic Engineering Laboratory 0 0 3 2
 CE 2259 Survey Practical – II 0 0 4 2
 
 !SEM!5
 !T!
 CE2301 Irrigation Engineering 3 0 0 3
-CE2302 Structural Analysis I 3 1 0 4
+CE2302 Structural Analysis – I 3 1 0 4
 CE2303 Railways, Airports and Harbour Engineering 4 0 0 4
 CE2304 Environmental Engineering I 3 0 0 3
 CE2305 Foundation Engineering 3 0 0 3
 CE2306 Design of RC Elements 3 1 0 4
 !P!
-GE2321 Communication Skills Laboratory** 0 0 4 2
+GE2321 Communication Skills Laboratory 0 0 4 2
 CE2307 Concrete and Highway Engineering Lab 0 0 3 2
 CE2308 Soil Mechanics Laboratory 0 0 3 2
 
@@ -122,7 +122,7 @@ CE2451 Engineering Economics and Cost Analysis 3 0 0 3
 !E4!CE2042 Storage Structures 3 0 0 3
 !E4!CE2043 Design of Plate and Shell Structures 3 0 0 3
 !E4!CE2044 Tall Buildings 3 0 0 3
-!E4!CE2045 Prefabricated structures 3 0 0 3
+!E4!CE2045 Prefabricated Structures 3 0 0 3
 !E4!CE2046 Wind Engineering 3 0 0 3
 !E5!CE2047 Computer Aided Design of Structures 3 0 0 3
 !E5!CE2048 Industrial Structures 3 0 0 3
@@ -130,6 +130,6 @@ CE2451 Engineering Economics and Cost Analysis 3 0 0 3
 !E5!CE2050 Finite Element Techniques 3 0 0 3
 !E5!CE2071 Repair and Rehabilitation of Structures 3 0 0 3
 !P!
-CE2453 Project Work - Civil 0 0 1 6
+CE2453 Project work 0 0 1 6
 
 

@@ -52,7 +52,7 @@ CS 2254 Operating Systems 3 0 0 3
 IT  2251 Software Engineering and Quality Assurance 3 0 0 3
 !P!
 CS 2258 Database Management Systems Lab 0 0 3 2
-CS 2257 Operating System Lab 0 0 3 2
+CS 2257 Operating Systems Lab 0 0 3 2
 CS 2259 Microprocessors Lab 0 0 3 2
 
 !SEM!5
@@ -70,10 +70,10 @@ GE2321 Communication Skills Lab 0 0 4 2
 
 !SEM!6
 !T!
-IT2351 Network Programming and Management 3 0 0 3
+IT2351 Network Programming & Management 3 0 0 3
 CS2353 Object Oriented Analysis and Design 3 0 0 3
 IT2352 Cryptography and Network Security 3 0 0 3
-IT2353 Web Technology 3 0 0 3
+IT2353 Web technology 3 0 0 3
 IT2354 Embedded Systems 3 0 0 3
 !E1!MA2264 Numerical Methods 3 1 0 4
 !E1!MA2265 Discrete Mathematics 3 1 0 4
@@ -84,7 +84,7 @@ IT2354 Embedded Systems 3 0 0 3
 !E1!CS2022 Visual Programming  3 0 0 3
 !E1!CS2032 Data Warehousing and Data Mining 3 0 0 3
 !P!
-IT2357 Web Technology Lab 0 0 3 2
+IT2357 Web Technology Laboratory 0 0 3 2
 CS2357 Object Oriented Analysis and Design Lab 0 0 3 2
 CS2307 Network Lab 0 0 3 2
 
@@ -127,4 +127,4 @@ CS2405 Computer Graphics Lab 0 0 3 2
 !E5!GE2023   Fundamental of Nano Science 3 0 0 3
 !E5!IT2064 Speech  Processing 3 0 0 3
 !P!
-IT2451 Project Work - IT 0 0 1 6
+IT2451 Project Work 0 0 1 6

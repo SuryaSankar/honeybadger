@@ -39,20 +39,20 @@ GE 2021 Environmental Science and Engineering 3 0 0 3
 !P!
 CS 2207 Digital Lab 0 0 3 2
 CS 2208 Data Structures Lab 0 0 3 2
-CS 2209 Object Oriented Programming Lab 0 0 3 2
+CS 2209 Object Oriented Programming Laboratory 0 0 3 2
 
 !SEM!4
 !T!
 MA 2262 Probability and Queueing Theory 3 1 0 4
 CS 2251 Design and Analysis of Algorithms 3 1 0 4
-CS 2252 Microprocessors and Microcontrollers 3 0 0 3
+CS 2252 Microprocessors and Micro Controllers 3 0 0 3
 CS 2253 Computer Organization and Architecture 3 0 0 3
 CS 2254 Operating Systems 3 0 0 3
 CS 2255 Database Management Systems 3 0 0 3
 !P!
 CS 2257 Operating Systems Lab 0 0 3 2
 CS 2258 Data Base Management Systems Lab 0 0 3 2
-CS 2259 Microprocessors Lab 0 0 3 2
+CS 2259 Microprocessors Laboratory 0 0 3 2
 
 !SEM!5
 !T!
@@ -78,7 +78,7 @@ CS2354 Advanced Computer Architecture 3 0 0 3
 !E1!CS2023 Advanced JAVA Programming 3 0 0 3
 !E1!CS2024 Parallel Programming 3 0 0 3
 !E1!IT2353 Web Technology 3 0 0 3
-!E2!CS2028 UNIX Internals 3 0 0 3
+!E2!CS2028 Unix Internals 3 0 0 3
 !E2!MA2264 Numerical Methods 3 1 0 4
 !E2!IT2354 Embedded Systems 3 0 0 3
 !E2!CS2029 Advanced Database Technology 3 0 0 3
@@ -136,5 +136,5 @@ CS2406 Open Source Lab 0 0 3 2
 !E6!IT2033 Bio Informatics 3 0 0 3
 !E6!IT2064 Speech Processing 3 0 0 3
 !P!
-CS2451 Project Work - CSE 0 0 1 6
+CS2451 Project Work 0 0 1 6
 

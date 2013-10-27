@@ -191,7 +191,7 @@ namespace :karpeer_admin do
 			code = $~[:course_code]
 			existing_univ_course = UniversityCourse.find_by(university_id: univ.id, course_code: code)
 			if existing_univ_course == nil then
-				course_name = $~[:course_name]
+				course_name = $~[:course_name].strip
 				cred = $~[:credits].to_i
 				course_branch_abbr = /(?<abbr>[[:alpha:]]+)\s*\d+/.match(code)[:abbr]
 				course_branch_name = branches.has_key?(course_branch_abbr) ? branches[course_branch_abbr] : course_branch_abbr
@@ -211,7 +211,7 @@ namespace :karpeer_admin do
 			elec_no = $~[:elective_no]
 			existing_univ_course = UniversityCourse.find_by(university_id: univ.id, course_code: code)
 			if existing_univ_course == nil then
-				course_name = $~[:course_name]
+				course_name = $~[:course_name].strip
 				cred = $~[:credits].to_i
 				course_branch_abbr = /(?<abbr>[[:alpha:]]+)\d+/.match(code)[:abbr]
 				course_branch_name = branches.has_key?(course_branch_abbr) ? branches[course_branch_abbr] : course_branch_abbr
@@ -229,12 +229,12 @@ namespace :karpeer_admin do
 
 		when /!E(?<elective_no>\d)!(?<course_abbr>\D{2})\s*(?<code>\d{4})\s*(?<course_name>.*)\s*(\d{1}\s*){3}(?<credits>\d)/
 			puts "Inside elective"	
-			course_abbr=$~[:course_abbr]
-			code=course_abbr+$~[:code]
+			course_abbr=$~[:course_abbr].strip
+			code=course_abbr+$~[:code].strip
 			elec_no = $~[:elective_no]
 			existing_univ_course = UniversityCourse.find_by(university_id: univ.id, course_code: code)
 			if existing_univ_course == nil then
-				course_name = $~[:course_name]
+				course_name = $~[:course_name].strip
 				cred = $~[:credits].to_i
 				course_branch_abbr = /(?<abbr>[[:alpha:]]+)\d+/.match(code)[:abbr]
 				course_branch_name = branches.has_key?(course_abbr) ? branches[course_abbr] : course_abbr
@@ -252,10 +252,10 @@ namespace :karpeer_admin do
 
 		when /(?<course_abbr>\D{2})\s*(?<code>\d{4})\s*(?<course_name>.*)\s*(\d{1}\s*){3}(?<credits>\d)/
 			puts "Inside normal"	
-			course_abbr=$~[:course_abbr]
-			code=course_abbr+$~[:code]
+			course_abbr=$~[:course_abbr].strip
+			code=course_abbr+$~[:code].strip
 			if existing_univ_course == nil then
-				course_name = $~[:course_name]
+				course_name = $~[:course_name].strip
 				cred = $~[:credits].to_i
 				course_branch_name = branches.has_key?(course_abbr) ? branches[course_abbr] : course_abbr
 				course_branch = Branch.where(name: course_branch_name).first_or_create

@@ -44,7 +44,7 @@
 !SEM!4
 !T!
 !!MA2264|Numerical Methods|4
-!!EE2251|Electrical Machines – I|4
+!!EE2251|Electrical Machines I|4
 !!EE2252|Power Plant Engineering|4
 !!EE2253 Control Systems||4
 !!EE2254|Linear  Integrated Circuits and  Applications|3
@@ -52,7 +52,7 @@
 !P!
 !!EE2257|Control Systems Laboratory|2
 !!EE2258|Linear and Digital Integrated Circuits Laboratory|2
-!!EE2259|Electrical Machines Laboratory – I|2
+!!EE2259|Electrical Machines Laboratory I|2
 
 !SEM!5
 !T!
@@ -60,8 +60,8 @@
 !!EC2314|Digital Signal Processing|4
 !!CS2311|Object Oriented Programming|3
 !!EE2301|Power Electronics|3
-!!EE2302|Electrical Machines - II|4
-!!EE2303|Transmission & Distribution|4
+!!EE2302|Electrical Machines II|4
+!!EE2303|Transmission and Distribution|4
 !P!
 !!EE2305|Electrical Machines Laboratory II|2
 !!EE2304|Power Electronics Laboratory|2
