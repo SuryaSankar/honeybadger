@@ -1,0 +1,238 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CY2111
+!Year! 2010
+!Month! Jan
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Calculate the hardness of a water sample containing 2.4 mg of calcium chloride in 500 ml of water? (2)
+2. What is Calgon?how does it function in water treatment? (2)
+3. Why thermosetting plastics can not be remoulded?. (2)
+4. What is the role of Sulphur in the vulcanization of rubber? (2)
+5. Compare absorption and adsorption. (2)
+6. Mention any four applications of adsorption. (2)
+7. Furnish the sequence of reactions in proton cycle nuclear fusion. (2)
+8. Give any two advantages of alkaline battery over dry cell. (2)
+9. Define refractoriness of a refractory. (2)
+10. What are nano materials? Mention any two of their characteristic properties. (2)
+11.
+(a)
+(i) How is temporary hardness of water estimated by EDTA method? (8)
+(ii) What are the requirements of potable water? How will you purify water for drinking purpose?. (8)
+(b)
+(i) What are ion exchange resins? How are they useful in removing hardness of water? (8)
+(ii) What is desalination? With a neat diagram, describe the 'reverse osmosis' method for the desalination of brackish water. (8)
+12.
+(a)
+(i) How are the following polymers prepared? 1. Teflon 2. Polystyrene 3. PET 4. Nylon 6, 6 (8)
+(ii) Explain the mechanism of free radical addition polymerization. (8)
+(b)
+(i) What is natural rubber? Explain why natural rubber needs vulcanization. How is  it carried out?  (8)
+(ii) What are composites? Give the preparation and uses of glass fiber reinforced composites and carbon fiber reinforced composites. (8)
+13.
+(a)
+(i) Compare physisorption and chemisorption. (8)
+(ii) Adsorption of gases on solids is greatly influenced by temperature,pressure and nature of the adsorbent and adsorbate.justify. (8)
+(b)
+(i) Describe the role of adsorbents in catalysis with examples. (8)
+(ii) How is ion exchange adsorption useful in demineralization of water? Explain (8)
+14.
+(a)
+(i) Explain with a neat diagram the parts and functions of a nuclear reactor. (8)
+(ii) Write a note on photovoltaic cell. (8)
+(b)
+(i) Explain the working of hydrogen oxygen fuel cell. (8)
+(ii) Write a short note on lithium batteries. (8)
+15.
+(a)
+(i) How are alumina and carborundum manufactured? (8)
+(ii) What are refractories? How are they classified?  (8)
+(b)
+(i) What are fluid and boundary lubrication? Explain. (8)
+(ii) What are carbon nano tubes? Explain any three of their important applications? (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CY2111
+!Year! 2009
+!Month! Jan
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is hardness of a solution containing 0.585 grams of NaC1 and 0.6 grams of MgSO4 per litre? (2)
+2. How is the exhausted zeolite softener bed regenerated? (2)
+3. Explain functionality of a monomer with a suitable example. (2)
+4. Explain condensation polymerization with a suitable example. (2)
+5. What is the role of absorband in catalysis? (2)
+6. What is the effect of increase in temperature and increase in pressure on the absorption of a gas on a solid? (2)
+7. What is breeder reactor? (2)
+8. State the reaction when a lead storage battery is recharged? (2)
+9. Give two examples for neutral refractory. (2)
+10. Explain the lubrication action of graphite. (2)
+11. 
+(a) 
+(i) Explain the softening of water by deionization process.(8)
+(ii) Howis the temporary and permanent hardness of water determined? (8)
+OR
+(b) (i) What is meant by reverse osmosis? Explain the purification of water by reverse osmosis. (8)
+(ii) Explain the softening of water by zeolite process (8)
+12.
+(a)
+(i) Write the mechanism of free radical polymerization. (8) 
+(ii) Discuss the synthesis and uses of SBR and Butyl rubbers. (8)
+OR
+(b)
+(i) Give an account on fibre reinforced platics. (8)
+(ii) Describe the synthesis of polyurethane and state its uses. (8)
+13.
+(a) 
+(i) Derive the Langmuir Adsorption Isothern and interpret the results 1) at Low pressure and (2) at High pressure. (8)
+(ii) Distinguish between Physisorption and Chemisorption (8)
+OR
+(b)
+(a) 
+(i) State Friendlich adsorption isotherm and explain the terms in it. Explain the different types of  adsorption isotherms of gases on solid.(8)
+(ii) Discuss the role of adsorbands in pollution abatement. (8)
+14.
+(a)
+(i) Give an account of H2 = O2 fuel cell. (8)
+(ii) Explain the construction and working of Cd-Ni cell. (8)
+OR
+(b) 
+(i) Describe using a block diagram the light water nuclear reactor for power generation. (8)
+(ii) Give an account of solar cells. (8)
+15. 
+(a) 
+(i) What are the characteristics of a good refractory? Write a note on carborundum. (8)
+(ii) What are lubricants? Discuss the different types of lubrication. (8)
+OR
+(b) Write short notes on any TWO of the following: i) Carbon nanotubes. ii) Refractoriness.iii) Synthetic abrasives (16)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CY2111
+!Year! 2009
+!Month! May/Jun
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. How is the hardness of water expressed? (2)
+2. What are the disadvantages of scale formation?  (2)
+3. How is polymerization classified? Give one example for each class. (2)
+4. Write any two uses of PVC. (2)
+5. Define the terms adsorbent and adsorbate giving suitable examples. (2)
+6. What is an adsorption isotherm? (2)
+7. What is nuclear energy? Explain using a suitable example. (2)
+8. List any two advantages of lithium batteries. (2)
+9. Mention any four natural abrasives. (2)
+10. How are lubricants classified? Give one example for each class. (2)
+11.
+(a)
+(i) Describe briefly the various methods of internal conditioning of boiler feed water. (10)
+(ii) 100 ml of a water sample required 20 ml of 0.01 M EDTA for the titration with Eriochrome Black-T indicator. 100ml of the same water sample after boiling and filtering required 10 ml of 0.01 M EDTA. Calculate the total, carbonate and non carbonate hardness of the sample. (6)
+(b)
+(i) Explain the necessity for sterilization of domestic water and discuss the various methods of  sterilization. Discuss in detail about the break point chlorination. (10)
+(ii) Describe the reverse osmosis method for desalination of sea water with a neat sketch. (6)
+12.
+(a)
+(i) Write the preparation properties and uses of PET and polyurethane. (8)
+(ii) Write a note on FRP. (8)
+Or
+(b)
+(i) Distinguish between addition and condensation polymerization. (8)
+(ii) Write the mechanism of free radical polymerization. (8)
+13.
+(a)
+(i) What are the factors that influence the adsorption of gases on solids? Discuss in detail. (8)
+(ii) Explain the role of adsorption in catalysis using an appropriate example. (8)
+Or
+(b)
+(i) Derive the Langmuir’s adsorption isotherm and discuss the effect of pressure on the isotherm. (12)
+(ii) Illustrate how the ion exchange adsorption is useful in the demineralization of water (only the process without diagram). (4)
+14.
+(a)
+(i) What are the components of a nuclear reactor? Write briefly about each component. (10)
+(ii) Discuss the characteristics of the reaction when uranium undergoes nuclear fission. (6)
+(b)
+(i) Describe the principle and functioning (charging and discharging) of lead acid battery. (10)
+(ii) Write a note on wind energy. (6)
+15.
+(a)
+(i) Give a brief account of neutral refractories. (6)
+(ii) What are grinding wheels? How are they manufactured? (10)
+Or
+(b)
+(i) Discuss the following property of lubricants - Flash point (5)
+(ii) Discuss the following property of lubricants - Pour point (5)
+(iii) Explain the properties and applications of carbon nanotubes. (6)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CY2111
+!Year! 2010
+!Month! Nov/Dec
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define alkalinity. List the different types of alkalinity. (2)
+2. What is calgon conditioning? (2)
+3. Differentiate between addition and condensation polymerization techniques. (2)
+4. What are FRPs? Name any two important FRPs. (2)
+5. What are the different types of adsorption? (2)
+6. What do you understand by `purification by absorption? (2)
+7. What are non-conventional energy sources? Give two examples. (2)
+8. Write the chemical reactions taking place at cathode and anode in a hydrogenoxygen fuel cell. (2)
+9. How is unsatisfactoriness under load measured? (2)
+10. Define flash and fire points of a lubricant. (2)
+11.
+(a)
+(i) Explain the steps involved in domestic water treatment. (8)
+(ii) Define hardness. Classify the types of harnesses. How are they estimated? (8)
+OR
+(b) 
+(i) Discuss in detail the disadvantages, which are caused by the use of hard water in boilers with special reference to foaming, corrosion, scale and sludge formation and caustic embrittlement. (10)
+(ii) Discuss in detail desalination of water by reverse osmosis. List its advantages and limitations. (6)
+12. 
+(i) How are the following polymers prepared? 1. Teflon 2. Polystyrene 3. PET 4. Nylon 6, 6 (8)
+(ii) Explain the mechanism of free radical addition polymerization. (8)
+OR
+(b)
+(i) What is vulcanization of rubber? List out the changes caused due to the vulcanization of rubber. (8)
+(ii) What are synthetic rubbers? How is butyl rubber prepared? (8)
+13.
+(a)
+(i) Explain the effect of pressure on adsorption. (8)
+(ii) Explain the assumptions of Langmuir's adsorption theory. (8)
+13.
+(b)
+(i) It is stated that `Solid surfaces can adsorb dissolved solutes from solutions' { Give an example of such a case. What are the commonly encountered adsorption isotherms applicable for adsorption of solutes from solutions? Explain the effect of concentration of solute in the solution. (8)
+(ii) Discuss the role of adsorption in catalysis. (8)
+14.
+(a)
+(i) What is nuclear discussion? Explain the nuclear fission of 235U as a source of energy. (8)
+(ii) Explain the principle of operation of solar cells. (8)
+OR
+(b)
+(i) Outline the construction and working of a lead-acid battery. (8)
+(ii) Explain the Construction of a nickel-cadmium cell and give its cell reaction. (8)
+15.
+(a)
+(i) Explain any five properties of refractories? (10)
+(ii) What are abrasives? How are they classified? Give one example for each. (6)
+(b)
+(i) Give the structures of graphite and molybdenum disulphide. How do they function as lubricants? (8)
+(ii) Write a note on the applications of carbon nano tubes. (8)
+!END_QPAPER!
