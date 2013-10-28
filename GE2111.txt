@@ -1,0 +1,84 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! GE2111
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. 
+(a) Construct an ellipse when the distance of its focus from its directrix is equal to 50 mm and the eccentricity is 2/3. Also draw a tangent and a normal to the ellipse. (20)
+(b) Make free hand sketches of the front, top and left side view of the object shown in Figure. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/GE2111/image.TXO74W.png) (20)
+2.
+(a) A Line AB has its end A 15 mm above H.P and 20 mm in front of V.P. The end B is 60 mm above H.P. and the line is inclined at 30° to H.P. The distance between the end projectors of the line is 55 mm. Draw the projections and find its inclination with V.P. (20)
+Or
+(b) A regular hexagonal lamina of 40 mm side is resting on one of its corner on H.P. Its surface is inclined at 45° to H.P. The plan of the diagonal through the corner which is on H.P. makes an angle of 45° with XY. Draw its projections. (20)
+3. (a) A hexagonal prism of side of base 25 mm and axis 60 mm rests on a corner of its base in H.P. with the axis of the prism inclined at 40° to H.P. and parallel to V.P. Draw its projections. (20)
+Or
+(b) A pentagonal pyramid of base edge 25 mm and axis length 60 mm rests on one base side on HP such that the highest base corner is 20 mm above HP. Its axis is parallel to VP. Draw its top and front views. (20)
+4. (a) A tetrahedron of 60 mm long edges rests with one of its face on H.P. and an edge is perpendicular to V.P. A section plane perpendicular to V.P cuts the tetrahedron such that the true shape of section is an isosceles triangle of base 50 mm and altitude 36 mm. Draw the front view, sectional top view and the true shape of the section. Also find the inclination of the section plane. (20)
+Or
+(b) A vertical cylinder of diameter 50 mm and height 80 mm is drilled by a hole of diameter 30 mm such that the axis of the hole is perpendicular toV.P. and parallel to H.P. Draw the lateral surface development of the solid. (20)
+5. (a) A hexagonal prism of base edge, 20 mm and height 60 mm rests on the H.P. on its base with two of its rectangular faces parallel to V.P. It is cut by a plane inclined at 30° to H.P cutting the axis of the prism at a height of 45 mm from its base. Draw the isometric view of the truncated prism. (20)
+(b) A square prism of 55 mm edge of base and 70 mm height is placed on the ground behind the PP with its axis vertical and one of the edges of the base receding to the left at an angle of 40° to the PP. The nearest vertical edge of the solid is 20 mm behind PP and 25 mm to the left of the observer who is at a distance of 120 mm in front of PP. The height of the observer above the ground is 100 mm. Draw the perspective view of the prism. (20)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! GE2111
+!Year! 2009
+!Month! May/Jun
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1.
+(a) Draw the involute of a circle of diameter 40 mm and draw the tangent and the normal to the involute at any point on the curve. (20)
+(b) Draw the front, top and right side views of the object shown in below. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/GE2111/mayjun09/image.TC0A5W.png) (20)
+2.
+(a) A line PF, 65 mm has its end P, 15 mm above the HP and 15 mm in front of the VP. It is inclined at 55° to the HP and 35° to the VP. Draw its projections. (20)
+(b) A pentagon of side 30 mm rests on the ground on one of its corners with the sides containing the corner being equally inclined to the ground. The side opposite to the corner on which it rests is inclined at 30° to the VP and is parallel to the HP. The surface of the pentagon makes 50° with the ground. Draw the top and front views of the pentagon. (20)
+3.
+(a) A tetrahedron of edges 30 mm rests on one of its edges on the VP. That edge is normal to the HP. One of the faces containing the resting edge is inclined at 30° to the VP. Draw the projections of the tetrahedron. (20)
+Or
+(b) A cone of base diameter 60 mm and altitude 80 mm rests on the HP with its axis inclined at 30° to the HP and parallel to the VP. Draw its front and top views. (20)
+4.
+(a) A cube of side 40 mm is placed and cut by a plane in such a way that the true shape of the section is a regular hexagon. Draw the front and top views of the cube and determine the inclination of the cutting plane with the HP. (20)
+Or
+(b) A cylinder of diameter 40 mm and height 50 mm is resting vertically on one of its ends on the HP. It is cut by a plane perpendicular to the VP and inclined at 30° to the HP. The plane meets the axis at a point 30 mm from the base. Draw the development of the lateral surface of the lower portion of the truncated cylinder. (20)
+5.
+(a) A hexagonal prism of base side 20 mm and height 40 mm has a square hole of side 16 mm at the centre. The axes of the square and hexagon coincide. One of the faces of the square hole is parallel to the face of the hexagon. Draw the isometric projection of the prism with hole to full scale. (20)
+Or
+(b) A regular hexagonal pyramid of base edge 20 mm and height 35 mm rests on its base on the ground plane with one of its base edges touching the picture plane. The station point is 30 mm above the ground plane and 40 mm in front of the PP. The central plane is 30 mm to the right of the axis. Draw the perspective projection of the pyramid. (20)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! GE2111
+!Year! 2010
+!Month! Jan
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1.
+(a) The focus of a conic is 50 mm from the directrix. Draw the locus of a point `P' moving in such a way that its distance from the directrix is equal to its distance from the focus. Name the curve. Draw a tangent to the curve at a point 60 mm from the directrix. (20)
+(b) Make free hand sketches of the front, top and left side view of the object shown in Figure. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/GE2111/mayjun09/image.TC0A5W.png) (20)
+2. 
+(a) The projections of a line measures 80 mm in the top view and 70 mm in the front view. The mid point of the line is 45 mm in front of VP and 35 mm above HP. One end is 10 mm in front of VP and nearer to it. The other end is nearer to HP. Draw the projections of the line. Find the true length and true inclinations. (20)
+(b) Draw the projections of a circle of 70 mm diameter resting on the H.P. on a point A of the circumference. The plane is inclined to the H.P. such that the top view of it is an ellipse of minor axis 40 mm. The top view of the diameter, through the point A is making an angle of 45± with the V.P. Determine the inclination of the plane with the H.P. (20)
+3.
+(a) An equilateral triangular prism 20 mm side of base and 50 mm long rests with one of its shorter edges on HP such that the rectangular face containing the edge on which the prism rests is inclined at 30± to H.P. The shorter edge resting on HP is perpendicular to VP. (20)
+(b) Draw the projections of a hexagonal pyramid with side of the base 30 mm and axis 70 mm long, when it is resting with one of the base sides on HP such that the triangular face containing that side is perpendicular to HP and axis is parallel to VP. (20)
+4.
+(a) A vertical cylinder 40 mm diameter is cut by a vertical section plane making 30± to VP in such a way that the true shape of the section is a rectangle of 25 mm and 60 mm sides. Draw the projections and true shape of the section. (20)
+(b) A regular hexagonal pyramid side of base 30 mm and height 60 mm is resting vertically on its base on HP, such that two of its sides of the base are perpendicular to VP. It is cut by a plane inclined at 40± to HP and perpendicular to VP. The cutting plane bisects the axis of the pyramid. Obtain the development of the lateral surface of the truncated pyramid. (20)
+5.
+(a) A cylinder of 50 mm diameter and 75 mm height stands with its base on H.P. It is cut by a section plane inclined at 45± to H.P and perpendicular to V.P, passing through a point on the axis 20 mm below the top end. Draw the isometric projection of the truncated cylinder. (20)
+(b) Draw the perspective projection of a cube of 25 mm edge, lying on a face on the ground plane, with an edge touching the picture plane and all vertical faces equally inclined to the picture plane. The station point is 50 mm in front of the picture plane, 35 mm above the ground plane and lies in a central plane which i s 10 mm to the left of the center of the cube. (20)
+!END_QPAPER!
+
