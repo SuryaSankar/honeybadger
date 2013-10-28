@@ -46,7 +46,7 @@
 !!MA2264|Numerical Methods|4
 !!EE2251|Electrical Machines I|4
 !!EE2252|Power Plant Engineering|4
-!!EE2253 Control Systems||4
+!!EE2253|Control Systems|4
 !!EE2254|Linear  Integrated Circuits and  Applications|3
 !!EE2255|Digital Logic Circuits|4
 !P!

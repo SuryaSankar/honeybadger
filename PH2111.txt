@@ -1,0 +1,324 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! PH2111
+!Year! 2012
+!Month! Jan
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What are direct and inverse piezoelectric effects? (2)
+2. Give the principle used in measurement of velocity of blood flow. (2)
+3. What is meant by population inversion? (2)
+4. Name the properties of laser which are making it suitable for industrial applications. (2)
+5. A fibre cable has an acceptance angle of $30^\circ$ and a core incidence of refraction of 1.4. Calculate the refractive index of the cladding. (2)
+6. What are the main requirements of light sources used in fiber optic communication? (2)
+7. What is Rayleigh-Jean's law of radiation? (2)
+8. For a free particle moving within a 1-dimensional potential box, the ground state energy cannot be zero. Why? (2)
+9. A unit cell has the dimensions $a=b=c=4.74 \overset{\circ}{\mathrm{A}}$ and $\alpha = \beta = \gamma = 60^\circ$. What is its crystal structure? (2)
+10. Defects in crystal are not always harmful. Justify. (2)
+11.
+(a)
+(i) Explain the functions of SONAR (4)
+(ii) What is an acoustic grating? (3)
+(iii) How is an acoustic grating used in determining the velocity of ultra sound? (9)
+(b) Elaborate on the three different ultrasonic NDT scans and their displays which are in common practice. (16)
+12.
+(a)
+(i) Distinguish between spontaneous and stimulated emissions of radiation. (4)
+(ii) Why is population inversion necessary for laser action? (4)
+(iii) What are different pumping mechanisms used in laser? Give an example for each. (8)
+(b)
+(i) Discuss the construction and working of Nd: YAG laser. (8)
+(ii) What are the advantages of Nd: YAG laser? (3)
+(iii) Explain any two industrial applications of lasers. (5)
+13.
+(a)
+(i) Explain total internal reflection with suitable diagrams. (2)
+(ii) Define acceptance angle and numerical aperture (4)
+(iii) Derive the expressions for acceptance angle and numerical aperture (4)
+(iv) How are optical fibers classified based on modes and refractive index profile? How are signals transmitted through them? (6)
+(b)
+(i) What is meant by attenuation? (2)
+(ii) Discuss the different mechanisms which are responsible for attenuation in the optical fiber. (8)
+(iii) Explain the working of displacement sensor in detail. (6)
+14.
+(a) Using quantum theory derive an expression for the average energy emitted by a black body and arrive at Planck's radiation law in terms of frequency. State the assumptions before starting the derivation (16)
+(b)
+(i) What is the principle of transmission electron microscope? (2)
+(ii) Draw the construction of transmission electron microscope and explain its working. (8)
+(iii) Give the advantages, disadvantages and applications of a transmission electron microscope. (6)
+15.
+(a)
+(i) Distinguish between primitive cell and unit cell. (2)
+(ii) Describe the diamond structure. (8)
+(iii) What type of bond is present in diamond? (2)
+(iv) Iron has BCC structure and atomic radius $0.123 \overset{\circ}{\mathrm{A}}$. Find the lattice constant of the unit cell. (4)
+(b) What are the point and line imperfections in solid materials? Illustrate these imperfections with suitable sketches. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! PH2111
+!Year! 2012
+!Month! Jan
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is cavitation? (2)
+2. What is sonogram? (2)
+3. What are different methods of achieving population inversion? (2)
+4. Distinguish between homojunction and heterojunction semiconductor lasers. (2)
+5. A signal of 100 mW is injected into a fibre. The outcoming signal from the other end is 40 mW. Find the loss in dB? (2)
+6. What is meant by splicing in fibre optics? (2)
+7. Calculate the equivalent wavelength of electron moving with a velocity of 3 × 107 m/s. (2)
+8. What is Compton effect? Write an expression for the Compton wavelength. (2)
+9. For a cubic crystal draw the planes with Miller indices (110) and (001). (2)
+10. What are Frenkel and Schottky imperfections? (2)
+11.
+(a)
+(i) Explain how ultrasonic waves can be produced by using magnetostriction method. (12)
+(ii) Write any four applications of ultrasonic waves. (4)
+(b) In ultrasonic NDT what are the three different scan displays in common use? Explain. (16)
+12. 
+(a) For atomic transitions, derive Einstein relations and hence deduce the expressions for the ratio of spontaneous emission rate to the stimulated emission rate. (16)
+(b) 
+(i) What is holography? (4)
+(ii) Describe the construction and reconstruction methods of a hologram. (12)
+13. 
+(a)
+(i) How are fibres classified? Explain the classification in detail. (8)
+(ii) Explain double crucible method of fibre manufacturing. (8)
+(b)
+(i) Explain the construction and working of displacement and temperature fibre optic sensors. (10)
+(ii) Explain the construction and working of fibre-optic medical endoscope. (6)
+14.
+(a)
+(i) Write a note on black body radiation. (4)
+(ii) Derive Planck’s law of radiation. (12)
+(b)
+(i) What is the principle of electron microscopy? Compare it with optical microscope. (4)
+(ii) With schematic diagram explain the construction and working of scanning electron microscope. (12)
+15.
+(a)
+(i) Explain the terms: atomic radius, coordination number and packing factor. (6)
+(ii) Show that the packing factor for Face Centered Cubic and Hexagonal Close Packed structures are equal. (10)
+(b)
+(i) What are Miller indices? Explain. (4)
+(ii) Derive an expression for the interplanar spacing for (hkl) planes of a cubic structure. (10)
+(iii) Calculate the interplanar spacing for (101) plane in a simple cubic crystal whose lattice constant is 0.42 nm. (2)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! PH2111
+!Year! 2010
+!Month! Nov/Dec
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. List down the disadvantages of piezoelectric effect. (2)
+2. Compare transmission and reflection modes of non destructive testing using ultrasonics. (2)
+3. Why is population inversion necessary to achieve lasing? (2)
+4. How is electrons and holes con ̄nement made in the active region of heterojunction laser? (2)
+5. What are the different types of classification of optical fibres? (2)
+6. Explain dispersion in an optical fiber? (2)
+7. Define blackbody and blackbody radiation. (2)
+8. What is meant by wave function? (2)
+9. An element has a HCP structure. If the radius of the atom is $1.605 \overset{\circ}{\mathrm{A}}$, find the height of unit cell. (2)
+10. What is meant by a `Schottky pair'?  (2)
+11. 
+(a) With a neat diagram explain the method of production of ultrasound using piezoelectric crystal. (16)
+(b)
+(i) With a neat diagram, discuss the principle and inspection method of ultrasonic wave detector. (12)
+(ii) Calculate the velocity of ultrasonic waves in water using acoustic grating. The frequency of the ultrasonic wave generated by transducer is 2 MHz. The diffraction angle measured is 8'45" in the third order diffraction pattern. Wavelength of laser light used in this experiment is $6328 \overset{\circ}{\mathrm{A}}$. (4)
+12.
+(a) Discuss the Einstein's theory of stimulated absorption, spontaneous and stimulated emission of radiation. What are the conditions for light amplification? (16)
+(b)
+(i) What is hologram? What are the necessary steps involved in recording and reconstruction of a hologram? (12)
+(ii) Compare holography with photography. (4)
+13.
+(a)
+(i) Explain the basic structure of an optical fibre and discuss the principle of transmission of light through optical fibres. (5)
+(ii) Derive an expression for numerical aperture. (5)
+(iii) Briefly discuss a technique of optical fibre drawing (6)
+(b) 
+(i) Explain the concept of optical fibre sensors (6)
+(ii) Describe in detail about any two optical fibre sensors. (10)
+14.
+(a)
+(i) What is meant by matter wave? (2)
+(ii) Derive an expression for the wavelength of matter wave. (8)
+(iii) Describe an experiment that verifies the existance of matter waves. (6)
+(b) Solve Schrodinger's wave equation for a particle in a box (one dimensional) and obtain the energy and eigen function. (16)
+15.
+(a)
+(i) Define atomic packing factor. (2)
+(ii) Calculate the number of atoms, atomic radius, coordination number and atomic packing fraction for BCC and FCC structures. (10)
+(iii) The distance between successive planes of Miller indices (111) is $2.078 \overset{\circ}{\mathrm{A}}$ for a metal having FCC structure. Find the atomic radius and volume of its unit cell. (4)
+(b)
+(i) Define the terms polymorphism and allotropy. (2)
+(ii) Explain in detail the crystal defects and their types. (14)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! PH2111
+!Year! 2009
+!Month! May/June
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Calculate the frequency of ultrasonic waves that can be generated by a nickel rod of length 4 cm. (Young’s modulus of nickel = 207GPa and density of nickel 8900 kg/m3). (2)
+2. Write a note on Cavitations. (2)
+3. Give the principle of semiconductor diode laser. (2)
+4. Mention any four applications of laser in medicine. (2)
+5. Define acceptance angle in optical fiber communication. (2)
+6. What are the types of sensors used in fiber optic communication? (2)
+7. In Compton scattering, the incident photon have a wavelength 0.5nm. Calculate the wavelength of scattered radiation if they are viewed at an angle of $45^{\circ}$ to the direction of incidence. (2)
+8. Explain the principle of Transmission Electron Microscope. (2)
+9. Differentiate polymorphism and allotropy. (2)
+10. Write a short note on Burger vector. (2)
+11.
+(a)
+(i) Write down the properties of Ultrasonic waves. (6)
+(ii) Describe the principle, construction and working of piezo-electric oscillator. (10)
+(b)
+(i) Describe the various non-destructive testing methods. (9)
+(ii) Explain the types of ultrasonic imaging systems. (7)
+12.
+(a)
+(i) What is spontaneous and stimulated emission? (3)
+(ii) Write down the conditions for population inversion. (3)
+(iii) What is pumping action? Explain the methods commonly used for pumping action. (10)
+(b)
+(i) Explain the construction and reconstruction of a hologram. (6)
+(ii) In detail explain the principle, construction and working of a four level solid state laser. (10)
+13.
+(a)
+(i) Explain in detail the losses in optical fiber with basic attenuation mechanisms. (10)
+(ii) Give the advantages of fiber-optic communication. (6)
+(b)
+(i) Find the numerical aperture and the acceptance angle of an optical fibre whose core has a refractive index of 1.5 (Refractive index of cladding = 1.447 and Refractive index of air = 1) (4)
+(ii) What is the principle of fiber optics? (2)
+(iii) Explain the various types of optical fibers. (10)
+14.
+(a)
+(i) Explain Plank’s hypothesis. (6)
+(ii) State and derive Plank’s law of Radiation. (10)
+(b)
+(i) Derive Schrodinger’s time dependent and time independent wave equations. (10)
+(ii) Give the physical significance of wave function Ψ . (6)
+15. 
+(a)
+(i) What is packing factor? Prove that the packing factor of HCP crystal structure is 0.74. (6)
+(ii) Explain the crystal structures of (1) NaC1 (2) ZnS (3) Diamond (4) Graphite. (10)
+(b) Explain in detail the crystal defects and their types. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! PH2111
+!Year! 2009
+!Month! May/June
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What are the differences in the quality of ultrasonic waves generated by piezoelectric and magnetostriction methods? (2)
+2. Mention any four applications of ultrasonic in medicine (2)
+3. Explain two types of coherence (2)
+4. Name the properties of laser which are making it suitable for industrial applications. (2)
+5. An optical fiber has a Numerical aperture of 0.2 and a scalding refractive index of 1.59. Find the acceptance agle for the same fibre in water. The refractive index of water is 1.33 (2)
+6. Name any two light sources and d detectors used in fibre optic communication systems. (2)
+7. What is Rayleigh-Jean's law of radiation? (2)
+8. Compare the resolution and magnification of optical microscope with that of electron microscope (2)
+9. What are miller indices? (2)
+10. What is meant by a `Schottky pair'?  (2)
+11.
+(a)
+(i) Explain with neat circuit diagram, the generation of ultrasonic waves using magnetostriction oscillator method. (8)
+(i) Explain in details any four applications of ultrasonic waves (8)
+(b)
+(i) Discuss the theory and experimental method of determination of velocity of ultrasonic waves using acoustic grating (8)
+(ii) Explain the A-scan and B-scan display of ultrasonic data in material processing (8)
+12.
+(a) Derive Einstein's relation for stimulated emission and hence explain the existence of stimulated emission (16)
+(b)
+(i) Distinguish between photography and holography. (2)
+(ii) Describe the construction and reconstruction of a hologram. (10)
+(iii) Explain any one application of laser in industry (4)
+13.
+(a)
+(i) Derive an expression for numerical aperture and acceptance angle in optical fibers (10)
+(ii) Explain the classification of optical fibers (6)
+(b)
+(i) Describe the construction and working of a medical endoscope and give its application in medical field (12)
+(ii) Discuss any one detector used in fiber optic communication systems with neat diagrams (4)
+14.
+(a)
+(i) Write the Planck's radiation formula and hence deduce Wien's displacement law and Rayleigh-Jean's law from it. (6)
+(ii) Calculate the de Broglie wavelength of an alpha-particle accelerated by an electric field of potential 1000V. Given that mass of a proton is $1.673\,\mathrm{x}\,10^-27 kg$, mass of a neutron is $1.675\,\mathrm{x}\,10^-27 kg$ and the charge on the proton is $1.6\,\mathrm{x}\,10^-19 C$. Assume Planck's constant is $6.63\,\mathrm{x}\,10^-34 J.s$ (4)
+(iii) Discuss qualititatively the phenomenon of Compton effect. Write its importance in quantum physics (6)
+(b)
+(i) Solve the Schrodinger's wave equation for a free particle of mass moving within a 1-dimensional potential box of width L to obtain eigen values of energy and eigen functions (11)
+(ii) Find the eigen values of energies and eigen functions of an electron moving in a 1-dimensional potential box of infinite height and $1 \overset{\circ}{\mathrm{A}}$ of width. Given that m=$9.11\,\mathrm{x}\,10^-31 kg$ and h= $6.63\,\mathrm{x}\,10^-34 J$ (5)
+15.
+(a)
+(i) Describe the structure of HCP crystal. Give the details about its atomic radius, atomic packing factor and axial ratio. (12)
+(ii) An element has HCP structure. If the radius of the atom is $1.605 \overset{\circ}{\mathrm{A}}$, find the volume of unit cell. (4)
+(b) What are the point and line imperfections in solid materials? Illustrate these imperfections with suitable sketches (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! PH2111
+!Year! 2013
+!Month! Jan
+!Semester! 1
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is an acoustic grating? (2)
+2. What is inverse piezoelectric effect? (2)
+3. Explain stimulated emission. (2)
+4. Name any two uses of lasers in medicine. (2)
+5. Define total internal reflection. (2)
+6. Calculate the numerical aperture and hence the acceptance angle for an optical fibre whose core and cladding has refractive index of 1.59 and 1.40 respectively. (2)
+7. Give the significance of wave function. (2)
+8. Write Planck’s radiation formula. (2)
+9. What are Bravais lattices? (2)
+10. What are lattice parameters of a unit cell? (2)
+11.
+(a)
+(i) What is the phenomenon of magnetostriction?(2)
+(ii) Using the phenomenon of magnetostriction, explain how high frequency sound waves are produced. (10)
+(iii) A nickel crystal of length 10 cm with density 8.1 x 103 kg/m3 and Youngs modulus 8.2 x 1011 N/m2 is used in a magnetostrictive oscillator. Determine the fundamental frequency of the ultrasonic waves generated. (4)
+(b)
+(i) Explain in detail how A Scan technique is employed to locate a defect. (12)
+(ii) Find the depth of a submarine if an ultrasonic pulse reflected from the submarine is received 0.33 sec after sending out the ultrasonic waves. Given the sound velocity in sea water is 1440 m/sec. (4)
+12.
+(a) Describe the construction and working of CO2 laser and their uses. (16)
+(b) Describe the construction and working of He­Ne laser and their uses. (16)
+13.
+(a) Give an account of fibre optic communication system and its advantages. (16)
+(b) Discuss about the various types of optical fibres. (16)
+14.
+(a) Give an account of Scanning Electron Microscope. (16)
+(b) Derive Schrodinger time dependent wave equation. (16)
+15.
+(a)
+(i) What are Miller indices? (4)
+(ii) Show that for a cubic lattice the distance between two successives (h k l) planes is given by $d=\frac{a}{\sqrt{h^2+k^2+l^2}}$. (12)
+(b) Calculate the number of atoms per unit cell, coordination number and packing factor for FCC and BCC structures. (16)
+!END_QPAPER!
+
