@@ -80,7 +80,8 @@
 (i) Explain the softening of water by deionization process.(8)
 (ii) Howis the temporary and permanent hardness of water determined? (8)
 OR
-(b) (i) What is meant by reverse osmosis? Explain the purification of water by reverse osmosis. (8)
+(b)
+(i) What is meant by reverse osmosis? Explain the purification of water by reverse osmosis. (8)
 (ii) Explain the softening of water by zeolite process (8)
 12.
 (a)
@@ -206,6 +207,7 @@ OR
 (i) Discuss in detail the disadvantages, which are caused by the use of hard water in boilers with special reference to foaming, corrosion, scale and sludge formation and caustic embrittlement. (10)
 (ii) Discuss in detail desalination of water by reverse osmosis. List its advantages and limitations. (6)
 12. 
+(a)
 (i) How are the following polymers prepared? 1. Teflon 2. Polystyrene 3. PET 4. Nylon 6, 6 (8)
 (ii) Explain the mechanism of free radical addition polymerization. (8)
 OR
