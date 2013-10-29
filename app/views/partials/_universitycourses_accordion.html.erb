@@ -7,7 +7,7 @@
     <%= content_tag :div, id: "collapse"+sem.to_s, class: "accordion-body collapse" do%>
       <div class="accordion-inner noise">
 	   <% pucs.each do |puc| %>
-	   <p><%= link_to puc.full_course_name , program_university_course_path( puc.id ) %></p>
+	   <p><%= link_to puc.full_course_name , program_university_course_path( puc.id ) unless puc.university_course.nil? %></p>
 	   <% end %>
       </div>
     <% end %>
@@ -21,7 +21,7 @@
     <%= content_tag :div, id: "collapse_electives", class: "accordion-body collapse" do%>
       <div class="accordion-inner noise">
 	   <% elective_pucs.each do |puc| %>
-	   <p><%= link_to puc.full_course_name , program_university_course_path( puc.id ) %></p>
+	   <p><%= link_to puc.full_course_name , program_university_course_path( puc.id ) unless puc.university_course.nil? %></p>
 	   <% end %>
       </div>
     <% end %>
