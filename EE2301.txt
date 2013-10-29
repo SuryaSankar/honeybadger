@@ -1,0 +1,82 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2301
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 3
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. State the condition to be satisfied for the load commutation in SCR. (2)
+2. Define ‘Turn off time’ of SCR. (2)
+3. Give any two differences between single phase full converter and semi converter? (2)
+4. What is meant by line commutated inverter? (2)
+5. What are the advantages of SMPS over phase controlled rectifiers? (2)
+6. Give the uses of resonant switching. (2)
+7. What is meant by current source inverter? (2)
+8. Why is the series inverter called so? (2)
+9. What are the applications of cyclo converter? (2)
+10. What is Integral cycle control? (2)
+11.
+(a) Describe the current commutation technique to turn off the SCR with neat sketch and waveforms. (16)
+(b) With neat sketch explain the turn on and turn off characteristic of SCR. (16)
+12.
+(a) Explain the working of a three phase full converter with ‘R’ load for the firing angles of 60°, 90° and 150°. (16)
+Or
+(b)
+(i) Explain the operation of a single phase full bridge converter with RL load for continuous and discontinuous load currents. (10)
+(ii) A single phase full bridge converter is connected to ‘R’ load. The source voltage is of 230 V, 50 Hz. The average load current is of 10 A. For R = 20 $\Omega$   find the firing angle. (6)
+13. 
+(a) Explain the working of Buck–Boost converter with sketch and waveforms and also drive the expression for SI . (16)
+(b) With a neat sketch and output voltage waveforms, explain the working of full bridge SMPS. (16)
+14.
+(a) With a neat sketch and output voltage waveforms, explain the working of three phase bridge inverter in 180 degree mode of operation. (16)
+(b) Discuss the different modes of operation of series resonant inverter with unidirectional switch with neat circuit diagram and waveforms. (16)
+15.
+(a) Discuss the working of 2 stage sequence control of AC voltage controller. (16)
+Or
+(b) Discuss the working of a 3 phase to single phase cyclo-converter with neat voltage and current waveforms. (16)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2301
+!Year! 2008
+!Month! Nov/Dec
+!Semester! 3
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Why is turn on time of devices less than turn off time? (2)
+2. Mention the advantages of GTo. (2)
+3. Why is the power factroe of semi converters better than the full converters? (2)
+4. What is the inversion mode of the converter? (2)
+5. State the limitations of the voltage commutated choppers. (2)
+6. Mention few applications of DC choppers. (2)
+7. What are the advantages of current source inverter over voltage source inverter? (2)
+8. What is PWM control? (2)
+9. List the merits and demerits of on – off control. (2)
+10. What are the applications of cycloconverters? (2)
+11.
+(a) With neat sketch explain the constructional details and working of an enhancement type power MOSFET with characteristics. (16)
+(b) Explain the constructional details of IGBT with equivalent circuit and discuss its characteristics. (16)
+12.
+(a) Draw the circuit diagram of three phase full converter with inductive load and explain its operation with relevant waveform. Derive its average output voltage. (16)
+(b) 
+(i) Discuss the effect of source inductance in a controlled rectifier. (8)
+(ii) With aid of circuit diagram explain the operation of UJT firing circuit.(8)
+13.
+(a) Draw the circuit diagram of load commutated chopper and explain its operation with relevant waveforms at various stages. (16)
+(b) Explain the operation of current commutated chopper with circuit diagram and relevant waveforms at various stages. (16)
+14.
+(a) Explain the working of series inverter with the help of circuit diagram and relevant waveforms. (16)
+(b) Draw the circuit diagram of current source inverter and explain its operation with relevant waveforms. (16)
+
+15.
+(a) Explain the operation of single phase half wave phase controller and single phase full wave phase controller with circuit diagrams and waveforms.(16)
+(b) Draw the circuit diagram of three phase to single phase cycloconverter and explain its operation with waveforms. (16)
+!END_QPAPER!
+
