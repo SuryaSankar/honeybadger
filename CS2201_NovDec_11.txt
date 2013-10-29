@@ -1,0 +1,48 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CS2201
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Mention the advantages in the array implementation of lists. (2)
+2. Why is circular queue better than standard linear queue? (2)
+3. Draw an expression tree for the given infix expression : (a/(b*c/d + e/f *g)). (2)
+4. For the given binary search tree, if we remove the root and replace it with something from the left sub-tree. What will be the value of the new root? Justify your answer. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/CS2201/NovDec_11/1.jpg)  (2)
+5. How do we calculate the balance factor for each node in a AVL tree? (2)
+6. Draw a minheap for the following numbers - 12. 42, 25, 63, 9. (2)
+7. Consider the given 4 digit numbers {4371, 1323, 6173,4199, 4344, 9679, 1989} and a hash function h(X) = X(mod 10). Find the hash address of each number using separate chaining. (2)
+8. Define an equivalence relation. (2)
+9. What is a minimum spanning tree? (2)
+10. In the graph shown, find whether the graph contains an Eulerian circuit. ![Fig2](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/CS2201/NovDec_11/2.jpg)  (2)
+11.
+(a)
+(i) Write the algorithm for converting Infix Expression to Postfix Expression. (8)
+(ii) Transform the given Expression to Postfix (Using Stacks) ((a + b) + c * (d + e) + f ) * (g + h). (8)
+Or
+(b) Imagine a college group that has booked some railway tickets for a small picnic out of the town. These railway tickets are not in order, so, the teacher writes down the seat number of only one other ticket on each ticket, each of them being different. Now, when the students need to get down, they simply have to look in the ticket to find where a particular student is. This will continue on till all of them have come together. Then, they can finally get off the train. Choose the appropriate data structure for performing the following operations - Cancellation of tickets, Reservation of tickets. (16)
+12.
+(a) Explain the three standard ways of traversing a binary tree T with a recursive algorithm. (16)
+Or
+(b) Write an algorithm for inserting and deleting a node in a binary search tree. (16)
+13.
+(a) What are AVL. trees? Describe the different rotations defined for AVL tree. Insert the following elements step by step in sequence into an empty AVL tree - 15, 18, 20, 21, 28, 23, 30, 26. (16)
+Or
+(b) Show the result of inserting 15, 17, 6, 19, 11, 10, 13, 20, 8, 14, 12 one at a time, into an initially empty binary min heap. Also show the result of performing three delete Min operations in the final binary min heap obtained. (16)
+14.
+(a) Write about the different types of hashing techniques in detail. (16)
+Or
+(b) Explain about disjoint sets and its operation in detail. (16)
+15.
+(a)
+(i) Traverse the graph using depth first algorithm starting from ‘A’. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/CS2201/NovDec_11/3.jpg)  (8)
+(ii) Explain the Breadth first search technique in detail with an example. (8)
+Or
+(b)
+(i) Write about Prim’s algorithm. (8)
+(ii) Find the minimum cost spanning tree for the given Graph G using Kruskal algorithm.![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/CS2201/NovDec_11/4.jpg)  (8)
+!END_QPAPER!

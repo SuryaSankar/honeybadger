@@ -1,0 +1,62 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! MA2265
+!Year! 2011
+!Month! APR/MAY
+!Semester! 5
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Without using truth table show that $ P\rightarrow (Q\rightarrow P)\Rightarrow \neg P \rightarrow (P \rightarrow Q) $. (2)
+2. Show that $ (P\rightarrow (Q\rightarrow R))\rightarrow ((P\rightarrow Q)\rightarrow (P\rightarrow R)) $ is a tautology. (2)
+3. If seven colours are used to paint 50 bicycles, then show that at least 8 bicycles will be the same colour. (2)
+4. Solve the recurrence relation $ y(k)-8y(k-1)+16y(k-2)=0 $ for $ k\geq 2 $, where $ y(2)=16 $ and $ y(3)=80 $ . (2)
+5. Define Pseudo graph. (2)
+6. Draw a complete bipartite graph of $K_{2,3} $ and $ K_{3,3} $. (2)
+7. If a and b are any two elements of a group $ (G,*) $ , show that G is an Abelian group if and only if $ (a*b)^2=a^2*b^2 $. (2)
+8. Let $ (M,*,e_M) $ be a monoid and $ a\epsilon M $ . If $ a $ invertible, then show that its inverse is unique. (2)
+9. Check whether the posets {(1, 3, 6, 9), D} and {(1, 5, 25, 125), D}are lattices or not. Justify your claim. (2)
+10. Show that in a Boolean algebra $ a{b}'+{a}'b=0 $ if and only if $ a=b $ . (2)
+11.
+(a)
+(i) Use indirect method of proof to prove that $ (\forall x) (P(x)\logicalor \vee Q(x))\Rightarrow (\forall x) P(x)\vee(\exists x )Q(x) $. (8)
+(ii) Without using truth table find the PCNF and PDNF of $ p\rightarrow(Q\wedge P)\wedge(\neg P \rightarrow(\neg Q\wedge\neg R)) $. (8)
+Or
+(b)
+(i) Show that $ (P \rightarrow Q)\wedge(R \rightarrow S) , (Q \wedge M)\wedge (S \rightarrow N), \neg (M\wedge N) $ and $ (P\rightarrow R)\Rightarrow \neg P $ . (8)
+(ii) Verify that validating of the following inference. If one person is more successful than another, then he has worked harder to deserve success. Ram has not worked harder than Siva. Therefore, Ram is not more successful than Siva. (8)
+12.
+(a)
+(i) Use Mathematical induction show that $ \sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6} $ (6)
+(ii) There are 2500 students in a college, of these 1700 have taken a course in C, 1000 have taken a course Pascal and 550 have taken a course in Networking. Further 750 have taken courses in both C an Pascal. 400 have taken courses in both C and Networking, and 275 have taken courses in both Pascal and Networking. If 200 of these students have taken courses in C, Pascal and Networking. How many of these 2500 students have taken a course in any of these three courses C, Pascal and Networking? How many of these 2500 students have not taken a course in any of these three courses C, Pascal and Networking? (10)
+Or
+(b)
+(i) Using generating function solve $ y_{n+2}-5y_{n+1}+6y_n=0, n\geq 0 $ with $ y_0=1 $ and $ y_1=1 $ . (8)
+(ii) A box contains six white balls and five red balls. Find the number of ways four balls can be drawn from the box if They can be any colour, Two must be white and two red, They must all be the same colour. (8)
+13.
+(a)
+(i) Examine whether the following pair of graphs are isomorphic. If not isomorphic, give the reasons. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/MA2265/AprMay11/1.jpg) ![Fig2](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/MA2265/AprMay11/2.jpg) (8)
+(ii) Let G be a simple indirected graph with n vertices. Let u and v be two non adjacent vertices in G such that deg(u) + deg(v) $ \geq $ n in G . Show that G is Hamiltonian if and only if G + uv is Hamiltonian. (8)
+Or
+(b)
+(i) Draw the graph with 5 vertices A,B,C,D and E such that deg(A) = 3 , B is an odd vertex, deg(C) = 2 and D and E are adjacent. (4)
+(ii) Find the all the connected sub graph obtained form the graph given in the following Figure, by deleting each vertex. List out the simple paths from A to in each sub graph. ![Fig3](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/MA2265/AprMay11/3.jpg)(12)
+14.
+(a)
+(i) If * is a binary operation on the set R of real numbers defined by a*b = a + b + 2ab, Find if (R,*) is a semigroup, Find the identity element if it exists, Which elements has inverse and what are they? (8)
+(ii) Define the Dihedral group $ D_4 $ ,* and give its composition table. Hence find the identify element and inverse of each element. (8)
+Or
+(b)
+(i) Show that the Kernel of a homomorphism of a group G,* into an another group H, $ \Delta $ is a subgroup of G . (6)
+(ii) State and prove Lagrange’s theorem. (10)
+15.
+(a)
+(i) Prove that every distributive latice is modular. Is the converse true? Justify your claim. (8)
+(ii) Show that the direct product of any two distributive lattices is a distributive lattice. (8)
+Or
+(b)
+(i) Draw the Hasse diagram for $ P_1 $ = {2,3,6,12,24}, $P_2$ =  {1,2,3,4,6,12} and $ \leq $ is a relation such $ x \leq y $ if and only is x | y. (8)
+(ii) Prove that $ D_{110} $ , the set of all positive divisors of a positive integer 110, is a Boolean algebra and find all its sub algebras. (8)
+!END_QPAPER!

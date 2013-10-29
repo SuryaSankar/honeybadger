@@ -1,0 +1,65 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2204
+!Year! 2010
+!Month! Apr/May
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define unit impulse and unit step signals. (2)
+2. When is a system said to be memoryless? Give an example. (2)
+3. State any two properties of Continuous – Time Fourier Transform. (2)
+4. Find the Laplace transform of the signal $x(t)=e^{-at}u(t)$. (2)
+5. State the convolution integral for continuous time LTI systems. (2)
+6. What is the impulse response of two LTI systems connected in parallel? (2)
+7. State the Sampling theorem. (2)
+8. State the sufficient condition for the existence of DTFT for an aperiodic sequence $x(n)$. (2)
+9. Define one sided Z-transform and Two-sided Z-transform. (2)
+10. Define the shifting property of the discrete time unit Impulse function. (2)
+11.
+(a)
+(i) Distinguish between Continuous Time Signal and Discrete Time Signal. (4)
+(ii) Distinguish between Unit step and Unit Ramp functions. (4)
+(iii) Distinguish between Periodic and Aperiodic signals. (4)
+(iv) Distinguish between Deterministic and Random signals. (4)
+Or
+(b)
+(i) Find whether the signal $x (t) = 2\cos (10t +1) − \sin (4t −1)$ is periodic or not. (4)
+(ii) Find the summation $\sum^{\infty}_{n=-8} e^{2n}\delta (n-2)$. (4)
+(iii) Explain the properties of unit impulse function. (4)
+(iv) Find the fundamental period T of the continuous time signal x(t)=20\cos (10\pi t+\frac{\pi}{6}). (4)
+12.
+(a)
+(i) Find the trigonometric Fourier series for the periodic signal $x(t)$ shown in the figure given below ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/EC2204/AprMay10/1.jpg) (10)
+(ii) Explain the Fourier spectrum of a periodic signal $ x(t) $. (6)
+Or
+(b)
+(i) Find the Laplace transform of the signal $x(t)=e^{-at}u(t)+e^{-bt}u(-t)$. (8)
+(ii) Find the Fourier transform of $x(t)=\begin{cases} e^{-|t|} & -1\leq t\leq 1 \\\\ 0 & otherwise \end{cases}$. (8)
+13.
+(a)
+(i) Explain the steps to compute the convolution integral. (8)
+(ii) Find the convolution of the following signals: $x(t)=e^{-2t}u(t)$, $h(t)=u(t+2)$. (8)
+Or
+(b)
+(i) Using Laplace transform, find the impulse response of an LTI system described by the differential equation $\frac{\mathrm{d^2} y(t)}{{\mathrm{d} t^2}}-\frac{\mathrm{d}y(t)}{\mathram{d}t}-2y(t)=x(t)$. (8)
+(ii) Explain the properties of convolution integral. (8)
+14.
+(a)
+(i) Find the Fourier Transform of $x(n)=\begin{cases} A & |n|\leq N \\\\ 0 & |n|>N \end{cases}$. (8)
+(ii) Explain any four properties of DTFT. (8)
+Or
+(b) (i) Find the Z-transform of the given signal $x (n)$ and find ROC - $x(n)=[\sin (w_{\circ}n)]u(n)$. (10)
+(ii) Describe the sampling operation and explain how aliasing error can be prevented. (6)
+15.
+(a)
+(i) Find the impulse response of the discrete time system described by the difference equation $y(n − 2)−3 y(n −1)+2 y(n)= x (n −1)$. (8)
+(ii) Discuss the block diagram representation for LTI discrete time systems. (8)
+Or
+(b)
+(i) Describe the state variable model for discrete time systems. (8)
+(ii) Find the state variable matrices A, B, C, D for the equation $y(n)−3 y(n −1)−2 y(n − 2)= x (n)+5x (n −1)+ 6x (n − 2)$. (8)
+!END_QPAPER!

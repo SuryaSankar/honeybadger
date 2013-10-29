@@ -1,4 +1,10 @@
 <%- model_class = ProgramUniversityCourse -%>
+<% content_for :mathjax_scripts do %>
+<%= render partial: 'partials/mathjax_include' %>
+<% end %>
+<% content_for :prettify_scripts do %>
+<%= render partial: 'partials/prettify_include' %>
+<% end %>
 
 <% content_for :pagewise_heading do %>
 	<%= @program_university_course.university_course.course_code+" - "+@program_university_course.university_course.course.name %>

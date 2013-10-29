@@ -1,0 +1,48 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2202
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define Divergence. (2)
+2. State Divergence theorem. (2)
+3. What is meant by equipotential surface ? (2)
+4. Electric field is conservative field. Justify. (2)
+5. What is the point form of Ampere’s Circuital Law ? (2)
+6. Distinguish scalar and Vector Magnetic Potential. (2)
+7. Give Lorentz force equation. (2)
+8. Compare circuit and field theory. (2)
+9. What are the standing waves? (2)
+10. Give the applications of wave guides. (2)
+11.
+(a)
+(i) Verify whether the vector field $E=yz\hat{a}_x +xz\hat{a}_y +xy\hat{a}_z$ is both solenoidal and irrational. (8)
+(ii) Given $A=\rho \cos \theta\hat{a}_p + {\rho}^2\hat{a}_z$. Compute $\triangledown \times A$ and $\int_{s}\triangledown \times A.ds$ over the area $S$ as shown in the figure below. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/EE2202/NovDec11/1.jpg) (8)
+Or
+(b) Explain in detail line, surface and volume integrals of vector functions. (16)
+12.
+(a) Apply Gauss’s law to an infinite line charge and infinite sheet of charge. (16)
+Or
+(b)
+(i) Derive Potential distribution in a coaxial conductor. (8)
+(ii) The interface between a dielectric medium having relative permittivity 4 and free space is marked the $y = 0$ plane. If the electric field next to the interface in the free space region is $E=5\hat{a}_X + 12\hat{a}_Y + \hat{a}_ZV/m$ given by determine E field on the other side of the interface. (8)
+13.
+(a) Derive the boundary conditions to explain the behaviour of magnetic field at the interface of two magnetic media. (16)
+Or
+(b) Derive an expression for energy density in a magnetic field. (16)
+14.
+(a) Derive the Maxwell's equations is Integral and point forms. (16)
+Or
+(b)
+(i) In a charge free non magnetic dielectric region, the magnetic field is given by $\vec{H} = 5\cos (10^9t-4y)\hat{a}_3 \ A/m$. Calculate the dielectric constant of the medium and also the displacement current density. (8)
+(ii) A conducting circular loop of radius ‘a has its centre at the origin and its axis makes an angle θ with the z axis. The loop is placed in a magnetic field \vec{B}=B_0\cos 2\pi ft\cdot \hat{a}_z Wb/m^2. Derive the expression for the induced voltage on the loop. If the peak to peak voltage is l6 mV at a frequency of 1 KHz when the loop lies in the xy plane, determine the loop radius given that $B_0$ =10 mWb/m^2. (8)
+15.
+(a) Explain in detail the behavior of plane waves in lossless medium. (16)
+Or
+(b) Explain Poynting Vector and Power Flow in Electromagnetic Fields. (16)
+!END_QPAPER!

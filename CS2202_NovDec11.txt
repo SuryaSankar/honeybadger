@@ -1,0 +1,59 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CS2202
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 3
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Perform the following code conversions: $(1010.10 )_{16} \rightarrow (?)_{2} \rightarrow (?)_{8} \rightarrow (?)_{10}$ (2)
+2. State the different ways for representing the signed binary numbers. (2)
+3. With block diagram show how a full adder can be designed by using two half adders and one OR gate. (2)
+4. List the modeling techniques available in HDL. (2)
+5. Define decoder. Draw the block diagram and truth table for 2 to 4 decoder. (2)
+6. What is the difference between Programmable array logic (PAL) and Programmable logic array (PLA)? (2)
+7. How many flip flops are required for designing synchronous MOD60 counter? (2)
+8. Write down the characteristic equation for JK and T flip flops. (2)
+9. What is meant by Race condition in Asynchronous sequential circuit? (2)
+10. Define Hazard. List the Hazards in combinational circuit. (2)
+11.
+(a)
+(i) Simplify the following Boolean function F using Karnaugh map method: F(A, B, C, D)= $ \sum $ (1,4,5,6,12,14,15) (4)
+(ii) Simplify the following Boolean function F using Karnaugh map method: F(A, B, C, D) = $ \sum $ (0,1,2,4,5,7,11,15) (4)
+(iii) Simplify the following Boolean function F using Karnaugh map method: F(A, B, C, D) = $ \sum $ (2,3,10,11,12,13,14,15) (4)
+(iv) Simplify the following Boolean function F using Karnaugh map method: F(A, B, C, D) = $ \sum $ (0,2,4,5,6,7,8,10,13,15) (4)
+Or
+(b)
+(i) simplify the following Boolean expressions to a minimum number of literals: $ \overline{AC} + ABC + A\overline{C} $ (2)
+(ii) simplify the following Boolean expressions to a minimum number of literals: $ XYZ + \overline{X}Y + XY\overline{Z} $ (2)
+(iii) simplify the following Boolean expressions to a minimum number of literals: $ XY + YZ + X\overline{Y}Z $ (2)
+(iv) simplify the following Boolean expressions to a minimum number of literals: $ A\overline{B} + ABD + AB\overline{D} + \overline{ACD} + \overline{A}B\overline{C} $ (5)
+(v) simplify the following Boolean expressions to a minimum number of literals: $ BD + BC\overline{D} + A\overline{BCD} $ (5)
+12.
+(a)
+(i) Derive the Boolean expressions for $ T_1 $ through $ T_4 $. Evaluate the outputs $ F_1 $ and $ F_2 $ as a function of the four inputs. (4)
+(ii) List the truth table with 16 binary combinations of the four input variables. Then list the binary values for $ T_1 $ through $ T_4 $ and outputs $ F_1 $ and $ F_2 $ in the table. (4)
+(iii) Plot the output Boolean function obtained in part ii on mapsand show that simplified Boolean expressions are equivalent to the ones obtained in Part i. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/CS2202/novDec_11/1.png) (8)
+Or
+(b)
+(i) With suitable block diagram explain Binary multiplier. (8)
+(ii) Write a detailed note on carry propagation. (8)
+13.
+(a) Construct a 5 to 32 line decoder with four 3 to 8 line decoders with enable and a 2 to 4 line decoder. Use block diagrams for components.(16)
+Or
+(b)
+(i) Implement the following Boolean function with 16 × 1 multiplexer: F (A, B ,C, D) = $ \sum $ (0, 1, 3, 4, 8, 9,15), Use block diagram representation. (6)
+(ii) Write HDL gate level description for 3 to 8 line decoder. (4)
+(iii) With suitable timing diagram explain how Read operation is performed in Random access memory. (6)
+14.
+(a) Design a MOD 16 up counter using JK Flip flops. (16)
+Or
+(b) With suitable example explain state reduction and state assignment. (16)
+15.
+(a) Write a detailed note on Race free state assignment. (16)
+Or
+(b) With suitable design example, explain ASM Chart. (16)
+!END_QPAPER!
