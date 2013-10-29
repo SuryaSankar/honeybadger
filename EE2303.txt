@@ -1,0 +1,145 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2303
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is a feeder? (2)
+2. Give any 2 factors that affect sag in an overhead line (2)
+3. Write the expression for capacitance of a 1 $\phi$ Transmission line (2)
+4. What is skin effect? (2)
+5. Define voltage regulation in connection with transmission lines (2)
+6. What is the range of surge impedance in case of underground cables? (2)
+7. Define grading of cables (2)
+8. What is meant by birdage? (2)
+9. What is Ring Main distributor? (2)
+10. List the types of substations (2)
+11. 
+(a)
+(i) Explain the advantages of HVDC transmission (10)
+(ii) Describe the types of HVDC links (6)
+(b) Derive an expression for sag of a line supported between 2 supports of the same height (16)
+12.
+(a)
+(i) Explain corona (2)
+(ii) Explain the effects of corona (2)
+(iii) Explain disruptive critical voltage with respect to corona (4)
+(iv) Explain visual critical voltage with respect to corona (4)
+(v) Explain corona power loss with respect to corona (4)
+(b) Derive an expression for capacitance of 3 $\phi$ unsymmetrically spaced transmission line (16)
+13.
+(a) A 15 km long 3 phase overhead line delivers 5MW at 11 kV at 0.8 lagging PF. Line loss is 12% of the power delivered. Line inductance is 1.1mH per km per phase. Find sending end voltage and voltage regulation.
+(b)
+(i) Perform the analysis of long transmission lines using RIGOROUS method (12)
+(ii) Explain the concept of surge impedance loading (4)
+14.
+(a) Explain in detail the different methods of improving the string efficiency (16)
+(b)
+(i) Describe the general construction of an underground cable with a neat sketch (8)
+(ii) State the classification of cables and discuss their general construction (8)
+15.
+(a)
+(i) Explain Main and transfer bus (4)
+(ii) Explain Ring bus (4)
+(iii) Explain double bus with a single breaker (4)
+(iv) Explain double bus bar with bypass isolators (4)
+(b)
+(i) Explain stepped or tapered distributor (4)
+(ii) Explain Ring main distributor (4)
+(iii) Explain DC distributor fed at one end (4)
+(iv) Explain DC distributor fed at both ends (4)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2303
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. List out the advantages of Hight voltage AC transmission (2)
+2. What is meant by a stringing chart? (2)
+3. What is the need for transposition? (2)
+4. Define the term Critical disruptive voltage (2)
+5. Distinguish between attenuation and phase constant (2)
+6. What is meant by Ferranti effect? (2)
+7. What are the advantages of string insulators? (2)
+8. What are the methods of grading of cables? (2)
+9. What are the various methods of earthing in substations? (2)
+10. Define the terms feeders and service mains (2)
+11. 
+(a)
+(i) What are the various types of HVDC links? Explain them in detail (10)
+(ii) Explain the principle of operation of compensators used for voltage control (6)
+(b) A transmission line conductor at a river crossing is supported from 2 towers at a height of 50 and 80 m from water level. The horizontal distance between the towers is 300 meters. If the tension in the conductor is 2000kg, find the clearance between the conductor and water at the point midway between the towers. Weight of conductor per metre is 0.844 kg. Derive the formula used. (16)
+12.
+(a) Find the inductance per phase per km of double circuit 3 phase line shown in Fig 1. The line is completely transposed and operates at a frequency of 50 Hz ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/EE2303/Nov11/1.png) (16)
+(b)
+(i) Derive the expression for voltage induced in communication lines due to the current in power lines (8)
+(ii) Explain the various factors affecting the corona loss. (8)
+13.
+(a) A balanced 3 phase load of 30 MW is supplied at 132 kV, 50 Hz and 0.85 P.F lagging by means of transmission line. The series impedance of a single conductor is (20+j52) ohms and the total phase-neutral admittance is 315 x $10^{-6}$ mho. Using nominal -T method, determine: (i) The A,B,C and D constants of the line (ii) Sending end voltage (iii) Regulation of the line (16)
+(b) A 3 phase line having an impedance of (5+j20) ohms per phase delivers a load of 30 MW at a power factor of 0.8 lag and a voltage of  33kV. Determine the capacity of the phase modifier to be installed at the receiving end if the voltage at the sending end is to be maintained at 33 kV. Assume the shunt admittance is neglected (16)
+14.
+(a) A 3 phase overhead transmission line is being supported by three disc insulators. The potentials across top unit and middle unit are 9KV and 11KV respectively. Calculate (i) The ratio of capacitance between pin and earth to the self-capacitance of each unit (ii) the line voltage and (iii) string efficiency (16)
+(b) With neat diagrams explain the constructional features of various types of cables (16)
+15.
+(a) Draw the circuit arrangement and explain the various elements of the following bus-bar arrangements (i)Single bus scheme (ii) Double bus-bar scheme (iii) Main and transfer bus-bar (iv) Mesh scheme (16)
+(b) A 3-wire d.c distributor is fed at one end at 220V between wires and middle wire as shown in Fig 15.b. The numbers between section indicate the resistance of the respective section. Calculate the voltage between the middle wire and outer wire at each load point  ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/EE2303/Nov11/2.png)(16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2303
+!Year! 2010
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. State the disadvantages of HVDC transmission. (2)
+2. Which factors affect sag in the transmission line?  (2)
+3. Define skin effect. (2)
+4. What are the advantages of using bundled conductors? (2)
+5. What is Ferranti effect? (2)
+6. What is shunt compensation? (2)
+7. Define string efficiency. (2)
+8. What is the necessity of grading of an under ground cable? (2) 
+9. List the various substation equipments. (2)
+10. Why are transmission lines 3 phase 3 wire circuits while distribution  lines are  3 phase 4 wire circuits? (2)
+11.
+(a) Discuss in detail the various equipments used in HVDC converter  station. (16) 
+Or 
+(b) An overhead line has a span of 336 m. The line is supported ,at a water  Crossing from two towers whose heights are 33.6 m and 29 m above  water level. The weight of conductor is 8.33 N/m and tension in the  conductor is not to exceed 3.34 × 104 N. Find (i) Clearance between the  lowest point on the conductor and water (ii) horizontal distance of this  point from the lower support. (16)
+12.
+(a) Derive the expression for inductance of a three phase line with  unsymmetrical Spacing. (16)
+Or 
+(b) A 220 KV, 50 Hz, 200 Km long three phase line has its conductors on the  corners of a triangle with sides 6 m, 6m and 12 m. The conductor radius  is 1.81 cm. Find the capacitance per phase per km, capacitive reactance  per phase, charging current and total charging Mega volt-amperes. (16)
+13.
+(a) What is a nominal pi circuit? Find the ABCD constants for nominal pi Circuit. (16)
+Or 
+(b) 
+(i) Write short notes on Shunt compensation. (8)
+(ii) Write short notes on Series compensation. (8) 
+14.
+(a)
+(i) Discuss briefly on the Pin Type insulator. (8) 
+(ii) Discuss briefly on the Suspension Type insulator. (8)
+Or 
+(b) Derive the expression for the Insulation resistance, capacitance,  Electric  stress and dielectric loss of a single core cable. (16) 
+15. (a) Explain briefly the various types of bus bar arrangements in a  substation. (16)
+Or 
+(b) 
+(i) Discuss briefly: Feeders. (4)
+(ii) Discuss briefly: Radial distribution. (6)
+(iii) Discuss briefly: Ring main distribution. (6)
+!END_QPAPER!
+
