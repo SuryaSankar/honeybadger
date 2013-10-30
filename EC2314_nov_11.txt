@@ -1,0 +1,51 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2314
+!Year! 2011
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What is a linear time invariant system? (2)
+2. State sampling theorem. (2)
+3. What is meant by ROC in z-transforms? (2)
+4. Write the commutative and distributive properties of convolution. (2)
+5. Draw the basic butterfly diagram for Radix 2 DITFFT. (2)
+6. Write the DTFT for (a) $x(n)=a^nu(n)$ (b) $x(n)=4\delta (n)=3\delta(n-1)$. (2)
+7. What is meant by linear phase response of a filter? (2)
+8. Compare bilinear transformation and Impulse invariant method of IIR filter design. (2)
+9. Give the special features of DSP processors. (2)
+10. What is pipelining? (2)
+11.
+(a)
+(i) Discuss whether the following are energy or power signals $x(n)=\left ( \frac{3}{2} \right )^n u(n)$ and $x(n)=Ae^{j\omega_\circ n}$. (10)
+(ii) Explain the concept of quantization. (6)
+Or
+(b) Check whether following are linear, time invariant, causal and stable - $y(n)=x(n)+nx(n+1)$ and $y(n)=\cos x(n)$ (16)
+12.
+(a)
+(i) Obtain the linear convolution of $x(n)={3,2,1,2}$ and $h(n)={1,\underset {\uparrow}2,1,2}$. (6)
+(ii) A discrete time system is described by the following equation $y(n)+\frac {1}{4}y(n-1)=x(n)+\frac{1}{2}x(n-1)$. Determine its impulse response. (10)
+Or
+(b)
+(i) Obtain the discrete Fourier series coefficients of $x(n)=\cos \omega_\circ n$.(4)
+(ii) Determine $x(n )$ for the given $x(2)$ with ROC as $|z|>2$ and as $|z|<2$ for $X(z)=\frac{1+3z^{-1}}{1+3z^{-1}+2z^{-2}}$. (12)
+13.
+(a)
+(i) Explain 8 pt DIFFFT algorithm with signal flow diagram. (10)
+(ii) Compute the DFT of $x(n)$ = {1, 1, 0, 0}. (6)
+Or
+(b)
+(i) Describe the following properties of DFT - Time reversal, Circular convolution. (10)
+(ii) Obtain the circular convolution of $x_1(n)={1,2,2,1}$, $x_2(n)={1,2,3,1}$. (6)
+14.
+(a) Design a butterworth filter using the Impulse invariance method for the following specifications $0.8\leq|H(e^{j\omega})|\leq 1$ for $0 \leq \omega \leq 0.2\pi$ and $|H(e^{j\omega})|\leq 0.2$ for $0.6\pi \leq \omega \leq \pi$. (16) 
+Or
+(b) Design a filter with desired frequency response $Hd(e^{j\omega})= \begin{cases} e^{-j3\omega}, & \frac{-3\pi}{4} \leq \omega \leq \frac{3\pi}{4} \\\\ 0, & \frac{3\pi}{4}\leq |\omega|\leq \pi \end{cases}$. Use Hanning window for $N = 7$. (16)
+15.
+(a) Explain the addressing modes of a DSP processor. (16)
+Or
+(b) Describe the Architectural details of a DSP processor. (16)

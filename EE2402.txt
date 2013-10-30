@@ -1,0 +1,133 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2314
+!Year! 2011
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What is surge absorber? How do they differ from surge diverter? (2)
+2. Define the term ‘‘Insulation Coordination”. (2)
+3. Compare Static and Electromagnetic relay. (2)
+4. A relay is connected to 400/5 ratio current transformer with current setting of 150%. Calculate the Plug Setting Multiplier when circuit carries a fault current of 4000 A. (2)
+5. Explain the secondary of current transformer should not be open. (2)
+6. What is meant by time-graded system protection? (2)
+7. Distinguish between recovery voltage and restriking voltage. (2)
+8. List the factors affecting the transient recovery voltage. (2)
+9. Give the advantage of SF6 circuit breaker over Air blast circuit breaker. (2)
+10. What are the basic requirements of circuit breaker? (2)
+11.
+(a) Discuss and compare the various methods of neutral earthing. (16)
+Or
+(b) 
+(i) Describe the essential qualities of a protective relaying. (8)
+(ii) Briefly explain the various methods of overvoltage protection of overhead transmission line. (8)
+12. 
+(a) Describe the construction and operation of an inductive type directional overcurrent relay with a neat diagram. Also explain its operational characteristics. (16)
+(b) Explain the principle of distance relays stating clearly the difference between impedance relay, reactance and mho relay. Indicate the difference on R-X diagrams and show where each type is suitable. (16)
+13. 
+(a) 
+(i) Explain the factors which cause difficulty in applying Merz-Price circulating current principle to a power transformers. (8)
+(ii) A three phase transformer of 220/11000 Line Volts is Connected in star / delta. The protective transformers on 220 V side have a current ratio of 600/5. What should be the current transformer ratio on 11000 V side? (8)
+(b) Describe the differential pilot wire method of protection of feeder. (16)
+14.
+(a) 
+(i) Explain how arc is initiated and sustained when the circuit breaker contacts break. (6)
+(ii) Explain in detail the various methods of arc extinction in a circuit breaker. (10)
+(b) 
+(i) What is current Chopping? Explain how can the effect of current chopping be minimized? (8)
+(ii) Derive an expression for the Rate of Rise of Restriking Voltage (RRRV) in a C.B. (8)
+15. 
+(a) Explain with a neat sketch, the construction and working of minimum oil circuit breaker. Also give its merits and demerits. (16)
+(b) 
+(i) Describe the various types of rating of a circuit breaker. (8)
+(ii) Describe the various methods of testing of circuit breaker. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2314
+!Year! 2012
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Write the effects of power system faults (2)
+2. Enumerate the significance of backup protection (2)
+3. Write the effects of arc resistance (2)
+4. List out the applications of static relays (2)
+5. Write the function of earth fault relay (2)
+6. What is meant by relay operating time?  (2)
+7. List out the various methods of arc interruption (2)
+8. How do you classify the circuit breakers (2)
+9. Write the operational difference between fuse and circuit breaker (2)
+10. Enumerate the breaking capacity of circuit breaker (2)
+11.
+(a)
+(i) Discuss briefly the role of protective relays in a modern power system (8)
+(ii) What do you understand by a zone of protection? Discuss various zones of protection (8)
+(b)
+(i) With a neat block diagram explain the operating principle of Peterson coil (8)
+(ii) Discuss the basic ideas of insulation coordination in a practical power system (8)
+12.
+(a) Discuss the operational principle, constructional features and area of applications of directional relay. How do you implement the directional feature in the overcurrent relay? (16)
+(b) Explain Mho relay characteristic on the R-X diagram. Discuss the range settings of various distance relays placed on a particular location (16)
+13. 
+(a) Describe the types of protective schemes that are employed for the protection of field winding and loss of excitation of alternator. (16)
+(b) With the aid of a neat schematic diagram, describe the percentage differential protection scheme of a transformer (16)
+14.
+(a) Discuss the recovery rate theory and energy balance theory of arc interruption in a circuit breaker (16)
+(b)
+(i) Explain the phenomenon of current chopping in a circuit breaker. What measures are taken to reduce it? (8)
+(ii) Discuss the problems associated with the interruptions of low inductive current and the fault occurs near to the substation (8)
+15.
+(a) With a neat block diagram, explain the construction, operating principles and applications of a $SF_6$ circuit breaker. What are its advantages over other types of circuit breakers? (16)
+(b)
+(i) Discuss the selection of circuit breakers for different ranges of system voltages (8)
+(ii) Discuss how breaking capacity and making capacity of a circuit breaker are tested in a laboratory type testing station (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2314
+!Year! 2010
+!Month! Apr/May
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Differentiate between a fuse and a protective relay. (2)
+2. Define the following terms as related to protective relaying: (a) pickup current, (b) reset value and (c) reset ratio. (2)
+3. What are the different types of faults and abnormal conditions expected in an alternator? (2)
+4. What are the requirements of line protection? (2)
+5. Define (a) arc voltage, (b) restriking voltage, (c) recovery voltage and (d) breaking capacity of a circuit breaker. (2)
+6. What is the importance of arc resistance? On which factor does it depend? (2)
+7. A three phase oil circuit breaker is rated at 1500 A, 1000MVA and 33kV Find (a) rated symmetrical breaking current, (b) making capacity. (2)
+8. Suggest a suitable choice of circuit breakers for the following voltage ranges: (a) 3.3kV to 33kV, (b) 400kV to 760kV. (2)
+9. What is Peterson coil? What protective functions are performed by this device? (2)
+10. Differentiate between a surge diverter and surge absorber. (2)
+11. With a neat sketch explain the MerzPrice circulating current scheme for protection of alternators. (16)
+12.
+(a) Explain the principle of a distance relay, stating clearly the difference between electromagnetic version of an impedance relay and a mho relay. Your answer should include typical schematics the characteristics of these relays in an R-X diagram. (16)
+(b)
+(i) Give the block diagram of a typical microprocessor based protective relay for motor protection. (8)
+(ii) What are the typical protective functions that can be built into the relay? (8)
+13.
+(a) A star connected, 3 phase, 10 MVA, 6.6kV alternator has a per phase reactance of 10%. It is protected by a MerzPrice circulating current protection which is set to operate for fault currents not less than 175 A. Calculate the value of earthing resistance to be provided in order to ensure that only 10% of the alternator winding remains unprotected. (16)
+(b)
+(i) Explain current chopping phenomenon. (6)
+(ii) Discuss the various methods of arc quenching in circuit breakers. (10)
+14.
+(a)
+(i) Derive an expression for restriking voltage and rate of rise of restriking voltage (RRRV)in terms of system voltage, inductance up to the fault location and bushing to earth capacitance of the circuit breaker. (8)
+(ii) For a 132KV system, the reactance up to the fault location and bushing capacitance are 3 ohms and 0.015μF respectively. Calculate the maximum value of RRRV. (8)
+(b) In a 132kV systems, the reactance and capacitance up to the location of the circuit breaker is 5O and 0.02μF respectively. A resistance of 500 O is connected across the contacts of the circuit breaker. Determine (i) natural frequency of oscillations (4) (ii) frequency of damped oscillations (4) (iii) critical value of resistance (4) (iv) the value of resistance which will give frequency of damped oscillations which is equal to 1/4th the natural frequency (4) (16)
+!END_QPAPER!

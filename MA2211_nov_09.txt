@@ -1,0 +1,58 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! MA2211
+!Year! 2009
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!Semester! 3
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. State the sufficient condition for a function $f (x)$ to be expressed as a Fourier series. (2)
+2. Obtain the first term of the Fourier series for the function $f (x) = x^2$ ,$-\pi <x< \pi$. (2)
+3. Find the Fourier transform of $f(x)=\begin{cases} e^{ikx}, & a<x<b \\\\ 0, & x<a \\\\ 0, & x>b  \end{cases}$. (2)
+4. Find the Fourier sine transform of $\frac{1}{x}$. (2)
+5. Find the partial differential equation of all planes cutting equal intercepts from the x and y axes. (2)
+6. Solve $(D^3-2D^2D')z=0$. (2)
+7. Classify the partial differential equation $4\frac{\partial^2 u}{\partial x^2}=\frac{\partial u}{\partial t}$. (2)
+8. Write down all possible solutions of one dimensional wave equation. (2)
+9. If $F(z)=\frac{z^2}{\left ( z-\frac{1}{2} \right ) \left ( z-\frac{1}{4} \right ) \left ( z-\frac{3}{4} \right )}$, find $f(0)$. (2)
+10. Find the Z – transform of $x(n)=\begin{cases} \frac{a^n}{n!}, &n\geq 0 \\\\ 0. & otherwise\end{cases}$. (2)
+11.
+(a)
+(i) Obtain the Fourier series of the periodic function defined by $f(x)=\begin{cases} -\pi, & -\pi<x<0 \\\\ x, & 0<x<\pi \end{cases}$, Deduce that $\frac{1}{1^2}+\frac{1}{3^2}+\frac{1}{5^2}+...+\infty=\frac{\pi^2}{8}$. (8)
+(ii) Compute upto first harmonics of the Fourier series of $f (x)$ given by the following table $\begin{matrix} x & 0 & T/6 & T/3 & T/2 & 2T/3 & 5T/6 & T\\\\ f(x) & 1.98 & 1.3 & 1.05 & 1.3 & -0.88 & -0.25 & 1.98 \end{matrix}$ (8)
+Or
+(b)
+(i) Expand $f(x)-=x-x^2$ as a Fourier series in $-L< x < L$ and using this series find theroot mean square value of $f (x)$ in the interval. (8)
+(ii) Find the complex form of the Fourier series of $f(x)=e^{-x}$ in $-1<x<1$. (8)
+12.
+(a)
+(i) Find the Fourier transform of $f(x)=\begin{cases} 1-|x|, & |x|<1 \\\\ 0, & |x|\geq 1\end{cases}$ and hence find the value of $\int_{0}^{\infty} \frac{\sin^4 t}{t^4} \mathrm{d}t$. (8)
+(ii) Evaluate $\int_{0}^{\infty} \frac{\mathram{d}x}{(4+x^2)(25+x^2)}$ using transform methods. (8)
+Or
+(b)
+(i) Find the Fourier cosine transform of $e^{-x^2}$. (8)
+(ii) Prove that $\frac{1}{\sqrt x}$ is self reciprocal under Fourier sine and cosine transforms. (8)
+13.
+(a) A tightly stretched string with fixed end points $x=0$ and $x =l$ is initially at rest in its equilibrium position. If it is set vibrating giving each point a initial velocity $3x(l- x)$ , find the displacement. (16)
+Or
+(b) A rod, 30 cm long has its ends A and B kept at 20$^\circ$C and 80$^\circ$C respectively, until steady state conditions prevail. The temperature at each end is then suddenly reduced to 0$^\circ$C and kept so. Find the resulting temperature function is a regular function $u(x, t)$ taking $x = 0$ at A. (16)
+14.
+(a)
+(i) Find the inverse Z – transform of $\frac{10z}{z^2-3z+2}$. (8)
+(ii) Solve the equation $u_{n+2}+6u_{n+1}+9u_n=2^n$ given $u_0=u_1=0$. (8)
+Or
+(b)
+(i) Using convolution theorem, find the $Z^{-1}$ of $\frac{z^2}{{z-4}(z-3)}$. (8)
+(ii) Find the inverse Z – transform of $\frac{z^3-20z}{(z-2)^3(z-4)}$. (8)
+15.
+(a)
+(i) Solve $z=px+qy+p^2q^2$. (8)
+(ii) Solve $(D^2+2DD'+D'^2)z=\sinh (x+y)+e^{x+2y}$. (8)
+Or
+(b)
+(i) Solve $(y-xz)p+(yz-x)q=(x+y)(x-y)$. (8)
+(ii) Solve $(D^2-D'^2-3D+3D')z=xy+7$. (8)
+!END_QPAPER!
