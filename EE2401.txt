@@ -66,7 +66,7 @@
 10. Define network topology in a power system (2)
 11. 
 (a)
-(i) A generating station has the following daily load cycle. \\\\[ \begin{matrix} Time(hrs)&0-6&6-10&10-12&12-16&16-20&20-24 \\\\ Load (MW) & 40 & 50 & 60 & 50 & 70 & 40 \end{matrix} \\\\]. Draw the load curve and find (1) Max demand (2)Units generated per day (3) Average Load (4) Load factor (10)
+(i) A generating station has the following daily load cycle. \\[ \begin{matrix} Time(hrs)&0-6&6-10&10-12&12-16&16-20&20-24 \\\\ Load (MW) & 40 & 50 & 60 & 50 & 70 & 40 \end{matrix} \\] Draw the load curve and find (1) Max demand (2)Units generated per day (3) Average Load (4) Load factor (10)
 (ii) Explain the types of load forecasting (6)
 (b) Explain the important objectives of power system and various control strategies during its operation. (16)
 12.
@@ -115,7 +115,7 @@
 10. Mention the uses of SCADA in power system. (2)
 11.
 (a) Explain the following : (i) Hot reserve and cold reserve (ii) Load curve and load duration curve (iii) Governor control (iv) Security control (16)
-(b) A generating station has the following daily load cycle: \\\\[ \begin{matrix} Time(hrs)&0-6&6-8&8-12&12-14&14-18&18-20&20-24 \\\\ Load (MW) & 45 & 35 & 75 & 20 & 80 & 25 & 50 \end{matrix} \\\\]. (i) Draw the daily load curve (ii) Draw the load duration curve (iii) Calculate load factor (iv) Calculate plant capacity factor if the capacity of the plant is 120MW. (16)
+(b) A generating station has the following daily load cycle: \\[ \begin{matrix} Time(hrs)&0-6&6-8&8-12&12-14&14-18&18-20&20-24 \\\\ Load (MW) & 45 & 35 & 75 & 20 & 80 & 25 & 50 \end{matrix} \\] (i) Draw the daily load curve (ii) Draw the load duration curve (iii) Calculate load factor (iv) Calculate plant capacity factor if the capacity of the plant is 120MW. (16)
 12.
 (a) Develop the model of single control area and obtain its block diagram representation. Explain the salient features under static and dynamic conditions. (16)
 (b) Two synchronous generators operating in parallel. Their capacities are 700MW and 600MW. The droop characteristics of their governor are 4% and 5% from no load to full load. Assuming that the generators are operating at 60 Hz at no load, how would be a load of 800MW shared between them. What will be the system frequency at this load? Assume free governor action. (16)
