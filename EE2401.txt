@@ -1,0 +1,135 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2401
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define "Connected load". (2)
+2. What is a "Load Curve"? (2)
+3. What is "AGC"? (2)
+4. What are the conditions necessary for sharing load operating in parallel between the two synchronous machines? (2)
+5. What are the merits of synchronous compensator? (2)
+6. What are the various methods of voltage control in transmission system? (2)
+7. Write the equality and inequality constraints considered in the economic dispatch problem. (2)
+8. Define spinning reserve constraint in unit commitment problem. (2)
+9. Define the EMS system. (2)
+10. What is the function of load dispatch center? (2)
+11.
+(a) A generating station has a maximum demand of 20 MW, a load factor of 60% a plant capacity factor of 48% and a plant use factor of 80%. Find the (i) Daily energy produced (ii) Reserve capacity of the plant (iii) Maximum energy that could be produced daily if the plant were running all the time and (iv) Maximum energy that could be produced if the plant when running (acc. to operating schedule) were fully loaded. (16)
+(b)
+(i) A generating station has a maximum demand of 50,000 kW. Calculate the cost per unit generated from the following data. Capital cost = Rs. 95 × 106; Annual load factor = 40%; Annual cost of fuel and oil = Rs. 9 × $10^6$ ; Taxes, wages and salaries etc = Rs. 7.5 × $10^6$; Interest and depreciation = 12% (12)
+(ii) Define "diversity factor" (2)
+(iii)Define "Plant use factor". (2)
+12.
+(a) Draw the block diagram of uncontrolled two area load frequency control system and explain the salient features under static conditions. (16)
+(b) How is speed governor mechanism modeled? Explain its operations with the speed load characteristics? (16)
+13.
+(a)
+(i) Develop a typical excitation arrangement to control the voltage of an alternative and explain. (8)
+(ii) Briefly explain the role of tap changing transformer in voltage control? (8)
+(b) What is static VAR compensator? Where it is used? Explain its operation. Also state the merits of static VAR compensator over the other methods of voltage control. (16)
+14.
+(a)
+(i) Explain the unit commitment problem using priority ordering load dispatch. (8)
+(ii) Explain the term ‘Incremental Operating cost’ of power system related with economic dispatch. (8)
+(b) The fuel inputs per hour of plants 1 and 2 are given as $F_1$ = $0.2 {P_1}^2 + 40 P_1 + 120$ Rs/hr and $F_2$ = 0.25 {P_2}^2 + 30 P_2 + 150$ Rs/hr. Determine the economic operating schedule and the corresponding cost of generation if the maximum and minimum loading on each unit is 100 MW and 25 MW. Assume the transmission losses are ignored and the total demand is 180 MW. Also determine the saving obtained if the load is equally shared by both the units. (16)
+15.
+(a)
+(i) Explain need of computer control of power system. (6)
+(ii) Briefly explain various functions of SCADA with a neat diagram. (10)
+(b) Explain various state transitions and control strategies using state transition diagram. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2401
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define the term "maximum demand" (2)
+2. Define "load curve" (2)
+3. What are the types of automatic load frequency control for interconnected power system? (2)
+4. What is automatic load dispatching? (2)
+5. What are the different types of reactive power compensation? (2)
+6. Define "booster transformer" (2)
+7. What is incremental cost criterion? (2)
+8. Name some thermal constraints in unit commitment problem (2)
+9. What is "SCADA" ? (2)
+10. Define network topology in a power system (2)
+11. 
+(a)
+(i) A generating station has the following daily load cycle. \\\\[ \begin{matrix} Time(hrs)&0-6&6-10&10-12&12-16&16-20&20-24 \\\\ Load (MW) & 40 & 50 & 60 & 50 & 70 & 40 \end{matrix} \\\\]. Draw the load curve and find (1) Max demand (2)Units generated per day (3) Average Load (4) Load factor (10)
+(ii) Explain the types of load forecasting (6)
+(b) Explain the important objectives of power system and various control strategies during its operation. (16)
+12.
+(a) With a neat block diagram, explain the single area load frequency control system (16)
+(b)
+(i) Discuss the integration of economic dispatch control with automatic generation control (8)
+(ii) Derive an expression for load sharing between two alternators. What are the effects of fuel supply and change of excitation? (8)
+13.
+(a)
+(i) Discuss the relation between voltage and reactive power at a node (9)
+(ii) Explain briefly the power requirement for control of voltage in long radial lines (7)
+(b)
+(i) Explain the methods of voltage control in a transmission system - By Transformer tap setting (8)
+(ii) Explain the methods of voltage control in a transmission system - By Booster Transformer (8)
+14.
+(a)
+(i) Explain the $\gamma$ iteration method for finding the solution of economic dispatch including transmission losses with a neat flowchart (10)
+(ii) A generating unit has two 200MW units whose input cost data is as follows: $F_1=0.004{P_1}^2+2.0P_1+80 Rs/hr$ , $F_2=0.006{P_2}^2+1.5P_2+100 Rs/hr$. For a total load of 250 MW, find the load dispatch between the 2 units for economic operation (6)
+(b)
+(i) Explain the priority list method for unit commitment problem (10)
+(ii) Define (i) Minimum up time (ii) Minimum down time and (iii) Spinning reserve (6)
+15.
+(a) Discuss the functions of 'SCADA' in power systems operation (16)
+(b) Enumerate the various operating states and the control strategies of a power system (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2401
+!Year! 2010
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define the term "diversity factor". (2)
+2. What do you mean by spinning reserve? (2)
+3. Define per unit droop. (2)
+4. Write down the equation for area control error of two area system. (2)
+5. What is stability compensation? (2)
+6. List the methods of voltage control? (2)
+7. Write a few constraints in unit commitment problem. (2)
+8. What is meant by incremental cost curve? (2)
+9. Define state estimation. (2)
+10. Mention the uses of SCADA in power system. (2)
+11.
+(a) Explain the following : (i) Hot reserve and cold reserve (ii) Load curve and load duration curve (iii) Governor control (iv) Security control (16)
+(b) A generating station has the following daily load cycle: \\\\[ \begin{matrix} Time(hrs)&0-6&6-8&8-12&12-14&14-18&18-20&20-24 \\\\ Load (MW) & 45 & 35 & 75 & 20 & 80 & 25 & 50 \end{matrix} \\\\]. (i) Draw the daily load curve (ii) Draw the load duration curve (iii) Calculate load factor (iv) Calculate plant capacity factor if the capacity of the plant is 120MW. (16)
+12.
+(a) Develop the model of single control area and obtain its block diagram representation. Explain the salient features under static and dynamic conditions. (16)
+(b) Two synchronous generators operating in parallel. Their capacities are 700MW and 600MW. The droop characteristics of their governor are 4% and 5% from no load to full load. Assuming that the generators are operating at 60 Hz at no load, how would be a load of 800MW shared between them. What will be the system frequency at this load? Assume free governor action. (16)
+13.
+(a)
+(i) Discuss generation and absorption of reactive power. (8)
+(ii) Explain how voltage control can be affected by injection of reactive power. (8)
+(b)
+(i) Explain the operation of on-load tap changing transformer. (8)
+(ii) A 414 KV line is fed through 132/415 KV transformer from a constant 132 KV supply. At the load end of the line, the voltage is reduced by another transformer of 415/132 KV. The total impedance of line is (20+j40) ohms. Both transformers are equipped with tap-changing. The product of the two off-nominal setting is unity. The load on the system is 250 MW at 0.8 p.f. lagging. Calculate the settings of the tap changer required to maintain the voltage at 132KV. (8)
+14.
+(a) State the unit commitment problem. Explain priority list method of unit commitment problem in detail. (16)
+(b) With a neat flow chart explain the iterative algorithm for solving the economic dispatch equation of N-bus power system taking into account the effects of system losses. (16)
+15.
+(a) Discuss the various functions of energy control centre. (16)
+(b) Explain the operating states of a power system in the security perspective with an example. (16)
+!END_QPAPER!
