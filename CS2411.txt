@@ -1,0 +1,85 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CS2411
+!Year! 2012
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. What is a bootstrap program? (2)
+2. Define context switch (2)
+3. Differentiate preemptive from non-preemptive scheduling (2)
+4. Is it possible to have a deadlock involving only one process? State your answer (2)
+5. What is an overlay? What is the use of it? (2)
+6. Define thrashing (2)
+7. Name any four common file types (2)
+8. What is NFS? (2)
+9. What is a trap? (2)
+10. What do you mean by a WORM disk? (2)
+11.
+(a)
+(i) Describe the essential properties of Time sharing operating systems (5)
+(ii) Describe the essential properties of multiprocessor operating systems (6)
+(iii) Describe the essential properties of distributed operating systems (5)
+(b) Write in detail about threading issues (16)
+12.
+(a) Explain the differences in the degree to which the following scheduling algorithms discriminate in favour of short processes (i) FCFS (5) (ii) RR (6) (iii) Multilevel feedback queues (5) (16)
+(b) Write about deadlock conditions and banker's algorithm in detail (16)
+13.
+(a) With a neat sketch explain about segmentation and paging (16)
+(b) Discuss about any three page replacement algorithm in detail (16)
+14.
+(a) Write briefly about file attributes, operations, types and structure (16)
+(b) Discuss in detail about file allocation methods (16)
+15.
+(a) Explain about disk scheduling (16)
+(b)
+(i) Explain RAID (8)
+(ii) Explain I/O in Linux (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CS2411
+!Year! 2011
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Define Operating Systems (2)
+2. What are the advantages of cooperating processes? (2)
+3. What is meant by a system call? (2)
+4. Define monitor. What does it consist of? (2)
+5. What are the disadvantages of single contiguous memory allocation? (2)
+6. What is demand paging? (2)
+7. Mention any four file attributes (2)
+8. Differentiate absolute path from relative path (2)
+9. What are seek time and rotational latency? (2)
+10. Define mirroring and shadowing (2)
+11. 
+(a) Explain briefly about interprocess communication (16)
+(b)
+(i) Describe Virtual machine (6)
+(ii) Describe Process state (4)
+(iii) Describe process control bloc (6)
+12.
+(a) Write about FCFS scheduling and Round Robin scheduling (16)
+(b) How does deadlock avoidance differ from deadlock prevention? Write about deadlock avoidance algorithm in detail. (16)
+13.
+(a) Explain Segmentation with paging (16)
+(b) Why should page replacement be performed? Compare FIFO, Optimal and LRU page replacement algorithms with an example of your choice (16)
+14.
+(a) Briefly explain about Directory structure (16)
+(b) Explain free space management (16)
+15.
+(a) Write about stable storage and tertiary storage (16)
+(b)
+(i) List out the characteristics of I/O devices (6)
+(ii) With a neat sketch explain PC bus structure (10)
+!END_QPAPER!
