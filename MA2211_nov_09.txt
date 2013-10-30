@@ -30,7 +30,7 @@ Or
 12.
 (a)
 (i) Find the Fourier transform of $f(x)=\begin{cases} 1-|x|, & |x|<1 \\\\ 0, & |x|\geq 1\end{cases}$ and hence find the value of $\int_{0}^{\infty} \frac{\sin^4 t}{t^4} \mathrm{d}t$. (8)
-(ii) Evaluate $\int_{0}^{\infty} \frac{\mathram{d}x}{(4+x^2)(25+x^2)}$ using transform methods. (8)
+(ii) Evaluate $\int_{0}^{\infty} \frac{\mathrm{d}x}{(4+x^2)(25+x^2)}$ using transform methods. (8)
 Or
 (b)
 (i) Find the Fourier cosine transform of $e^{-x^2}$. (8)
