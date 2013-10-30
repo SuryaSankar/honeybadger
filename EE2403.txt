@@ -1,0 +1,178 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2403
+!Year! 2010
+!Month! Apr/May
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1.What are the types of rotor available in synchronous reluctance motor? (2)
+2.What is vernier motor? (2)
+3.Give the classification of stepper motor. (2) 
+4.Define the term slewing. (2)
+5.Draw the speed-torque characteristics of switched reluctance motor. (2)
+6.List any four applications of switched reluctance motor. (2)
+7.What are the advantages of PMBLDC motor? (2)
+8.Give the expression for the emf and torque of a PMBLDC motor. (2)
+9.What is load commutation? (2)
+10.What is the magnitude of stator current in PMSM to achieve demagnetization? (2)
+11.
+(a) Explain the principle of operation and constructional features of different types of synchronous reluctance motor.(16)
+(b) Explain the circle diagram and torque speed characteristics of synchronous reluctance motor.(16)
+12.
+(a)
+(i) Describe the operation of a variable reluctance type stepper motor.(8)
+(ii) Draw and explain the torque pulse rate characteristics of a stepper motor.(8)
+(b)
+(i) Explain the working of hybrid motor with neat diagram.(8)
+(ii) What is stepping angle? A VR stepper motor 8 poles in the stator and they have five teeth in each pole. If the rotor has 50 teeth, calculate the step angle and resolution.(8)
+13.
+(a) Describe the Hysteresis type and PWM type current regulator for one phase of a switched reluctance motor with relevant circuit diagram.(16)
+(b)With neat diagram, explain the microprocessor based control of switched reluctance motor.(16)
+14.
+(a) Explain the construction and principle of operation of PMBLDC motor with neat diagram.(16) 
+(b) Describe the operation of power controllers for PMBLDC motor with neat diagram.(16)
+15.
+(a) Explain the construction and performance of a permanent magnet synchronous motor with neat diagram.(16)
+(b) Derive the emf and torque equation of permanent magnet synchronous motor.(16)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2403
+!Year! 2013
+!Month! May/Jun
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. List the types of synchronous reluctance motors. (2)
+2. Give the difference between synchronous reluctance motor and switched reluctance motor. (2)
+3. What is the function of drive circuit in stepping motor? (2)
+4. Define step angle in stepping motor. (2)
+5. Write the torque equation of switched reluctance motor? (2)
+6. Mention some position sensors used in switched reluctance motor? (2)
+7. Compare permanent magnet brushless D.C motor with permanent magnet synchronous motor. (2)
+8. What is commutation? (2)
+9. Define synchronous reactance in PMSM? (2)
+10.Draw the output phasor diagram of PMSM. (2)
+11.
+(a) Describe the constructional features of axial and radial flux synchronous reluctance motors. (16)
+(b) Derive the voltage and torque equations of synchronous reluctance motor. (16)
+12. 
+(a) With a neat block diagram explain microprocessor control of stepping motor. (16)
+(b) Explain the working of single and multi-stack configured stepping motors. (16)
+13. 
+(a) Describe the construction and working of rotary and linear switched reluctance motors. (16)
+(b)
+(i) Discuss the following in switched reluctance motor: Method of rotor position sensing. (8)
+(ii) Discuss the following in switched reluctance motor: Sensorless operation. (8)
+14. 
+(a) Discuss the magnetic circuit analysis relevant to permanent magnet brushless D.C. Motor. Also draw the characteristics. (16)
+(b) Illustrate the working of different types of power controllers used for the control of permanent magnet brushless D.C. Motors. (16)
+15. 
+(a)
+(i) Write short notes on : Volt-ampere requirements in PMSM Motor. (8)
+(ii) Write short notes on : Torque /speed characteristics in PMSM Motor. (8)
+(b) Derive EMF and Torque equations of permanent magnet synchronous motor. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2403
+!Year! 2011
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Write voltage and torque equations of a synchronous reluctance motor. (2)
+2. Define reluctance torque. (2)
+3. Draw the block diagram of the drive systems of s stepping motor. (2)
+4. What is meant by hybrid stepping motors? (2)
+5. Explain why rotor position sensor is essential for the operations of SRM. (2)
+6. State the applications of switched reluctance motors. (2)
+7. How are the directions of rotations reversed in case of PLBLDC motor? (2)
+8. What is electronic commutator? (2)
+9. Write down the expressions for the self and synchronous reactance of permanent magnet synchronous motor. (2)
+10. List a few applications of PMSM. (2)
+11.
+(a) Describe the constructional features of synchronous reluctance motor and explain its characteristics. Also draw the phasor diagram. (16)
+(b) Differentiate between axial and radial air gap synchronous reluctance motors. Compare the performance of synchronous reluctance motor with switched reluctance motor. (16)
+12.
+(a) Discuss the principle of operations of permanent magnet stepper motor with torque Vs angle characteristics. (16)
+(b) Discuss dual voltage driver circuit for two phase on drive of a four phase stepper motor and explain the nature of current build up in dual voltage drive. (16)
+13.
+(a) Discuss the various converter topologies for a 3 phase switched reluctance motor with merits and demerits of each. Explain any two of them. (16)
+(b) With a neat block diagram, describe in detail the microprocessor based controller in switched reluctance motor. (16)
+14.
+(a) Sketch the structure of controller for PMBL DC motor and explain the functions of various blocks. (16)
+(b) 
+(i) Distinguish between mechanical and electronic commutators. (8)
+(ii) Draw the diagram of electronic commutator. Explain the operation of the same. (8)
+15.
+(a) Derive the expression for power input and torque of a PMSM. Explain how its torque speed characteristics are obtained. (16)
+(b) Describe in detail the vector control of PMSM. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EE2403
+!Year! 2012
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Give some potential applications of synchronous reluctance machine (2)
+2. Write the various design parameters of a synchronous reluctance motor (2)
+3. Calculate the stepping angle for a 3 phase, 24 pole permanent magnet stepper motor (2)
+4. Define torque constant of a stepper motor (2)
+5. Why SR machines are popular in adjustable speed drives? (2)
+6. What is the significance of rotor position sensor is essential for the operation of SR motors? (2)
+7. Compare and contrast conventional DC motors and PMBLDC motors (2)
+8. A permanent magnet DC commutator motor has a stalling torque of 1Nm. The stall current is 5A. Compute the motor's no load speed if it is fed with 28 V DC supply. (2)
+9. Brief up the advantages of load commutation in permanent magnet synchronous motors (2)
+10. What is meant by self control? (2)
+11.
+(a) Describe in detail the speed-torque and torque-angle characteristics of synchronous reluctance motors with phasor diagrams (16)
+(b) Explain the construction and working principles of synchronous reluctance motors in detail, with neat structural diagrams (16)
+12.
+(a)
+(i) Discuss in detail about the construction and working principle of variable reluctance stepper motors. (8)
+(ii) A single stack 3 phase variable reluctance motor has a step angle of $15^{\circ}$. Find the number of stator and rotor poles (8)
+(b)
+(i) What is the motor Torque Tm required to accelerate an initial load of $ 2 \mathrm{x} 10^{-4} kgm^2$ from 500 Hz to 1500 Hz in 50 ms. The frictional torque is 0.03 Nm and step angle is $1.18^\circ$ (8)
+(ii) Write a detailed note on the bipolar drives for stepper motors (8)
+13.
+(a)
+(i) Enumerate the various operating modes of SR motors with neat diagrams (8)
+(ii) Describe in detail about the microprocessor based control of SR motor drives (8)
+(b)
+(i) Explain the torque-speed characteristics of switched reluctance motors (8)
+(ii) Derive the expressions for voltage and torque of SR machines (8)
+14.
+(a) 
+(i) Describe the constructional aspects of mechanical and electronic commutators of Permanent magnet brushless DC motors (8)
+(ii) A PMBLDC motor has a torque constant 0.12 Nm/A referred to DC supply. Find the motor's no load speed when connected to 48V DC supply. Find the stall current and stall torque if armature resistance is 0.15 $\Omega$/phase and drop in controller transistor is 2V. (8)
+(b)
+(i) A permanent magnet DC commutator motor has a no-load speed of 600 rpm when connected to  a 120 C supply. The armature resistance is 2.5 $\Omega$ and rotational and iron losses may be neglected. Determine the supply voltage is 60V and the torque is 0.5Nm (8)
+(ii) Illustrate in detail, the operation of PMBLDC motor with $180^{\circ}$ magnet arcs and $120^{\circ}$ square wave phase currents (8)
+15.
+(a)
+(i) Discuss the different rotor configurations of PM synchronous machines (8)
+(ii) Derive the expression for the torque developed in a Brushless Permanent Magnet Synchronous motor (8)
+(b)
+(i) Write a detailed note on Vector control of Brushless Permanent Magnet Synchronous motor (8)
+(ii) Write a detailed note on Microprocessor based control (8)
+!END_QPAPER!
