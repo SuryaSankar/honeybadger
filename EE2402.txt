@@ -1,6 +1,6 @@
 !START_QPAPER_DESC!
 !University! Anna University - Affliated Colleges
-!CourseCode! EC2314
+!CourseCode! EE2402
 !Year! 2011
 !Month! Nov/Dec
 !Title! BTech Degree examination
@@ -49,7 +49,7 @@ Or
 
 !START_QPAPER_DESC!
 !University! Anna University - Affliated Colleges
-!CourseCode! EC2314
+!CourseCode! EE2402
 !Year! 2012
 !Month! Nov/Dec
 !Title! BTech Degree examination
@@ -95,7 +95,7 @@ Or
 
 !START_QPAPER_DESC!
 !University! Anna University - Affliated Colleges
-!CourseCode! EC2314
+!CourseCode! EE2402
 !Year! 2010
 !Month! Apr/May
 !Title! BTech Degree examination
