@@ -1,0 +1,47 @@
+!START_QPAPER_DESC!
+!University! Anna University Chennai
+!CourseCode! CS2202
+!Year! 2011
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!Semester! 3
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+
+!START_QPAPER!
+1. Simplify the expression $((AB' + ABC)' + A (B + AB'))'$. (2)
+2. Find the minimum expression of $Y = \prod (0, 1, 3, 5, 6, 7, 10, 14, 15)$. (2)
+3. Draw the full adder circuit as a collection of two half adder. (2)
+4. A circuit is to be designed that has one control line and three data lines. When the control line is high, the circuit is to detect when one of the data lines has a $1$ on it. No more than one data line will ever have a $1$ on it. When the control line is low, the circuit will output a $0$, regardless of what is on the data lines. (2)
+5. The input frequency of a 7497 binary rate multiplier is 64 KHz. What will its output be if the multiplier word is 1011? (2)
+6. Implement a digital circuit that statistics the following : $F (A, B, C) = \sum (0, 2, 3, 4, 7)$, $d (A, B, C) = (1)$ (2)
+7. Given a 8 bit data word $01011011$, generate the 13 bit composite word for the Hamming code that corrects single errors and detects double errors. (2)
+8. Draw a 4- bit binary synchronous counter with D flip flops. (2)
+9. Draw a circuit that has no static hazards and implement the boolean function $F (A, B, C, D) = \sum (0,2,6, 7, 8, 10, 12)$ (2)
+10. Find a critical race free state assignment for the reduced flow table shown. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/CS2202/Nov11/1.jpg) (2)
+11.
+(a) Reduce the expression using Quine McCluskey method - $F(x_1,x_2,x_3,x_4,x_5) = \sum m(0, 2, 4, 5, 6, 7, 8, 10, 14, l7, l8, 21, 29, 31) + \sum d (11, 20, 22)$. (16)
+Or
+(b) Explain the conversion of regular expression into canonical expression and their simplification in SOP and POS forms. (16)
+12.
+(a) Design a combinational circuit that multiplies by 5 an input decimal digit represented in BCD. The output is also in BCD. Show that the outputs can be obtained from the input lines without using any logic gates. (16)
+Or
+(b) A circuit receives only valid 5211 or 8421 BCD information and provides two output lines X and Y. Design the circuit such that X will provide an output anytime a valid 8421 BCD code appears at the input and Y will provide an output anytime a valid 5211 BCD code appears at the input. (16)
+13.
+(a) Implement the following Boolean function with a 4 X 1 multiplexer and external gates. Connect inputs A and B to the selection lines. The input requirements for the four data lines will be a function of variables C and D. these values are obtained by expressing F as a function of C and D for each of the four cases when AB=00, 01, 10 and 11. These functions may have to be implemented with external gates. $F(A,B,C,D)= \sum (1,3,4, 11, 12, 13, 14, 15)$ (16)
+Or
+(b) Design a combinational circuit that compares two 4 bit numbers A and B to check if they are equal. The circuit has three output x, y, z so that x =1 if A = B and y = 1 if A < B and z = 1 if A > B. (16)
+14.
+(a)
+(i) Reduce the number of states in the state table and tabulate the reduced state table. ![Fig2](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/CS2202/Nov11/2.jpg) (8)
+(ii) Starting from state a of the state table, find the output sequence generated with an input sequence 01110010011. (8)
+Or
+(b)
+(i) Design a non binary sequence counter with the following repeated binary sequence: 0, 1, 2, 3, 4, 5, 6. Use JK flipflops. Treat the unused states as don’t care conditions. Analyze the final circuit to ensure that it is self correcting. If your design produces a non self correcting counter, modify the circuit to make itself correcting. (6)
+(ii) Design a non binary sequence counter with the following repeated binary sequence: 0, 1, 2, 4, 6. Use D flipflops. Treat the unused states as don’t care conditions. Analyze the final circuit to ensure that it is self correcting. If your design produces a non self correcting counter, modify the circuit to make itself correcting. (5)
+(iii) Design a non binary sequence counter with the following repeated binary sequence: 0, 1, 3, 5, 7. Use T flipflops. Treat the unused states as don’t care conditions. Analyze the final circuit to ensure that it is self correcting. If your design produces a non self correcting counter, modify the circuit to make itself correcting. (5)
+15.
+(a) A traffic light is installed at a junction of railroad and road. The traffic light is controlled by two switches in the rails placed one mile apart on either side of the junction. A switch is turned on when the train is over it and is turned off otherwise. The train light changes from green (logic -0) to red (logic - 1) when the beginning of the train is one mile from the junction. The light changes back to green when the end of the train is one mile away from the junction. Assume that the length of the train is less than two miles. Obtain the primitive flow table for the circuit and Show that the flow table can be reduced to four rows. (16)
+Or
+(b) An asynchronous sequential circuit is described by the following excitation and output functions $Y = x1x2'+(x1 + x2')y$, $Z = y$. Draw the logic diagram of the circuit. Derive the transition table and output map. Obtain 2 state flow table. Describe in words the behaviour of the circuit. (16)
+!END_QPAPER!

@@ -32,7 +32,7 @@
 (v) Explain corona power loss with respect to corona (4)
 (b) Derive an expression for capacitance of 3 $\phi$ unsymmetrically spaced transmission line (16)
 13.
-(a) A 15 km long 3 phase overhead line delivers 5MW at 11 kV at 0.8 lagging PF. Line loss is 12% of the power delivered. Line inductance is 1.1mH per km per phase. Find sending end voltage and voltage regulation.
+(a) A 15 km long 3 phase overhead line delivers 5MW at 11 kV at 0.8 lagging PF. Line loss is 12% of the power delivered. Line inductance is 1.1mH per km per phase. Find sending end voltage and voltage regulation. (16)
 (b)
 (i) Perform the analysis of long transmission lines using RIGOROUS method (12)
 (ii) Explain the concept of surge impedance loading (4)
