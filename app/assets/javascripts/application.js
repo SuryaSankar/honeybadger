@@ -19,6 +19,7 @@
 //= require Markdown.Sanitizer
 //= require Markdown.Editor
 //= require Markdown.Extra
+//= require jquery.jstree
 //= require_tree .
 
 

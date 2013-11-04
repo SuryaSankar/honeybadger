@@ -16,7 +16,45 @@
     <!-- For all other devices -->
     <!-- Size should be 32 x 32 pixels -->
     <%# favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
+<%= javascript_include_tag "application" %>
+   
+<% cache(cache_programs_courses) do %> 
+   <script type="text/javascript">
+		        $(function() {
+            $('#tree1').jstree( {
+				"json_data" : { "data": <%= raw University.select([:id, :name]).where(name: "Anna University - Affliated Colleges").includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {	"data" => u.name, 
+	"state" => "open", 
+	"children" => u.programs.to_a.map{ |p| { 
+			"data" => p.shorter_desc , 
+			"children" => (1..8).map{|x| { "data" => "Semester "+x.to_s, 
+							"children" => p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.map{ |puc1| { 
+								"attr"=> { "rel" => "leaf" } ,"data" => { "title" => puc1.university_course.full_course_name, "attr" => { "href" => program_university_course_path(puc1.id) } }
+ } }  }} }} }}.to_json %> }, 
+				"core" : { "html_titles" : true  },
+				"themes" : { "theme" : "default", "url": "<%=asset_path "jstree.css" %>", "dots" : false ,"icons" : false },
+				"types" : { 
+						"types" : { 
+						    "leaf" : {
+							"select_node": function (e) {
+								   document.location = e.children("a").attr("href");
+								   return false;
+									}
+						    },
+						    "default" : { 
+							"select_node" : function(e) {
+								            this.toggle_node(e);
+								            return false;
+								        } 
 
+						    }
+						} 
+					     },
+				"plugins" : [ "themes", "json_data", "types", "ui" ]
+});
+        });
+    </script>
+
+<% end %>
   </head>
   <body class="noisehome whiteOnGreen">
   
@@ -111,42 +149,8 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
     <!-- Javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <%= javascript_include_tag "application" %>
-<% cache(cache_programs_courses) do %> 
-   <script type="text/javascript">
-		        $(function() {
-            $('#tree1').jstree( {
-				"json_data" : { "data": <%= raw University.select([:id, :name]).where(name: "Anna University - Affliated Colleges").includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {	"data" => u.name, 
-	"state" => "open", 
-	"children" => u.programs.to_a.map{ |p| { 
-			"data" => p.shorter_desc , 
-			"children" => (1..8).map{|x| { "data" => "Semester "+x.to_s, 
-							"children" => p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.map{ |puc1| { 
-								"attr"=> { "rel" => "leaf" } ,"data" => { "title" => puc1.university_course.full_course_name, "attr" => { "href" => program_university_course_path(puc1.id) } }
- } }  }} }} }}.to_json %> }, 
-				"core" : { "html_titles" : true  },
-				"themes" : { "theme" : "default", "url": "<%=asset_path "jstree.css" %>", "dots" : false ,"icons" : false },
-				"types" : { 
-						"types" : { 
-						    "leaf" : {
-							"select_node": function (e) {
-								   document.location = e.children("a").attr("href");
-								   return false;
-									}
-						    },
-						    "default" : { 
-							"select_node" : function(e) {
-								            this.toggle_node(e);
-								            return false;
-								        } 
+ 
 
-						    }
-						} 
-					     },
-				"plugins" : [ "themes", "json_data", "types", "ui" ]
-});
-        });
-    </script>
-<% end %>
+
   </body>
 </html>
