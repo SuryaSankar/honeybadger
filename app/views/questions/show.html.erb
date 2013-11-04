@@ -33,9 +33,23 @@
 
 <% content_for :navbar_breadcrumbs do %>
 	<ul class="nav">
+<% if @qpaper then %>
+	<% if @puc then %>
+	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+<li><%= link_to program_path(@puc.program_id) do %><%= @puc.program.short_desc %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to qpaper_path(@qpaper.id) do %><%= @qpaper.month+"-"+ @qpaper.year.to_s %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+	<% else %>
+	<li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+	<li><%= link_to qpaper_path(@qpaper.id) do %><%=@qpaper.university_course.course.full_course_name+"-"+ @qpaper.month+"-"+ @qpaper.year %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+	<% end %>
+<% else %>
 	  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
   <li><%= link_to branch_path(@question.course.branch_id) do %><%= @question.course.branch.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 <li><%= link_to course_path(@question.course_id) do %><%= @question.course.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+
+<% end %>
+
 	</ul>
 <% end %>
 
@@ -46,11 +60,13 @@
 				<div class="heading"><h4>Answers</h4></div>
 				<div class="bordered-box-content">
 					<% solutions=@question.solutions %>
-					<% if solutions.empty? then%>
+					<% if @question.solutions.size > 0 then %>
 						<% solutions.each do |sol| %>
+							<div class="answer-entry">
+							<h5><%= sol.user.uname %>'s Answer</h5>
 							<p><%= sol.answer %></p>
-							Submitted by:
-							<p> <%= sol.user.uname %> </p>
+							<%= link_to "Edit answer", edit_solution_path(sol.id) if sol.user_id==current_user.id %>
+							</div>
 						<% end %>
 					<% else %>
 						No answers have been submitted yet.
@@ -60,7 +76,10 @@
 			<div class="bordered-box">
 				<div class="heading"><h4>Add your answer here</h4></div>
 				<div class="bordered-box-content">
-					<%= simple_form_for @solution, :html => { :class => 'form-horizontal' } do |f| %>
+	<%= bootstrap_flash %>
+
+
+					<%= simple_form_for @solution, url: '/questions/'+@question.id.to_s+'/addanswer', :html => { :class => 'form-horizontal' } do |f| %>
 					<div class='wmd-panel'><div id='wmd-button-bar'></div><%= f.text_area :answer, id: 'wmd-input', class: 'wmd-input' %>
 					</div>
 					<%= submit_tag "Add Solution", class: "btn btn-success" %>

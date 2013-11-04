@@ -11,11 +11,19 @@
 
 
 <% content_for :navbar_breadcrumbs do %>
-	<ul class="nav">
+<ul class="nav">
+<% if @puc then %>
+	
+	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+<li><%= link_to program_path(@puc.program_id) do %><%= @puc.program.short_desc %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<% else %>
 	  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
   <li><%= link_to branch_path(@qpaper.university_course.course.branch_id) do %><%= @qpaper.university_course.course.branch.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 <li><%= link_to university_path(@qpaper.university_course.university_id) do %><%= @qpaper.university_course.university.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 <li><%= link_to university_course_path(@qpaper.university_course_id) do %><%= @qpaper.university_course.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+
+<% end %>
 	</ul>
 <% end %>
 
@@ -34,7 +42,9 @@
 		<td><%= eq.qnumber.to_s %><%= eq.subquestion_no.nil? ? "" : "."+eq.subquestion_no.to_s %><%= eq.subsubqno.nil? ? "" : "."+eq.subsubqno.to_s %></td>
 		  <td><%= raw render_markdown eq.question.qtext %></td>
 		  <td><%= eq.mark.to_s %></td>
-		  <td><%= link_to question_path(eq.question_id), class: "btn btn-success" do %>
+		 <% pucid = "nil" %>
+		 <% pucid = @puc.id.to_s unless @puc.nil? %>
+		  <td><%= link_to question_path(eq.question_id) + "?qpaperid="+@qpaper.id.to_s+"&puc="+pucid, class: "btn btn-success" do %>
 			<i class="icon-unlock"></i>
 		<% end %></td>
 	  </tr>

@@ -20,6 +20,8 @@ Honeybadger::Application.routes.draw do
   get '/university_courses/:id/new_qpaper' => 'university_courses#new_qpaper' , as: "university_courses_new_qpaper"
   get '/courses/:id/new_question' => 'courses#new_question' , as: "course_new_question"
   
+  post '/questions/:question_id/addanswer' => 'questions#submit_answer'
+
 
   resources :qpapers
   resources :questions

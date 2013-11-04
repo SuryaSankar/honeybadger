@@ -12,8 +12,14 @@ class QuestionsController < ApplicationController
   # GET /questions/1
   # GET /questions/1.json
   def show
+	if params[:qpaperid] then
+		@qpaper=Qpaper.find params[:qpaperid]
+	end
+	if params[:puc]!="nil" then
+		@puc=ProgramUniversityCourse.find(params[:puc])
+	end
 	@show_left_navigation = false
-	@solution = @question.solutions.build.tap { |sol| sol.user_id = current_user.id } if user_signed_in?
+	@solution = Solution.new
   end
 
   # GET /questions/new
@@ -66,6 +72,15 @@ class QuestionsController < ApplicationController
   end
 
   def submit_answer
+	@solution=Solution.new solution_params
+	@solution.user_id=current_user.id
+	@solution.question_id= params[:question_id]
+	@question = Question.find(params[:question_id])
+	if @solution.save! then
+		redirect_to question_path(params[:question_id])
+	else
+		render action: 'show', location: Question.find(params[:question_id])
+	end		
   end
 
   private
@@ -80,6 +95,6 @@ class QuestionsController < ApplicationController
     end
 
     def solution_params
-	params.require(:solution).permit(:answer)
+	params.require(:solution).permit(:id,:answer,:question_id)
     end
 end
