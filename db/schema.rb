@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131026193952) do
+ActiveRecord::Schema.define(version: 20131104123720) do
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false
@@ -186,6 +186,7 @@ ActiveRecord::Schema.define(version: 20131026193952) do
     t.integer  "course_id"
     t.integer  "topic_id"
     t.string   "qtitle"
+    t.boolean  "standalone", default: false
   end
 
   add_index "questions", ["course_id"], name: "index_questions_on_course_id"

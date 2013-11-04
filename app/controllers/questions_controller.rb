@@ -15,7 +15,7 @@ class QuestionsController < ApplicationController
 	if params[:qpaperid] then
 		@qpaper=Qpaper.find params[:qpaperid]
 	end
-	if params[:puc]!="nil" then
+	if params[:puc] && params[:puc]!="nil" then
 		@puc=ProgramUniversityCourse.find(params[:puc])
 	end
 	@show_left_navigation = false
@@ -25,6 +25,9 @@ class QuestionsController < ApplicationController
   # GET /questions/new
   def new
     @question = Question.new
+    if params[:course] then
+	@question.course = Course.find(params[:course])
+    end
   end
 
   # GET /questions/1/edit
@@ -91,7 +94,7 @@ class QuestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_params
-      params.require(:question).permit(:qtext,:qdesc)
+      params.require(:question).permit(:qtext,:qtitle, :course_id, :topic_id)
     end
 
     def solution_params

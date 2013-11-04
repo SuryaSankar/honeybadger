@@ -27,6 +27,7 @@ gem 'actionpack-action_caching'
 #gem 'gollum_rails'
 gem "aws-sdk"
 gem "paperclip"
+gem "dalli"
 
 
 group :development do

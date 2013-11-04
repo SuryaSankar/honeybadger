@@ -24,14 +24,15 @@ class QpaperFilesController < ApplicationController
   # POST /qpaper_files
   # POST /qpaper_files.json
   def create
+    puts params
     @qpaper_file = QpaperFile.new(qpaper_file_params)
     @qpaper_file.user_id = current_user.id
     respond_to do |format|
       if @qpaper_file.save
-        format.html { redirect_to @qpaper_file, notice: 'Qpaper file was successfully created.' }
+        format.html { redirect_to session[:previous_url], notice: 'Thanks for uploading the question paper. We will review it and add it to our database.' }
         format.json { render action: 'show', status: :created, location: @qpaper_file }
       else
-        format.html { render action: 'new' }
+        format.html { redirect_to session[:previous_url] ,notice: 'Sorry. There was some error in uploading the file. Please try again' }
         format.json { render json: @qpaper_file.errors, status: :unprocessable_entity }
       end
     end

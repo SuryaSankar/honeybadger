@@ -37,7 +37,8 @@
 		<% else %>
 		There are no question papers yet for this course.
 		<% end %>
-
+<div id="underlined-h5"><h5>Upload a question paper</h5></div>
+<%= bootstrap_flash %>
 <%= simple_form_for :qpaper_file, :url => qpaper_files_path, :html => { :multipart => true } do |form| %>
   <%= form.file_field :uploaded_file %>
   <%= form.input :university_course_id, :as => :hidden, :input_html => { :value => @program_university_course.university_course_id } %>
@@ -54,9 +55,11 @@
 <div class="bordered-box">
             <div class="heading"><h4>Questions</h4></div>
 	    <div class="bordered-box-content">
-		<% questions = Question.includes(:examquestions).where(course_id: @program_university_course.university_course.course_id ).order('examquestions.mark ASC').group_by { |q| q.examquestions.first.mark } %>
+<p><h5> <%= link_to "Add a question" , new_question_path+"?course="+@program_university_course.university_course.course_id.to_s %> </h5></p>
+<h5>Questions obtained from question papers</h5>
+		<% questions = Question.joins(:examquestions).where(course_id: @program_university_course.university_course.course_id).where(standalone: false).order('examquestions.mark ASC').group_by { |q| q.examquestions.first.mark } %>
 		<% questions.keys.each do |mark| %>
-		<h5><%= mark %> Marks</h5>
+		<h6><%= mark %> Marks</h6>
 		<ol>
 		<% questions[mark].each do |q| %>
 		 <li><%= link_to (q.qtitle || q.qtext), question_path(q.id) %></li>

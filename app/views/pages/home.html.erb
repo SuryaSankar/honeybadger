@@ -116,7 +116,7 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
    <script type="text/javascript">
 		        $(function() {
             $('#tree1').jstree( {
-				"json_data" : { "data": <%= raw University.select([:id, :name]).includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {	"data" => u.name, 
+				"json_data" : { "data": <%= raw University.select([:id, :name]).where(name: "Anna University - Affliated Colleges").includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {	"data" => u.name, 
 	"state" => "open", 
 	"children" => u.programs.to_a.map{ |p| { 
 			"data" => p.shorter_desc , 
