@@ -14,6 +14,7 @@
 
     <%= stylesheet_link_tag "application", :media => "all" %>
 <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
     <!-- For all other devices -->
     <!-- Size should be 32 x 32 pixels -->
     <%# favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
@@ -34,8 +35,6 @@
             <ul class="nav pull-right">
 <li class="divider-vertical"></li>
               <li><%= link_to "Home", root_path  %></li>
-<li class="divider-vertical"></li>
-              <li><%= link_to "Question Bank", qpapers_path  %></li>
 <li class="divider-vertical"></li>
 	      <% if user_signed_in? then%>
 			<li class="dropdown">
@@ -66,7 +65,7 @@
 		</div>
 		<div class="span2">
 			<p><i class="icon-check"></i> Question Papers</p>
-			<p><i class="icon-check"></i> Cheat Sheets</p>
+			<p><i class="icon-check-empty"></i> Cheat Sheets</p>
 			<p><i class="icon-check-empty"></i> Solutions</p>
 			<p><i class="icon-check-empty"></i> Video lectures</p>
 			<p><i class="icon-check-empty"></i> Tutors</p>
@@ -95,11 +94,11 @@
 
 <% if @show_left_navigation then %>
 	<div class="row">
-		<div class="span3">
-			<%= yield :side_navigation %>
+		<div id="tree_box" class="span4 sidenav-bordered">
+			<div class="bordered-box-content"><div id="tree1"></div></div>
 		<%#= render partial: 'partials/branches_accordion' if @show_branches_accordion %>
 		</div>
-		<div class="span9">
+		<div class="span8">
 			<%= yield %>
 		</div>
 	</div>
@@ -118,6 +117,45 @@
    <%= content_for?(:mathjax_scripts) ? yield(:mathjax_scripts) : "" %>
 <%= content_for?(:prettify_scripts) ? yield(:prettify_scripts) : "" %>
     <%= javascript_include_tag "application" %>
+<% if @show_left_navigation then %>
+<% cache(cache_programs_courses) do %> 
+   <script type="text/javascript">
+		        $(function() {
+            $('#tree1').jstree( {
+				"json_data" : { "data": <%= raw University.select([:id, :name]).where(name: "Anna University - Affliated Colleges").includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {	"data" => u.name, 
+	"state" => "open", 
+	"children" => u.programs.to_a.map{ |p| { 
+			"data" => p.shorter_desc , 
+			"children" => (1..8).map{|x| { "data" => "Semester "+x.to_s, 
+							"children" => p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.map{ |puc1| { 
+								"attr"=> { "rel" => "leaf" } ,"data" => { "title" => puc1.university_course.full_course_name, "attr" => { "href" => program_university_course_path(puc1.id) } }
+ } }  }} }} }}.to_json %> }, 
+				"core" : { "html_titles" : true  },
+				"themes" : { "theme" : "default", "url": "<%=asset_path "jstree.css" %>", "dots" : false ,"icons" : false },
+				"types" : { 
+						"types" : { 
+						    "leaf" : {
+							"select_node": function (e) {
+								   document.location = e.children("a").attr("href");
+								   return false;
+									}
+						    },
+						    "default" : { 
+							"select_node" : function(e) {
+								            this.toggle_node(e);
+								            return false;
+								        } 
+
+						    }
+						} 
+					     },
+				"plugins" : [ "themes", "json_data", "types", "ui" ]
+});
+        });
+    </script>
+
+<% end %>
+<% end %>
 <%= content_for?(:extra_scripts) ? yield(:extra_scripts) : "" %>
   </body>
 </html>

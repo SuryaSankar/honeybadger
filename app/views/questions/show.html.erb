@@ -52,27 +52,27 @@
 
 	</ul>
 <% end %>
-
-
 <div class="row">
 	<div class="span9">
-			<div class="bordered-box">
-				<div class="heading"><h4>Answers</h4></div>
-				<div class="bordered-box-content">
-					<% solutions=@question.solutions %>
-					<% if @question.solutions.size > 0 then %>
-						<% solutions.each do |sol| %>
-							<div class="answer-entry">
-							<h5><%= sol.user.uname %>'s Answer</h5>
-							<p><%= sol.answer %></p>
-							<%= link_to "Edit answer", edit_solution_path(sol.id) if sol.user_id==current_user.id %>
-							</div>
-						<% end %>
-					<% else %>
-						No answers have been submitted yet.
-					<% end %>
-				</div>
+<% solutions=@question.solutions %>
+<% if @question.solutions.size > 0 then %>
+	<% solutions.each do |sol| %>
+		<div class="bordered-box">
+			<div class="heading"><h5><%= sol.user.uname %>'s Answer&nbsp;&nbsp;&nbsp; <%= content_tag :div,  id: "upvotes"+sol.id.to_s do %> <i class="icon-thumbs-up"></i><%= sol.accepted_solutions.count.to_s %> <% end %></h5></div>
+			<div class="bordered-box-content">
+			<p><%= sol.answer %></p>
+			<%= content_tag :div, id: "accept"+sol.id.to_s do %> 
+			<%= form_tag '/solutions/accept', remote: true do%>
+			<%= hidden_field_tag :solution_id, sol.id %>
+			<button type="submit" ><i class="icon-thumbs-up"></i></button>
+			<% end %>
+			<% end %>
+			<%= link_to "Edit answer", edit_solution_path(sol.id) if sol.user_id==current_user.id %>
 			</div>
+		</div>
+	<% end %>
+
+<% end %>
 			<div class="bordered-box">
 				<div class="heading"><h4>Add your answer here</h4></div>
 				<div class="bordered-box-content">
@@ -86,8 +86,8 @@
 					<% end %>
 				</div>
 			</div>
-
 	</div>
+
 	<div class="span3">
 		<div class="bordered-box">
 			<div class="heading"><h4>Question Stats</h4></div>
@@ -115,4 +115,17 @@
 
 <% content_for :extra_scripts do %>
 <%= render partial: "partials/wmdscript" %>
+<script type="text/javascript">
+
+$(function(){
+<% solutions.each do |sol| %>
+<% divid="accept"+sol.id.to_s %>
+$(<%= 'accept'+sol.id.to_s %>).on('ajax:success',function(evt, data, status, xhr){
+    console.log("inside ajax success");
+    //$this.replaceWith("<h1>Replaced</h1>");
+    $(<%= 'upvotes'+sol.id.to_s %>).html('<i class="icon-thumbs-up icon-2x"></i>'+xhr.responseText);
+});
+<% end %>
+});
+</script>
 <% end %>

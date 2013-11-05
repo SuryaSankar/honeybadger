@@ -12,6 +12,8 @@ class Branch < ActiveRecord::Base
 				"Civil"
 			when 'Chemical Engineering'
 				"Chem"
+			when 'Mechanical Engineering'
+				"Mech"
 			else
 				(self.name.scan /\p{Upper}/).join
 		end

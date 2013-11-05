@@ -12,13 +12,14 @@
 <% content_for :navbar_breadcrumbs do %>
 	<ul class="nav">
 	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-  <li><%= link_to branch_path(@program_university_course.program.branch_id) do %><%= @program_university_course.program.branch.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 <li><%= link_to program_path(@program_university_course.program_id) do %><%= @program_university_course.program.short_desc %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to @program_university_course.full_course_name, '#' %></li>
 </ul>
 <% end %>
 
 <% content_for :side_navigation do %>
-<%= render partial: "partials/universitycourses_accordion", locals: { pucs_semwise: @program_university_course.program.program_university_courses.where.not(semester: nil).includes(university_course: :course).order("semester").group_by { |puc| puc.semester }, elective_pucs:  @program_university_course.program.program_university_courses.where(elective: true).includes(university_course: :course) } %>
+
+<%# render partial: "partials/universitycourses_accordion", locals: { pucs_semwise: @program_university_course.program.program_university_courses.where.not(semester: nil).includes(university_course: :course).order("semester").group_by { |puc| puc.semester }, elective_pucs:  @program_university_course.program.program_university_courses.where(elective: true).includes(university_course: :course) } %>
 <% end %>
 <%# render partial: "partials/units", object: @program_university_course.university_course.units %>
 <div class="row">

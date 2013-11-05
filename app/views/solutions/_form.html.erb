@@ -3,6 +3,6 @@
   <div class="form-actions">
     <%= f.button :submit, :class => 'btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                solutions_path, :class => 'btn' %>
+                session[:previous_url], :class => 'btn' %>
   </div>
 <% end %>

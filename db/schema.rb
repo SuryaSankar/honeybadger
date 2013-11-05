@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131104123720) do
+ActiveRecord::Schema.define(version: 20131105134609) do
+
+  create_table "accepted_solutions", force: true do |t|
+    t.boolean  "accept"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "solution_id"
+    t.integer  "user_id"
+  end
+
+  add_index "accepted_solutions", ["solution_id"], name: "index_accepted_solutions_on_solution_id"
+  add_index "accepted_solutions", ["user_id"], name: "index_accepted_solutions_on_user_id"
 
   create_table "admins", force: true do |t|
     t.string   "email",              default: "", null: false

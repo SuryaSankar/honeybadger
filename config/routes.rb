@@ -6,7 +6,7 @@ Honeybadger::Application.routes.draw do
   devise_scope :user do
 	post "/users" => "users/registrations#append_or_create" , as: "user_registration"
   end
-  devise_for :users, controllers: { omniauth_callbacks: "users/omniauth_callbacks" }
+  devise_for :users, controllers: { omniauth_callbacks: "users/omniauth_callbacks", sessions: "users/sessions" }
 
   devise_for :admins, controllers: { sessions: "admins/sessions" }
 
@@ -21,6 +21,7 @@ Honeybadger::Application.routes.draw do
   get '/courses/:id/new_question' => 'courses#new_question' , as: "course_new_question"
   
   post '/questions/:question_id/addanswer' => 'questions#submit_answer'
+  post 'solutions/accept' => 'solutions#accept'
 
 
   resources :qpapers

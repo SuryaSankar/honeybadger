@@ -19,6 +19,7 @@ class SolutionsController < ApplicationController
 
   # GET /solutions/1/edit
   def edit
+	@show_left_navigation=false
   end
 
   # POST /solutions
@@ -59,6 +60,12 @@ class SolutionsController < ApplicationController
       format.html { redirect_to solutions_url }
       format.json { head :no_content }
     end
+  end
+
+
+  def accept
+	AcceptedSolution.create user_id: current_user.id, solution_id: params[:solution_id], accept: true
+	render text: AcceptedSolution.where(user_id: current_user.id, solution_id: params[:solution_id], accept: true).count
   end
 
   private
