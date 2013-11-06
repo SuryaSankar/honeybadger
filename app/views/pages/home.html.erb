@@ -145,13 +145,14 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
     <!-- Javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
- 
+<% if user_signed_in? then%>
 <script type="text/javascript">
 analytics.identify(<%= current_user.id %>, {
     email: <%= current_user.email %>,
     firstName: <%= current_user.uname %>,
 });
 </script>
+<% end %>
 
   </body>
 </html>
