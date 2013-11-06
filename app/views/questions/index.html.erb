@@ -1,22 +1,16 @@
-<%- model_class = Question -%>
+<div class="row">
+<div class="bordered-box">
+            <div class="heading"><h4>Questions</h4></div>
+	    <div class="bordered-box-content">
+<p><h5> <%= link_to "Add a question" , new_question_path %> </h5></p>
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
-      <th><%= model_class.human_attribute_name(:qtext) %></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @questions.each_with_index do |question,index| %>
-      <tr>
-        <td><%= index %></td>
-        <td><%= link_to ( question.qtitle || question.qtext ), question_path(question.id)   %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+	<ol>
+	<% @questions.each do |q| %>
+	<li><%= link_to (q.qtitle || q.qtext), question_path(q.id) %></li>
+	<% end %>
+	</ol>
 
-<%= link_to t('.new', :default => t("helpers.links.new")),
-            new_question_path,
-            :class => 'btn btn-primary' %>
+
+	    </div>
+</div>
+</div>

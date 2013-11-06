@@ -1,4 +1,4 @@
-<%= simple_form_for @question, :html => { :class => 'form-horizontal' } do |f| %>
+<%= simple_form_for @question  do |f| %>
   <% if @question.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@question.errors.count, "error") %> prohibited this question from being saved:</h2>
@@ -10,10 +10,12 @@
       </ul>
     </div>
   <% end %>
-
-<%= f.input :qtitle , label: "Title" %>
+<% @question.standalone=true %>
+<%= f.input :qtitle , label: "Question Summary (Optional)" %>
 <%= f.association :course , label_method: :name %>
-<%= f.association :topic %>
+<%= f.hidden_field :standalone %>
+<%# f.association :topic , input_html: { class: "combobox" }%>
+<%= label_tag :qtext, "Detailed Question" %>
 <div class='wmd-panel'>
 <div id='wmd-button-bar'></div>
 <%= f.text_area :qtext, id: 'wmd-input', class: 'wmd-input' %>

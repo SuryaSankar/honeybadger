@@ -79,8 +79,7 @@
 			<li class="dropdown">
 			  <a id="account_dropdown" class="dropdown-toggle" data-toggle="dropdown" href="#">Your account</a>
 			  <ul class="dropdown-menu" role="menu" aria-labelledby="account_dropdown">
-				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Your Profile</a></li>
-				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Your Questions</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="/yourquestions">Your Questions</a></li>
 				<li role="presentation" class="divider"></li>
 			<li role="presentation"><%= link_to "Sign Out", destroy_user_session_path, {method: :delete , role: "menuitem" }  %></li>
 			  </ul>
@@ -92,7 +91,6 @@
       </div>
     </div>	
     <div class="noisehome" id="homeBG">
-<% cache("banner") do %> 
 	  <div class="row">
 		<div class="span11 offset1">
 			<h1>Karpeer<small>,&nbsp;&nbsp;/ kəˈrpēr /,&nbsp;&nbsp;A Tamil verb,&nbsp;&nbsp;Meaning: An appeal to learn</small></h1>
@@ -100,10 +98,9 @@
 	  </div>
 	  <div class="row">
 		<div class="span11 offset1">
-			<h3><i class="icon-check"></i> Question Papers &nbsp; <i class="icon-check"></i> Cheat Sheets &nbsp; <i class="icon-check-empty"></i> Solutions &nbsp;<i class="icon-check-empty"></i> Video lectures &nbsp;<i class="icon-check-empty"></i> Tutors</h3>
+			<h3><i class="icon-check"></i> Question Papers &nbsp; <i class="icon-check-empty"></i> Notes &nbsp; <i class="icon-check-empty"></i> Solutions &nbsp;<i class="icon-check-empty"></i> Video lectures &nbsp;<i class="icon-check-empty"></i> Tutors</h3>
 		</div>
 	</div>
-<% end %>
 	<div class="row">
 		<div class="span6">
 		<div id="login_box", class="handwriting bordered-box">

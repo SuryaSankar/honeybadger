@@ -12,7 +12,6 @@
 <% content_for :navbar_breadcrumbs do %>
 	<ul class="nav">
 	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-<li><%= link_to program_path(@program_university_course.program_id) do %><%= @program_university_course.program.short_desc %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
 <li><%= link_to @program_university_course.full_course_name, '#' %></li>
 </ul>
 <% end %>
@@ -57,7 +56,8 @@
             <div class="heading"><h4>Questions</h4></div>
 	    <div class="bordered-box-content">
 <p><h5> <%= link_to "Add a question" , new_question_path+"?course="+@program_university_course.university_course.course_id.to_s %> </h5></p>
-<h5>Questions obtained from question papers</h5>
+	<% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: false).count > 0 then %>
+		<h5>Questions obtained from question papers</h5>
 		<% questions = Question.joins(:examquestions).where(course_id: @program_university_course.university_course.course_id).where(standalone: false).order('examquestions.mark ASC').group_by { |q| q.examquestions.first.mark } %>
 		<% questions.keys.each do |mark| %>
 		<h6><%= mark %> Marks</h6>
@@ -67,6 +67,7 @@
 		<% end %>
 		</ol>
 		<% end %>
+	<% end %>
 <%# render partial: "partials/questions", locals: { questions: @program_university_course.university_course.course.questions } %>
 	    </div>
 </div>

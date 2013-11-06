@@ -9,7 +9,7 @@
 	<div class="hero-unit noise" id="questionBanner">
 		<div class="row">
 			<div class="span10">
-				<div class="handwriting"><h4>Question:</h4></div><%= raw render_markdown @question.qtext %>
+				<div class="handwriting"><h4>Question: <%= @question.qtitle unless @question.qtitle.nil? %></h4></div><%= raw render_markdown @question.qtext %>
 			</div>
 			<div class="span2 handwriting">
 				<% if user_signed_in? && @question.user_id == current_user.id then %>
@@ -36,43 +36,52 @@
 <% if @qpaper then %>
 	<% if @puc then %>
 	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-<li><%= link_to program_path(@puc.program_id) do %><%= @puc.program.short_desc %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
 <li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
 <li><%= link_to qpaper_path(@qpaper.id) do %><%= @qpaper.month+"-"+ @qpaper.year.to_s %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to "Question", '#' %></li>
 	<% else %>
 	<li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 	<li><%= link_to qpaper_path(@qpaper.id) do %><%=@qpaper.university_course.course.full_course_name+"-"+ @qpaper.month+"-"+ @qpaper.year %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to "Question", '#' %></li>
 	<% end %>
 <% else %>
 	  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
-  <li><%= link_to branch_path(@question.course.branch_id) do %><%= @question.course.branch.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 <li><%= link_to course_path(@question.course_id) do %><%= @question.course.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-
+<li><%= link_to "Question", '#' %></li>
 <% end %>
 
 	</ul>
 <% end %>
+
+<% @include_wmd=false %>
 <div class="row">
 	<div class="span9">
 <% solutions=@question.solutions %>
 <% if @question.solutions.size > 0 then %>
 	<% solutions.each do |sol| %>
 		<div class="bordered-box">
-			<div class="heading"><h5><%= sol.user.uname %>'s Answer&nbsp;&nbsp;&nbsp; <%= content_tag :div,  id: "upvotes"+sol.id.to_s do %> <i class="icon-thumbs-up"></i><%= sol.accepted_solutions.count.to_s %> <% end %></h5></div>
+			<div class="heading"><h5><%= sol.user.uname %>'s Answer&nbsp;&nbsp;&nbsp; 
+			<%= content_tag :div,  id: "upvotes"+sol.id.to_s do %>
+				<% if AcceptedSolution.where(user_id: current_user.id, solution_id: sol.id).count ==0 then%>
+					<%= form_tag '/solutions/accept', remote: true do%>
+						<%= hidden_field_tag :solution_id, sol.id %>
+						<button type="submit" class="btn btn-link" ><i class="icon-thumbs-up"></i>&nbsp;<%= AcceptedSolution.where(solution_id: sol.id, accept: true).count.to_s %></button>
+					<% end %> 
+				<% else %>
+					<i class="icon-thumbs-up icon-2x"></i><%= AcceptedSolution.where(solution_id: sol.id, accept: true).count.to_s %>
+				<% end %>
+			<% end %></h5></div>
+
 			<div class="bordered-box-content">
 			<p><%= sol.answer %></p>
-			<%= content_tag :div, id: "accept"+sol.id.to_s do %> 
-			<%= form_tag '/solutions/accept', remote: true do%>
-			<%= hidden_field_tag :solution_id, sol.id %>
-			<button type="submit" ><i class="icon-thumbs-up"></i></button>
-			<% end %>
-			<% end %>
 			<%= link_to "Edit answer", edit_solution_path(sol.id) if sol.user_id==current_user.id %>
 			</div>
 		</div>
 	<% end %>
 
 <% end %>
+	<% if Solution.where(user_id: current_user.id, question_id: @question.id).count == 0 then%>
+			<% @include_wmd=true %>
 			<div class="bordered-box">
 				<div class="heading"><h4>Add your answer here</h4></div>
 				<div class="bordered-box-content">
@@ -86,9 +95,11 @@
 					<% end %>
 				</div>
 			</div>
+	<% end %>
 	</div>
 
 	<div class="span3">
+	<% if !@question.standalone then %>
 		<div class="bordered-box">
 			<div class="heading"><h4>Question Stats</h4></div>
 			<div class="bordered-box-content">
@@ -101,8 +112,11 @@
 					<% end %>
 					</ol>
 				<% end %>
+				<h5>Asked By</h5>
+				<%= @question.user.uname %>
 			</div>
 		</div>
+	<% end %>
 
 
 	</div>
@@ -114,15 +128,12 @@
 
 
 <% content_for :extra_scripts do %>
-<%= render partial: "partials/wmdscript" %>
+<%= render partial: "partials/wmdscript" if @include_wmd %>
 <script type="text/javascript">
 
 $(function(){
 <% solutions.each do |sol| %>
-<% divid="accept"+sol.id.to_s %>
-$(<%= 'accept'+sol.id.to_s %>).on('ajax:success',function(evt, data, status, xhr){
-    console.log("inside ajax success");
-    //$this.replaceWith("<h1>Replaced</h1>");
+$(<%= 'upvotes'+sol.id.to_s %>).on('ajax:success',function(evt, data, status, xhr){
     $(<%= 'upvotes'+sol.id.to_s %>).html('<i class="icon-thumbs-up icon-2x"></i>'+xhr.responseText);
 });
 <% end %>

@@ -14,108 +14,6 @@
 
     <%= stylesheet_link_tag "application", :media => "all" %>
 <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
-
-    <!-- For all other devices -->
-    <!-- Size should be 32 x 32 pixels -->
-    <%# favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
-
-  </head>
-  <body>
-
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner navbarCursiveFont">
-        <div class="container">
-          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <%# link_to "Karpeer", root_path, class: "brand" %>
-          <div class="container nav-collapse">
-            <ul class="nav pull-right">
-<li class="divider-vertical"></li>
-              <li><%= link_to "Home", root_path  %></li>
-<li class="divider-vertical"></li>
-	      <% if user_signed_in? then%>
-			<li class="dropdown">
-			  <a id="account_dropdown" class="dropdown-toggle" data-toggle="dropdown" href="#">My account</a>
-			  <ul class="dropdown-menu" role="menu" aria-labelledby="account_dropdown">
-				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Profile</a></li>
-				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Questions</a></li>
-				<li role="presentation" class="divider"></li>
-			<li role="presentation"><%= link_to "Sign Out", destroy_user_session_path, {method: :delete , role: "menuitem" }  %></li>
-			  </ul>
-			</li>
-              <% end %>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
-<div class="row" id="masthead">	
-	
-<% if content_for? :masthead_content then %>
-		<%= yield :masthead_content %>
-<% else %>
-	<div class="hero-unit noise" id="banner">
-	<div class="row">
-		<div class="span4">
-			<h1>Karpeer<small> / kəˈrpēr /</small></h1>
-			<h4><%= content_for?(:pagewise_heading) ? yield(:pagewise_heading) : "" %></h4>
-		</div>
-		<div class="span2">
-			<p><i class="icon-check"></i> Question Papers</p>
-			<p><i class="icon-check-empty"></i> Cheat Sheets</p>
-			<p><i class="icon-check-empty"></i> Solutions</p>
-			<p><i class="icon-check-empty"></i> Video lectures</p>
-			<p><i class="icon-check-empty"></i> Tutors</p>
-		</div>
-		<div class="span6">
-		<% if !user_signed_in? then%>
-	<p>You are not signed in? Sign up immediately and start posting/viewing solutions</p><p>You can sign up/sign in using your</p>
-	<p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Facebook Account <% end %> Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Gmail Account <% end %> Or</p><p><i class="icon-envelope"></i><a data-toggle="modal" data-target="#signup_modal"> Any other valid email account</a> </p>
-		<% end %>
-		</div>
-	</div>
-	</div>
-<% end %>
-			
-</div>
-<div class="navbar" id="lowerBar"><div class="navbar-inner navbarCursiveFont"  ><div class="container">
-<% if content_for? :navbar_breadcrumbs then %>
-<%= yield :navbar_breadcrumbs %>
-<% end %>
-</div></div></div>
-<% if content_for? :breadcrumbs then %>
-<ul class="breadcrumb">
-<%= yield :breadcrumbs %>
-</ul>
-<% end %>
-
-<% if @show_left_navigation then %>
-	<div class="row">
-		<div id="tree_box" class="span4 sidenav-bordered">
-			<div class="bordered-box-content"><div id="tree1"></div></div>
-		<%#= render partial: 'partials/branches_accordion' if @show_branches_accordion %>
-		</div>
-		<div class="span8">
-			<%= yield %>
-		</div>
-	</div>
-<% else %>
-	<%= yield %>
-<% end %>
-
-           
-<%= render partial: 'users/partials/signup_modal' %>
-
-
-    <!-- Javascripts
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <%= content_for?(:fb_conn_scripts) ? yield(:fb_conn_scripts) : "" %>
-   <%= content_for?(:mathjax_scripts) ? yield(:mathjax_scripts) : "" %>
-<%= content_for?(:prettify_scripts) ? yield(:prettify_scripts) : "" %>
     <%= javascript_include_tag "application" %>
 <% if @show_left_navigation then %>
 <% cache(cache_programs_courses) do %> 
@@ -156,6 +54,109 @@
 
 <% end %>
 <% end %>
+
+    <!-- For all other devices -->
+    <!-- Size should be 32 x 32 pixels -->
+    <%# favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
+
+  </head>
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner navbarCursiveFont">
+        <div class="container">
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <%# link_to "Karpeer", root_path, class: "brand" %>
+          <div class="container nav-collapse">
+            <ul class="nav pull-right">
+<li class="divider-vertical"></li>
+              <li><%= link_to "Home", root_path  %></li>
+<li class="divider-vertical"></li>
+	      <% if user_signed_in? then%>
+			<li class="dropdown">
+			  <a id="account_dropdown" class="dropdown-toggle" data-toggle="dropdown" href="#">Your account</a>
+			  <ul class="dropdown-menu" role="menu" aria-labelledby="account_dropdown">
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="/yourquestions">Your Questions</a></li>
+				<li role="presentation" class="divider"></li>
+			<li role="presentation"><%= link_to "Sign Out", destroy_user_session_path, {method: :delete , role: "menuitem" }  %></li>
+			  </ul>
+			</li>
+              <% end %>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+<div class="row" id="masthead">	
+	
+<% if content_for? :masthead_content then %>
+		<%= yield :masthead_content %>
+<% else %>
+	<div class="hero-unit noise" id="banner">
+	<div class="row">
+		<div class="span4">
+			<h1>Karpeer<small> / kəˈrpēr /</small></h1>
+			<h4><%= content_for?(:pagewise_heading) ? yield(:pagewise_heading) : "" %></h4>
+		</div>
+		<div class="span2">
+			<p><i class="icon-check"></i> Question Papers</p>
+			<p><i class="icon-check-empty"></i> Notes</p>
+			<p><i class="icon-check-empty"></i> Solutions</p>
+			<p><i class="icon-check-empty"></i> Video lectures</p>
+			<p><i class="icon-check-empty"></i> Tutors</p>
+		</div>
+		<div class="span6">
+		<% if !user_signed_in? then%>
+	<p>You are not signed in? Sign up immediately and start posting/viewing solutions</p><p>You can sign up/sign in using your</p>
+	<p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Facebook Account <% end %> Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Gmail Account <% end %> Or</p><p><i class="icon-envelope"></i><a data-toggle="modal" data-target="#signup_modal"> Any other valid email account</a> </p>
+		<% end %>
+		</div>
+	</div>
+	</div>
+<% end %>
+			
+</div>
+<div class="navbar" id="lowerBar"><div class="navbar-inner navbarCursiveFont"  ><div class="container">
+<% if content_for? :navbar_breadcrumbs then %>
+<%= yield :navbar_breadcrumbs %>
+<% end %>
+</div></div></div>
+<% if content_for? :breadcrumbs then %>
+<ul class="breadcrumb">
+<%= yield :breadcrumbs %>
+</ul>
+<% end %>
+
+<% if @show_left_navigation then %>
+	<div class="row">
+		<div id="tree_box" class="span4 sidenav-bordered">
+			<div class="heading"><h4>Course Menu</h4></div>
+			<div class="bordered-box-content"><div id="tree1"></div></div>
+		<%#= render partial: 'partials/branches_accordion' if @show_branches_accordion %>
+		</div>
+		<div class="span8">
+			<%= yield %>
+		</div>
+	</div>
+<% else %>
+	<%= yield %>
+<% end %>
+
+           
+<%= render partial: 'users/partials/signup_modal' %>
+
+
+    <!-- Javascripts
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <%= content_for?(:fb_conn_scripts) ? yield(:fb_conn_scripts) : "" %>
+   <%= content_for?(:mathjax_scripts) ? yield(:mathjax_scripts) : "" %>
+<%= content_for?(:prettify_scripts) ? yield(:prettify_scripts) : "" %>
+
 <%= content_for?(:extra_scripts) ? yield(:extra_scripts) : "" %>
   </body>
 </html>

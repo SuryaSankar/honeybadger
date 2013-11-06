@@ -44,27 +44,36 @@
 </div>
 
 
-
-
 <div class="row">
 <div class="bordered-box">
             <div class="heading"><h4>Questions</h4></div>
 	    <div class="bordered-box-content">
-<p><h5> <%= link_to "Add a question" , new_question_path+"?course="+@university_course.course_id.to_s %> </h5></p>
-<h5>Questions obtained from question papers</h5>
+<p><h5> <%= link_to "Add a question" , new_question_path+"?course="+@course.id.to_s %> </h5></p>
+	<% if Question.where(course_id: @university_course.course_id).where(standalone: true).count > 0 then %>
+	<h5>Questions added by Users</h5>
+	<ol>
+	<% Question.where(course_id: @university_course.course_id).where(standalone: true).each do |q| %>
+	<li><%= link_to (q.qtitle || q.qtext), question_path(q.id) %></li>
+	<% end %>
+	</ol>
+	<% end %>
+	<% if Question.where(course_id: @course.id).where(standalone: false).count > 0 then %>
+		<h5>Questions obtained from question papers</h5>
 		<% questions = Question.joins(:examquestions).where(course_id: @university_course.course_id).where(standalone: false).order('examquestions.mark ASC').group_by { |q| q.examquestions.first.mark } %>
 		<% questions.keys.each do |mark| %>
-		<h6><%= mark %> Marks</h6>
-		<ol>
-		<% questions[mark].each do |q| %>
-		 <li><%= link_to (q.qtitle || q.qtext), question_path(q.id) %></li>
+			<h6><%= mark %> Marks</h6>
+			<ol>
+			<% questions[mark].each do |q| %>
+			 <li><%= link_to (q.qtitle || q.qtext), question_path(q.id) %></li>
+			<% end %>
+			</ol>
 		<% end %>
-		</ol>
-		<% end %>
+	<% end %>
 <%# render partial: "partials/questions", locals: { questions: @program_university_course.university_course.course.questions } %>
 	    </div>
 </div>
 </div>
+
 
 <% if admin_signed_in? then %>
 

@@ -1,29 +1,87 @@
-<%- model_class = Solution -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+<% content_for :prettify_scripts do %>
+	<%= render partial: 'partials/prettify_include' %>
+<% end %>
+
+<% content_for :mathjax_scripts do %>
+	<%= render partial: 'partials/mathjax_include' %>
+<% end %>
+<% content_for :masthead_content do %>
+	<div class="hero-unit noise" id="questionBanner">
+		<div class="row">
+			<div class="span10">
+				<div class="handwriting"><h4>Question: <%= @question.qtitle unless @question.qtitle.nil? %></h4></div><%= raw render_markdown @question.qtext %>
+			</div>
+			<div class="span2 handwriting">
+				<% if user_signed_in? && @question.user_id == current_user.id then %>
+				<div class="handwriting"><h4>Actions: </h4></div>
+				<ul>
+				<li>
+				  <%= link_to "Edit Question",
+					      edit_question_path(@question) %></li>
+				<li>
+				  <%= link_to "Delete Question",
+					      question_path(@question),
+					      :method => 'delete',
+					      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
+				</li>
+				</ul>
+				<% end %>
+			</div>
+		</div>
+	</div>
+<% end %>
+
+<% content_for :navbar_breadcrumbs do %>
+	<ul class="nav">
+<% if @qpaper then %>
+	<% if @puc then %>
+	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+<li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to qpaper_path(@qpaper.id) do %><%= @qpaper.month+"-"+ @qpaper.year.to_s %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to "Question", '#' %></li>
+	<% else %>
+	<li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+	<li><%= link_to qpaper_path(@qpaper.id) do %><%=@qpaper.university_course.course.full_course_name+"-"+ @qpaper.month+"-"+ @qpaper.year %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to "Question", '#' %></li>
+	<% end %>
+<% else %>
+	  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
+<li><%= link_to course_path(@question.course_id) do %><%= @question.course.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+<li><%= link_to question_path(@question.id) do %>Question &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to "Answer", '#' %></li>
+<% end %>
+
+	</ul>
+<% end %>
+
+
+<div class="bordered-box">
+	<div class="heading"><h5><%= @solution.user.uname %>'s Answer&nbsp;&nbsp;&nbsp; 
+	<%= content_tag :div,  id: "upvotes"+@solution.id.to_s do %>
+				<% if AcceptedSolution.where(user_id: current_user.id, solution_id: @solution.id).count ==0 then%>
+					<%= form_tag '/solutions/accept', remote: true do%>
+						<%= hidden_field_tag :solution_id, @solution.id %>
+						<button type="submit" class="btn btn-link" ><i class="icon-thumbs-up"></i>&nbsp;<%= AcceptedSolution.where(solution_id: @solution.id, accept: true).count.to_s %></button>
+					<% end %> 
+				<% else %>
+					<i class="icon-thumbs-up icon-2x"></i><%= AcceptedSolution.where(solution_id: @solution.id, accept: true).count.to_s %>
+				<% end %>
+	<% end %></h5>
+	</div>
+	<div class="bordered-box-content">
+	<p><%= @solution.answer %></p>
+	<%= link_to "Edit answer", edit_solution_path(@solution.id) if @solution.user_id==current_user.id %>
+	</div>
 </div>
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:answer) %>:</strong></dt>
-  <dd><%= @solution.answer %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:votes) %>:</strong></dt>
-  <dd><%= @solution.votes %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:correct) %>:</strong></dt>
-  <dd><%= @solution.correct %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:user_id) %>:</strong></dt>
-  <dd><%= @solution.user_id %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:question_id) %>:</strong></dt>
-  <dd><%= @solution.question_id %></dd>
-</dl>
+<% content_for :extra_scripts do %>
 
-<div class="form-actions">
-  <%= link_to t('.back', :default => t("helpers.links.back")),
-              solutions_path, :class => 'btn'  %>
-  <%= link_to t('.edit', :default => t("helpers.links.edit")),
-              edit_solution_path(@solution), :class => 'btn' %>
-  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-              solution_path(@solution),
-              :method => 'delete',
-              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-              :class => 'btn btn-danger' %>
-</div>
+<script type="text/javascript">
+
+$(function(){
+$(<%= "upvotes"+@solution.id.to_s %>).on('ajax:success',function(evt, data, status, xhr){
+    $(<%= "upvotes"+@solution.id.to_s %>).html('<i class="icon-thumbs-up icon-2x"></i>'+xhr.responseText);
+});
+});
+</script>
+<% end %>

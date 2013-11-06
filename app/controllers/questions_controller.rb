@@ -37,8 +37,8 @@ class QuestionsController < ApplicationController
   # POST /questions
   # POST /questions.json
   def create
+    puts params
     @question = Question.new(question_params)
-
     respond_to do |format|
       if @question.save
         format.html { redirect_to @question, notice: 'Question was successfully created.' }
@@ -48,6 +48,11 @@ class QuestionsController < ApplicationController
         format.json { render json: @question.errors, status: :unprocessable_entity }
       end
     end
+  end
+
+  def yourquestions
+	@questions=Question.where(user_id: current_user.id)
+	render "index"
   end
 
   # PATCH/PUT /questions/1
@@ -94,7 +99,7 @@ class QuestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_params
-      params.require(:question).permit(:qtext,:qtitle, :course_id, :topic_id)
+      params.require(:question).permit(:qtext,:qtitle, :course_id, :topic_id, :standalone)
     end
 
     def solution_params

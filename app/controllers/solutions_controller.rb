@@ -10,6 +10,7 @@ class SolutionsController < ApplicationController
   # GET /solutions/1
   # GET /solutions/1.json
   def show
+	@question=@solution.question
   end
 
   # GET /solutions/new

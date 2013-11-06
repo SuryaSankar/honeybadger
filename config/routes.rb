@@ -22,6 +22,7 @@ Honeybadger::Application.routes.draw do
   
   post '/questions/:question_id/addanswer' => 'questions#submit_answer'
   post 'solutions/accept' => 'solutions#accept'
+  get '/yourquestions' =>'questions#yourquestions'
 
 
   resources :qpapers

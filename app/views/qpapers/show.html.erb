@@ -15,13 +15,12 @@
 <% if @puc then %>
 	
 	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-<li><%= link_to program_path(@puc.program_id) do %><%= @puc.program.short_desc %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
 <li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to @qpaper.full_title, '#' %></li>
 <% else %>
 	  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
-  <li><%= link_to branch_path(@qpaper.university_course.course.branch_id) do %><%= @qpaper.university_course.course.branch.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-<li><%= link_to university_path(@qpaper.university_course.university_id) do %><%= @qpaper.university_course.university.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 <li><%= link_to university_course_path(@qpaper.university_course_id) do %><%= @qpaper.university_course.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+<li><%= link_to @qpaper.full_title, '#' %></li>
 
 <% end %>
 	</ul>
