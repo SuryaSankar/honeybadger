@@ -13,6 +13,7 @@
     <![endif]-->
     <%= stylesheet_link_tag "application", :media => "all" %>
     <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+<link href="https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/ie6.min.css" rel='stylesheet' type='text/css'>
     <!-- For all other devices -->
     <!-- Size should be 32 x 32 pixels -->
     <%# favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
@@ -145,7 +146,27 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
     <!-- Javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
- 
+         <script type="text/javascript">
+                        $(function(){if($.browser.msie&&parseInt($.browser.version,10)===6){$('.row div[class^="span"]:last-child').addClass("last-child");$('[class*="span"]').addClass("margin-left-20");$('[class*="span"][class*="offset"]').removeClass('margin-left-20');$(':button[class="btn"], :reset[class="btn"], :submit[class="btn"], input[type="button"]').addClass("button-reset");$(":checkbox").addClass("input-checkbox");$('[class^="icon-"], [class*=" icon-"]').addClass("icon-sprite");$(".pagination li:first-child a").addClass("pagination-first-child")}
+                                
+                                // Tooltip demo
+                                $('.tooltip-demo.well').tooltip({
+                                 selector: "a[rel=tooltip]",
+                                 placement: "top"
+                                })
+                        
+                                $('.tooltip-test').tooltip()
+                                $('.popover-test').popover()
+                        
+                                // Popover demo
+                                $("a[rel=popover]")
+                                 .popover({
+                                        placement : "top"
+                                 })
+                                 .click(function(e) {
+                                        e.preventDefault()
+                                 })
+                        });</script>
 
 
   </body>
