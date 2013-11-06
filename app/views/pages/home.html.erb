@@ -97,13 +97,13 @@
 	  </div>
 	  <div class="row">
 		<div class="span11 offset1">
-			<h3><i class="icon-check"></i> Question Papers &nbsp; <i class="icon-check-empty"></i> Notes &nbsp; <i class="icon-check-empty"></i> Solutions &nbsp;<i class="icon-check-empty"></i> Video lectures &nbsp;<i class="icon-check-empty"></i> Tutors</h3>
+			<h3><i class="icon-check"></i> Questions &nbsp; <i class="icon-check-empty"></i> Solutions &nbsp; <i class="icon-check-empty"></i> Notes &nbsp; <i class="icon-check-empty"></i> Video lectures &nbsp;<i class="icon-check-empty"></i> Tutors</h3>
 		</div>
 	</div>
 	<div class="row">
 		<div class="span6">
 		<div id="login_box", class="handwriting bordered-box">
-		<div class="heading"><h4>Join Us in one click and start contributing</h4></div>
+		<div class="heading"><h4>Join Us in one click to start contributing</h4></div>
 		<div class="bordered-box-content">
 		<% if !user_signed_in? then%>
 			<% if flash[:waiting_for_confirmation] then %>
@@ -120,15 +120,17 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 		</div>
 		</div>
 		</div>
-<% cache("jstree_box") do %> 
+
 		<div id="tree_box" class="span6 bordered-box">
-			<div class="heading"><h4>START HERE <i class="icon-long-arrow-down"></i><i class="icon-long-arrow-down"></i> Find course wise question papers and more</h4></div>
+			<div class="heading"><h4>START HERE <i class="icon-long-arrow-down"></i><i class="icon-long-arrow-down"></i> Questions sorted by course</h4></div>
 			<div class="bordered-box-content">
 			Click on your branch and select the course
+				<% cache("jstree_box1") do %> 
 				<div id="tree1"></div>
+				<% end %>
 			</div>
 		</div>
-<% end %>
+
 	</div>
 
        </div>		
