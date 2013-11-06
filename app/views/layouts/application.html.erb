@@ -158,5 +158,11 @@
 <%= content_for?(:prettify_scripts) ? yield(:prettify_scripts) : "" %>
 
 <%= content_for?(:extra_scripts) ? yield(:extra_scripts) : "" %>
+<script type="text/javascript">
+analytics.identify(<%= current_user.id %>, {
+    email: <%= current_user.email %>,
+    firstName: <%= current_user.uname %>,
+});
+</script>
   </body>
 </html>
