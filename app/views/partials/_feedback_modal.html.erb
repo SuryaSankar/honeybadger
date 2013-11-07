@@ -4,21 +4,21 @@
   </div>
   <div class="modal-body handwriting">
 			
-			<%= simple_form_for(@feedback, :url => feedbacks_path ) do |f| %>
-			  <%= f.error_notification %>
+			<%= form_tag( feedbacks_path, remote: true ) do %>
+			  <%= bootstrap_flash %>
 			   
 			    <% if user_signed_in? then%>
 				<% @feedback.name=current_user.uname %>
 				<% @feedback.email=current_user.email %>
-				<%= f.hidden_field :name %>
-				<%= f.hidden_field :email %>
+				<%= hidden_field :feedback, :name %>
+				<%= hidden_field :feedback, :email %>
 			    <% else %>
-			    <%= f.input :name, :required => false, label: "Your Name:" %>
-			    <%= f.input :email, :required => false, :autofocus => true, label: "Your email:" %>
+			    <%= text_field :feedback, :name, :required => false, label: "Your Name:" %>
+			    <%= email_field :feedback, :email, :required => false, :autofocus => true, label: "Your email:" %>
 			    <% end %>
 			    <%= label_tag :body, "Your Suggestion/Feedback:" %>
-			    <%= f.text_area :body,  class: "TextBox150x400"  %>
-			    <%= submit_tag "Send", class: "btn btn-success" %>
+			    <%= text_area :feedback, :body,  class: "TextBox150x400"  %>
+			    <button type="submit" class="btn btn-success" >Send</button>
 			<% end %>
    </div>
 <div>
