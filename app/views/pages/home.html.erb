@@ -166,18 +166,21 @@ analytics.identify('<%= current_user.id %>', {
     firstName: '<%= current_user.uname %>'
 });
 
+
+</script>
+<% end %>
+<script type="text/javascript">
 $(function(){
+console.log("outside both");
 $("#feedback_modal").on('ajax:beforeSend',function(evt, data, status, xhr){
+console.log("inside before send");
        $("#feedback_modal").modal('hide');
 })
 .on('ajax:complete',function(evt, data, status, xhr){
-	console.log("inside feedback success");
-       alert(xhr.responseText);
+       alert("Your feedback was delivered");
 });
 
 });
 </script>
-<% end %>
-
   </body>
 </html>

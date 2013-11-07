@@ -13,12 +13,12 @@
 				<%= hidden_field :feedback, :name %>
 				<%= hidden_field :feedback, :email %>
 			    <% else %>
-			    <%= label_tag :name, "Your Name:" %>
+			    <%= label_tag "feedback_name", "Your Name:" %>
 			    <%= text_field :feedback, :name, :required => false %>
-			    <%= label_tag :email, "Your Email:" %>
+			    <%= label_tag "feedback_email", "Your Email:" %>
 			    <%= email_field :feedback, :email, :required => false %>
 			    <% end %>
-			    <%= label_tag :body, "Your Suggestion/Feedback:" %>
+			    <%= label_tag "feedback_body", "Your Suggestion/Feedback:" %>
 			    <%= text_area :feedback, :body,  class: "TextBox150x400"  %>
 			    <button type="submit" class="btn btn-success" >Send</button>
 			<% end %>
