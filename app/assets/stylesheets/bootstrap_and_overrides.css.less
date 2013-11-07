@@ -154,14 +154,18 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 	font-size: 15px;
 	font-weight: bold;
 	font-size: 15px;
+	li{
+		ul{
+			li{a {text-decoration: none;}}
+		}
+	}
 	  li { font-size: 15px;
 		font-weight: bold;
 		font-family: 'Special Elite', cursive;
 	    a { text-decoration: underline; 
-		color: @white;
 		font-family: 'Special Elite', cursive;
 		cursor:pointer;
-	      &:hover { border-width: 1px; color: @white; }
+	      &:hover { border-width: 1px;  }
 	    }
 	  }
 }

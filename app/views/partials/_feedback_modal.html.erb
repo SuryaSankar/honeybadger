@@ -13,8 +13,10 @@
 				<%= hidden_field :feedback, :name %>
 				<%= hidden_field :feedback, :email %>
 			    <% else %>
-			    <%= text_field :feedback, :name, :required => false, label: "Your Name:" %>
-			    <%= email_field :feedback, :email, :required => false, :autofocus => true, label: "Your email:" %>
+			    <%= label_tag :name, "Your Name:" %>
+			    <%= text_field :feedback, :name, :required => false %>
+			    <%= label_tag :email, "Your Email:" %>
+			    <%= email_field :feedback, :email, :required => false %>
 			    <% end %>
 			    <%= label_tag :body, "Your Suggestion/Feedback:" %>
 			    <%= text_area :feedback, :body,  class: "TextBox150x400"  %>
