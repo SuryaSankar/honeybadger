@@ -1,0 +1,16 @@
+<div id="feedback_modal" class="modal hide fade noise boardGreenBG" tabindex="-1" role="dialog" aria-labelledby="feedback_modal_label" aria-hidden="true">
+  <div class="modal-header">
+	<h3 id="feedback_modal_label" class="handwriting" >Submit your feedback</h3><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+  </div>
+  <div class="modal-body handwriting">
+			<%= simple_form_for(:feedback, :url => feedbacks_path ) do |f| %>
+			  <%= f.error_notification %>
+
+			    <%= f.input :name, :required => false, label: "Your Name" %>
+			    <%= f.input :email, :required => false, :autofocus => true, label: "Your email" %>
+			    <%= f.input :subject, :required => false, label: "Subject"  %>
+			    <%= f.input :body, :required => false, label: "Your Feedback" %>
+			    <%= submit_tag "Send", class: "btn btn-success" %>
+			<% end %>
+   </div>
+<div>

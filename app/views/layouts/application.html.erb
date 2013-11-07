@@ -85,7 +85,9 @@
 			<li role="presentation"><%= link_to "Sign Out", destroy_user_session_path, {method: :delete , role: "menuitem" }  %></li>
 			  </ul>
 			</li>
+			<li class="divider-vertical"></li>
               <% end %>
+	<li><a data-toggle="modal" data-target="#feedback_modal"> Feedback</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -148,6 +150,7 @@
 
            
 <%= render partial: 'users/partials/signup_modal' %>
+<%= render partial: 'partials/feedback_modal' %>
 
 
     <!-- Javascripts

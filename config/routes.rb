@@ -1,4 +1,6 @@
 Honeybadger::Application.routes.draw do
+  get "feedbacks/new"
+  get "feedbacks/create"
   get "search_results_controller/search"
   root 'pages#home'
 
@@ -40,6 +42,7 @@ Honeybadger::Application.routes.draw do
   resources :units
   resources :program_university_courses
   resources :qpaper_files
+  resources :feedbacks, only: [:new, :create]
 
 
 

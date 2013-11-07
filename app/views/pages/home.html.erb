@@ -84,6 +84,7 @@
 			  </ul>
 			</li>
               <% end %>
+
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -103,7 +104,12 @@
 	<div class="row">
 		<div class="span6">
 		<div id="login_box", class="handwriting bordered-box">
-		<div class="heading"><h4>Join Us in one click to start contributing</h4></div>
+		<div class="heading"><h4><% if !user_signed_in? then%>
+				Join Us in one click to start contributing
+				<% else %>
+				Hello <%= current_user.uname %>! Welcome to Karpeer
+				<% end %>
+				</h4></div>
 		<div class="bordered-box-content">
 		<% if !user_signed_in? then%>
 			<% if flash[:waiting_for_confirmation] then %>
@@ -112,10 +118,10 @@
 				 <div class="notice"><h5>IMPORTANT !!</h5> <%= flash[:notice] %></div>
 Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Your Facebook Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Your Gmail Account <% end %></p>	
 			<% else %>
-				Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Your Facebook Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Your Gmail Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-envelope"></i><a data-toggle="modal" data-target="#signup_modal"> Any other valid email account</a> </p>
+				Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Your Facebook Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Your Gmail Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-envelope"></i><a data-toggle="modal" data-target="#signup_modal"> Any other valid email account</a> </p> 
 			<% end %>
 		<% else %>
-		 Hi <%= current_user.uname %>! Welcome to Karpeer
+		 Karpeer is excited to have you here. Being a member, you can now add questions, post answers and view and rate others' answers. 
 		<% end %>
 		</div>
 		</div>
@@ -138,7 +144,7 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 <div class="navbar navbar-fixed-bottom" id="lowerBar"><div class="navbar-inner"  ></div></div>
 
 <%= render partial: 'users/partials/signup_modal' %>
-           
+
 
 
 
