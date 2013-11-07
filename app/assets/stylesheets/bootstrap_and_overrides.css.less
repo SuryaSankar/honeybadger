@@ -97,6 +97,10 @@ width: 100%;
  width: 500px;
 }
 
+.TextBox150x400{
+ height: 150px;
+ width: 400px;
+}
 
 
 
@@ -152,9 +156,11 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 	  li { font-size: 15px;
 		font-weight: bold;
 		font-family: 'Special Elite', cursive;
-	    a { text-decoration: none; 
+	    a { text-decoration: underline; 
+		color: @white;
 		font-family: 'Special Elite', cursive;
-	      &:hover { border-width: 1px; color: @black; }
+		cursor:pointer;
+	      &:hover { border-width: 1px; color: @white; }
 	    }
 	  }
 }
@@ -167,7 +173,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 		color: @fontColor;
 		font-family: 'Special Elite', cursive;
 		font-weight: bold;
-		font-size: 15px;
+		font-size: 14px;
 		cursor:pointer;
 	      &:hover { border-width: 1px; color: @fontColor; }
 	    }
@@ -258,7 +264,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 	.overlay;
 	h1 {
 	margin-bottom: 0;
-	font-size: 80px;
+	font-size: 60px;
 	line-height: 1.5;
 	color: @white;
 	letter-spacing: -1px;
@@ -269,6 +275,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 }
 
 #signup_modal .modal-body {
+	max-height: 800px;
+}
+#feedback_modal .modal-body {
 	max-height: 800px;
 }
 .topPadding20{

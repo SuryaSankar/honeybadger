@@ -83,6 +83,7 @@
 			<li role="presentation"><%= link_to "Sign Out", destroy_user_session_path, {method: :delete , role: "menuitem" }  %></li>
 			  </ul>
 			</li>
+		<li class="divider-vertical"></li>
               <% end %>
 
             </ul>
@@ -141,10 +142,16 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 
        </div>		
 
-<div class="navbar navbar-fixed-bottom" id="lowerBar"><div class="navbar-inner"  ></div></div>
+<div class="navbar navbar-fixed-bottom" id="lowerBar"><div class="navbar-inner navbarCursiveFont">
+<div class="container nav-collapse">
+<ul class="nav pull-right">		
+		<li><a data-toggle="modal" data-target="#feedback_modal"> Suggestion box </a></li>
+</ul>
+</div>
+		</div></div>
 
 <%= render partial: 'users/partials/signup_modal' %>
-
+<%= render partial: 'partials/feedback_modal' %>
 
 
 
@@ -155,7 +162,7 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 <script type="text/javascript">
 analytics.identify(<%= current_user.id %>, {
     email: <%= current_user.email %>,
-    firstName: <%= current_user.uname %>,
+    firstName: <%= current_user.uname %>
 });
 </script>
 <% end %>

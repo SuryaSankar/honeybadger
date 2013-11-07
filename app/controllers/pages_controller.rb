@@ -2,6 +2,7 @@ class PagesController < ApplicationController
 
 	def home
 		@show_branches_accordion=false
+		@feedback=Feedback.new
 		@home_json=University.select([:id, :name]).includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {	"data" => u.name, 
 	"state" => "open", 
 	"children" => u.programs.to_a.map{ |p| { 

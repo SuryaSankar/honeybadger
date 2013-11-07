@@ -8,7 +8,7 @@ class FeedbacksController < ApplicationController
     
     if @feedback.valid?
       FeedbackMailer.new_feedback(@feedback).deliver
-      redirect_to(session[:previous_url]||root_path, :notice => "feedback was successfully sent.")
+      redirect_to(root_path, :notice => "feedback was successfully sent.")
     else
       flash.now.alert = "Please fill all fields."
       render :new
