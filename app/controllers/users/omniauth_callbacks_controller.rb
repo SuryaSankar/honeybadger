@@ -21,7 +21,7 @@ private
     
     if !user_signed_in?
 	if authentication
-		flash[:notice] = 'Signed in successfully via facebook' 
+		flash[:notice] = 'Signed in successfully' 
 		sign_in_and_redirect(:user, authentication.user)
 	else
 		if email != ''
@@ -29,7 +29,7 @@ private
 			if user
 				user.authentications.create provider: provider, uid: uid
 				sign_in_and_redirect user, event: :authentication #this will throw if @user is not activated
-				set_flash_message(:notice, :success, :kind => "Facebook") if is_navigational_format?
+				set_flash_message(:notice, :success, :kind => "the provider") if is_navigational_format?
 			else
 				user = yield user
 				user.authentications.build provider: provider, uid: uid
