@@ -1,0 +1,213 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2305
+!Year! 2008
+!Month! Apr/May
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. List any 4 advantages of using the fluid power system. (2)
+2. What is Viscosity Index? What do you infer from the V.I number of oil? (2)
+3. Name any 4 hydraulic fluids that are commonly used? (2)
+4. What is pump cavitation? How can you avoid it? (2)
+5. Draw the ANSI symbol for (a) Pilot operated check valve (b) Shuttle valve (2)
+6. What is the use of a temperature switch? (2)
+7. How can you specify an air compressor? (2)
+8. What is meant by an air-over-oil system? (2)
+9. Define the terms 'Lap' and 'Null' with respect to servo valves. (2)
+10. State 'Coanda effect' (2)
+11.
+(a)
+(i) List out the advantages and disadvantages of hydraulic power system (8)
+(ii) What are the functions of a fluid in any fluid power systems? (4)
+(iii) What are the required properties of a good hydraulic fluid? (4)
+(b)
+(i) Write short notes on Laminar and Turbulent flow (8)
+(ii) Wrtie short notes on energy losses in valves and fittings (3)
+(iii) Write short notes on Darcy's equation (5)
+12.
+(a)
+(i) How much hydraulic power would a pump produce when operating at 125 bars and delivering 1.25 litres per second of oil? What power rated electric motor would be selected to drive this pump if its overall efficiency is 88%? (8)
+(ii) What are the factors to be considered in the selection of a pump? (8)
+(b)
+(i) Explain with neat sketch the principle and operation of a telescopic cylinder (10)
+(ii) With respect to hydraulic motors, define the following terms (a) Volumetric efficiency (b) Mechanical efficiency (c) Overall efficiency (6)
+13.
+(a)
+(i) Explain the sequencing of two double acting cylinders with a neat circuit (8)
+(ii) With a neat sketch, explain the construction and operation of a pressure compensated flow control valve (8)
+(b)
+(i) With a neat sketch, explain how two hydraulic cylinders motion can be synchronized. (8)
+(ii) Make a circuit, showing an intensifier in a punching press application (8)
+14.
+(a)
+(i) A rotary vane air motor has a displacement volume of 80 $cm^3$ and operates at 1750 rpm using 700 KPa gauge pressure air. Calculate the standard $m^3$/min rate of consumption and KW power output of the motor. Assume the temperature remains constant (10)
+(ii) Explain the function of an air pressure regulator with neat sketch (6)
+(b) Develop an electropneumatic circuit by cascade method for the following sequence: $A^+B^+B^-A$ where A and B stand for cylinders, (+) indicates extension and (-) retraction of cylinders (16)
+15.
+(a)
+(i) Draw and explain the working of proportional pressure reducing valve. (8)
+(ii) What is meant by ladder programming? (3)
+(iii) Draw the basic standard symbols that are used in ladder diagram. Also show rungs in a ladder diagram. (5)
+(b)
+(i) Describe the various selection criteria for pneumatic components. (6)
+(ii) List out any 4 operating problems associated with pumps and valves and the corresponding possible causes and suitable remedy for each problem. (10)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2305
+!Year! 2013
+!Month! Apr/May
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. List the applications of fluid power in agriculture and aviation industries (2)
+2. Write the procedure to calculate the pressure drop in hydraulic circuits (2)
+3. Differentiate double red and tandem cylinder (2)
+4. Why do screw pumps generate less noise while running? (2)
+5. Differentiate fixed and variable displacement pumps (2)
+6. List the basic arrangement in hydrostatic drives (2)
+7. Mention advantages of air motor over electric motor (2)
+8. What do you mean by logic control? (2)
+9. What is a ladder diagram? (2)
+10. Define low cost automation (2)
+11.
+(a)
+(i) Explain the various types of fluid power system (8)
+(ii) Write the advantages of fluid power systems (8)
+(b)
+(i) Write notes on neutralization number (8)
+(ii) Write notes on frictional losses in laminar and turbulent flow (8)
+12.
+(a)
+(i) Explain the construction and working of bent axis type piston pump with neat sketch. (12)
+(ii) Write short notes on lobe pump (4)
+(b)
+(i) Explain any 3 types of special cylinders used in hydraulics with neat sketch (12)
+(ii) What is cylinder cushion? (4)
+13.
+(a) 
+(i) Explain the construction of pressure release valve with neat sketch (8)
+(ii) Design the hydraulic press circuit using unloading valve with neat sketch (8)
+(b)
+(i) Explain any 2 types of accumulator circuits with sketch (8)
+(ii) Design the circuit to speed up the extending speed of a double acting cylinder with suitable circuit (8)
+14.
+(a)
+(i) Write the procedures for the selection of filter, regulator and lubricator (12)
+(ii) Write a short note on mufflers (4)
+(b) Design an electro pneumatic circuit using cascade method for the following sequence $A^+B^+B^-A^-C^+C^-$ (16)
+15.
+(a) Explain the various types of pneumatic switching elements with simple sketch (16)
+(b) Explain the installation procedures for various hydraulic systems and its maintenance procedures (16)
+!END_QPAPER!
+
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2305
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Under what conditions pneumatic systems are preferred? (2)
+2. List the primary functions of hydraulic fluid (2)
+3. What is a balanced vane pump? (2)
+4. Name the different types of cylinder mountings (2)
+5. What is the function of unloading valve and sequence valve (2)
+6. What is an intensifier and where is it used? (2)
+7. What is a power pack? (2)
+8. What are the functions of air filter and dryer? (2)
+9. Differentiate pressure switch and temperature switch (2)
+10. When to use timer and relay? Why? (2)
+11.
+(a)
+(i) Write the advantages and applications of fluid power with respect to machine tool applications (10)
+(ii) How to select oil for the industrial application? (6)
+(b)
+(i) Write short notes on (1) Laminar and Turbulent flow  (2) Darcy-Weisbach equation (8)
+(ii) What is moody diagram? Explain its important characteristics. (8)
+12.
+(a)
+(i) Explain the construction and working of a swash plate type piston pump with neat sketch (12)
+(ii) Write a short note on Telescopic cylinder (4)
+(b)
+(i) Explain the working of a gear type motor and vane type motors. (12)
+(ii) Explain the cushioning of cylinder (4)
+13.
+(a)
+(i) Explain the working of a pilot operated pressure release valve with neat sketch (8)
+(ii) Explain the use of counter balance valve with a circuit (8)
+(b)
+(i) Explain the different types of accumulator with neat sketch (12)
+(ii) Explain the commonly used electrical control systems in fluid power systems (4)
+14.
+(a)
+(i) With a neat sketch explain the working of piston compressor (8)
+(ii) Explain meter-in and meter-out circuits with neat sketch (8)
+(b) Design an electro pneumatic circuit using cascade method for the following sequence $A^+B^+B^-A^-C^+C^-$ (16)
+15.
+(a)
+(i) Explain the electro hydraulic servo system with a neat sketch. (8)
+(ii) Draw and explain the ladder diagram for electrical control of regenerative circuit (8)
+(b)
+(i) Explain the major components of PLC with a block diagram (10)
+(ii) Compare the ladder diagram of electrical circuit and PLC circuit (6)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2305
+!Year! 2010
+!Month! Apr/May
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Give any 2 differences between hydraulic power and pneumatic power (2)
+2. Give the expression used to determine friction factor for laminar flow through pipes (2)
+3. Sketch the graphical symbol of (a) Variable displacement reversible pump (b) Telescoping cylinder (2)
+4. What is pressure compensated flow control? How a variable vane pump can provide this feature? (2)
+5. Draw a neat sketch for the graphical symbol of a 3 position 4 way solenoid energised pilot operating tanden centre direction control valve (2)
+6. List any 4 applicatons of accumulators (2)
+7. Sketch the graphical symbol of a pneumatic regulator (2)
+8. Draw any one type of clinder synchronizing circuit (2)
+9. How does a servo valve differ from a proportional valve? (2)
+10. List the components associated with PLC systems (2)
+11.
+(a)
+(i) What are the essential and desirable properties of a hydraulic fluid? Discuss (10)
+(ii) List the precautions to be taken when a mineral oil based fluid is changed into a fire resistant fluid. (6)
+(b)
+(i) Explain how Bernoulli's equation can be used to determine the pressure drop between two stations in a hydraulic system. Assume that there are some number of bends, tees, elbows, globe and gate valves in between these two stations separated by a long distance (10)
+(ii) Oil with specific gravity 0.9 enters a tee, as shown in figure, with velocity $v_1$ = 5 m/s. The diameter at section 1 is 10 cm, the diameter at section 2 is 7 cm and the diameter at section 3 is 6cm. If equal flow rates are to occur at sections 2 and 3, find $v_2$ and $v_3$ in m/s. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/ME3205/apr10/fig1.png) (6)
+12.
+(a)
+(i) Explain how positive displacement pumps build pressure compared to rotodynamic pumps. What are the advantages of positive displacement pumps? (6)
+(ii) Using a neat sketch explain the construction and operation of an axial piston pump of swash plate type (10)
+(b) Explain using a neat sketch, "end cushioning" provided in hydraulic cylinders. Also sketch at least six types of cylinder mounts available. (16)
+13.
+(a) Develop a circuit involving two double acting cylinders A and B operating with the following sequence: $A^+B^+B^-A^-$ where + represents extension of rod and - represents retraction. Use only sequence valves to obtain the sequencing (16)
+(b)
+(i) Consider the charging and discharging of a hydro pneumatic accumulator to be isothermal and explain the procedure to arrive at the size of the accumulator (6)
+(ii) Draw a circuit employing accumulator for supplying emergency hydraulic power (10)
+14.
+(a)
+(i) Explain how the size of the air receiver and pressure drop in pneumatic line (schedule 40) are determined (6)
+(ii) Using a neat sketch explain the construction and working of a pneumatic regulator. Also give its graphical symbol. (10)
+(b) A double acting pneumatic cylinder is required to provide the following operation: Fast extension till the middle stroke, slow extension till the end of stroke and on sensing the stroke end provide rapid return. Develop a pneumatic cicuit employing a shuttle valve and suitable flow control and other valves (16)
+15.
+(a) Draw a neat sketch of an electro hydraulic servo valve and indicate all the components and give their functions. Also develop the transfer function for the open loop gain for this valve (16)
+(b)
+(i) Explain the various locations at which filters and strainers are fitted giving reasons (8)
+(ii) If a hydraulic circuit has pump inlet and exit ports interchanged, unloading valve given internal pilot. What happens? Explain (8)
+!END_QPAPER!

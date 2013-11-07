@@ -37,8 +37,11 @@
 <tbody>
 <% @qpaper.examquestions.order("qnumber ASC, subquestion_no ASC").includes(:question).each do |eq| %>
 
+	<% if !eq.subquestion_no.nil? && eq.subquestion_no > 1 && ( eq.subsubqno == 1 || eq.subsubqno.nil? ) then %>
+	<tr><td></td><td>OR</td><td></td><td></td></tr>
+	<% end %>
 	  <tr>
-		<td><%= eq.qnumber.to_s %><%= eq.subquestion_no.nil? ? "" : "."+eq.subquestion_no.to_s %><%= eq.subsubqno.nil? ? "" : "."+eq.subsubqno.to_s %></td>
+		<td><%= eq.qnumber.to_s %><%= eq.subquestion_no.nil? ? "" : "."+('a'.ord+eq.subquestion_no-1).chr %><%= eq.subsubqno.nil? ? "" : "."+roman_numeral(eq.subsubqno) %></td>
 		  <td><%= raw render_markdown eq.question.qtext %></td>
 		  <td><%= eq.mark.to_s %></td>
 		 <% pucid = "nil" %>
