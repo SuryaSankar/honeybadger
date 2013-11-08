@@ -71,7 +71,7 @@
 	<% end %></h5>
 	</div>
 	<div class="bordered-box-content">
-	<p><%= @solution.answer %></p>
+	<p><%= raw render_markdown @solution.answer %></p>
 	<%= link_to "Edit answer", edit_solution_path(@solution.id) if @solution.user_id==current_user.id %>
 	</div>
 </div><!-- bordered-box -->
