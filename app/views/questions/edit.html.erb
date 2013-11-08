@@ -1,5 +1,19 @@
-<%- model_class = Question -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => model_class.model_name.human.titleize %></h1>
-</div>
-<%= render :partial => 'form' %>
+<%= render partial: "partials/question_masthead" %>
+<div class="row-fluid">
+	<div class="span8">
+		<div class="bordered-box">
+				<div class="heading"><h4>Edit your question here</h4></div>
+				<div class="bordered-box-content">
+					<%= render :partial => 'form' %>
+				</div><!-- bordered-box-content -->
+		</div> <!-- bordered-box -->
+	</div><!-- span8 -->
+	<div class="span4">
+		<%= render partial: "partials/question_stats", locals: { question: @question }%>
+		<%= render partial: "partials/syntax_help" %>
+
+	</div><!-- span4-->
+</div><!-- row-fluid -->
+<% content_for :extra_scripts do %>
+<%= render partial: "partials/wmdscript" %>
+<% end %>

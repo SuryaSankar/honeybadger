@@ -1,3 +1,21 @@
 
+<%= render partial: "partials/question_masthead" %>
 
-<%= render :partial => 'form' %>
+<div class="row-fluid">
+	<div class="span8">
+		<div class="bordered-box">
+				<div class="heading"><h4>Edit your answer here</h4></div>
+				<div class="bordered-box-content">
+					<%= render :partial => 'form' %>
+				</div><!-- bordered-box-content -->
+		</div> <!-- bordered-box -->
+	</div><!-- span8 -->
+	<div class="span4">
+		<%= render partial: "partials/question_stats", locals: { question: @question }%>
+		<%= render partial: "partials/syntax_help" %>
+
+	</div><!-- span4-->
+</div><!-- row-fluid -->
+<% content_for :extra_scripts do %>
+<%= render partial: "partials/wmdscript" %>
+<% end %>

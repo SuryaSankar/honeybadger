@@ -1,0 +1,17 @@
+<div class="bordered-box">
+	<div class="heading"><h4>Question Stats</h4></div>
+	<div class="bordered-box-content">
+		<% qpapers=question.qpapers %>
+		<% if !qpapers.empty? then %>
+			<h5>Appeared in: </h5>
+			<ol>
+			<% qpapers.each do |qp| %>
+				<li><%= link_to qp.full_title, qpaper_path(qp.id) %></li>
+			<% end %>
+			</ol>
+		<% end %>
+		<h5>Asked By: </h5>
+		<%= question.user.uname %>
+	</div>
+</div>
+

@@ -32,13 +32,14 @@ class QuestionsController < ApplicationController
 
   # GET /questions/1/edit
   def edit
+	@show_left_navigation = false
   end
 
   # POST /questions
   # POST /questions.json
   def create
-    puts params
     @question = Question.new(question_params)
+    @question.user_id=current_user.id
     respond_to do |format|
       if @question.save
         format.html { redirect_to @question, notice: 'Question was successfully created.' }

@@ -54,6 +54,8 @@
 	</ul>
 <% end %>
 
+<div class="row-fluid">
+	<div class="span8">
 
 <div class="bordered-box">
 	<div class="heading"><h5><%= @solution.user.uname %>'s Answer&nbsp;&nbsp;&nbsp; 
@@ -72,8 +74,14 @@
 	<p><%= @solution.answer %></p>
 	<%= link_to "Edit answer", edit_solution_path(@solution.id) if @solution.user_id==current_user.id %>
 	</div>
-</div>
+</div><!-- bordered-box -->
+</div> <!-- span8-->
+	<div class="span4">
+		<%= render partial: "partials/question_stats", locals: { question: @question }%>
+		<%= render partial: "partials/syntax_help" %>
 
+	</div><!-- span4-->
+</div> <!-- row-fluid-->
 <% content_for :extra_scripts do %>
 
 <script type="text/javascript">

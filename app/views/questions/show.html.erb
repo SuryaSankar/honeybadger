@@ -41,7 +41,7 @@
 <li><%= link_to "Question", '#' %></li>
 	<% else %>
 	<li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-	<li><%= link_to qpaper_path(@qpaper.id) do %><%=@qpaper.university_course.course.full_course_name+"-"+ @qpaper.month+"-"+ @qpaper.year %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+	<li><%= link_to qpaper_path(@qpaper.id) do %><%=@qpaper.university_course.full_course_name+"-"+ @qpaper.month+"-"+ @qpaper.year.to_s %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
 <li><%= link_to "Question", '#' %></li>
 	<% end %>
 <% else %>
@@ -54,8 +54,8 @@
 <% end %>
 
 <% @include_wmd=false %>
-<div class="row">
-	<div class="span9">
+<div class="row-fluid">
+	<div class="span8">
 <% solutions=@question.solutions %>
 <% if @question.solutions.size > 0 then %>
 	<% solutions.each do |sol| %>
@@ -98,26 +98,9 @@
 	<% end %>
 	</div>
 
-	<div class="span3">
-	<% if !@question.standalone then %>
-		<div class="bordered-box">
-			<div class="heading"><h4>Question Stats</h4></div>
-			<div class="bordered-box-content">
-				<% qpapers=@question.qpapers %>
-				<% if !qpapers.empty? then %>
-					<h5>Appeared in</h5>
-					<ol>
-					<% qpapers.each do |qp| %>
-						<li><%= link_to qp.full_title, qpaper_path(qp.id) %></li>
-					<% end %>
-					</ol>
-				<% end %>
-				<h5>Asked By</h5>
-				<%= @question.user.uname %>
-			</div>
-		</div>
-	<% end %>
-
+	<div class="span4">
+		<%= render partial: "partials/question_stats", locals: { question: @question }%>
+		<%= render partial: "partials/syntax_help" %>
 
 	</div>
 </div>

@@ -1,0 +1,25 @@
+<% content_for :masthead_content do %>
+	<div class="hero-unit noise" id="questionBanner">
+		<div class="row">
+			<div class="span10">
+				<div class="handwriting"><h4>Question: <%= @question.qtitle unless @question.qtitle.nil? %></h4></div><%= raw render_markdown @question.qtext %>
+			</div>
+			<div class="span2 handwriting">
+				<% if user_signed_in? && @question.user_id == current_user.id then %>
+				<div class="handwriting"><h4>Actions: </h4></div>
+				<ul>
+				<li>
+				  <%= link_to "Edit Question",
+					      edit_question_path(@question) %></li>
+				<li>
+				  <%= link_to "Delete Question",
+					      question_path(@question),
+					      :method => 'delete',
+					      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
+				</li>
+				</ul>
+				<% end %>
+			</div>
+		</div>
+	</div>
+<% end %>

@@ -10,6 +10,7 @@ class SolutionsController < ApplicationController
   # GET /solutions/1
   # GET /solutions/1.json
   def show
+	@show_left_navigation=false
 	@question=@solution.question
   end
 
@@ -21,6 +22,7 @@ class SolutionsController < ApplicationController
   # GET /solutions/1/edit
   def edit
 	@show_left_navigation=false
+	@question=@solution.question
   end
 
   # POST /solutions

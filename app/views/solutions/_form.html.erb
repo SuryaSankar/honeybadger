@@ -1,8 +1,11 @@
 <%= simple_form_for @solution, :html => { :class => 'form-horizontal' } do |f| %>
-  <%= f.input :answer %>
+<div class='wmd-panel'>
+<div id='wmd-button-bar'></div>
+<%= f.text_area :answer, id: 'wmd-input', class: 'wmd-input' %>
+</div>
   <div class="form-actions">
-    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= f.button :submit, :class => 'btn btn-success' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                session[:previous_url], :class => 'btn' %>
+                solution_path(@solution.id), :class => 'btn btn-danger' %>
   </div>
 <% end %>
