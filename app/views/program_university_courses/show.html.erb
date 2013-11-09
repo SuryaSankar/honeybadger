@@ -1,4 +1,7 @@
 <%- model_class = ProgramUniversityCourse -%>
+<% content_for :title do %>
+<%= "Karpeer - "+@program_university_course.full_course_name %>
+<% end %>
 <% content_for :mathjax_scripts do %>
 <%= render partial: 'partials/mathjax_include' %>
 <% end %>

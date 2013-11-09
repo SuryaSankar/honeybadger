@@ -4,6 +4,9 @@
 <% content_for :prettify_scripts do %>
 <%= render partial: 'partials/prettify_include' %>
 <% end %>
+<% content_for :title do %>
+<%= "Karpeer - "+@qpaper.university_course.full_course_name+" - "+@qpaper.full_title %>
+<% end %>
 
 <% content_for :pagewise_heading do %>
 <%= @qpaper.full_title %>&nbsp;&nbsp;<%= @qpaper.university_course.try(:full_course_name) %>
