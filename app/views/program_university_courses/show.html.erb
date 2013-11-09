@@ -21,7 +21,7 @@
 <%# render partial: "partials/universitycourses_accordion", locals: { pucs_semwise: @program_university_course.program.program_university_courses.where.not(semester: nil).includes(university_course: :course).order("semester").group_by { |puc| puc.semester }, elective_pucs:  @program_university_course.program.program_university_courses.where(elective: true).includes(university_course: :course) } %>
 <% end %>
 <%# render partial: "partials/units", object: @program_university_course.university_course.units %>
-<div class="bordered-box">
+<div class="right-bordered-box">
             <div class="heading"><h4>Question Papers</h4></div>
 	    <div class="bordered-box-content">
 		<% qpapers = @program_university_course.university_course.qpapers %>
@@ -50,7 +50,7 @@
 
 
 
-<div class="bordered-box">
+<div class="right-bordered-box">
             <div class="heading"><h4>Questions</h4></div>
 	    <div class="bordered-box-content">
 <p><h5> <%= link_to "Add a question" , new_question_path+"?course="+@program_university_course.university_course.course_id.to_s %> </h5></p>

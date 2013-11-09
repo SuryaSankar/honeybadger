@@ -82,7 +82,7 @@
 <% end %>
 	<% if Solution.where(user_id: current_user.id, question_id: @question.id).count == 0 then%>
 			<% @include_wmd=true %>
-			<div class="bordered-box">
+			<div class="left-bordered-box">
 				<div class="heading"><h4>Add your answer here</h4></div>
 				<div class="bordered-box-content">
 	<%= bootstrap_flash %>
