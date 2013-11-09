@@ -4,6 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta property="og:title" content="Karpeer" />
+    <meta property="og:type" content="Education Engineering Question Bank e-learning" />
+    <meta property="og:url" content="www.karpeer.com" />
+    <meta property="og:image" content= "https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/ka2.png" />
+    <meta property="og:site_name" content="Education Engineering Question Bank e-learning" />
+
+
     <title><%= content_for?(:title) ? yield(:title) : "Karpeer" %></title>
     <%= csrf_meta_tags %>
 
@@ -22,7 +31,16 @@
 
   </head>
   <body class="noisehome whiteOnGreen">
-  
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=150980305103487";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
     <%= content_for?(:fb_conn_scripts) ? yield(:fb_conn_scripts) : "" %>
     <%= content_for?(:prettify_scripts) ? yield(:prettify_scripts) : "" %>
    <%= content_for?(:mathjax_scripts) ? yield(:mathjax_scripts) : "" %>
@@ -88,9 +106,14 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 				Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Your Facebook Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Your Gmail Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-envelope"></i><a data-toggle="modal" data-target="#signup_modal"> Any other valid email account</a> </p> 
 			<% end %>
 		<% else %>
-		 Now you can <p><i class="icon-thumbs-up"></i>&nbsp;Ask Questions</p><p><i class="icon-thumbs-up"></i>&nbsp;Add Answers</p><p><i class="icon-thumbs-up"></i>&nbsp;Rate other answers</p>So start exploring using the menu on the right
+		 Now you can <p><i class="icon-thumbs-up"></i>&nbsp;Ask Questions</p><p><i class="icon-thumbs-up"></i>&nbsp;Add Answers</p><p><i class="icon-thumbs-up"></i>&nbsp;Rate other answers</p>So start exploring using the menu on the right. 
 		<% end %>
 		</div>
+		</div>
+		<div class="handwriting bordered-box">
+		<div class="heading"><h4>Spread the word</h4></div>
+<div class="fbShare">
+<div class="fb-like" data-href="https://www.facebook.com/karpeer.edu" data-layout="standard" data-action="like" data-show-faces="true" data-colorscheme="dark" data-share="true"></div></div>
 		</div>
 		</div>
 		<div class="span7">
@@ -140,9 +163,7 @@ analytics.identify('<%= current_user.id %>', {
 <% end %>
 <script type="text/javascript">
 $(function(){
-console.log("outside both");
 $("#feedback_modal").on('ajax:beforeSend',function(evt, data, status, xhr){
-console.log("inside before send");
        $("#feedback_modal").modal('hide');
 })
 .on('ajax:complete',function(evt, data, status, xhr){
