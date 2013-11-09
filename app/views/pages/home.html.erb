@@ -18,43 +18,8 @@
     <%# favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
 <%= javascript_include_tag "application" %>
    
-<% cache(cache_programs_courses) do %> 
-   <script type="text/javascript">
-		        $(function() {
-            $('#tree1').jstree( {
-				"json_data" : { "data": <%= raw University.select([:id, :name]).where(name: "Anna University - Affliated Colleges").includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load.map{|u| {	"data" => u.name, 
-	"state" => "open", 
-	"children" => u.programs.to_a.map{ |p| { 
-			"data" => p.shorter_desc , 
-			"children" => (1..8).map{|x| { "data" => "Semester "+x.to_s, 
-							"children" => p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.map{ |puc1| { 
-								"attr"=> { "rel" => "leaf" } ,"data" => { "title" => puc1.university_course.full_course_name, "attr" => { "href" => program_university_course_path(puc1.id) } }
- } }  }} }} }}.to_json %> }, 
-				"core" : { "html_titles" : true  },
-				"themes" : { "theme" : "default", "url": "<%=asset_path "jstree.css" %>", "dots" : false ,"icons" : false },
-				"types" : { 
-						"types" : { 
-						    "leaf" : {
-							"select_node": function (e) {
-								   document.location = e.children("a").attr("href");
-								   return false;
-									}
-						    },
-						    "default" : { 
-							"select_node" : function(e) {
-								            this.toggle_node(e);
-								            return false;
-								        } 
+<%= render partial: "partials/jstree"%>
 
-						    }
-						} 
-					     },
-				"plugins" : [ "themes", "json_data", "types", "ui" ]
-});
-        });
-    </script>
-
-<% end %>
   </head>
   <body class="noisehome whiteOnGreen">
   
@@ -104,7 +69,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="span6">
+		<div class="span5">
 		<div id="login_box", class="handwriting bordered-box">
 		<div class="heading"><h4><% if !user_signed_in? then%>
 				Join Us in one click to start contributing
@@ -128,15 +93,16 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 		</div>
 		</div>
 		</div>
-
-		<div id="tree_box" class="span6 bordered-box">
+		<div class="span7">
+		<div id="tree_box" class="bordered-box">
 			<div class="heading"><h4>START HERE <i class="icon-long-arrow-down"></i><i class="icon-long-arrow-down"></i> Questions sorted by course</h4></div>
 			<div class="bordered-box-content">
-			Click on your branch and select the course
+			Click on your branch and select the course. The number of available questions is shown in parantheses.
 				<% cache("jstree_box1") do %> 
 				<div id="tree1"></div>
 				<% end %>
 			</div>
+		</div>
 		</div>
 
 	</div>

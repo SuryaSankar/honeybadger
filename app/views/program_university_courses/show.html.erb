@@ -21,7 +21,6 @@
 <%# render partial: "partials/universitycourses_accordion", locals: { pucs_semwise: @program_university_course.program.program_university_courses.where.not(semester: nil).includes(university_course: :course).order("semester").group_by { |puc| puc.semester }, elective_pucs:  @program_university_course.program.program_university_courses.where(elective: true).includes(university_course: :course) } %>
 <% end %>
 <%# render partial: "partials/units", object: @program_university_course.university_course.units %>
-<div class="row">
 <div class="bordered-box">
             <div class="heading"><h4>Question Papers</h4></div>
 	    <div class="bordered-box-content">
@@ -37,21 +36,20 @@
 		<% else %>
 		There are no question papers yet for this course.
 		<% end %>
-<div id="underlined-h5"><h5>Upload a question paper</h5></div>
-<%= bootstrap_flash %>
-<%= simple_form_for :qpaper_file, :url => qpaper_files_path, :html => { :multipart => true } do |form| %>
-  <%= form.file_field :uploaded_file %>
-  <%= form.input :university_course_id, :as => :hidden, :input_html => { :value => @program_university_course.university_course_id } %>
-  <%= submit_tag "Upload", class: "btn btn-success" %>
-<% end %>
-	    </div>
-</div>
-</div>
+		<div id="underlined-h5"><h5>Upload a question paper</h5></div>
+		<%= bootstrap_flash %>
+		<%= simple_form_for :qpaper_file, :url => qpaper_files_path, :html => { :multipart => true } do |form| %>
+		  <%= form.file_field :uploaded_file %>
+		  <%= form.input :university_course_id, :as => :hidden, :input_html => { :value => @program_university_course.university_course_id } %>
+		  <%= submit_tag "Upload", class: "btn btn-success" %>
+		<% end %>
+	    </div><!-- bordered-box-content -->
+</div><!-- bordered-box -->
 
 
 
 
-<div class="row">
+
 <div class="bordered-box">
             <div class="heading"><h4>Questions</h4></div>
 	    <div class="bordered-box-content">
@@ -71,7 +69,7 @@
 <%# render partial: "partials/questions", locals: { questions: @program_university_course.university_course.course.questions } %>
 	    </div>
 </div>
-</div>
+
 
 <% if admin_signed_in? then %>
 <div class="form-actions">
