@@ -156,7 +156,12 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 	font-size: 15px;
 	li{
 		ul{
-			li{a {text-decoration: none;}}
+			li{
+				a {
+					text-decoration: none;
+					&:hover { border-width: 1px;  }
+					}
+			}
 		}
 	}
 	  li { font-size: 15px;
@@ -167,7 +172,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 		cursor:pointer;
 	      &:hover { border-width: 1px;  }
 	    }
+	    a:hover { border-width: 1px; color: @white;background-color: @DarkSlateGray }
 	  }
+
 }
 
 .handwriting(@family: 'Special Elite', @fontColor: @white){

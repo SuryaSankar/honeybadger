@@ -14,6 +14,7 @@
 
     <%= stylesheet_link_tag "application", :media => "all" %>
 <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+<%= favicon_link_tag 'ka2.png', :rel => 'shortcut icon' %>
     <%= javascript_include_tag "application" %>
 <% if @show_left_navigation then %>
 	<%= render partial: "partials/jstree"%>
