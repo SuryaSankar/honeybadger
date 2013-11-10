@@ -1,9 +1,14 @@
 class SearchResultsController < ApplicationController
 
 	def search
-	    @qpapers=UniversityCourse.find(search_params[:university_course]).qpapers
-	    puts search_params[:commit]
-	    render "qpapers/index"
+		@university_course=UniversityCourse.find_by(course_code: search_params['query'])
+		if !@university_course.nil?
+			redirect_to university_course_path(@university_course.id)
+		else
+			@university_courses=UniversityCourse.where("course_code LIKE ?", "%#{search_params['query']}%")
+		end
+
+		
 	end
 
 	def find_programs_from_university_and_branch		

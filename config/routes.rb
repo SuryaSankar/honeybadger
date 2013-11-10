@@ -3,6 +3,7 @@ Honeybadger::Application.routes.draw do
   get "feedbacks/create"
   get "search_results_controller/search"
   root 'pages#home'
+ 
 
 
   devise_scope :user do
@@ -14,7 +15,7 @@ Honeybadger::Application.routes.draw do
 
   get "home_programs_json" => 'programs#json_list'
 
-  get "pages/about"
+  
   get "pages/channel"
   get '/search/find_courses_from_program_and_semester' => 'search_results#find_courses_from_program_and_semester'
   get '/search/find_programs_from_university_and_branch' => 'search_results#find_programs_from_university_and_branch'

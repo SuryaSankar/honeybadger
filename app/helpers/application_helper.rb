@@ -20,6 +20,6 @@ module ApplicationHelper
 	def cache_programs_courses
 		count          = Program.count + University.count + ProgramUniversityCourse.count + Question.count
 		max_updated_at = [Program.maximum(:updated_at).try(:utc), University.maximum(:updated_at).try(:utc), Question.maximum(:updated_at).try(:utc),  ProgramUniversityCourse.maximum(:updated_at).try(:utc)].max.try(:to_s, :number)
-		"programsuniversitiescoursesquestions/all-#{count}-#{max_updated_at}"
+		"programsuniversities_courses_questions/all-#{count}-#{max_updated_at}"
 	end
 end

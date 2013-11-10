@@ -109,6 +109,15 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   background-repeat: repeat-x;
 }
 
+.ellipsisBox {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;  
+    -ms-text-overflow: ellipsis;
+}
+
+
 
 .whiteText{
  color: @white;
@@ -222,6 +231,13 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 
 .boardGreenBG{
 	background-color: @boardGreen;
+	color: @white;
+	li{
+		color: @white;
+	}
+	a{
+		color: @white;	
+	}
 }
 .navBarHandwriting{
 	.handwriting(@family: 'Special Elite',@fontColor: @boardGreen);
@@ -368,10 +384,43 @@ h5{
 
 .sidenav-bordered{
 	.bordered-box;
+	color: @white;
+	a {
+		color: @white;	
+	}
+	li {
+		a{ color: @white; }
+	}
 	padding-left: 5px;
 	margin-right: 0px;
 	margin-left: 10px;
+	color: @white;
+	background-color: @boardGreen;
 }
+
+#tree1{
+    white-space: nowrap !important;
+    overflow: visible;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;  	
+}
+
+#tree_box{
+    .jstree-default a { 
+	white-space:normal !important; 
+	height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis; 
+    } 
+}
+
+#fbShareBox{
+	.right-bordered-box;
+	padding-left: 5px;
+	height: 200 px;
+}
+
 .bordered-box-content{
 	padding-top: 10px;
 	padding-left: 20px;
@@ -381,9 +430,16 @@ h5{
 	word-wrap: break-word;
 }
 .fbShare{
+    	white-space: nowrap;
+    	overflow: hidden;	
 	padding-top: 20px;
-	padding-left: 20px;
-	color: @white;
+	padding-left: 20px;	
+}
+.fbShareDark{
+	.ellipsisBox;
+	padding-top: 20px;
+	padding-left: 20px;	
+	color: @white !important;
 }
 
 .bordered-box-title{
@@ -412,6 +468,7 @@ h5{
     color: @white;
   }
 }
+
 
 
 

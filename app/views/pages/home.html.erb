@@ -118,9 +118,11 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 		</div>
 		<div class="span7">
 		<div id="tree_box" class="bordered-box">
-			<div class="heading"><h4>START HERE <i class="icon-long-arrow-down"></i><i class="icon-long-arrow-down"></i> Questions sorted by course</h4></div>
+			<div class="heading"><h4>START HERE <i class="icon-long-arrow-down"></i><i class="icon-long-arrow-down"></i> Choose a course to view its question bank </h4></div>
 			<div class="bordered-box-content">
-			Click on your branch and select the course. The number of available questions is shown in parantheses.
+
+			<%# render partial: "partials/search_form" %>
+			Click on your branch and choose a course
 				<% cache("jstree_box1") do %> 
 				<div id="tree1"></div>
 				<% end %>

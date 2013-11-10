@@ -8,7 +8,7 @@
 			"data" => p.shorter_desc , 
 			"children" => (1..8).map{|x| { "data" => "Semester "+x.to_s, 
 							"children" => p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.map{ |puc1| { 
-								"attr"=> { "rel" => "leaf" } ,"data" => { "title" => puc1.university_course.full_course_name+" ("+puc1.university_course.course.questions.count.to_s+")", "attr" => { "href" => program_university_course_path(puc1.id) } }
+								"attr"=> { "rel" => "leaf" } ,"data" => { "title" => puc1.university_course.full_course_name+" ( "+puc1.university_course.course.questions.count.to_s+" questions )", "attr" => { "href" => program_university_course_path(puc1.id) } }
  } }  }} }} }}.to_json %> }, 
 				"core" : { "html_titles" : true  },
 				"themes" : { "theme" : "default", "url": "<%=asset_path "jstree.css" %>", "dots" : false ,"icons" : false },
