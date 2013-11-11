@@ -1,0 +1,38 @@
+<% cache ["v4", cache_programs_courses_html ] do %>
+  <% @universities=University.where(name: "Anna University - Affliated Colleges").includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load %>
+  <ul>
+    <% @universities.each do |u| %>
+      <% cache ["v4", u] do%>
+      <li class="jstree-open">
+        <%=link_to u.name, '#' %>   
+        <ul>
+          <% u.programs.each do |p| %>
+            <% cache ["v4", p] do%>
+            <li>
+              <%= link_to p.shorter_desc, '#' %>
+              <ul>
+                <% (1..8).each do |x| %>
+                  <li>
+                    <%= link_to "Semester "+x.to_s, "#" %>
+                    <ul>
+                      <% p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.each do |puc1| %>
+                        <% cache ["v4", puc1.university_course] do %>
+                        <li class="jstree-leaf" rel="leaf">
+                          <%= link_to puc1.university_course.full_course_name+" ( "+puc1.university_course.qpapers.count.to_s+" question papers )", program_university_course_path(puc1.id)%>
+                        </li>
+                        <% end %>
+                      <% end %>
+                    </ul>
+                  </li>
+                <% end %>
+              </ul>
+            </li>
+            <% end %>
+          <% end %>
+        </ul>
+      </li>
+      <% end %>
+    <% end %>
+  </ul>
+<% end %>
+

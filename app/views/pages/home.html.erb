@@ -27,7 +27,7 @@
     <%= favicon_link_tag 'ka2.png', :rel => 'shortcut icon' %>
 <%= javascript_include_tag "application" %>
    
-<%= render partial: "partials/jstree"%>
+<%# render partial: "partials/jstree"%>
 
   </head>
   <body class="noisehome whiteOnGreen">
@@ -122,10 +122,10 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 			<div class="bordered-box-content">
 
 			<%# render partial: "partials/search_form" %>
-			Click on your branch and choose a course
-				<% cache("jstree_box1") do %> 
-				<div id="tree1"></div>
-				<% end %>
+			Click on your branch and choose a course 
+				<div id="tree1">
+				<%= render partial: "partials/jstree_htmldata" %>
+				</div>
 			</div>
 		</div>
 		</div>
@@ -153,6 +153,8 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
     <!-- Javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+<%= render partial: "partials/jstree2"%>
+
 <% if user_signed_in? then%>
 <script type="text/javascript">
 analytics.identify('<%= current_user.id %>', {

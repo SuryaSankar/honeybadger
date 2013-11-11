@@ -1,0 +1,26 @@
+   <script type="text/javascript">
+		        $(function() {
+            $('#tree1').jstree( {
+				"core" : { "html_titles" : true  },
+				"themes" : { "theme" : "default", "url": "<%=asset_path "jstree.css" %>", "dots" : false ,"icons" : false },
+				"types" : { 
+						"types" : { 
+						    "leaf" : {
+							"select_node": function (e) {
+								   document.location = e.children("a").attr("href");
+								   return false;
+									}
+						    },
+						    "default" : { 
+							"select_node" : function(e) {
+								            this.toggle_node(e);
+								            return false;
+								        } 
+
+						    }
+						} 
+					     },
+				"plugins" : [ "themes", "html_data", "types", "ui" ]
+});
+        });
+    </script>
