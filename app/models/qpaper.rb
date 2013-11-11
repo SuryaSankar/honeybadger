@@ -1,7 +1,7 @@
 class Qpaper < ActiveRecord::Base
         has_many :examquestions , dependent: :destroy
 	has_many :questions, through: :examquestions
-	belongs_to :university_course
+	belongs_to :university_course, touch: true
 	belongs_to :user
 	has_and_belongs_to_many :programs
 
