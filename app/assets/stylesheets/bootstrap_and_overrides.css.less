@@ -140,12 +140,18 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 	}
 }
 
+.customLink{
+	    a { text-decoration: underline; 
+	      &:hover { border-width: 1px;  text-decoration: underline; color: @black;  }
+	    }
+}
 
 .whiteOnGreen{
 	background-color: @boardGreen;
 	color: @white;
 	padding-top: 10px;
 	margin-bottom: 0px;
+	overflow-x: hidden;
 }
 
 

@@ -23,14 +23,10 @@ module ApplicationHelper
 		"programsuniversities_courses_questions/all-#{count}-#{max_updated_at}"
 	end
 
-	def puc_qpapers(uc_id)
-		max_updated_at = Qpaper.where(university_course_id: uc_id).maximum(:updated_at).try(:utc).try(:to_s, :number)
-		"programuniversitycourses_qpapers-#{max_updated_at}"
+	def qpaper_questions(qpaper)
+		max_updated_at = [qpaper.updated_at.try(:utc),  Question.where(id: Examquestion.select(:question_id).where(qpaper_id: qpaper.id)).maximum(:updated_at) ].max.try(:to_s, :number)
+		"qpaper_questions-#{max_updated_at}"
 	end
-
-	def puc_questions(c_id)
-		max_updated_at = Question.where(course_id: c_id).maximum(:updated_at).try(:utc).try(:to_s, :number)
-		"programuniversitycourses_questions-#{max_updated_at}"
-	end
+		
 
 end

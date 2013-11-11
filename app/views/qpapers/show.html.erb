@@ -36,26 +36,26 @@
 
 <thead>
 <tr>
-<th>Q.No.</th><th>Question</th><th>Marks</th><th>Solutions</th>
+<th>Q.No.</th><th>Question</th><th>Marks</th>
 </tr>
 </thead>
 
 <tbody>
+<% cache(qpaper_questions(@qpaper)) do%>
 <% @qpaper.examquestions.order("qnumber ASC, subquestion_no ASC").includes(:question).each do |eq| %>
-
-	<% if !eq.subquestion_no.nil? && eq.subquestion_no > 1 && ( eq.subsubqno == 1 || eq.subsubqno.nil? ) then %>
-	<tr><td></td><td>OR</td><td></td><td></td></tr>
-	<% end %>
-	  <tr>
-		<td><%= eq.qnumber.to_s %><%= eq.subquestion_no.nil? ? "" : "."+('a'.ord+eq.subquestion_no-1).chr %><%= eq.subsubqno.nil? ? "" : "."+roman_numeral(eq.subsubqno) %></td>
-		  <td><%= raw render_markdown eq.question.qtext %></td>
-		  <td><%= eq.mark.to_s %></td>
-		 <% pucid = "nil" %>
-		 <% pucid = @puc.id.to_s unless @puc.nil? %>
-		  <td><%= link_to question_path(eq.question_id) + "?qpaperid="+@qpaper.id.to_s+"&puc="+pucid, class: "btn btn-success" do %>
-			<i class="icon-unlock"></i>
-		<% end %></td>
-	  </tr>
+	<% cache eq.question do %>
+		<% if !eq.subquestion_no.nil? && eq.subquestion_no > 1 && ( eq.subsubqno == 1 || eq.subsubqno.nil? ) then %>
+		<tr><td></td><td>OR</td><td></td></tr>
+		<% end %>
+		  <tr>
+			<td><%= eq.qnumber.to_s %><%= eq.subquestion_no.nil? ? "" : "."+('a'.ord+eq.subquestion_no-1).chr %><%= eq.subsubqno.nil? ? "" : "."+roman_numeral(eq.subsubqno) %></td>
+			  <td><div class="customLink"><%=link_to raw(render_markdown(eq.question.qtext)), question_path(eq.question_id) %></div></td>
+			  <td><%= eq.mark.to_s %></td>
+			 <% pucid = "nil" %>
+			 <% pucid = @puc.id.to_s unless @puc.nil? %>
+		  </tr>
+	 <% end %>
+<% end %>
 <% end %>
 </tbody>
 </div>

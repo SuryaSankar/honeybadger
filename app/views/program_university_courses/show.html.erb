@@ -32,7 +32,9 @@
 			<ol>
 			<% qpapers.each do |qp| %>
 			<li>
+			
 			<%= link_to qp.title+" "+qp.month+" "+qp.year.to_s, qpaper_path(qp.id)+"?puc="+@program_university_course.id.to_s %>
+			
 			</li>
 			<% end %>
 			</ol>
