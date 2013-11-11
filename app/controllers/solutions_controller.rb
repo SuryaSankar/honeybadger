@@ -68,7 +68,7 @@ class SolutionsController < ApplicationController
 
   def accept
 	AcceptedSolution.create user_id: current_user.id, solution_id: params[:solution_id], accept: true
-	render text: AcceptedSolution.where(user_id: current_user.id, solution_id: params[:solution_id], accept: true).count
+	render text: AcceptedSolution.where(solution_id: params[:solution_id], accept: true).count
   end
 
   private
