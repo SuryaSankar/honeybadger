@@ -41,6 +41,12 @@ class SolutionsController < ApplicationController
     end
   end
 
+  def yoursolutions
+    @solutions=Solution.where(user_id: current_user.id).order('created_at DESC') 
+    puts @solutions 
+    render 'index'
+  end
+
   # PATCH/PUT /solutions/1
   # PATCH/PUT /solutions/1.json
   def update
@@ -70,6 +76,7 @@ class SolutionsController < ApplicationController
 	AcceptedSolution.create user_id: current_user.id, solution_id: params[:solution_id], accept: true
 	render text: AcceptedSolution.where(solution_id: params[:solution_id], accept: true).count
   end
+
 
   private
     # Use callbacks to share common setup or constraints between actions.

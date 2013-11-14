@@ -41,9 +41,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-    <%= content_for?(:fb_conn_scripts) ? yield(:fb_conn_scripts) : "" %>
     <%= content_for?(:prettify_scripts) ? yield(:prettify_scripts) : "" %>
-   <%= content_for?(:mathjax_scripts) ? yield(:mathjax_scripts) : "" %>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner navbarCursiveFont">
         <div class="container">
@@ -58,14 +56,7 @@
 
 	      <% if user_signed_in? then%>
 		<li class="divider-vertical"></li>
-			<li class="dropdown">
-			  <a id="account_dropdown" class="dropdown-toggle" data-toggle="dropdown" href="#">Your account</a>
-			  <ul class="dropdown-menu" role="menu" aria-labelledby="account_dropdown">
-				<li role="presentation"><a role="menuitem" tabindex="-1" href="/yourquestions">Your Questions</a></li>
-				<li role="presentation" class="divider"></li>
-			<li role="presentation"><%= link_to "Sign Out", destroy_user_session_path, {method: :delete , role: "menuitem" }  %></li>
-			  </ul>
-			</li>
+    <%= render partial: "partials/account_dropdown" %>
 		<li class="divider-vertical"></li>
               <% end %>
 		
@@ -110,11 +101,23 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 		<% end %>
 		</div>
 		</div>
-		<div class="handwriting bordered-box">
-		<div class="heading"><h4>Spread the word</h4></div>
-<div class="fbShare">
-<div class="fb-like" data-href="https://www.facebook.com/karpeer.edu" data-layout="standard" data-action="like" data-show-faces="true" data-colorscheme="dark" data-share="true"></div></div>
-		</div>
+     <% if Solution.count > 0 then %>
+     <div class="handwriting bordered-box">
+      <div class="heading"><h4>Recently added Answers</h4></div>
+      <div class="bordered-box-content">
+        <ol>
+        <% cache(Solution.last) do %>
+          <% Solution.limit(5).order('created_at DESC').each do |sol| %>
+            <% q=sol.question.qtitle || sol.question.qtext %>
+            <li><%= sol.user.uname %> answered <%= link_to raw(render_markdown(q)), solution_path(sol.id) %></li>
+          <% end %>
+        <% end %>
+        </ol>
+      </div>
+     </div>
+    <% end %>
+
+
 		</div>
 		<div class="span7">
 		<div id="tree_box" class="bordered-box">
@@ -131,6 +134,16 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 		</div>
 
 	</div>
+
+<div class="row">
+<div class="span10 offset1">
+		<div class="handwriting bordered-box">
+		<div class="heading"><h4>Spread the word</h4></div>
+<div class="fbShare">
+<div class="fb-like" data-href="https://www.facebook.com/karpeer.edu" data-layout="standard" data-action="like" data-show-faces="true" data-colorscheme="dark" data-share="true"></div></div>
+		</div>
+</div>
+</div>
 
        </div>		
 
@@ -154,7 +167,7 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 <%= render partial: "partials/jstree2"%>
-
+<%= render partial: 'partials/mathjax_include' %>
 <% if user_signed_in? then%>
 <script type="text/javascript">
 analytics.identify('<%= current_user.id %>', {

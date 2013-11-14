@@ -58,14 +58,14 @@
 <div class="right-bordered-box">
             <div class="heading"><h4>Questions</h4></div>
 	    <div class="bordered-box-content">
-	<% cache @program_university_course.university_course.course do%>
+	<% cache [ "v1", @program_university_course.university_course.course] do%>
 		<p><h5> <%= link_to "Add a question" , new_question_path+"?course="+@program_university_course.university_course.course_id.to_s, class: "btn btn-success" %> </h5></p>
 			<% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).count > 0 then %>
 				<h5>Questions added by Users</h5>
 				<ol>
 				<% Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).each do |q| %>
         <% cache q do %>
-				<li><%= link_to (q.qtitle || q.qtext), question_path(q.id) %></li>
+				<li><%= link_to (q.qtitle || q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></li>
         <% end %>
 				<% end %>
 				</ol>
@@ -77,7 +77,7 @@
 				<h6><%= mark %> Marks</h6>
 				<ol>
 				<% questions[mark].each do |q| %>
-				 <li><%= link_to (q.qtitle || q.qtext), question_path(q.id) %></li>
+				 <li><%= link_to (q.qtitle || q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></li>
 				<% end %>
 				</ol>
 				<% end %>

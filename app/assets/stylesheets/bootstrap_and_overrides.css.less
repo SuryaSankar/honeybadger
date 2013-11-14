@@ -179,9 +179,11 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 			}
 		}
 	}
-	  li { font-size: 15px;
+	  li { 
+    font-size: 15px;
 		font-weight: bold;
 		font-family: 'Special Elite', cursive;
+
 	    a { text-decoration: underline; 
 		font-family: 'Special Elite', cursive;
 		cursor:pointer;
@@ -192,42 +194,75 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 
 }
 
+
 .handwriting(@family: 'Special Elite', @fontColor: @white){
 	font-family: @family;
 	color: @fontColor;
 	font-size: 15px;
+    a{
+        text-decoration: none; 
+        color: @white;
+	      font-family: 'Special Elite', cursive;
+	      font-weight: bold;
+        font-size: inherit;
+        &:visited{
+          color: @white;
+        }  
+        &:hover{
+          border-width: 1px;
+          color: @white;
+          background-color: inherit;
+        }
+      }
+	  h1 {
+	    font-size: 50px;
 	    a { text-decoration: underline; 
 		color: @fontColor;
 		font-family: 'Special Elite', cursive;
 		font-weight: bold;
-		font-size: 14px;
+		font-size: 50px;
 		cursor:pointer;
-	      &:hover { border-width: 1px; color: @fontColor; }
+	      &:hover { border-width: 1px; color: @fontColor;background-color: none; }
 	    }
-	  h1 {
-	    font-size: 50px;
 	  }
 	p{
 	font-size: 15px;
 	font-weight: bold;
 	font-family: @family;
-	    a { text-decoration: underline; 
-		color: @fontColor;
-		font-family: 'Special Elite', cursive;
-		font-weight: bold;
-		font-size: 15px;
-		cursor:pointer;
-	      &:hover { border-width: 1px; color: @fontColor; }
-	    }
+    a{
+        text-decoration: none; 
+        color: @white;
+	      font-family: 'Special Elite', cursive;
+	      font-weight: bold;
+        font-size: inherit;
+        &:visited{
+          color: @white;
+        }  
+        &:hover{
+          border-width: 1px;
+          color: @white;
+          background-color: inherit;
+        }
+      }
 	}	
 	  li { font-size: 15px;
 		color: @fontColor;
 		font-family: 'Special Elite', cursive;
-	    a { text-decoration: none; 
-		color: @fontColor;
-		font-family: 'Special Elite', cursive;
-	      &:hover { border-width: 1px; color: @fontColor; }
-	    }
+    a{
+        text-decoration: none; 
+        color: @white;
+	      font-family: 'Special Elite', cursive;
+	      font-weight: bold;
+        font-size: inherit;
+        &:visited{
+          color: @white;
+        }  
+        &:hover{
+          border-width: 1px;
+          color: @white;
+          background-color: inherit;
+        }
+      }
 	  }
 }
 
@@ -257,6 +292,69 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 	background-color: @boardGreen;
 	height: 130px;
 	.handwriting;
+}
+
+.bannerlogo {
+  color: @white;
+	font-family: 'Special Elite', cursive;
+	font-weight: bold;
+	font-size: 50px;
+  padding-top: 20px;
+  a{
+  color: @white;
+	font-family: 'Special Elite', cursive;
+	font-weight: bold;
+	font-size: 50px;
+  &:visited{
+    color: @white;
+  }  
+  &:hover{
+    color: inherit;
+    background-color: inherit;
+  }
+  }
+  
+}
+
+.questionheading{
+  color: @black;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  border-bottom:2px solid ;
+}
+.navbarLink{
+  a{
+  color: @white;
+	font-family: 'Special Elite', cursive;
+	font-weight: bold;
+  font-size: inherit;
+  &:visited{
+    color: @white;
+  }  
+  &:hover{
+    color: inherit;
+    background-color: inherit;
+  }
+  }
+
+}
+
+.boardLink {
+  a{
+  color: @white;
+	font-family: 'Special Elite', cursive;
+	font-weight: bold;
+  font-size: 15px;
+  text-decoration: underline;
+  &:visited{
+    color: @white;
+  }  
+  &:hover{
+    color: inherit;
+    background-color: inherit;
+  }
+  }
 }
 
 #questionBanner{

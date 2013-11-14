@@ -85,10 +85,10 @@ class QuestionsController < ApplicationController
 	@solution.user_id=current_user.id
 	@solution.question_id= params[:question_id]
 	@question = Question.find(params[:question_id])
-	if @solution.save! then
+	if @solution.save then
 		redirect_to question_path(params[:question_id])
 	else
-		render action: 'show', location: Question.find(params[:question_id])
+		redirect_to question_path(params[:question_id]), notice: @solution.errors
 	end		
   end
 
