@@ -64,9 +64,10 @@ class SolutionsController < ApplicationController
   # DELETE /solutions/1
   # DELETE /solutions/1.json
   def destroy
+    question_id=@solution.question_id
     @solution.destroy
     respond_to do |format|
-      format.html { redirect_to solutions_url }
+      format.html { redirect_to question_path(question_id) }
       format.json { head :no_content }
     end
   end

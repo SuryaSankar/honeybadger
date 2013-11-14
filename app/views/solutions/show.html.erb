@@ -6,29 +6,7 @@
 	<%= render partial: 'partials/mathjax_include' %>
 <% end %>
 <% content_for :masthead_content do %>
-	<div class="hero-unit noise" id="questionBanner">
-		<div class="row">
-			<div class="span10">
-				<div class="handwriting"><h4>Question: <%= @question.qtitle unless @question.qtitle.nil? %></h4></div><%= raw render_markdown @question.qtext %>
-			</div>
-			<div class="span2 handwriting">
-				<% if user_signed_in? && @question.user_id == current_user.id then %>
-				<div class="handwriting"><h4>Actions: </h4></div>
-				<ul>
-				<li>
-				  <%= link_to "Edit Question",
-					      edit_question_path(@question) %></li>
-				<li>
-				  <%= link_to "Delete Question",
-					      question_path(@question),
-					      :method => 'delete',
-					      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
-				</li>
-				</ul>
-				<% end %>
-			</div>
-		</div>
-	</div>
+  <%= render partial: "partials/question_masthead" %>
 <% end %>
 
 <% content_for :navbar_breadcrumbs do %>
@@ -38,16 +16,15 @@
 	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 <li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
 <li><%= link_to qpaper_path(@qpaper.id) do %><%= @qpaper.month+"-"+ @qpaper.year.to_s %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
-<li><%= link_to "Question", '#' %></li>
+<li><%= link_to "Question", question_path(@solution.question_id) %></li>
 	<% else %>
 	<li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 	<li><%= link_to qpaper_path(@qpaper.id) do %><%=@qpaper.university_course.course.full_course_name+"-"+ @qpaper.month+"-"+ @qpaper.year %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
-<li><%= link_to "Question", '#' %></li>
+<li><%= link_to "Question", question_path(@solution.question_id) %></li>
 	<% end %>
 <% else %>
 	  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
-<li><%= link_to course_path(@question.course_id) do %><%= @question.course.name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-<li><%= link_to question_path(@question.id) do %>Question &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to question_path(@solution.question_id) do %>Question &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
 <li><%= link_to "Answer", '#' %></li>
 <% end %>
 
@@ -72,7 +49,10 @@
 	</div>
 	<div class="bordered-box-content">
 	<p><%= raw render_markdown @solution.answer %></p>
-	<%= link_to "Edit answer", edit_solution_path(@solution.id) if @solution.user_id==current_user.id %>
+  <% if @solution.user_id==current_user.id  then %>
+	<%= link_to "Edit answer", edit_solution_path(@solution.id) %>
+   <%= link_to "Delete Answer", solution_path(@solution), :method => 'delete', :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
+  <% end %>
 	</div>
 </div><!-- bordered-box -->
 </div> <!-- span8-->

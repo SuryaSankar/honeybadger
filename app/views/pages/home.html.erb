@@ -131,6 +131,19 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 				</div>
 			</div>
 		</div>
+
+    <div class="handwriting bordered-box">
+      <div class="heading"><h4>Recently added Question Papers</h4></div>
+      <div class="bordered-box-content">
+        <ol>
+        <% cache [ "v1", Qpaper.last ] do%>
+          <% Qpaper.order('created_at DESC').limit(5).each do |qp| %>
+            <li><div class="boardLink"><%= link_to qp.university_course.full_course_name+" "+qp.month+" "+qp.year.to_s, qpaper_path(qp.id) %></div></li>
+          <% end %>
+        <% end %>
+        </ol>
+      </div>
+    </div>
 		</div>
 
 	</div>
