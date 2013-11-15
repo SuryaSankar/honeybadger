@@ -7,7 +7,7 @@
 
 
     <meta property="og:title" content="Karpeer" />
-    <meta property="og:type" content="Education Engineering Question Bank e-learning" />
+    <meta property="og:type" content="Education Engineering Question Bank e-learning Anna University Papers Syllabus" />
     <meta property="og:url" content="www.karpeer.com" />
     <meta property="og:image" content= "https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/ka2.png" />
     <meta property="og:site_name" content="Education Engineering Question Bank e-learning" />
@@ -101,12 +101,12 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 		<% end %>
 		</div>
 		</div>
-     <% if Solution.count > 0 then %>
+     
      <div class="handwriting bordered-box">
       <div class="heading"><h4>Recently added Answers</h4></div>
       <div class="bordered-box-content">
         <ol>
-        <% cache(Solution.last) do %>
+        <% cache(Solution.maximum(:updated_at)) do %>
           <% Solution.limit(5).order('created_at DESC').each do |sol| %>
             <% q=sol.question.qtitle || sol.question.qtext %>
             <li><%= sol.user.uname %> answered <%= link_to raw(render_markdown(q)), solution_path(sol.id) %></li>
@@ -115,7 +115,7 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
         </ol>
       </div>
      </div>
-    <% end %>
+    
 
 
 		</div>

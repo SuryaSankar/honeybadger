@@ -42,21 +42,13 @@ body { padding-top: 25px !important; }
 @woodLightBrown: #7d2913;
 @nutmegBrown: #663300;
 @darkBrown: #824200;
-@julepYellow: #F4F0CB;
 
-@reddishBrown: #330000;
-@chocolateBrown: #D2691E;
-@saddleBrown: #8B4513;
+
+
 @black: #000000;
-@pineGreen: #009F6B;
-@bistreBrown: #382E1C;
-@lightSkyBlue: #00BFFF;
-@olive: #6B8E23;
-@bisque: #FFE4C4;
-@lightGold: #EEDD82;
-@linen: #FAF0E6;
-@honeyDew: #F0FFF0;
-@aliceBlue: #F0F8FF;
+@blue: #0000FF;
+@slateblue: #6A5ACD;
+@navyblue: #000080;
 @DarkSlateGray: #2F4F4F;
 
 @navbarBackground: @black !important;
@@ -67,27 +59,7 @@ body { padding-top: 25px !important; }
 
 
 
-.aliceblueBg{
-background-color: @aliceBlue;
-}
 
-.honeyDewBg{
-background-color: @honeyDew;
-}
-.linenBg{
-  background-color: @linen;
-}
-
-.lightGoldBg{
- background-color: @lightGold;
-}
-.lightSkyBlueBg {
- background-color: @lightSkyBlue;
-}
-
-.bisqueBg {
- background-color: @bisque;
-}
 
 .fullWidth{
 width: 100%;
@@ -122,27 +94,12 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 .whiteText{
  color: @white;
 }
-.blackandwhite{
-        background-color: @black;
-	color: @white;
-	    a { text-decoration: None; 
-		color: @white;
-		font-family: 'Special Elite', cursive;
-	      &:hover { border-width: 1px; color: @white; text-decoration: underline;  }
-	    }
-	p{
-	font-family: 'Special Elite', cursive;
-	    a { text-decoration: None; 
-		color: @white;
-		font-family: 'Special Elite', cursive;
-	      &:hover { border-width: 1px; color: @white; text-decoration: underline;  }
-	    }
-	}
-}
+
 
 .customLink{
-	    a { text-decoration: underline; 
-	      &:hover { border-width: 1px;  text-decoration: underline; color: @black;  }
+	    a { text-decoration: underline; color: @navyblue;
+	      &:hover { border-width: 1px;  text-decoration: underline; color: @navyblue; background-color: inherit; }
+        &:visited { color: #800080; }
 	    }
 }
 
@@ -249,7 +206,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 		color: @fontColor;
 		font-family: 'Special Elite', cursive;
     a{
-        text-decoration: none; 
+        text-decoration: underline; 
         color: @white;
 	      font-family: 'Special Elite', cursive;
 	      font-weight: bold;
@@ -261,6 +218,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
           border-width: 1px;
           color: @white;
           background-color: inherit;
+          text-decoration: underline;
         }
       }
 	  }
