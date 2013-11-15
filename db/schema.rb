@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131105134609) do
+ActiveRecord::Schema.define(version: 20131115105618) do
 
   create_table "accepted_solutions", force: true do |t|
     t.boolean  "accept"
@@ -90,6 +90,13 @@ ActiveRecord::Schema.define(version: 20131105134609) do
   add_index "examquestions", ["qpaper_id"], name: "index_examquestions_on_qpaper_id"
   add_index "examquestions", ["question_id"], name: "index_examquestions_on_question_id"
   add_index "examquestions", ["user_id"], name: "index_examquestions_on_user_id"
+
+  create_table "exams", force: true do |t|
+    t.date     "date"
+    t.string   "session"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "institutions", force: true do |t|
     t.string   "name"

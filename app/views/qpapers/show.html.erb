@@ -41,15 +41,21 @@
 </thead>
 
 <tbody>
-<% cache [ "v3" , qpaper_questions(@qpaper) ] do%>
+<% cache [ "v4" , qpaper_questions(@qpaper) ] do%>
 <% @qpaper.examquestions.order("qnumber ASC, subquestion_no ASC").includes(:question).each do |eq| %>
-	<% cache [ "v3", eq.question ] do %>
+	<% cache [ "v4", eq.question ] do %>
 		<% if !eq.subquestion_no.nil? && eq.subquestion_no > 1 && ( eq.subsubqno == 1 || eq.subsubqno.nil? ) then %>
 		<tr><td></td><td>OR</td><td></td></tr>
 		<% end %>
 		  <tr>
 			<td><%= eq.qnumber.to_s %><%= eq.subquestion_no.nil? ? "" : "."+('a'.ord+eq.subquestion_no-1).chr %><%= eq.subsubqno.nil? ? "" : "."+roman_numeral(eq.subsubqno) %></td>
-			  <td><div class="customLink"><%=link_to raw(render_markdown(eq.question.qtext)), question_path(eq.question_id)+"?puc="+@puc.id.to_s+"&qpaper="+@qpaper.id.to_s %></div></td>
+			  <td><div class="customLink">
+        <% if @puc then %>
+          <%=link_to raw(render_markdown(eq.question.qtext)), question_path(eq.question_id)+"?puc="+@puc.id.to_s+"&qpaper="+@qpaper.id.to_s %>
+        <% else %>
+          <%=link_to raw(render_markdown(eq.question.qtext)), question_path(eq.question_id)+"?qpaper="+@qpaper.id.to_s %>
+        <% end %>
+        </div></td>
 			  <td><%= eq.mark.to_s %></td>
 			 <% pucid = "nil" %>
 			 <% pucid = @puc.id.to_s unless @puc.nil? %>
