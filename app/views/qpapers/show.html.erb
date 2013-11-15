@@ -22,8 +22,7 @@
 <li><%= link_to @qpaper.full_title, '#' %></li>
 <% else %>
 	  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
-<li><%= link_to university_course_path(@qpaper.university_course_id) do %><%= @qpaper.university_course.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-<li><%= link_to @qpaper.full_title, '#' %></li>
+    <li><%= link_to @qpaper.full_title, '#' %></li>
 
 <% end %>
 	</ul>
