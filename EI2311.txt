@@ -1,0 +1,247 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EI2311
+!Year! 2013
+!Month! May/June
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1.Classify Biomedical instrumentation. (2)
+2.Define resting potentials.(2)
+3.What is ERG?(2)
+4.What are the major advantages of chopper amplifier?(2)
+5.What is plethysmograph?(2)
+6.What are the automated indirect methods of blood pressure measurement?(2)
+7.List the modes of operation of ultrasonic imaging.(2)
+8.What are the limitation of CT scan?(2)
+9.What are the classification of defibrillator?(2)
+10.What is the need for heart lung machine?(2)
+11.
+(a) List the cell components and their functions. (16)
+(b) What are the difficulties in measuring living system? Explain in detail. (16)
+12.
+(a) With the help of functional block diagram,explain the working of a typical electrocardiograph. (16)
+(b) Explain how the electrical hazards protection can be provide in the biomedical instrumentation systems. (16)
+13.
+(a) Explain the working of spirometer with the helps of functional diagram. (16)
+(b) Explain the rheographic method or blood pressure measurement. (16)
+14.
+(a) Explain the working of a biotelemetry system with such carrier. (16)
+(b) Explain the principle of operation of MRI with suitable illustrations. (16)
+15.
+(a) Explain with a block diagram the working of servo controlled ventilator (16)
+(b) Draw and explain the heart-lung machine model (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EI2311
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1.What are resting and action potentials? (2)
+2.What is a neuron?define the various parameter associated with it. (2)
+3.What is the purpose of electrode paste? (2)
+4.Define micro and macro shocks. (2)
+5.What is the principle of plethysmograph and how many types are available. (2)
+6.List few applications of gas analysis. (2)
+7.What is the principle of CT? (2)
+8.List few applications of ultra sonography. (2)
+9.What is a neutral pacemaker and define a pacemaker? (2)
+10.What is the principle of Diathermy? (2)
+11.
+(a)
+(i) Draw the block diagram of a biomedical instrument system and briefly explain its components. (8)
+(ii) Discuss the specifications of a medical instrumentation system. (8)
+(b)
+(i) List the advantages of optical fibre sensor. (8)
+(ii) Explain a piezoelectric ultrasonic transducer with a neat schematic diagram. (8)
+12.
+(a)
+(i) Describe the function of floating electrode with a neat figure. (8)
+(ii) Explain the working of a chopper amplifier. (8)
+13.
+(a)
+(i) Explain the fick’s method for cardiac output measurements. (8)
+(ii) Describe the need for blood pH measurement. (8)
+(b)
+(i)Explain the working of a spirometer. (8)
+(ii) Discuss a finger-tip oxymeter. (8)
+14.
+(a)
+(i) Explain the working of a CT scanner. (8)
+(ii) List few applications of endoscopy. (8)
+(b)
+(i) Explain a biotelemetry system with a block diagram. (8)
+(ii) What is ultrasound principle? Discuss various modes of display. (8)
+15.
+(a)
+(i) Explain the working of a fixed rate pacemaker. (8)
+(ii) List and explain the applications of stimulators. (8)
+(b)
+(i) Discuss the working of lithotripsy with clear schematic diagrams. (8)
+(ii) Explain the working of a SW diathermy. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EI2311
+!Year! 2012
+!Month! May/Jun
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is bioelectric potential? (2)
+2. What is propagation of action potential? (2)
+3. What is ECG? (2)
+4. Define Let-Go current of human body (2)
+5. List the applications of biotelemetry (2)
+6. What are the advantages of a MRI scan? (2)
+7. What is cardiac output? (2)
+8. Define korotkoff sound (2)
+9. What is meant by fulguration? (2)
+10. What is a stimulator? (2)
+11.
+(a)
+(i) Explain the structure of a human cell and its constituents with a neat diagram (8)
+(ii) What are the characteristic features to be considered while selecting a transducer? (8)
+(b)
+(i) Mention the names of the different subsystems in our body. Explain them with respect to their function and constituents (8)
+(ii) Explain the characteristics of resting potential with reference to Nernst equation (8)
+12.
+(a)
+(i) Draw the electrical equivalent circuit of a microelectrode and explain its electrical nature (8)
+(ii) Explain the working of chopper amplifier. Mention their importance in biomedical instrumentation (8)
+(b)
+(i) Define Half cell potential. What are polarisable and non polarisable electrodes? (8)
+(ii) Explain with the help of a circuit diagram, the working of a typical instrumentation amplifier (8)
+13.
+(a)
+(i) Explain the rheographic method of blood pressure measurement (8)
+(ii) Explain with functional diagram, the working of a spirometer (8)
+(b)
+(i) Explain the measurement methods of Galvanic skin response (GSR) and Basal Skin Resistance (BSR) (8)
+(ii) Explain in detail with neat diagram, differential ausculatory technique of blood pressure measurement (8)
+14.
+(a)
+(i) What do you mean by CT? Give the mathematical details of obtaining X-Ray image in CT. (8)
+(ii) Briefly explain the dfferent modes of ultrasonic scanning with suitable diagrams (8)
+(b)
+(i) Write a detailed technical note on the Gamma camera (8)
+(ii) Explain the principle of operation of MRI (8)
+15.
+(a)
+(i) Discuss the working of AC defibrillator (8)
+(ii) Explain the function of Peripheral Nerve Stimulator (8)
+(b)
+(i) Draw the block diagram of short wave diathermy unit and explain its working (8)
+(ii) Discuss the different modes of operation of cardiac pacemakers (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EI2311
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define action potential (2)
+2. What are active and passive transducers? (2)
+3. State the frequency range and amplitude of a normal ECG bio-electrical signals. (2)
+4. Draw the electrode configuration of a aVr output. (2)
+5. Give the different types of oxygenators used in heart lung machine. (2)
+6. How does the PH value determine the acidity of alkalinity in blood fluid. (2) 
+7. What is meant by single channel telemetry? (2)
+8. Define the term thermograph.  (2)
+9. What is pacemaker?  (2)
+10. Mention the importance of defibrillator protection circuit in ECG recorder.  (2)
+11.
+(a)
+(i) Discuss the different ways of transport of ions through the cell membrane.  (8)
+(ii) Explain the different parts of central nervous system and their activity. (8)
+(b)
+(i) Briefly explain the action of piezoelectric transducer as arterial pressure sensor.  (8)
+(ii) Explain the working of a fibre optic temperature sensor. (8)
+12.
+(a)
+(i) Draw the electrical equivalent circuit of a micro electrode and explain its electrical nature.  (8)
+(ii) Explain with neat diagram the working of EMG. (8)
+(b)
+(i) Elaborate on the medical equipment maintenance and safety parameters in handling it.  (8)
+(ii) Clearly explain the different lead system sin ECG wave form recording.  (8)
+13.
+(a)
+(i) What are the methods for measuring blood pressure?draw a typical setup and explain.  (8)
+(ii) Explain the measurement of heart sound with suitable diagram. (8)
+(b) Explain the measurement of blood PO2 and PCO2. (16) 
+14.
+(a)
+(i) Explain the principle of computerized tomography. (8)
+(ii) Briefly explain the different modes of ultrasonic scanning with suitable diagrams.  (8)
+(b)
+(i) Describe a telemetry circuit using a sub-carrier also list its advantages. (8)
+(ii) Write a note on biometric systems.  (8)
+15.
+(a)
+(i) Explain the principle of DC defibrillators.  (8)
+(ii) Draw and explain the schematic of evoked response audiometer and explain.  (8)
+(b)
+(i) Explain the stone disease problem and the method used to overcome with neat diagram.  (8)
+(ii) Write a note on dialysers. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EI2311
+!Year! 2007
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Distinguish absolute and relative refractory period (2)
+2. What is a spinal cord? (2)
+3. List any four types of surface electrodes (2)
+4. What is the frequency range of ECG, EEG and EMG waves? (2)
+5. What is cardiac output? (2)
+6. What is the pH value of Arterial blood and venous blood? (2)
+7. Distinguish radiographic and fluoroscopic techniques (2)
+8. What is leakage current? (2)
+9. What is the use of Biphasic D.C. defibrillator? (2)
+10. What is the principle of bubble oxygenators? (2)
+11.
+(a)
+(i) With relevant graph explain the relationship between the action potential and muscle contraction (8)
+(ii) Explain in detail how pulsatile blood volume changes can be measured using photoelectric type resistive transducer? (8)
+(b)
+(i) Explain in detail the Central and Peripheral Nervous system (8)
+(ii) Draw the diagram and equivalent circuit of a differential capacitance pressure transducer and briefly explain its operation (8)
+12.
+(a)
+(i) How a metal microelectrode is formed? Draw its electrical equivalent circuit and explain (8)
+(ii) Draw the circuit diagram of Darlington pair isolation amplifier and explain (8)
+(b)
+(i) What is the medical use of chopper amplifier? Draw the diagram of mechanical chopper amplifier and explain its working (8)
+(ii) Draw the ECG curves for Normal adult, Myocardial infarction, Coronary insufficiency and Ventricular Fibrillation (8)
+13.
+(a) Draw the block diagram of automated electro sphygmomanometer for blood pressure measurement and explain its operation (16)
+(b) Explain with relevant equations, the working and measurement procedure of Plethysmograph (16)
+14.
+(a) Draw the block diagram of Computer Tomography scanner and explain its operation with emphasis on image reconstruction (16)
+(b) What is and Endoscope? List the types of commonly available endoscopes. With schematic diagram explain the working of endoscopic Laser coagulator (16)
+15.
+(a) Draw the block diagram of synchronized DC defibrillator and explain its working (16)
+(b) List the different types of waveforms used for stimulation of muscle and nerves. Draw the block diagram of a typical Electrotherapeutic stimulator and explain (16)
+!END_QPAPER!
