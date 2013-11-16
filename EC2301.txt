@@ -1,0 +1,91 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2301
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Draw the basic block diagram of a digital communication system (2)
+2. Define Half power bandwidth (2)
+3. Compare uniform and non-uniform quantization (2)
+4. What is meant by temporal waveform coding? (2)
+5. Mention the properties of cyclic code. (2)
+6. Draw the RZ-Bipolar line code format for the information {10110} (2)
+7. State Nyquist criterion for zero ISI (2)
+8. Bipolar pulse waveforms $g_i(t)(i=1,2)$ of amplitude $\overset{-}{+}1$ v are received in the presence of AWGN that has a variance of 0.1 $V^2$. Find the optimum detection threshold $\gamma$ of MAP detector, if the a priori probability is $p(g_i)=0.5$ (2)
+9. Why is PSK always preferable over ASK in coherent detection (2)
+10. Differentiate between coherent and non coherent detection (2)
+11. 
+(a) Explain in detail the Gram-Schmidt Orthogonalization procedure (16)
+(b) Discuss in detail the different mathematical models of communication channel (16)
+12.
+(a)
+(i) A television signal has a bandwidth of  4.5 MHz. This signal is sampled, quantized and binary coded to obtain a PCM signal. (i) Determine the sampling rate if the signal is to be sampled at a rate 20% above Nyquist rate (ii) If the samples are quantized into 1024 levels, determine the number of binary pulses, required to encode each sample (iii) Determine the binary pulse rate of the binary coded signal, and the minimum bandwidth required to transmit this signal (12)
+(ii) Compare different speech coding techcniques (4)
+(b)
+(i) Explain impulse sampling with necessary waveforms (6)
+(ii) Explain natural sampling with necessary waveforms (6)
+(iii) Write a short note on spectral waveform encoding (4)
+13.
+(a)
+(i) Construct a single error correcting (7.4) linear block code and the corresponding decoding table (10)
+(ii) Briefly describe the concept of error free communication (6)
+(b)
+(i) List and explain the properties of line codes (8)
+(ii) Determine the generator polynomial g(x) for a (7,4) cyclic code, and find code vectors for the following data vectors 1010,1111 and 1000 (8)
+14.
+(a)
+(i) In a certain binary communication system that uses Nyquist criterion pulses, a received pulse $p_r(t)$ has the following values at the sampling instants: $p_r(0)=1, $p_r(T_b)=0.1$, $p_r(-T_b)=0.3$, $p_r(2T_b)=-0.02$ and $p_r(-2T_b)=0.07$. Determine the tap settings of a three tap equalizer (8)
+(ii) Explain the working principle of maximum likelihood detector (8)
+(b) Derive the expression for error probability of on-off and polar signalling (16)
+15.
+(a) Explain the concept of coherent BPSK with transmitter and receiver block diagrams and obtain the expression for probability of error (16)
+(b) A set of binary data is sent at the rate of $R_b$=100kbps over a channel with 60 dB transmission loss and power spectral density $\eta=10^{-12}$ W/Hz at the receiver. Determine the transmitted power for a bit error probability $P_e=10^{-3}$ for the following modulation schemes (i) Coherent ASK (ii) Non-coherent ASK (iii) FSK (iv) PSK (v) DPSK (vi) 16QAM  (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2301
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Draw a typical digital communication system (2)
+2. How can BER of a system be improved? (2)
+3. An analog waveform with maximum frequency of 3 KHz is to be transmitted over an M-ary PCM system, where M=16. What is the minimum number of bits/sample, that should be used in digitizing the waveform? ( The quantisation error is specified not to exceed $\overset{+}{-}$1% of the peak to peak analog signal ) (2)
+4. Differentiate the principles of temporal waveform coding and model-based coding? (2)
+5. Find the Hamming distance between 101010 and 0101010. If the minimum Hamming distance of a (n,K) linear block code is 3, what is its minimum Hamming weight (2)
+6. State any four desirable properties of a line code (2)
+7. A 64 kbps binary PCM polar NRZ signal is passed through a communication system with a raised-cosine filter with a roll-off factor 0.25. Find the bandwidth of the filtered PCM signal (2)
+8. State any two applications of eye pattern (2)
+9. A BPSK system makes errors at the average rate of 100 errors per day. Data-rate is 1kbps. The single-sided noise power spectral density is $10^{-20}$ W/Hz. Assuming the system to be wide sense stationary, what is the average bit error probability? (2)
+10. What is meant by memoryless modulation? (2)
+11.
+(a) Explain in detail the Gram-Schmidt Orthogonalization procedure (16)
+(b)
+(i) Explain any three communication channel modes (12)
+(ii) State the advantages and disadvantages of a digial communication system (4)
+12.
+(a) Explain a DPCM system. Derive the expression for slope overload noise of the system. Show that SNR of DPCM is better than that of PCM. (16)
+(b)
+(i) Explain subband coding (8)
+(ii) Compare the performance of various speech encoding methods (8)
+13.
+(a) Derive the expression for power spectral density of unipolar NRZ line code. Hence discuss its characteristics (16)
+(b)
+(i) Design a block code for a message block of size eight that can correct for single errors (6)
+(ii) Design a convolutional coder of constraint length and rate efficiency 1/2. Draw its tree diagram and trellis diagram (10)
+14.
+(a) Explain modified duo-binary signalling scheme without and with precoder (16)
+(b) Explain the working of a correlator type receiving filter (16)
+15.
+(a) Discuss the representation and spectral characteristics of ASK, PSK, QAM, QPSK and FSK signals. (16)
+(b) Compare the performance of various coherent and non-coherent digital detection systems (16)
+!END_QPAPER!
+
