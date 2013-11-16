@@ -1,0 +1,98 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CS2301
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. For the scenario described below, which life cycle model would you choose? Give the reason why you would choose this model. You are interacting with the MIS department of a very large oil company with multiple departments. The have a complex legacy system. Migrating the data from this legacy system is not an easy task and would take a considerable time. The oil company is very particular about processes, acceptance criteria and legal contracts. (2)
+2. Differentiate verification and validation. Give an example. (2)
+3. Name the metrics for specifying Non-functional requirements. (2)
+4. Draw the DFD notations for the following. (a) External entity (b) Data items. (2)
+5. Explain the qualitative criteria for measuring independence. (2)
+6. Distinguish fan in and fan out. (2)
+7. In unit testing of a module, it is found for a set of test data, at maximum 90% of the code alone were tested with the probability of success 0.9. What is the reliability of the module? (2)
+8. What is the purpose of Regression testing? What are the two main activities of Regression testing? (2)
+9. State the need for software configuration review. (2)
+10. List any five CASE tools classified by function in the taxonomy of CASE tools. (2)
+11.
+(a)
+(i) Describe at least one scenario where RAD model would be applicable and not the waterfall model. (5)
+(ii) Describe at least one scenario where Waterfall model is preferable to all other models. (5)
+(iii) Compare and contrast the different life cycle models. (6)
+(b)
+(i) Write short notes on Business Process Engineering. (8)
+(ii) Write short notes on Product Engineering. (8)
+12.
+(a) An independent truck company wants to track and record its drivers driving habits. For this purpose the company has rented 800 phones numbers and has printed the numbers on the front, back and sides of all trucks owned by the company. Next to the 800 numbers a message is written “PLEASE REPORT ANY DRIVER OR TRUCK PROBLEM BY CALLING THIS NUMBER”. The hacking company waits for you to develop a system that : (i) Collects information from caller about the driver performance and behaviour as well as truck condition, (ii) generates daily and monthly reports for each driver and truck management. (iii) reports problems that require immediate action to an on-duty manager. Analyse the problem statement and list major functions to be incorporated with the SRS document. (16)
+(b) How does the analysis modeling help to capture unambiguous and consistent requirements? Discuss several methods for requirements validation. (16)
+13.
+(a) Explain clearly the concepts of coupling and cohesion? For each type of coupling give an example of two components coupled in that way? (16)
+(b) 
+(i) Write short notes on Architecture design. (8)
+(ii) Write short notes on Data acquisition system. (8)
+14.
+(a) Write a program for sorting of n numbers. Draw the flow chart, flow graph, find out the Cyclomatic complexity. (16)
+(b) Design a black box testing for an Under Water submarine. (16)
+15.
+(a)
+(i) With a suitable example explain the Change Control Process in detail. (8)
+(ii) Why are CASE tools usually costly? Explain. (8)
+(b)
+(i) With a neat sketch draw the architecture model for an integration framework for CASE tool and explain them. (8)
+(ii) Calculate the effort and duration using the above details for basic COCOMO model. Given, Number of user inputs = 15, Number of user outputs = 3, Number of external interfaces = 11; 1 function point = 20 LOC (as fourth generation language is used). Values of constant used in basic COCOMO model. a = 2.4, b = 1.05, c = 2.5, d = 0.38. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CS2301
+!Year! 2010
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define Business Process Reengineering. (2)
+2. Write down the generic process framework that is applicable to any software project. (2)
+3. What is Software Prototyping? (2)
+4. Define functional and non- Functional requirements. (2)
+5. What are the primary interaction styles and state their advantages? (2)
+6. List the architectural models that can be developed. (2)
+7. What are the characteristics of good tester? (2)
+8. Give the difference between verification and validation. (2)
+9. What are the processes of risk management? (2)
+10. Define error, fault and failure. (2)
+11. 
+(a) 
+(i) Explain waterfall model (4) 
+(ii) Explain Spiral model (4)
+(iii) Explain  RAD model (4)
+(iv) Explain Prototyping model. (4)
+(b) Discuss in detail the project structure and programming team structure of a software organization. (16)
+12.
+(a) Discuss any four process models with suitable application. (16)
+(b) Explain the execution of seven distinct functions accomplished in requirement engineering process. (16)
+13.
+(a) Explain the core activities involved in User Interface design process with necessary block diagrams. (16)
+(b) Explain the various modular decomposition and control styles commonly used in any organizational model. (16)
+14.
+(a)
+(i) What is white-box testing? (2)
+(ii) Explain how basis path testing helps to derive test cases to test every statement of a program. (14)
+(b)
+(i) Define : Regression testing. (2)
+(ii) Distinguish: top-down and bottom-up integration. (10)
+(iii) How is testing different from debugging? Justify. (4)
+15.
+(a)
+(i) Elaborate on the series of tasks of a software configuration management process. (8)
+(ii) Describe function point analysis with a neat example. (8)
+(b)
+(i) Explain the methods of decomposition for software cost estimation. (8)
+(ii) Mention the challenges of risk management. (8)
+!END_QPAPER!
+
