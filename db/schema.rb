@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131115105618) do
+ActiveRecord::Schema.define(version: 20131116112931) do
 
   create_table "accepted_solutions", force: true do |t|
     t.boolean  "accept"
@@ -261,10 +261,12 @@ ActiveRecord::Schema.define(version: 20131115105618) do
   end
 
   create_table "university_courses", force: true do |t|
-    t.integer "university_id"
-    t.integer "course_id"
-    t.string  "course_code"
-    t.boolean "current",       default: true
+    t.integer  "university_id"
+    t.integer  "course_id"
+    t.string   "course_code"
+    t.boolean  "current",       default: true
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "university_courses", ["course_id"], name: "index_university_courses_on_course_id"
