@@ -1,0 +1,143 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! MG2452
+!Year! 2010
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define Managerial Economics. (2)
+2. Define the concept of Firm. (2)
+3. State law of supply with diagram. (2)
+4. Define Elasticity of Demand. (2)
+5. What do you mean by Money cost and Real cost? (2)
+6. Give two examples for implicit cost and explicit cost. (2)
+7. State Capital Budgeting and Investment with example. (2)
+8. Explain Internal Rate of Return. (2)
+9. When do firm adopt Marginal Cost pricing? (2)
+10. Mention any two advantages of cost plus pricing (2)
+11.
+(a)
+(i) Explain the relationship of Managerial Economics with other disciplines. (4)
+(ii) Discuss in detail the Nature of Managerial Economics. (12)
+(b)
+(i) "Managerial Economics is Economics applied in Decision Making"– Discuss. (8)
+(ii) Explain the goals of the firm. (8)
+12.
+(a)
+(i) Define law of demand and explain types of demand with diagram.(10)
+(ii) Why does the demand curve slopes downward? (6)
+(b)
+(i) What are the reasons for the exceptions of the Demand Curve? Explain. (8)
+(ii) Describe the Elasticity of Supply. (8)
+13.
+(a)
+(i) Write a short note on Isoquant and its types. (10)
+(ii) Elucidate the returns to scale. (6)
+(b)
+(i) Describe cost of production in the long run average cost curve. (8)
+(ii) What are the factors affecting production function? Discuss. (8)
+14.
+(a)
+(i) Write a note on cost-oriented pricing. (10)
+(ii) Explain common pricing practices in Retail Trade. (6)
+(b)
+(i) Describe price Discriminations. (7)
+(ii) Explain the limitations of the Marginal cost pricing. (9)
+15.
+(a)
+(i) Write briefly on the limitations of financial statements. (8)
+(ii) Give the meaning of Ratio analysis and its significance. (8)
+(b)
+(i) What are the steps involved in Net Present Value Method(NPV)? (8)
+(ii) Explain Pay Back method in detail. (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! MG2452
+!Year! 2011
+!Month! Apr/May
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define Managerial Economics. (2)
+2. How does managerial economics help in Business decision making? (2)
+3. List out the various demand determinants. (2)
+4. What is sales forecasting? (2)
+5. State any two managerial uses of production function. (2)
+6. What is a cost sheet? (2)
+7. How is price fixed under perfect competitive situation? (2)
+8. What is penetration pricing? (2)
+9. What is the information needed for the evaluation of capital budgeting decisions? (2)
+10. What is pay back or pay off period? (2)
+11.
+(a) Analyze the scope of managerial economics and its relationship with other disciplines. (16)
+(b) What are isoquants? What are its types? What are the properties of isoquants? (16)
+12.
+(a) What is concept of Elasticity of demand? Discuss the various types of elasticity of demand with illustrations. (16)
+(b) Discuss various methods of demand forecasting and their merits and de-merits. (16)
+13.
+(a) Discuss cost-output relationship in both short-run and long-run. (16)
+(b) What are all the factors that determine the price of the product? Explain their influence on the price of the product? (16)
+14.
+(a) Following is the Balance Sheet of M/s. ................... Ltd. \[ \begin{matrix} Liabilities (in Rs.) & Assets (in Rs.) \\\\ Equity Share Capital 125,000 & Fixed Assets 230,000 \\\\ 10% preference share capital 75,000 & Cash 20,000 \\\\ 8% Debentures 50,000 & Bills receivables 40,000 \\\\ Reserves and surplus 60,000 & Debtors 25,000 \\\\ Overdraft 20,000 & Stock 35,000 \\\\ Creditors 15,000 & Outstanding expenses 5,000 \\\\ Total 3,50,000 & Total 3,50,000 \end{matrix} \]. Net profit before interest and tax = Rs. 20,000. Calculate : (i) Current ratio (ii) Liquidity ratio (iii) Proprietary ratio (iv) Debt-Equity ratio. (16)
+15.
+(a) Find out accounting rate of return and suggest to the management regarding the selection of the proposals if the desired rate of return is 20%. Assume that there is no scrap value. \[ \begin{matrix} Particulars & Proposals A (in Rs.) & Proposal B (in Rs.) \\\\ Investment & 10,000 & 20,000 \\\\ Expected life in years & 3 & 4 \\\\ Net Income – Year 1 & 3,000 & 10,000 \\\\ Year 2 & 2,500 & 7,500 \\\\ Year 3 & 500 & 5,000 \\\\ Year 4 & – & 2,500 \] (16)
+(b) M/s. Sreedharan Ltd. is considering the purchase of a machine which cost Rs. 1,50,000. Expected cash flows from the above investment are as follows : \[ Year & Cash flow in Rs. \\\\ 1 & 50,000 \\\\ 2 & 50,000 \\\\3 & 50,000 \\\\ 4 & 50,000 \\\\ 5 & 50,000 \] Assuming the discount rate as 10% suggest whether purchase of that machine is worth or not? (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! MG2452
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is the scope of Managerial economics? (2)
+2. Name the concepts involved in Decision making (2)
+3. What are the limitations of elasticity of demand? (2)
+4. Define Law of supply (2)
+5. What is the significance of Isoquants? (2)
+6. Write the difference between explicit and implicit costs (2)
+7. What is penetration pricing? (2)
+8. Define cross subsidization (2)
+9. What is Bank overdraft? (2)
+10. Write down the advantages and disadvantages of IRR method (2)
+11.
+(a)
+(i) Explain the objectives of the firm and analyze different theories governing the same (8)
+(ii) Write short notes on programmed and non-programmed decisions (8)
+(b)
+(i) How can you make decision process more effective? (8)
+(ii) Enumerate the nature of Managerial economics (8)
+12.
+(a)
+(i) In 1999, the demand for electronic gadgets was 10 million per annum and the price was Rs. 200 each. In 2000, the price rose to Rs. 400 (because of latest technology), the demand fell to 8 million. Calculate the $Ed_p$. How do you interpret it? ( $Ed_p$ = Price elasticity of demand ) (8)
+(ii) Discuss the significance of Elasticity of demand (8)
+(b)
+(i) Explain and enumerate the factors determining Elasticity of Supply (8)
+(ii) Explain how supply and demand determine the equilibrium price (8)
+13.
+(a)
+(i) Explain the concept of Returns on investments with appropriate examples (8)
+(ii) Discuss the economies of scale that can accrue to a firm (8)
+(b) Enumerate the features of short run average cost curve and long run average cost curve (16)
+14.
+(a)
+(i) Explain any 4 methods of pricing based on strategy (8)
+(ii) Name the 5 pricing strategies in times of stiff price competition (8)
+(b)
+(i) Why is pricing significant in the context of business? Explain (8)
+(ii) Discuss any three pricing methods that are followed in real-life business situation (8)
+15.
+(a) Explain the principles and operation of LEO, MEO and GEO satellites (16)
+(b) Describe the following with reference to Fibre Optical communication system  (i) Sources (ii) Detectors (ii) Fibre types (iv) Losses encountered in optical communication system (4) (16)
+!END_QPAPER!
