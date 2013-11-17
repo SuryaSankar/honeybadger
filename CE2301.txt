@@ -1,0 +1,90 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CE2301
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define Irrigation (2)
+2. Define the term Base Period (2)
+3. What is meant by Drip Irrigation? (2)
+4. Write any two advantages of sprinkler irrigation? (2)
+5. What do you mean by barriage? (2)
+6. Write the uses of dams (2)
+7. What is canal drops? (2)
+8. What are the functions of canal regulator? (2)
+9. What is the function of percolation pond? (2)
+10. Write the necessity of on form development works (2)
+11.
+(a) Explain the merits and demerits of irrigation (16)
+(b) 
+(i) Explain Optimum Utilization of Irrigation Water (6)
+(ii) Explain consumptive use and its estimation (5)
+(iii) Explain water distribution efficiency (5)
+12.
+(a)
+(i) Explain the types of sprinkler systems (8)
+(ii) What are the causes of failure in tank bunds? (8)
+(b)
+(i) What do you mean by surface and sub-surfae irrigation? And explain their types. (8)
+(ii) What is meant by border flooding and how does it differ from check flooding and free flooding? (8)
+13.
+(a) Explain the types of spillways with neat sketches (16)
+(b) Disuss briefly with neat sketches, the different forces that may act on a gravity dam (16)
+14.
+(a) Briefly explain the different types of cross drainage works with neat sketches (16)
+(b) Explain the different ways of alignment of canals (16)
+15.
+(a) Explain the performance evaluation of any implemented project (16)
+(b)
+(i) Explain Participatory Irrigation Management (8)
+(ii) Explain Techniques of minimizing Irrigation water losses (8)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CE2301
+!Year! 2013
+!Month! May/Jun
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is the mode of Irrigation? (2)
+2. Define crop ratio (2)
+3. Write any 2 merits of furrow irrigation (2)
+4. What is wild flooding? (2)
+5. Write the function of a silt excluder (2)
+6. Why is barrage preferred to weir in modern times? (2)
+7. Write the classification of river training works (2)
+8. Define aquaduct (2)
+9. What is optimum use of water? (2)
+10. Write the criteria of good canal irrigation management (2)
+11.
+(a)
+(i) Discuss how independence has set an era of irrigation development (2)
+(ii) How do you classify irrigation projects? (2)
+(b)
+(i) Define consumptive use (2)
+(ii) What are  the factors which influence the consumptive use of water any crop? (8)
+(iii) Consumptive use is related to the total requirement of water for the crop. How? (6)
+12.
+(a)
+(i) Discuss buried irrigation and suction irrigation (8)
+(ii) Compare surface irrigation and drip irrigation (8)
+(b) Discuss sub-surface irrigation and what are the essential requirements for succesful sub-surface irrigation? (16)
+13.
+(a) What are the main cacses of failure of weir on permeable foundations? And what remedies would you suggest to prevent them? (16)
+(b)
+(i) Discuss control of seepage in earthern dams (8)
+(ii) Give the list of forces affecting the stability of a gravity dam (8)
+14.
+(a) Discuss the function of spursor groynes in case of river training works and classify them with neat sketches (16)
+(b) Explain the necessity of cross drainage works (16)
+15.
+(a) Describe the participatory irrigation management (16)
+(b) Explain different methods for improving canal irrigation management (16)
+!END_QPAPER!
