@@ -1,4 +1,6 @@
-<%= render partial: "partials/question_masthead" %>
+<% content_for :masthead_content do %>
+  <%= render partial: "partials/question_masthead" %>
+<% end %>
 <div class="row-fluid">
 	<div class="span8">
 		<div class="bordered-box">

@@ -1,0 +1,201 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2301
+!Year! 2013
+!Month! May/Jun
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Mention the ranges of compression ratio for SI and CI engines (2)
+2. What is relative efficiency? (2)
+3. Name the 4 stages of combustion in a CI engine (2)
+4. What is the effect of supercharging on the power output of the IC engine (2)
+5. Define critical pressure ratio for the steam nozzle (2)
+6. Define diagram efficiency of a steam turbine (2)
+7. What is isothermal efficiency with respect to reciprocating air compressor? (2)
+8. State the principle of working of screw compressors (2)
+9. What is the effect of cooling of subcoolant of the refrigerant on the performance of a vapour compression refrigeration system? (2)
+10. Name the different components of a summer air-conditioning system (2)
+11. 
+(a)
+(i) State the 4 processes that constitute the Ericsson cyle and show the cycle on the T-s and p-v diagrams (6)
+(ii) A gas turbine works on an air standard Brayton cycle. The initial condition of the air is $25^{\circ}C$ and 1 bar. The maximum pressure and temperature are limited to 3 bar and $650^{\circ}C$. Determine the cycle efficiency and work output, heat supplied and heat rejected per kg of air (10)
+(b)
+(i) With suitable sketches, explain the differences between the actual and theoretical p-v diagrams of a four stroke Otto cycle engine (6)
+(ii) An air standard dual cycle has a compression ratio of 16. The compression begins at 1 bar and $50^{\cic}C$. The maximum pressure is 70 bar. The heat transferred to air at constant pressure is equal to that at constant volume. Estimate the pressures and temperatures at the cardinal points of the cycle and the cycle efficiency (10)
+12.
+(a)
+(i) Explain the various factors that affect the flame speed in a SI engine (6)
+(ii) List the various types of combustion chambers of a CI engine. Explain the principle of working of any one type of combustion chamber (10)
+(b)
+(i) Schematically explain the use of heat balance test of an engine (6)
+(ii) A six cylinder four stroke gasoline engine having a bore of 90mm and a stroke of 100mm has a compression ratio 7. The relative efficiency is 55% when the indicated specific fuel consumption is 300 gm/kWh. Find the calorific value of the fuel and the corresponding fuel consumption, given that the imep is 8.5 bar and speed is 2500 rpm (10)
+13.
+(a)
+(i) In a steam nozzle, the steam expands from 4 bar to 1 bar. The initial velocity is 60 m/s and the initial temperature is $200^{\circ}C$. Determine the exit velocity if the nozzle efficiency is 92%. (10)
+(ii) Explain the principle of velocity compounding of a steam turbine using a suitable sketch (6)
+(b)
+(i) Explain Throttle governing of steam turbines (6)
+(ii) A simple Rankine cycle works between pressures 28 bar and 0.06 bar, the intial condition of steam being dry saturated. Represent the cycle on a T-s diagram and calculate the cycle efficiency, work ratio and specific steam consumption (10)
+14.
+(a)
+(i) What is overall volumetric efficiency of a reciprocating air compressor? What are the parameters that affect the overall volumetric efficiency? (6)
+(ii) A single stage single acting reciprocating air compressor delivers 14 $m^3$ of free air per minute from 1 bar to 7 bar. The speed of the compressor is 310 rpm. Assuming polytropic compression and expansion with n=1.35 and clearance is 5% of the swept volume, find the diameter and stoke of the compressor. Take L=1.5D. Assume the temperature and pressure at suction are same as atmospheric air (10)
+(b)
+(i) Explain the working of a vane type blower with a neat sketch (10)
+(ii) Compare between axial flow and centrifugal compressors (6)
+15.
+(a)
+(i) State any 5 desirable characteristics of refrigerants (6)
+(ii)A R-12 refrigerator producing a cooling effect of 20 kJ/s operates on a simple cycle with pressure limits of 1.5 bar and 9.5 bar. The vapour leaves the evaporator as dry-saturated and there is no under-cooling. Determine the power required by the machine. If the compressor operates at 300 rpm and has a clearance volume of 3% of stroke volume, determine the piston displacement of the compressor. For the compressor assume that the law of expansion is $pv^{1.13}=C$ (10)
+(b)
+(i) What are the different types of controls used in an air conditioning system? Explain: the automatic humidity controls and the automatic temperature controls (6)
+(ii) Write notes on the following internal heat gains for air-conditioning load calculation (1) Heat load of occupants (2) Electrical loads (3) Product load (4) Process Load (10)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2301
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Explain the term knocking (2)
+2. What is meant by lean and rich mixture (2)
+3. Draw the P-V and T-s diagrams for dual cycle and name the processes (2)
+4. Draw the actual P-V diagram of two stroke engine (2)
+5. What is meant by critical pressure ratio? (2)
+6. Write the disadvantages of pressure and velocity compounding (2)
+7. Broadly classify the types of air compressors (2)
+8. Write the advantage of multi stage air compressors over equivalent single stage air compressor (2)
+9. List few VAR systems and name the absorbent in them. (2)
+10. Give the advantage of VAR over VCR (2)
+11.
+(a) The following data were given for an oil engine working with Otto cycle  Brake Power = 14.7 kW; Suction presure = 0.9 bar; Mechanical efficiency = 80%; Ratio of compression = 5; Index of compression curve = 1.35; Index of expansion curve = 1.3; Maximum explosion pressure = 24 bar; Engine speed = 1000 r.p.m ; Ratio of stroke:bore = 15. Find the dia and stroke of piston (16)
+(b)
+(i) Explain the method of air cooling in IC engines (8)
+(ii) Explain any one type of lubrication method for IC engines (8)
+12.
+(a) An engine working on Otto cycle has a volume of 0.50 $m^3$, pressure 1 bar and temperature $30^{\circ}C$ at the beginning of the compression stroke. At the end of the stroke, the pressure is 11.5 bar. 270 kJ of heat is then added at constant volume. Determine (i) Pressure, Temperature and volumes at salient points in the cycle (ii) Percentage clearance (iii)Efficiency (16)
+(b) In a gas turbine plant, the air at inlet is $35^{\circ}C$, 0.1 MPa. The pressure ratio is 8 and the maximum temperature is $1050^{\circ}C$ The turbine and compressor efficiencies are each 80%. Find compressor work, turbin work, heat supplied , cycle efficiency and turbine exhaust temperature. Mass of air may be considered 1 kg. Draw the T-s diagram. (16)
+13.
+(a) Discuss the various methods of compounding and list their demerits (16)
+(b) A single stage steam turbine is supplied with steam at 10 bar and $400^{\circ}C$ at 50 kg/s. It expands to a condenser pressure of 0.4 bar, the blade velocity is 8000 m/s. The nozzles are inclined at an angle of $20^{\circ}$ to the plane of the wheel and the outlet blade angle is $30^{\circ}$. Neglecting the frictional losses determine the power developed, blade efficiency and the stage efficiency (16)
+14.
+(a) A two stage single acting reciprocating compressor takes in air at the rate of 0.5 $m^3$/s. The intake pressure and temperature of air are 0.1 MPa and $25^{\circ}C$. The air is compressed to a final pressure of 1.1 MPa. The intermediate air pressure is ideal and inter-cooling is perfect. The compression index in both stages is 1.5 and the compressor runs at 450 rpm, neglecting clearance determine (i) The intermediate pressure (ii) The total volume of each cylinder (iii)The power required to drive the compressor (iv) The rate of heat rejection in the intercooler (16)
+(b)
+(i) Derive an equation to explain the effect of clearance volume on compressor work (8)
+(ii) Explain the methods of increasing the isothermal efficiency of a reciprocating compressor (8)
+15.
+(a)
+(i) Draw the VCR cycle and explain its working with necessary plots (12)
+(ii) Name 4 alternative refrigerants used instead of CFCs (4)
+(b)
+(i) Explain the working of Water-Ammonia VAR system (10)
+(ii) List the advantages and disadvantages of VAR system (6)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2301
+!Year! 2012
+!Month! May/Jun
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define Mean Effective Pressure (2)
+2. What are the differences between actual and ideal cycle (2)
+3. Why the 2 stroke engines are not widely used in two wheelers (2)
+4. What do you understand by ignition delay? (2)
+5. Name few reaction turbines and state its applications (2)
+6. How do you determine the dryness fraction of steam? Why is it needed? (2)
+7. What is the effect of clearance volume in an air compressor? (2)
+8. What is the application of a screw compressor? (2)
+9. What are the advantages of vapour absorption refrigeration system? (2)
+10. What are the requiremens of dehumidification process in air conditioning? (2)
+11.
+(a)
+(i) A diesel engine has a compression ratio of 14 to 1 and fuel is cut off at 0.08 of stroke. Calculate the mass of fuel used per kW hour, if the calorific value is 42000 kJ/kg and the relative efficiency is 0.54 (10)
+(ii) Show that the efficiency of the otto cycle is greater than diesel cycle for the same compression ratio (6)
+(b)
+(i) 1 kg of air is taken through a diesel cycle. Initally the air is at $15^{\circ}C$ and 1 bar. The compression ratio is 15 and the heat added is 1850 kJ. Calculate the ideal cycle efficiency and the mean effective pressure (10)
+(ii) Compare the actual and ideal PV diagrams of a four stroke and a two stroke engine (6)
+12.
+(a)
+(i) Explain the combustion phenomenon and discuss detonation and kncoking with the factors affecting the same (10)
+(ii) Explain supercharging and turbocharging (6)
+(b) A 21 cm bore and 28cm stroke, single cylinder two stroke engine give the following results on the first performance test. Speed=350 rpm; Net brake load=620 N; Diameter of the brake drum = 1m; Fuel consumption = 4.25 kg/hr; Imep=275 KN/$m^2$ ; Calorific value of the fuel=43000 kJ/kg; Air fuel ratio by weight=32; Temperature of air in the test room=$15^{\circ}C$; Temperature of exhaust gas=$370^{\circ}C$. Calculate (i) Indicated power (ii) Brake power (iii) Indicated thermal efficiency (iv) Brake thermal efficiency (v) Percent heat loss due to exhaust gases (16)
+13.
+(a)
+(i) Explain the compounding of steam turbines with sketches (8)
+(ii) Explain the modified Rankine cycle with a sketch and derive an expression for the efficiency of the same (8)
+(b) A single row impulse turbine develops 132.4 kW at a blade speed of 175 m/s using 2 kg of steam per second. Steam leaves the nozzle at 400 m/s. Velocity coefficient of the blade is 0.9. Steam leaves the turbine blades axially. Determine the nozzle angle and Blade angles at entry and exit, assuming no shock (16)
+14.
+(a)
+(i) Explain the role of intercooler and after cooler in air compressors (6)
+(ii) Compare the performance characteristics of a vane, centrifugal and axial flow compressors (10)
+(b) A single stage, single acting reciprocating air compressor has a bore and stroke of 200 mm and 300 mm respectively. The compressor sucks air at 1 bar and $20^{\circ}C$ and delivers at 5.5 bar. If the compression follows the law $PV^{1.3}=C$ and clearance volume is 5% of the stroke volume, determine (i) The mean effective pressure (ii) The power required to drive the compressor if it runs at 500 rpm. (16)
+15.
+(a)
+(i) Compare the vapour compression refrigeration system and vapour absorption refrigeration system with a sketch (6)
+(ii) A refrigerating system operates with a condensing and evaporating temperatures of $30^{\circ}C$ and $-5^{\circ}C$ respectively. The liquid temperature at the throttle valve entrance is $25^{\circ}C$ and the vapor is 0.97 dry before leaving the evaporating coil Determine,  (i) The condition of refrigerant entering the evaporator (ii) The theoretical COP (iii) Mass of cooling water used per kg of refrigerant for the condenser if the temperature rise is to be restricted to $20^{\circ}C$  \\[ \begin{matrix} Temperature ({^\circ}C) & -5 & 30 \\\\ Enthalpy - Liquid (kJ/kg) & 158.261 & 323.22 \\\\ Enthalpy - Vapour (kJ/kg) & 1434.885 & 1465.38 \\\\ Entropy - Liquid & 0.63 & 1.2037 \\\\ Entropy - Vapour & 5.4072 & 4.9839 \\\\ Specific Heat - Liquid & - & 5.024 \\\\ Specific Heat - Vapour & - & 3.35  \end{matrix} \\] (10)
+(b)
+(i) Explain the factors involved in heat load estimation for air conditioning (8)
+(ii) Write short notes on air handling, distribution and control in an air conditioning system (8)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2301
+!Year! 2009
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Enumerate the factors which should be considered while selecting a boiler (2)
+2. What is steam trap? (2)
+3. What is Diagram or Blading efficiency? (2)
+4. Define the term stage efficiency in case of reaction turbines (2)
+5. What is the function of push rod and rocker arm? (2)
+6. List the advantages of electronic ignition system over the conventional systems (2)
+7. What are the major losses in an IC engine? (2)
+8. Explain the location of spark plug with respect to knocking in SI engines (2)
+9. How does humidity affect human comfort? (2)
+10. What is humidification and dehumidification? (2)
+11.
+(a)
+(i) What are the various criteria for selection of boiler? Explain (8)
+(ii) Explain the function of blow off cock and fusible plug (8)
+(b) Explain with neat diagram, the construction and working of any water tube boiler (16)
+12.
+(a)
+(i) Describe with neat sketch, the working of cochran boiler. Show the positions of different mountings and explain the functions of each (8)
+(ii) Mention the chief advantages and disadvantages of water tube boilers over fire tube boilers (8)
+(b) Describe the construction and working of Babcock and Wilcox boiler (16)
+13.
+(a)
+(i) Draw the port timing diagram with fuel injection of a two stroke diesel engine and explain the salient points (7)
+(ii) Explain the effects of time loss factor and heat loss factor with suitable graphs on the performance of actual IC engines (9)
+(b)
+(i) Explain Air cooling of engines with a neat sketch (8)
+(ii) Explain any one lubrication system adopted in multi cylinder SI engines (8)
+14.
+(a) Explain the principle of magneto-ignition system. Enumerate its advantages and disadvantages (16)
+(b)
+(i) Explain the methods of controlling diesel knock (6)
+(ii) Explain the procedure to determine the indicated Horse power by means of Morse test (10)
+15.
+(a)
+(i) Classify AC systems and explain central air conditioning systems (8)
+(ii) Write short notes on solar radiation and explain how it affects the heating load calculations (8)
+(b) Explain with neat sketch the summer air conditioning suitable for Chennai weather conditions (16)
+!END_QPAPER!
