@@ -1,0 +1,151 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! IT2352
+!Year! 2012
+!Month! May/Jun
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define LFSR sequence (2)
+2. Define finite filed (2)
+3. What do you mean by differential cryptoanalysis (2)
+4. Define factoring (2)
+5. Distinguish between differential and linear cryptoanalysis (2)
+6. Write down the difference between public key and private key cryptosystems (2)
+7. Define TLS (2)
+8. What do you mean by S/MIME (2)
+9. Write down the system security standards (2)
+10. Define intrusion (2)
+11. 
+(a) Explain about Chinese reminder theorem (16)
+(b) Explain any 2 types of cipher technique in detail (16)
+12.
+(a) Explain about Triple DES with example (16)
+(b) Explain about RC4 algorithm (16)
+13.
+(a) Write notes on birthday attack (16)
+(b) Write the algorithm of MD5 and explain (16)
+14.
+(a) Describe about IP security (16)
+(b) List out the participants of set system and explain in detail (16)
+15.
+(a) Explain the various types of firewalls (16)
+(b) Explain about malicious software (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! IT2352
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1.What is the difference between a mono alphabetic and a poly alphabetic cipher? (2)
+2.What is an avalanche effect? (2)
+3.What are the disadvantages of double DES? (2)
+4.Define primitive root. (2)
+5.What is one-way property? (2)
+6.What are the two approaches of digital signatures? (2)
+7.What are the different types of MIME? (2)
+8.What protocols comprise SSL? (2)
+9.What is an Intruder? (2)
+10.Give few examples for worms. (2)
+11.
+(a) Explain briefly about Fermats and Eulers theorems. (16)
+(b) Explain the following with suitable examples. (16)
+12.
+(a) Discuss about DES in detail. (16)
+(b) Explain briefly about RSA and discuss its merit. (16)
+13.
+(a) Explain briefly about Diffie Hellman key exchange algorithm with its pros and cons. (16)
+(b) Describe about Hash functions. (16)
+14.
+(a) Write about PGP in detail. (16)
+(b) Explain in detail about SET. (16)
+15.
+(a) Explain about viruses in detail. (16)
+(b) Explain in detail about firewalls. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! IT2352
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Give the types of attack. (2)
+2. List out the problems of one time pad? (2)
+3. Write down the purpose of the S-Boxes in DES? (2)
+4. Define : Diffusion. (2)
+5. Define: Replay attack. (2)
+6. List out the parameters of AES. (2)
+7. Define : Primality test. (2)
+8. State the difference between conventional encryption and public-key encryption. (2)
+9. Define : Malicious software. (2)
+10. Name any two security standards. (2)
+11.
+(a) Using play fair cipher algorithm encrypt the message using the key "MONARCHY" and explain. (16)
+(b) Explain the ceaser cipher and monoalphabetic cipher. (16)
+12. 
+(a) Explain the Key Generation, Encryption and Decryption of SDES algorithm in detail. (16)
+(b) Write the algorithm of RSA and explain with an example. (16)
+13.
+(a) Illustrate about the SHA algorithm and explain. (16)
+(b) Write a detailed note on Digital signatures. (16)
+14. 
+(a) Describe the SSL Architecture in detail. (16)
+(b) List out the participants of SET system, and explain in detail. (16)
+15.
+(a) Explain the types of Intrustion Detection Systems. (16)
+(b) Explain the different types of firewall and its configurations in detail. (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! IT2352
+!Year! 2011
+!Month! Apr/May
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Differentiate passive attack from active attack with example (2)
+2. What is the use of Fermat's theorem> (2)
+3. What are the different modes of operatin in DES? (2)
+4. Name any two methods of testing prime numbers (2)
+5. What is discrete logarithm? (2)
+6. What do you mean by one way property in hash function? (2)
+7. List out the requirements of kerberos (2)
+8. Mention 4 SSL protocols (2)
+9. Define Intruder. Name three different classes of intruders (2)
+10. What do you mean by Trojan horses? (2)
+11.
+(a) Define the classical cryptosystems and its types (16)
+(b) Describe Euler's and Chinese reminder theorem (16)
+12.
+(a) 
+(i) Explain about the single round of DES algorithm (10)
+(ii) Describe key discarding process of DES (6)
+(b) Explain RSA method in detail (16)
+13.
+(a) Discuss the discrete logarithm and explain Diffie-Hellman key exchange algorithm with its merits and demerits (16)
+(b) Explain about MD5 in detail (16)
+14.
+(a)
+(i) Differentiate SSL from SET (8)
+(ii) Provide an overview of IP security documents (16)
+(b) Explain PGP message generation and reception (16)
+15.
+(a) Explain definition, phases, types of virus structures and types of viruses (16)
+(b) Write in detail about definition, characteristics, types and limitations of firewalls (16)
+!END_QPAPER!
