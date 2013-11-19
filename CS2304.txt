@@ -1,0 +1,94 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CS2304
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is the difference between System Software and Application Software? (2)
+2. What is indirect addressing? (2)
+3. What is the purpose of Pass1 and Pass2 of a two pass assembler? (2)
+4. What are the contents of the literal table? (2)
+5. What do you mean by linking? (2)
+6. Define absolute loader (2)
+7. What is the need for macro facility in assembly language programming? (2)
+8. What is a macro call and macro expansion? (2)
+9. What are debug monitors? (2)
+10. What are the important aspects of user interface functionalities? (2)
+11.
+(a) Explain the architecture of SIC/XE machine in detail (16)
+(b)
+(i) Describe different types of instruction available for a general computer (8)
+(ii) What are the addressing modes available in SIC/XE machine. Explain in detail (8)
+12.
+(a)
+(i) Discuss the design of one pas assembler in detail (10)
+(ii) Compare one pass assembler with multi pass assembler (6)
+(b) Explain the machine independent assembler features in detail (16)
+13.
+(a)
+(i) Explain the functions of a loader in detail   (8)
+(ii) What is BOOTSTRAP loader? Explain its characteristics with examples (8)
+(b)
+(i) Explain dynamic linking in detail (8)
+(ii) Compare linking loader and linkage editor (8)
+14.
+(a)
+(i) Discuss in detail with suitable examples: Conditional macro expansion  (8)
+(ii) Discuss in detail with suitable examples: Generation of unique labels (8)
+(b)
+(i) Write short notes on: Design of macro processor (8)
+(ii) Write short notes on: Keywords parameters (8)
+15.
+(a)
+(i) What are the salient features of an editor? Discuss: (8)
+(ii) Compare the facilities available in any edotor of your choice (8)
+(b)
+(i) Explain the role of debuggers in program development (8)
+(ii) Write notes on 'user interfaces for debuggers' (8)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CS2304
+!Year! 2013
+!Month! May/Jun
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Write any two assembler directives used by SIC/XE (2)
+2. Write a SIC code to copy a 11 byte character string to another (2)
+3. What is program relocation? (2)
+4. How literal differs from immediate operand? (2)
+5. Give the algorithm for absolute loader (2)
+6. What is meant by dynamic linking? (2)
+7. What are the data structures used by macro processor? (2)
+8. What are the advantages of keyword macro parameters? (2)
+9. What are the tasks involved in document editing process? (2)
+10. What is the use of tracing? (2)
+11.
+(a)
+(i) Write and explain the sequence of code in SIC and SIC/XE to read 200 byte record from the device 'F1' using subroutine (10)
+(ii) Write a sequence of code in SIC to implement the following expression: BETA <- ALPHA + INCR -1 ; DELTA <- GAMMA + INCR - 1; (6)
+(b) Compare SIC and SIC/XE architectures with respect to memory, instruction formats, addressing modes and data formats (16)
+12.
+(a) How forward references are handled by multi-pass assembler? Illustrate with an example (16)
+(b)
+(i) How can an assembler calculate displacement for PC-relative and Base relative addressing modes? (10)
+(ii) Describe the data structures used by an assembler (6)
+13.
+(a) Why linking loader requires 2 passes to complete loading? Explain the operations of linking loader. (16)
+(b)
+(i) Differentiate between linkage editor and linking loader (10)
+(ii) Describe the various record types in MS-DOS linker (6)
+14.
+(a) With an example program, explain the process of conditional macro expansion (16)
+(b) Explain the concatenation of macro parameters and handling of labels by macro processor with examples (16)
+15.
+(a) Discuss functions and capabilities of an interactive debugging system (16)
+(b) Describe the structure of a text editor and discuss some of the sytem related issues (16)
+!END_QPAPER!
