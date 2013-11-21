@@ -1,0 +1,217 @@
+01
+	Engineering Physics – I 	PH2111 	02-JAN-14 	FN
+
+01
+	Engineering Chemistry – I 	CY2111 	04-JAN-14 	FN
+
+01
+	Mathematics – I 	MA2111 	06-JAN-14 	FN
+
+01
+	Fundamentals Of Computing And  Computer Programming 	GE2112 	08-JAN-14 	FN
+
+01
+	Technical English I 	HS2111 	10-JAN-14 	FN
+
+01
+	Engineering Graphics 	GE2111 	11-JAN-14 	FN
+
+02
+	Engineering Chemistry II 	CY2161 	12-DEC-13 	AN
+
+02
+	Technical English II 	HS2161 	13-DEC-13 	AN
+
+02
+	Engineeering Mechanics 	ME2151 	14-DEC-13 	AN
+
+02
+	Mathematics II 	MA2161 	16-DEC-13 	AN
+
+02
+	Basic Electrical and Electronics Engineering 	GE2151 	17-DEC-13 	AN
+
+02
+	Engineering Physics II 	PH2161 	18-DEC-13 	AN
+
+03
+	Mechanics Of Solids 	CE2201 	15-NOV-13 	FN
+
+03
+	Transforms and Partial Differential Equations 	MA2211 	20-NOV-13 	FN
+
+03
+	Mechanics Of Fluids 	CE2202 	27-NOV-13 	FN
+
+03
+	Surveying-I 	CE2204 	02-DEC-13 	FN
+
+03
+	Applied Geology 	AG2211 	05-DEC-13 	FN
+
+03
+	Environmental Science and Engineering 	GE2021 	07-DEC-13 	FN
+
+03
+	Construction Techniques, Equipment And Practices 	CE2203 	09-DEC-13 	FN
+
+04
+	Highway Engineering 	CE2255 	13-NOV-13 	AN
+
+04
+	Soil Mechanics 	CE2251 	15-NOV-13 	AN
+
+04
+	Strength Of Materials 	CE2252 	16-NOV-13 	AN
+
+04
+	Applied Hydraulics Engineering 	CE2253 	06-DEC-13 	AN
+
+04
+	Surveying-II 	CE2254 	10-DEC-13 	AN
+
+04
+	Numerical Methods 	MA2264 	14-DEC-13 	FN
+
+05
+	Irrigation Engineering 	CE2301 	19-NOV-13 	FN
+
+05
+	Railways, Airports and Harbour Engineering 	CE2303 	22-NOV-13 	FN
+
+05
+	Foundation Engineering 	CE2305 	26-NOV-13 	FN
+
+05
+	Structural Analysis I 	CE2302 	29-NOV-13 	FN
+
+05
+	Environmental Engineering I 	CE2304 	04-DEC-13 	FN
+
+05
+	Design Of Reinforced Concrete Elements 	CE2306 	11-DEC-13 	FN
+
+06
+	Structural Analysis II 	CE2351 	16-NOV-13 	FN
+
+06
+	Principles Of Management 	MG2351 	21-NOV-13 	FN
+
+06
+	Total Quality Management 	GE2022 	28-NOV-13 	FN
+
+06
+	Cartography 	CE2022 	29-NOV-13 	AN
+
+06
+	Professional Ethics in Engineering 	GE2025 	10-DEC-13 	FN
+
+06
+	Environmental Engineering – II 	CE2354 	18-DEC-13 	FN
+
+06
+	Construction Planning and Scheduling 	CE2353 	19-DEC-13 	FN
+
+06
+	Remote Sensing Techniques And Gis 	CE2024 	21-DEC-13 	FN
+
+06
+	Architecture 	CE2025 	21-DEC-13 	FN
+Semester 	
+
+Subject Name
+	
+
+Subject
+
+Code
+	
+
+Exam
+
+Date
+	Session
+
+06
+	Hydrology 	CE2021 	21-DEC-13 	FN
+
+06
+	Design Of Steel Structures 	CE2352 	23-DEC-13 	FN
+
+07
+	Design of Reinforced Concrete and Brick Masonry Structur 	CE2401 	13-NOV-13 	FN
+
+07
+	Basics of Dynamics and Aseismic Design 	CE2403 	18-NOV-13 	FN
+
+07
+	Pavement Engineering 	CE2032 	21-NOV-13 	AN
+
+07
+	Estimation and Quantity Surveying 	CE2402 	23-NOV-13 	FN
+
+07
+	Coastal Zone Management 	CE2030 	25-NOV-13 	FN
+
+07
+	Water Resources Engineering 	CE2031 	25-NOV-13 	FN
+
+07
+	Contract Laws and Regulations 	GE2073 	25-NOV-13 	FN
+
+07
+	Ground Water Engineering 	CE2028 	25-NOV-13 	FN
+
+07
+	Housing  Planning And  Management 	CE2027 	26-NOV-13 	AN
+
+07
+	Prestressed Concrete Structures 	CE2404 	03-DEC-13 	FN
+
+07
+	Management of Irrigation Systems 	CE2029 	04-DEC-13 	AN
+
+07
+	Environmental Impact Assessment of Civil Engineering Pr 	o    CE2036 	06-DEC-13 	FN
+
+07
+	Municipal Solid Waste And Management 	CE2039 	06-DEC-13 	FN
+
+07
+	Ecological Engineering 	CE2040 	06-DEC-13 	FN
+
+07
+	Industrial Waste Management 	CE2037 	07-DEC-13 	AN
+
+07
+	Ground Improvement Techniques 	CE2033 	11-DEC-13 	AN
+
+07
+	Air Pollution Management 	CE2038 	13-DEC-13 	FN
+
+07
+	Traffic Engineering  and Management 	CE2026 	16-DEC-13 	FN
+
+08
+	Engineering Economics And Cost Analysis 	CE2451 	18-NOV-13 	AN
+
+08
+	Wind Engineering 	CE2046 	19-NOV-13 	AN
+
+08
+	Bridge Structures 	CE2041 	19-NOV-13 	AN
+
+08
+	Storage Structures 	CE2042 	19-NOV-13 	AN
+
+08
+	Repair And Rehabilitation Of Structures 	CE2071 	25-NOV-13 	AN
+
+08
+	Tall Buildings 	CE2044 	28-NOV-13 	AN
+
+08
+	Prefabricated Structures 	CE2045 	02-DEC-13 	AN
+
+08
+	Smart Structures and smart Materials 	CE2049 	05-DEC-13 	AN

@@ -1,0 +1,187 @@
+01
+	Engineering Physics – I 	PH2111 	02-JAN-14 	FN
+
+01
+	Engineering Chemistry – I 	CY2111 	04-JAN-14 	FN
+
+01
+	Mathematics – I 	MA2111 	06-JAN-14 	FN
+
+01
+	Fundamentals Of Computing And  Computer Programming 	GE2112 	08-JAN-14 	FN
+
+01
+	Technical English I 	HS2111 	10-JAN-14 	FN
+
+01
+	Engineering Graphics 	GE2111 	11-JAN-14 	FN
+
+02
+	Engineering Chemistry II 	CY2161 	12-DEC-13 	AN
+
+02
+	Technical English II 	HS2161 	13-DEC-13 	AN
+
+02
+	Engineering Mechanics 	ME2151 	14-DEC-13 	AN
+
+02
+	Mathematics II 	MA2161 	16-DEC-13 	AN
+
+02
+	Basic Electrical and Electronics Engineering 	GE2151 	17-DEC-13 	AN
+
+02
+	Engineering Physics II 	PH2161 	18-DEC-13 	AN
+
+03
+	Manufacturing Technology  I 	ME2201 	15-NOV-13 	FN
+
+03
+	Transforms and Partial Differential Equations 	MA2211 	20-NOV-13 	FN
+
+03
+	Kinematics of Machinery 	ME2203 	27-NOV-13 	FN
+
+03
+	Fluid Mechanics and Machinery 	ME2204 	02-DEC-13 	FN
+
+03
+	Engineering Thermodynamics 	ME2202 	05-DEC-13 	FN
+
+03
+	Electrical Drives and Control 	ME2205 	09-DEC-13 	FN
+
+04
+	Heat And Mass Transfer 	ME2251 	13-NOV-13 	AN
+
+04
+	Engineering Materials and Metallurgy 	ME2253 	15-NOV-13 	AN
+
+04
+	Manufacturing Technology – II 	ME2252 	16-NOV-13 	AN
+
+04
+	Statistics and Numerical Methods 	MA2266 	06-DEC-13 	AN
+
+04
+	Electronics and Microprocessors 	ME2255 	10-DEC-13 	AN
+
+04
+	Strength of Materials 	ME2254 	27-DEC-13 	AN
+
+05
+	Thermal Engineering 	ME2301 	19-NOV-13 	FN
+
+05
+	Engineering Metrology and Measurements 	ME2304 	22-NOV-13 	FN
+
+05
+	Applied Hydraulics and  Pneumatics 	ME2305 	26-NOV-13 	FN
+
+05
+	Dynamics Of Machinery 	ME2302 	29-NOV-13 	FN
+
+05
+	Design of Machine Elements 	ME2303 	04-DEC-13 	FN
+
+05
+	Environmental Science and Engineering 	GE2021 	07-DEC-13 	FN
+
+06
+	Quality Control and Reliability Engineering 	ME2021 	16-NOV-13 	FN
+
+06
+	Principles Of Management 	MG2351 	21-NOV-13 	FN
+
+06
+	Renewable Sources of Energy 	ME2023 	17-DEC-13 	FN
+
+06
+	Refrigeration and Air conditioning 	ME2022 	17-DEC-13 	FN
+
+06
+	Industrial Tribology 	ME2024 	17-DEC-13 	FN
+
+06
+	Finite Element Analysis 	ME2353 	18-DEC-13 	FN
+
+06
+	Unconventional Machining Processes 	ME2026 	19-DEC-13 	FN
+
+06
+	Gas Dynamics and Jet Propulsion 	ME2351 	21-DEC-13 	FN
+
+06
+	Design Of Transmission Systems 	ME2352 	23-DEC-13 	FN
+
+06
+	Automobile Engineering 	ME2354 	27-DEC-13 	FN
+Semester 	
+
+Subject Name
+	
+
+Subject
+
+Code
+	
+
+Exam
+
+Date
+	Session
+
+07
+	Mechatronics 	ME2401 	13-NOV-13 	FN
+
+07
+	Composite Materials 	ME2030 	18-NOV-13 	FN
+
+07
+	Computational Fluid Dynamics 	ME2032 	23-NOV-13 	FN
+
+07
+	Computer Integrated Manufacturing 	ME2402 	25-NOV-13 	FN
+
+07
+	Total Quality Management 	GE2022 	28-NOV-13 	FN
+
+07
+	Nuclear Engineering 	ME2034 	03-DEC-13 	FN
+
+07
+	Power Plant Engineering 	ME2403 	04-DEC-13 	AN
+
+07
+	Process Planning and Cost Estimation 	ME2027 	06-DEC-13 	FN
+
+07
+	Design Of Jigs, Fixtures And Press Tools 	ME2029 	07-DEC-13 	AN
+
+07
+	Robotics 	ME2028 	11-DEC-13 	AN
+
+08
+	Engineering Economics And Cost Analysis 	MG2451 	18-NOV-13 	AN
+
+08
+	Maintenance Engineering 	ME2037 	19-NOV-13 	AN
+
+08
+	Advanced I.C. Engines 	ME2041 	22-NOV-13 	AN
+
+08
+	Entrepreneurship Development 	ME2035 	23-NOV-13 	AN
+
+08
+	Operations Research 	ME2038 	25-NOV-13 	AN
+
+08
+	Production Planning and Control 	ME2036 	26-NOV-13 	AN
+
+08
+	Fundamentals of Nanoscience 	GE2023 	02-DEC-13 	AN
+
+08
+	Professional Ethics in Engineering 	GE2025 	10-DEC-13 	FN
