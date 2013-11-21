@@ -10,10 +10,10 @@
         </tr>
       </thead>
       <tbody>
-        <% cache @program.university do %>
+        <% cache[ "v1", @program.university] do %>
         <% @exams.each do|exam| %>
           <tr>
-            <td><%= link_to exam.university_course.course.name, program_university_course_path(id: ProgramUniversityCourse.find_by(university_course_id: exam.university_course_id, program_id: @program.id )) %></td>
+            <td><div class="customLink"><%= link_to exam.university_course.course.name, program_university_course_path(id: ProgramUniversityCourse.find_by(university_course_id: exam.university_course_id, program_id: @program.id )) %></div></td>
             <td><%= exam.university_course.course_code %></td>
             <td><%= exam.date.strftime("%d-%b-%y %A") %></td>
             <td><%= exam.session %></td>
