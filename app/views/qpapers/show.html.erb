@@ -16,14 +16,16 @@
 <% content_for :navbar_breadcrumbs do %>
 <ul class="nav">
 <% if @puc then %>
-	
-	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-<li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
-<li><%= link_to @qpaper.full_title, '#' %></li>
+  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+  <li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+  <li><%= link_to @qpaper.full_title, '#' %></li>
+<% else if @uc then %>
+  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+  <li><%= link_to university_course_path(@uc.id) do %><%= @uc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+  <li><%= link_to @qpaper.full_title, '#' %></li>
 <% else %>
-	  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
-    <li><%= link_to @qpaper.full_title, '#' %></li>
-
+  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
+  <li><%= link_to @qpaper.full_title, '#' %></li>
 <% end %>
 	</ul>
 <% end %>
@@ -51,13 +53,15 @@
 			  <td><div class="customLink">
         <% if @puc then %>
           <%=link_to raw(render_markdown(eq.question.qtext)), question_path(eq.question_id)+"?puc="+@puc.id.to_s+"&qpaper="+@qpaper.id.to_s %>
+        <% else if @uc then %>
+          <%=link_to raw(render_markdown(eq.question.qtext)), question_path(eq.question_id)+"?uc="+@uc.id.to_s+"&qpaper="+@qpaper.id.to_s %>
         <% else %>
           <%=link_to raw(render_markdown(eq.question.qtext)), question_path(eq.question_id)+"?qpaper="+@qpaper.id.to_s %>
         <% end %>
         </div></td>
 			  <td><%= eq.mark.to_s %></td>
-			 <% pucid = "nil" %>
-			 <% pucid = @puc.id.to_s unless @puc.nil? %>
+			 <%# pucid = "nil" %>
+			 <%# pucid = @puc.id.to_s unless @puc.nil? %>
 		  </tr>
 	 <% end %>
 <% end %>

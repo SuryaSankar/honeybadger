@@ -101,6 +101,8 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 		<% end %>
 		</div>
 		</div>
+
+
      
      <div class="handwriting bordered-box">
       <div class="heading"><h4>Recently added Answers</h4></div>
@@ -150,6 +152,19 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 
 <div class="row">
 <div class="span10 offset1">
+     <div class="handwriting bordered-box">
+      <div class="heading"><h4>Upcoming Exams</h4></div>
+      <div class="bordered-box-content">
+        <ol>
+        <% cache(["v2",Exam.maximum(:updated_at)]) do %>
+          <% Exam.where("date > ? AND date < ?",DateTime.now,2.days.from_now).order('date ASC').each do |exam| %>
+            <li><div class="customLink"><%= link_to exam.university_course.full_course_name+" - "+exam.date.strftime("%d-%b-%y %A"), university_course_path(exam.university_course_id)  %></div> </li>
+          <% end %>
+        <% end %>
+        </ol>
+      </div>
+     </div>
+
 		<div class="fbShareBox handwriting">
 		<div class="heading"><h4>Spread the word</h4></div>
 <div class="fbShare">

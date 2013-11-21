@@ -17,6 +17,11 @@
 <li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
 <li><%= link_to qpaper_path(@qpaper.id) do %><%= @qpaper.month+"-"+ @qpaper.year.to_s %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
 <li><%= link_to "Question", '#' %></li>
+	<% else if @uc then %>
+	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+<li><%= link_to university_course_path(@uc.id) do %><%= @uc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to qpaper_path(@qpaper.id) do %><%= @qpaper.month+"-"+ @qpaper.year.to_s %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to "Question", '#' %></li>
 	<% else %>
 	<li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 	<li><%= link_to qpaper_path(@qpaper.id) do %><%=@qpaper.university_course.full_course_name+"-"+ @qpaper.month+"-"+ @qpaper.year.to_s %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
@@ -26,6 +31,10 @@
 	<% if @puc then %>
 	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 <li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
+<li><%= link_to "Question", '#' %></li>
+	<% else if @uc then %>
+	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+<li><%= link_to university_course_path(@uc.id) do %><%= @uc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
 <li><%= link_to "Question", '#' %></li>
 	<% else %>
 	  <li><%= link_to root_path  do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><%end %></li>
