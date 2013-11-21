@@ -1,0 +1,13 @@
+!Degree!Bachelor of Engineering
+!University!Anna University - Affliated Colleges
+!Branch!Electrical and Electronics Engineering
+
+
+!SEM!6
+!T!
+!!EE2351|Power System Analysis|4
+!!EE2353|High Voltage Engineering|3
+!!EE2354|Microprocessors and Micro controller|3
+!!EE2355|Design of Electrical Machines|4
+!!CS2363|Computer Networks|3
+
