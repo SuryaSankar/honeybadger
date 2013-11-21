@@ -156,7 +156,7 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
       <div class="heading"><h4>Upcoming Exams</h4></div>
       <div class="bordered-box-content">
         <ol>
-        <% cache(["v2",Exam.maximum(:updated_at)]) do %>
+        <% cache(["v2",Date.today]) do %>
           <% Exam.where("date > ? AND date < ?",DateTime.now,2.days.from_now).order('date ASC').each do |exam| %>
             <li><div class="customLink"><%= link_to exam.university_course.full_course_name+" - "+exam.date.strftime("%d-%b-%y %A"), university_course_path(exam.university_course_id)  %></div> </li>
           <% end %>
