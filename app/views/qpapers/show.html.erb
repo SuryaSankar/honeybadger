@@ -15,11 +15,11 @@
 
 <% content_for :navbar_breadcrumbs do %>
 <ul class="nav">
-<% if @puc then %>
+<% if @puc %>
   <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
   <li><%= link_to program_university_course_path(@puc.id) do %><%= @puc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
   <li><%= link_to @qpaper.full_title, '#' %></li>
-<% else if @uc then %>
+<% elsif @uc%>
   <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
   <li><%= link_to university_course_path(@uc.id) do %><%= @uc.full_course_name %> &nbsp;&nbsp;<i class="icon-double-angle-right"></i> <% end %></li>
   <li><%= link_to @qpaper.full_title, '#' %></li>
@@ -51,9 +51,9 @@
 		  <tr>
 			<td><%= eq.qnumber.to_s %><%= eq.subquestion_no.nil? ? "" : "."+('a'.ord+eq.subquestion_no-1).chr %><%= eq.subsubqno.nil? ? "" : "."+roman_numeral(eq.subsubqno) %></td>
 			  <td><div class="customLink">
-        <% if @puc then %>
+        <% if @puc %>
           <%=link_to raw(render_markdown(eq.question.qtext)), question_path(eq.question_id)+"?puc="+@puc.id.to_s+"&qpaper="+@qpaper.id.to_s %>
-        <% else if @uc then %>
+        <% elsif @uc %>
           <%=link_to raw(render_markdown(eq.question.qtext)), question_path(eq.question_id)+"?uc="+@uc.id.to_s+"&qpaper="+@qpaper.id.to_s %>
         <% else %>
           <%=link_to raw(render_markdown(eq.question.qtext)), question_path(eq.question_id)+"?qpaper="+@qpaper.id.to_s %>
