@@ -1,6 +1,6 @@
 class ProgramsController < ApplicationController
   before_action :set_program, only: [ :edit, :update, :destroy]
-  before_filter :authenticate_admin!, except: [:index, :show, :json_list]
+  before_filter :authenticate_admin!, except: [:index, :show, :json_list, :schedule]
   # GET /programs
   # GET /programs.json
   def index
@@ -11,6 +11,11 @@ class ProgramsController < ApplicationController
   # GET /programs/1.json
   def show
 	eager_load_program
+  end
+
+  def schedule
+    @program=Program.find(params[:program])
+    @exams=Exam.where( university_course_id: ProgramUniversityCourse.select(:university_course_id).where(program_id: @program.id,semester: params[:semester] )).order(:date)
   end
 
   def json_list
@@ -75,6 +80,9 @@ class ProgramsController < ApplicationController
 
     def eager_load_program
       @program = Program.includes(program_university_courses: {university_course: :course }).find(params[:id])
+    end
+    def schedule_params
+      params.permit(:semester, :program)
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

@@ -1,0 +1,26 @@
+<div class="bordered-box">
+  <div class="bordered-box-content">
+    <table class="table table-bordered table-hover">
+      <thead>
+        <tr>
+          <td><h5>Course Name</h5></td>
+          <td><h5>Course Code</h5></td>
+          <td><h5>Exam Date</h5></td>
+          <td><h5>Session</h5></td>
+        </tr>
+      </thead>
+      <tbody>
+        <% cache @program.university do %>
+        <% @exams.each do|exam| %>
+          <tr>
+            <td><%= link_to exam.university_course.course.name, program_university_course_path(id: ProgramUniversityCourse.find_by(university_course_id: exam.university_course_id, program_id: @program.id )) %></td>
+            <td><%= exam.university_course.course_code %></td>
+            <td><%= exam.date.strftime("%d-%b-%y %A") %></td>
+            <td><%= exam.session %></td>
+          </tr>
+        <% end %>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

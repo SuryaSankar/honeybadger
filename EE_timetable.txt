@@ -1,0 +1,183 @@
+01
+	Engineering Physics – I 	PH2111 	02-JAN-14 	FN
+
+01
+	Engineering Chemistry – I 	CY2111 	04-JAN-14 	FN
+
+01
+	Mathematics – I 	MA2111 	06-JAN-14 	FN
+
+01
+	Fundamentals Of Computing And  Computer Programming 	GE2112 	08-JAN-14 	FN
+
+01
+	Technical English I 	HS2111 	10-JAN-14 	FN
+
+01
+	Engineering Graphics 	GE2111 	11-JAN-14 	FN
+
+02
+	Engineering Chemistry II 	CY2161 	12-DEC-13 	AN
+
+02
+	Technical English II 	HS2161 	13-DEC-13 	AN
+
+02
+	Circuit Theory 	EE2151 	14-DEC-13 	AN
+
+02
+	Mathematics II 	MA2161 	16-DEC-13 	AN
+
+02
+	Engineering Physics II 	PH2161 	18-DEC-13 	AN
+
+02
+	Basic Civil and Mechanical Engineering 	GE2151 	19-DEC-13 	AN
+
+03
+	Electromagnetic Theory 	EE2202 	15-NOV-13 	FN
+
+03
+	Transforms and Partial Differential Equations 	MA2211 	20-NOV-13 	FN
+
+03
+	Environmental Science and Engineering 	GE2211 	27-NOV-13 	FN
+
+03
+	Data Structures And Algorithms 	EE2204 	02-DEC-13 	FN
+
+03
+	Measurements And Instrumentation 	EE2201 	05-DEC-13 	FN
+
+03
+	Electronic Devices And  Circuits 	EE2203 	09-DEC-13 	FN
+
+04
+	Digital Logic Circuits 	EE2255 	13-NOV-13 	AN
+
+04
+	Electrical Machines – I 	EE2251 	15-NOV-13 	AN
+
+04
+	Power Plant Engineering 	EE2252 	16-NOV-13 	AN
+
+04
+	Linear Integrated Circuits And Applications 	EE2254 	06-DEC-13 	AN
+
+04
+	Numerical Methods 	MA2264 	14-DEC-13 	FN
+
+04
+	Control Systems 	EE2253 	27-DEC-13 	AN
+
+05
+	Transmission And  Distribution 	EE2303 	22-NOV-13 	FN
+
+05
+	Power Electronics 	EE2301 	26-NOV-13 	FN
+
+05
+	Electrical Machines II 	EE2302 	29-NOV-13 	FN
+
+05
+	Object Oriented Programming 	CS2311 	04-DEC-13 	FN
+
+05
+	Communication Engineering 	EC2311 	07-DEC-13 	AN
+
+05
+	Digital Signal Processing 	EC2314 	17-DEC-13 	FN
+
+06
+	Design of Electrical Machines 	EE2355 	16-NOV-13 	FN
+
+06
+	Robotics and Automation 	EE2023 	19-NOV-13 	AN
+
+06
+	Power System Transients 	EE2027 	09-DEC-13 	AN
+
+06
+	Advanced Control System 	IC2351 	09-DEC-13 	AN
+
+06
+	Professional Ethics in Engineering 	GE2025 	10-DEC-13 	FN
+
+06
+	Microprocessors And Microcontroller 	EE2354 	11-DEC-13 	FN
+
+06
+	Fiber Optics And Laser Instruments 	EI2404 	13-DEC-13 	FN
+
+06
+	Computer Networks 	CS2363 	18-DEC-13 	FN
+
+06
+	Power System Analysis 	EE2351 	21-DEC-13 	FN
+
+06
+	Solid State Drives 	EE2352 	23-DEC-13 	FN
+Semester 	
+
+Subject Name
+	
+
+Subject Code
+	
+
+Exam Date
+	Session
+
+06
+	High Voltage Engineering 	EE2353 	27-DEC-13 	FN
+
+07
+	Power System Operation and Control 	EE2401 	13-NOV-13 	FN
+
+07
+	Biomedical Instrumentation 	EI2311 	19-NOV-13 	FN
+
+07
+	Principles Of Management 	MG2351 	21-NOV-13 	FN
+
+07
+	Protection & Switchgear 	EE2402 	23-NOV-13 	FN
+
+07
+	Operating Systems 	CS2411 	25-NOV-13 	FN
+
+07
+	Total Quality Management 	GE2022 	28-NOV-13 	FN
+
+07
+	Special Electrical Machines 	EE2403 	03-DEC-13 	FN
+
+07
+	Intelligent Control 	EE2025 	06-DEC-13 	FN
+
+07
+	Computer Architecture 	CS2071 	16-DEC-13 	FN
+
+08
+	Electric Energy Generation, Utilization And Conservation 	EE2451 	18-NOV-13 	AN
+
+08
+	Micro Electro Mechanical Systems 	EE2033 	22-NOV-13 	AN
+
+08
+	Flexible AC Transmission Systems 	EE2036 	22-NOV-13 	AN
+
+08
+	High Voltage Direct Current Transmission 	EE2032 	26-NOV-13 	AN
+
+08
+	Operations Research 	EE2030 	26-NOV-13 	AN
+
+08
+	Power Quality 	EE2028 	26-NOV-13 	AN
+
+08
+	Fundamentals of Nanoscience 	GE2023 	02-DEC-13 	AN
+
+08
+	VLSI Design 	EI2403 	11-DEC-13 	AN

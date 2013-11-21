@@ -27,7 +27,7 @@ Honeybadger::Application.routes.draw do
   post 'solutions/accept' => 'solutions#accept'
   get '/yourquestions' =>'questions#yourquestions'
   get '/youranswers' => 'solutions#yoursolutions'
-
+  get '/schedule/:program/:semester' => 'programs#schedule'
 
   resources :qpapers
   resources :questions

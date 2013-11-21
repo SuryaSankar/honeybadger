@@ -1,0 +1,199 @@
+01
+	Engineering Physics – I 	PH2111 	02-JAN-14 	FN
+
+01
+	Engineering Chemistry – I 	CY2111 	04-JAN-14 	FN
+
+01
+	Mathematics – I 	MA2111 	06-JAN-14 	FN
+
+01
+	Fundamentals Of Computing And  Computer Programming 	GE2112 	08-JAN-14 	FN
+
+01
+	Technical English I 	HS2111 	10-JAN-14 	FN
+
+01
+	Engineering Graphics 	GE2111 	11-JAN-14 	FN
+
+02
+	Engineering Chemistry II 	CY2161 	12-DEC-13 	AN
+
+02
+	Technical English II 	HS2161 	13-DEC-13 	AN
+
+02
+	Electric Circuits And Electron Devices 	EC2151 	14-DEC-13 	AN
+
+02
+	Mathematics II 	MA2161 	16-DEC-13 	AN
+
+02
+	Engineering Physics II 	PH2161 	18-DEC-13 	AN
+
+02
+	Basic Civil and Mechanical Engineering 	GE2151 	19-DEC-13 	AN
+
+03
+	Transforms and Partial Differential Equations 	MA2211 	20-NOV-13 	FN
+
+03
+	Data Structures And Algorithms 	IT2201 	27-NOV-13 	FN
+
+03
+	Digital Principles And System Design 	CS2202 	02-DEC-13 	FN
+
+03
+	Principles Of Communication 	IT2202 	05-DEC-13 	FN
+
+03
+	Environmental Science and Engineering 	GE2021 	07-DEC-13 	FN
+
+03
+	Object Oriented Programming 	CS2203 	09-DEC-13 	FN
+
+04
+	Software Engineering And Quality Assurance 	IT2251 	13-NOV-13 	AN
+
+04
+	Database Management Systems 	CS2255 	15-NOV-13 	AN
+
+04
+	Microprocessors And Microcontrollers 	CS2252 	16-NOV-13 	AN
+
+04
+	Probability and Queueing Theory 	MA2262 	06-DEC-13 	AN
+
+04
+	Computer Organization And Architecture 	CS2253 	21-DEC-13 	AN
+
+04
+	Operating Systems 	CS2254 	23-DEC-13 	AN
+
+05
+	Engineering Economics and Financial Accounting 	MG2452 	18-NOV-13 	FN
+
+05
+	System Software 	CS2304 	22-NOV-13 	FN
+
+05
+	Java Programming 	IT2301 	29-NOV-13 	FN
+
+05
+	Computer Networks 	CS2302 	04-DEC-13 	FN
+
+05
+	Information Theory And Coding 	IT2302 	11-DEC-13 	FN
+
+05
+	Digital Signal Processing 	CS2403 	16-DEC-13 	FN
+
+06
+	Digital Image Processing 	IT2023 	19-NOV-13 	AN
+
+06
+	Cryptography and Network Security 	IT2352 	23-NOV-13 	FN
+
+06
+	Network Programming and Management 	IT2351 	03-DEC-13 	FN
+
+06
+	User Interface Design 	IT2024 	04-DEC-13 	AN
+
+06
+	Data Warehousing And Data Mining 	CS2032 	04-DEC-13 	AN
+
+06
+	Numerical Methods 	MA2264 	14-DEC-13 	FN
+
+06
+	Web Technology 	IT2353 	17-DEC-13 	FN
+
+06
+	Object Oriented Analysis and Design 	CS2353 	20-DEC-13 	FN
+
+06
+	Embedded Systems 	IT2354 	21-DEC-13 	FN
+
+06
+	Software Requirement Engineering 	IT2022 	27-DEC-13 	FN
+Semester 	
+
+Subject Name
+	
+
+Subject
+
+Code
+	
+
+Exam
+
+Date
+	Session
+
+07
+	Computer Graphics 	CS2401 	13-NOV-13 	FN
+
+07
+	Enterprise Resource Planning 	IT2041 	16-NOV-13 	FN
+
+07
+	Theory Of Computation 	CS2303 	21-NOV-13 	FN
+
+07
+	Grid Computing 	CS2063 	23-NOV-13 	AN
+
+07
+	Service Oriented Architecture 	IT2401 	25-NOV-13 	FN
+
+07
+	Mobile Communication 	IT2402 	27-NOV-13 	AN
+
+07
+	Information Security 	IT2042 	29-NOV-13 	AN
+
+07
+	Software Project Management 	IT2403 	02-DEC-13 	AN
+
+07
+	C# And .Net Framework 	CS2041 	07-DEC-13 	AN
+
+07
+	Software Testing 	IT2032 	11-DEC-13 	AN
+
+07
+	Advanced Database Technology 	CS2029 	12-DEC-13 	FN
+
+07
+	Electronic Commerce 	IT2031 	13-DEC-13 	FN
+
+07
+	Adhoc Sensor Network 	IT2034 	13-DEC-13 	FN
+
+07
+	Knowledge Management 	IT2043 	18-DEC-13 	FN
+
+08
+	Distributed Systems 	CS2056 	18-NOV-13 	AN
+
+08
+	Indian Constitution and Society 	GE2072 	22-NOV-13 	AN
+
+08
+	Knowledge Engineering 	IT2051 	26-NOV-13 	AN
+
+08
+	Software Design 	IT2053 	26-NOV-13 	AN
+
+08
+	Principles of Compiler Design 	IT2050 	26-NOV-13 	AN
+
+08
+	Total Quality Management 	GE2022 	28-NOV-13 	FN
+
+08
+	Management Information Systems 	IT2052 	05-DEC-13 	AN
+
+08
+	Professional Ethics in Engineering 	GE2025 	10-DEC-13 	FN

@@ -1,13 +1,13 @@
-<% cache ["v5", University.find_by_name("Anna University - Affliated Colleges") ] do %>
+<% cache ["v7", University.find_by_name("Anna University - Affliated Colleges") ] do %>
   <% @universities=University.where(name: "Anna University - Affliated Colleges").includes(:branches, :programs => [:program_university_courses => { :university_course => :course }]).load %>
   <ul>
     <% @universities.each do |u| %>
-      <% cache ["v5", u] do%>
+      <% cache ["v7", u] do%>
       <li class="jstree-open">
         <%=link_to u.name, '#' %>   
         <ul>
           <% u.programs.each do |p| %>
-            <%# cache ["v5", p] do%>
+            <%# cache ["v7", p] do%>
             <li>
               <%= link_to p.shorter_desc, '#' %>
               <ul>
@@ -15,6 +15,7 @@
                   <li>
                     <%= link_to "Semester "+x.to_s, "#" %>
                     <ul>
+                      <li class="jstree-leaf" rel="leaf"><%= link_to "Semester Exam Schedule", "/schedule/#{p.id}/#{x}" %></li>
                       <% p.program_university_courses.select{ |puc| puc.semester==x && puc.university_course !=nil }.each do |puc1| %>
                         <% cache ["v5", puc1.university_course] do %>
                         <li class="jstree-leaf" rel="leaf">

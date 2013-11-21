@@ -277,9 +277,45 @@ namespace :karpeer_admin do
 
   desc "expire home"
   task :expire_home => :environment do |t|
-	store = ActionController::Base.cache_store
-	store.delete_matched(/home/)
-	store.delete_matched(/index/)
+	  store = ActionController::Base.cache_store
+	  store.delete_matched(/home/)
+	  store.delete_matched(/index/)
+  end
+
+  desc "checking schedule"
+    task :check_schedule, [:timetable] => :environment do |t, args|
+    university=University.find_by_name("Anna University - Affliated Colleges")
+    IO.foreach(args.timetable) do |line|
+		  case line
+		    when /^.*(?<coursecode>[A-Z]{2}\d{4})\s+(?<date>\d{2}-[A-Z]{3}-\d{2}).*\s+(?<session>(FN|AN))\s*$/
+           coursecode=$~[:coursecode]
+           uc=UniversityCourse.find_by(university_id: university.id, course_code: coursecode)
+           if uc.nil? then
+           puts line
+           puts coursecode
+           puts "No course found" 
+           else
+            puts uc
+           end
+      end  
+    end
+  end
+
+  desc "adding schedule"
+    task :add_schedule, [:timetable] => :environment do |t, args|
+    university=University.find_by_name("Anna University - Affliated Colleges")
+    IO.foreach(args.timetable) do |line|
+      puts line
+		  case line
+		    when /^.*(?<coursecode>[A-Z]{2}\d{4})\s+(?<date>\d{2}-[A-Z]{3}-\d{2}).*\s+(?<session>(FN|AN))\s*$/
+           coursecode=$~[:coursecode]
+           examdate=Date.parse($~[:date])
+           uc=UniversityCourse.find_by(university_id: university.id, course_code: coursecode)
+           
+           exam=Exam.find_by(university_course_id: uc.id, date: examdate) || Exam.create(university_course_id: uc.id, date: examdate, session: $~[:session])
+           puts exam.attributes
+      end  
+    end
   end
 
 

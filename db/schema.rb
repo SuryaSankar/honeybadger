@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131116112931) do
+ActiveRecord::Schema.define(version: 20131120124054) do
 
   create_table "accepted_solutions", force: true do |t|
     t.boolean  "accept"
@@ -96,7 +96,10 @@ ActiveRecord::Schema.define(version: 20131116112931) do
     t.string   "session"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "university_course_id"
   end
+
+  add_index "exams", ["university_course_id"], name: "index_exams_on_university_course_id"
 
   create_table "institutions", force: true do |t|
     t.string   "name"
