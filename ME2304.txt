@@ -1,0 +1,155 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2304
+!Year! 2007
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is the relationship between sensitivity and range? (2)
+2. Distinguish between relative error and random error? (2)
+3. What will happen if the gauge blocks are simply placed over one another and measurements made? (2)
+4. A 200mm sine bar is to be set tonany appropriate set of gauge blocks. (2)
+5. What are the corrections applied in the measurement of effective diameter by the method of wires? (2)
+6. State the precautions that must be taken in the method of measuring diameters of a taper plug gauge by rollers, slip gauges and micrometer? (2)
+7. State any two applications of laser in machine tool metrology? (2)
+8. Give two uses of computers in the field of metrology? (2)
+9. What is the principle of thermocouple? (2)
+10. State any two principles of force measurement. (2)
+11.
+(a) 
+(i) Explain the following terms with suitable examples. (1) Readability, (2) Repeatability, (3) Calibration and (4) Dynamic Response. (10)
+(ii) How are end standadrs derived from line standard? Explain. (6)
+(b)
+(i) Describe various elements and its function of a generalised measurement systems. (10)
+(ii) Discuss the different types of errors and how they can be eliminated? (6)
+12.
+(a)
+(i) How is a Vernier height gauge specified? Describe briefly the constructional requirements of different pats of a vernier height gauge? (10)
+(ii) Discuss the operation of a Pneumatic comparator. (6)
+(b)
+(i) Describe a method of determining an absolute length of slip gauges using interferometer. (10)
+(ii) With the help of a neat sketch explain the working of an autocollimator. (6)
+13.
+(a)
+(i) Describe the instrument 'Gear tooth vernier caliper'. Calculate the gear tooth caliper settings to measure the chordal length of a gear 45 teeth having a module of 4. (10)
+(ii) How is the straightness of straight edge measured? (6)
+(b)
+(i) Define Ra, Rb, Rc and tp % with respect to surface roughness. (6)
+(ii) Discuss the various types of screw pitch errors. (5)
+(iii) Explain in detail the roundness testing machine. (5)
+14.
+(a)
+(i) Describe the construction and working of a micrometer. (12)
+(ii) Discuss the different types of laser light sources. (4)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2304
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define the term error and correction (2)
+2. What is meant by nominal size and tolerance? (2)
+3. What will happen if the gauge blocks are simply placed over one another and measurements are made? (2)
+4. What are sine centers? (2)
+5. Name the corrections applied in measurement of effective diameter by the method of wires (2)
+6. State the methods used for checking gear tooth profile (2)
+7. What is the advantage of using laser beam in interferometry? (2)
+8. Name the types of accuracy spcifications used for CMM (2)
+9. List any two methods employed for measuring torque (2)
+10. Give the composition and useful temperature range of any one thermocouple (2)
+11.
+(a)
+(i) Draw the block diagram of the functional elements of a pressure gauge and explain the functions of different functional elements (2)
+(ii) Explain with examples the difference between a primary and a secondary standard. What are working standards? (2)
+(b) 
+(i) Explain the following terms in precision measurements (1) Repeatability (2) Sensitivity (3) Lag (4) Derived Unit (8)
+(ii) Explain different sources of errors (8)
+12.
+(a)
+(i) State the main requirements of slip gauges. How are slip gauges manufactured? (6)
+(ii) Describe the constructional details of an Angle decker and explain how it is used to measure the angle (10)
+(b)
+(i) Explain how flatness errors of optical surfaces are measured with an optical flat (6)
+(ii) Explain how the measuring head sensitivity, pneumatic sensitivity and overall sensitivity vary with variation of diameter of measurement orifice (10)
+13.
+(a)
+(i) With the help of a neat sketch explain the function of a Parkinson Gear Rolling Tester used for checking of composite errors (10)
+(ii) Explain a typical setup using which the measurement of surface finish of a surface is carried out (6)
+(b)
+(i) Explain a method of measuring errors in the pitch of a screw thread (6)
+(ii) Describe a method to check the flatness of a surface plate (10)
+14.
+(a)
+(i) Explain with a neat sketch, the principle and working of a laser interferometer. State its applications in machine tool metrology (12)
+(ii) Discuss the application of computer aided inspection (4)
+(b)
+(i) Sketch a bridge type CMM. Explain the procedure to be used in measurement of various dimensions of a typical component using it (12)
+(ii) Explain how the performance of CMM is evaluated (4)
+15.
+(a)
+(i) Explain the construction and working of a hydraulic force meter (8)
+(ii) Discuss the advantages and disadvantages of the following: (1) Pitot tube and (2) Rotameter (8)
+(b)
+(i) Explain with neat sketch, the construction and working of McLeod Gauge (10)
+(ii) Draw a simple sketch of a non-contact type temperature measuring instrument and describe each element (6)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2304
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What do you mean by sensitivity of a measuring instrument? (2)
+2. Define Readability (2)
+3. A 250 mm sine bar is to be set to an angle of $35^{\circ}5'6"$. Find the height of the gauge blocks required using any appropriate set of gauge blocks (2)
+4. State the principle of interferometry (2)
+5. What is gear runout? (2)
+6. What is progressive error in screw threads? (2)
+7. List any 4 possible causes of error in CMM (2)
+8. Write the application of Laser Interferometry (2)
+9. What is the working principle of a thermocouple? (2)
+10. Name any 4 methods employed for measuring torque (2)
+11.
+(a)
+(i) Draw the block diagram of generalized measurement system and explain the different stages with examples (12)
+(ii) Define accuracy. Explain how the accuracy of an instrument can be specified. (4)
+(b)
+(i) Explain the purpose of calibrating an instrument and discuss the primary and secondary calibration (8)
+(ii) Briefly explain the various types of input signal (8)
+12.
+(a)
+(i) Explain with neat sketches: Differential screw micrometer (4)
+(ii) Explain with neat sketches: Thread Micrometer (4)
+(iii) Explain with neat sketches: Blade type micromet (4)
+(iv) Explain with neat sketches: Micrometer thread gauge (4)
+(b) Explain the working principle of Angle Dekkar with a neat sketch. Also write the applications of Angle Dekkar (16)
+13.
+(a)
+(i) Explain the following tooth thickness measurement: Constant Chord method (8)
+(ii) Explain the following tooth thickness measurement: Chordal Thickness method (8)
+(b)
+(i) Briefly explain the step by step procedure for determining the flatness of a surface with a neat sketch (8)
+(ii) Explain with a neat diagram the measurement of straightness using autocollimator (8)
+14.
+(a) Explain the construction and working of a laser Telemetric system with a neat sketch (16)
+(b) Explain the construction and working of various bridge type Co-ordinate Measuring Machines (16)
+15.
+(a)
+(i) Explain the construction and working of a Venturimeter (8)
+(ii) Explain the construction and working of a Rotometer (8)
+(b)
+(i) With a neat sketch, explain how bimetallic strips are used for temperature measurements (8)
+(ii) Explain the working and purpose of electrical resistance thermisters (8) 
+!END_QPAPER!
