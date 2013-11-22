@@ -1,0 +1,72 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CE2402
+!Year! 2008
+!Month! Nov/Dec
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is Schedule of rates? (2)
+2. What is Prime Cost? (2)
+3. State the 2 types of specifications of work (2)
+4. What is Building cost index? (2)
+5. What is earnest money deposit? (2)
+6. What is security money deposit? (2)
+7. What is measurement book? (2)
+8. What is termination of contract? (2)
+9. What is book value of a property? (2)
+10. What is obsolescence? (2)
+11.
+(a) Explain the following area measurements of a building (i) Plinth area (ii) Floor area (iii) Circulation area (iv) Carpet area (16)
+(b) Explain any 4 types of approximate estimates (16)
+12.
+(a) Explain the mid sectional area method and the mean sectional area method (16)
+(b) Write down the general specifications of a modern road (16)
+13.
+(a) Explain about the contents of a typical tender notice (16)
+(b) Explain about the contents of a contract document (16)
+14.
+(a) Explain in detail about the 4 methods of calculation of depreciation (16)
+(b) Explain the different methods of valuation (16)
+15.
+(a) Discuss the necessity of specifications in detail (16)
+(b) Discuss the purposes of valuation in detail (16)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CE2402
+!Year! 2009
+!Month! May/June
+!Semester! 7
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. State the units of measurement for earthwork and DPC in MKS units (2)
+2. What is detailed estimate? (2)
+3. What are contingencies? (2)
+4. What is work charged establishment? (2)
+5. What is mean sectional area method? (2)
+6. State the trapezoidal formula for a series of cross sections (2)
+7. What is lumpsum contract? (2)
+8. What is earnest money deposit? (2) 
+9. What is annuity? (2)
+10. What is capital cost? (2)
+11.
+(a) Explain the following detailed estimates: (i) Individual wall method (ii) Centre line method (16) 
+(b) Explain the following approximate estimates: (i) Plinth area method (ii) Cube rate estimate (16) 
+12.
+(a) Calculate the quantity of materials, stone grit and binder or pait required for first coat of painting and second coat of painting for 1km length of a 3.70 m wide bituminous road (16)
+(b) Find the area of temporary land required for one kilometre length of a road with the following data: (i) The formation width=10 metres (ii) Side slope-2 Horizontal (iii) Average height of bank=1.50 km (iv) Depth of borrow pit=30 cm. (16)
+13.
+(a) Explain the general specifications of a first class building (16)
+(b) Explain the detailed specifications for any 4 items of work (16)
+14.
+(a) Explain any 4 methods of valuation of a building (16) 
+(b) Explain in detail about the 4 methods of calculation of depreciation (16)
+15.
+(a) Discuss the report on estimates for the construction of a residential building (16)
+(b) Explain the report on estimate for construction of a culvert (16)
+!END_QPAPER!
