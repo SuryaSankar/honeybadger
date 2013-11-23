@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131120124054) do
+ActiveRecord::Schema.define(version: 20131123143608) do
 
   create_table "accepted_solutions", force: true do |t|
     t.boolean  "accept"
@@ -160,14 +160,6 @@ ActiveRecord::Schema.define(version: 20131120124054) do
   add_index "programs", ["branch_id"], name: "index_programs_on_branch_id"
   add_index "programs", ["university_id"], name: "index_programs_on_university_id"
 
-  create_table "programs_qpapers", id: false, force: true do |t|
-    t.integer "qpaper_id",  null: false
-    t.integer "program_id", null: false
-  end
-
-  add_index "programs_qpapers", ["program_id"], name: "index_programs_qpapers_on_program_id"
-  add_index "programs_qpapers", ["qpaper_id"], name: "index_programs_qpapers_on_qpaper_id"
-
   create_table "qpaper_files", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -190,7 +182,6 @@ ActiveRecord::Schema.define(version: 20131120124054) do
     t.boolean  "official"
     t.integer  "university_course_id"
     t.string   "month"
-    t.integer  "semester"
     t.string   "exam_name"
     t.integer  "user_id"
   end

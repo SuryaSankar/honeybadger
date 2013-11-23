@@ -47,7 +47,7 @@ namespace :karpeer_admin do
 		when /^!Month!\s+(?<month>.*)\s*$/
 			qpaper.month = $~[:month]
 		when /^!Semester!\s+(?<semester>.*)\s*$/
-			qpaper.semester = $~[:semester]
+			#qpaper.semester = $~[:semester]
 		when /^!END_QPAPER_DESC!\s*$/
 			qpaper.user_id = userid
 			qpaper.save!
