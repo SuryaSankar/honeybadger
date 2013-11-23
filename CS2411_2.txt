@@ -1,0 +1,50 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CS2411
+!Year! 2012
+!Month! May/Jun
+!Title! BTech Degree examination
+!Semester! 5
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define a Process (2)
+2. What are System Calls? (2)
+3. What is dining philosophers' problem? (2)
+4. What are the 4 necessary conditions for deadlock to occur? (2)
+5. What is the difference between simple paging and virtual memory paging? (2) 
+6. What is principle of locality? (2)
+7. List the file attributes (2)
+8. Define seek time and rotational latency (2)
+9. How do you improve I/O performance? (2)
+10. What is N-step scan disk scheduling? (2)
+11.
+(a)
+(i) What is process scheduling? Explain the metrics used in evaluating the schedule (6)
+(ii) What is PCB? Explain process state transition diagram with a neat sketch indicating 5 states (10)
+(b) What is multi-threading? List out the benefits of multi-threading. Explain various multi threading models (16)
+12.
+(a)
+(i) What are race conditions and what is the importance of mutual exclusion? Write a note on the difference between semaphores and monitors (8)
+(ii) Explain Readers and Writers problem and present its solution using Semaphores (8)
+(b)
+(i) Define Deadlock and list out its characteristics (8)
+(ii) Discuss Banker's algorithm in handling deadlock with suitable example (8)
+13.
+(a)
+(i) Consider the following Page reference string. \[ 1,2,3,4,2,1,5,6,2,1,2,3,7,6,3,2,1,2,3,6 \] How many page faults would occur for the FIFO and LRU replacement  algorithms, assuming three or four frames? Remember that all frames are initially empty, so your first unique pages will all cost one fault each (6)
+(ii) Explain demand paging in detail. Discuss the steps involved in handling a page fault (10)
+(b)
+(i) What is Belady's anomaly? Explain (4)
+(ii) Discuss the Address translation in a Combined Paging and Segmentation with a neat sketch (12)
+14.
+(a)
+(i) Write a note on file system and its access methods (10)
+(ii) Write a note on free space management (6)
+(b) Discuss file Allocation methods in detail (16)
+15.
+(a) What are issues in Disk scheduling? Explain Disk Scheduling Algorithms in detail (16)
+(b)
+(i) Write a note on Swap Space Management (8)
+(ii) Discuss on I/O Subsystems in Linux (8)
+!END_QPAPER!
