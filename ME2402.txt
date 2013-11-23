@@ -1,0 +1,153 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2402
+!Year! 2013
+!Month! May/Jun
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Distinguish between reflection and scaling transformations (2)
+2. What is sculptured surface? (2)
+3. What is a communication network? List its types (2)
+4. What is MAP model? (2)
+5. What is the main difference between hierarchial codes and attribute code structures? (2)
+6. What is CMPP system? (2)
+7. Distinguish between on-line and offline data collection systems. (2)
+8. List some important advantages of implementing FMS (2)
+9. What do you mean by fixed-order quantity model? (2)
+10. What is direct digital control? (2)
+11.
+(a)
+(i) Write short notes on 3D scaling and 3D shearing geometric transformation (8)
+(ii) Consider a point P(3,2) in a co-ordinate plane.Perform reflection of the point P (1) through y axis and (2) through x axis (8)
+(b) Explain with suitable examples, how a solid model is generated using boundary representation and write the advantages of solid modelling (8)
+12.
+(a)
+(i) Explain the importance of CIM. Also write the reasons for implementing CIM (8)
+(ii) Explain in detail the communication matrix in CIM (8)
+(b)
+(i) Explain briefly the 7 layers of ISO/OSI reference model (10)
+(ii) What is CSMA/CD? Also write the rules of CSMA/CD (6)
+13.
+(a) Explain the methods for part family formation with a suitabl illustration and discuss with examples "coding system structure" (16)
+(b)
+(i) Explain the composite part concept in cellular manufacturing (6)
+(ii) Discuss the benefits of Computer Aided Process Planning (CAPP) and explain CAPP approaches in detail (10)
+14.
+(a)
+(i) What are the functions of Shop Floor Control (SFC) (4)
+(ii) Explain briefly the technologies used in Automatic Identification Systems (12)
+(b)
+(i) Explain the functions of a FMS computer control system (8)
+(ii) Discuss the application, advantages and disadvantages of a FMS (8)
+15.
+(a)
+(i) Briefly explain the objectives, principles and various concepts of lean production (10)
+(ii) Write short notes on Material Requirements Planning(MRP) (6)
+(b)
+(i) Explain the configuration and function of adaptive control (8)
+(ii) Describe the components and their arrangement of a direct digital control (8)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2402
+!Year! 2010
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is meant by CIM? (2)
+2. What are the different types of manufacturing? (2)
+3. What is Part Family? (2)
+4. Give any two benefits of Computer Aided Process Planning. (2)
+5. What are the devices used for shop floor data collection? (2)
+6. What are the benefits of FMS? (2)
+7. What is meant by LAN? (2)
+8. What are the system modelling tools? (2)
+9. Distinguish between MAP and TOP (2)
+10. What are the advantages of databases? (2)
+11.
+(a) Briefly explain the main elements of CIM systems (16)
+(b)
+(i) What is the need for production planning? What are the advantages? (10)
+(ii) Discuss the scope and importance of Marketing Engineering (6)
+12.
+(a)
+(i) Discuss about MICLASS and OPTIZ classification and coding systems (10)
+(ii) What are the advantages of Cellular Manufacturing? (6)
+(b)
+(i) Describe any one computer aided process planning software (8)
+(ii) Distinguish between variant apporach and generalist approach (8)
+13.
+(a)
+(i) Discuss the need an importance of automated data collection systems. What are their advantages? (10)
+(ii) Briefly explain the Bar code technology with suitable diagram (6)
+(b)
+(i) Sketch the layout of typical FMS and explain the important subsystems (10)
+(ii) Write a note on AGV. Mention its applications (6)
+14.
+(a)
+(i) Explain the IDEF model with a neat diagram (8)
+(ii) Briefly explain the LAN implementation (8)
+(b)
+(i) Explain the role and development of CIM and architecture (8)
+(ii) Write a short note on LAN topology (8)
+15.
+(a)
+(i) Briefly explain the manufacturing automations protocol (8)
+(ii) Describe the architecture of a RDMS with a block diagram (8)
+(b)
+(i) Discuss the three database models (8)
+(ii) Explain the merits and demerits of relational database (8)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2402
+!Year! 2012
+!Month! May/Jun
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What are the drawing features of CAD package? (2)
+2. What are the advantages of solid modeling? (2)
+3. What is the difference between automation and CIM? (2)
+4. What is meant by asynchronous data transfer? (2)
+5. Mention the benefits of GT (2)
+6. What is CAPP? (2)
+7. List the different stages of shop floor control (2)
+8. State the functions of computer control system of FMS (2)
+9. Define agile manufacturing (2)
+10. What are the inputs to MRP system? (2)
+11.
+(a) Describe about operator input devices used at the graphics workstation (16)
+(b)
+(i) What are the functions of a graphics package? (8)
+(ii) Explain about two-dimensional transformations (8)
+12.
+(a)
+(i) What are the benefits of CIM? (8)
+(ii) Explain about the following data transmission methods (a) Simplex (b) Duplex (8)
+(b)
+(i) Describe about seven layer OSI model (Computer Networking in CIM) (8)
+(ii) Explain about network topologies (8)
+13.
+(a)
+(i) Explain about parts classification and coding (8)
+(ii) Describe about OPTIZ coding systems (8)
+(b) Explain about CAPP (16)
+14.
+(a) Explain about factory data-collection system (16)
+(b)
+(i) Explain about FMS workstation (8)
+(ii) List the applications of FMS (8)
+15.
+(a)
+(i) How MRP works? (8)
+(ii) Explain about cost planning and control (8)
+(b)
+(i) What are the components of DDC? Explain with a figure (8)
+(ii) Explain about lean manufacturing (8)
+!END_QPAPER!
