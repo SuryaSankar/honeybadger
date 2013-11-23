@@ -1,0 +1,45 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2028
+!Year! 2012
+!Month! Nov/Dec
+!Title! BTech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What are the classes of IP addresses? (2)
+2. Does the proxy ARP can be used with three physical networks that are interconnected by two gateways, why or why not? (2)
+3. Give the message format of RIP. (2)
+4. What is multicasting? Where is it used? (2)
+5. What is the purpose of CSS? (2)
+6. List out the merits and demerits of CGI. (2)
+7. Define Object serialization. (2)
+8. Draw the architecture of RMI. (2)
+9. Differentiate HTML and XML. (2)
+10. What are the drivers available in JDBC? (2)
+11.
+(a)
+(i) Lost TCP acknowledgements do not necessarily force retransmissions. Explain why?(8)
+(ii) Give the ARP format and explain how to implement ARP and RARP.(8)
+(b)
+(i) Describe Internet Traffic Management.(8)
+(ii) Explain about various internet applications.(8)
+12.
+(a) Explain in detail the working mechanism of Link state protocol.(16)
+(b)
+(i) Explain how routing for high speed multimedia traffic done.(8)
+(ii) Write short notes on IP switching and Resource reservation.(8)
+13.
+(a) Develop a static website in HTML by including all the types of text links, image links and alignment.(16)
+(b)
+(i) write a Java Script that checks whether the given string is palindrome or not.(6)
+(ii) Using a Java Script, create a webpage with two images loaded in it. Display the relevant information of the image when the mouse pointer moves over the images (10)
+14.
+(a) What is multithreading? Explain with a sample Java program.(16)
+(b)
+(i) Explain Remote method invocation with an example.(12)
+(ii) Write a brief note on event classes in Java.(4)
+15.
+(a) Design an application to illustrate interface and package.(16)
+(b) Create a web application for Shopping cart using the appropriate web technologies (consider only 10 items in the shop).(16)
+!END_QPAPER!
