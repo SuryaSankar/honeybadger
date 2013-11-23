@@ -7,7 +7,7 @@
 !ExamName! Degree Examination
 !END_QPAPER_DESC!
 !START_QPAPER!
-1. Distinguish between reflection and scaling transformations (2)
+1. Distinguish between reflection and scaling transformations(2)
 2. What is sculptured surface? (2)
 3. What is a communication network? List its types (2)
 4. What is MAP model? (2)
