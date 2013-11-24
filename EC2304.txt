@@ -1,0 +1,43 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2304
+!Year! 2010
+!Month! Nov/Dec
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What are Tri-State devices? (2)
+2. Mention the advantages of using Direct Memory Access (2)
+3. What is the purpose of the following commands in 8086? (a) AAD (b) RCL ? (2)
+4. Write an 8086 assembly language program to multiply two 16 bit unsigned numbers to provide a 32 bit result. Assume that the numbers are stored in CX and DX. (2)
+5. Give the salient features of the 8254 programmable interval timer (2)
+6. What is a Sample and Hold circuit? (2)
+7. What are the advantages of the register indirect addressing mode in 8051 microcontroller? (2)
+8. Write an 8051 program to monitor P1 continuously for the value 63H. It should get out of the monitoring only if P1 = 63H (2)
+9. How is the microcontroller used for the traffic light control application? (2)
+10. Differentiate microprocessor from microcontroller in system design (2)
+11.
+(a)
+(i) Explain the 8085 bus structure with a neat sketch (8)
+(ii) What are the peripheral I/O instructions? Write its syntax and explain the same with timing diagram (8)
+(b) Explain the 8086 interrupt types in detail (16)
+12.
+(a) Explain the 8086 Bit Manipulation instructions with an example for each (16)
+(b)
+(i) Write an 8086 program to convert BCD data to Binary Data (8)
+(ii) Explain the relative addressing mode and the implied addressing mode with its syntax. Use an example (8)
+13.
+(a) Explain the 8279 keyboard and display controller with a neat sketch (16)
+(b) Describe the architecture and working of 8253 timer (16)
+14.
+(a)
+(i) Assume that 5 BCD data items are stored in RAM locations starting at 40H as shown below. Write an 8051 program to find the sum of all numbers. The result must be in BCD \\[ 40=(71)\\\\41=(11)\\\\42=(65)\\\\43=(59)\\\\44=(37) \\] (8)
+(ii) Explain the logic instructions in 8051 with an example for each (8)
+(b)
+(i) Explain the working of the 8051 microcontroller. Give a neat sketch (8)
+(ii) Explain the rotate and swap instructions with an example for each (8)
+15.
+(a) Explain how microcontrollers and microprocessors can be used for washing machine control application. Use sketches (16)
+(b) Explain with a neat sketch how microcontrollers and microprocessors can be used for the stepper motor control application (16)
+!END_QPAPER!
