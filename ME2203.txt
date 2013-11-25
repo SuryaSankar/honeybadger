@@ -1,0 +1,42 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2203
+!Year! 2013
+!Month! May/Jun
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is meant by Kinematic Pair? (2)
+2. State the difference between mechanism and structure (2)
+3. Write about rubbing velocity (2)
+4. Write down the expression for finding the number of instantaneous centres in a mechanism (2)
+5. What are the major types of cams? (2)
+6. Define Angle of dwell (2)
+7. List down the common forms of teeth (2)
+8. What is the condition stated by the law of gearing? (2)
+9. List down the laws of friction (2)
+10. Distinguish between open and cross belt drive in terms of its application (2)
+11.
+(a) Explain the inversions of Four bar chain with examples (16)
+(b)
+(i) State and explain: Elliptical Trammel (8)
+(ii) State and explain: Scotch yoke mechanism (8)
+12.
+(a) The following data refer to the dimensions of the links of a four bar mechanism. AB=50 mm; BC = 66 mm; CD = 56 mm; and AD (fixed link) = 100 mm. At the instant when $\angle DAB=60^{\circ}$, the link AB has an angular velocity of 10.5 rad/s in the counter clockwise direction. Determine the velocity of point C, velocity of point E on the link BC while BE=40mm and the angular velocities of the links BC and CD. Also sketch the mechanism and indicate the data. (16)
+(b) A single slider crank mechanism is shown in the figure below. Determine the acceleration at B and E and the angular acceleration of the link AB. The crank rotates at 20 rad/s counter clockwise ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/ME2203/mayjun13/1.png) (16) 
+13.
+(a) A cam with a minimum radius of 25 mm, rotating clockwise at uniform speed of 300 rpm is to be designed to give motion to a flat faced mushroom follower as detailed below: (i) To raise through a distance of 25mm in $120^{\circ}$ rotation of the cam (ii) To remain at rest for the next $30^{\circ}$ (iii) To lower during further $120^{\circ}$ rotation of the cam. (iv) To remain in the same position during the rest of the revolution. The raising of the follower takes place with cycloidal motion and the lowering with uniform acceleration and retardation. Draw the displacement diagram and the profile of the cam (16)
+(b) A circular cam operating a flat faced follower has a least diameter of 40 mm. The lift is 12 mm and angle of action is $160^{\circ}$. The speed of rotation is 500 rpm. If the period of acceleration of the follower is 60% of the retardation during the lift, determine the following (i) The principal dimensions of the cam (ii) The acceleration at the main points. Also determine the maximum acceleration and deceleration during the lift (16)
+14.
+(a) With the help of a neatly drawn sketch of a spur gear, explain elaborately the nomenclature of gears (16)
+(b) An epicyclic gear train is shown in the figure below. The input S has 24 teeth. Gears P and C constitute a compound planet having 30 and 18 teeth respectively. If all the gears are of the same pitch, find the speed ratio of the gear train assuming A to be fixed ![Fig2](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/ME2203/mayjun13/2.png) (16)
+15.
+(a)
+(i) A friction clutch of multi-plate type is meant for transmitting a power of 55 kW at 1800 rpm. Coefficient of friction for the friction surfaces is 0.1. Axial intensity of pressure is not to exceed $160 kN/m^2$. The internal radius is 80mm and is 0.7 times the external radius. Determine the number of plates needed to transmit the required torque (10)
+(ii) A vertical shaft of 100 mm diameter rotating at 150 rpm, rests on a flat end foot step bearing. The coefficient of friction is equal to 0.05 and shaft carries a vertical load of 15 kN. Find the power lost in friction, assuming Uniform Pressure (3) 
+(iii) A vertical shaft of 100 mm diameter rotating at 150 rpm, rests on a flat end foot step bearing. The coefficient of friction is equal to 0.05 and shaft carries a vertical load of 15 kN. Find the power lost in friction, assuming Uniform Wear (3) 
+(b)
+(i) Find the power transmitted by a belt running over a pulley 700 mm diameter at 300 rpm, $\mu=0.3$ and angle of lap $160^{\circ}$ and maximum tension in the belt is 2.453kN. (6)
+(ii) A simple brake as shown in the figure below is used on a shaft carrying a flywheel of mass 450 kg. The radius of gyration of the flywheel is 500 mm and runs at 320 rpm. The coefficient of friction is 0.2 and the diameter of the brake drum is 250mm. Determine the following (a) Torque applied due to a hand load of 150 N (4) (b) The number of turns of the wheel before it is brought to rest (4) (c) The time required to bring it to rest from the moment of application of the brake (2) ![Fig3](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/ME2203/mayjun13/3.png) (10)
+!END_QPAPER!
