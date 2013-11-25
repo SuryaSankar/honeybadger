@@ -1,0 +1,133 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CE2305
+!Year! 2012
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Write the uses of Bore Log Report (2)
+2. Define Detailed Exploration (2)
+3. Define punching shear failure (2)
+4. What is meant by swelling potential? (2)
+5. Compute the critical depth for weak soil, if $\eta=18.4 \frac{kN}{m^3}$ and $q_u=24 \frac{kN}{m^2}$ for the 4m x 5m size floating foundation (2)
+6. In which situation are raft foundation used? (2)
+7. What are the factors governing the selection of piles? (2)
+8. Define negative skin pressure (2)
+9. Write any 3 assumptions of Rankine's theory (2)
+10. Write the types of retaining wall (2)
+11.
+(a) Explain in detail the Geophysical methods of soil explorations with neat sketch (16)
+(b)
+(i) Write short notes on Spacing of bore hole (4)
+(ii) Write short notes on Sampling Technique (6)
+(iii) Write short notes on Planning of Soil Exploration (6)
+12.
+(a)
+(i) Compute the ultimate load that an eccentrically loaded square footing of width 2m and eccentricity of 0.315m can take at a depth of 0.45 m in soil with $\eta=17.75 \frac{kN}{m^3}$, C=$9\frac{kN}{m^2}$ and $\phi=35^\circ$. $N_c=52$, $N_q=35$ and $N_T=42$ (8)
+(ii) Write the step by step procedure for IS code method for computing bearing capacity in shallow foundation (8)
+(b)
+(i) Explain in detail the types of bearing capacity failures and write the assumptions made in Terzaghi analysis (8)
+(ii) A rectangular footing of size 3x6m is founded at a depth of 2m in medium dense sand of angle of friction $\phi=36^\circ$. The soil is submerged upto base level and is saturated above. The saturated unit weight of sand is $18\frac{kN}{m^3}$ determine $q_d$ for the following cases (1) The loading is vertical and symmetrical (2) The loading is symmetrical but inclined at an angle of $20^{\circ}$ to the vertical parallel to the shoter side (3) The loading is vertical and acts at an eccentricity of 0.5 m in both the length and width direction of the footing (8)
+13.
+(a)
+(i) Discuss the design procedure of rectangle combined footing and trapezoidal combined footing (10)
+(ii) A footing 3m x 2m in plan transmits a pressure of $160 \frac{kN}{m^2}$ on a cohesive soil having $E=9x10^4 \frac{kN}{m^2}$ and $\mu=0.46$ determine the immediate settlement of the centre, assuming the footing to be (1) flexible and (2) rigid (6)
+(b)
+(i) Write short notes on Mat foundations (6)
+(ii) Write short notes on Floating foundation (8)
+(iii) Write short notes on Contact Pressure (2)
+14.
+(a) Explain the types of pile foundation with neat sketch (16)
+(b)
+(i) A group of 9 piles arranged in a square pattern with diameter and length of each pile as 25 cm and 10 m respectively, is used as a foundation in a soft clay deposit. Taking the unconfirmed compressive strength of clay as $120 \frac{kN}{m^2}$ and the pile spacing of the group. Ensure the bearing capacity factor $N_c=9.1$ and adhesion factor=0.81. A factor of safety of 2.51 may be taken (8)
+(ii) Write short notes on Under reamed pile (5)
+(iii) Write short notes on Forces on pile cap (3)
+15.
+(a)
+(i) Write the procedure involved in Culmann's graphical method for active pressure (8)
+(ii) A Retaining wall, 4m high support a black fill ( $c=20\frac{kN}{m^2}$; $\phi=30^{\circ}$, $\eta=20\frac{kN}{m^3}$) with horizontal top, flush with the top of the wall. The backfill carries a surcharge of $20\frac{kN}{m^2}$ . If the wall is pushed towards the backfill compute the total passive pressure on the wall and its point of application (8)
+(b) A retaining wall 6 m high retains sand with $\phi=30^{\circ}$ and unit weight $24\frac{kN}{m^3}$ upto a depth of 3m from top. From 3m to 6m the material is a cohesive soil with $c=20\frac{kN}{m^2}$ and $\phi=20^{\circ}$. Unit weight of cohesive soil is $18\frac{kN}{m^3}$. A uniform surcharge of $100\frac{kN}{m^2}$ acts on the top of soil. Determine the total lateral pressure acting on the wall and its points of applications (16)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CE2305
+!Year! 2012
+!Month! May/Jun
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What is site reconaissance? (2)
+2. What is signification depth? (2)
+3. What is cantilever footing? (2)
+4. What is spread footing? (2)
+5. What is net pressure intensity? (2)
+6. What is safe bearing capacity? (2)
+7. What is friction pile? (2)
+8. What is end bearing pile? (2)
+9. What is failure wedge? (2)
+10. What is active earth pressure? (2)
+11.
+(a) Explain the 3 types of soil sensors (2)
+(b) Explain the seismic refraction method in detail (2)
+12.
+(a) Explain the Terzaghi's analysis of determining the bearing capacity of the soil? (16)
+(b) Explain the plate load test to determine the ultimate bearing capacity of the soil (16)
+13.
+(a) Explain the design procedure of rectangular combined footing in detail (16)
+(b) Explain the design procedure of trapezoidal combined footing in detail (16)
+14.
+(a) Design a friction pile group to carry a load of 3000 kN including the weight of the pile cap at a site where the soil is uniform clay to a depth of 20 m, underlain by rock. Average unconfined compressive strength of the clay is $70 \frac{kN}{m^2}$. The clay may be assumed to be of normal sensitivity and normally loaded, with liquid limit of 60%. A factor of safety of 3 is required against shear failure (16)
+(b) Explain the pile load test to determine the load carrying capacity of a pile (16)
+15.
+(a) Explain the 2 cases of Rankine's active earth pressure theory for cohesion less backfill (16)
+(b) Explain the coulomb's wedge theory in detail (16)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CE2305
+!Year! 2011
+!Month! Nov/Dec
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. What are the functions of drilling mud? (2)
+2. The cone penetration resistance obtained in a clay soil in a CPT was $5000 \frac{kN}{m^2}$. Determine the untrained strength of the clay. The total overburden pressure at that depth was $100\frac{kN}{m^2}$ (2)
+3. What are the different modes of soil failure under shallow foundations? (2)
+4. What are the allowable maximum and differential settlements for reinforced concrete structure transferring load through isolated foundation resting on sand and plastic clay respectively? (2)
+5. Draw the contact pressure and settlement distribution diagram for rigid footing resting on granular soils (2)
+6. Under what circumstances combined footings are preferred (2)
+7. List the various factors influencing the selection of pile (2)
+8. Draw the soil stress zones in case of point bearing piles and friction piles (2)
+9. Why lateral wall movement required for complete mobilization of passive state is higher than that for active state? (2)
+10. Draw the force polygon for a rough retaining wall with slanting back retains a cohesive soil in Colulomb's active state (2)
+11.
+(a)
+(i) Discuss in detail the IS code recommendation for the selection of spacing and depth of bore holes for various projects (8)
+(ii) Explain with neat sketch rotary drilling method of advancing bore hole. List also its limitations (8)
+(b)
+(i) Discuss in detail the salient features of a soil investigation report (8)
+(ii) Explain with neat sketch the arrangements of split spoon sampler. Also comment on the quality of samples to be obtained using the split spoon sampler (8)
+12.
+(a) Calculate the net ultimate bearing capacity of a rectangular footing 2mx4m in plan, foundated at a depth of 1.5m below the ground surface. The load on the footing acts at an angle of $15^{\circ}$ to the vertical and is eccentric in the direction of width by 15 cm. The saturated unit weight of the soil is $18 \frac{kN}{m^3}$ The rate of loading is slow and hence the effective stress shear strength parameters can be used in the analysis. $c'=15\frac{kN}{m^2}$ and $\phi=25^{\circ}$. Natural water table is at a depth of 2m below the ground surface. Use IS:6403-1981 recommendations. For $\phi=25^{\circ}, N_c=20.7; N_q=10.7 and N_y=10.9$ (16)
+(b)
+(i) A footing 2m square is located at a depth of 1.5 m in a sand deposit. Borings have indicated that the average corrected N value at the site is 25. Water table is at a depth of 2m below the ground surface. Determine the net allowable bearing pressure for a factor of safety of 3 against shear failure and permissible settlement of 25 mm (10)
+(ii) A footing 4mx2m in plan, transmits  a pressure of $150 kN/m^2$ on a cohesive soil having $E=6x10^4 \frac{kN}{m^2}$ and $\mu=0.50$. Determine the immediate settlement of the footing at the centre, assuming it to be (1) a flexible footing and (2) a rigid footing. $I_f=1.52$ for flexible footing  and 1.20 for rigid footing (6)
+13.
+(a) Design a strap footing for two columns (30cm x 30cm) carrying column loads of 1200 kN and 900 kN, if the spacing between the column is 5m. Take allowable soil pressure as $200 kN/m^2$ (16)
+(b) What are the different types of raft foundation? Discuss the procedure for the design of a raft foundation (16)
+14.
+(a)
+(i) Discuss in detail different types of piles and their functions (8)
+(ii) A 400mmx400mm reinforced concrete pile is driven through  a deposit of fine loose sand and soft clay 20 m thick, to a depth of 1.0 m into an underlying stratum of dense sand. The water table is located close to the ground surface. In submerged state, the angle of shearing resistance of sand was $35^{\circ}$ and unit weight $10 \frac{kN}{m^3}$. Calculate the point bearing resistance of the pile   (8)
+(b)The following data was obtained in a vertical pile load test on a 300 mm diameter pile \\[ Load kN & 50 & 100 & 200 & 300 & 400 & 500 & 600 \\\\ Settlement, mm & 2.5 & 4.0 & 9.5 & 16.5 & 27.0 & 40.5 & 61.0 \\] Plot the load settlement curve and determine the allowable load as per IS code (16)
+15.
+(a) A retaining wall 6m high, vertical black, supports a saturated clay soil with a horizontal surface. The properties of the backfill are: $\phi_u=0, c_u=35 kN/m^2, \gamma=17 kN/m^3$. Assuming the back of the wall to be smooth, determine: (i) The depth of tension cracks (ii) the critical depth of a vertical cut (iii) the total active thrust against the wall and its point of application, if cracks are formed in the tension zone (iv) What will be the depth of tension cracks, if any, if the backfill carries a uniform surcharge of $30 kN/m^2$ over the backfill surface? What will be the position of the total active thrust? (16)
+(b) A vertical  retaining wall 10m high supports a cohesionless soil ($\gamma =18 kN/m^3$). The upper surface of the back fill rises from the crest of the wall at an angle of $15^{\circ}$ with the horizontal. Determine the total active pressure by Rebhann's construction. Take $\phi=30^{\circ}$ and $\delta=20^{\circ}$. (16)
+!END_QPAPER!
