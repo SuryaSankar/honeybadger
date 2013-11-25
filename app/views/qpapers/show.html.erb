@@ -42,9 +42,9 @@
 </thead>
 
 <tbody>
-<% cache [ "v4" , qpaper_questions(@qpaper) ] do%>
+<% cache [ "v5" , qpaper_questions(@qpaper) ] do%>
 <% @qpaper.examquestions.order("qnumber ASC, subquestion_no ASC").includes(:question).each do |eq| %>
-	<% cache [ "v4", eq.question ] do %>
+	<% cache [ "v5", eq.question ] do %>
 		<% if !eq.subquestion_no.nil? && eq.subquestion_no > 1 && ( eq.subsubqno == 1 || eq.subsubqno.nil? ) then %>
 		<tr><td></td><td>OR</td><td></td></tr>
 		<% end %>
