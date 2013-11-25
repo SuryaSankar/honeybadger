@@ -1,0 +1,48 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CE2202
+!Year! 2011
+!Month! Apr/May
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. How do a solid and fluid respond to deformation when a constant shear force is applied? (2)
+2. Define Control Volume (2)
+3. Differentiate between streakline and streamline (2)
+4. How is pressure variation in a static fluid expressed? (2)
+5. State the significance of Moody diagram (2)
+6. Express the momentum equation for frictionless flow (2)
+7. What are the assumptions made in the anlysis of boundary layer development? (2)
+8. Define head loss coefficient (2)
+9. What is dynamic similarity in dimensional analysis? (2)
+10. List the steps in determining the $\pi$ groups (2)
+11.
+(a) State and explain the 3 basic systems of dimensions (16)
+(b) A tank of compressed oxygen for flame cutting is to contain 10kg of oxygen at a pressure of 14MPa (Temperature $35^{\circ}C$ ) How large must be the tank volume? What is the diameter of a sphere with this volume? (16)
+12.
+(a) Obtain and expression for liquid deflection, L in an inclined tube manometer in terms of the applied pressure difference. Make suitable assumptions (16)
+(b) Explain in detail the velocity measurement techniques such as Hot wire anemometer, Laser Doppler velocimetry, float technique with neat sketches (16)
+13.
+(a) Integrate Euler's equation along a streamline in steady flow to obtain Bernoulli equation. State the restrictions on the use of Bernoulli equation (16)
+(b) Explain any 2 applications of Bernoulli equation with suitable assumptions and derive suitable expressions to find the pressure drop and hence determine flow rate for each case (16)
+14.
+(a) Water flows at a rate of $0.0084 m^3/s$ through a 75 mm diameter smooth pipe with L=100m, attached to a constant level reservoir, with a square edged inlet. Find out the reservoir depth d to maintain the flow. The density and viscosity of water may be taken at standard temperature and pressure. The friction factor may be assumed as 0.0170 and the loss coefficient to be 0.5. The water discharges to the atmosphere. (16)
+(b) Derive an expression for the displacement thickness in boundary layer with the necessary assumptions (16)
+15.
+(a) State and explain The Buckingham's Pi theorem in dimensional analysis with a suitable example (16)
+(b) State and explain the conditions under which prototype behavior can be predicted from model tests (16)
+!END_QPAPER!
+
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! CE2305
+!Year! 2011
+!Month! Apr/May
+!Semester! 5
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+
+!END_QPAPER!
