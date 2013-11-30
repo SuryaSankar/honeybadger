@@ -1,0 +1,98 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2204
+!Year! 2011
+!Month! Nov/Dec
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define compressibility and bulk modulus (2)
+2. Mention the significance of kinematic viscosity (2)
+3. A circular and a square pipe are of equal sectional area. For the same flow rate, determine which section will lead to a higher value of Reynolds number (2)
+4. What do you understand by hydraulic diameter? (2)
+5. Give the Rayleigh method to determine dimensionless groups (2)
+6. Write down the dimensionless number for pressure (2)
+7. A pump is to discharge $0.82 m^3/s$ at a head of 42 m when running at 300 rpm. What type of pump will be required? (2)
+8. Mention the importance of Euler turbine equations (2)
+9. Define slip in reciprocating machines (2)
+10. Brief on acceleration head (2)
+11.
+(a) 
+(i) A pipeline of 175 mm diameter branches into two pipes which delivers the water at atmospheric pressure. The diameter of the branch 1 which is at 35° counter clockwise to the pipe axis is 75mm. and the velocity at outlet is 15 m/s. The branch 2 is at 15° with the pipe centre line in the clockwise direction has a diameter of 100 mm. The outlet velocity is 15 m/s. The pipes lie in a horizontal plane. Determine the magnitude and direction of the forces on the pipes. (8)
+(ii) Derive the linear momentum equation using the control volume approach and determine the force exerted by the flu id flowing through a pipe bend. (8)
+(b)
+(i) A jet issuing at a velocity of 25 m/s is directed at 35° to the horizontal. Calculate the height cleared by the jet at 28 m from the discharge location? Also determine the maximum height the jet will clear and the corresponding horizontal location. (8)
+(ii) Derive an expression for the variation of jet radius r with distance y downwards for a jet directed downwards. The initial radius is R and the head of fluid is H. (8)
+12.
+(a)
+(i) Oil with a density of $900 kg/m^3$ and kinematic viscosity of $6.2 × 10^{–4} m^2/s$ is being discharged by a 6 mm diameter, 40 m- long horizontal pipe from a storage tank open to the atmosphere. The height of the liquid level above the center of the pipe is 3 m. Neglecting the minor losses, determine the flow rate of oil through the pipe. (8)
+(ii) Two water reservoirs A and B are connected to each other through a 50 m long, 2.5 cm diameter cast iron pipe with a sharp-edged entrance. The pipe also involves a swing check valve and a fully open gate valve. The water level in both reservoirs is the same, but reservoir A is pressurised by compressed air while reservoir B is open to the atmosphere. If the initial flow rate through the pipe is 1.5 l/s, determine the absolute air pressure on top of reservoir A. Take the water temperature to be 25°C. (8)
+(b)
+(i) In a water reservoir flow is through a circular hole of diameter D at the side wall at a vertical distance H from the free surface. The flow rate through an actual hole with a sharp-edgedentrance (kL = 0.5) will be considerably less than the flow rate calculated assuming frictionless flow. Obtain a relation for the equivalent diameter of the sharp-edged hole for use in frictionless flow relations. (8)
+(ii) A horizontal pipe has an abrupt expansion from 10 cm to 16cm. The water velocity in the smaller section is 12 m/s, and the flow is turbulent. The pressure in the smaller section is 300kPa. Determine the downstream pressure, and estimate the error that would have occurred if Bernoulli’s equation had been used. (8)
+13.
+(a)
+(i) The power developed by hydraulic machines is found to depend on the head h, flow rate Q, density ρ, speed N, runner diameter D, and acceleration due to gravity g. Obtain suitable dimensionless parameters to correlate experimental results. (10)
+(ii) The capillary rise h is found to be influenced by the tube diameter D, density ρ , gravitational acceleration g and surface tension σ. Determine the dimensionless parameters for the correlation of experimental results. (6)
+(b)
+(i) Using dimensional analysis, obtain a correlation for the frictional torque due to rotation of a disc in a viscous fluid. The parameters influencing the torque can be identified as the diameter, rotational speed, viscosity and density o f the fluid. (8)
+(ii) The drag force on a smooth sphere is found to be affected by the velocity of flow, u, the diameter D of the sphere a nd the fluid properties density ρ and viscosity. Find the dimensionless groups to correlate the parameters. (8)
+14.
+(a) 
+(i) A pump has to supply water which is at 70°C water at $90m^3/min$ and 1800 rpm. Find the type of pump needed, the power required, and the impeller diameter if the requiredpressure rise for one stage is 200 kPa; and 1250 kPa. (10)
+(ii) A dam on a river is being sited for a hydraulic turbine. The flow rate is $1600 m^3/h$, the available head is 25 m, and the turbine speed is to be 460 rpm. Discuss the estimated turbine size and feasibility for a Francis turbine; and a Pelton wheel. (6)
+(b)
+(i) A centrifugal pump with backward-curved blades has the following measured performance when tested with water at 20°C : \\[ \begin{matrix} Discharge(l/min) & 0 & 180 & 360 & 540 & 720 & 900 & 1080 \\\\ Head(m) & 37 & 35 & 33 & 31 & 28 & 25 & 19 \\\\ Power(kW) & 22 & 27 & 30 & 33 & 35 & 36 & 34 \end{matrix} \\] Estimate the best efficiency point and the maximum efficiency. Also, estimate the most efficient flow rate, and the resulting head and brake power, if the diameter is doubled and the rotation speed is increased by 50%. (10)
+(ii) A Pelton turbine is to produce 18MW under a head of 450 m when running at 480 rpm. If D/d ratio is 10, determine the number of jets required. (6)
+15.
+(a)
+(i) Calculate the rate of flow in and out of the air vessel on the delivery side in a single acting reciprocating pump of 220 mm bore and 330 mm stroke running at 50 rpm. Also find the angle of crank rotation at which there is no flow into or out of the air vessel. (8)
+(ii) Discuss in detail about rotary positive displacement pumps. (8)
+(b)
+(i) With a neat sketch explain the working of double acting reciprocating pump with its performance characteristics. (10)
+(ii) In a single acting reciprocating pump the bore and stroke are 100 and 150 mm. respectively. The static head requirements are 4 m suction and 18 m delivery. If the pressure at the end of delivery is atmospheric calculate the operating speed. The diameter of the delivery pipe is 75 mm and the length of the delivery pipe is 24 m. Determine the acceleration head at θ=33 from the start of delivery. (6)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! ME2204
+!Year! 2010
+!Month! Nov/Dec
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Suppose that the small air bubbles in a glass of tap water may be on the order of $50 \mu m$ in diameter. What is the pressure inside these bubbles? (2)
+2. Why is it necessary in winter to use lighter oil for automobiles than in summer? To what property does the term lighter refer? (2)
+3. Cite examples for dimensionally homogenous and non homogenous equations (2)
+4. Menion the circumstances which necesitate the use of distorted models (2)
+5. What is a laminar sublayer? (2)
+6. Define eddy viscosity. How does it differ from molecular viscosity? (2)
+7. State the principles on which turbo machines are based (2)
+8. Under what conditions would you suggest use of double-suction pump and a multi-stage pump? (2)
+9. What is an air vessel? List the objectives that would be fulfilled by the use of air vessels? (2)
+10. What is priming? (2)
+11. 
+(a)
+(i) A U-tube is made of two capillaries of diameter 1.0 mm and 1.5 mm respectively. The tube is kept vertically and partially filled with water of surface tension 0.0736 N/m and zero contact angle. Calculate the difference in the levels of the menisci caused by the capillary. (6)
+(ii) Lateral stability of a long shaft 150 mm in diameter is obtained by means of a 250mm stationary bearing having an internal diameter of 150.25 mm. If the space between the bearing and the shaft is filled with a lubricant having a viscosity of $0.245 N s/m^2$ what power will be required to overcome the viscous resistance when the shaft is rotated at a constant rate of 180 rpm? (10)
+(b)
+(i) A pipeline 60 cm in diameter bifurcates at a Y-junction into two branches 40 cm and 30 cm in diameter. If the rate of flow in the main pipe is $1.5 m^3/s$, and the mean velocity of flow in the 30 cm pipe is 7.5 m/s, determine the rate of flow in the 40 cm pipe. (4)
+(ii) Derive the energy equation and state the assumptions made while deriving the equation. (12)
+12.
+(a) A pipe of 10 cm in diameter and 1000 m long is used to pump oil of viscosity 8.5 poise and specific gravity 0.92 at the rate of 1200 lit./min. The first 30 m of the pipe is laid along the ground sloping upwards at 10° to the horizontal and remaining pipe is laid on the ground sloping upwards 15° to the horizontal. State whether the flow is laminar or turbulent? Determine the pressure required to be developed by the pump and the power required for the driving motor if the pump  efficiency is 60%. Assume suitable data for friction factor, if required. (16)
+(b) Two pipes of diameter 40 cm and 20 cm are each 300 m long. When the pipes are connected in series and discharge through th e pipe line is $0.10 m^3/sec$, find the loss of head incurred. What would be the loss of head in the system to pass the same total discharge when the pipes are connected in parallel? Take f = 0.0075 for each pipe. (16)
+13.
+(a)
+(i) The resisting force F of a plane during flight can be considered as dependent upon the length of aircraft (l), velocity (v), air viscosity($\mu$), air density (ρ) and bulk modulus of air (K). Express the functional relationship between these variables using dimensional analysis. Explain the physical significance of the dimensionless groups arrived. (8)
+(ii) A geometrically similar model of an air duct is built to 1/25 scale and tested with water which is 50 times more viscous and 800 times denser than air. When tested under dynamically similar conditions, the pressure drop is $200 kN/m^2$ in the model. Find the corresponding pressure drop in the full scale prototype and express in cm of water. (8)
+(b) The drag force (F) on a partially submerged body depends on the relative velocity (V) between the body and the fluid, characteristic linear dimension (l), height of surface roughness (k), fluid density (ρ), the viscosity ($\mu$) and the acceleration due to gravity (g). Obtain an expression for the drag force, using the method of dimensional analysis. (16)
+14.
+(a) The head — discharge characteristics of a centrifugal pump is given below. \\[ \begin{matrix} Discharge (lit/sec) & 0 & 10 & 20 & 30 & 40 & 50 \\\\ Head(meters) & 25.3 & 25.5 & 24.5 & 22.2 & 18.7 & 12.0 \end{matrix} \\] The pump delivers fresh water through a 500 m long, 15 cm diameter pipe line having friction coefficient of f = 0.025. The static lift is 15 m. Neglecting minor losses in the pipe flow, find (i) the discharge of the pump under the above conditions (ii) driving power of the pump motor. Assume a pump efficiency of 72%. (16)
+(b) An inward flow reaction turbine having an overall efficiency of 80% is required to deliver 136 kW. The head H is 16 m and the peripheral velocity is 3.3H. The radial velocity of flow at inlet is 1.1 H. The runner rotates at 120 rpm. The hydraulic losses in the turbine are 15% of the flow available energy. Determine (i) diameter of the runner, (ii) guide vane angle, (iii) the runner blade angle at inlet and (iv) the discharge through the turbine. (16)
+15.
+(a) Explain the working principle of single and double acting reciprocating pumps with neat diagram in detail. Also explain the effects of inertia pressure and friction on the performance of the pump using indicator diagrams with and without air vessel. (16)
+(b)
+(i) For a single acting reciprocating pump, piston diameter is 150 mm, stroke length is 300 mm, rotational speed is 50 r.p.m. The pump is required to lift water to a height of 18 m. Determine the theoretical discharge. If the actual discharge is 4.0 lit./sec, and the mechanical efficiency is 80% determine the volumetric efficiency , slip, theoretical power and the actual power required. (10)
+(ii) Explain the working principle of screw pump and gear pump with neat diagram in detail. (6)
+!END_QPAPER!
