@@ -1,0 +1,173 @@
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2202
+!Year! 2013
+!Month! May/Jun
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define class and objects (2)
+2. Define inline functions and friend functions (2)
+3. What is inheritance? (2)
+4. Give an example for exception handling (2)
+5. What is a DEQUE? (2)
+6. Write any 2 advantages of binary heap (2)
+7. Why is always a red node inserted into a red-black-tree? (2)
+8. Does the minimum spanning tree of a graph give the shortest distance between any two specific nodes? Justify (2)
+9. List the 4 types of sorting techniques (2)
+10. How data is sorted in a QUEUE structure? (2)
+11.
+(a)
+(i) Compare conventional programming and OOPS (6)
+(ii) Write short notes on Operator overloading (6)
+(iii) Write short notes on Constructors and Destructors (4)
+(b)
+(i) Explain the control structures of C++ with suitable examples (12)
+(ii) Define function overloading with a simple example (4)
+12.
+(a)
+(i) Explain protected data with private and public inheritance (8)
+(ii) Write a C++ program to solve eight queens problem with friend functions (8)
+(b) Write an example program for virtual functions and pure virtual functions with suitable algorithm (16)
+13.
+(a)
+(i) Explain the operations performed on QUEUE in detail. Write a C++ program to implement these QUEUE operations (10)
+(ii) Write a program for insertion of a node in a binary heap (6)
+(b)
+(i) Write a program to implement STACK through linked list (8)
+(ii) Explain the function of open addressing and chaining in collission resolution (8)
+14.
+(a) Write a program to accept keys from the user one at a time, build them into an AVL tree and write out the tree at each stage. Also write a function to delete a node from AVL tree (16)
+(b) Define spanning tree and minimal spanning tree. Write Kruskal's algorithm for finding the minimum spanning tree of any graph (16)
+15.
+(a)
+(i) Compare bubble sort with insertion sort with an example (8)
+(ii) Explain how divide and conquer technique can be applied for merge sort (8)
+(b) Find the expected number of passes, comparisons and exchanges for shell sort when the number of elements is equal to 10. Compare this result with the actual number of operations when the given sequence is as follows:  7,1,3,4,10,9,8,6,5,2 (16)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2202
+!Year! 2012
+!Month! Nov/Dec
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define Object (2)
+2. What is constructor? (2)
+3. List out the operators which cannot be overloaded (2)
+4. What does multiple inheritance mean? (2)
+5. What are the baisc data structures available in C++? (2)
+6. Define heap (2)
+7. Whent is a tree called Complete binary tree? (2)
+8. Define ADT (2)
+9. Define Spanning Tree (2)
+10. What is the worst case and best case number of comparisons in a linear search (2)
+11. 
+(a) Write a menu driven program to accept 2 integers and an operator (+,-,*,%,/) and to peform the operation and print the result (16)
+(b) Specify a class called complex to represent the complex numbers. Overload +,- and * when working on the objects of this class (16)
+12.
+(a) Define Friend function. What is polymorphism? Explain multiple inheritance (16)
+(b) What is string? Write a C++ program to sort the given strings alphabetically (16)
+13.
+(a) Explain the operations of Binary Heap (16)
+(b) Write algorithms for insertion and deletion in linked stack (16)
+14.
+(a) Describe the shortest path identification using Djikistra's algorithm (16)
+(b) What is graph? Explain the depth first search tree (16)
+15.
+(a) Describe the concept of Bubble sort and Merge Sort with example (16)
+(b) With example explain the binary search technique (16)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2202
+!Year! 2011
+!Month! Nov/Dec
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. Define encapsulation (2)
+2. What is a default constructor? (2)
+3. Write the properties of a static member function (2)
+4. What is an inline function? (2)
+5. What are the postfix and prefix forms of the expression: A+B*(C-D)/(P-R) (2)
+6. Distinguish between constraints of shape property and heap property (2)
+7. Define binary tree (2)
+8. What is degree of a graph? (2)
+9. What is the objective of bubble sort? (2)
+10. How many passes are required for k-way merging? (2)
+11.
+(a)
+(i) Explain the merits and demerits of object oriented paradigm (6)
+(ii) Write a C++ program to define overloaded constructor and to perform string initialization and string copy (10)
+(b) Illustrate the use of copy constructor and Function overloading with C++ program (16)
+12.
+(a) What are the different forms of inheritance supported by C++? Explain with relevant example code (16)
+(b)
+(i) Explain with example code: Exception handling mechanism (8)
+(ii) Explain with example code: Run-time polymorphism (8)
+13.
+(a) Write an algorithm and C++ program for inserting and deleting an element from doubly linked list (16)
+(b) Describe hash function. Explain the concept of  Conflict Resolution Techniques in hashing (16)
+14.
+(a) Describe an AVL tree. Write the algorithm to perform insertion and deletion of a node in an AVL tree and justify its worst case with suitable example (16)
+(b) Write the Kruskal's and Prim's algorithms for computing minimal Spanning Tree (16)
+15.
+(a) Write the algorithms of heap sort and bucket sort. Implement the C++ program for heap sort (16)
+(b)
+(i) Explain Greedy algorithm with an example (8)
+(ii) What is dynamic programming? List its applications and explain any one (8)
+!END_QPAPER!
+!START_QPAPER_DESC!
+!University! Anna University - Affliated Colleges
+!CourseCode! EC2202
+!Year! 2010
+!Month! May/Jun
+!Title! B.E/B.Tech Degree examination
+!ExamName! Degree Examination
+!END_QPAPER_DESC!
+!START_QPAPER!
+1. How is a class declared in C++? (2)
+2. What is a scope resolution operator and how can it be used for global variable? (2)
+3. What is meant by binding? (2)
+4. How the pointer is implemented in C++? (2)
+5. Write any two data structures used in Operating System? (2)
+6. What are the representations of Big and small ‘O’ notations? (2)
+7. How many trees are possible with 3 nodes? (2)
+8. What is a spanning tree? (2)
+9. What is the feature of bucket sort algorithm? (2)
+10. Define dynamic programming. (2)
+11.
+(a)
+(i) Give the syntax and usage of the reserved word inline with two  examples. (8)
+(ii) Explain the importance of constructors and destructors with example. (8)
+(b) What is operator overloading? Overload the numerical operators ‘+’and ‘/’ for complex numbers “addition” and “division” respectively. (16)
+12.
+(a)
+(i) Define friend class and specify its importance. Explain with suitable example. (8)
+(ii) Discuss Virtual function and polymorphism with example. (8)
+(b)
+(i) Explain the concept of inheritance by considering an example of “vehicle”. (8)
+(ii) Explain the operators used for dynamic memory allocation with examples. (8)
+13.
+(a)
+(i) Explain Priority Queues and how are binary heaps used in that. (8)
+(ii) Explain the properties of heap. (8)
+(b)
+(i)Write a C ++ program to implement Stack and its operations PUSH and POP. (10)
+(ii) What is hashing? Classify hashing functions based on the various methods. (6)
+14.
+(a)
+(i) Traverse the tree given below using Inorder, Preorder and Postorder traversals. ![Fig1](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/EC2202/NovDec10/1.png) (10)
+(ii) Convert the expression ((A + B) * C - (D - E) ^ (F + G)) to equivalent Prefix and postfix notations. (6)
+(b)
+(i) Convert the given graph with weighted edges to minimal spanning tree. ![Fig2](https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/question_images/EC2202/NovDec10/2.png) (10)
+(ii) Write a short note on AVL trees. (6)
+15.
+(a) Explain the algorithm of Quicksort by sorting the following set of numbers as an example: 42 47 52 57 62 37 32 27 22 (16)
+(b) Describe divide and conquer technique with the help of mergesort. (16)
+!END_QPAPER!
