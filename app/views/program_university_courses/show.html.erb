@@ -101,4 +101,21 @@
 	    </div>
 </div>
 
-
+<div class="right-bordered-box">
+  <div class="heading"><h4>Curriculum</h4></div>
+  <div class="bordered-box-content">
+    <% cache(["v1curriculum",@program_university_course.university_course]) do%>
+      <% units = @program_university_course.university_course.units.order("unit_number") %>
+      <% if units.length > 0 then %>
+        <ol>
+          <% units.each do |unit| %>
+            <li>
+            Unit <%= unit.unit_number %>
+            </li>
+            <%= unit.unit_curriculum %>
+          <% end %>
+        </ol>
+      <% end %>
+    <% end %>
+  </div><!-- bordered-box-content -->
+</div><!-- bordered-box -->

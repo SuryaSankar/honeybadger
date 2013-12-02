@@ -318,5 +318,17 @@ namespace :karpeer_admin do
     end
   end
 
-
+  desc "adding units and books"
+    task :add_units, [:units] => :environment do |t, args|
+    university=University.find_by_name("Anna University - Affliated Colleges")
+    uc=nil
+    IO.foreach(args.units) do |line|
+      puts line
+		  case line
+		    when /^\s*(?<coursecode>[A-Z]{2}\d{4})\s*$/
+           coursecode=$~[:coursecode]
+           uc=UniversityCourse.find_by(university_id: university.id, course_code: coursecode)
+      end  
+    end
+  end
 end

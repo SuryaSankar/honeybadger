@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131202124326) do
+ActiveRecord::Schema.define(version: 20131202210903) do
 
   create_table "accepted_solutions", force: true do |t|
     t.boolean  "accept"
@@ -220,11 +220,11 @@ ActiveRecord::Schema.define(version: 20131202124326) do
   add_index "solutions", ["user_id"], name: "index_solutions_on_user_id"
 
   create_table "textbooks", force: true do |t|
-    t.string   "name"
     t.integer  "university_course_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "flipkart_banner"
+    t.text     "name"
   end
 
   add_index "textbooks", ["university_course_id"], name: "index_textbooks_on_university_course_id"
