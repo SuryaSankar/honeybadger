@@ -31,6 +31,7 @@ module ApplicationHelper
 		max_updated_at = [qpaper.updated_at.try(:utc),  Question.where(id: Examquestion.select(:question_id).where(qpaper_id: qpaper.id)).maximum(:updated_at) ].max.try(:to_s, :number)
 		"qpaper_questions-#{max_updated_at}"
 	end
-		
+
+
 
 end

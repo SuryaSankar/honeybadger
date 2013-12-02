@@ -21,7 +21,19 @@
 </ul>
 <% end %>
 
-
+<% content_for :leftsidebar_custom do %>
+  <div id="textbook_box" class="sidenav-bordered">
+    <div class="heading"><h4>Prescribed Text Books</h4></div>
+      <div class="bordered-box-content">
+      <ol>
+        <% @program_university_course.university_course.textbooks.each do |tb| %>
+          <li><h5><%= tb.name %></h5></li>
+          <%= raw tb.flipkart_banner %>
+        <% end %>
+      </ol>
+    </div>
+  </div>
+<% end %>
 
 <div class="right-bordered-box">
             <div class="heading"><h4>Question Papers</h4></div>

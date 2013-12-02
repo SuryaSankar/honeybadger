@@ -2,6 +2,7 @@ class UniversityCourse < ActiveRecord::Base
 	belongs_to :university, touch: true	
 	belongs_to :course, touch: true	
 	has_many :qpapers, after_remove: proc{ |a| a.touch }
+  has_many :textbooks, after_remove: proc{ |a| a.touch }, dependent: :destroy	
 	has_many :program_university_courses, dependent: :destroy	
 	has_many :programs, through: :program_university_courses
 	has_many :units
