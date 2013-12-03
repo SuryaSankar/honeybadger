@@ -322,12 +322,67 @@ namespace :karpeer_admin do
     task :add_units, [:units] => :environment do |t, args|
     university=University.find_by_name("Anna University - Affliated Colleges")
     uc=nil
+    unit=nil
+    start_curriculum=false
+    start_books=false
+    line_after_unit=false
+    references=false
+    units=[]
+    romans=["i","ii","iii","iv","v","vi","vii","viii","ix","x","xi","xii","xiii","xiv","xv","xvi","xvii","xviii","xix","xx"]
     IO.foreach(args.units) do |line|
       puts line
 		  case line
 		    when /^\s*(?<coursecode>[A-Z]{2}\d{4})\s*$/
            coursecode=$~[:coursecode]
            uc=UniversityCourse.find_by(university_id: university.id, course_code: coursecode)
+           start_curriculum=false
+           start_books=false
+           line_after_unit=false
+        when /^UNIT (?<unitno>[IVX]+)\s*(?<name>.*)\s*$/
+           name=$~[:name]
+           u=Unit.new unit_number: romans.index($~[:unitno].downcase)+1, university_course_id: uc.id, unit_curriculum: nil
+           u.name=name unless name.blank?
+           puts u.attributes
+           units.append(u)
+           start_curriculum=true
+           line_after_unit=true
+        when /^\d+$/
+           units.last.unit_curriculum+=(" "+line.strip) unless(line_after_unit || !start_curriculum || units.empty? || units.last.unit_curriculum.nil? )
+           line_after_unit=false
+        when /^TOTAL: \d+ PERIODS$/
+           start_curriculum=false
+           units.each{ |u| u.save }
+           units=[]
+           line_after_unit=false
+        when /^TEXT BOOK:$/
+           start_books=true
+           references=false
+        when /^REFERENCES:$/
+           start_books=true
+           references=true
+        when /^\d+\.\s*(?<bookname>.+)\|(?<banner>.*)$/
+           banner=$~[:banner]
+           banner=nil if banner == "na"
+           if start_books then
+             Textbook.create name: $~[:bookname], university_course_id: uc.id, reference: references, flipkart_banner: banner
+           else
+             if start_curriculum then
+              if units.last.unit_curriculum==nil then
+                units.last.unit_curriculum=line.strip
+              else
+                units.last.unit_curriculum+=(" "+line.strip)
+              end
+             end
+           end
+        else
+           if start_curriculum then
+            if units.last.unit_curriculum==nil then
+              units.last.unit_curriculum=line.strip
+            else
+              units.last.unit_curriculum+=(" "+line.strip)
+            end
+           end
+           line_after_unit=false
       end  
     end
   end

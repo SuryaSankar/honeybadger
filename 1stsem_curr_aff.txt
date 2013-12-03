@@ -1,0 +1,365 @@
+HS2111
+TECHNICAL ENGLISH – I
+L T P C
+3 1 0 4
+AIM:
+To encourage students to actively involve in participative learning of English and to help
+them acquire Communication Skills.
+OBJECTIVES:
+1. To help students develop listening skills for academic and professional
+purposes.
+2. To help students acquire the ability to speak effectively in English in real-life
+situations.
+3. To inculcate reading habit and to develop effective reading skills.
+4. To help students improve their active and passive vocabulary.
+5. To familiarize students with different rhetorical functions of scientific English.
+6. To enable students write letters and reports effectively in formal and business
+situations.
+UNIT I
+12
+General Vocabulary - changing words from one form to another - Adjectives,
+comparative adjectives – Adverbs - Active and passive voice – Tenses - simple present,
+present continuous - Adverb forms – Nouns – compound nouns - Skimming and
+scanning - Listening and transfer of information – bar chart, flowchart - Paragraph
+writing, description – Discussing as a group and making an oral report on the points
+discussed, conversation techniques - convincing others.
+Suggested activities:
+1. Matching words & meanings - Using words in context – Making sentences.
+2. Changing sentences from active to passive voice & vice versa.
+3. Skimming, cloze exercises, exercises transferring information from text to graphic
+form – bar charts, flow charts.
+4. Writing descriptions using descriptive words & phrases, and technical
+vocabulary.
+5. Role play, conversation exercises, discussions, oral reporting exercises
+Any other related relevant classroom activity.
+UNIT II
+12
+Vocabulary – prefixes & suffixes – simple past tense - Spelling and punctuation – ‘wh’
+Question forms - Scanning, inference - Listening & note-taking - Paragraph writing -
+comparison and contrast - Creative thinking and speaking.
+Suggested Activities:
+1. a. Vocabulary actiivities using prefixes and suffixes.
+b. Exercises using questions – asking & answering questions.
+2. Scanning the text for specific information
+3. Listening guided note-taking - Writing paragraphs using notes, giving
+suitable headings and subheadings for paragraphs. Using expressions of
+comparison and contrast.
+4. Discussion activities and exploring creative ideas.
+Any other related relevant classroom activity
+2
+UNIT III
+12
+Tenses - simple past, simple future and past perfect - Reading in Context -Listening &
+note-taking – single line – Definitions – sequencing of sentences – instruction -
+Persuasive speaking.
+Suggested activities:
+1. a. Providing appropriate context for the use of tenses
+2. Listening and note-taking
+3. (a) Writing sentence definitions, instructions
+(b) Identifying the discourse links and sequencing jumbled sentences /
+writing instructions.
+4. Speaking exercises, discussions, role play exercises using explaining,
+convincing and persuasive strategies
+Any other related relevant classroom activity
+UNIT IV
+12
+Modal verbs and Probability – Concord subject verb agreement – Correction of errors -
+Cause and effect expressions – Extended Definition - Speaking about the future plans.
+Suggested activities:
+1. a. Making sentences using modal verbs to express probability
+b. Gap filling using relevant grammatical form of words.
+2. Writing extended definitions
+3. Speaking - role play activities, discussions, extempore speaking exercises
+speculating about the future.
+4. Any other related relevant classroom activity
+UNIT V
+12
+‘If’ conditionals – Gerunds - Intensive reading - Speaking – Presentation of problems &
+solutions - Itinerary – planning for an industrial visit - Formal Letter writing – Letter to the
+editor, invititation letter, accepting, declining letter and permission letter.
+Suggested activities:
+1. a) Sentence completion exercises using ‘If’ conditionals.
+b) Gap filling exercises using gerunds and present participle forms
+2. Reading comprehension exercises.
+3. Role play, discussion, debating and speaking activities for stating, discussing
+problems and suggesting solutions.
+4. Planning a tour, Writing a travel itinerary. Writing letters to officials and to the
+editor in formal/official contexts.
+Any other related relevant classroom activity
+TOTAL : 60 PERIODS
+TEXT BOOK:
+1. Department of Humanities & Social Sciences, Anna University, ‘English for Engineers and Technologists’ Combined Edition (Volumes 1 & 2), Chennai: Orient Longman Pvt. Ltd., 2006. Themes 1 – 4 (Resources, Energy, Computer, Transport)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138598727694085600" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES:
+1. Meenakshi Raman and Sangeeta Sharma, ‘Technical Communication English skills for Engineers’, Oxford University Press, 2008.|na
+2. Andrea, J. Rutherford, ‘Basic Communication Skills for Technology’, Second Edition, Pearson Education, 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138607281995613204" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+MA2111
+MATHEMATICS – I
+L T P C
+3 1 0 4
+UNIT I MATRICES
+12
+Characteristic equation – Eigen values and eigen vectors of a real matrix – Properties –
+Cayley-Hamilton theorem (excluding proof) – Orthogonal transformation of a symmetric
+matrix to diagonal form – Quadratic form – Reduction of quadratic form to canonical form
+by orthogonal transformation.
+UNIT II THREE DIMENSIONAL ANALYTICAL GEOMETRY
+12
+Equation of a sphere – Plane section of a sphere – Tangent Plane – Equation of a cone
+– Right circular cone – Equation of a cylinder – Right circular cylinder.
+UNIT III DIFFERENTIAL CALCULUS
+12
+Curvature in Cartesian co-ordinates – Centre and radius of curvature – Circle of
+curvature – Evolutes – Envelopes – Evolute as envelope of normals.
+UNIT IV FUNCTIONS OF SEVERAL VARIABLES
+12
+Partial derivatives – Euler’s theorem for homogenous functions – Total derivatives –
+Differentiation of implicit functions – Jacobians – Taylor’s expansion – Maxima and
+Minima – Method of Lagrangian multipliers.
+UNIT V MULTIPLE INTEGRALS
+12
+Double integration – Cartesian and polar coordinates – Change of order of integration –
+Change of variables between Cartesian and polar coordinates – Triple integration in
+Cartesian co-ordinates – Area as double integral – Volume as triple integral
+TOTAL: 60 PERIODS
+TEXT BOOK:
+1. Bali N. P and Manish Goyal, “Text book of Engineering Mathematics”, Third edition, Laxmi Publications(p) Ltd.,(2008).|na
+2. Grewal. B.S, “Higher Engineering Mathematics”, 40th Edition, Khanna Publications, Delhi, (2007).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138600711694343975" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES:
+1. Ramana B.V, “Higher Engineering Mathematics”, Tata McGraw Hill Publishing Company, New Delhi, (2007).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138607563979336491" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. Glyn James, “Advanced Engineering Mathematics”, 7th Edition, Pearson Education, (2007).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138607571097493996" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. Jain R.K and Iyengar S.R.K,” Advanced Engineering Mathematics”, 3rd Edition, Narosa Publishing House Pvt. Ltd., (2007).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138607574989566402" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+PH2111
+ENGINEERING PHYSICS – I
+L T P C
+3 0 0 3
+UNIT I ULTRASONICS
+9
+Introduction – Production – magnetostriction effect - magnetostriction generator-
+piezoelectric effect - piezoelectric generator- Detection of ultrasonic waves properties –
+Cavitations - Velocity measurement – acoustic grating - Industrial applications – drilling,
+welding, soldering and cleaning – SONAR - Non Destructive Testing – pulse echo
+system through transmission and reflection modes - A,B and C –scan displays, Medical
+applications - Sonograms
+UNIT II LASERS
+9
+Introduction – Principle of Spontaneous emission and stimulated emission. Population
+inversion, pumping. Einsteins A and B coeffcients - derivation. Types of lasers – He-Ne,
+CO
+Nd-YAG, Semiconductor lasers (homojunction & heterojunction) Qualitative
+2 ,
+Industrial Applications - Lasers in welding, heat treatment, cutting – Medical applications
+- Holography (construction & reconstruction).
+UNIT III FIBER OPTICS & APPLICATIONS
+9
+Principle and propagation of light in optical fibres – Numerical aperture and Acceptance
+angle - Types of optical fibres (material, refractive index, mode) – Double crucible
+technique of fibre drawing - Splicing, Loss in optical fibre – attenuation, dispersion,
+bending - Fibre optical communication system (Block diagram) - Light sources -
+Detectors - Fibre optic sensors – temperature & displacement - Endoscope.
+UNIT IV
+QUANTUM PHYSICS
+9
+Black body radiation – Planck’s theory (derivation) – Deduction of Wien’s displacement
+law and Rayleigh – Jeans’ Law from Planck’s theory – Compton effect. Theory and
+experimental verification – Matter waves – Schrödinger’s wave equation – Time
+independent and time dependent equations – Physical significance of wave function –
+Particle in a one dimensional box - Electron microscope - Scanning electron microscope
+- Transmission electron microscope.
+5
+UNIT V CRYSTAL PHYSICS
+9
+Lattice – Unit cell – Bravais lattice – Lattice planes – Miller indices – d spacing in cubic
+lattice – Calculation of number of atoms per unit cell – Atomic radius – Coordination
+number – Packing factor for SC, BCC, FCC and HCP structures – NaCl, ZnS, diamond
+and graphite structures – Polymorphism and allotropy - Crystal defects – point, line and
+surface defects- Burger vector.
+TOTAL: 45 PERIODS
+TEXT BOOKS:
+1. R. K. Gaur and S.C. Gupta, ‘Engineering Physics’ Dhanpat Rai Publications, New Delhi(2003)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138601003134020105" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. M.N. Avadhanulu and PG Kshirsagar, ‘A Text book of Engineering Physics’, S.Chand and company, Ltd., New Delhi, 2005.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138607603846953276" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES:
+1. Serway and Jewett, ‘Physics for Scientists and Engineers with Modern Physics’, 6th Edition, Thomson Brooks/Cole, Indian reprint (2007)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138607620210783394" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. Rajendran, V and Marikani A, ‘Engineering Physics’ Tata McGraw Hill Publications Ltd, III Edition, New Delhi, (2004).|na
+3. Palanisamy, P.K., ‘Engineering Physics’ Scitech publications, Chennai, (2007).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138607636776160767" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+4. Jayakumar. S, ‘Engineering Physics’, R.K. Publishers, Coimbatore, (2003).|na
+5. Chitra Shadrach and Sivakumar Vadivelu, ‘Engineering Physics’, Pearson Education, New Delhi, (2007).|na
+CY2111
+ENGINEERING CHEMISTRY – I
+LT P C
+3 0 0 3
+AIM
+To impart a sound knowledge on the principles of chemistry involving the different
+application oriented topics required for all engineering branches.
+OBJECTIVES
+• The student should be conversant with the principles water characterization and
+treatment of potable and industrial purposes.
+• Principles of polymer chemistry and engineering applications of polymers
+• Industrial applications of surface chemistry
+• Conventional and non-conventional energy sources and energy storage devices and
+Chemistry of engineering materials
+UNIT I WATER TECHNOLOGY
+9
+Characteristics – alkalinity – types of alkalinity and determination – hardness – types and
+estimation by EDTA method (problems); Domestic water treatment – disinfection
+methods (Chlorination, ozonation. UV treatment) – Boiler feed water – requirements –
+disadvantages of using hard water in boilers – internal conditioning (phosphate, calgon
+and carbonate conditioning methods) – external conditioning – demineralization process
+– desalination and reverse osmosis.
+6
+UNIT II POLYMERS AND COMPOSITES
+9
+Polymers-definition – polymerization – types – addition and condensation polymerization
+– free radical polymerization mechanism – Plastics, classification – preparation,
+properties and uses of PVC, Teflon, polycarbonate, polyurethane, nylon-6,6, PET-
+Rubber -vulcanization of rubber, synthetic rubbers – buty1 rubber, SBR, Composites –
+definition, types polymer matrix composites – FRP only.
+UNIT III SURFACE CHEMISTRY
+9
+Adsorption – types – adsorption of gases on solids – adsorption isotherms – Frendlich
+and Langmuir isotherms – adsorption of solutes from solution – role of adsorbents in
+catalysis, ion-exchange adsorption and pollution abatement.
+UNIT IV
+NON-CONVENTIONAL ENERGY SOURCES AND
+STORAGE DEVICES
+9
+Nuclear energy – fission and fusion reactions and light water nuclear reactor for power
+generation (block diagram only) – breeder reactor – solar energy conversion – solar cells
+– wind energy – fuel cells – hydrogen – oxygen fuel cell – batteries – alkaline batteries –
+lead–acid, nickel–cadmium and lithium batteries.
+UNIT V ENGINEERING MATERIALS
+9
+Refractories – classification – acidic, basic and neutral refractories – properties
+(refractoriness, refractoriness under load, dimensional stability, porosity, thermal
+spalling) – manufacture of alumina, magnesite and zirconia bricks, Abrasives – natural
+and synthetic abrasives – quartz, corundum, emery, garnet, diamond, silicon carbide
+and boron carbide. Lubricants – mechanism of lubrication, liquid lubricants, - properties
+– viscosity index, flash and fire points, cloud and pour points, oilyness) – solid lubricants
+– graphite and molybdenum sulphide. Nanomaterials – introduction to nanochemistry –
+carbon nanotubes and their applications
+TOTAL: 45 PERIODS
+TEXT BOOKS:
+1. P.C.Jain and Monica Jain, “Engineering Chemistry” Dhanpat Rai Pub, Co., New Delhi (2002).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138607647172699797" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. S.S. Dara “A text book of engineering chemistry” S.Chand & Co.Ltd., New Delhi (2006).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138607653119262214" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES:
+1. B.K.Sharma “Engineering chemistry” Krishna Prakasan Media (P) Ltd., Meerut (2001).|na
+2. B. Sivasankar “Engineering Chemistry” Tata McGraw-Hill Pub.Co.Ltd, New Delhi (2008).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138607659285393382" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+GE2111
+ENGINEERING GRAPHICS
+L T P C
+2 3 0 5
+AIM
+To develop graphic skills in students.
+OBJECTIVES
+To develop in students graphic skill for communication of concepts, ideas and design of
+engineering products and expose them to existing national standards related to technical
+drawings.
+Concepts and conventions (Not for Examination)
+1
+Importance of graphics in engineering applications – Use of drafting instruments – BIS
+conventions and specifications – Size, layout and folding of drawing sheets – Lettering
+and dimensioning.
+UNIT I PLANE CURVES AND FREE HAND SKETCHING
+15
+Curves used in engineering practices:
+Conics – Construction of ellipse, Parabola and hyperbola by eccentricity method –
+Construction of cycloid – construction of involutes of squad and circle – Drawing of
+tangents and normal to the above curves.
+Free hand sketching:
+Representation of Three Dimensional objects – General principles of orthographic
+projection – Need for importance of multiple views and their placement – First angle
+projection – layout views – Developing visualization skills through free hand sketching of
+multiple views from pictorial views of objects.
+UNIT II PROJECTION OF POINTS, LINES AND PLANE SURFACES
+14
+Projection of points and straight lines located in the first quadrant – Determination of true
+lengths and true inclinations – Projection of polygonal surface and circular lamina
+inclined to both reference planes.
+UNIT III
+PROJECTION OF SOLIDS
+15
+Projection of simple solids like prisms, pyramids, cylinder and cone when the axis is
+inclined to one reference plane by change of position method.
+UNIT IV SECTION OF SOLIDS AND DEVELOPMENT OF SURFACES
+15
+Sectioning of above solids in simple vertical position by cutting planes inclined to one
+reference plane and perpendicular to the other – Obtaining true shape of section.
+Development of lateral surfaces of simple and truncated solids – Prisms, pyramids,
+cylinders and cones – Development of lateral surfaces of solids with cylindrical cutouts,
+perpendicular to the axis.
+UNIT V ISOMETRIC AND PERSPECTIVE PROJECTIONS
+15
+Principles of isometric projection – isometric scale – isometric projections of simple
+solids, truncated prisms, pyramids, cylinders and cones.
+Perspective projection of prisms, pyramids and cylinders by visual ray method.
+TOTAL: 75 PERIODS
+8
+TEXT BOOKS:
+1. N.D. Bhatt, “Engineering Drawing” Charotar Publishing House, 46th Edition, (2003).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138247156891924514" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES:
+1. K. V. Natrajan, “A text book of Engineering Graphics”, Dhanalakshmi Publishers, Chennai (2006).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138609934609263539" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. M.S. Kumar, “Engineering Graphics”, D.D. Publications, (2007).|na
+3. K. Venugopal & V. Prabhu Raja, “Engineering Graphics”, New Age International (P) Limited (2008).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138609940342258361" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+4. M.B. Shah and B.C. Rana, “Engineering Drawing”, Pearson Education (2005).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138609944017528631" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+5. K. R. Gopalakrishnana, “Engineering Drawing” (Vol.I&II), Subhas Publications (1998).|na
+6. Dhananjay A.Jolhe, “Engineering Drawing with an introduction to AutoCAD” Tata McGraw Hill Publishing Company Limited (2008).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138609948426715757" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+7. Basant Agarwal and Agarwal C.M., “Engineering Drawing”, Tata McGraw Hill Publishing Company Limited, New Delhi, (2008).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138609957320145827" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+Publication of Bureau of Indian Standards:
+1. IS 10711 – 2001: Technical products Documentation – Size and lay out of drawing sheets.
+2. IS 9609 (Parts 0 & 1) – 2001: Technical products Documentation – Lettering.
+3. IS 10714 (Part 20) – 2001 & SP 46 – 2003: Lines for technical drawings.
+4. IS 11669 – 1986 & SP 46 – 2003: Dimensioning of Technical Drawings.
+5. IS 15021 (Parts 1 to 4) – 2001: Technical drawings – Projection Methods.
+Special points applicable to University Examinations on Engineering Graphics:
+1. There will be five questions, each of either or type covering all units of the syllabus.
+2. All questions will carry equal marks of 20 each making a total of 100.
+3. The answer paper shall consist of drawing sheets of A3 size only. The students will
+be permitted to use appropriate scale to fit solution within A3 size.
+4. Whenever the total number of candidates in a college exceeds 150, the University
+Examination in that college will be conducted in two sessions (FN and AN on the
+same day) for 50 percent of student (approx) at a time.
+9
+GE2112
+FUNDAMENTALS OF COMPUTING AND PROGRAMMING
+L T P C
+3 0 0 3
+AIM :
+To provide an awareness to Computing and Programming
+OBJECTIVES :
+• To enable the student to learn the major components of a computer system
+• To know the correct and efficient ways of solving problems
+• To learn to use office automation tools
+• To learn to program in C
+UNIT I INTRODUCTION TO COMPUTERS
+9
+Introduction – Characteristics of Computers – Evolution of Computers - Computer
+Generations – Classification of Computers – Basic Computer organization – Number
+Systems
+UNIT II COMPUTER SOFTWARE
+9
+Computer Software –Types of Software – Software Development Steps – Internet
+Evolution - Basic Internet Terminology – Getting connected to Internet Applications.
+UNIT III PROBLEM SOLVING AND OFFICE APPLICATION SOFTWARE
+9
+Planning the Computer Program – Purpose – Algorithm – Flow Charts – Pseudocode -
+Application Software Packages- Introduction to Office Packages (not detailed commands
+for examination).
+UNIT IV INTRODUCTION TO C
+9
+Overview of C – Constants, Variables and Data Types – Operators and Expressions –
+Managing Input and Output operators – Decision Making - Branching and Looping.
+UNIT V FUNCTIONS AND POINTERS
+9
+Handling of Character Strings – User-defined Functions – Definitions – Declarations -
+Call by reference – Call by value – Structures and Unions – Pointers – Arrays – The
+Preprocessor – Developing a C Program : Some Guidelines
+TOTAL: 45 PERIODS
+TEXT BOOKS:
+1. Ashok.N.Kamthane,“ Computer Programming”, Pearson Education (India) (2008).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138609964902434399" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. Behrouz A.Forouzan and Richard.F.Gilberg, “A Structured Programming Approach Using C”, II Edition, Brooks-Cole Thomson Learning Publications, (2007).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138609973626342043" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES:
+1. Pradip Dey, Manas Ghoush, “Programming in C”, Oxford University Press. (2007).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138609979218816583" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. Byron Gottfried, “Programming with C”, 2 Edition, (Indian Adapted Edition), TMH publications, (2006).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138610004131618109" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. Stephen G.Kochan, “Programming in C”, Third Edition, Pearson Education India, (2005).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138610010786153495" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+4. Brian W.Kernighan and Dennis M.Ritchie, “The C Programming Language”, Pearson Education Inc., (2005).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138610015534663023" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+5. E.Balagurusamy, “Computing fundamentals and C Programming”, Tata McGraw-Hill Publishing Company Limited, (2008).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138610019496581920" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+6. S.Thamarai Selvi and R.Murugan, “C for All”, Anuradha Publishers, (2008).|na

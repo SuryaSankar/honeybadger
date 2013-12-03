@@ -22,6 +22,7 @@
 <% end %>
 
 <% content_for :leftsidebar_custom do %>
+<% if @program_university_course.university_course.textbooks.count > 0 then %>
   <div id="textbook_box" class="sidenav-bordered">
     <div class="heading"><h4>Prescribed Text Books</h4></div>
       <div class="bordered-box-content">
@@ -33,6 +34,7 @@
       </ol>
     </div>
   </div>
+<% end %>
 <% end %>
 
 <div class="right-bordered-box">

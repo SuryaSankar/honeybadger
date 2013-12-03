@@ -17,6 +17,12 @@ module ApplicationHelper
 		n<=20 ? romans[n-1] : n.to_s
 	end
 
+  def roman_to_i(r)
+		romans=["i","ii","iii","iv","v","vi","vii","viii","ix","x","xi","xii","xiii","xiv","xv","xvi","xvii","xviii","xix","xx"]
+    r=r.downcase
+    romans.index(r)+1
+  end    
+
 	def cache_programs_courses
 		max_updated_at = [Program.maximum(:updated_at).try(:utc), University.maximum(:updated_at).try(:utc), Question.maximum(:updated_at).try(:utc),  ProgramUniversityCourse.maximum(:updated_at).try(:utc)].max.try(:to_s, :number)
 		"programsuniversities_courses_questions-#{max_updated_at}"
