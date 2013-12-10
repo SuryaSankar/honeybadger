@@ -349,6 +349,11 @@ namespace :karpeer_admin do
         when /^\d+$/
            units.last.unit_curriculum+=(" "+line.strip) unless(line_after_unit || !start_curriculum || units.empty? || units.last.unit_curriculum.nil? )
            line_after_unit=false
+        when /^TOTAL = \d+ PERIODS$/
+           start_curriculum=false
+           units.each{ |u| u.save }
+           units=[]
+           line_after_unit=false
         when /^TOTAL: \d+ PERIODS$/
            start_curriculum=false
            units.each{ |u| u.save }
