@@ -359,13 +359,14 @@ namespace :karpeer_admin do
            units.each{ |u| u.save }
            units=[]
            line_after_unit=false
-        when /^TEXT BOOK:$/
+        when /^TEXT BOOK[:]*$/
            start_books=true
            references=false
-        when /^REFERENCES:$/
+        when /^REFERENCES[:]*$/
            start_books=true
            references=true
         when /^\d+\.\s*(?<bookname>.+)\|(?<banner>.*)$/
+           puts "adding books"
            banner=$~[:banner]
            banner=nil if banner == "na"
            if start_books then
