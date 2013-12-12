@@ -1,0 +1,72 @@
+EC2151
+ELECTRIC CIRCUITS AND ELECTRON DEVICES
+L T P C
+3 1 0 4
+UNIT I CIRCUIT ANALYSIS TECHNIQUES
+Kirchoff’s current and voltage laws – series and parallel connection of independent
+sources – R, L and C – Network Theorems – Thevenin, Superposition, Norton,
+Maximum power transfer and duality – Star-delta conversion.
+UNIT II TRANSIENT RESONANCE IN RLC CIRCUITS
+Basic RL, RC and RLC circuits and their responses to pulse and sinusoidal inputs –
+frequency response – Parallel and series resonances – Q factor – single tuned and
+double tuned circuits.
+UNIT III SEMICONDUCTOR DIODES
+Review of intrinsic & extrinsic semiconductors – Theory of PN junction diode – Energy
+band structure – current equation – space charge and diffusion capacitances – effect of
+temperature and breakdown mechanism – Zener diode and its characteristics.
+UNIT IV TRANSISTORS
+Principle of operation of PNP and NPN transistors – study of CE, CB and CC
+configurations and comparison of their characteristics – Breakdown in transistors –
+operation and comparison of N-Channel and P-Channel JFET – drain current equation –
+MOSFET – Enhancement and depletion types – structure and operation – comparison of
+BJT with MOSFET – thermal effect on MOSFET.
+UNIT V SPECIAL SEMICONDUCTOR DEVICES (QUALITATIVE TREATMENT ONLY)
+Tunnel diodes – PIN diode, varactor diode – SCR characteristics and two transistor
+equivalent model – UJT – Diac and Triac – Laser, CCD, Photodiode, Phototransistor,
+Photoconductive and Photovoltaic cells – LED, LCD.
+TOTAL : 60 PERIODS
+TEXT BOOKS
+1. Joseph A. Edminister, Mahmood, Nahri, “Electric Circuits” – Schaum series,Tata McGraw Hill, (2001)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624021410121729" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. S. Salivahanan, N. Suresh kumar and A. Vallavanraj, “Electronic Devices and Circuits”,Tata McGraw Hill, 2nd Edition, (2008).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624047497098484" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. David A. Bell, “Electronic Devices and Circuits”, Oxford University Press, 5th Edition (2008).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624053559939641" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES
+1. Robert T. Paynter, “Introducing Electronics Devices and Circuits”, Pearson Education, 7th Edition (2006).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624185523938951" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. William H. Hayt, J.V. Jack, E. Kemmebly and steven M. Durbin, “Engineering Circuit Analysis”,Tata McGraw Hill, 6th Edition, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138623997710815745" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. J. Millman & Halkins, Satyebranta Jit, “Electronic Devices & Circuits”,Tata McGraw Hill, 2nd Edition, 2008.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624202806953303" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+GE2152
+BASIC CIVIL & MECHANICAL ENGINEERING
+(Common to branches under Electrical and I & C Faculty)
+L T PC
+4 0 0 4
+UNIT I SURVEYING AND CIVIL ENGINEERING MATERIALS( A – CIVIL ENGINEERING )
+Surveying: Objects – types – classification – principles – measurements of distances –
+angles – leveling – determination of areas – illustrative examples.
+Civil Engineering Materials: Bricks – stones – sand – cement – concrete – steel
+sections.
+UNIT II BUILDING COMPONENTS AND STRUCTURES( A – CIVIL ENGINEERING )
+Foundations: Types, Bearing capacity – Requirement of good foundations.
+Superstructure: Brick masonry – stone masonry – beams – columns – lintels – roofing
+– flooring – plastering – Mechanics – Internal and external forces – stress – strain –
+elasticity – Types of Bridges and Dams – Basics of Interior Design and Landscaping.
+TOTAL : 30 PERIODS
+UNIT III POWER PLANT ENGINEERING (B – MECHANICAL ENGINEERING)
+10
+Introduction, Classification of Power Plants – Working principle of steam, Gas, Diesel,
+Hydro-electric and Nuclear Power plants – Merits and Demerits – Pumps and turbines –
+working principle of Reciprocating pumps (single acting and double acting) – Centrifugal
+Pump.
+UNIT IV I C ENGINES (B – MECHANICAL ENGINEERING)
+Internal combustion engines as automobile power plant – Working principle of Petrol and
+Diesel Engines – Four stroke and two stroke cycles – Comparison of four stroke and two
+stroke engines – Boiler as a power plant.
+UNIT V REFRIGERATION AND AIR CONDITIONING SYSTEM (B – MECHANICAL ENGINEERING)
+Terminology of Refrigeration and Air Conditioning. Principle of vapour compression and
+absorption system – Layout of typical domestic refrigerator – Window and Split type
+room Air conditioner.
+TOTAL: 30 PERIODS
+REFERENCES
+1. Shanmugam G and Palanichamy M S, “Basic Civil and Mechanical Engineering”,Tata McGraw Hill Publishing Co., New Delhi, (1996).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624491820159383" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. Ramamrutham. S, “Basic Civil Engineering”, Dhanpat Rai Publishing Co. (P) Ltd. (1999).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624508833848734" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. Seetharaman S. “Basic Civil Engineering”, Anuradha Agencies, (2005).|na
+4. Venugopal K and Prahu Raja V, “Basic Mechanical Engineering”, Anuradha Publishers, Kumbakonam, (2000).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624521056686436" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+5. Shantha Kumar S R J., “Basic Mechanical Engineering”, Hi-tech Publications, Mayiladuthurai, (2000).|na

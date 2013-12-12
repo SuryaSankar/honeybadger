@@ -359,7 +359,7 @@ namespace :karpeer_admin do
            units.each{ |u| u.save }
            units=[]
            line_after_unit=false
-        when /^TEXT BOOK[:]*$/
+        when /^TEXT BOOK[S]*[:]*$/
            start_books=true
            references=false
         when /^REFERENCES[:]*$/
