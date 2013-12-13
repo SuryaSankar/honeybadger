@@ -332,8 +332,8 @@ namespace :karpeer_admin do
     IO.foreach(args.units) do |line|
       puts line
 		  case line
-		    when /^\s*(?<coursecode>[A-Z]{2}\d{4})\s*$/
-           coursecode=$~[:coursecode]
+		    when /^\s*(?<courseabbr>[A-Z]{2}) *(?<code>\d{4})\s*$/
+           coursecode=$~[:courseabbr]+$~[:code]
            uc=UniversityCourse.find_by(university_id: university.id, course_code: coursecode)
            start_curriculum=false
            start_books=false
@@ -349,28 +349,23 @@ namespace :karpeer_admin do
         when /^\d+$/
            units.last.unit_curriculum+=(" "+line.strip) unless(line_after_unit || !start_curriculum || units.empty? || units.last.unit_curriculum.nil? )
            line_after_unit=false
-        when /^TOTAL = \d+ PERIODS$/
+
+        when /^TOTAL *[:=] *\d+ PERIODS$/
            start_curriculum=false
            units.each{ |u| u.save }
            units=[]
            line_after_unit=false
-        when /^TOTAL: \d+ PERIODS$/
-           start_curriculum=false
-           units.each{ |u| u.save }
-           units=[]
-           line_after_unit=false
-        when /^TEXT BOOK[S]*[:]*$/
+        when /^TEXT *BOOKS*:*$/
            start_books=true
            references=false
         when /^REFERENCES[:]*$/
            start_books=true
            references=true
-        when /^\d+\.\s*(?<bookname>.+)\|(?<banner>.*)$/
+        when /^\d+\.\s*(?<bookname>.+)\|<iframe src="http:\/\/www.flipkart.com\/affiliate\/displayWidget\?affrid=(?<affrid>.*)" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ><\/iframe>$/
            puts "adding books"
-           banner=$~[:banner]
-           banner=nil if banner == "na"
+           affrid=$~[:affrid]
            if start_books then
-             Textbook.create name: $~[:bookname], university_course_id: uc.id, reference: references, flipkart_banner: banner
+             Textbook.create name: $~[:bookname], university_course_id: uc.id, reference: references, flipkart_affrid: affrid
            else
              if start_curriculum then
               if units.last.unit_curriculum==nil then
@@ -380,6 +375,18 @@ namespace :karpeer_admin do
               end
              end
            end
+        when /^\d+\.\s*(?<bookname>.+)\|na$/
+           if start_books then
+             Textbook.create name: $~[:bookname], university_course_id: uc.id, reference: references, flipkart_affrid: nil
+           else
+             if start_curriculum then
+              if units.last.unit_curriculum==nil then
+                units.last.unit_curriculum=line.strip
+              else
+                units.last.unit_curriculum+=(" "+line.strip)
+              end
+             end
+           end           
         else
            if start_curriculum then
             if units.last.unit_curriculum==nil then

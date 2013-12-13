@@ -436,7 +436,7 @@ REFERENCES
 3. Mehta V K, “Principles of Electronics”, S.Chand & Company Ltd, (1994).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624267425356464" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
 4. Mahmood Nahvi and Joseph A. Edminister, “Electric Circuits”, Schaum’ Outline Series, McGraw Hill, (2002).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624021410121729" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
 5. Premkumar N, “Basic Electrical Engineering”, Anuradha Publishers, (2003).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624419877293116" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
-GE2151
+GE2152
 BASIC CIVIL & MECHANICAL ENGINEERING
 (Common to branches under Electrical and I & C Faculty)
 L T PC
