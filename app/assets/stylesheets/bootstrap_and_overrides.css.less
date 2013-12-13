@@ -440,6 +440,31 @@ h5{
 	margin-left: 0px;
 }
 
+.right-bordered-box-boardGreen{
+	.bordered-box;
+	margin-right: 20px;
+	margin-left: 0px;
+	color: @white;
+	background-color: @boardGreen;
+	color: @white;
+
+	li {
+	a { color: @white;
+     text-decoration: underline; 
+          font-size: 16px; line-height: 2.5;
+	      &:hover { border-width: 1px;  text-decoration: underline;  background-color: inherit; }
+        &:visited { color: inherit; }
+	    }
+	}
+	a { color: @white;
+     text-decoration: underline; 
+          font-size: 16px; line-height: 2.5;
+	      &:hover { border-width: 1px;  text-decoration: underline;  background-color: inherit; }
+        &:visited { color: inherit; }
+	    }
+
+}
+
 .left-bordered-box{
 	.bordered-box;
 	margin-right: 0px;
