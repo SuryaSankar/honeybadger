@@ -127,6 +127,9 @@
                   <% if !tb.flipkart_affrid.nil? then %>
                   <iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=<%= raw tb.flipkart_affrid %>" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
                   <% end %>
+                 <% if !tb.amzasin.nil? then %>
+                <iframe src="http://ws-in.amazon-adsystem.com/widgets/q?t=karpeer-21&o=31&p=8&l=as1&asins=<%= raw tb.amzasin %>&ref=qf_sp_asin_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr&MarketPlace=IN&ServiceVersion=20070822&WS=1&ID=8042_ProductLink&Operation=GetProductLink&" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+                  <% end %>
                 <% end %>
               </ol>
         

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131212200110) do
+ActiveRecord::Schema.define(version: 20131214071723) do
 
   create_table "accepted_solutions", force: true do |t|
     t.boolean  "accept"
@@ -226,6 +226,7 @@ ActiveRecord::Schema.define(version: 20131212200110) do
     t.text     "name"
     t.boolean  "reference",            default: false
     t.string   "flipkart_affrid"
+    t.string   "amzasin"
   end
 
   add_index "textbooks", ["university_course_id"], name: "index_textbooks_on_university_course_id"
