@@ -3,6 +3,7 @@ Honeybadger::Application.routes.draw do
   get "feedbacks/create"
   get "search_results_controller/search"
   root 'pages#home'
+  get "/home2" => "pages#home2"
  
 
 
@@ -17,6 +18,7 @@ Honeybadger::Application.routes.draw do
 
   
   get "pages/channel"
+  get "/about" => "pages#about"
   get '/search/find_courses_from_program_and_semester' => 'search_results#find_courses_from_program_and_semester'
   get '/search/find_programs_from_university_and_branch' => 'search_results#find_programs_from_university_and_branch'
   get '/search/get_course' => 'search_results#get_course'
@@ -44,6 +46,7 @@ Honeybadger::Application.routes.draw do
   resources :units
   resources :program_university_courses
   resources :qpaper_files
+  resources :text_book_sale_offers, only: [:create, :update, :destroy]
   resources :feedbacks, only: [:new, :create]
 
 

@@ -331,10 +331,14 @@ namespace :karpeer_admin do
     romans=["i","ii","iii","iv","v","vi","vii","viii","ix","x","xi","xii","xiii","xiv","xv","xvi","xvii","xviii","xix","xx"]
     IO.foreach(args.units) do |line|
       puts line
+      ignore=false
 		  case line
 		    when /^\s*(?<courseabbr>[A-Z]{2}) *(?<code>\d{4})\s*$/
            coursecode=$~[:courseabbr]+$~[:code]
            uc=UniversityCourse.find_by(university_id: university.id, course_code: coursecode)
+           if uc.units.count > 0 then
+             ignore=true
+           end
            start_curriculum=false
            start_books=false
            line_after_unit=false
@@ -352,7 +356,7 @@ namespace :karpeer_admin do
 
         when /^TOTAL *[:=] *\d+ PERIODS$/
            start_curriculum=false
-           units.each{ |u| u.save }
+           units.each{ |u| u.save } unless ignore
            units=[]
            line_after_unit=false
         when /^TEXT *BOOKS*:*$/
@@ -365,7 +369,7 @@ namespace :karpeer_admin do
            puts "adding books"
            affrid=$~[:affrid]
            if start_books then
-             Textbook.create name: $~[:bookname], university_course_id: uc.id, reference: references, flipkart_affrid: affrid
+             Textbook.create(name: $~[:bookname], university_course_id: uc.id, reference: references, flipkart_affrid: affrid) unless ignore
            else
              if start_curriculum then
               if units.last.unit_curriculum==nil then
@@ -377,7 +381,7 @@ namespace :karpeer_admin do
            end
         when /^\d+\.\s*(?<bookname>.+)\|na$/
            if start_books then
-             Textbook.create name: $~[:bookname], university_course_id: uc.id, reference: references, flipkart_affrid: nil
+             Textbook.create(name: $~[:bookname], university_course_id: uc.id, reference: references, flipkart_affrid: nil) unless ignore
            else
              if start_curriculum then
               if units.last.unit_curriculum==nil then

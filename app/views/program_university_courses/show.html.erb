@@ -124,12 +124,34 @@
               <ol>
                 <% @program_university_course.university_course.textbooks.each do |tb| %>
                   <li><h5><%= tb.name %></h5></li>
+                  <div class="row-fluid">
+                  <div class="span4">
                   <% if !tb.flipkart_affrid.nil? then %>
                   <iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=<%= raw tb.flipkart_affrid %>" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
                   <% end %>
                  <% if !tb.amzasin.nil? then %>
                 <iframe src="http://ws-in.amazon-adsystem.com/widgets/q?t=karpeer-21&o=31&p=8&l=as1&asins=<%= raw tb.amzasin %>&ref=qf_sp_asin_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr&MarketPlace=IN&ServiceVersion=20070822&WS=1&ID=8042_ProductLink&Operation=GetProductLink&" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
                   <% end %>
+                  </div>
+                  <div class="span8">
+                  <% if user_signed_in? then %>
+                    <%= content_tag :div,  id: "self_book_offer"+tb.id.to_s do %>
+                    <a data-toggle="modal" data-target="#offer_form_modal<%= tb.id.to_s %>" > Click here to place an offer</a>
+                    <% end %>
+                    <%= render partial: "text_book_sale_offers/offer_form", locals: {textbook: tb} %>
+                  <% else %>
+                  If you have copies of this book, you can advertise them for sale here. To do so, please <%= link_to "login", new_user_session_path %> first.
+                  <% end %>
+                  <ol>
+                  <% tb.text_book_sale_offers.each do |tbso| %>
+                    <li>
+                      <p><%= tbso.user.uname %> offers to sell this book for <%= number_to_currency(tbso.price, unit: "Rs.") %></p>
+                      <p>Contact Details: <%= tbso.contact_detail %></p>
+                    </li>
+                  <% end %>
+                  </ol>
+                  </div>
+                  </div><!-- row-fluid -->
                 <% end %>
               </ol>
         
@@ -140,3 +162,20 @@
 </div> <!-- tabcontent -->
 </div>
 </div>
+
+
+
+<% content_for :extra_scripts do %>
+<script type="text/javascript">
+
+$(function(){
+<% @program_university_course.university_course.textbooks.each do |tb| %>
+$('<%="#offer_form_modal"+tb.id.to_s %>').on('ajax:beforeSend',function(evt, data, status, xhr){
+       $('<%= "#offer_form_modal"+tb.id.to_s %>').modal('hide');
+}).on('ajax:success',function(evt, data, status, xhr){
+    $('<%= "#self_book_offer"+tb.id.to_s %>').html(xhr.responseText);
+});
+<% end %>
+});
+</script>
+<% end %>

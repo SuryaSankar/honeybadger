@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
   devise :omniauthable, omniauth_providers: [:facebook, :google_oauth2]
 
   has_many :authentications, dependent: :destroy
+  has_many :text_book_sale_offers, dependent: :destroy
 
   def self.new_with_session(params, session)
     super.tap do |user|

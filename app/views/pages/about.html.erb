@@ -1,16 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<% content_for :masthead_content do %>
-	<div class="hero-unit noise" id="banner">
-	  <div class="row">
-		<div class="span11 offset1">
-			<h1>Karpeer <small>,&nbsp;/kəˈrpēr/,&nbsp;A Tamil verb,&nbsp;Meaning: An appeal to learn.</small></h1>
-		</div>
-	  </div>
-	  <div class="row">
-		<div class="span11 offset1">
-			<h3><i class="icon-check"></i> Questions &nbsp; <i class="icon-check-empty"></i> Solutions &nbsp; <i class="icon-check-empty"></i> Notes &nbsp; <i class="icon-check-empty"></i> Video lectures &nbsp;<i class="icon-check-empty"></i> Tutors</h3>
-		</div>
-	</div>
-	</div>
-<% end %>
-This is an about page
+
+    <meta property="og:title" content="Karpeer" />
+    <meta property="og:type" content="Education Engineering Question Bank e-learning Anna University Papers Syllabus" />
+    <meta property="og:url" content="www.karpeer.com" />
+    <meta property="og:image" content= "https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/ka2.png" />
+    <meta property="og:site_name" content="Education Engineering Question Bank e-learning" />
+
+
+    <title><%= content_for?(:title) ? yield(:title) : "Karpeer" %></title>
+    <%= csrf_meta_tags %>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <!-- For all other devices -->
+    <!-- Size should be 32 x 32 pixels -->
+    <%= favicon_link_tag 'ka2.png', :rel => 'shortcut icon' %>
+<%= javascript_include_tag "application" %>
+   
+<%# render partial: "partials/jstree"%>
+
+  </head>
+  <body class="background-logo">
+
+  </body>
+</html>

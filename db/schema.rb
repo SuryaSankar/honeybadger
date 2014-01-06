@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131214071723) do
+ActiveRecord::Schema.define(version: 20131214141652) do
 
   create_table "accepted_solutions", force: true do |t|
     t.boolean  "accept"
@@ -218,6 +218,18 @@ ActiveRecord::Schema.define(version: 20131214071723) do
 
   add_index "solutions", ["question_id"], name: "index_solutions_on_question_id"
   add_index "solutions", ["user_id"], name: "index_solutions_on_user_id"
+
+  create_table "text_book_sale_offers", force: true do |t|
+    t.decimal  "price",          precision: 8, scale: 2
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "textbook_id"
+    t.integer  "user_id"
+    t.text     "contact_detail"
+  end
+
+  add_index "text_book_sale_offers", ["textbook_id"], name: "index_text_book_sale_offers_on_textbook_id"
+  add_index "text_book_sale_offers", ["user_id"], name: "index_text_book_sale_offers_on_user_id"
 
   create_table "textbooks", force: true do |t|
     t.integer  "university_course_id"
