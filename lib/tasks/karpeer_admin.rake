@@ -403,4 +403,25 @@ namespace :karpeer_admin do
       end  
     end
   end
+
+
+  desc "adding solutions"
+    task :add_answers, [:answers] => :environment do |t, args|
+    IO.foreach(args.answers) do |line|
+      puts line
+      sol=Solution.new
+		  case line
+        when /^###\s*$/
+          sol.save unless sol.answer.blank?
+        when /^http:\/\/karpeer\.com\/questions\/(?<qno>\d+)\?qpaper=\d+\s*/
+          question=Question.find($~[:qno].to_i)
+          puts question.id
+          sol=Solution.create question_id: question.id, answer: "", user_id: Admin.first.user_id
+          puts sol
+        else
+          puts sol
+          sol.answer=sol.answer+line+"\n"
+        end	
+    end
+  end
 end

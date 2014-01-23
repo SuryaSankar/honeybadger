@@ -1,0 +1,22 @@
+<div id="offer_form_modal<%= textbook.id %>" class="modal hide fade noise boardGreenBG" tabindex="-1" role="dialog" aria-labelledby="signup_modal_label" aria-hidden="true">
+<div class="modal-header">
+Place Your Offer  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+</div>
+<div class="modal-body handwriting">
+<%= simple_form_for :text_book_sale_offer, url: text_book_sale_offers_path , remote: true do |f| %>
+  <fieldset class="fields">
+    <div class="field">
+    <%= f.label "Specify your price"%>
+    <%= f.text_field :price, required: true %>
+    </div>
+   <div class="field">
+    <%= f.label "Provide your contact details for the buyer to contact"%>
+    <%= f.text_area :contact_detail %>
+    </div>
+    <%= f.input :textbook_id, :as => :hidden, :input_html => { :value => textbook.id } %>
+  </fieldset>
+  <%= submit_tag "Place Offer", class: "btn btn-success" %>
+<% end %>
+</div>
+
+</div>

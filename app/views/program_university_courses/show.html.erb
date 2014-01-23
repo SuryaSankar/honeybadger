@@ -1,7 +1,7 @@
-<%- model_class = ProgramUniversityCourse -%>
-<% content_for :title do %>
-<%= "Karpeer - "+@program_university_course.full_course_name %>
+<% content_for :bannerLayoutTitle do %>
+<h3><%= @program_university_course.full_course_name %></h3>
 <% end %>
+
 <% content_for :mathjax_scripts do %>
 <%= render partial: 'partials/mathjax_include' %>
 <% end %>
@@ -9,117 +9,127 @@
 <%= render partial: 'partials/prettify_include' %>
 <% end %>
 
-<% content_for :pagewise_heading do %>
-	<% cache(@program_university_course) do %>
-		<%= @program_university_course.university_course.course_code+" - "+@program_university_course.university_course.course.name %>
-	<% end %>
-<% end %>
+
 <% content_for :navbar_breadcrumbs do %>
 	<ul class="nav">
-	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
-<li><%= link_to @program_university_course.full_course_name, '#' %></li>
+	  <li><%= link_to branch_path(@program_university_course.program.branch_id) do %><%= @program_university_course.program.branch.name %>&nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
 </ul>
 <% end %>
-
-<% content_for :leftsidebar_custom do %>
-
-<% end %>
-
-
-<div class="right-bordered-box-boardGreen">
-<div class="bordered-box-content">
-<ul class="nav nav-tabs">
-<li class="active">
-<a href="#questionpapersbox" data-toggle="tab" >Question Papers</a>
-</li>
-<li><a href="#questionsbox" data-toggle="tab">Questions</a></li>
-<% if @program_university_course.university_course.units.count > 0 then %>
-  <li><a href="#curriculumbox" data-toggle="tab" >Curriculum</a></li>
-<% end %>
-<% if @program_university_course.university_course.textbooks.count > 0 then %>
-  <li><a href="#textbooksbox" data-toggle="tab" >Textbooks</a></li>
-<% end %>
-</ul>
-
-
-<div class="tab-content">
-<div class="tab-pane active" id="questionpapersbox">
-
-		<% cache(["v1", @program_university_course.university_course]) do%>
-			<% qpapers = @program_university_course.university_course.qpapers %>
-			<% if qpapers.length > 0 then %>
-			<ol>
-			<% qpapers.each do |qp| %>
-			<li>
-			<%= link_to qp.title+" "+qp.month+" "+qp.year.to_s, qpaper_path(qp.id)+"?puc="+@program_university_course.id.to_s %>
-			
-			</li>
-			<% end %>
-			</ol>
-			<% else %>
-			There are no question papers yet for this course.
-			<% end %>
-			<div id="underlined-h5"><h5>Upload a question paper</h5></div>
-			<%= bootstrap_flash %>
-			<%= simple_form_for :qpaper_file, :url => qpaper_files_path, :html => { :multipart => true } do |form| %>
-			  <%= form.file_field :uploaded_file %>
-			  <%= form.input :university_course_id, :as => :hidden, :input_html => { :value => @program_university_course.university_course_id } %>
-			  <%= submit_tag "Upload", class: "btn btn-success" %>
-			<% end %>
-		<% end %>
+<div class="row stdfont">
+<div class="span6 offset1">
+<i class="icon-angle-left"></i> <%= link_to @program_university_course.program.branch.name, branch_path(@program_university_course.program.branch.id) %>
 </div>
-
-
-
-<div class="tab-pane" id="questionsbox">
-
-	  <% cache(["v1",@program_university_course.university_course.course]) do%>
-		  <p><h5> <%= link_to "Add a question" , new_question_path+"?course="+@program_university_course.university_course.course_id.to_s, class: "btn btn-success" %> </h5></p>
-			  <% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).count > 0 then %>
-				  <h5>Questions added by Users</h5>
-				  <ol>
-				  <% Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).each do |q| %>
-          <% cache (q) do %>
-				  <li><%= link_to (q.qtitle || q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></li>
-          <% end %>
-				  <% end %>
-				  </ol>
-			  <% end %>
-			  <% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: false).count > 0 then %>
-				  <h5>Questions obtained from question papers</h5>
-				  <% questions = Question.includes(:examquestions).where(course_id: @program_university_course.university_course.course_id).where(standalone: false).order('examquestions.mark ASC').group_by { |q| q.examquestions.first.mark } %>
-				  <% questions.keys.each do |mark| %>
-				  <h6><%= mark %> Marks</h6>
-				  <ol>
-				  <% questions[mark].each do |q| %>
-          <% cache (q) do %>
-				   <li><%= link_to (q.qtitle || q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></li>
-          <% end %>
-				  <% end %>
-				  </ol>
-				  <% end %>
-			  <% end %>
-  <%# render partial: "partials/questions", locals: { questions: @program_university_course.university_course.course.questions } %>
-	  <% end %>
 </div>
+<div class="row">
 
-<div class="tab-pane" id="curriculumbox">
-      <% cache(["v1curriculum",@program_university_course.university_course]) do%>
-        <% units = @program_university_course.university_course.units.order("unit_number") %>
-        <% if units.length > 0 then %>
-          <ol>
-            <% units.each do |unit| %>
-              <li>
-              Unit <%= unit.unit_number %>
-              </li>
-              <%= unit.unit_curriculum %>
-            <% end %>
-          </ol>
+      <div class="span1 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="100">
+          <li class="active"><a href="#curriculum"><i class="icon-chevron-right"></i>Curriculum</a></li>
+          <li><a href="#questionpapers"><i class="icon-chevron-right"></i>Question Papers</a></li>
+          <li><a href="#questions"><i class="icon-chevron-right"></i>Questions</a></li>
+          <li><a href="#textbooks"><i class="icon-chevron-right"></i>Text Books</a></li>
+        </ul>
+      </div>
+<div class="span11">
+<div class="row" id="curriculum">
+  <div class="span2">
+   <div class="page-header centeralign roboto stdfont" ><h3>Curriculum</h3></div>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+        <% cache(["v1curriculum",@program_university_course.university_course]) do%>
+          <% units = @program_university_course.university_course.units.order("unit_number") %>
+          <% if units.length > 0 then %>
+            <ol>
+              <% units.each do |unit| %>
+                <li>
+                Unit <%= unit.unit_number %>
+                </li>
+                <%= unit.unit_curriculum %>
+              <% end %>
+            </ol>
+          <% end %>
         <% end %>
-      <% end %>
+  </div>
+</div>
+
+<div class="row" id="questionpapers">
+<div class="span3">
+<div class="page-header centeralign roboto stdfont"><h3>Question Papers</h3></div>
+</div>
+</div>
+<div class="row">
+  <div class="span12">
+		  <% cache(["v1", @program_university_course.university_course]) do%>
+			  <% qpapers = @program_university_course.university_course.qpapers %>
+			  <% if qpapers.length > 0 then %>
+			  <ol>
+			  <% qpapers.each do |qp| %>
+			  <li>
+			  <%= link_to qp.title+" "+qp.month+" "+qp.year.to_s, qpaper_path(qp.id)+"?puc="+@program_university_course.id.to_s %>
+			
+			  </li>
+			  <% end %>
+			  </ol>
+			  <% else %>
+			  There are no question papers yet for this course.
+			  <% end %>
+			  <div id="underlined-h5"><h5>Upload a question paper</h5></div>
+			  <%= bootstrap_flash %>
+			  <%= simple_form_for :qpaper_file, :url => qpaper_files_path, :html => { :multipart => true } do |form| %>
+			    <%= form.file_field :uploaded_file %>
+			    <%= form.input :university_course_id, :as => :hidden, :input_html => { :value => @program_university_course.university_course_id } %>
+			    <%= submit_tag "Upload", class: "btn btn-success" %>
+			  <% end %>
+		  <% end %>
+  </div>
+</div>
+<div class="row" id="questions">
+<div class="span2">
+<div class="page-header centeralign roboto stdfont" ><h3>Questions</h3></div>
+</div>
+</div>
+<div class="row">
+  <div class="span12">
+	    <% cache(["v4",@program_university_course.university_course.course]) do%>
+		    <p><h5> <%= link_to "Add a question" , new_question_path+"?course="+@program_university_course.university_course.course_id.to_s, class: "btn btn-success" %> </h5></p>
+			    <% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).count > 0 then %>
+				    <h5>Questions added by Users</h5>
+				    <ol>
+				    <% Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).each do |q| %>
+            <% cache(["v4",q]) do %>
+				    <li><div class="thinlink"><%= link_to (q.qtitle || q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></div></li>
+            <% end %>
+				    <% end %>
+				    </ol>
+			    <% end %>
+			    <% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: false).count > 0 then %>
+				    <h5>Questions obtained from question papers</h5>
+				    <% questions = Question.includes(:examquestions).where(course_id: @program_university_course.university_course.course_id).where(standalone: false).order('examquestions.mark ASC').group_by { |q| q.examquestions.first.mark } %>
+				    <% questions.keys.each do |mark| %>
+				    <h6><%= mark %> Marks</h6>
+				    <ol>
+				    <% questions[mark].each do |q| %>
+            <% cache(["v4",q]) do %>
+				     <li><div class="thinlink"><%= link_to (q.qtitle || q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></div></li>
+            <% end %>
+				    <% end %>
+				    </ol>
+				    <% end %>
+			    <% end %>
+    <%# render partial: "partials/questions", locals: { questions: @program_university_course.university_course.course.questions } %>
+	    <% end %>
+  </div>
 </div>
 <% if @program_university_course.university_course.textbooks.count > 0 then %>
-  <div class="tab-pane" id="textbooksbox">
+  <div class="row" id="textbooks">
+  <div class="span2">
+    <div class="page-header centeralign roboto stdfont" ><h3>Text Books</h3></div>
+  </div>
+  </div>
+<div class="row">
+  <div class="span12" >
         
               <ol>
                 <% @program_university_course.university_course.textbooks.each do |tb| %>
@@ -155,13 +165,16 @@
                 <% end %>
               </ol>
         
-
-  </div><!-- tab-pane -->
+  </div>
+  </div>
 <% end %>
+</div>
+</div>
 
-</div> <!-- tabcontent -->
-</div>
-</div>
+
+
+
+
 
 
 

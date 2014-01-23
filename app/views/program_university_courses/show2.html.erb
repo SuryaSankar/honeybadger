@@ -1,0 +1,181 @@
+<%- model_class = ProgramUniversityCourse -%>
+<% content_for :title do %>
+<%= "Karpeer - "+@program_university_course.full_course_name %>
+<% end %>
+<% content_for :mathjax_scripts do %>
+<%= render partial: 'partials/mathjax_include' %>
+<% end %>
+<% content_for :prettify_scripts do %>
+<%= render partial: 'partials/prettify_include' %>
+<% end %>
+
+<% content_for :pagewise_heading do %>
+	<% cache(@program_university_course) do %>
+		<%= @program_university_course.university_course.course_code+" - "+@program_university_course.university_course.course.name %>
+	<% end %>
+<% end %>
+<% content_for :navbar_breadcrumbs do %>
+	<ul class="nav">
+	  <li><%= link_to root_path do %>Home &nbsp;&nbsp;<i class="icon-double-angle-right"></i><% end %></li>
+<li><%= link_to @program_university_course.full_course_name, '#' %></li>
+</ul>
+<% end %>
+
+<% content_for :leftsidebar_custom do %>
+
+<% end %>
+
+
+<div class="right-bordered-box-boardGreen">
+<div class="bordered-box-content">
+<ul class="nav nav-tabs">
+<li class="active">
+<a href="#questionpapersbox" data-toggle="tab" >Question Papers</a>
+</li>
+<li><a href="#questionsbox" data-toggle="tab">Questions</a></li>
+<% if @program_university_course.university_course.units.count > 0 then %>
+  <li><a href="#curriculumbox" data-toggle="tab" >Curriculum</a></li>
+<% end %>
+<% if @program_university_course.university_course.textbooks.count > 0 then %>
+  <li><a href="#textbooksbox" data-toggle="tab" >Textbooks</a></li>
+<% end %>
+</ul>
+
+
+<div class="tab-content">
+<div class="tab-pane active" id="questionpapersbox">
+
+		<% cache(["v1", @program_university_course.university_course]) do%>
+			<% qpapers = @program_university_course.university_course.qpapers %>
+			<% if qpapers.length > 0 then %>
+			<ol>
+			<% qpapers.each do |qp| %>
+			<li>
+			<%= link_to qp.title+" "+qp.month+" "+qp.year.to_s, qpaper_path(qp.id)+"?puc="+@program_university_course.id.to_s %>
+			
+			</li>
+			<% end %>
+			</ol>
+			<% else %>
+			There are no question papers yet for this course.
+			<% end %>
+			<div id="underlined-h5"><h5>Upload a question paper</h5></div>
+			<%= bootstrap_flash %>
+			<%= simple_form_for :qpaper_file, :url => qpaper_files_path, :html => { :multipart => true } do |form| %>
+			  <%= form.file_field :uploaded_file %>
+			  <%= form.input :university_course_id, :as => :hidden, :input_html => { :value => @program_university_course.university_course_id } %>
+			  <%= submit_tag "Upload", class: "btn btn-success" %>
+			<% end %>
+		<% end %>
+</div>
+
+
+
+<div class="tab-pane" id="questionsbox">
+
+	  <% cache(["v1",@program_university_course.university_course.course]) do%>
+		  <p><h5> <%= link_to "Add a question" , new_question_path+"?course="+@program_university_course.university_course.course_id.to_s, class: "btn btn-success" %> </h5></p>
+			  <% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).count > 0 then %>
+				  <h5>Questions added by Users</h5>
+				  <ol>
+				  <% Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).each do |q| %>
+          <% cache (q) do %>
+				  <li><%= link_to (q.qtitle || q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></li>
+          <% end %>
+				  <% end %>
+				  </ol>
+			  <% end %>
+			  <% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: false).count > 0 then %>
+				  <h5>Questions obtained from question papers</h5>
+				  <% questions = Question.includes(:examquestions).where(course_id: @program_university_course.university_course.course_id).where(standalone: false).order('examquestions.mark ASC').group_by { |q| q.examquestions.first.mark } %>
+				  <% questions.keys.each do |mark| %>
+				  <h6><%= mark %> Marks</h6>
+				  <ol>
+				  <% questions[mark].each do |q| %>
+          <% cache (q) do %>
+				   <li><%= link_to (q.qtitle || q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></li>
+          <% end %>
+				  <% end %>
+				  </ol>
+				  <% end %>
+			  <% end %>
+  <%# render partial: "partials/questions", locals: { questions: @program_university_course.university_course.course.questions } %>
+	  <% end %>
+</div>
+
+<div class="tab-pane" id="curriculumbox">
+      <% cache(["v1curriculum",@program_university_course.university_course]) do%>
+        <% units = @program_university_course.university_course.units.order("unit_number") %>
+        <% if units.length > 0 then %>
+          <ol>
+            <% units.each do |unit| %>
+              <li>
+              Unit <%= unit.unit_number %>
+              </li>
+              <%= unit.unit_curriculum %>
+            <% end %>
+          </ol>
+        <% end %>
+      <% end %>
+</div>
+<% if @program_university_course.university_course.textbooks.count > 0 then %>
+  <div class="tab-pane" id="textbooksbox">
+        
+              <ol>
+                <% @program_university_course.university_course.textbooks.each do |tb| %>
+                  <li><h5><%= tb.name %></h5></li>
+                  <div class="row-fluid">
+                  <div class="span4">
+                  <% if !tb.flipkart_affrid.nil? then %>
+                  <iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=<%= raw tb.flipkart_affrid %>" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+                  <% end %>
+                 <% if !tb.amzasin.nil? then %>
+                <iframe src="http://ws-in.amazon-adsystem.com/widgets/q?t=karpeer-21&o=31&p=8&l=as1&asins=<%= raw tb.amzasin %>&ref=qf_sp_asin_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr&MarketPlace=IN&ServiceVersion=20070822&WS=1&ID=8042_ProductLink&Operation=GetProductLink&" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+                  <% end %>
+                  </div>
+                  <div class="span8">
+                  <% if user_signed_in? then %>
+                    <%= content_tag :div,  id: "self_book_offer"+tb.id.to_s do %>
+                    <a data-toggle="modal" data-target="#offer_form_modal<%= tb.id.to_s %>" > Click here to place an offer</a>
+                    <% end %>
+                    <%= render partial: "text_book_sale_offers/offer_form", locals: {textbook: tb} %>
+                  <% else %>
+                  If you have copies of this book, you can advertise them for sale here. To do so, please <%= link_to "login", new_user_session_path %> first.
+                  <% end %>
+                  <ol>
+                  <% tb.text_book_sale_offers.each do |tbso| %>
+                    <li>
+                      <p><%= tbso.user.uname %> offers to sell this book for <%= number_to_currency(tbso.price, unit: "Rs.") %></p>
+                      <p>Contact Details: <%= tbso.contact_detail %></p>
+                    </li>
+                  <% end %>
+                  </ol>
+                  </div>
+                  </div><!-- row-fluid -->
+                <% end %>
+              </ol>
+        
+
+  </div><!-- tab-pane -->
+<% end %>
+
+</div> <!-- tabcontent -->
+</div>
+</div>
+
+
+
+<% content_for :extra_scripts do %>
+<script type="text/javascript">
+
+$(function(){
+<% @program_university_course.university_course.textbooks.each do |tb| %>
+$('<%="#offer_form_modal"+tb.id.to_s %>').on('ajax:beforeSend',function(evt, data, status, xhr){
+       $('<%= "#offer_form_modal"+tb.id.to_s %>').modal('hide');
+}).on('ajax:success',function(evt, data, status, xhr){
+    $('<%= "#self_book_offer"+tb.id.to_s %>').html(xhr.responseText);
+});
+<% end %>
+});
+</script>
+<% end %>

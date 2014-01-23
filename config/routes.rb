@@ -15,6 +15,7 @@ Honeybadger::Application.routes.draw do
   devise_for :admins, controllers: { sessions: "admins/sessions" }
 
   get "home_programs_json" => 'programs#json_list'
+  get "selectprogram" => "programs#select_program"
 
   
   get "pages/channel"

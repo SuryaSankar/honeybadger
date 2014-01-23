@@ -7,6 +7,7 @@ class PagesController < ApplicationController
 	end
 
   def home2
+    @feedback=Feedback.new	
 		render layout: false
   end
 

@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta property="og:title" content="Karpeer" />
+    <meta property="og:type" content="Education Engineering Question Bank e-learning Anna University Papers Syllabus" />
+    <meta property="og:url" content="www.karpeer.com" />
+    <meta property="og:image" content= "https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-480790462509/ka2.png" />
+    <meta property="og:site_name" content="Education Engineering Question Bank e-learning" />
+
+
+    <title><%= content_for?(:title) ? yield(:title) : "Karpeer" %></title>
+    <%= csrf_meta_tags %>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <!-- For all other devices -->
+    <!-- Size should be 32 x 32 pixels -->
+    <%= favicon_link_tag 'ka2.png', :rel => 'shortcut icon' %>
+<%= javascript_include_tag "application" %>
+   
+<%# render partial: "partials/jstree"%>
+
+  </head>
+  <body class="noisehome whiteOnGreen">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=150980305103487";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <%= content_for?(:prettify_scripts) ? yield(:prettify_scripts) : "" %>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner navbarCursiveFont">
+        <div class="container">
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+          <div class="container nav-collapse">
+            <ul class="nav pull-right">
+
+	      <% if user_signed_in? then%>
+		<li class="divider-vertical"></li>
+    <%= render partial: "partials/account_dropdown" %>
+		<li class="divider-vertical"></li>
+              <% end %>
+		
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>	
+    <div class="noisehome" id="homeBG">
+	  <div class="row">
+		<div class="span10 offset1">
+			<h1>Karpeer <small>,&nbsp;/kəˈrpēr/,&nbsp;A Tamil verb,&nbsp;Meaning: An appeal to learn.</small></h1>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="span10 offset1">
+			<h3><i class="icon-check"></i> Questions &nbsp; <i class="icon-check-empty"></i> Solutions &nbsp; <i class="icon-check-empty"></i> Notes &nbsp; <i class="icon-check-empty"></i> Video lectures &nbsp;<i class="icon-check-empty"></i> Tutors</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span5">
+		<div id="login_box", class="handwriting bordered-box">
+		<div class="heading"><h4><% if !user_signed_in? then%>
+				Join us in one click
+				<% else %>
+				Hello <%= current_user.uname %>! Welcome to Karpeer
+				<% end %>
+				</h4></div>
+		<div class="bordered-box-content">
+		<% if !user_signed_in? then%>
+			<% if flash[:waiting_for_confirmation] then %>
+				 <div class="notice"><h5>IMPORTANT !!</h5> <%= flash[:notice] %></div>
+			<% elsif flash[:email_registered_already] then %>
+				 <div class="notice"><h5>IMPORTANT !!</h5> <%= flash[:notice] %></div>
+Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Your Facebook Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Your Gmail Account <% end %></p>	
+			<% else %>
+				Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Your Facebook Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Your Gmail Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-envelope"></i><a data-toggle="modal" data-target="#signup_modal"> Any other valid email account</a> </p> 
+			<% end %>
+		<% else %>
+		 Now you can <p><i class="icon-thumbs-up"></i>&nbsp;Ask Questions</p><p><i class="icon-thumbs-up"></i>&nbsp;Add Answers</p><p><i class="icon-thumbs-up"></i>&nbsp;Rate other answers</p>So start exploring using the menu on the right. 
+		<% end %>
+		</div>
+		</div>
+
+
+     
+     <div class="handwriting bordered-box">
+      <div class="heading"><h4>Recently added Answers</h4></div>
+      <div class="bordered-box-content">
+        <ol>
+        <% cache(Solution.maximum(:updated_at)) do %>
+          <% Solution.limit(5).order('created_at DESC').each do |sol| %>
+            <% q=sol.question.qtitle || sol.question.qtext %>
+            <li><%= sol.user.uname %> answered <%= link_to raw(render_markdown(q)), solution_path(sol.id) %></li>
+          <% end %>
+        <% end %>
+        </ol>
+      </div>
+     </div>
+    
+
+
+		</div>
+		<div class="span7">
+		<div id="tree_box" class="bordered-box">
+			<div class="heading"><h4>START HERE <i class="icon-long-arrow-down"></i><i class="icon-long-arrow-down"></i> Choose a course to view its question bank </h4></div>
+			<div class="bordered-box-content">
+
+			<%# render partial: "partials/search_form" %>
+			Click on your branch and choose a course 
+				<div id="tree1">
+				<%= render partial: "partials/jstree_htmldata" %>
+				</div>
+			</div>
+		</div>
+
+    <div class="handwriting bordered-box">
+      <div class="heading"><h4>Recently added Question Papers</h4></div>
+      <div class="bordered-box-content">
+        <ol>
+        <% cache [ "v1", Qpaper.last ] do%>
+          <% Qpaper.order('created_at DESC').limit(5).each do |qp| %>
+            <li><div class="boardLink"><%= link_to qp.university_course.full_course_name+" "+qp.month+" "+qp.year.to_s, qpaper_path(qp.id) %></div></li>
+          <% end %>
+        <% end %>
+        </ol>
+      </div>
+    </div>
+		</div>
+
+	</div>
+
+<div class="row">
+<div class="span10 offset1">
+     <div class="handwriting bordered-box">
+      <div class="heading"><h4>Upcoming Exams</h4></div>
+      <div class="bordered-box-content">
+        <ol>
+        <% cache(["v4",Date.today]) do %>
+          <% Exam.where("date > ? AND date < ?",DateTime.now,2.days.from_now).order('date ASC').each do |exam| %>
+            <li><div class="customLink"><%= link_to exam.university_course.full_course_name+" on "+exam.date.strftime("%d-%b-%y %A")+"  "+exam.session+" Session", university_course_path(exam.university_course_id)  %></div> </li>
+          <% end %>
+        <% end %>
+        </ol>
+      </div>
+     </div>
+
+		<div class="fbShareBox handwriting">
+		<div class="heading"><h4>Spread the word</h4></div>
+<div class="fbShare">
+<div class="fb-like" data-href="https://www.facebook.com/karpeer.edu" data-layout="standard" data-action="like" data-show-faces="true" data-colorscheme="dark" data-share="true"></div></div>
+		</div>
+</div>
+</div>
+
+       </div>		
+
+<div class="navbar navbar-fixed-bottom" id="lowerBar"><div class="navbar-inner navbarCursiveFont">
+<div class="container nav-collapse">
+<ul class="nav">		
+		<li><%= link_to "A Wheel N' Axle venture", "http://www.wheelnaxle.com" %></li>
+</ul>
+<ul class="nav pull-right">		
+		<li><a data-toggle="modal" data-target="#feedback_modal">Suggestion Box</a></li>
+</ul>
+</div>
+		</div></div>
+
+<%= render partial: 'users/partials/signup_modal' %>
+<%= render partial: 'partials/feedback_modal' %>
+
+
+
+    <!-- Javascripts
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<%= render partial: "partials/jstree2"%>
+<%= render partial: 'partials/mathjax_include' %>
+<% if user_signed_in? then%>
+<script type="text/javascript">
+analytics.identify('<%= current_user.id %>', {
+    email: '<%= current_user.email %>',
+    firstName: '<%= current_user.uname %>'
+});
+
+
+</script>
+<% end %>
+<script type="text/javascript">
+$(function(){
+$("#feedback_modal").on('ajax:beforeSend',function(evt, data, status, xhr){
+       $("#feedback_modal").modal('hide');
+})
+.on('ajax:complete',function(evt, data, status, xhr){
+       alert("Your feedback was delivered");
+});
+
+});
+</script>
+  </body>
+</html>

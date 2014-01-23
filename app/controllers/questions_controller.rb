@@ -22,6 +22,7 @@ class QuestionsController < ApplicationController
 	end
 	@show_left_navigation = false
 	@solution = Solution.new
+  
   end
 
   # GET /questions/new

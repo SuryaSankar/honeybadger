@@ -1,0 +1,23 @@
+<div class="row" id="program_details">
+<div class="span5 offset3">
+<div class="page-header centeralign"><h4><%= @program.short_desc %></h4></div>
+</div>
+</div>
+<% (1..8).each do |n| %>
+<div class="row">
+<div class="span4">
+<h4>Semester <%= n %></h4>
+</div>
+</div>
+<div class="row">
+<ul class="thumbnails">
+  <% @program.program_university_courses.select{ |puc| puc.semester==n && puc.university_course !=nil }.each do |puc1| %>
+    <li class="span3">
+    <div class="thumbnail coloredThumbnail">
+      <div align="center"><h5><%= link_to puc1.university_course.full_course_name, program_university_course_path(puc1.id)%></h5></div>
+    </div>
+    </li>
+  <% end %>
+</ul>
+</div>
+<% end %>

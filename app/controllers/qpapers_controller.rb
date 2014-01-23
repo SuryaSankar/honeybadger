@@ -11,11 +11,12 @@ class QpapersController < ApplicationController
   # GET /qpapers/1
   # GET /qpapers/1.json
   def show
-	if params[:puc] then
-		@puc=ProgramUniversityCourse.find(params[:puc])
-	else
-		@puc=nil
-	end
+	  if params[:puc] then
+		  @puc=ProgramUniversityCourse.find(params[:puc])
+	  else
+		  @puc=nil
+	  end
+    
   end
 
   # GET /qpapers/new

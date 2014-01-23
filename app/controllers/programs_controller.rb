@@ -1,6 +1,6 @@
 class ProgramsController < ApplicationController
   before_action :set_program, only: [ :edit, :update, :destroy]
-  before_filter :authenticate_admin!, except: [:index, :show, :json_list, :schedule]
+  before_filter :authenticate_admin!, except: [:index, :show, :json_list, :schedule, :select_program]
   # GET /programs
   # GET /programs.json
   def index
@@ -70,6 +70,11 @@ class ProgramsController < ApplicationController
       format.html { redirect_to programs_url }
       format.json { head :no_content }
     end
+  end
+
+  def select_program
+    @program=Program.find(params[:program_choice])
+    render partial: "program_details", locals: {p: @program}
   end
 
   private

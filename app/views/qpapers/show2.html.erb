@@ -12,9 +12,6 @@
 <%= @qpaper.full_title %>&nbsp;&nbsp;<%= @qpaper.university_course.try(:full_course_name) %>
 <% end %>
 
-<% content_for :bannerLayoutTitle do %>
-<h3><%= @qpaper.full_title %>&nbsp;&nbsp;<%= @qpaper.university_course.try(:full_course_name) %></h3>
-<% end %>
 
 <% content_for :navbar_breadcrumbs do %>
 <ul class="nav">
@@ -31,14 +28,6 @@
   <li><%= link_to @qpaper.full_title, '#' %></li>
 <% end %>
 	</ul>
-<% end %>
-<% if @puc then %>
-<div class="row stdfont">
-<div class="span12">
-<i class="icon-angle-left"></i> <%= link_to @puc.program.branch.name, branch_path(@puc.program.branch.id) %>
-<i class="icon-angle-left"></i> <%= link_to @puc.university_course.full_course_name, program_university_course_path(@puc.id) %>
-</div>
-</div>
 <% end %>
 
 

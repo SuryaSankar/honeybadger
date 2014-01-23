@@ -11,6 +11,7 @@ class ProgramUniversityCoursesController < ApplicationController
   # GET /program_university_courses/1.json
   def show
 	eager_load_program_university_course
+  render layout: "application2"
   end
 
   # GET /program_university_courses/new

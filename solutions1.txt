@@ -1,0 +1,632 @@
+http://karpeer.com/questions/4464?qpaper=189
+
+A class contains data members and its associated member functions that can manipulate the data members. in C++ classes are declared using the class keyword with the following syntax
+
+```
+class class_name{
+
+variables;
+
+member_functions();
+
+} object_names;
+```
+
+###
+http://karpeer.com/questions/4465?qpaper=189
+
+The :: (scope resolution) operator is used to qualify hidden names. 
+int count = 0;
+
+```
+int main(void) {
+  int count = 0;
+  ::count = 1;  // set global count to 1
+  count = 2;    // set local count to 2
+  return 0;
+}
+```
+
+In the above example the scope resolution operator allows us to use the global count variable instead of the local count variable.
+
+###
+http://karpeer.com/questions/2132?puc=1077
+
+A Web server refers to either the hardware ie the computer or the software ie the computer application that helps to deliver web content that can be accessed through the Internet. As a software, Web server is a program that uses the client-server model and the World Wide Web's Hypertext Transfer Protocol to serve Web pages to users.
+
+###
+http://karpeer.com/questions/2133?puc=1077
+
+An algorithm is a set of rules that precisely defines a sequence of operations. An algorithm provides a series of steps that allows us to reach a solution to a problem. To be an algorithm, its set of rules must be unambiguous and have a clear stopping point. Algorithms can be expressed in natural languages like English or in programming languages. an example of an alogorithm is given below.
+
+Set max to 0.
+For each number x in the list L, compare it to max. If x is larger, set max to x.
+max is now set to the largest number in the list.
+
+###
+http://karpeer.com/questions/2138?puc=1077
+
+A union occupies a lesser memory space compared to structure as the same memory block is used for all the members in union. Using a union instead of a structure will led faster execution because of less storage in the ram. 
+
+###
+http://karpeer.com/questions/2161?puc=1077
+
+Operating systems can be classified as follows
+
+Multi-user - Allows two or more users to run programs at the same time.
+Multiprocessing - Supports running a program on more than one CPU.
+Multitasking - Allows more than one program to run concurrently.
+Multithreading - Allows different parts of a single program to run concurrently.
+Real time - Responds to input instantly.
+
+###
+http://karpeer.com/questions/2165?puc=1077
+
+```
+#include <stdio.h>
+main()
+{
+int m=4, n=6, p=8,r;
+r=((m+n)/(p-m)*m);
+printf("Result is %d",r);
+}
+```
+
+###
+http://karpeer.com/questions/2166?puc=1077
+
+Five
+Five
+
+###
+http://karpeer.com/questions/2197?puc=1077
+
+```
+#include <stdio.h>
+main()
+{
+int a,b,c;
+scanf("%d %d",&a,&b);
+c=a+b;
+a=c-a;
+b=c-b;
+printf("a= %d, b= %d",a,b);
+}
+```
+
+###
+http://karpeer.com/questions/2222?puc=1077
+
+main is a keyword in C language. The execution of a program starts from main function. it is used to specify the point from where the execution of a program starts and where it ends.
+
+###
+http://karpeer.com/questions/2223?puc=1077
+
+The ternary operator is an operator that takes three operands rather than the typical one or two that most operators use. It provides a way to shorten a simple if else block. An example of the ternary operator is given below.
+
+Without Ternary Operator
+if (a==4)
+b=1;
+else
+b=0;
+
+With Ternary Operator
+b=(a==4) ? 1 : 0;
+
+###
+http://karpeer.com/questions/2186?puc=1077
+
+```
+#include <stdio.h>
+main()
+{
+   int a=0,b=1,c=1;
+   printf("%d %d",a,b);
+   while(c<=200)
+   {
+       printf(" %d",c);
+       a=b;
+       b=c;
+       c=a+b;
+   }
+}
+```
+
+###
+http://karpeer.com/questions/2209?puc=1077
+
+```
+#include <stdio.h>
+main()
+{
+   int s=1,x,n,mul;
+   printf("x = ");
+   scanf("%d",&x);
+   printf("n = ");
+   scanf("%d",&n);
+   mul=x;;
+   printf("Sum = %d",s);
+   while(--n>=0)
+   {
+       s=s+mul;
+       mul=mul*x;
+   }
+   printf("Sum = %d",s);
+}
+```
+
+###
+http://karpeer.com/questions/2210?puc=1077
+
+```
+#include <stdio.h>
+main()
+{
+   int x,n;
+   printf("x = ");
+   scanf("%d",&x);
+   n=x;
+   while(x!=0)
+   {
+       printf("%d",x%10);
+       x=x/10;
+   }
+}
+```
+
+###
+http://karpeer.com/questions/2185?puc=1077
+
+```
+#include <stdio.h>
+main()
+{
+   int x,n=0,r;
+   printf("x = ");
+   scanf("%d",&x);
+   r=x;
+   while(x!=0)
+   {
+       n=n*10+(x%10);
+       x=x/10;
+   }
+   if(r==n)
+    printf("Palindrome");
+   else
+    printf("Not a Palindrome");
+}
+```
+
+###
+http://karpeer.com/questions/2131?puc=1077
+
+A compiler translates the entire program in to machine code in one go and then executes it whereas an interpreter takes one statement, translates and executes it and then takes another statement for execution. A compiler finds errors only after the translation of the entire page while an interpreter will stop the translation after it gets the first error. A compiler takes a larger amount of time in analyzing the high level language code when conpared to a interpreter that takes lesser time. The overall execution time of a code is faster for compiler relative to the interpreter.
+
+###
+http://karpeer.com/questions/2137?puc=1077
+
+A string is represented as an array of characters. The end of the string is marked with the null character, which is represented by \0. Consider the following declaraction of an array.
+
+char a[] = "Hello";
+
+here 'a' is an array that holds the string. here a[0]=h,a[1]=e,...,a[5]='\0'.
+
+###
+http://karpeer.com/questions/2167?puc=1077
+
+b[0]=6
+
+###
+http://karpeer.com/questions/2147?puc=1077
+
+URL or Uniform Resource Locator is a sequence of characters that helps us to locate and retrieve a known resource. Every URL consists of the following, in the given order - The protocol eg http,a colon, two slashes, domain name ie IP address, port number followed by the full path of the resource.
+
+###
+http://karpeer.com/questions/2187?puc=1077
+
+```
+#include <stdio.h>
+int fact (int a)
+{
+    if (a==1) return 1;
+    else return a * fact(a-1);
+}
+main()
+{
+    int f,n=3;
+    printf("Enter n ");
+    scanf("%d",&n);
+    f=fact(n);
+    printf("factorial = %d",f);
+}
+```
+
+###
+http://karpeer.com/questions/2155?puc=1077
+
+```
+#include <stdio.h>
+main()
+{
+    int i,n,p=0;
+    printf("Enter n ");
+    scanf("%d",&n);
+    for(i=2;i<=(n/2);i++)
+    {
+        if(n%i==0)
+            p=1;
+    }
+    if(p==1)
+        printf("Not Prime");
+    else
+     printf("Prime");
+}
+```
+
+###
+http://karpeer.com/questions/2156?puc=1077
+
+```
+#include <stdio.h>
+main()
+{
+    char a[100],s;
+    int i,j;
+    printf("Enter String : ");
+    gets(a);
+    for (i=0;a[i]!='\0';i++);
+    for (j=0;j<=i;j++)
+    {
+        i--;
+        s=a[i];
+        a[i]=a[j];
+        a[j]=s;
+    }
+    printf("Reversed string is %s",a);
+}
+```
+
+###
+http://karpeer.com/questions/2184?puc=1077
+
+```
+#include <stdio.h>
+int fact (int a)
+{
+    if (a==1) return 1;
+    else return a * fact(a-1);
+}
+main()
+{
+    int i,n=3;
+    float sum=1,r;
+    printf("Enter n ");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        r=(float)1/fact(i);   
+        sum=sum+r;
+    }
+    printf("e^n = %f",sum);
+}
+```
+
+###
+http://karpeer.com/questions/2235?puc=1077
+
+```
+#include <stdio.h>
+main()
+{
+
+  int s=20,i,j,temp,a[20];
+  printf("Enter 20 elements: ");
+  for(i=0;i<s;i++)
+      scanf("%d",&a[i]);
+  for(i=0;i<s;i++)
+  {
+      for(j=i+1;j<s;j++)
+      {
+           if(a[i]>a[j])
+           {
+               temp=a[i];
+              a[i]=a[j];
+              a[j]=temp;
+           }
+      }
+  }
+  printf("After sorting is: ");
+  for(i=0;i<s;i++)
+      printf(" %d",a[i]);
+}
+```
+
+###
+http://karpeer.com/questions/2239?puc=1077
+
+```
+#include <stdio.h>
+main(){
+  char str[20];
+  int i,length;
+  printf("Enter a string :");
+  scanf("%s",str);
+  for(i=0;str[i]!='\0';i++);
+  length=i;
+  for(i=0;i<length;i++)
+  {
+      if(str[i]>=65&&str[i]<=90)
+       str[i]=str[i]+32;
+      else if(str[i]>=97&&str[i]<=122)
+       str[i]=str[i]-32;
+  }
+  printf("\nThe converted string is %s",str);
+}
+```
+
+###
+http://karpeer.com/questions/2181?puc=1077
+```
+#include <stdio.h>
+main()
+{
+    int i,n,p;
+    for(n=2;n<=500;n++)
+    {
+        p=0;
+     for(i=2;i<=(n/2);i++)
+        if(n%i==0)
+            p=1;
+     if(p==0)
+     printf("%d ",n);
+    }
+}
+```
+
+###
+http://karpeer.com/questions/251?puc=1092
+
+Data hiding is a technique used in object-oriented programming (OOP) to hide the data members of an object. Data hiding ensures that the data members are accessible only to the members functions of the class and no other function outside the class. this helps to protect the object integrity by preventing unintended or intended changes.
+
+###
+http://karpeer.com/questions/253?puc=1092
+
+It is automatically executed when an object of a class is created.
+It has the same name as the class.
+It cannot be inherited by the derived class.
+It cannot return anything not even void.
+
+###
+http://karpeer.com/questions/260?puc=1092
+
+To open a file, we need to specify how the file must be opened ie for example whether we need to read it, write it,etc. This is done by using file modes. some of the file mode specifiers are
+ios::app - Opens the file for appending at the end of the file. If file doesnot exist then creates a new file.
+ios::trunc - If file already exists, its content is destroyed and a new file is created.
+ios::nocreate - If file name is new, the operation fails else it is opened and its content is made available for processing.
+ios::in - If it is a new file, then an empty file is created else it is opened and its content is made available for processing.
+
+###
+http://karpeer.com/questions/579?puc=1092
+
+Data Abstraction
+Data Encapsulation
+Inheritance
+Polymorphism
+
+###
+http://karpeer.com/questions/1196?puc=1094
+
+Let the node at which we are starting be called the initial node. Let the distance of node Y be the distance from the initial node to Y. Dijkstra's algorithm will assign some initial distance values and will try to improve them step by step.
+
+Step 1 - Assign to every node a tentative distance value: set it to zero for our initial node and to infinity for all other nodes.
+Step 2 - Mark all nodes unvisited. Set the initial node as current. Create a set of the unvisited nodes called the unvisited set consisting of all the nodes.
+Step 3 - For the current node, consider all of its unvisited neighbors and calculate their tentative distances. For example, if the current node A is marked with a distance of 6, and the edge connecting it with a neighbor B has length 2, then the distance to B (through A) will be 6 + 2 = 8.
+Step 4 - When we are done considering all of the neighbors of the current node, mark the current node as visited and remove it from the unvisited set. A visited node will never be checked again.
+Step 5 - If the destination node has been marked visited (when planning a route between two specific nodes) or if the smallest tentative distance among the nodes in the unvisited set is infinity (when planning a complete traversal; occurs when there is no connection between the initial node and remaining unvisited nodes), then stop. The algorithm has finished.
+Step 6 - Select the unvisited node that is marked with the smallest tentative distance, and set it as the new "current node" then go back to step 3.
+
+###
+http://karpeer.com/questions/1188?puc=1094
+
+Preorder traversal of a binary tree: 
+Step 1 - Visit the root
+Step 2 - Traverse the left subtree
+Step 3 - Traverse the right subtree.
+
+Postorder traversal of a binary tree:
+Step 1 - Traverse all the left external nodes starting with the left most subtree which is then followed by bubble-up all the internal nodes
+Step 2 - Traverse the right subtree starting at the left external node which is then followed by bubble-up all the internal nodes
+Step 3 - Visit the root.
+
+###
+http://karpeer.com/questions/1185?puc=1094
+
+Deletion of Node on a Doubly Linked List
+Traverse to the node to be deleted. Let the node to be deleted be 'del'.
+1) If node to be deleted is head node, then change the head pointer to next current head.
+2) Set next of previous to del, if previous to del exixts.
+3) Set prev of next to del, if next to del exixts.
+
+Reversal of a Doubly Linked List
+1) First swap prev and next pointer of all nodes.
+2) Point head to the tail node as tail node is now our new head node.
+
+###
+http://karpeer.com/questions/1225?puc=1094
+
+KRUSKAL(G):
+1 A = ∅
+2 foreach v ∈ G.V:
+3   MAKE-SET(v)
+4 foreach (u, v) ordered by weight(u, v), increasing:
+5    if FIND-SET(u) ≠ FIND-SET(v):
+6       A = A ∪ {(u, v)}
+7       UNION(u, v)
+8 return A
+
+###
+http://karpeer.com/questions/257?puc=1092
+
+In multiple inheritance situations. When class A is inherited by class B and class C, and class D inherits from both B and C, then it inherits two instances of A which introduces ambiguity. By declaring A to be virtual in both B and C, then D inherits directly from A, while B and C share the same instance if A.
+
+###
+http://karpeer.com/questions/2135?puc=1077
+```
+#include <stdio.h>
+main()
+{
+    int i=10;
+    while(i>0)
+    {
+        printf("%d ",i);
+        i--;
+    }
+}
+```
+###
+http://karpeer.com/questions/2159?puc=1077
+
+A mainframe is a high-performance computer used for large-scale computing purposes that require greater processing power and security than a usual personal desktop can offer. They are capable of supporting hundreds, or even thousands, of users simultaneously. with respect to performance, they are just below supercomputers. They are used in many resource intensive applications like bulk data processing, process control, industry and consumer statistics, enterprise resource planning, and financial transaction processing. IBM system z is an example of a mainframe computer.
+
+###
+http://karpeer.com/questions/2164?puc=1077
+
+1. Used for data analysis as it has financial and statistical function.
+2. Storing data in systematic way. Like one Excel file for each day.
+3. Making invoices, timesheet, Trackers etc.
+4. Creating charts for presentation which further can be moved to presentation software like Power Point.
+5. Sorting and filtering data to find specific information.
+
+###
+http://karpeer.com/questions/2168?puc=1077
+
+Apart form the comparison, indexing and arithmetic operations that could be used on pointers, there are 2 operators that are exclusive to pointers, they are & (address-of) and * (value-of) operators.
+
+###
+http://karpeer.com/questions/2189?puc=1077
+
+Speed - A computer can carry out instructions at a very high speed.
+Accuracy - A computer can carry out instructions with a high degree of accuracy.
+Storage - A computer can store huge amounts of data in different formats like mp3, jpeg, etc.
+No Emotion - A computer has no emotions, feelings or preconceptions.
+
+###
+http://karpeer.com/questions/2191?puc=1077
+
+A system software is any computer software which manages and controls computer hardware whereas an Application software is a program used by the user to perform various tasks on the computer, they cant directly access the computer's resources and are dependant on the system software to achieve their purposes. A system software acts as an interface between the computer hardware and the application software. Application software differs from a system software is that it can accessed by the user and allows the user to run it on the computer. MS - Office is an example of a application software whereas UNIX is an example of a system software.
+
+###
+http://karpeer.com/questions/2192?puc=1077
+
+Internet applications are used to perform tasks over the internet. Some exaples of internet applications are Gmail, Google Maps, etc.
+
+###
+http://karpeer.com/questions/2195?puc=1077
+
+Salary = x<40 ? 4*x+100 : x==40 ? 300 : 4.5*x+150;
+
+###
+http://karpeer.com/questions/2198?puc=1077
+
+fseek
+
+int fseek(FILE *stream, long int offset, int whence);
+
+stream - the stream whose file position indicator is to be modified.
+offset - the offset to use (in bytes) when determining the new file position.
+whence - SEEK_SET - The new file position will be the beginning of the file plus offset (in bytes).
+	 SEEK_CUR - The new file position will be the current position plus offset (in bytes).
+	 SEEK_END - The new file position will be the end of the file plus offset (in bytes).
+
+fopen
+
+FILE *fopen(const char *filename, const char *mode);
+
+filename - the name of the file.
+mode - r - read file.
+       w - Write to file.
+       a - Append to file.
+
+###
+http://karpeer.com/questions/2219?puc=1077
+
+The Benefits of Internet are
+It operates 24x7.
+It provides access to up to date information.
+It helps in advertising products.
+It helps us to communicate in the form of public announcements, email, etc.
+
+###
+http://karpeer.com/questions/2221?puc=1077
+
+Pseudocode is an informal description of the logic behind a computer program or algorithm. Its benefits are
+1. It is easy to write and understand.
+2. It helps to identify errors in logic.
+3. It allows non-programmers to understand the computer program logic.
+4. It can be easily modified and converted to program code.
+
+###
+http://karpeer.com/questions/2177?puc=1077
+
+Factorial(num)  
+1   if (num=0 or num=1) then  
+2   fact = 1;  
+3    else  
+4   for i 1 to n    
+5      fact=fact*i;    
+6   print fact
+
+###
+http://karpeer.com/questions/2179?puc=1077
+
+Matrix Addition
+
+1 Assume the first matrix is M and the other is N.
+2 Go to each element in Matrix M and add it to the corresponding element in Matrix N.
+3 Store the result in Matrix Result.
+
+###
+http://karpeer.com/questions/2205?puc=1077
+
+Matrix Multiplication
+
+multiplyMatrix(matrix1, matrix2)
+
+-- Multiplies rows and columns and sums them
+  multiplyRowAndColumn(row, column) returns number
+  var
+    total: number
+  begin
+    for each rval in row and cval in column
+    begin
+       total += rval*cval
+    end
+    return total
+  end
+
+begin
+
+-- If the rows don't match up then the function fails
+
+  if matrix1:n != matrix2:m  return failure;
+
+  dim    = matrix1:n   -- Could also be matrix2:m
+  newmat = new squarematrix(dim)  -- Create a new dim x dim matrix
+  for each r in matrix1:rows and c in matrix2:columns
+  begin
+    
+  end
+end
+
+###
+http://karpeer.com/questions/1288?puc=1092
+
+In C++, following operators can not be overloaded:
+
+. (Member Access or Dot operator)
+?: (Ternary or Conditional Operator)
+:: (Scope Resolution Operator)
+.* (Pointer-to-member Operator)
+sizeof (Object size Operator)
+typeid (Object type Operator)
+###

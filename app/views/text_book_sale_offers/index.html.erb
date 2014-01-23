@@ -1,0 +1,25 @@
+<h1>Listing text_book_sale_offers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @text_book_sale_offers.each do |text_book_sale_offer| %>
+      <tr>
+        <td><%= link_to 'Show', text_book_sale_offer %></td>
+        <td><%= link_to 'Edit', edit_text_book_sale_offer_path(text_book_sale_offer) %></td>
+        <td><%= link_to 'Destroy', text_book_sale_offer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Text book sale offer', new_text_book_sale_offer_path %>
