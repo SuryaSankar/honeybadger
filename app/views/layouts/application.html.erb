@@ -31,7 +31,8 @@
     <%# favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
 
   </head>
-  <body>
+  <% @body_options ||={} %>
+  <%= content_tag :body,@body_options do %>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -109,5 +110,5 @@ analytics.identify(<%= current_user.id %>, {
 });
 </script>
 <% end %>
-  </body>
+  <% end %>
 </html>

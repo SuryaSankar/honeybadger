@@ -35,7 +35,8 @@ body { padding-top: 25px !important; }
 //@boardGreen: #127558;
 
 
-@boardGreen: #15684E;
+@boardGreen: #006948;
+@boardBlue: #1A8982;
 @white: #ffffff;
 @woodBrown: #280D06;
 @woodMediumDarkBrown: #2A2118;
@@ -190,6 +191,10 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   z-index: 2;
   padding: 9px 15px;
   border: 0;
+  background-color: @boardGreen;
+  &:hover{
+    background-color: @boardGreen;
+  }
   text-shadow: 0 1px 0 rgba(0,0,0,.15);
   -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
      -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
@@ -203,7 +208,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   opacity: .25;
 }
 .bs-docs-sidenav > li > a:hover {
-  background-color: #f5f5f5;
+  background-color: #66CDAA;
 }
 .bs-docs-sidenav a:hover .icon-chevron-right {
   opacity: .5;
@@ -222,6 +227,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   bottom: 270px;
 }
 
+.nav-tabs > li:active {
+  background-color: @boardGreen;
+}
 
 .stdfont{
   font-size: 15px;
@@ -250,6 +258,25 @@ a:hover { background-color: #DEDEDE; color: #000000;  }
 .notunderlinedpageheader{
   padding-bottom: (@baseLineHeight / 2) - 1;
   margin: @baseLineHeight 0 (@baseLineHeight * 1.5);
+}
+
+.nav-tabs > li > a{
+  .roboto;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;  
+    cursor: pointer;
+    &:hover { background-color: #66CDAA; color: @white;  }
+    
+}
+
+.nav-tabs > .active > a{
+ background-color: @boardGreen;
+ color: @white;
+&:link { background-color: @boardGreen; color: @white;  }
+&:visited{ background-color: @boardGreen; color: @white;  }
+&:hover { background-color: @boardGreen; color: @white;  }
+&:active { background-color: @boardGreen; color: @white;  }
 }
 
 .handwriting(@family: 'Special Elite', @fontColor: @white){
@@ -387,6 +414,8 @@ a:hover { background-color: #DEDEDE; color: #000000;  }
 
   background-repeat: no-repeat;
   height: 160px;
+  color: @white;
+ font-family: 'Roboto', sans-serif;
   
 }
 #bannerLayoutTitle{

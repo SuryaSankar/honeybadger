@@ -6,7 +6,10 @@
   <div class="row">
     <div class="span12">
     <%= form_tag '/selectprogram', method: :get , remote: true, class: "form-horizontal", id: "program_select_form" do %>
-      <p><h4>Choose your program:</h4></p>
+      <div class="row">
+      <h4>Choose your program:</h4>
+      </div>
+      <div class="row">
       <% @branch.programs.each do |p| %>
         <% if !p.nil? then %>
         <label class="radio inline stdfont">
@@ -14,40 +17,56 @@
         </label>
         <% end %>
       <% end %>
+        </div>
     <% end %>
     </div>
     </div>
-   <div class="row" > 
+   <div class="row" id="program_details">
     <div class="span12">
         
-        <p><h4>Choose a course:</h4></p>
-        
-        <div class="row" id="program_details">
-        <div class="span5 offset3">
-        <% p=Program.find_by( branch_id: @branch.id, university_id: 2)%>
-        <div class="page-header centeralign"><h4><%= p.short_desc %></h4></div>
-        </div>
-        </div>
-        <% (1..8).each do |n| %>
         <div class="row">
-        <div class="span4">
-        <h4>Semester <%= n %></h4>
-        </div>
+                <h4>Now choose a course:</h4></p>
+                <% p=Program.find_by( branch_id: @branch.id, university_id: 2)%>
         </div>
         <div class="row">
-        <ul class="thumbnails">
-          <% p.program_university_courses.select{ |puc| puc.semester==n && puc.university_course !=nil }.each do |puc1| %>
-            <li class="span3">
-            <div class="thumbnail coloredThumbnail">
-              <div align="center"><h5><%= link_to puc1.university_course.full_course_name, program_university_course_path(puc1.id)%></h5></div>
-            </div>
-            </li>
+        <ul class="nav nav-tabs">
+          <li class="active"><%= link_to "Semester 1", "#sem1courses", "data-toggle"=>"tab" %></li>
+          <% (2..8).each do |n| %>
+          <li><%= link_to "Semester #{n}", "#sem#{n}courses", "data-toggle"=>"tab" %></li>
           <% end %>
         </ul>
         </div>
-        <% end %>
+
+        <div class="row">
+          <div class="tab-content">
+          <div class="tab-pane active" id="sem1courses">
+            <ul class="thumbnails">
+              <% p.program_university_courses.select{ |puc| puc.semester==1 && puc.university_course !=nil }.each do |puc1| %>
+                <li class="span3">
+                <div class="thumbnail coloredThumbnail">
+                  <div align="center"><h5><%= link_to puc1.university_course.full_course_name, program_university_course_path(puc1.id)%></h5></div>
+                </div>
+                </li>
+              <% end %>
+            </ul>
+          </div><!-- tab-pane active -->
+          <% (2..8).each do |n| %>
+          <%= content_tag :div , class: "tab-pane", id: "sem#{n}courses" do%>
+            <ul class="thumbnails">
+              <% p.program_university_courses.select{ |puc| puc.semester==n && puc.university_course !=nil }.each do |puc1| %>
+                <li class="span3">
+                <div class="thumbnail coloredThumbnail">
+                  <div align="center"><h5><%= link_to puc1.university_course.full_course_name, program_university_course_path(puc1.id)%></h5></div>
+                </div>
+                </li>
+              <% end %>
+            </ul>
+          <% end %>
+          <% end %>
+          </div><!-- tab-content -->
+        </div><!-- row -->
     </div>
-  </div>
+  </div> <!-- program_details -->
 
 <% content_for (:extra_scripts) do %>
 <script>
