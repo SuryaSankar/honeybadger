@@ -100,8 +100,8 @@
 Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_authorize_path(:facebook) do %> Your Facebook Account <% end %> &nbsp;&nbsp;&nbsp;Or</p><p><i class="icon-google-plus-sign"></i> <%= link_to  user_omniauth_authorize_path(:google_oauth2) do %> Your Gmail Account <% end %></p>	
 			<% else %>
         <div class="span3">
-        <div class="notunderlinedpageheader centeralign roboto stdfont">
-          <h4>Sign up/ Sign in via:</h4>
+        <div class="notunderlinedpageheader centeralign roboto stdfont bold">
+          Sign up/ Sign in via:
         </div>
         </div>
         <div class="span2">
@@ -126,8 +126,8 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
 
 <div class="row">
   <div class="span3 ">
-    <div class="notunderlinedpageheader centeralign roboto">
-    <h4>Select Your Branch</h4>
+    <div class="notunderlinedpageheader centeralign roboto stdfont bold">
+    Select Your Branch
     </div>
   </div>
   <div class="span9">
@@ -136,7 +136,7 @@ Sign in via <p><i class="icon-facebook-sign"></i> <%= link_to  user_omniauth_aut
         <div>
           <li class="span4">
             <div class="thumbnail coloredThumbnail">
-            <div align="center"><h4><%= link_to branch.name, branch_path(branch.id) %></h4></div>
+            <div align="center"><%= link_to branch.name, branch_path(branch.id) %></div>
             </div>
           </li>
         </div>
