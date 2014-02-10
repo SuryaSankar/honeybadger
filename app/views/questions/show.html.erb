@@ -47,8 +47,28 @@
 
 <% end %>
 
-<div class="row">
+
+        <div class="row">
+        <div class="span12">
 				<div class="stdfont"><h4>Question: <%= @question.qtitle unless @question.qtitle.nil? %></h4></div><%= raw render_markdown @question.qtext %>
+        </div>
+        </div>
+        <div class="row">
+        <div class="span3">
+		<h5>Asked By: </h5>
+		<%= @question.user.uname %>
+        </div>
+        <div class="span3 offset1">
+		      <% if !@question.qpapers.empty? then %>
+			      <h5>Appeared in: </h5>
+			      <ol>
+			      <% @question.qpapers.each do |qp| %>
+				      <li><%= link_to qp.full_title, qpaper_path(qp.id) %></li>
+			      <% end %>
+			      </ol>
+		      <% end %>
+        </div>
+        <div class="span3 offset1">
         <% if user_signed_in? && @question.user_id == current_user.id then %>
         <div class="stdfont"><h4>Actions: </h4></div>
         <div class="thinlink">
@@ -61,23 +81,22 @@
           </div>
           
         <% end %>
-</div>
+        </div>
+
+        </div>
+
 
 
 <% @include_wmd=false %>
 <div class="row-fluid">
 
-	<div class="span4">
-		<%= render partial: "partials/question_stats", locals: { question: @question }%>
-		<%= render partial: "partials/syntax_help" %>
 
-	</div>
 
 	<div class="span8">
 <% solutions=@question.solutions %>
 <% if @question.solutions.size > 0 then %>
 	<% solutions.each do |sol| %>
-		<div class="right-bordered-box">
+		<div class="left-bordered-box">
 			<div class="heading"><h5><%= sol.user.uname %>'s Answer&nbsp;&nbsp;&nbsp; 
 			<%= content_tag :div,  id: "upvotes"+sol.id.to_s do %>
 				<% if AcceptedSolution.where(user_id: current_user.id, solution_id: sol.id).count ==0 then%>
@@ -119,7 +138,11 @@
 	<% end %>
 	</div>
 
+	<div class="span4">
+		<%# render partial: "partials/question_stats", locals: { question: @question }%>
+		<%= render partial: "partials/syntax_help" %>
 
+	</div>
 </div>
 
 

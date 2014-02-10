@@ -378,16 +378,16 @@ a:hover { background-color: #DEDEDE; color: #000000;  }
  background-color: #4A4A4A;
  color: @white;
  height: 60px;
- font-size: 22px;
+ font-size: 14px;
  margin-bottom: 10px;
  .border-radius(5px);
  font-family: 'Josefin Sans', sans-serif;
 -webkit-text-stroke: 0.6px;
  font-weight: bold;
- padding-top: 20px;
+ padding-top: 5px;
  a{
   color: @white;
-  font-size: 22px;
+  font-size: 18px;
     &:visited{
       color: @white;
     }  
@@ -421,27 +421,44 @@ a:hover { background-color: #DEDEDE; color: #000000;  }
 	margin-bottom: 0px;
 
   background-color: @boardGreen;
-  background-image: url("<%= asset_path "logotransparent280.png" %>");
+  background-image: url("<%= asset_path "logoplain280.png" %>");
 
   background-repeat: no-repeat;
   height: 160px;
   color: @white;
  font-family: 'Josefin Sans', sans-serif;
 -webkit-text-stroke: 0.6px;
+
   
 }
-#bannerLayoutTitle{
 
+.karpeerHomeTitle{
+  padding-top: 70px;
+  font-family: inherit;
+  font-size: 120px;
+}
+
+.karpeerHomeSubTitle{
+  padding-top: 70px;
+  font-family: inherit;
+  font-size: 70px;
+}
+
+#bannerLayoutTitle{
+  padding-bottom: 40px;
+  font-family: inherit;
+  font-size: 30px;
  
 }
 
 #bannerLayout{
 	.border-radius(0px);
 	margin-bottom: 0px;
-
+  margin-left: 20px;
+  padding-left:10px;
   
   background-color: @boardGreen;
-  background-image: url("<%= asset_path "logotransparent140.png" %>");
+  background-image: url("<%= asset_path "logoplain140.png" %>");
 
   background-repeat: no-repeat;
   height: 20px;

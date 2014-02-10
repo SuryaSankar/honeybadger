@@ -43,7 +43,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner navbarCursiveFont">
+      <div class="navbar-inner roboto">
         <div class="container">
           <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
             <span class="icon-bar"></span>
@@ -71,8 +71,11 @@
 		<%= yield :masthead_content %>
 <% else %>
 	<div class="hero-unit" id="bannerLayout">
-	<div class="row" id="bannerLayoutTitle">		
-    <div class="span9 offset3">
+	<div class="row" id="bannerLayoutTitle">
+    <div class="span1 offset2">
+      Karpeer
+    </div>	
+    <div class="span8 offset1">
      <%= content_for?(:bannerLayoutTitle) ? yield(:bannerLayoutTitle) : "" %>
     </div>
 	</div>
