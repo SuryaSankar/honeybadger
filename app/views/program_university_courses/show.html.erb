@@ -108,10 +108,10 @@
 <div class="row">
 -->
   <div class="roboto stdfont">
-	    <% cache(["v7",@program_university_course.university_course.course]) do%>
+	    <% cache(["v8",@program_university_course.university_course.course]) do%>
 		    <div class="underlinedlink"><%= link_to "Add a question" , new_question_path+"?course="+@program_university_course.university_course.course_id.to_s %></div> 
 			    <% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).count > 0 then %>
-				    <h5>Questions added by Users</h5>
+				    <h3>Questions added by Users</h3>
 				    <ol>
 				    <% Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).each do |q| %>
             <% cache(["v4",q]) do %>
@@ -121,10 +121,10 @@
 				    </ol>
 			    <% end %>
 			    <% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: false).count > 0 then %>
-				    <h5>Questions obtained from question papers</h5>
+				    <h3>Questions obtained from question papers</h3>
 				    <% questions = Question.includes(:examquestions).where(course_id: @program_university_course.university_course.course_id).where(standalone: false).order('examquestions.mark ASC').group_by { |q| q.examquestions.first.mark } %>
 				    <% questions.keys.each do |mark| %>
-				    <h6><%= mark %> Marks</h6>
+				    <h4><%= mark %> Marks</h4>
 				    <ol>
 				    <% questions[mark].each do |q| %>
             <% cache(["v4",q]) do %>
