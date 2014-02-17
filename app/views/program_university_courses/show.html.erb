@@ -108,14 +108,14 @@
 <div class="row">
 -->
   <div class="roboto stdfont">
-	    <% cache(["v8",@program_university_course.university_course.course]) do%>
+	    <% cache(["v9",@program_university_course.university_course.course]) do%>
 		    <div class="underlinedlink"><%= link_to "Add a question" , new_question_path+"?course="+@program_university_course.university_course.course_id.to_s %></div> 
 			    <% if Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).count > 0 then %>
 				    <h3>Questions added by Users</h3>
 				    <ol>
 				    <% Question.where(course_id: @program_university_course.university_course.course_id).where(standalone: true).each do |q| %>
-            <% cache(["v4",q]) do %>
-				    <li><div class="thinlink"><%= link_to (q.qtitle || q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></div></li>
+            <% cache(["v5",q]) do %>
+				    <li><div class="thinlink"><%= link_to (q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></div></li>
             <% end %>
 				    <% end %>
 				    </ol>
@@ -127,8 +127,8 @@
 				    <h4><%= mark %> Marks</h4>
 				    <ol>
 				    <% questions[mark].each do |q| %>
-            <% cache(["v4",q]) do %>
-				     <li><div class="thinlink"><%= link_to (q.qtitle || q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></div></li>
+            <% cache(["v5",q]) do %>
+				     <li><div class="thinlink"><%= link_to (q.qtext), question_path(q.id)+"?puc="+@program_university_course.id.to_s %></div></li>
             <% end %>
 				    <% end %>
 				    </ol>
