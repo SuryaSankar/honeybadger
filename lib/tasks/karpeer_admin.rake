@@ -362,14 +362,43 @@ namespace :karpeer_admin do
         when /^TEXT *BOOKS*:*$/
            start_books=true
            references=false
-        when /^REFERENCES[:]*$/
+        when /^REFERENCES*[:]*$/
            start_books=true
            references=true
+        when /^\d+\.\s*(?<bookname>.+)\|ASIN(?<asin>\d+)$/
+           puts "adding books"
+           asin=$~[:asin]
+           if start_books then
+             Textbook.create(name: $~[:bookname], university_course_id: uc.id, reference: references, amzasin: asin) unless ignore
+           else
+             if start_curriculum then
+              if units.last.unit_curriculum==nil then
+                units.last.unit_curriculum=line.strip
+              else
+                units.last.unit_curriculum+=(" "+line.strip)
+              end
+             end
+           end
         when /^\d+\.\s*(?<bookname>.+)\|<iframe src="http:\/\/www.flipkart.com\/affiliate\/displayWidget\?affrid=(?<affrid>.*)" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ><\/iframe>$/
            puts "adding books"
            affrid=$~[:affrid]
            if start_books then
              Textbook.create(name: $~[:bookname], university_course_id: uc.id, reference: references, flipkart_affrid: affrid) unless ignore
+           else
+             if start_curriculum then
+              if units.last.unit_curriculum==nil then
+                units.last.unit_curriculum=line.strip
+              else
+                units.last.unit_curriculum+=(" "+line.strip)
+              end
+             end
+           end
+        when /^\d+\.\s*(?<bookname>.+)\|<iframe src="http:\/\/www.flipkart.com\/affiliate\/displayWidget\?affrid=(?<affrid>.*)" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ><\/iframe>\|(?<asin>\d+)$/
+           puts "adding books"
+           affrid=$~[:affrid]
+           asin=$~[:asin]
+           if start_books then
+             Textbook.create(name: $~[:bookname], university_course_id: uc.id, reference: references, flipkart_affrid: affrid, amzasin: asin) unless ignore
            else
              if start_curriculum then
               if units.last.unit_curriculum==nil then

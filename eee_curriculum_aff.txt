@@ -123,3 +123,16 @@
 !!EE2452|Project work - EEE|6
 
 
+GE2155
+COMPUTER PRACTICE LABORATORY – II
+1. UNIX COMMANDS
+Study of Unix OS - Basic Shell Commands - Unix Editor
+2. SHELL PROGRAMMING
+15
+Simple Shell program - Conditional Statements - Testing and Loops
+3. C PROGRAMMING ON UNIX
+15
+Dynamic Storage Allocation-Pointers-Functions-File Handling
+
+
+

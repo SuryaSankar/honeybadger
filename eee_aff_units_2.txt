@@ -1,0 +1,311 @@
+CS2411
+
+UNIT I PROCESSES AND THREADS
+Introduction to operating systems – review of computer organization – operating system structures –
+system calls – system programs – system structure – virtual machines. Processes: Process concept
+– Process scheduling – Operations on processes – Cooperating processes – Interprocess
+communication – Communication in client-server systems. Case study: IPC in Linux. Threads: Multi-
+threading models – Threading issues. Case Study: Pthreads library
+UNIT II PROCESS SCHEDULING AND SYNCHRONIZATION
+CPU Scheduling: Scheduling criteria – Scheduling algorithms – Multiple-processor scheduling –
+Real time scheduling – Algorithm Evaluation. Case study: Process scheduling in Linux. Process
+Synchronization: The critical-section problem – Synchronization hardware – Semaphores – Classic
+problems of synchronization – critical regions – Monitors. Deadlock: System model – Deadlock
+characterization – Methods for handling deadlocks – Deadlock prevention – Deadlock avoidance –
+Deadlock detection – Recovery from deadlock.
+UNIT III STORAGE MANAGEMENT
+Memory Management: Background – Swapping – Contiguous memory allocation – Paging –
+Segmentation – Segmentation with paging. Virtual Memory:Background – Demand paging – Process
+creation – Page replacement –Allocation of frames – Thrashing. Case Study: Memory management
+in Linux
+UNIT IV FILE SYSTEMS
+File-System Interface: File concept – Access methods – Directory structure –File-system mounting –
+Protection. File-System Implementation : Directory implementation – Allocation methods – Free-
+space management – efficiency and performance – recovery – log-structured file systems. Case
+studies: File system in Linux – file system in Windows XP
+UNIT V I/O SYSTEMS
+I/O Systems – I/O Hardware – Application I/O interface – kernel I/O subsystem – streams –
+performance. Mass-Storage Structure: Disk scheduling – Disk management – Swap-space
+management – RAID – disk attachment – stable storage – tertiary storage. Case study: I/O in Linux
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. Silberschatz, Galvin, and Gagne, “Operating System Concepts”, Sixth Edition, Wiley India Pvt Ltd, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138636295735277665" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126520515
+2. D. M. Dhamdhere, “Operating Systems: A concepts based approach”, Second Edition, Tata McGraw-Hill Publishing Company Ltd., 2006.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138636352742579020" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070611947
+REFERENCES
+1. Andrew S. Tanenbaum, “Modern Operating Systems”, Second Edition, Pearson Education/PHI, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138636328844769668" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120339045
+2. Harvey M. Deital, “Operating Systems”, Third Edition, Pearson Education, 2004.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138839854619435780" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+
+EE2451
+UNIT I POWER GENERATION
+Review of conventional methods – thermal, hydro and nuclear based power generation. Non-
+conventional methods of power generation – fuel cells - tidal waves – wind – geothermal – solar -
+bio-mass - municipal waste. Cogeneration. Effect of distributed generation on power system
+operation.
+UNIT II ECONOMIC ASPECTS OF GENERATION
+Economic aspects of power generation – load and load duration curves – number and size of units –
+cost of electrical energy – tariff. Economics of power factor improvement – power capacitors – power
+quality. Importance of electrical energy conservation – methods – energy efficient equipments.
+Introduction to energy auditing.
+UNIT III ILLUMINATION
+Importance of lighting – properties of good lighting scheme – laws of illumination – photometry -
+types of lamps – lighting calculations – basic design of illumination schemes for residential,
+commercial, street lighting, and sports ground - energy efficiency lamps.
+UNIT IV INDUSTRIAL HEATING AND WELDING
+Role electric heating for industrial applications – resistance heating – induction heating – dielectric
+heating - electric arc furnaces. Brief introduction to electric welding – welding generator, welding
+transformer and the characteristics.
+UNIT V ELECTRIC TRACTION
+Merits of electric traction – requirements of electric traction system – supply systems – mechanics of
+train movement – traction motors and control – braking – recent trends in electric traction.
+TOTAL : 45 PERIODS
+
+TEXT BOOKS
+1. C.L. Wadhwa, ‘Generation, Distribution and Utilization of Electrical Energy’, New Age International Pvt. Ltd, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139288065816220552" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122428215
+2. B.R. Gupta, ‘Generation of Electrical Energy’, Eurasia Publishing House (P) Ltd, New Delhi, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139325055015141841" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES
+1. H. Partab, ‘Art and Science of Utilisation of Electrical Energy’, Dhanpat Rai and Co, New Delhi, 2004.|na
+2. E. Openshaw Taylor, ‘Utilization of Electrical Energy in SI Units’, Orient Longman Pvt. Ltd, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139325066913389216" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. J.B. Gupta, ‘Utilization of Electric Power and Electric Traction’, S.K. Kataria and Sons, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139325075921339511" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|9350142589
+
+EI2404
+UNIT I OPTICAL FIBRES AND THEIR PROPERTIES
+Principles of light propagation through a fibre - Different types of fibres and their properties, fibre
+characteristics – Absorption losses – Scattering losses – Dispersion – Connectors and splicers –
+Fibre termination – Optical sources – Optical detectors.
+UNIT II INDUSTRIAL APPLICATION OF OPTICAL FIBRES
+Fibre optic sensors – Fibre optic instrumentation system – Different types of modulators –
+Interferometric method of measurement of length – Moire fringes – Measurement of pressure,
+temperature, current, voltage, liquid level and strain.
+UNIT III LASER FUNDAMENTALS
+Fundamental characteristics of lasers – Three level and four level lasers – Properties of laser –
+Laser modes – Resonator configuration – Q-switching and mode locking – Cavity damping – Types
+of lasers – Gas lasers, solid lasers, liquid lasers, semiconductor lasers.
+UNIT IV INDUSTRIAL APPLICATION OF LASERS
+Laser for measurement of distance, length, velocity, acceleration, current,
+voltage and Atmospheric effect – Material processing – Laser heating, welding,
+melting and trimming of material – Removal and vaporization.
+UNIT V HOLOGRAM AND MEDICAL APPLICATIONS
+Holography – Basic principle - Methods – Holographic interferometry and application, Holography for
+non-destructive testing – Holographic components – Medical applications of lasers, laser and tissue
+interactive – Laser instruments for surgery, removal of tumors of vocal cards, brain surgery, plastic
+surgery, gynaecology and oncology.
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. J.M. Senior, ‘Optical Fibre Communication – Principles and Practice’, Prentice Hall of India, 1985.|na
+2. J. Wilson and J.F.B. Hawkes, ‘Introduction to Opto Electronics’, Prentice Hall of India, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138668200251584695" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES
+1. G. Keiser, ‘Optical Fibre Communication’, McGraw Hill, 1995.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139325108832429795" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0071164685
+2. M. Arumugam, ‘Optical Fibre Communication and Sensors’, Anuradha Agencies, 2002.|na
+3. John F. Read, ‘Industrial Applications of Lasers’, Academic Press, 1978.|na
+4. Monte Ross, ‘Laser Applications’, McGraw Hill, 1968|na
+
+CS2070
+VISUAL LANGUAGES AND APPLICATIONS
+UNIT I FUNDAMENTALS OF WINDOWS AND MFC
+Messages - Windows programming - SDK style - Hungarian notation and windows data types - SDK
+programming in perspective.The benefits of C++ and MFC - MFC design philosophy -
+Document/View architecture - MFC class hierarchy - AFX functions. Application object - Frame
+window object - Message map.
+Drawing the lines – Curves – Ellipse – Polygons and other shapes. GDI pens – Brushes - GDI fonts -
+Deleting GDI objects and deselecting GDI objects. Getting input from the mouse: Client & Non-
+client - Area mouse messages - Mouse wheel - Cursor. Getting input from the keyboard: Input focus
+- Keystroke messages - Virtual key codes - Character & dead key messages.
+UNIT II RESOURCES AND CONTROLS
+Creating a menu – Loading and displaying a menu – Responding to menu commands – Command
+ranges - Updating the items in menu, update ranges – Keyboard accelerators. Creating menus
+programmatically - Modifying menus programmatically - The system menu - Owner draw menus –
+Cascading menus - Context menus.
+The C button class – C list box class – C static class - The font view application – C edit class – C
+combo box class – C scrollbar class. Model dialog boxes – Modeless dialog boxes.
+UNIT III DOCUMENT / VIEW ARCHITECTURE
+The inexistence function revisited – Document object – View object – Frame window object –
+Dynamic object creation. SDI document template - Command routing. Synchronizing multiple views
+of a document – Mid squares application – Supporting multiple document types – Alternatives to
+MDI. Splitter Windows: Dynamic splitter window – Static splitter windows.
+Creating & initializing a toolbar - Controlling the toolbar’s visibility – Creating & initializing a status bar
+- Creating custom status bar panes – Status bar support in appwizard. Opening, closing and creating
+the files - Reading & Writing – C file derivatives – Serialization basics - Writing serializable classes.
+UNIT IV FUNDAMENTALS OF VISUAL BASIC
+Menu bar – Tool bar – Project explorer – Toolbox – Properties window – Form designer – Form
+layout – Intermediate window. Designing the user interface: Aligning the controls – Running the
+application – Visual development and event driven programming.
+Variables: Declaration – Types – Converting variable types – User defined data types - Lifetime of a
+variable. Constants - Arrays – Types of arrays. Procedures: Subroutines – Functions – Calling
+procedures. Text box controls – List box & Combo box controls – Scroll bar and slider controls – File
+controls.
+UNIT V DATABASE PROGRAMMING WITH VB
+Record sets – Data control – Data control properties, methods. Visual data manager: Specifying
+indices with the visual data manager – Entering data with the visual data manager. Data bound list
+control – Data bound combo box – Data bound grid control. Mapping databases: Database object –
+Table def object, Query def object.
+Programming the active database objects – ADO object model – Establishing a connection -
+Executing SQL statements – Cursor types and locking mechanism – Manipulating the record set
+object – Simple record editing and updating.
+TOTAL : 45 PERIODS
+
+TEXT BOOKS:
+1. Jeff Prosise, ‘Programming Windows With MFC’, Second Edition, WP Publishers & Distributors [P] Ltd, Reprinted 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331584764655636" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|9350041715
+2. Evangelos Petroutsos, ‘Mastering Visual Basic 6.0’, BPB Publications, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331590785769694" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B004H4XLGU
+REFERENCES:
+1. Herbert Schildt, ‘MFC Programming From the Ground Up’, Second Edition, Tata McGraw Hill, reprinted 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331603249458799" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. John Paul Muller, ‘Visual C++ 6 From the Ground Up Second Edition’, Tata McGraw Hill, Reprinted 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331607329217346" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. Curtis Smith & Micheal Amundsen, ‘Teach Yourself Database Programming with Visual Basic 6 in 21 days’, Techmedia Pub, 1999.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331614861612341" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8176351733
+
+
+IC2351
+UNIT I STATE VARIABLE ANALYSIS
+Concept of state – State Variable and State Model – State models for linear and continuous time
+systems – Solution of state and output equation – controllability and observability - Pole Placement –
+State observer Design of Control Systems with observers.
+UNIT II PHASE PLANE ANALYSIS
+Features of linear and non-linear systems - Common physical non-linearities – Methods of linearising
+non-linear systems - Concept of phase portraits – Singular points – Limit cycles – Construction of
+phase portraits – Phase plane analysis of linear and non-linear systems – Isocline method.
+UNIT III DESCRIBING FUNCTION ANALYSIS
+Basic concepts, derivation of describing functions for common non-linearities – Describing function
+analysis of non-linear systems – Conditions for stability – Stability of oscillations.
+UNIT IV STABILITY ANALYSIS
+Introduction – Liapunov’s stability concept – Liapunov’s direct method – Lure’s transformation –
+Aizerman’s and Kalman’s conjecture – Popov’s criterion – Circle criterion.
+UNIT V OPTIMAL CONTROL
+Introduction -Decoupling - Time varying optimal control – LQR steady state optimal control
+– Optimal estimation – Multivariable control design.
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. I.J. Nagrath and M. Gopal, ‘Control Systems Engineering’, New Age International Publishers, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633482420876177" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122420087
+2. Ashish Tewari, ‘Modern control Design with Matlab and Simulink’, John Wiley, New Delhi, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331633634414558" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES
+1. George J. Thaler, ‘Automatic Control Systems’, Jaico Publishers, 1993.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331639514196224" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8172240015
+2. M.Gopal, Modern control system theory, New Age International Publishers, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331647448853732" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122436382
+3. Gene F. Franklin, J. David Powell and Abbasemami-Naeini, “ Feedback Control of Dynamic Systems”, Fourth edition, Pearson Education, Low price edition. 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331651251574638" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131721426
+
+EE2023
+ROBOTICS AND AUTOMATION
+UNIT I BASIC CONCEPTS
+Definition and origin of robotics – different types of robotics – various generations of robots –
+degrees of freedom – Asimov’s laws of robotics – dynamic stabilization of robots.
+UNIT II POWER SOURCES AND SENSORS
+Hydraulic, pneumatic and electric drives – determination of HP of motor and gearing ratio – variable
+speed arrangements – path determination – micro machines in robotics – machine vision – ranging –
+laser – acoustic – magnetic, fiber optic and tactile sensors.
+UNIT III MANIPULATORS, ACTUATORS AND GRIPPERS
+Construction of manipulators – manipulator dynamics and force control – electronic and pneumatic
+manipulator control circuits – end effectors – U various types of grippers – design considerations.
+UNIT IV KINEMATICS AND PATH PLANNING
+Solution of inverse kinematics problem – multiple solution jacobian work envelop – hill climbing
+techniques – robot programming languages
+UNIT V CASE STUDIES
+Mutiple robots – machine interface – robots in manufacturing and non- manufacturing applications –
+robot cell design – selection of robot.
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. Mikell P. Weiss G.M., Nagel R.N., Odraj N.G., Industrial Robotics, McGraw-Hill Singapore, 1996.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138840874909396160" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|1259006212
+2. Ghosh, Control in Robotics and Automation: Sensor Based Integration, Allied Publishers, Chennai, 1998.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331679197044278" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B0089EHSMW
+REFERENCES
+1. Deb.S.R., Robotics technology and flexible Automation, John Wiley, USA 1992.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138840881928370798" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B0090NCLLO
+2. Asfahl C.R., Robots and manufacturing Automation, John Wiley, USA 1992.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139331697928547922" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. Klafter R.D., Chimielewski T.A., Negin M., Robotic Engineering – An integrated approach, Prentice Hall of India, New Delhi, 1994.|ASIN8120308425
+4. Mc Kerrow P.J. Introduction to Robotics, Addison Wesley, USA, 1991.|na
+5. Issac Asimov I Robot, Ballantine Books, New York, 1986.|na
+
+
+GE2025
+UNIT I ENGINEERING ETHICS
+Senses of ‘Engineering Ethics’ – Variety of moral issues – Types of inquiry – Moral dilemmas –
+Moral Autonomy – Kohlberg’s theory – Gilligan’s theory – Consensus and Controve
+UNIT II ENGINEERING AS SOCIAL EXPERIMENTATION
+Engineering as Experimentation – Engineers as responsible Experimenters – Research Ethics -
+Codes of Ethics – Industrial Standards - A Balanced Outlook on Law – The Challenger Case Study
+UNIT III ENGINEER’S RESPONSIBILITY FOR SAFETY
+Safety and Risk – Assessment of Safety and Risk – Risk Benefit Analysis – Reducing Risk – The
+Government Regulator’s Approach to Risk - Chernobyl Case Studies and Bhopal
+UNIT IV RESPONSIBILITIES AND RIGHTS
+Collegiality and Loyalty – Respect for Authority – Collective Bargaining – Confidentiality – Conflicts
+of Interest – Occupational Crime – Professional Rights – Employee Rights – Intellectual Property
+Rights (IPR) - Discrimination
+UNIT V GLOBAL ISSUES
+Multinational Corporations – Business Ethics - Environmental Ethics – Computer Ethics - Role in
+Technological Development – Weapons Development – Engineers as Managers – Consulting
+Engineers – Engineers as Expert Witnesses and Advisors – Honesty – Moral Leadership – Sample
+Code of Conduct
+TOTAL : 45 PERIODS
+TEXT BOOKS :
+1. Mike Martin and Roland Schinzinger, “fEthics in Engineering”, McGraw Hill, New York (2005).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138667712960992529" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|007054073X
+2. Charles E Harris, Michael S Pritchard and Michael J Rabins, “Engineering Ethics – Concepts and Cases”, Thompson Learning, (2000).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138667710667445305" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131517292
+REFERENCES:
+1. Charles D,  “Engineering Ethics”, Prentice Hall, New Mexico, (1999).|na
+2. John R Boatright, “Ethics and the Conduct of Business”, Pearson Education, (2003)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138667724147286829" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B00BG6X04U
+3. Edmund G Seebauer and Robert L Barry, “Fundamentals of Ethics for Scientists and Engineers”, Oxford University Press, (2001)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138667728148747464" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0195134885
+4. Prof. (Col) P S Bajaj and Dr. Raj Agrawal, “Business Ethics – An Indian Perspective”, Biztantra, New Delhi, (2004)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333356206491198" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B00FJVETUW
+5. David Ermann and Michele S Shauf, “Computers, Ethics and Society”, Oxford University Press, (2003)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138841015215499867" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0195143027
+
+EE2027
+UNIT I INTRODUCTION AND SURVEY
+Review and importance of the study of transients - causes for transients.
+RL circuit transient with sine wave excitation - double frequency transients - basic transforms of the
+RLC circuit transients.
+Different types of power system transients - effect of transients on power systems – role of the study
+of transients in system planning.
+UNIT II SWITCHING TRANSIENTS
+Over voltages due to switching transients - resistance switching and the equivalent circuit for
+interrupting the resistor current - load switching and equivalent circuit - waveforms for transient
+voltage across the load and the switch - normal and abnormal switching transients. Current
+suppression - current chopping - effective equivalent circuit. Capacitance switching - effect of source
+regulation - capacitance switching with a restrike, with multiple restrikes. Illustration for multiple
+restriking transients - ferro resonance.
+UNIT III LIGHTNING TRANSIENTS
+Review of the theories in the formation of clouds and charge formation - rate of charging of thunder
+clouds – mechanism of lightning discharges and characteristics of lightning strokes – model for
+lightning stroke - factors contributing to good line design - protection using ground wires - tower
+footing resistance - Interaction between lightning and power system.
+UNIT IV TRAVELING WAVES ON TRANSMISSION LINE COMPUTATION OF TRANSIENTS
+Computation of transients - transient response of systems with series and shunt lumped parameters
+and distributed lines. Traveling wave concept - step response - Bewely’s lattice diagram - standing
+waves and natural frequencies - reflection and refraction of travelling waves.
+UNIT V TRANSIENTS IN INTEGRATED POWER SYSTEM
+The short line and kilometric fault - distribution of voltages in a power system - Line dropping and
+load rejection - voltage transients on closing and reclosing lines - over voltage induced by faults -
+switching surges on integrated system Qualitative application of EMTP for transient computation.
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. Allan Greenwood, ‘Electrical Transients in Power Systems’, Wiley Interscience, New York, 2nd edition 1991.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333392742588730" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126527293
+2. R.D.Begamudre, ‘Extra High Voltage AC Transmission Engineering’, Wiley Eastern Limited, 1986.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333401636461297" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122417922
+REFERENCES
+1. M.S.Naidu and V.Kamaraju, ‘High Voltage Engineering’, Tata McGraw Hill, 2nd edition, 2000.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333408296558056" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|1259062899
+
+EI2311
+UNIT IPHYSIOLOGY AND TRANSDUCERS
+Cell and its structure – Resting and Action Potential – Nervous system: Functional organisation of
+the nervous system – Structure of nervous system, neurons - synapse –transmitters and neural
+communication – Cardiovascular system – respiratory system – Basic components of a biomedical
+system - Transducers – selection criteria – Piezo electric, ultrasonic transducers - Temperature
+measurements - Fibre optic temperature sensors.
+UNIT II ELECTRO – PHYSIOLOGICAL MEASUREMENTS
+Electrodes –Limb electrodes –floating electrodes – pregelled disposable electrodes - Micro, needle
+and surface electrodes – Amplifiers: Preamplifiers, differential amplifiers, chopper amplifiers –
+Isolation amplifier. ECG – EEG – EMG – ERG – Lead systems and recording methods – Typical waveforms.
+Electrical safety in medical environment: shock hazards – leakage current-Instruments for checking
+safety parameters of biomedical equipments
+UNIT III NON-ELECTRICAL PARAMETER MEASUREMENTS
+Measurement of blood pressure – Cardiac output – Heart rate – Heart sound –Pulmonary function
+measurements – spirometer – Photo Plethysmography, Body Plethysmography – Blood Gas
+analysers : pH of blood –measurement of blood pCO2, pO2, finger-tip oxymeter - ESR, GSR
+measurements .
+UNIT IV MEDICAL IMAGING
+Radio graphic and fluoroscopic techniques – Computer tomography – MRI – Ultrasonography –
+Endoscopy – Thermography – Different types of biotelemetry systems and patient monitoring –
+Introduction to Biometric systems
+UNIT V ASSISTING AND THERAPEUTIC EQUIPMENTS
+Pacemakers – Defibrillators – Ventilators – Nerve and muscle stimulators – Diathermy – Heart –
+Lung machine – Audio meters – Dialysers – Lithotripsy
+TOTAL : 45 PERIODS
+
+TEXT BOOKS
+1. R.S.Khandpur, ‘Hand Book of Bio-Medical instrumentation’, Tata McGraw Hill Publishing Co Ltd., 2003.|na
+2. Leslie Cromwell, Fred J.Weibell, Erich A.Pfeiffer, ‘Bio-Medical Instrumentation and Measurements’, II edition, Pearson Education, 2002 / PHI.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138636211935938328" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES
+1. M.Arumugam, ‘Bio-Medical Instrumentation’, Anuradha Agencies, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333697672050158" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|
+2. L.A. Geddes and L.E.Baker, ‘Principles of Applied Bio-Medical Instrumentation’, John Wiley & Sons, 1975.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333707208475978" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126518073
+3. J.Webster, ‘Medical Instrumentation’, John Wiley & Sons, 1995.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333712807382798" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126511060
+4. C.Rajarao and S.K. Guha, ‘Principles of Medical Electronics and Bio-medical Instrumentation’, Universities press (India) Ltd, Orient Longman ltd, 2000.|na
+

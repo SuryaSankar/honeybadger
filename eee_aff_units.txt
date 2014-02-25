@@ -1,0 +1,1145 @@
+GE2155
+COMPUTER PRACTICE LABORATORY – II
+UNIT I UNIX COMMANDS
+Study of Unix OS - Basic Shell Commands - Unix Editor
+UNIT II SHELL PROGRAMMING
+Simple Shell program - Conditional Statements - Testing and Loops
+UNIT III C PROGRAMMING ON UNIX
+Dynamic Storage Allocation-Pointers-Functions-File Handling
+TOTAL: 45 PERIODS
+
+
+GS2165
+PHYSICS LABORATORY – II
+UNIT I
+Determination of Young’s modulus of the material – non uniform bending.
+UNIT II
+Determination of Band Gap of a semiconductor material.
+UNIT III
+Determination of specific resistance of a given coil of wire – Carey Foster Bridge.
+UNIT IV
+Determination of viscosity of liquid – Poiseuille’s method.
+UNIT V
+Spectrometer dispersive power of a prism.
+UNIT VI
+Determination of Young’s modulus of the material – uniform bending.
+UNIT VII
+Torsional pendulum – Determination of rigidity modulus.
+TOTAL: 45 PERIODS
+
+GS2165
+CHEMISTRY LABORATORY – II
+UNIT I
+Conduct metric titration (Simple acid base)
+UNIT II
+Conduct metric titration (Mixture of weak and strong acids)
+UNIT III
+Conduct metric titration using $BaCl_2$ vs $Na_2SO_4$
+UNIT IV
+Potentiometric Titration ($Fe^{2+} / KMnO_4 or K_2Cr_2O_7 )
+UNIT V
+PH titration (acid & base)
+UNIT VI
+Determination of water of crystallization of a crystalline salt (Copper Sulphate )
+UNIT VII
+Estimation of Ferric iron by spectrophotometry.
+TOTAL: 45 PERIODS
+
+
+EE2155
+ELECTRICAL CIRCUIT LABORATORY
+UNIT I
+Verification of ohm’s laws and kirchoff’s laws.
+UNIT II
+Verification of Thevemin’s and Norton’s Theorem
+UNIT III
+Verification of superposition Theorem
+UNIT IV
+Verification of maximum power transfer theorem.
+UNIT V
+Verification of reciprocity theorem
+UNIT VI
+Measurement of self inductance of a coil
+UNIT VII
+Verification of mesh and nodal analysis.
+UNIT VIII
+Transient response of RL and RC circuits for DC input.
+UNIT IX
+Frequency response of series and parallel resonance circuits.
+UNIT X
+Frequency response of single tuned coupled circuits.
+TOTAL: 45 PERIODS
+
+
+EE2201
+UNIT I INTRODUCTION
+Functional elements of an instrument – Static and dynamic characteristics – Errors in measurement
+– Statistical evaluation of measurement data – Standards and calibration.
+UNIT II ELECTRICAL AND ELECTRONICS INSTRUMENTS
+Principle and types of analog and digital voltmeters, ammeters, multimeters – Single and three
+phase wattmeters and energy meters – Magnetic measurements – Determination of B-H curve and
+measurements of iron loss – Instrument transformers – Instruments for measurement of frequency
+and phase.
+UNIT III COMPARISON METHODS OF MEASUREMENTS
+D.C & A.C potentiometers, D.C & A.C bridges, transformer ratio bridges, self-balancing bridges.
+Interference & screening – Multiple earth and earth loops - Electrostatic and electromagnetic
+interference – Grounding techniques.
+UNIT IV STORAGE AND DISPLAY DEVICES
+Magnetic disk and tape – Recorders, digital plotters and printers, CRT display, digital CRO, LED,
+LCD & dot matrix display – Data Loggers
+UNIT V TRANSDUCERS AND DATA ACQUISITION SYSTEMS
+Classification of transducers – Selection of transducers – Resistive, capacitive & inductive
+transducers – Piezoelectric, optical and digital transducers – Elements of data acquisition system –
+A/D, D/A converters – Smart sensors.
+
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. E.O. Doebelin, ‘Measurement Systems – Application and Design’, Tata McGraw Hill publishing company, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138635015351435020" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0071194657
+2. A.K. Sawhney, ‘A Course in Electrical & Electronic Measurements & Instrumentation’, Dhanpat Rai and Co, 2004.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139264153983634483" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8177000160
+REFERENCES
+1. A.J. Bouwens, ‘Digital Instrumentation’, Tata McGraw Hill, 1997.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139264172386748835" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0074630482
+2. D.V.S. Moorthy, ‘Transducers and Instrumentation’, Prentice Hall of India Pvt Ltd, 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139264174683072082" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120335694
+3. H.S. Kalsi, ‘Electronic Instrumentation’, Tata McGraw Hill, II Edition 2004.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139264178459186057" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070702063
+4. Martin Reissland, ‘Electrical Measurements’, New Age International (P) Ltd., Delhi, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139264217945146084" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122400728
+5. J. B. Gupta, ‘A Course in Electronic and Electrical Measurements’, S. K. Kataria & Sons, Delhi, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139264356370515529" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8188458937
+
+EE2202
+UNIT I INTRODUCTION
+Sources and effects of electromagnetic fields – Vector fields – Different co-ordinate systems- vector
+calculus – Gradient, Divergence and Curl - Divergence theorem – Stoke’s theorem.
+UNIT II ELECTROSTATICS
+Coulomb’s Law – Electric field intensity – Field due to point and continuous charges – Gauss’s law
+and application – Electric potential – Electric field and equipotential plots – Electric field in free
+space, conductors, dielectric -Dielectric polarization - Dielectric strength - Electric field in multiple
+dielectrics – Boundary conditions, Poisson’s and Laplace’s equations – Capacitance- Energy
+density.
+UNIT III MAGNETOSTATICS
+Lorentz Law of force, magnetic field intensity – Biot–savart Law - Ampere’s Law – Magnetic field due
+to straight conductors, circular loop, infinite sheet of current – Magnetic flux density (B) – B in free
+space, conductor, magnetic materials – Magnetization – Magnetic field in multiple media – Boundary
+conditions – Scalar and vector potential – Magnetic force – Torque – Inductance – Energy density –
+Magnetic circuits.
+UNIT IV ELECTRODYNAMIC FIELDS
+Faraday’s laws, induced emf – Transformer and motional EMF – Forces and Energy in quasi-
+stationary Electromagnetic Fields - Maxwell’s equations (differential and integral forms) –
+Displacement current – Relation between field theory and circuit theory.
+UNIT V ELECTROMAGNETIC WAVES
+Generation – Electro Magnetic Wave equations – Wave parameters; velocity, intrinsic impedance,
+propagation constant – Waves in free space, lossy and lossless dielectrics, conductors-skin depth,
+Poynting vector – Plane wave reflection and refraction – Transmission lines – Line equations – Input
+impedances – Standing wave ratio and power.
+TOTAL: 45 PERIODS
+
+
+TEXT BOOKS:
+1. Mathew N. O. SADIKU, ‘Elements of Electromagnetics’, Oxford University press Inc. First India edition, 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139264580434621725" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0195103688
+2. Ashutosh Pramanik, ‘Electromagnetism – Theory and Applications’, Prentice-Hall of India Private Limited, New Delhi, 2006.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139264636205472011" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120334655
+REFERENCES
+1. Joseph. A.Edminister, ‘Theory and Problems of Electromagnetics’, Second edition, Schaum Series, Tata McGraw Hill, 1993.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139264658194332943" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070483973
+2. William .H.Hayt, ‘Engineering Electromagnetics’, Tata McGraw Hill edition, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633002960070689" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070612234
+3. Kraus and Fleish, ‘Electromagnetics with Applications’, McGraw Hill International Editions, Fifth Edition, 1999.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139264705074815985" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070702403
+
+GE2211
+UNIT I INTRODUCTION TO ENVIRONMENTAL STUDIES AND NATURAL RESOURCES
+Definition, scope and importance – need for public awareness – forest resources: use and over-
+exploitation, deforestation, case studies. Timber extraction, mining, dams and their ground
+water, floods, drought, conflicts over water, dams-benefits and problems – mineral resources:
+use effects on forests and tribal people – water resources: use and over-utilization of surface
+and exploitation, environmental effects of extracting and using mineral resources, case studies
+– food resources: world food problems, changes caused by agriculture and overgrazing, effects
+of modern agriculture, fertilizer-pesticide problems, water logging, salinity, case studies –
+energy resources: growing energy needs, renewable and non renewable energy sources, use of
+alternate energy sources. Case studies – land resources: land as a resource, land degradation,
+man induced landslides, soil erosion and desertification – role of an individual in conservation of
+natural resources – equitable use of resources for sustainable lifestyles.
+Field study of local area to document environmental assets – river / forest / grassland / hill /
+mountain.
+UNIT II ECOSYSTEMS AND BIODIVERSITY
+Concept of an ecosystem – structure and function of an ecosystem – producers, consumers and
+decomposers – energy flow in the ecosystem – ecological succession – food chains, food webs
+and ecological pyramids – introduction, types, characteristic features, structure and function of
+the (a) forest ecosystem (b) grassland ecosystem (c) desert ecosystem (d) aquatic ecosystems
+(ponds, streams, lakes, rivers, oceans, estuaries) – introduction to biodiversity – definition:
+genetic, species and ecosystem diversity – biogeographical classification of India – value of
+biodiversity: consumptive use, productive use, social, ethical, aesthetic and option values –
+biodiversity at global, national and local levels – India as a mega-diversity nation – hot-spots of
+biodiversity – threats to biodiversity: habitat loss, poaching of wildlife, man-wildlife conflicts –
+endangered and endemic species of India – conservation of biodiversity: in-situ and ex-situ
+conservation of biodiversity.
+Field study of common plants, insects, birds
+Field study of simple ecosystems – pond, river, hill slopes, etc.
+UNIT III ENVIRONMENTAL POLLUTION
+Definition – causes, effects and control measures of: (a) air pollution (b) water pollution (c) soil
+pollution (d) marine pollution (e) noise pollution (f) thermal pollution (g) nuclear hazards – solid
+waste management: causes, effects and control measures of urban and industrial wastes – role
+of an individual in prevention of pollution – pollution case studies – disaster management:
+floods, earthquake, cyclone and landslides.
+Field study of local polluted site – urban / rural / industrial / agricultural
+UNIT IV SOCIAL ISSUES AND THE ENVIRONMENT
+From unsustainable to sustainable development – urban problems related to energy – water
+conservation, rain water harvesting, watershed management – resettlement and rehabilitation of
+people; its problems and concerns, case studies – environmental ethics: issues and possible
+solutions – climate change, global warming, acid rain, ozone layer depletion, nuclear accidents
+and holocaust, case studies. – wasteland reclamation – consumerism and waste products –
+environment protection act – air (prevention and control of pollution) act – water (prevention and
+control of pollution) act – wildlife protection act – forest conservation act – issues involved in
+enforcement of environmental legislation – public awareness.
+UNIT V HUMAN POPULATION AND THE ENVIRONMENT
+Population growth, variation among nations – population explosion – family welfare programme
+– environment and human health – human rights – value education – hiv / aids – women and
+child welfare – role of information technology in environment and human health – case studies.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. Gilbert M.Masters, “Introduction to Environmental Engineering and Science”, Pearson Education Pvt., Ltd., Second Edition, ISBN 81-297-0277-0, 2004.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138634337943114900" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B0082RQQ1U
+2. Miller T.G. Jr., “Environmental Science”, Wadsworth Publishing Co.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139269422421252702" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES:
+1. Bharucha Erach, “The Biodiversity of India”, Mapin Publishing Pvt. Ltd., Ahmedabad India.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139269425385370137" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. Trivedi R.K., “Handbook of Environmental Laws, Rules, Guidelines, Compliances and Standards”, Vol. I and II, Enviro Media.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138634370163331449" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. Cunningham, W.P.Cooper, T.H.Gorhani, “Environmental Encyclopedia”, Jaico Publ., House, Mumbai, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138634379213793148" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+4. Wager K.D. “Environmental Management”, W.B. Saunders Co., Philadelphia, USA, 1998.|na
+5. Townsend C., Harper J and Michael Begon, “Essentials of Ecology”, Blackwell Science.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139269521427788238" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+6. Trivedi R.K. and P.K. Goel, “Introduction to Air Pollution”, Techno-Science Publications.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139269524848722992" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8178000830
+
+EE2203
+
+UNIT I
+PN DIODE AND ITS APPLICATIONS
+PH junction diode-VI characteristics – Rd, temperature effects – Drift ad diffusion currents –
+switching – Rectifiers: HWR, FWR, BR, filters-Zener diode – VI characteristics, Regulators (series
+and shunt), LED, LCD characteristics and applications.
+UNIT II BJT AND ITS APPLICATIONS
+Junction transistor – Transistor construction – Input and output characteristics – CE, CB and CC
+configurations – hybrid model – Analytical expressions – switching – RF application – Power
+transistors – Opto couplers.
+UNIT III FET AND ITS APPLICATIONS
+FET – VI characteristics, VP, JFET – small signal model – LF and HF equivalent circuits – CS and
+CD amplifiers –cascade and cascade – Darlington connection – MOSFET - Characteristics –
+enhancement and depletion
+UNIT IV AMPLIFIERS AND OSCILLATORS
+Differential amplifiers: CM and DM – condition for ofc-feedback amplifiers – stability – Voltage /
+current, series / shunt feedback – oscillators – LC, RC, crystal
+UNIT V PULSE CIRCUITS
+RC wave shaping circuits – Diode clampers and clippers – Multivibrators – Schmitt triggers – UJT
+based saw tooth oscillators.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. Paynter, “Introductory electronic devices and circuits, 2006, PHI|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624185523938951" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131722813
+2. David Bell “Electronic Devices and Circuits” 2007, PHI|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624053559939641" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|019569340X
+REFERENCES:
+1. Theodre F.Boghert, “Electronic Devices & Circuits” Pearson Education, VI Edition, 2003|na
+2. Rashid, “Microelectronic circuits” Thomson Publication, 1999|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138626804386236599" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B008XHKLKG
+3. B.P.Singh & Rekha Singh, “Electronic Devices and Integrated Circuits” Pearson Education, 2006.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139269646626649988" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8177586386
+
+EE2204
+UNIT I LINEAR STRUCTURES
+Abstract Data Types (ADT) – List ADT – array-based implementation – linked list implementation –
+cursor-based linked lists – doubly-linked lists – applications of lists – Stack ADT – Queue ADT –
+circular queue implementation – Applications of stacks and queues
+UNIT II TREE STRUCTURES
+Need for non-linear structures – Tree ADT – tree traversals – left child right sibling data structures for
+general trees – Binary Tree ADT – expression trees – applications of trees – binary search tree ADT
+UNIT III BALANCED SEARCH TREES AND INDEXING
+AVL trees – Binary Heaps – B-Tree – Hashing – Separate chaining – open addressing – Linear
+probing
+UNIT IV GRAPHS
+Definitions – Topological sort – breadth-first traversal - shortest-path algorithms – minimum spanning
+tree – Prim's and Kruskal's algorithms – Depth-first traversal – biconnectivity – euler circuits –
+applications of graphs
+UNIT V ALGORITHM DESIGN AND ANALYSIS
+Greedy algorithms – Divide and conquer – Dynamic programming – backtracking – branch and
+bound – Randomized algorithms – algorithm analysis – asymptotic notations – recurrences – NP-
+complete problems
+TOTAL: 45 PERIODS
+
+TEXT BOOKS
+1. M. A. Weiss, “Data Structures and Algorithm Analysis in C”, Pearson Education Asia, 2002.<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139269668073592625" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131762270
+2. ISRD Group, “Data Structures using C”, Tata McGraw-Hill Publishing Company Ltd., 2006.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139269677896317159" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|1259006409
+
+REFERENCES
+1. A. V. Aho, J. E. Hopcroft, and J. D. Ullman, “Data Structures and Algorithms”, Pearson Education, 1983.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138831240944535261" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8177588265
+2. R. F. Gilberg, B. A. Forouzan, “Data Structures: A Pseudocode approach with C”, Second Edition, Thomson India Edition, 2005.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138831251532485906" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131503143
+3. Sara Baase and A. Van Gelder, “Computer Algorithms”, Third Edition, Pearson Education, 2000.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139269715088717560" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+4. T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, "Introduction to algorithms", Second Edition, Prentice Hall of India Ltd, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138839179961859127" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120340078
+
+EE2207
+UNIT I
+Characteristics of Semiconductor diode and Zener diode.
+UNIT II
+Characteristics of Transistor under common emitter, common collector and common base configurations.
+UNIT III
+Characteristic of FET.
+UNIT IV
+Characteristic of UJT.
+UNIT V
+Characteristics of SCR, DIAC and TRIAC.
+UNIT VI
+Photo diode, phototransistor Characteristics and study of light activated relay circuit.
+UNIT VII
+Static characteristics of Thermistors.
+UNIT VIII
+Single phase half wave and full wave rectifiers with inductive and capacitive filters.
+UNIT IX
+Differential ampliers using FET.
+UNIT X
+Study of CRO.
+UNIT XI
+Series and Parallel reasonance circuits.
+UNIT XII
+Realization of Passive filters.
+TOTAL: 45 PERIODS
+
+
+EE2209
+UNIT I
+Implement singly and doubly linked lists.
+UNIT II
+Represent a polynomial as a linked list and write functions for polynomial addition.
+UNIT III
+Implement stack and use it to convert infix to postfix expression
+UNIT IV
+Implement array-based circular queue and use it to simulate a producer-consumer problem.
+UNIT V
+Implement an expression tree. Produce its pre-order, in-order, and post-order traversals.
+UNIT VI
+Implement binary search tree.
+UNIT VII
+Implement insertion in AVL trees.
+UNIT VIII
+Implement priority queue using heaps
+UNIT IX
+Implement hashing techniques
+UNIT X
+Perform topological sort on a directed graph to decide if it is acyclic.
+UNIT XI
+Implement Dijkstra's algorithm using priority queues
+UNIT XII
+Implement Prim's and Kruskal's algorithms
+UNIT XIII
+Implement a backtracking algorithm for Knapsack problem
+UNIT XIV
+Implement a branch and bound algorithm for traveling salesperson problem
+UNIT XV
+Implement any randomized algorithm.
+TOTAL: 45 PERIODS
+
+EE2208
+UNIT I
+Study of displacement and pressure transducers
+UNIT II
+AC bridges.
+UNIT III
+DC bridges.
+UNIT IV
+Instrumentation amplifiers.
+UNIT V
+A/D and D/A converters.
+UNIT VI
+Study of transients.
+UNIT VII
+Calibration of single-phase energy meter.
+UNIT VIII
+Calibration of current transformer.
+UNIT IX
+Measurement of three phase power and power factor.
+UNIT X
+Measurement of iron loss.
+TOTAL: 45 PERIODS
+
+MA2264
+UNIT I SOLUTION OF EQUATIONS AND EIGENVALUE PROBLEMS
+Solution of equation - Fixed point iteration: x=g(x) method – Newton’s method – Solution of linear
+system by Gaussian elimination and Gauss-Jordon methods - Iterative methods - Gauss-Seidel
+methods - Inverse of a matrix by Gauss Jordon method – Eigen value of a matrix by power method
+and by Jacobi method for symmetric matrix.
+UNIT II INTERPOLATION AND APPROXIMATION
+Lagrangian Polynomials – Divided differences – Interpolating with a cubic spline – Newton’s forward
+and backward difference formulas.
+UNIT III NUMERICAL DIFFERENTIATION AND INTEGRATION
+Differentiation using interpolation formulae –Numerical integration by trapezoidal and Simpson’s 1/3
+and 3/8 rules – Romberg’s method – Two and Three point Gaussian quadrature formulas – Double
+integrals using trapezoidal and Simpsons’s rules.
+UNIT IV INITIAL VALUE PROBLEMS FOR ORDINARY DIFFERENTIAL EQUATIONS
+Single step methods: Taylor series method – Euler methods for First order Runge – Kutta method for
+solving first and second order equations – Multistep methods: Milne’s and Adam’s predictor and
+corrector methods.
+UNIT V BOUNDARY VALUE PROBLEMS IN ORDINARY AND PARTIAL DIFFERENTIAL EQUATIONS
+Finite difference solution of second order ordinary differential equation – Finite difference solution of
+one dimensional heat equation by explicit and implicit methods – One dimensional wave equation
+and two dimensional Laplace and Poisson equations.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. VEERARJAN, T and RAMACHANDRAN.T, ‘NUMERICAL METHODS with programming in ‘C’ Second Edition Tata McGraw Hill Pub.Co.Ltd, First reprint 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138840338362357942" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. SANKAR RAO K’ NUMERICAL METHODS FOR SCIENTISTS AND ENGINEERS –3rd Edition Prenctice Hall of India Private, New Delhi, 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138639949307318082" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120332172
+
+REFERENCES:
+1. P. Kandasamy, K. Thilagavathy and K. Gunavathy, ‘Numerical Methods’, S.Chand Co. Ltd., New Delhi, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270067027683561" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8121914388
+2. GERALD C.F. and WHEATE, P.O. ‘APPLIED NUMERICAL ANALYSIS’... Edition, Pearson Education Asia, New Delhi.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138639965117581419" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131717402
+
+
+EE 2251
+UNIT I INTRODUCTION
+Electrical machine types – Magnetic circuits – Inductance – Statically and Dynamically induced EMF
+- Torque – Hysteresis- Core losses - AC operation of magnetic circuits.
+UNIT II TRANSFORMERS
+Construction – principle of operation – equivalent circuit – losses – testing – efficiency and voltage
+regulation – auto transformer – three phase connections – parallel operation of transformers – tap
+changing.
+UNIT III ELECTROMECHANICAL ENERGY CONVERSION
+Energy in magnetic systems – field energy, coenergy and mechanical force – singly and multiply
+excited systems.
+UNIT IV BASIC CONCEPTS IN ROTATING MACHINES
+Generated voltages in ac and dc machines, mmf of distributed windings – magnetic fields in rotating
+machines – rotating mmf waves – torque in ac and dc machines.
+UNIT V DC MACHINES
+Construction – EMF and torque – circuit model – armature reaction – commutation – methods of
+excitation – characteristics of generators – characteristics of motors – starting and speed control –
+testing and efficiency – parallel operation.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. Nagrath I. J and Kothari D. P. ‘Electric Machines’, Tata McGraw Hill Publishing Company Ltd, 1990.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270229577633748" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070616663
+2. P.S. Bimbhra, ‘Electrical Machinery’, Khanna Publishers, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270241883860109" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8174091734
+REFERENCES:
+1. Fitzgerald.A.E., Charles Kingsely Jr, Stephen D.Umans, ‘Electric Machinery’, McGraw Hill Books Company, 1992.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270259649977446" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070530394
+2. P. C. Sen., ‘Principles of Electrical Machines and Power Electronics’, John Wiley&Sons, 1997.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270269611065939" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. K. Murugesh Kumar, ‘Electric Machines’, Vikas publishing house Pvt Ltd, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270283436375506" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8125910700
+
+EE2252
+UNIT I THERMAL POWER PLANTS
+Basic thermodynamic cycles, various components of steam power plant-layout-pulverized coal
+burners- Fluidized bed combustion-coal handling systems-ash handling systems- Forced draft and
+induced draft fans- Boilers-feed pumps-super heater- regenerator-condenser- dearearators-cooling
+tower
+UNIT II HYDRO ELECTRIC POWER PLANTS
+Layout-dams-selection of water turbines-types-pumped storage hydel plants
+UNIT II I NUCLEAR POWER PLANTS
+Principles of nuclear energy- Fission reactions-nuclear reactor-nuclear power plants
+UNIT IV GAS AND DIESEL POWER PLANTS
+Types, open and closed cycle gas turbine, work output & thermal efficiency, methods to improve
+performance-reheating, intercoolings, regeneration-advantage and disadvantages- Diesel engine
+power plant-component and layout
+UNIT V NON-CONVENTIONAL POWER GENERATION
+Solar energy collectors, OTEC, wind power plants, tidal power plants and geothermal resources, fuel
+cell, MHD power generation-principle, thermoelectric power generation, thermionic power generation
+TOTAL: 45 PERIODS
+
+TEXT BOOKS
+1. A Course in Power Plant Engineering by Arora and Domkundwar, Dhanpat Rai and Co.Pvt.Ltd., New Delhi.|\<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270384262457423" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. Power Plant Engineering by P.K. Nag, Tata McGraw Hill, Second Edition , Fourth reprint 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270391614388486" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070648158
+REFERENCES:
+1. Power station Engineering and Economy by Bernhardt G.A.Skrotzki and William A. Vopat- Tata McGraw Hill Publishing Company Ltd., New Delhi, 20th reprint 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270418683281785" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070995737
+2. An introduction to power plant technology by G.D. Rai-Khanna Publishers, Delhi- 110 005.|na
+3. Power Plant Technology, M.M. El-Wakil McGraw Hill 1984.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270433661525916" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|007019288X
+
+EE2253
+UNIT I SYSTEMS AND THEIR REPRESENTATION
+Basic elements in control systems – Open and closed loop systems – Electrical analogy of
+mechanical and thermal systems – Transfer function – Synchros – AC and DC servomotors – Block
+diagram reduction techniques – Signal flow graphs.
+UNIT II TIME RESPONSE
+Time response – Time domain specifications – Types of test input – I and II order system response –
+Error coefficients – Generalized error series – Steady state error – P, PI, PID modes of feed back
+control.
+UNIT III FREQUENCY RESPONSE
+Frequency response – Bode plot – Polar plot – Determination of closed loop response from open
+loop response – Correlation between frequency domain and time domain specifications.
+UNIT I STABILITY OF CONTROL SYSTEM
+Characteristics equation – Location of roots in S plane for stability – Routh Hurwitz criterion – Root
+locus construction – Effect of pole, zero addition – Gain margin and phase margin – Nyquist stability
+criterion.
+UNIT V COMPENSATOR DESIGN
+Performance criteria – Lag, lead and lag-lead networks – Compensator design using bode plots.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. I.J. Nagrath and M. Gopal, ‘Control Systems Engineering’, New Age International Publishers, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633482420876177" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122420087
+2. Benjamin C. Kuo, Automatic Control systems, Pearson Education, New Delhi, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633498885214187" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120309685
+REFERENCES
+1. K. Ogata, ‘Modern Control Engineering’, 4th edition, PHI, New Delhi, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270528347346123" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120340108
+2. Norman S. Nise, Control Systems Engineering, 4th Edition, John Wiley, New Delhi, 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270556874015320" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126537280
+3. Samarajit Ghosh, Control systems, Pearson Education, New Delhi, 2004|na0070151423
+4. M. Gopal, ‘Control Systems, Principles and Design’, Tata McGraw Hill, New Delhi, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633488640053749" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0071333266
+
+EE2254
+UNIT I IC FABRICATION
+IC classification, fundamental of monolithic IC technology, epitaxial growth, masking and etching,
+diffusion of impurities. Realisation of monolithic ICs and packaging. Fabrication of diodes,
+capacitance, resistance and FETs.
+UNIT II CHARACTERISTICS OF OPAMP
+Ideal OP-AMP characteristics, DC characteristics, AC characteristics, offset voltage and current:
+voltage series feedback and shunt feedback amplifiers, differential amplifier; frequency response of
+OP-AMP; Basic applications of op-amp – summer, differentiator and integrator.
+UNIT III APPLICATIONS OF OPAMP
+Instrumentation amplifier, first and second order active filters, V/I & I/V converters, comparators,
+multivibrators, waveform generators, clippers, clampers, peak detector, S/H circuit, D/A converter (R-
+2R ladder and weighted resistor types), A/D converter - Dual slope, successive approximation and
+flash types.
+UNIT IV SPECIAL ICs
+555 Timer circuit – Functional block, characteristics & applications; 566-voltage controlled oscillator
+circuit; 565-phase lock loop circuit functioning and applications, Analog multiplier ICs.
+UNIT V APPLICATION ICs
+IC voltage regulators - LM317, 723 regulators, switching regulator, MA 7840, LM 380 power
+amplifier, ICL 8038 function generator IC, isolation amplifiers, opto coupler, opto electronic ICs.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. Ramakant A.Gayakward, ‘Op-amps and Linear Integrated Circuits’, IV edition, Pearson Education, 2003 / PHI. (2000)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633380992365122" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120320581
+2. D.Roy Choudhary, Sheil B.Jani, ‘Linear Integrated Circuits’, II edition, New Age, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633346236181833" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122430988
+REFERENCES
+1. Jacob Millman, Christos C.Halkias, ‘Integrated Electronics - Analog and Digital circuits system’, Tata McGraw Hill, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138626180221187878" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070151423
+2. Robert F.Coughlin, Fredrick F.Driscoll, ‘Op-amp and Linear ICs’, Pearson Education, 4th edition, 2002 / PHI.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270770558781089" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120320964
+3. David A.Bell, ‘Op-amp & Linear ICs’, Prentice Hall of India, 2nd edition, 1997|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270804211357816" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0195696131
+
+EE2255
+UNIT I BOOLEAN ALGEBRA AND COMBINATIONAL CIRCUITS
+Boolean algebra: De-Morgan’s theorem, switching functions and simplification using K-maps &
+Quine McCluskey method, Design of adder, subtractor, comparators, code converters, encoders,
+decoders, multiplexers and demultiplexers.
+UNIT II SYNCHRONOUS SEQUENTIAL CIRCUITS
+Flip flops - SR, D, JK and T. Analysis of synchronous sequential circuits; design of synchronous
+sequential circuits – Counters, state diagram; state reduction; state assignment.
+UNIT III 9 ASYNCHRONOUS SEQUENCTIAL CIRCUIT 
+Analysis of asynchronous sequential machines, state assignment, asynchronous design problem. 
+UNIT IV 9 PROGRAMMABLE LOGIC DEVICES, MEMORY AND LOGIC FAMILIES
+Memories: ROM, PROM, EPROM, PLA, PLD, FPGA, digital logic families: TTL, ECL, CMOS.
+UNIT V VHDL
+RTL Design – combinational logic – Types – Operators – Packages – Sequential circuit – Sub
+programs – Test benches. (Examples: adders, counters, flipflops, FSM, Multiplexers /
+Demultiplexers).
+TOTAL: 45 PERIODS
+
+TEXT BOOKS
+1. Raj Kamal, ‘ Digital systems-Principles and Design’, Pearson education 2nd edition|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270836740981107" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8177585703
+2. M. Morris Mano, ‘Digital Design’, Pearson Education, 2006.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138625408571219161" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8177585703
+3. John M.Yarbrough, ‘Digital Logic, Application & Design’, Thomson, 2002. 2007|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138625426912894651" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|
+REFERENCES
+1. Charles H.Roth, ‘Fundamentals Logic Design’, Jaico Publishing, IV edition, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138625440082782422" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131519791
+2. Floyd and Jain, ‘Digital Fundamentals’, 8th edition, Pearson Education, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138625455269956934" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|813173448X
+3. John F.Wakerly, ‘Digital Design Principles and Practice’, 3rd edition, Pearson Education, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138625423500164220" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131713660
+4. Tocci, “Digital Systems : Principles and applications, 8th Edition” Pearson Education.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139273476678324298" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131723283
+
+EE2257
+
+UNIT I  Determination of transfer function of DC Servomotor
+Aim
+To derive the transfer function of the given D.C Servomotor and experimentally determine the
+transfer function parameters
+Exercise
+1. Derive the transfer function from basic principles for a separately excited DC motor.
+2. Determine the armature and field parameters by conducting suitable experiments.
+3. Determine the mechanical parameter by conducting suitable experiments.
+4. Plot the frequency response.
+UNIT II Determination of transfer function of AC Servomotor.
+Aim
+To derive the transfer function of the given A.C Servo Motor and experimentally determine
+the transfer function parameters
+Exercise
+1. Derive the transfer function of the AC Servo Motor from basic Principles.
+2. Obtain the D.C gain by operating at rated speed.
+3. Determine the time constant (mechanical)
+4. Plot the frequency response
+UNIT III Analog simulation of Type - 0 and Type – 1 systems
+Aim
+To simulate the time response characteristics of I order and II order, type 0 and type-1
+systems.
+Exercise
+1. Obtain the time response characteristics of type – 0 and type-1, I order and II order
+systems mathematically.
+2. Simulate practically the time response characteristics using analog rigged up modules.
+3. Identify the real time system with similar characteristics.
+UNIT IV Determination of transfer function of DC Generator
+Aim
+To determine the transfer function of DC generator
+Exercise
+1. Obtain the transfer function of DC generator by calculating $tau$ and gain
+UNIT V Determination of transfer function of DC Motor
+Aim
+To determine the transfer function of DC motor
+Exercise
+11. Obtain the transfer function of DC motor by calculating $tau$ and gain
+UNIT VI Stability analysis of linear systems
+Aim
+To analyse the stability of linear systems using Bode / Root locus / Nyquist plot
+Exercise
+1. Write a program to obtain the Bode plot / Root locus / Nyquist plot for the given system
+2. Access the stability of the given system using the plots obtained
+3. Compare the usage of various plots in assessing stability
+UNIT VII DC and AC position control systems
+AIM
+To study the AC and DC position control system and draw the error characteristics between
+setpoint and error.
+Exercise
+1. To study various positions and calculate the error between setpoint and output position
+2. To measure outputs at various points (between stages)
+UNIT VIII Stepper motor control system
+Aim
+To study the working of stepper motor
+Exercise
+1. To verify the working of the stepper motor rotation using microprocessor.
+UNIT IX Digital simulation of first systems
+Aim
+To digitally simulate the time response characteristics of first -order system
+Exercise
+1. Write a program or build the block diagram model using the given software.
+2. Obtain the impulse, step and sinusoidal response characteristics.
+3. Identify real time systems with similar characteristics.
+UNIT X Digital simulation of second systems
+Aim
+To digitally simulate the time response characteristics of second -order system
+Exercise
+1. Write a program or build the block diagram model using the given software.
+2. Obtain the impulse, step and sinusoidal response characteristics.
+3. Identify real time systems with similar characteristics.
+TOTAL: 45 PERIODS
+
+EC2311
+UNIT I ANALOG COMMUNICATION
+AM – Frequency spectrum – vector representation – power relations – generation of AM – DSB,
+DSB/SC, SSB, VSB AM Transmitter & Receiver; FM and PM – frequency spectrum – power
+relations : NBFM & WBFM, Generation of FM and DM, Amstrong method & Reactance modulations :
+FM & PM frequency.
+UNIT II DIGITAL COMMUNICATION
+Pulse modulations – concepts of sampling and sampling theormes, PAM, PWM, PPM, PTM,
+quantization and coding : DCM, DM, slope overload error. ADM, DPCM, OOK systems – ASK, FSK,
+PSK, BSK, QPSK, QAM, MSK, GMSK, applications of Data communication.
+UNIT III SOURCE CODES, LINE CODES & ERROR CONTROL (Qualitative only)
+Primary communication – entropy, properties, BSC, BEC, source coding : Shaum, Fao, Huffman
+coding : noiseless coding theorum, BW – SNR trade off codes: NRZ, RZ, AMI, HDBP, ABQ, MBnB
+codes : Efficiency of transmissions, error control codes and applications: convolutions & block codes.
+UNIT IV MULTIPLE ACCESS TECHNIQUES
+SS&MA techniques : FDMA, TDMA, CDMA, SDMA application in wire and wireless communication :
+Advantages (merits) :
+UNIT V SATELLITE, OPTICAL FIBER – POWERLINE, SCADA
+Orbits : types of satellites : frequency used link establishment, MA techniques used in satellite
+communication, earth station; aperture actuators used in satellite – Intelsat and Insat: fibers – types:
+sources, detectors used, digital filters, optical link: power line carrier communications: SCADA
+TOTAL: 45 PERIODS
+
+TEXT BOOKS
+1.Taub & Schiling “Principles of communication systems” Tata McGraw hill 2007|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139273536327830524" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|1259029859
+2.J.Das “Principles of digital communication” New Age International, 1986|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139273545988269963" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122433472
+REFERENCES
+1. Kennedy and Davis “Electronic communication systems” Tata McGraw hill, 4th edition, 1993.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139273558235125072" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0071077820
+2. Sklar “Digital communication fundamentals and applications“ Pearson Education, 2001|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633620682244794" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131720926
+3. Bary le, Memuschmidt, Digital Communication, Kluwer Publication, 2004.|na
+4. B.P.Lathi “Modern digital and analog communication systems” Oxford University Press, 1998.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138631797805786154" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0198073801
+
+EC2314
+UNIT I INTRODUCTION
+Classification of systems: Continuous, discrete, linear, causal, stable, dynamic, recursive, time
+variance; classification of signals: continuous and discrete, energy and power; mathematical
+representation of signals; spectral density; sampling techniques, quantization, quantization error,
+Nyquist rate, aliasing effect. Digital signal representation.
+UNIT II DISCRETE TIME SYSTEM ANALYSIS
+Z-transform and its properties, inverse z-transforms; difference equation – Solution by z-transform,
+application to discrete systems - Stability analysis, frequency response – Convolution – Fourier
+transform of discrete sequence – Discrete Fourier series.
+UNIT III DISCRETE FOURIER TRANSFORM & COMPUTATION
+DFT properties, magnitude and phase representation - Computation of DFT using FFT algorithm –
+DIT & DIF - FFT using radix 2 – Butterfly structure.
+UNIT IV DESIGN OF DIGITAL FILTERS
+FIR & IIR filter realization – Parallel & cascade forms. FIR design: Windowing Techniques – Need
+and choice of windows – Linear phase characteristics. IIR design: Analog filter design - Butterworth
+and Chebyshev approximations; digital design using impulse invariant and bilinear transformation -
+Warping, prewarping - Frequency transformation.
+UNIT V DIGITAL SIGNAL PROCESSORS
+Introduction – Architecture – Features – Addressing Formats – Functional modes - Introduction to
+Commercial Processors
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. J.G. Proakis and D.G. Manolakis, ‘Digital Signal Processing Principles, Algorithms and Applications’, Pearson Education, New Delhi, 2003 / PHI.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633650733847702" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131710009
+2. S.K. Mitra, ‘Digital Signal Processing – A Computer Based Approach’, Tata McGrawHill, New Delhi, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633677854249983" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|1259098583
+
+CS2311
+UNIT I
+Object oriented programming concepts – objects-classes- methods and messages-abstraction and encapsulation-inheritance- abstract classes- polymorphism.Introduction to C++- objects-classes- constructors and destructors
+UNIT II
+Operator overloading - friend functions- type conversions- templates - functions- runtime polymorphism. Inheritance – virtual
+UNIT III
+Exception handling - Streams and formatted I/O – file handling – namespaces – String Objects - standard template library
+UNIT IV
+Introduction to JAVA , bytecode, virtual machines – objects – classes – Javadoc – packages –Arrays – Strings
+UNIT V
+Inheritance – interfaces and inner classes - exception handling – threads - Streams and I/O
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. B. Trivedi, “Programming with ANSI C++”, Oxford University Press, 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138831280937684834" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0195690370
+2. Cay S. Horstmann, Gary Cornell, “Core JAVA volume 1”, Eighth Edition, Pearson Education, 2008.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138640336251544818" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|9332514674
+REFERENCES
+1. ISRD Group, “Introduction to Object-oriented Programming and C++”, Tata McGraw-Hill Publishing Company Ltd., 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139274514744275362" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070616833
+2. ISRD Group, “Introduction to Object-oriented programming through Java”, Tata McGraw-Hill Publishing Company Ltd., 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139274525703421427" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070616841
+3. S. B. Lippman, Josee Lajoie, Barbara E. Moo, “C++ Premier”, Fourth Edition, Pearson Education, 2005.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139274547112744782" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B008S07Y44
+4. D. S. Malik, “C++ Programming: From Problem Analysis to Program Design”, Third Edition, Thomson Course Technology, 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139274551703044846" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131521575
+5. K. Arnold and J. Gosling, “The JAVA programming language”, Third edition, Pearson Education, 2000.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138840085082319242" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131702219
+6. C. Thomas Wu, “An introduction to Object-oriented programming with Java”, Fourth Edition, Tata McGraw-Hill Publishing Company Ltd., 2006.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138840094871491490" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070611033
+
+EE2301
+UNIT I POWER SEMI-CONDUCTOR DEVICES
+Study of switching devices, - Frame, Driver and snubber circuit of SCR, TRIAC,
+BJT, IGBT, MOSFET,- Turn-on and turn-off characteristics, switching losses, Commutation circuits
+for SCR,
+UNIT II PHASE-CONTROLLED CONVERTERS
+2-pulse, 3-pulse and 6-pulse converters – Effect of source inductance – performance parameters –
+Reactive power control of cnverters – Dual converters - Battery charger.
+UNIT III DC TO DC CONVERTER
+Step-down and step-up chopper - Time ratio control and current limit control – Buck, boost, buck-
+boost converter, concept of Resonant switching - SMPS.
+UNIT IV INVERTERS
+Single phase and three phase (both 1200 mode and 1800 mode) inverters - PWM techniques:
+Sinusoidal PWM, modified sinusoidal PWM - multiple PWM – Introduction to space vector
+modulations - Voltage and harmonic control - Series resonant inverter - Current source inverter.
+UNIT V AC TO AC CONVERTERS
+Single phase AC voltage controllers – Multistage sequence control - single and three phase
+cycloconverters –Introduction to Integral cycle control, Power factor control and Matrix converters.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. M.H. Rashid, ‘Power Electronics: Circuits, Devices and Applications’, Pearson Education, PHI Third edition, New Delhi 2004.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138642505095661505" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B007YTMH56
+2. Philip T.Krein, “Elements of Power Electronics” Oxford University Press, 2004 Edition.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278342069370221" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0198090498
+REFERENCES
+1. Ashfaq Ahmed Power Electronics for Technology Pearson Education, Indian reprint, 2003.|na
+2. P.S.Bimbra “Power Electronics” Khanna Publishers, third Edition 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278355145727186" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|817409279X
+3. Ned Mohan, Tore.M.Undeland, William.P.Robbins, ‘Power Electronics Converters, Applications and Design’, John Wiley and sons, third edition, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278363163259044" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126510900
+
+EE 2302
+UNIT I SYNCHRONOUS GENERATOR
+Constructional details – Types of rotors – emf equation – Synchronous reactance – Armature
+reaction – Voltage regulation – EMF, MMF, ZPF and A.S.A methods – Synchronizing and parallel
+operation – Synchronizing torque - Change of excitation and mechanical input – Two reaction theory
+– Determination of direct and quadrature axis synchronous reactance using slip test – Operating
+characteristics - Capability curves.
+UNIT II SYNCHRONOUS MOTOR
+Principle of operation – Torque equation – Operation on infinite bus bars - V-curves – Power input
+and power developed equations – Starting methods – Current loci for constant power input, constant
+excitation and constant power developed.
+UNIT III THREE PHASE INDUCTION MOTOR
+Constructional details – Types of rotors – Principle of operation – Slip – Equivalent circuit – Slip-
+torque characteristics - Condition for maximum torque – Losses and efficiency – Load test - No load
+and blocked rotor tests - Circle diagram – Separation of no load losses – Double cage rotors –
+Induction generator – Synchronous induction motor.
+UNIT IV STARTING AND SPEED CONTROL OF THREE PHASE INDUCTION MOTOR
+Need for starting – Types of starters – Rotor resistance, Autotransformer and Star-delta starters –
+Speed control – Change of voltage, torque, number of poles and slip – Cascaded connection – Slip
+power recovery scheme.
+UNIT V SINGLE PHASE INDUCTION MOTORS AND SPECIAL MACHINES
+Constructional details of single phase induction motor – Double revolving field theory and operation
+– Equivalent circuit – No load and blocked rotor test – Performance analysis – Starting methods of
+single-phase induction motors - Shaded pole induction motor - Linear reluctance motor - Repulsion
+motor - Hysteresis motor - AC series motor.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS
+1. D.P. Kothari and I.J. Nagrath, ‘Electric Machines’, Tata McGraw Hill Publishing Company Ltd 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270229577633748" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070616663
+2. P.S. Bhimbhra, ‘Electrical Machinery’, Khanna Publishers, 2003.
+REFERENCES
+1. A.E. Fitzgerald, Charles Kingsley, Stephen.D.Umans, ‘Electric Machinery’, Tata McGraw Hill publishing Company Ltd, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270241883860109" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8174091734
+2. J.B. Gupta, ‘Theory and Performance of Electrical Machines’, S.K.Kataria and Sons, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278416865689710" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|9350142775
+3. K. Murugesh Kumar, ‘Electric Machines’, Vikas Publishing House Pvt Ltd, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139270283436375506" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8125910700
+
+EE2303
+UNIT I INTRODUCTION
+Structure of electric power system - different operating voltages of generation, transmission and
+distribution – advantage of higher operating voltage for AC transmission.
+An introduction to EHV AC transmission, HVDC transmission and FACTs.
+Mechanical design of transmission line between towers – sag and tension calculations using
+approximate equations taking into account the effect of ice and wind.
+UNIT II TRANSMISSION LINE PARAMETERS
+Parameters of resistance, inductance and capacitance calculations - single and three phase
+transmission lines - single and double circuits - solid, stranded and bundled conductors -
+symmetrical and unsymmetrical spacing – transposition of lines - concepts of GMR and GMD - skin
+and proximity effects - interference with neighbouring communication circuits.
+Corona discharge characteristics – critical voltage and loss.
+(Simple diagrams of typical towers and conductors for 400, 220 and 110 kV operations)
+UNIT III MODELLING AND PERFORMANCE OF TRANSMISSION LINES
+Transmission line classification - short line, medium line and long line - equivalent circuits – Ferranti
+effect - surge impedance, attenuation constant and phase constant - voltage regulation and
+transmission efficiency - real and reactive power flow in lines – power circle diagrams – shunt and
+series compensation.
+An introduction to power angle diagram - surge-impedance loading, loadability limits based on
+thermal loading; angle and voltage stability considerations.
+UNIT IV INSULATORS AND CABLES
+Classification of insulators for transmission and distribution purpose – voltage distribution in insulator
+string and grading - improvement of string efficiency.
+Underground cables - constructional features of LT and HT cables – insulation resistance,
+capacitance, dielectric stress and grading – tan δ and power loss - thermal characteristics.
+UNIT V SUBSTATION, GROUNDING SYSTEM AND DISTRIBUTION SYSTEM
+Classification, functions and major components of substations.
+Bus-bar arrangements - substation bus schemes - single bus, double bus with double breaker,
+double bus with single breaker, main and transfer bus, ring bus, breaker-and-a-half with two main
+buses, double bus-bar with bypass isolators. Importance of earthing in a substation. Qualitative
+treatment to neutral grounding and earthing practises in substations. Feeders,
+distributors and service mains. DC distributor – 2-wire and 3-wire, radial and ring main distribution. AC distribution –
+single phase and three phase 4-wire distribution.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. B.R.Gupta, ‘Power System Analysis and Design’, S. Chand, New Delhi, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278450824047959" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8121922380
+2. S.N. Singh, ‘Electric Power Generation, Transmission and Distribution’, Prentice Hall of India Pvt. Ltd, New Delhi, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278456721792727" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120321928
+REFERENCES
+1. Luces M. Fualkenberry, Walter Coffer, ‘Electrical Power Distribution and Transmission’, Pearson Education, 1996.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278467233749946" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>8131707091
+2. Hadi Saadat, ‘Power System Analysis,’ Tata McGraw Hill Publishing Company’, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278473710014186" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0075616343
+3. Central Electricity Authority (CEA), ‘Guidelines for Transmission System Planning’, New Delhi.|na
+4. ‘Tamil Nadu Electricity Board Handbook’, 2003.|na
+
+EE2351
+
+UNIT I INTRODUCTION
+Modern power system (or) electric energy system - Analysis for system planning and operational
+studies – basic components of a power system. Generator models - transformer model –
+transmission system model - load representation. Single line diagram – per phase and per unit
+representation – change of base. Simple building algorithms for the formation of Y-Bus matrix and Z-
+Bus matrix.
+UNIT II POWER FLOW ANALYSIS
+Importance of power flow analysis in planning and operation of power systems. Statement of power
+flow problem - classification of buses into P-Q buses, P-V (voltage-controlled) buses and slack bus.
+Development of Power flow model in complex variables form and polar variables form.
+Iterative solution using Gauss-Seidel method including Q-limit check for voltage-controlled buses –
+algorithm and flow chart.
+Iterative solution using Newton-Raphson (N-R) method (polar form) including Q-limit check and bus
+switching for voltage-controlled buses - Jacobian matrix elements – algorithm and flow chart.
+Development of Fast Decoupled Power Flow (FDPF) model and iterative solution – algorithm and
+flowchart;
+Comparison of the three methods.
+UNIT III FAULT ANALYSIS – BALANCED FAULTS
+Importance short circuit (or) for fault analysis - basic assumptions in fault analysis of power systems.
+Symmetrical (or) balanced three phase faults – problem formulation – fault analysis using Z-bus
+matrix – algorithm and flow chart. Computations of short circuit capacity, post fault voltage and
+currents.
+UNIT IV FAULT ANALYSIS – UNBALANCED FAULTS
+Introduction to symmetrical components – sequence impedances – sequence networks –
+representation of single line to ground, line to line and double line to ground fault conditions.
+Unbalanced fault analysis - problem formulation – analysis using Z-bus impedance matrix –
+(algorithm and flow chart.).
+UNIT V STABILITY ANALYSIS
+Importance of stability analysis in power system planning and operation - classification of power
+system stability - angle and voltage stability – simple treatment of angle stability into small-signal and
+large-signal (transient) stability
+Single Machine Infinite Bus (SMIB) system: Development of swing equation - equal area criterion -
+determination of critical clearing angle and time by using modified Euler method and Runge-Kutta
+second order method. Algorithm and flow chart.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. Hadi Saadat, ‘Power System Analysis,’ Tata McGraw Hill Publishing Company’, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278473710014186" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0075616343
+2. Olle. I. Elgerd, ‘Electric Energy Systems Theory – An Introduction’, Tata McGraw Hill Publishing Company Limited, New Delhi, Second Edition, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278508120215746" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070192316
+REFERENCES:
+1. P. Kundur, ‘Power System Stability and Control, Tata McGraw Hill, Publications, 1994.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278515473730949" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070635153
+2. John J. Grainger and W.D. Stevenson Jr., ‘Power System Analysis’, McGraw Hill International Book Company, 1994.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278593366942606" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070585156
+3. I.J. Nagrath and D.P. Kothari, ‘Modern Power System Analysis’, Tata McGraw-Hill Publishing Company, New Delhi, 1990.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278600068293214" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0071077758
+
+EE2352
+
+UNIT I DRIVE CHARACTERISTICS
+Equations governing motor load dynamics - steady state stability - Multi quadrant dynamics -
+Acceleration, deceleration, starting and stopping - load torque characteristics of various drives.
+UNIT II CONVERTER / CHOPPER FED DC MOTOR DRIVE
+Steady state analysis of the single and three phase fully controlled converter fed separately excited
+D.C motor drive - Continuous and discontinuous conduction Time ratio and current limit control - 4
+quadrant operation of converter.
+UNIT III DESIGN OF CONTROLLERS FOR DRIVES
+Transfer function for DC motor, load and converter – Closed loop control with current and speed
+feedback - Armature voltage control and field weakening mode control, Design of controllers: Current
+controller and speed controller - Converter selection and characteristics - Use of simulation software
+package.
+UNIT IV INDUCTION MOTOR DRIVES
+Stator voltage control – energy efficient drive - v/f control, constant air-gap flux – field weakening
+mode - voltage/current fed inverters - Block diagram of vector control - closed loop control.
+UNIT V SYNCHRONOUS MOTOR DRIVES
+V/f control and self-control of synchronous motor – Marginal angle control and power factor control
+- Permanent magnet synchronous motor Black diagram of closed loop control.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. Gopal K.Dubey, “Power Semi conductor controlled drives “ Prentice Hall Inc., New Jersey 1989.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278628854835238" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0136868908
+2. Bimal K. Bose. ‘Modern Power Electronics and AC Drives’, PHI / Pearson Education, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278634812267402" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120327497
+REFERENCES:
+1. N.K.De and S.K.Sen Electrical Drices” PHI, 2006 9th print.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278647978269535" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120314921
+2. Murphy J.M.D. and Turnbull, “ Thyristor control of AC Motor” Pergamon Press Oxford 1988.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278662125384454" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0080169430
+3. R. Krishnan, ‘Electric Motor & Drives Modeling, Analysis and Control’, Prentice Hall of India, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278667961279119" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120321685
+
+EE2353
+UNIT I OVER VOLTAGES IN ELECTRICAL POWER SYSTEMS
+Causes of over voltages and its effects on power system – Lightning, switching surges and
+temporary over voltages – protection against over voltages – Bewley’s lattice diagram.
+UNIT II ELECTRICAL BREAKDOWN IN GASES, SOLIDS AND LIQUIDS
+Gaseous breakdown in uniform and non-uniform fields – Corona discharges – Vacuum breakdown –
+Conduction and breakdown in pure and commercial liquids – Breakdown mechanisms in solid and
+composite dielectrics.
+UNIT III GENERATION OF HIGH VOLTAGES AND HIGH CURRENTS
+Generation of High DC, AC, impulse voltages and currents. Tripping and control of impulse
+generators.
+UNIT IV MEASUREMENT OF HIGH VOLTAGES AND HIGH CURRENTS
+Measurement of High voltages and High currents – Digital techniques in high voltage measurement.
+UNIT V HIGH VOLTAGE TESTING & INSULATION COORDINATION
+High voltage testing of electrical power apparatus – Power frequency, impulse voltage and DC
+testing – International and Indian standards – Insulation Coordination.
+TOTAL: 45 PERIODS
+
+TEXT BOOK:
+1. M. S. Naidu and V.Kamaraju, ‘High Voltage Engineering’, Tata McGraw Hill, 3rd Edition, 2004.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278917846948793" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070669287
+REFERENCES:
+1. E. Kuffel and W. S. Zaengel, ‘High Voltage Engineering Fundamentals’, Pergamon Press, Oxford, London, 1986.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278925312128996" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8181477367
+2. E. Kuffel and M. Abdullah, ‘High Voltage Engineering’, Pergamon Press, Oxford, 1970.|na
+
+EE2354
+UNIT I 8085 and 8086 PROCESSOR
+Hardware Architecture pintouts - Signals – Memory interfacing – I/O ports and data transfer concepts
+– Timing Diagram – Interrupt structure.
+UNIT II PROGRAMMING OF 8085 PROCESSOR
+Instruction format and addressing modes – Assembly language format – Data transfer, data
+manipulation & control instructions – Programming: Loop structure with counting & Indexing - Look
+up table - Subroutine instructions - stack.
+UNIT III PERIPHERAL INTERFACING
+Study of Architecture and programming of ICs: 8255 PPI, 8259 PIC, 8251 USART, 8279 Key board
+display controller and 8253 Timer/ Counter – Interfacing with 8085 - A/D and D/A converter
+interfacing.
+UNIT IV 8051 MICRO CONTROLLER
+Functional block diagram - Instruction format and addressing modes – Timing Diagram Interrupt
+structure – Timer –I/O ports – Serial communication.
+UNIT V MICRO CONTROLLER PROGRAMMING & APPLICATIONS
+Data Transfer, Manipulation, Control & I/O instructions – Simple programming exercises key board
+and display interface – Closed loop control of servo motor- stepper motor control - Washing
+Machine Control.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. “Microprocessor and Microcontrollers”, Krishna Kant Eastern Company Edition, Prentice – Hall of India, New Delhi , 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138634866900290869" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120331915
+2. Muhammad Ali Mazidi & Janice Gilli Mazidi, R.D.Kinely ‘The 8051 Micro Controller and Embedded Systems’, PHI Pearson Education, 5th Indian reprint, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138634890613221439" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B001TE8I46
+REFERENCES
+1. R.S. Gaonkar, ‘Microprocessor Architecture Programming and Application’, Wiley Eastern Ltd., New Delhi.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138839187319533762" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8187972882
+2. The 8088 & 8086 Microprocessors , Walter A Tribal & Avtar Singh, Pearson, 2007, Fourth Edition.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281586261392089" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8177584812
+
+EE2355
+
+UNIT I INTRODUCTION
+Major considerations in Electrical Machine Design - Electrical Engineering Materials – Space factor –
+Choice of Specific Electrical and Magnetic loadings - Thermal considerations - Heat flow –
+Temperature rise - Rating of machines – Standard specifications.
+UNIT II DC MACHINES
+Output Equations – Main Dimensions - Magnetic circuit calculations – Carter’s Coefficient - Net
+length of Iron –Real & Apparent flux densities – Selection of number of poles – Design of Armature –
+Design of commutator and brushes – performance prediction using design values.
+UNIT III TRANSFORMERS
+Output Equations – Main Dimensions - KVA output for single and three phase transformers –
+Window space factor – Overall dimensions – Operating characteristics – Regulation – No load
+current – Temperature rise in Transformers – Design of Tank - Methods of cooling of Transformers.
+UNIT IV INDUCTION MOTORS
+Output equation of Induction motor – Main dimensions – Length of air gap- Rules for selecting rotor
+slots of squirrel cage machines – Design of rotor bars & slots – Design of end rings – Design of
+wound rotor -– Magnetic leakage calculations – Leakage reactance of polyphase machines-
+Magnetizing current - Short circuit current – Circle diagram - Operating characteristics.
+UNIT V SYNCHRONOUS MACHINES
+Output equations – choice of loadings – Design of salient pole machines – Short circuit ratio – shape
+of pole face – Armature design – Armature parameters – Estimation of air gap length – Design of
+rotor –Design of damper winding – Determination of full load field mmf – Design of field winding –
+Design of turbo alternators – Rotor design.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. Sawhney, A.K., 'A Course in Electrical Machine Design', Dhanpat Rai & Sons, New Delhi, 1984.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281598063999113" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. Sen, S.K., 'Principles of Electrical Machine Designs with Computer Programmes', Oxford and IBH Publishing Co. Pvt. Ltd., New Delhi, 1987.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281606357747402" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120415213
+REFERENCES
+1. A.Shanmugasundaram, G.Gangadharan, R.Palani 'Electrical Machine Design Data Book', New Age Intenational Pvt. Ltd., Reprint 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281613505627189" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0852268130
+
+CS2363
+UNIT I
+Introduction to networks – network architecture – network performance – Direct link networks –
+encoding – framing – error detection – transmission – Ethernet – Rings – FDDI - Wireless networks
+– Switched networks – bridges
+UNIT II
+Internetworking – IP - ARP – Reverse Address Resolution Protocol – Dynamic Host Configuration
+Protocol – Internet Control Message Protocol – Routing – Routing algorithms – Addressing –
+Subnetting – CIDR – Inter domain routing – IPv6
+UNIT III
+Transport Layer – User Datagram Protocol (UDP) – Transmission Control Protocol – Congestion
+control – Flow control – Queuing Disciplines – Congestion
+Avoidance Mechanisms.
+UNIT IV
+Data Compression – introduction to JPEG, MPEG, and MP3 – cryptography – symmetric-key –
+public-key – authentication – key distribution – key agreement – PGP – SSH – Transport layer
+security – IP Security – wireless security – Firewalls
+UNIT V
+Domain Name System (DNS) – E-mail – World Wide Web (HTTP) – Simple Network Management
+Protocol – File Transfer Protocol (FTP)– Web Services -
+Multimedia Applications – Overlay networks
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1.Larry L. Peterson and Bruce S. Davie, “Computer Networks: A Systems Approach”, Fourth Edition, Elsevier Publishers Inc., 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281671967448490" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|9380501935
+REFERENCES:
+1. James F. Kuross and Keith W. Ross, “Computer Networking: A Top-Down Approach Featuring the Internet”, Third Edition, Addision wesley, 2004.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138635351200241077" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0582844401
+2. Andrew S. Tanenbaum, “Computer Networks”, Fourth Edition, PHI, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138635295993163326" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8177581651
+3. William Stallings, “Data and Computer Communication”, Sixth Edition, Pearson Education, 2000.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138635384890835485" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131715361
+4. Nader F. Mir, ”Computer and communication networks”, Pearson Education, 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138840039328713028" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131715434
+
+EE2401
+
+UNIT I INTRODUCTION
+System load – variation - load characteristics - load curves and load-duration
+curve (daily, weekly and annual) - load factor - diversity factor. Importance of load forecasting and simple
+techniques of forecasting. An overview of power
+system operation and control and the role of
+computers in the implementation. (Qualitative treatment with block diagram).
+UNIT II REAL POWER - FREQUENCY CONTROL
+Basics of speed governing mechanism and modeling - speed-load characteristics – load sharing
+between two synchronous machines in parallel. Control area concept LFC control of a single-
+area system. Static and dynamic analysis of uncontrolled and controlled cases. Integration of
+economic dispatch control with LFC. Two-area system – modeling - static analysis of uncontrolled case - tie line with
+frequency bias control of two-area system - state variable model.
+UNIT III REACTIVE POWER–VOLTAGE CONTROL
+Basics of reactive power control. Excitation systems – modeling. Static and
+dynamic analysis -
+stability compensation - generation and absorption of reactive power. Relation between voltage,
+power and reactive power at a node - method of voltage control - tap-changing transformer. System
+level control using generator voltage magnitude setting, tap setting of
+OLTC transformer and
+MVAR injection of switched capacitors to maintain acceptable voltage profile and to minimize
+transmission loss.
+UNIT IV UNIT COMMITMENT AND ECONOMIC DISPATCH
+Statement of economic dispatch problem – cost of generation – incremental cost curve co-ordination
+equations without loss and with loss, solution by direct method and λ-iteration method. (No
+derivation of loss coefficients). Statement of Unit Commitment problem – constraints; spinning
+reserve, thermal unit constraints, hydro constraints, fuel constraints and other constraints. Solution
+methods - Priority-list methods - forward dynamic programming approach.
+Numerical
+problems only in priority-list method using full-load average production cost.
+UNIT V COMPUTER CONTROL OF POWER SYSTEMS
+Need of computer control of power systems. Concept of energy control centre (or) load dispatch
+centre and the functions - system monitoring - data acquisition and control. System hardware
+configuration – SCADA and EMS functions. Network topology - state estimation - security analysis
+and control. Various operating states (Normal, alert, emergency, in-extremis and restorative). State
+transition diagram showing various state transitions and control strategies.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. Allen. J. Wood and Bruce F. Wollenberg, ‘Power Generation, Operation and Control’, John Wiley & Sons, Inc., 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281715636491345" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126508388
+2. Chakrabarti & Halder, “Power System Analysis: Operation and Control”, Prentice Hall of India, 2004 Edition.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281723609710423" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120340159
+REFERENCES
+1. D.P. Kothari and I.J. Nagrath, ‘Modern Power System Analysis’, Third Edition, Tata McGraw Hill Publishing Company Limited, New Delhi, 2003. (For Chapters 1, 2 & 3)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278600068293214" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|007107775
+2. L.L. Grigsby, ‘The Electric Power Engineering, Hand Book’, CRC Press & IEEE Press, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281745737284121" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. Hadi Saadat, “Power System Analysis”, (For the chapters 1, 2, 3 and 4)11th Reprint 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278473710014186" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0075616343
+4. P.Kundur, ‘Power System Stability and Control’ MC Craw Hill Publisher, USA, 1994.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278515473730949" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070635153
+5. Olle.I.Elgerd, ‘Electric Energy Systems theory An introduction’ Tata McGraw Hill Publishing Company Ltd. New Delhi, Second Edition 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281769117443447" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070192316
+
+
+EE2402
+UNIT I INTRODUCTION
+Importance of protective schemes for electrical apparatus and power system. Qualitative review of
+faults and fault currents - relay terminology – definitions - and essential qualities of protection.
+Protection against over voltages due to lightning and switching - arcing grounds - Peterson Coil -
+ground wires - surge absorber and diverters
+Power System earthing – neutral Earthing - basic ideas of insulation coordination.
+UNIT II OPERATING PRINCIPLES AND RELAY CHARACTERISTICS
+Electromagnetic relays – over current, directional and non-directional, distance, negative sequence,
+differential and under frequency relays – Introduction to static relays.
+UNIT III APPARATUS PROTECTION
+Main considerations in apparatus protection - transformer, generator and motor protection -
+protection of busbars. Transmission line protection - zones of protection. CTs and PTs and their
+applications in protection schemes.
+UNIT IV THEORY OF CIRCUIT INTERRUPTION
+Physics of arc phenomena and arc interruption.
+DC and AC circuit breaking - restriking voltage and recovery voltage - rate of rise of recovery voltage
+- resistance switching - current chopping - interruption of capacitive current.
+UNIT V CIRCUIT BREAKERS
+Types of circuit breakers – air blast, air break, oil, SF6 and vacuum circuit breakers – comparative
+merits of different circuit breakers – testing of circuit breakers.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. M.L. Soni, P.V. Gupta, V.S. Bhatnagar, A. Chakrabarti, ‘A Text Book on Power System Engineering’, Dhanpat Rai & Co., 1998. (For All Chapters 1, 2, 3, 4 and 5).|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281855233756100" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8177000209
+2. R.K.Rajput, A Text book of Power System Engineering. Laxmi Publications, First Edition Reprint 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281865869096728" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8170089166
+REFERENCES:
+1. Sunil S. Rao, ‘Switchgear and Protection’, Khanna publishers, New Delhi, 1986.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281874376954621" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8174092323
+2. C.L. Wadhwa, ‘Electrical Power Systems’, Newage International (P) Ltd., 2000.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138624597934454363" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122428398
+3. B. Ravindranath, and N. Chander, ‘Power System Protection & Switchgear’, Wiley Eastern Ltd., 1977.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281887806377007" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122430325
+4. Badri Ram, Vishwakarma, ‘Power System Protection and Switchgear’, Tata McGraw Hill, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281893005572013" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|007107774X
+5. Y.G. Paithankar and S.R. Bhide, ‘Fundamentals of Power System Protection’, Prentice Hall of India Pvt. Ltd., New Delhi–110001, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139281899871890564" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120341236
+
+EE2403
+UNIT I SYNCHRONOUS RELUCTANCE MOTORS
+Constructional features – Types – Axial and Radial flux motors – Operating principles – Variable
+Reluctance and Hybrid Motors – SYNREL Motors – Voltage and Torque Equations - Phasor diagram
+- Characteristics.
+UNIT II STEPPING MOTORS
+Constructional features – Principle of operation – Variable reluctance motor – Hybrid motor – Single
+and multi stack configurations – Torque equations – Modes of excitations – Characteristics – Drive
+circuits – Microprocessor control of stepping motors – Closed loop control.
+UNIT III SWITCHED RELUCTANCE MOTORS
+Constructional features – Rotary and Linear SRMs - Principle of operation – Torque production –
+Steady state performance prediction- Analytical method -Power Converters and their controllers –
+Methods of Rotor position sensing – Sensorless operation – Closed loop control of SRM -
+Characteristics.
+UNIT IV PERMANENT MAGNET BRUSHLESS D.C. MOTORS
+Permanent Magnet materials – Magnetic Characteristics – Permeance coefficient -Principle of
+operation – Types – Magnetic circuit analysis – EMF and torque equations –Commutation - Power
+controllers – Motor characteristics and control.
+UNIT V PERMANENT MAGNET SYNCHRONOUS MOTORS
+Principle of operation – Ideal PMSM – EMF and Torque equations – Armature reaction MMF –
+Synchronous Reactance – Sinewave motor with practical windings - Phasor diagram –
+Torque/speed characteristics - Power controllers - Converter Volt-ampere requirements.
+TOTAL: 45 PERIODS
+
+TEXT BOOKS:
+1. T.J.E. Miller, ‘Brushless Permanent Magnet and Reluctance Motor Drives’, Clarendon Press, Oxford, 1989.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139282032908768733" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0198593694
+2. T. Kenjo, ‘Stepping Motors and Their Microprocessor Controls’, Clarendon Press London, 1984.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139282038804144215" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0198593856
+REFERENCES:
+1. R.Krishnan, ‘Switched Reluctance Motor Drives – Modeling, Simulation, Analysis, Design and Application’, CRC Press, New York, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139282047693824755" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0849308380
+2. P.P. Aearnley, ‘Stepping Motors – A Guide to Motor Theory and Practice’, Peter Perengrinus London, 1982.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139282052731133294" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|085296417X
+3. T. Kenjo and S. Nagamori, ‘Permanent Magnet and Brushless DC Motors’, Clarendon Press, London, 1988.|na
+
+
+MG2351
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
