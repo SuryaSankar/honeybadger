@@ -309,3 +309,423 @@ REFERENCES
 3. J.Webster, ‘Medical Instrumentation’, John Wiley & Sons, 1995.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333712807382798" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126511060
 4. C.Rajarao and S.K. Guha, ‘Principles of Medical Electronics and Bio-medical Instrumentation’, Universities press (India) Ltd, Orient Longman ltd, 2000.|na
 
+EE2025
+UNIT I INTRODUCTION
+Approaches to intelligent control. Architecture for intelligent control. Symbolic reasoning system,
+rule-based systems, the AI approach. Knowledge representation. Expert systems.
+UNIT II ARTIFICIAL NEURAL NETWORKS
+Concept of Artificial Neural Networks and its basic mathematical model, McCulloch-Pitts neuron
+model, simple perceptron, Adaline and Madaline, Feed-forward Multilayer Perceptron. Learning and
+Training the neural network. Data Processing: Scaling, Fourier transformation, principal-component
+analysis and wavelet transformations. Hopfield network, Self-organizing network and Recurrent
+network. Neural Network based controller
+UNIT III GENETIC ALGORITHM
+Basic concept of Genetic algorithm and detail algorithmic steps, adjustment of free parameters.
+Solution of typical control problems using genetic algorithm. Concept on some other search
+techniques like tabu search and ant-colony search techniques for solving optimization problems.
+UNIT IV FUZZY LOGIC SYSTEM
+Introduction to crisp sets and fuzzy sets, basic fuzzy set operation and approximate reasoning.
+Introduction to fuzzy logic modeling and control. Fuzzification, inferencing and defuzzification. Fuzzy
+knowledge and rule bases. Fuzzy modeling and control schemes for nonlinear systems. Self-
+organizing fuzzy logic control. Fuzzy logic control for nonlinear time-delay system.
+UNIT V APPLICATIONS
+GA application to power system optimisation problem, Case studies: Identification and control of
+linear and nonlinear dynamic systems using Matlab-Neural Network toolbox.
+Stability analysis of Neural-Network interconnection systems. Implementation of fuzzy logic controller
+using Matlab fuzzy-logic toolbox. Stability analysis of fuzzy control systems.
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. Padhy.N.P.(2005), Artificial Intelligence and Intelligent System, Oxford University Press.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138642884282367028" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0195671546
+2. KOSKO,B. "Neural Networks And Fuzzy Systems", Prentice-Hall of India Pvt. Ltd., 1994.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333789125576899" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120308689
+REFERENCES
+1. Jacek.M.Zurada, "Introduction to Artificial Neural Systems", Jaico Publishing House, 1999.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333792984941287" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8172246501
+2. KLIR G.J. & FOLGER T.A. "Fuzzy sets, uncertainty and Information", Prentice-Hall of India Pvt.Ltd., 1993.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333812587476970" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|
+3. Zimmerman H.J. "Fuzzy set theory-and its Applications"-Kluwer Academic Publishers, 1994.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333846400810375" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8181285190
+4. Driankov, Hellendroon, "Introduction to Fuzzy Control", Narosa Publishers.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139335451631918881" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B005VDJUSO
+5. Goldberg D.E. (1989) Genetic algorithms in Search, Optimization and Machinelearning, Addison Wesley.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138643171449425392" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B007YTHNPK
+
+EE2026
+POWER SYSTEM DYNAMICS
+UNIT I INTRODUCTION
+Basics of system dynamics – numerical techniques – introduction to software packages to study the
+responses.
+Concept and importance of power system stability in the operation and design - distinction between
+transient and dynamic stability - complexity of stability problem in large system – necessity for
+reduced models - stability of interconnected systems.
+UNIT II SYNCHRONOUS MACHINE MODELLING
+Synchronous machine - flux linkage equations - Park’s transformation - per unit conversion -
+normalizing the equations - equivalent circuit - current space model - flux linkage state space model.
+Sub-transient and transient inductances - time constants.
+Simplified models (one axis and constant flux linkage) - steady state equations and phasor
+diagrams.
+UNIT III MACHINE CONTROLLERS
+Exciter and voltage regulators - function and types of excitation systems - typical excitation system
+configuration - block diagram and state space representation of IEEE type 1 excitation system -
+saturation function - stabilizing circuit.
+Function of speed governing systems - block diagram and state space representation of IEEE
+mechanical hydraulic governor and electrical hydraulic governors for hydro turbines and steam
+turbines.
+UNIT IV TRANSIENT STABILITY
+State equation for multimachine system with one axis model and simulation – modelling of
+multimachine power system with one axis machine model including excitation system and speed
+governing system and simulation using R-K method of fourth order (Gill’s technique) for transient
+stability analysis - power system stabilizer. For all simulations, the algorithm and flow chart have to
+be discussed.
+UNIT V DYNAMIC STABILITY
+System response to small disturbances - linear model of the unregulated synchronous machine and
+its modes of oscillation - regulated synchronous machine - distribution of power impact - linearization
+of the load equation for the one machine problem – simplified linear model - effect of excitation on
+dynamic stability - approximate system representation - supplementary stabilizing signals - dynamic
+performance measure - small signal performance measures.
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. P.M. Anderson and A.A.Fouad, ‘Power System Control and Stability’, Galgotia Publications, New Delhi, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139339404994290341" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126518189
+2. P. Kundur, ‘Power System Stability and Control’, McGraw Hill Inc., USA, 1994.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139278515473730949" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070635153
+REFERENCES
+1. M.A.Pai and W.Sauer, ‘Power System Dynamics and Stability’, Pearson Education Asia, India, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139339592076184092" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. James A.Momoh, Mohamed.E. EI-Hawary. “ Electric Systems, Dynamics and stability with Artificial Intelligence applications”, Marcel Dekker, USA First Edition 2000|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139339597364584665" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0824702336
+
+
+CS2071
+UNIT I INSTRUCTION SET ARCHITECTURE
+Introduction to computer architecture - Review of digital design – Instructions and addressing –
+procedures and data – assembly language programs – instruction set variations
+UNIT II ARITHMETIC/LOGIC UNIT
+Number representation – design of adders – design of simple ALUs – design of Multipliers and
+dividers – design of floating point arithmetic unit
+UNIT III DATA PATH AND CONTROL
+Instruction execution steps – control unit synthesis – microprogramming – pipelining – pipeline
+performance
+UNIT IV MEMORY SYSTEM
+Main Memory concepts – types of memory – cache memory organization – secondary storage –
+virtual memory – paging
+UNIT V I/O AND INTERFACES
+I/O devices – I/O programming – polling – interrupts – DMA – buses – links – interfacing – context
+switching – threads and multithreading
+TOTAL : 60 PERIODS
+TEXT BOOKS:
+1. B. Parhami, “Computer Architecture”, Oxford University Press, 2005.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633759410834973" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0195686136
+2. Carl Hamacher, Zvonko Vranesic and Safwat Zaky, “Computer Organization”, Fifth Edition, Tata McGraw Hill, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138633720111210496" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|1259005275
+REFERENCES:
+1. David A. Patterson and John L. Hennessy, “Computer Organization and Design: The Hardware/Software interface”, Third Edition, Elsevier, 2004.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139340001477813277" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131222748
+2. William Stallings, “Computer Organization and Architecture – Designing for Performance”, Seventh Edition, Pearson Education, 2006.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138839802647665969" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131732452
+3. Miles Murdocca “Computers Architecture and Organization An Integrated approach”, Wiley India pvt Ltd, 2007|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139340014816858459" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126511982
+4. John D. Carpinelli, “Computer systems organization and Architecture”, Pearson Education, 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139340022686912212" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B007CF7HKW
+
+
+EE2028
+UNIT I INTRODUCTION TO POWER QUALITY
+Terms and definitions: Overloading - under voltage - over voltage. Concepts of transients - short
+duration variations such as interruption - long duration variation such as sustained interruption. Sags
+and swells - voltage sag - voltage swell - voltage imbalance - voltage fluctuation - power frequency
+variations. International standards of power quality. Computer Business Equipment Manufacturers
+Associations (CBEMA) curve.
+UNIT II VOLTAGE SAGS AND INTERRUPTIONS
+Sources of sags and interruptions - estimating voltage sag performance. Thevenin’s equivalent
+source - analysis and calculation of various faulted condition. Voltage sag due to induction motor
+starting. Estimation of the sag severity - mitigation of voltage sags, active series compensators.
+Static transfer switches and fast transfer switches.
+UNIT III OVERVOLTAGES
+Sources of over voltages - Capacitor switching – lightning - ferro resonance. Mitigation of voltage
+swells - surge arresters - low pass filters - power conditioners. Lightning protection – shielding - line
+arresters - protection of transformers and cables. An introduction to computer analysis tools for
+transients, PSCAD and EMTP.
+UNIT IV HARMONICS
+Harmonic sources from commercial and industrial loads, locating harmonic sources. Power system
+response characteristics - Harmonics Vs transients. Effect of harmonics - harmonic distortion -
+voltage and current distortion - harmonic indices - inter harmonics – resonance. Harmonic distortion
+evaluation - devices for controlling harmonic distortion - passive and active filters. IEEE and IEC
+standards.
+UNIT V POWER QUALITY MONITORING
+Monitoring considerations - monitoring and diagnostic techniques for various power quality problems
+- modeling of power quality (harmonics and voltage sag) problems by mathematical simulation tools -
+power line disturbance analyzer –
+quality measurement equipment - harmonic / spectrum analyzer - flicker meters - disturbance
+analyzer. Applications of expert systems for power quality monitoring.
+TOTAL : 45 PERIODS
+TEXT BOOK:
+1. Roger. C. Dugan, Mark. F. McGranagham, Surya Santoso, H.Wayne Beaty, ‘Electrical Power Systems Quality’ McGraw Hill,2003.(For Chapters1,2,3, 4 and 5)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139340189136423546" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|1259005577
+REFERENCES:
+1. G.T. Heydt, 'Electric Power Quality', 2nd Edition. (West Lafayette, IN, Stars in a Circle Publications, 1994). (For Chapter 1, 2, 3 and 5)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139340199250643909" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|9992203048
+2. M.H.J Bollen, ‘Understanding Power Quality Problems: Voltage Sags and Interruptions’, (New York: IEEE Press, 1999). (For Chapters 1, 2, 3 and 5)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139340205915041048" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8186308849
+3. J. Arrillaga, N.R. Watson, S. Chen, 'Power System Quality Assessment', (New York: Wiley, 1999). (For Chapters 1, 2, 3, 4 and 5)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139340214565929906" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126531746
+4. PSCAD User Manual|na
+
+EE2029
+UNIT I PARAMETRIC METHODS
+Nonparametric methods: Transient analysis-frequency analysis-Correlation analysis- Spectral
+analysis.
+UNIT II PARAMETRIC METHODS
+Linar Regression: The Lease square estimate-best liner unbiased estimation under linear
+constraints- updating the Parameter estimates for linear regression models-Prediction error
+methods: Description of Prediction error methods-Optimal Prediction – relationships between
+Prediction error methods and other identification methods-theoretical analysis.
+Instrumental variable methods: description of Instrumental variable methods-theoretical analysis-
+covariance matrix of IV estimates- Comparison of optimal IV prediction error methods.
+UNIT III RECURSIVE IDENTIFICATION METHODS
+The recursive lest squares method-the recursive Instrument variable method-the recursive prediction
+error method-model validation and model structure determination.
+Identification of systems operating in closed loop: Identifiability considerations-direct identification-
+Indirect identification-joint input – output identification.
+UNIT IV ADAPTIVE CONTROL SCHEMES
+Introduction – users- Definitions-auto tuning-types of adaptive control-gain scheduling controller-
+model reference adaptive control schemes – self tunning controller. MRAC and STC : Approaches –
+The Gradient approach – Lyapunov functions – Passivity theory – pole placement method Minimum
+variance control – Predictive control.
+UNIT V ISSUES IN ADAPTIVE CONTROL AND APPLICATION
+Stability – Convergence – Robustness – Application of adaptive control.
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. Soderstorm.T and Petre stioca, System Identification, Prentice Hall International (UK) Ltd. 1989.|na
+2. Karl J.Astrom and Bjorn Wittenmark, Adaptive Conrol, Pearson Education, 2nd Editon, 2001.|na
+REFERENCES
+1. Ljung,L.System Identification: Theory for the user, Pretice Hall, Englewood cliffs, 1987.|na
+2. Sastry S. and Bodson M., Adaptive control – stability, Convergence ad Robustness, Prentice Hall inc., New Jersey, 12989.|na
+EE2030
+UNIT I INTRODUCTION
+Role of Operations Research - Operations Research Models and techniques. LP model and
+technique – formulation and graphical Solution – graphical sensitivity Analysis. The Simplex
+Algorithm – the two phase method – degeneracy – alterative optima – unbounded and/or Infeasible
+Solution – redundancies.
+UNIT II PROBLEM FORMULATION
+Definitions of the Dual Problem – Primal-dual Relationship – Economic Interpretation of Duality –
+Dual Simplex Method – Primal Dual Computation – Post Optimal or Sensitivity Analysis – Changes
+Affecting Feasibility – Changes Affecting Optimality – Revised Simplex Method – LP Packages.
+UNIT III ALGORITHMS AND MODELS
+Definition of Transportation Model – The Transportation Algorithm – Determination of the Starting
+Solution – Iterative Computations of an Algorithm – The Assignment Model – The Hungarian Method
+– The Transshipment Model – Inter Programming Problem – Cutting Plane Algorithm.
+UNIT IV NETWORK SOLUTIONS
+Scope of Network Applications – Network Solution – Minimal Spanning Tree Algorithm – Shortest
+Route Problem – Examples – Shortest Route Algorithm – Maximal Flow Model – Minimal cost
+Capacitated Flow Problems.
+UNIT V CASE STUDIES USING CPM AND PERT
+Network Diagram Representation – Critical Path Method – Time Estimates – Crashing – Time Charts
+– PERT and CPM for Project Scheduling – Resource Planning - Case Studies.
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. Hamdy A. Taha, ”Operation Research – An Introduction“ ,7th Edition Person Education / Prentice Hall of India Edition, Asia, 2002. (For All Chapters 1, 2, 3, 4 and 5)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139340281525940833" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B008YF5USU
+REFERENCES
+1. Ronald. L. Rardin ,”Optimization in Operation Research”, Pearson Education, Asia, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139340286118324766" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0132858118
+2. JIT.S Chandran, Mahendran P.Kawatra Ki Ho Kim ,”Essential of Linear Programming”, Vikas Publishing House Pvt. Ltd., New Delhi, 1994.|na
+3. Hiller F.S, Liberman G.J ,”Introduction to Operation Research”, 7th Edition, McGraw Hill, 2001. (For all Chapters 1, 2, 3, 4 and 5)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341103353659940" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0071333460
+4. R.Panneer Selvam ,”Operations Research”, Prentice Hall of India, 2002. (For All Chapters).|na
+5. P.C.Tulsin,”Quantitative Technique : Theory and Problem”, Pearson Education, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341203700924686" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B00CDIDKEA
+6. Ravindran, Phillips, Solberg ,”Operation Research Principles and Practice”, Second Edition, John Wiley, 1987|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341211598339709" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126512563
+7. Srinivasn, “Operations Research: Principles and applications”, Prentice Hall of India, 2007 New Edition, (For All Chapters)|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341317028236162" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120342089
+
+EI2403
+UNIT I BASIC MOS TRANSISTOR
+Enhancement mode & Depletion mode – Fabrication (NMOS, PMOS, CMOS, BiCMOS) Technology
+– NMOS transistor current equation – second order effects – MOS Transistor Model.
+UNIT II NMOS & CMOS INVERTER AND GATES
+NMOS & CMOS inverter – Determination of pull up / pull down ratios – stick diagram – lambda
+based rules – super buffers – BiCMOS & steering logic.
+UNIT III SUB SYSTEM DESIGN & LAYOUT
+Structured design of combinational circuits – Dynamic CMOS & clocking – Tally circuits – (NAND-
+NAND, NOR-NOR and AOI logic) – EXOR structure – Multiplexer structures – Barrel shifter.
+UNIT IV DESIGN OF COMBINATIONAL ELEMENTS & REGULAR ARRAYLOGIC
+NMOS PLA – Programmable Logic Devices - Finite State Machine PLA – Introduction to FPGA,
+CPLD.
+UNIT V VHDL PROGRAMMING
+RTL Design – Detructured level Design -combinational logic – Types – Operators – Packages –
+Sequential circuit – Sub programs – Test benches. (Examples: address, counters, flipflops, FSM,
+Multiplexers / Demltiplexers).
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. D.A.Pucknell, K.Eshraghian, ‘Basic VLSI Design’, 3rd Edition, Prentice Hall of India, New Delhi, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138635596776712552" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8120309863
+2. Eugene D.Fabricius, ‘Introduction to VLSI Design’, Tata McGraw Hill, 1990.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341336749574323" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+REFERENCES
+1. N.H.Weste, ‘Principles of CMOS VLSI Design’, Pearson Education, India, 2002.|na
+2. Charles H.Roth, ‘Fundamentals of Logic Design’, Jaico Publishing House, 1992.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138625440082782422" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+3. Zainalatsedin Navabi, ‘VHDL Analysis and Modelling of Digital Systems’, 2nd Edition, Tata McGraw Hill, 1998.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341349858757186" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+4. Douglas Perry, ‘VHDL Programming By Example’, Tata McGraw Hill, 3rdEdition.2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341351930179806" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0070499446
+5. Parag K.Lala, ‘Digital System Design using PLD’, BS Publications, 2003.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341359451744894" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+
+EE2032
+UNIT I
+INTRODUCTION
+Introduction of DC Power transmission technology – Comparison of AC and DC transmission –
+Application of DC transmission – Description of DC transmission system – Planning for HVDC
+transmission – Modern trends in DC transmission.
+9
+UNIT II
+ANALYSIS OF HVDC CONVERTERS
+9
+Pulse number – Choice of converter configuration – Simplified analysis of Graetz circuit – Converter
+bridge characteristics – Characteristics of a twelve pulse converter – Detailed analysis of converters.
+UNIT III
+COMPOUNDING AND REGULATIONS
+9
+General – Required regulation – Inverter compounding – Uncompounded inverter – Rectifier
+compounding – Transmission characteristics with the rectifier and inverter compounding –
+Communication link – Current regulation from the inverter side – Transformer tap changing
+UNIT IV
+HARMONICS AND FILTERS
+9
+Introduction – Generation of harmonics – Design of AC filters and DC filters – Interference with
+neighbouring communication lines.
+UNIT V
+HVDC CABLES AND SIMULATION OF HVDC SYSTEMS
+9
+Introduction of DC cables – Basic physical phenomenon arising in DC insulation – Practical
+dielectrics – Dielectric stress consideration – Economics of DC cables compared with AC cables.
+Introduction to system simulation – Philosophy and tools – HVDC system simulation – Modeling of
+HVDC systems for digital dynamic simulation.
+TOTAL : 45 PERIODS
+TEXT BOOK
+1. Padiyar, K. R., “HVDC power transmission system”, Wiley Eastern Limited, New Delhi 1990. First edition.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341416224435333" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122430937
+2. Edward Wilson Kimbark, “Direct Current Transmission”, Vol. I, Wiley interscience, New York, London, Sydney, 1971.|na
+REFERENCES
+1. Colin Adamson and Hingorani N G, “High Voltage Direct Current Power Transmission”, Garraway Limited, London, 1960.|na
+2. Arrillaga, J., “High Voltage Direct Current Transmission”, Peter Pregrinus, London, 1983.|na
+3. Rakosh Das Begamudre, “Extra High Voltage AC Transmission Engineering”, New Age Interantional (P) Ltd., New Delhi, 1990.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139333401636461297" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8122417922
+
+GE2023
+UNIT I INTRODUCTION
+Nanoscale Science and Technology- Implications for Physics, Chemistry, Biology and Engineering-
+lassifications of nanostructured materials- nano particles- quantum dots, nanowires-ultra-thinfilms-
+ultilayered materials. Length Scales involved and effect on properties: Mechanical, Electronic, ptical,
+Magnetic and Thermal properties. Introduction to properties and motivation for study (qualitative
+only).
+UNIT II PREPARATION METHODS
+Bottom-up Synthesis-Top-down Approach: Precipitation, Mechanical Milling, Colloidal routes, Self-
+assembly, Vapour phase deposition, MOCVD, Sputtering, Evaporation, Molecular Beam Epitaxy,
+Atomic Layer Epitaxy, MOMBE.
+UNIT III PATTERNING AND LITHOGRAPHY FOR NANOSCALE DEVICES
+Introduction to optical/UV electron beam and X-ray Lithography systems and processes, Wet
+etching, dry (Plasma /reactive ion) etching, Etch resists-dip pen lithography
+UNIT IV PREPARATION ENVIRONMENTS
+Clean rooms: specifications and design, air and water purity, requirements for particular processes,
+Vibration free environments: Services and facilities required. Working practices, sample cleaning,
+Chemical purification, chemical and biological contamination, Safety issues, flammable and toxic
+hazards, biohazards.
+UNIT V CHARACTERIZATION TECHNIQUES
+X-ray diffraction technique, Scanning Electron Microscopy - environmental techniques, Transmission
+Electron Microscopy including high-resolution imaging, Surface Analysis techniques- AFM, SPM,
+STM, SNOM, ESCA, SIMS-Nanoindentation
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. A.S. Edelstein and R.C. Cammearata, eds., Nanomaterials: Synthesis, Properties and Applications, (Institute of Physics Publishing, Bristol and Philadelphia, 1996)|\<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138841026454234600" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0750305789
+2. N John Dinardo, Nanoscale charecterisation of surfaces & Interfaces, Second edition, Weinheim Cambridge, Wiley-VCH, 2000|na
+REFERENCES
+1. G Timp (Editor), Nanotechnology, AIP press/Springer, 1999|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341484505174067" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. Akhlesh Lakhtakia (Editor) The Hand Book of Nano Technology, “Nanometer Structure”, Theory, Modeling and Simulations. Prentice-Hall of India (P) Ltd, New Delhi, 2007.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-138841040315153490" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0791802159
+
+EE2033
+MICRO ELECTRO MECHANICAL SYSTEMS
+UNIT I INTRODUCTION
+Intrinsic Characteristics of MEMS – Energy Domains and Transducers- Sensors and Actuators –
+Introduction to Microfabrication - Silicon based MEMS processes – New Materials – Review of
+Electrical and Mechanical concepts in MEMS – Semiconductor devices – Stress and strain analysis
+– Flexural beam bending- Torsional deflection.
+UNIT II SENSORS AND ACTUATORS-I
+Electrostatic sensors – Parallel plate capacitors – Applications – Interdigitated Finger capacitor –
+Comb drive devices – Thermal Sensing and Actuation – Thermal expansion – Thermal couples –
+Thermal resistors – Applications – Magnetic Actuators – Micromagnetic components – Case studies
+of MEMS in magnetic actuators.
+UNIT III SENSORS AND ACTUATORS-II
+Piezoresistive sensors – Piezoresistive sensor materials - Stress analysis of mechanical elements –
+Applications to Inertia, Pressure, Tactile and Flow sensors – Piezoelectric sensors and actuators –
+piezoelectric effects – piezoelectric materials – Applications to Inertia , Acoustic, Tactile and Flow
+sensors.
+UNIT IV MICROMACHINING
+Silicon Anisotropic Etching – Anisotrophic Wet Etching – Dry Etching of Silicon – Plasma Etching –
+Deep Reaction Ion Etching (DRIE) – Isotropic Wet Etching – Gas Phase Etchants – Case studies -
+Basic surface micromachining processes – Structural and Sacrificial Materials – Acceleration of
+sacrificial Etch – Striction and Antistriction methods – Assembly of 3D MEMS – Foundry process.
+UNIT V POLYMER AND OPTICAL MEMS
+Polymers in MEMS– Polimide - SU-8 - Liquid Crystal Polymer (LCP) – PDMS – PMMA – Parylene –
+Fluorocarbon - Application to Acceleration, Pressure, Flow and Tactile sensors- Optical MEMS –
+Lenses and Mirrors – Actuators for Active Optical MEMS.
+TOTAL : 45 PERIODS
+TEXT BOOK:
+1. Chang Liu, ‘Foundations of MEMS’, Pearson Education Inc., 2006.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341504315537471" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8131764753
+REFERENCES:
+1. Nadim Maluf, “ An introduction to Micro electro mechanical system design”, Artech House, 2000.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341515371534348" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+2. Mohamed Gad-el-Hak, editor, “ The MEMS Handbook”, CRC press Baco Raton, 2000|na
+3. Tai Ran Hsu, “MEMS & Micro systems Design and Manufacture” Tata McGraw Hill, New Delhi, 2002.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341521845574587" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+4. Julian w. Gardner, Vijay k. varadan, Osama O.Awadelkarim, Micro sensors Mems and smart devices, John Wiley & son LTD,2002|na
+5. James J.Allen, Micro electro mechanical system design, CRC Press published in 2005|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139341529691564744" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B001469ZKU
+
+EE2034
+UNITI INTRODUCTION
+Importance of simulation – General purpose circuit analysis – programs – Method of analysis of
+power electronic systems – Review of modeling of power electronic components and systems.
+UNIT II ADVANCED TECHNIQUES IN SIMULATION
+Analysis of power electronic systems in a sequential manner coupled and decoupled systems –
+Various algorithms for computing steady state solution in power electronic systems – Future trends
+in computer simulation.
+UNIT III PSPICE
+Introduction – Pspice overview – DC circuit Analysis –AC circuit analysis – Transient and the time
+domain – Fourier Series and Harmonic components – An introduction to Pspice devices BJT, FET,
+MOSFET and is model – Amplifiers and Oscillators – Nor linear Devices.
+UNIT IV MATLAB
+Introduction - function description – Data types – Tool boxes – Graphical Display: Import and Export
+of data – Programs for solution of state equations.
+UNIT V zSIMULINK
+Introduction – Graphical user Interface – Selection of objects – Blocks – lines Simulation -
+Application programs.
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. Rajagopalan.V ‘Computer aided analysis of power electronic systems’ Marcell Dekker 1987.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139342496263493282" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|0824777069
+REFERENCES
+1. John Keown ‘Microsim Pspice and circuit analysis” Prentice hall Inc, 1998.
+2. Orcad Pspice User manual, Orcad Corporation, 2006.
+3. Matlab / Simulink manual, Maths Work 2007.
+
+EE2035
+UNIT I INTRODUCTION
+Conventional design procedures – Limitations – Need for field analysis based design – Review of
+Basic principles of energy conversion – Development of Torque/Force.
+UNIT II MATHEMATICAL FORMULATION OF FIELD PROBLEMS
+Electromagnetic Field Equations – Magnetic Vector/Scalar potential – Electrical vector /Scalar
+potential – Stored energy in Electric and Magnetic fields – Capacitance - Inductance- Laplace and
+Poisson’s Equations – Energy functional.
+UNIT III PHILOSOPHY OF FEM
+Mathematical models – Differential/Integral equations – Finite Difference method – Finite element
+method – Energy minimization – Variational method- 2D field problems – Discretisation – Shape
+functions – Stiffness matrix – Solution techniques.
+UNIT IV CAD PACKAGES
+Elements of a CAD System –Pre-processing – Modelling – Meshing – Material properties- Boundary
+Conditions – Setting up solution – Post processing.
+UNIT V DESIGN APPLICATIONS
+Voltage Stress in Insulators – Capacitance calculation - Design of Solenoid Actuator – Inductance
+and force calculation – Torque calculation in Switched Reluctance Motor.
+TOTAL : 45 PERIODS
+TEXT BOOKS
+1. S.J Salon, ‘Finite Element Analysis of Electrical Machines’, Kluwer Academic Publishers, London, 1995.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139342533090618429" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8181285336
+2. Nicola Bianchi, ‘Electrical Machine Analysis using Finite Elements’, CRC Taylor& Francis, 2005.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139342545387694990" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|B006QOGT1I
+REFERENCES
+1. Joao Pedro, A. Bastos and Nelson Sadowski, ‘Electromagnetic Modeling by Finite Element Methods’, Marcell Dekker Inc., 2003.|na
+2. P.P.Silvester and Ferrari, ‘Finite Elements for Electrical Engineers’, Cambridge University Press, 1983.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139342631502692015" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|052137829X
+3. D.A.Lowther and P.P Silvester, ‘Computer Aided Design in Magnetics’, Springer Verlag, New York, 1986|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139342636354887317" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|3642706738
+4. S.R.H.Hoole, ‘Computer Aided Analysis and Design of Electromagnetic Devices’, Elsevier, New York, 1989. User Manuals of MAGNET, MAXWELL & ANSYS Softwares.|na
+
+EE2036
+UNIT I INTRODUCTION
+The concept of flexible AC transmission - reactive power control in electrical power transmission
+lines -uncompensated transmission line – series and shunt compensation. Overview of FACTS devices - Static Var Compensator (SVC) – Thyristor Switched Series capacitor (TCSC) – Unified Power Flow controller (UPFC) - Integrated Power Flow Controller (IPFC).
+UNIT II STATIC VAR COMPENSATOR (SVC) AND APPLICATIONS
+Voltage control by SVC – advantages of slope in dynamic characteristics – influence
+system voltage. Applications - enhancement of transient stability – steady
+state transfer – enhancement of power system damping – prevention of voltage instability.
+of SVC on power
+UNIT III THYRISTOR CONTROLLED SERIES CAPACITOR(TCSC)AND APPLICATIONS
+Operation of the TCSC - different modes of operation – modeling of TCSC – variable reactance
+model – modeling for stability studies. Applications - improvement of the system stability limit –
+enhancement of system damping – voltage collapse prevention.
+UNIT IV EMERGING FACTS CONTROLLERS
+Static Synchronous Compensator (STATCOM) – operating principle – V-I characteristics
+Unified Power Flow Controller (UPFC) – Principle of operation - modes of operation – applications – modeling of UPFC for power flow studies.
+UNIT V CO-ORDINATION OF FACTS CONTROLLERS
+FACTs Controller interactions – SVC–SVC interaction - co-ordination of multiple controllers using
+linear control techniques – Quantitative treatment of control
+coordination.
+TOTAL : 45 PERIODS
+TEXT BOOK:
+1. Mohan Mathur, R., Rajiv. K. Varma, “Thyristor – Based Facts Controllers for Electrical Transmission Systems”, IEEE press and John Wiley & Sons, Inc.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139342652212411485" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>|8126532246
+REFERENCES:
+1. A.T.John, “Flexible AC Transmission System”, Institution of Electrical and Electronic Engineers (IEEE), 1999.|na
+2. Narain G.Hingorani, Laszio. Gyugyl, “Understanding FACTS Concepts and Technology of Flexible AC Transmission System”, Standard Publishers, Delhi 2001.|<iframe src="http://www.flipkart.com/affiliate/displayWidget?affrid=WRID-139342661458275907" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" ></iframe>
+
