@@ -28,8 +28,8 @@ private
 			user = User.find_by_email(email)
 			if user
 				user.authentications.create provider: provider, uid: uid
-				sign_in_and_redirect user, event: :authentication #this will throw if @user is not activated
 				set_flash_message(:notice, :success, :kind => "the provider") if is_navigational_format?
+				sign_in_and_redirect user, event: :authentication #this will throw if @user is not activated
 			else
 				user = yield user
 				user.authentications.build provider: provider, uid: uid
